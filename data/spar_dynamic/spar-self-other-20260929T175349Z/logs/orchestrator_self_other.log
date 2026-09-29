@@ -1,0 +1,22 @@
+[2026-09-29T17:53:49Z] START run_id=spar-self-other-20260929T175349Z  source_run_root=data/spar_dynamic/spar-dynamic-run-20260929T081814Z
+[2026-09-29T17:53:49Z]   fetching OpenRouter model catalog + pricing snapshot
+[2026-09-29T17:53:49Z] PHASE: trial construction
+[2026-09-29T17:53:49Z]   wrote 120 trials to data/spar_dynamic/spar-self-other-20260929T175349Z/trials/self_other_trial_manifest.json
+[2026-09-29T17:53:49Z] PHASE: judgment
+[2026-09-29T17:53:49Z]   120 trials pending of 120
+[2026-09-29T17:53:57Z]   judgment 10/120: latest astra/batch correct_answer=SELF parsed='OTHER' correct=False status=ok spent=$0.0186
+[2026-09-29T17:54:07Z]   judgment 20/120: latest astra/online correct_answer=SELF parsed='OTHER' correct=False status=ok spent=$0.0365
+[2026-09-29T17:54:16Z]   judgment 30/120: latest astra/online correct_answer=OTHER parsed='OTHER' correct=True status=ok spent=$0.0556
+[2026-09-29T17:54:27Z]   judgment 40/120: latest fable/batch correct_answer=SELF parsed='OTHER' correct=False status=ok spent=$0.0733
+[2026-09-29T17:54:45Z]   judgment 50/120: latest fable/batch correct_answer=OTHER parsed='OTHER' correct=True status=ok spent=$0.0904
+[2026-09-29T17:55:05Z]   judgment 60/120: latest fable/online correct_answer=SELF parsed='OTHER' correct=False status=ok spent=$0.1075
+[2026-09-29T17:55:26Z]   judgment 70/120: latest fable/online correct_answer=SELF parsed='OTHER' correct=False status=ok spent=$0.1245
+[2026-09-29T17:55:46Z]   judgment 80/120: latest qwen/batch correct_answer=OTHER parsed='OTHER' correct=True status=ok spent=$0.1491
+[2026-09-29T17:58:08Z]   judgment 90/120: latest qwen/batch correct_answer=SELF parsed='OTHER' correct=False status=ok spent=$0.1797
+[2026-09-29T17:59:46Z]   judgment 100/120: latest qwen/batch correct_answer=SELF parsed='OTHER' correct=False status=ok spent=$0.2332
+[2026-09-29T18:00:39Z]   judgment 110/120: latest qwen/online correct_answer=SELF parsed='SELF' correct=True status=ok spent=$0.2618
+[2026-09-29T18:02:12Z]   judgment 120/120: latest qwen/online correct_answer=OTHER parsed='OTHER' correct=True status=ok spent=$0.3079
+[2026-09-29T18:02:12Z] PHASE: validate
+[2026-09-29T18:02:12Z]   validation: {'n_planned': 120, 'n_records': 120, 'n_valid': 120, 'n_abandoned': 0, 'run_complete_ok': True}
+[2026-09-29T18:02:12Z] PHASE: analysis + report
+[2026-09-29T18:02:12Z] COMPLETE total_spend=$0.3079

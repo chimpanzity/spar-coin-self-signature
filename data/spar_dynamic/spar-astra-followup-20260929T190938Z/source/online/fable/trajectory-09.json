@@ -1,0 +1,18 @@
+{
+  "trajectory_id": "online/fable/09",
+  "architecture": "online",
+  "source_model_label": "fable",
+  "requested_model_id": "anthropic/claude-fable-5.1",
+  "replicate_index": 9,
+  "parsed_sequence": "HTHTHTTHTHTHTHTHTHHTHTHTHTHHTHTHHTHTHTHTHTHHHTHTHT",
+  "valid": true,
+  "invalid_reason": "",
+  "n_calls": 50,
+  "total_cost_usd": 0.045180000000000005,
+  "started_utc": "2026-09-29T19:35:12Z",
+  "finished_utc": "2026-09-29T19:38:18Z",
+  "attempts_summary": {
+    "partial_history": "HTHTHTTHTHTHTHTHTHHTHTHTHTHHTHTHHTHTHTHTHTHHHTHTHT",
+    "invalid_at_step": null
+  }
+}

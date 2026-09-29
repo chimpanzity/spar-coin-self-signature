@@ -1,0 +1,13 @@
+true_source_identity,actual_architecture,stated_condition,n,self_rate
+SELF,batch,told_batch,10,0.0
+SELF,batch,told_online,10,0.0
+SELF,batch,no_provenance,10,0.0
+OTHER,batch,told_batch,10,0.0
+OTHER,batch,told_online,10,0.3
+OTHER,batch,no_provenance,10,0.0
+SELF,online,told_batch,10,0.0
+SELF,online,told_online,10,0.3
+SELF,online,no_provenance,10,0.0
+OTHER,online,told_batch,10,0.2
+OTHER,online,told_online,10,0.6
+OTHER,online,no_provenance,10,0.0

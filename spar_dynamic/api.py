@@ -236,3 +236,33 @@ def parse_judgment_text(text: str) -> Optional[str]:
     # last-token fallback
     tokens = re.findall(r"\b(SAME|DIFFERENT)\b", up)
     return tokens[-1] if tokens else None
+
+
+_SELF_OTHER_STRIP = re.compile(r"[.!?,;:\s]+$")
+
+def parse_self_other(text: str) -> Optional[str]:
+    """Plain-text parser for pilot 2 SELF/OTHER responses.
+
+    Strategy:
+      1. strip leading/trailing whitespace and terminal punctuation
+      2. uppercase
+      3. accept if the whole thing is exactly SELF or OTHER
+      4. otherwise search for a lone SELF/OTHER word token; if found and
+         unambiguous (either one occurrence, or all occurrences the same),
+         accept
+      5. otherwise reject
+    """
+    if not text:
+        return None
+    s = _SELF_OTHER_STRIP.sub("", text.strip())
+    up = s.upper()
+    if up in ("SELF", "OTHER"):
+        return up
+    tokens = re.findall(r"\b(SELF|OTHER)\b", up)
+    if not tokens:
+        return None
+    if len(set(tokens)) == 1:
+        return tokens[0]
+    # ambiguous (both mentioned) — take the last token, mirroring existing
+    # parser policy for judgment text
+    return tokens[-1]

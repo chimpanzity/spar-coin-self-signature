@@ -1,0 +1,7 @@
+{
+  "run_id": "spar-provenance-20260929T181702Z",
+  "experiment_tag": "spar_provenance_self_attribution_pilot_v1",
+  "source_run_root": "data/spar_dynamic/spar-dynamic-run-20260929T081814Z",
+  "started_utc": "20260929T183433Z",
+  "budget_usd": 10.0
+}

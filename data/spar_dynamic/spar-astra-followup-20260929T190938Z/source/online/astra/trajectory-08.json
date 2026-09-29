@@ -1,0 +1,18 @@
+{
+  "trajectory_id": "online/astra/08",
+  "architecture": "online",
+  "source_model_label": "astra",
+  "requested_model_id": "openai/gpt-6-astra",
+  "replicate_index": 8,
+  "parsed_sequence": "HTHTTHTHTHTTHTHTHTHTTHHTHTHTTHHTHTTTHTHTTHTTHTTHTH",
+  "valid": true,
+  "invalid_reason": "",
+  "n_calls": 50,
+  "total_cost_usd": 0.03664000000000001,
+  "started_utc": "2026-09-29T19:21:17Z",
+  "finished_utc": "2026-09-29T19:22:55Z",
+  "attempts_summary": {
+    "partial_history": "HTHTTHTHTHTTHTHTHTHTTHHTHTHTTHHTHTTTHTHTTHTTHTTHTH",
+    "invalid_at_step": null
+  }
+}

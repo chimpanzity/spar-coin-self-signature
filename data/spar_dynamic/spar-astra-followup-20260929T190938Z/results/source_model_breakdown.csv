@@ -1,0 +1,7 @@
+source_model_label,stated_condition,n,self_rate,other_cr_rate,accuracy
+fable,told_batch,20,0.1,0.9,0.9
+fable,told_online,20,0.45,0.55,0.55
+fable,no_provenance,20,0.0,1.0,1.0
+qwen,told_batch,0,nan,nan,nan
+qwen,told_online,0,nan,nan,nan
+qwen,no_provenance,0,nan,nan,nan

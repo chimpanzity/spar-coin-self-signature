@@ -54,17 +54,22 @@ def _existing_valid_trajectory_ids(dir_path: str) -> List[int]:
 # --- BATCH -----------------------------------------------------------------
 
 def generate_batch_source(client: OpenAI, accountant: CostAccountant, paths: RunPaths,
-                          model: C.ModelSpec, *, log=print) -> List[TrajectoryRecord]:
-    """Generate 10 valid batch trajectories for one model. Resume-safe."""
+                          model: C.ModelSpec, *, log=print,
+                          valid_needed: int = None) -> List[TrajectoryRecord]:
+    """Generate `valid_needed` valid batch trajectories for one model. Resume-safe.
+
+    Defaults to C.TRAJECTORIES_PER_MODEL_ARCH (10) if not specified.
+    """
+    if valid_needed is None:
+        valid_needed = C.TRAJECTORIES_PER_MODEL_ARCH
     out_dir = os.path.join(paths.source_batch, model.label)
     os.makedirs(out_dir, exist_ok=True)
     existing = _existing_valid_trajectory_ids(out_dir)
-    log(f"  batch/{model.label}: {len(existing)} valid on disk already")
+    log(f"  batch/{model.label}: {len(existing)} valid on disk already (need {valid_needed})")
     trajectories: List[TrajectoryRecord] = []
 
     replicate_index = 0
     invalid_count = 0
-    valid_needed = C.TRAJECTORIES_PER_MODEL_ARCH
 
     # Preload existing valid records so we can return them all
     for k in existing:
@@ -221,12 +226,15 @@ def generate_online_trajectory(client: OpenAI, accountant: CostAccountant,
 
 def generate_online_source(client: OpenAI, accountant: CostAccountant,
                            paths: RunPaths, model: C.ModelSpec,
-                           *, log=print) -> List[TrajectoryRecord]:
-    """Generate 10 valid online trajectories for one model. Resume-safe."""
+                           *, log=print,
+                           valid_needed: int = None) -> List[TrajectoryRecord]:
+    """Generate `valid_needed` valid online trajectories for one model. Resume-safe."""
+    if valid_needed is None:
+        valid_needed = C.TRAJECTORIES_PER_MODEL_ARCH
     out_dir = os.path.join(paths.source_online, model.label)
     os.makedirs(out_dir, exist_ok=True)
     existing = _existing_valid_trajectory_ids(out_dir)
-    log(f"  online/{model.label}: {len(existing)} valid on disk already")
+    log(f"  online/{model.label}: {len(existing)} valid on disk already (need {valid_needed})")
     trajectories: List[TrajectoryRecord] = []
     for k in existing:
         rec = read_json(paths.online_trajectory_path(model.label, k))
@@ -234,7 +242,6 @@ def generate_online_source(client: OpenAI, accountant: CostAccountant,
 
     replicate_index = max(existing, default=-1) + 1
     invalid_count = 0
-    valid_needed = C.TRAJECTORIES_PER_MODEL_ARCH
 
     # Also account for existing INVALID trajectories on disk so we count them
     if os.path.isdir(out_dir):

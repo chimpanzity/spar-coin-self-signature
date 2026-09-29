@@ -1,0 +1,3 @@
+stated_architecture,n,feature_rule_accuracy,judge_agrees_with_feature_rule_rate
+batch,120,0.6,0.5916666666666667
+online,120,0.7083333333333334,0.475

@@ -1,0 +1,7 @@
+judge,architecture,n_planned,n_valid,n_abandoned,n_self,n_other,self_hits,other_cr,false_alarms,self_hit_rate,other_cr_rate,accuracy,balanced_accuracy,self_response_rate,d_prime,criterion
+fable,online,20,20,0,10,10,2,10,0,0.2,1.0,0.6,0.6,0.1,0.942763034699718,1.2192401114703828
+astra,online,20,20,0,10,10,0,10,0,0.0,1.0,0.5,0.5,0.0,0.0,1.6906216288202418
+qwen,online,20,20,0,10,10,5,5,5,0.5,0.5,0.5,0.5,0.5,0.0,-0.0
+astra,batch,20,20,0,10,10,0,10,0,0.0,1.0,0.5,0.5,0.0,0.0,1.6906216288202418
+qwen,batch,20,20,0,10,10,0,8,2,0.0,0.8,0.4,0.4,0.1,-0.942763034699718,1.2192401114703828
+fable,batch,20,20,0,10,10,0,10,0,0.0,1.0,0.5,0.5,0.0,0.0,1.6906216288202418

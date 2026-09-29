@@ -1,0 +1,2 @@
+astra_told_batch_self_rate,astra_told_online_self_rate,astra_no_provenance_self_rate,other_told_batch_self_rate,other_told_online_self_rate,other_no_provenance_self_rate,self_online_shift,other_online_shift,selective_online_self_effect
+0.0,0.15,0.0,0.1,0.45,0.0,0.15,0.35,-0.19999999999999998

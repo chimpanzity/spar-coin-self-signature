@@ -1,0 +1,26 @@
+{
+  "trajectory_id": "batch/astra/06",
+  "architecture": "batch",
+  "source_model_label": "astra",
+  "requested_model_id": "openai/gpt-6-astra",
+  "replicate_index": 6,
+  "parsed_sequence": "HHTHTTHTTHTHHHTHTTHTTHTTHHHTTHHTTHTHTHHTTTHHTTHTHH",
+  "valid": true,
+  "invalid_reason": "",
+  "n_calls": 1,
+  "total_cost_usd": 0.00493,
+  "started_utc": "2026-09-29T19:10:54Z",
+  "finished_utc": "2026-09-29T19:10:58Z",
+  "attempts_summary": {
+    "raw_response": "HHTHTTHTTHTHHHTHTTHTTHTTHHHTTHHTTHTHTHHTTTHHTTHTHH",
+    "served_model": "openai/gpt-6-astra",
+    "provider": "OpenAI",
+    "prompt_tokens": 43,
+    "completion_tokens": 90,
+    "reasoning_tokens": 54,
+    "finish_reason": "stop",
+    "cost_usd": 0.00493,
+    "latency_ms": 4835,
+    "error_message": ""
+  }
+}

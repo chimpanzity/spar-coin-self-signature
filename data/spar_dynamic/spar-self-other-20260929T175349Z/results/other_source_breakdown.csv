@@ -1,0 +1,13 @@
+judge,architecture,other_source_model,n,n_correct_other,other_cr_rate
+fable,online,qwen,5,5,1.0
+fable,online,astra,5,5,1.0
+astra,online,qwen,5,5,1.0
+astra,online,fable,5,5,1.0
+qwen,online,astra,5,3,0.6
+qwen,online,fable,5,2,0.4
+astra,batch,fable,5,5,1.0
+astra,batch,qwen,5,5,1.0
+qwen,batch,astra,5,3,0.6
+qwen,batch,fable,5,5,1.0
+fable,batch,astra,5,5,1.0
+fable,batch,qwen,5,5,1.0

@@ -1,0 +1,7 @@
+{
+  "run_id": "spar-astra-followup-20260929T190938Z",
+  "experiment_tag": "spar_astra_provenance_replication_v1",
+  "judge": "openai/gpt-6-astra",
+  "started_utc": "20260929T194107Z",
+  "budget_usd": 10.0
+}

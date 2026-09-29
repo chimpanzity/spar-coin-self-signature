@@ -1,0 +1,7 @@
+judge,architecture,n_self,n_other,self_hit_rate,other_cr_rate,balanced_accuracy
+astra,batch,10,20,0.8,0.6,0.7
+astra,online,10,20,1.0,0.6,0.8
+fable,batch,10,20,0.9,0.6,0.75
+fable,online,10,20,0.9,0.55,0.7250000000000001
+qwen,batch,10,20,0.6,0.9,0.75
+qwen,online,10,20,1.0,1.0,1.0

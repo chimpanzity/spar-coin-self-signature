@@ -1,0 +1,50 @@
+[
+  {
+    "phase": "batch_astra",
+    "valid": true,
+    "cost_usd": 0.00493,
+    "prompt_tokens": 43,
+    "completion_tokens": 90,
+    "reasoning_tokens": 55
+  },
+  {
+    "phase": "batch_fable",
+    "valid": true,
+    "cost_usd": 0.0032900000000000004,
+    "prompt_tokens": 69,
+    "completion_tokens": 52,
+    "reasoning_tokens": 0
+  },
+  {
+    "phase": "batch_qwen",
+    "valid": false,
+    "cost_usd": 0.0090131671,
+    "prompt_tokens": 79,
+    "completion_tokens": 2048,
+    "reasoning_tokens": 2048
+  },
+  {
+    "phase": "judgment_told_batch",
+    "parsed": "SELF",
+    "cost_usd": 0.0029600000000000004,
+    "prompt_tokens": 91,
+    "completion_tokens": 41,
+    "reasoning_tokens": 34
+  },
+  {
+    "phase": "judgment_told_online",
+    "parsed": "SELF",
+    "cost_usd": 0.00226,
+    "prompt_tokens": 101,
+    "completion_tokens": 25,
+    "reasoning_tokens": 18
+  },
+  {
+    "phase": "judgment_no_provenance",
+    "parsed": "OTHER",
+    "cost_usd": 0.0018,
+    "prompt_tokens": 85,
+    "completion_tokens": 19,
+    "reasoning_tokens": 12
+  }
+]
