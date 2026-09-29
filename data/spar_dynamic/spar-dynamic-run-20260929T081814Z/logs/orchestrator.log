@@ -1,0 +1,252 @@
+[2026-09-29T08:18:14Z] START run_id=spar-dynamic-run-20260929T081814Z  data_root=data/spar_dynamic
+[2026-09-29T08:18:14Z]   fetching OpenRouter model catalog and pricing snapshot
+[2026-09-29T08:18:15Z] PHASE: source generation (batch + online)
+[2026-09-29T08:18:15Z]   batch/astra: 0 valid on disk already
+[2026-09-29T08:18:20Z]     batch/astra rep0: ok cost=$0.0053 tokens p=43/c=98/r=64
+[2026-09-29T08:18:24Z]     batch/astra rep1: ok cost=$0.0048 tokens p=43/c=88/r=53
+[2026-09-29T08:18:29Z]     batch/astra rep2: ok cost=$0.0056 tokens p=43/c=103/r=68
+[2026-09-29T08:18:35Z]     batch/astra rep3: ok cost=$0.0057 tokens p=43/c=105/r=70
+[2026-09-29T08:18:40Z]     batch/astra rep4: ok cost=$0.0056 tokens p=43/c=104/r=69
+[2026-09-29T08:18:44Z]     batch/astra rep5: ok cost=$0.0055 tokens p=43/c=102/r=68
+[2026-09-29T08:18:48Z]     batch/astra rep6: ok cost=$0.0048 tokens p=43/c=88/r=53
+[2026-09-29T08:18:52Z]     batch/astra rep7: ok cost=$0.0047 tokens p=43/c=86/r=51
+[2026-09-29T08:18:56Z]     batch/astra rep8: ok cost=$0.0053 tokens p=43/c=97/r=62
+[2026-09-29T08:19:01Z]     batch/astra rep9: ok cost=$0.0051 tokens p=43/c=94/r=58
+[2026-09-29T08:19:01Z]   batch/fable: 0 valid on disk already
+[2026-09-29T08:19:05Z]     batch/fable rep0: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:09Z]     batch/fable rep1: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:12Z]     batch/fable rep2: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:17Z]     batch/fable rep3: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:21Z]     batch/fable rep4: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:25Z]     batch/fable rep5: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:29Z]     batch/fable rep6: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:33Z]     batch/fable rep7: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:37Z]     batch/fable rep8: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:41Z]     batch/fable rep9: ok cost=$0.0033 tokens p=69/c=52/r=0
+[2026-09-29T08:19:41Z]   batch/qwen: 0 valid on disk already
+[2026-09-29T08:20:50Z]     batch/qwen rep0: INVALID cost=$0.0090 tokens p=79/c=2048/r=2048
+[2026-09-29T08:20:56Z]     batch/qwen rep1: INVALID cost=$0.0013 tokens p=79/c=284/r=255
+[2026-09-29T08:22:07Z]     batch/qwen rep2: INVALID cost=$0.0090 tokens p=79/c=2048/r=2048
+[2026-09-29T08:23:19Z]     batch/qwen rep3: INVALID cost=$0.0042 tokens p=79/c=950/r=923
+[2026-09-29T08:23:24Z]     batch/qwen rep4: INVALID cost=$0.0028 tokens p=97/c=633/r=249
+[2026-09-29T08:23:28Z]     batch/qwen rep5: INVALID cost=$0.0013 tokens p=79/c=283/r=255
+[2026-09-29T08:24:43Z]     batch/qwen rep6: INVALID cost=$0.0042 tokens p=79/c=950/r=923
+[2026-09-29T08:24:47Z]     batch/qwen rep7: INVALID cost=$0.0013 tokens p=79/c=283/r=255
+[2026-09-29T08:24:58Z]     batch/qwen rep8: INVALID cost=$0.0018 tokens p=79/c=407/r=380
+[2026-09-29T08:25:09Z]     batch/qwen rep9: INVALID cost=$0.0017 tokens p=79/c=390/r=365
+[2026-09-29T08:25:13Z]     batch/qwen rep10: INVALID cost=$0.0018 tokens p=79/c=409/r=381
+[2026-09-29T08:25:20Z]     batch/qwen rep11: INVALID cost=$0.0017 tokens p=79/c=391/r=365
+[2026-09-29T08:25:25Z]     batch/qwen rep12: INVALID cost=$0.0017 tokens p=79/c=389/r=363
+[2026-09-29T08:25:30Z]     batch/qwen rep13: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:25:34Z]     batch/qwen rep14: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:25:39Z]     batch/qwen rep15: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:25:44Z]     batch/qwen rep16: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:25:48Z]     batch/qwen rep17: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:25:52Z]     batch/qwen rep18: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:25:57Z]     batch/qwen rep19: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:01Z]     batch/qwen rep20: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:05Z]     batch/qwen rep21: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:10Z]     batch/qwen rep22: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:15Z]     batch/qwen rep23: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:26:19Z]     batch/qwen rep24: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:24Z]     batch/qwen rep25: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:29Z]     batch/qwen rep26: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:33Z]     batch/qwen rep27: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:37Z]     batch/qwen rep28: INVALID cost=$0.0017 tokens p=79/c=387/r=363
+[2026-09-29T08:26:42Z]     batch/qwen rep29: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:26:47Z]     batch/qwen rep30: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:26:52Z]     batch/qwen rep31: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:26:57Z]     batch/qwen rep32: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:01Z]     batch/qwen rep33: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:06Z]     batch/qwen rep34: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:11Z]     batch/qwen rep35: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:16Z]     batch/qwen rep36: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:21Z]     batch/qwen rep37: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:26Z]     batch/qwen rep38: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:30Z]     batch/qwen rep39: INVALID cost=$0.0017 tokens p=79/c=388/r=363
+[2026-09-29T08:27:30Z]     batch/qwen: too many invalids (40); aborting
+[2026-09-29T08:28:56Z]     online/astra rep1: ok calls=50 cost=$0.0373
+[2026-09-29T08:28:59Z]     online/astra rep0: ok calls=50 cost=$0.0370
+[2026-09-29T08:29:08Z]     online/astra rep2: ok calls=50 cost=$0.0371
+[2026-09-29T08:30:25Z]     online/astra rep3: ok calls=50 cost=$0.0369
+[2026-09-29T08:30:34Z]     online/astra rep4: ok calls=50 cost=$0.0370
+[2026-09-29T08:30:38Z]     online/astra rep5: ok calls=50 cost=$0.0369
+[2026-09-29T08:32:05Z]     online/astra rep6: ok calls=50 cost=$0.0368
+[2026-09-29T08:32:06Z]     online/astra rep7: ok calls=50 cost=$0.0367
+[2026-09-29T08:32:09Z]     online/astra rep8: ok calls=50 cost=$0.0372
+[2026-09-29T08:33:48Z]     online/astra rep9: ok calls=50 cost=$0.0373
+[2026-09-29T08:35:02Z]     online/fable rep0: ok calls=50 cost=$0.0452
+[2026-09-29T08:35:27Z]     online/fable rep1: ok calls=50 cost=$0.0452
+[2026-09-29T08:36:43Z]     online/fable rep2: ok calls=50 cost=$0.0452
+[2026-09-29T08:38:08Z]     online/fable rep3: ok calls=50 cost=$0.0452
+[2026-09-29T08:38:23Z]     online/fable rep4: ok calls=51 cost=$0.0476
+[2026-09-29T08:39:52Z]     online/fable rep5: ok calls=50 cost=$0.0452
+[2026-09-29T08:41:11Z]     online/fable rep7: ok calls=50 cost=$0.0452
+[2026-09-29T08:41:12Z]     online/fable rep6: ok calls=50 cost=$0.0452
+[2026-09-29T08:42:33Z]     online/qwen rep0: ok calls=50 cost=$0.0146
+[2026-09-29T08:43:06Z]     online/fable rep8: ok calls=50 cost=$0.0452
+[2026-09-29T08:43:52Z]     online/qwen rep1: ok calls=50 cost=$0.0148
+[2026-09-29T08:44:03Z]     online/fable rep9: ok calls=50 cost=$0.0452
+[2026-09-29T08:44:13Z]     online/qwen rep2: ok calls=50 cost=$0.0131
+[2026-09-29T08:45:05Z]     online/qwen rep3: ok calls=50 cost=$0.0126
+[2026-09-29T08:45:31Z]     online/qwen rep4: ok calls=50 cost=$0.0147
+[2026-09-29T08:45:37Z]     online/qwen rep5: ok calls=50 cost=$0.0135
+[2026-09-29T08:46:36Z]     online/qwen rep6: ok calls=50 cost=$0.0157
+[2026-09-29T08:46:50Z]     online/qwen rep7: ok calls=50 cost=$0.0124
+[2026-09-29T08:47:14Z]     online/qwen rep8: ok calls=50 cost=$0.0134
+[2026-09-29T08:48:12Z]     online/qwen rep9: ok calls=50 cost=$0.0138
+[2026-09-29T08:48:12Z] PHASE: trial construction
+[2026-09-29T08:48:12Z] FATAL RuntimeError: Insufficient valid trajectories for (batch, qwen): 0 of 10
+Traceback (most recent call last):
+  File "/Users/christophermartin/Py_Projects/PACA_implicit/spar_dynamic/orchestrator.py", line 516, in main
+    trials = phase_trials(paths, log)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/christophermartin/Py_Projects/PACA_implicit/spar_dynamic/orchestrator.py", line 194, in phase_trials
+    raise RuntimeError(f"Insufficient valid trajectories for ({arch}, {ml}): "
+RuntimeError: Insufficient valid trajectories for (batch, qwen): 0 of 10
+
+[2026-09-29T13:33:05Z] START run_id=spar-dynamic-run-20260929T081814Z  data_root=data/spar_dynamic
+[2026-09-29T13:33:05Z]   fetching OpenRouter model catalog and pricing snapshot
+[2026-09-29T13:33:05Z] PHASE: source generation (batch + online)
+[2026-09-29T13:33:05Z]   batch/astra: 10 valid on disk already
+[2026-09-29T13:33:05Z]   batch/fable: 10 valid on disk already
+[2026-09-29T13:33:05Z]   batch/qwen: 0 valid on disk already
+[2026-09-29T13:33:08Z]     batch/qwen rep0: INVALID cost=$0.0017 tokens p=79/c=390/r=365
+[2026-09-29T13:33:19Z]     batch/qwen rep1: INVALID cost=$0.0038 tokens p=79/c=860/r=832
+[2026-09-29T13:33:26Z]     batch/qwen rep2: INVALID cost=$0.0019 tokens p=75/c=439/r=408
+[2026-09-29T13:33:32Z]     batch/qwen rep3: INVALID cost=$0.0018 tokens p=79/c=401/r=364
+[2026-09-29T13:33:37Z]     batch/qwen rep4: INVALID cost=$0.0017 tokens p=79/c=393/r=368
+[2026-09-29T13:33:54Z]     batch/qwen rep5: INVALID cost=$0.0017 tokens p=79/c=392/r=363
+[2026-09-29T13:34:00Z]     batch/qwen rep6: ok cost=$0.0017 tokens p=79/c=385/r=356
+[2026-09-29T13:34:07Z]     batch/qwen rep7: INVALID cost=$0.0017 tokens p=79/c=385/r=163
+[2026-09-29T13:34:14Z]     batch/qwen rep8: INVALID cost=$0.0018 tokens p=79/c=405/r=377
+[2026-09-29T13:34:27Z]     batch/qwen rep9: INVALID cost=$0.0017 tokens p=79/c=390/r=167
+[2026-09-29T13:34:34Z]     batch/qwen rep10: INVALID cost=$0.0012 tokens p=79/c=277/r=255
+[2026-09-29T13:34:36Z]     batch/qwen rep11: INVALID cost=$0.0017 tokens p=79/c=386/r=359
+[2026-09-29T13:34:38Z]     batch/qwen rep12: INVALID cost=$0.0017 tokens p=79/c=387/r=358
+[2026-09-29T13:34:41Z]     batch/qwen rep13: INVALID cost=$0.0017 tokens p=79/c=390/r=363
+[2026-09-29T13:34:47Z]     batch/qwen rep14: INVALID cost=$0.0090 tokens p=79/c=2048/r=2052
+[2026-09-29T13:34:51Z]     batch/qwen rep15: INVALID cost=$0.0042 tokens p=79/c=949/r=918
+[2026-09-29T13:34:54Z]     batch/qwen rep16: INVALID cost=$0.0044 tokens p=79/c=992/r=965
+[2026-09-29T13:35:06Z]     batch/qwen rep17: INVALID cost=$0.0090 tokens p=79/c=2048/r=2052
+[2026-09-29T13:35:09Z]     batch/qwen rep18: INVALID cost=$0.0031 tokens p=79/c=706/r=672
+[2026-09-29T13:35:13Z]     batch/qwen rep19: INVALID cost=$0.0044 tokens p=79/c=999/r=974
+[2026-09-29T13:35:15Z]     batch/qwen rep20: INVALID cost=$0.0018 tokens p=79/c=400/r=375
+[2026-09-29T13:35:18Z]     batch/qwen rep21: INVALID cost=$0.0045 tokens p=79/c=1019/r=994
+[2026-09-29T13:35:22Z]     batch/qwen rep22: INVALID cost=$0.0018 tokens p=79/c=407/r=381
+[2026-09-29T13:35:23Z]     batch/qwen rep23: INVALID cost=$0.0016 tokens p=79/c=372/r=347
+[2026-09-29T13:35:25Z]     batch/qwen rep24: INVALID cost=$0.0018 tokens p=79/c=409/r=381
+[2026-09-29T13:35:28Z]     batch/qwen rep25: ok cost=$0.0030 tokens p=79/c=685/r=656
+[2026-09-29T13:35:30Z]     batch/qwen rep26: INVALID cost=$0.0017 tokens p=79/c=389/r=361
+[2026-09-29T13:35:35Z]     batch/qwen rep27: INVALID cost=$0.0041 tokens p=79/c=929/r=903
+[2026-09-29T13:35:37Z]     batch/qwen rep28: INVALID cost=$0.0017 tokens p=79/c=385/r=361
+[2026-09-29T13:35:39Z]     batch/qwen rep29: INVALID cost=$0.0018 tokens p=79/c=406/r=376
+[2026-09-29T13:35:41Z]     batch/qwen rep30: INVALID cost=$0.0017 tokens p=79/c=383/r=358
+[2026-09-29T13:35:48Z]     batch/qwen rep31: INVALID cost=$0.0018 tokens p=79/c=400/r=371
+[2026-09-29T13:35:50Z]     batch/qwen rep32: INVALID cost=$0.0018 tokens p=79/c=399/r=371
+[2026-09-29T13:35:54Z]     batch/qwen rep33: ok cost=$0.0049 tokens p=79/c=1123/r=1093
+[2026-09-29T13:35:56Z]     batch/qwen rep34: INVALID cost=$0.0017 tokens p=79/c=382/r=354
+[2026-09-29T13:35:58Z]     batch/qwen rep35: INVALID cost=$0.0018 tokens p=79/c=402/r=376
+[2026-09-29T13:36:02Z]     batch/qwen rep36: INVALID cost=$0.0050 tokens p=79/c=1132/r=1104
+[2026-09-29T13:36:04Z]     batch/qwen rep37: INVALID cost=$0.0028 tokens p=79/c=641/r=615
+[2026-09-29T13:36:08Z]     batch/qwen rep38: INVALID cost=$0.0045 tokens p=79/c=1019/r=991
+[2026-09-29T13:36:12Z]     batch/qwen rep39: ok cost=$0.0039 tokens p=79/c=880/r=849
+[2026-09-29T13:36:16Z]     batch/qwen rep40: INVALID cost=$0.0042 tokens p=79/c=949/r=922
+[2026-09-29T13:36:22Z]     batch/qwen rep41: INVALID cost=$0.0076 tokens p=79/c=1719/r=1686
+[2026-09-29T13:36:26Z]     batch/qwen rep42: INVALID cost=$0.0029 tokens p=79/c=669/r=641
+[2026-09-29T13:36:36Z]     batch/qwen rep43: INVALID cost=$0.0090 tokens p=79/c=2048/r=2048
+[2026-09-29T13:36:36Z]     batch/qwen: too many invalids (40); aborting
+[2026-09-29T13:36:36Z] PHASE: trial construction
+[2026-09-29T13:36:36Z] FATAL RuntimeError: Insufficient valid trajectories for (batch, qwen): 4 of 10
+Traceback (most recent call last):
+  File "/Users/christophermartin/Py_Projects/PACA_implicit/spar_dynamic/orchestrator.py", line 516, in main
+    trials = phase_trials(paths, log)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/christophermartin/Py_Projects/PACA_implicit/spar_dynamic/orchestrator.py", line 194, in phase_trials
+    raise RuntimeError(f"Insufficient valid trajectories for ({arch}, {ml}): "
+RuntimeError: Insufficient valid trajectories for (batch, qwen): 4 of 10
+
+[2026-09-29T13:40:26Z] START run_id=spar-dynamic-run-20260929T081814Z  data_root=data/spar_dynamic
+[2026-09-29T13:40:26Z]   fetching OpenRouter model catalog and pricing snapshot
+[2026-09-29T13:40:27Z] PHASE: source generation (batch + online)
+[2026-09-29T13:40:27Z]   batch/astra: 10 valid on disk already
+[2026-09-29T13:40:27Z]   batch/fable: 10 valid on disk already
+[2026-09-29T13:40:27Z]   batch/qwen: 4 valid on disk already
+[2026-09-29T13:40:29Z]     batch/qwen rep40: INVALID cost=$0.0018 tokens p=79/c=407/r=385
+[2026-09-29T13:40:36Z]     batch/qwen rep41: INVALID cost=$0.0090 tokens p=79/c=2048/r=2048
+[2026-09-29T13:40:37Z]     batch/qwen rep42: INVALID cost=$0.0018 tokens p=79/c=407/r=379
+[2026-09-29T13:40:39Z]     batch/qwen rep43: INVALID cost=$0.0018 tokens p=79/c=405/r=378
+[2026-09-29T13:40:41Z]     batch/qwen rep44: INVALID cost=$0.0018 tokens p=79/c=413/r=383
+[2026-09-29T13:40:47Z]     batch/qwen rep45: INVALID cost=$0.0090 tokens p=79/c=2048/r=2050
+[2026-09-29T13:40:50Z]     batch/qwen rep46: INVALID cost=$0.0034 tokens p=79/c=779/r=753
+[2026-09-29T13:40:55Z]     batch/qwen rep47: INVALID cost=$0.0090 tokens p=79/c=2048/r=2053
+[2026-09-29T13:40:57Z]     batch/qwen rep48: INVALID cost=$0.0019 tokens p=79/c=426/r=401
+[2026-09-29T13:40:59Z]     batch/qwen rep49: INVALID cost=$0.0017 tokens p=79/c=389/r=363
+[2026-09-29T13:41:01Z]     batch/qwen rep50: INVALID cost=$0.0030 tokens p=79/c=685/r=658
+[2026-09-29T13:41:08Z]     batch/qwen rep51: INVALID cost=$0.0090 tokens p=79/c=2048/r=2050
+[2026-09-29T13:41:09Z]     batch/qwen rep52: INVALID cost=$0.0017 tokens p=79/c=392/r=364
+[2026-09-29T13:41:13Z]     batch/qwen rep53: ok cost=$0.0018 tokens p=79/c=406/r=376
+[2026-09-29T13:41:15Z]     batch/qwen rep54: INVALID cost=$0.0018 tokens p=79/c=399/r=371
+[2026-09-29T13:41:18Z]     batch/qwen rep55: ok cost=$0.0036 tokens p=79/c=826/r=796
+[2026-09-29T13:41:20Z]     batch/qwen rep56: INVALID cost=$0.0018 tokens p=79/c=407/r=381
+[2026-09-29T13:41:22Z]     batch/qwen rep57: INVALID cost=$0.0019 tokens p=79/c=428/r=403
+[2026-09-29T13:41:26Z]     batch/qwen rep58: INVALID cost=$0.0045 tokens p=79/c=1033/r=1009
+[2026-09-29T13:41:28Z]     batch/qwen rep59: ok cost=$0.0018 tokens p=79/c=407/r=377
+[2026-09-29T13:41:35Z]     batch/qwen rep60: INVALID cost=$0.0088 tokens p=79/c=2007/r=1978
+[2026-09-29T13:41:41Z]     batch/qwen rep61: INVALID cost=$0.0090 tokens p=79/c=2048/r=2052
+[2026-09-29T13:41:43Z]     batch/qwen rep62: INVALID cost=$0.0018 tokens p=79/c=404/r=378
+[2026-09-29T13:41:45Z]     batch/qwen rep63: INVALID cost=$0.0029 tokens p=79/c=669/r=643
+[2026-09-29T13:41:50Z]     batch/qwen rep64: INVALID cost=$0.0058 tokens p=79/c=1326/r=1297
+[2026-09-29T13:41:54Z]     batch/qwen rep65: INVALID cost=$0.0040 tokens p=79/c=916/r=891
+[2026-09-29T13:42:01Z]     batch/qwen rep66: INVALID cost=$0.0090 tokens p=79/c=2048/r=2048
+[2026-09-29T13:42:05Z]     batch/qwen rep67: INVALID cost=$0.0049 tokens p=79/c=1105/r=1080
+[2026-09-29T13:42:07Z]     batch/qwen rep68: INVALID cost=$0.0018 tokens p=79/c=406/r=378
+[2026-09-29T13:42:09Z]     batch/qwen rep69: INVALID cost=$0.0017 tokens p=79/c=396/r=371
+[2026-09-29T13:42:12Z]     batch/qwen rep70: INVALID cost=$0.0030 tokens p=79/c=677/r=649
+[2026-09-29T13:42:14Z]     batch/qwen rep71: INVALID cost=$0.0017 tokens p=79/c=396/r=371
+[2026-09-29T13:42:16Z]     batch/qwen rep72: INVALID cost=$0.0018 tokens p=79/c=417/r=391
+[2026-09-29T13:42:20Z]     batch/qwen rep73: INVALID cost=$0.0046 tokens p=79/c=1049/r=1016
+[2026-09-29T13:42:22Z]     batch/qwen rep74: INVALID cost=$0.0018 tokens p=79/c=404/r=378
+[2026-09-29T13:42:26Z]     batch/qwen rep75: INVALID cost=$0.0047 tokens p=79/c=1058/r=1021
+[2026-09-29T13:42:28Z]     batch/qwen rep76: ok cost=$0.0018 tokens p=79/c=411/r=382
+[2026-09-29T13:42:35Z]     batch/qwen rep77: INVALID cost=$0.0090 tokens p=79/c=2048/r=2054
+[2026-09-29T13:42:38Z]     batch/qwen rep78: INVALID cost=$0.0017 tokens p=79/c=381/r=353
+[2026-09-29T13:42:40Z]     batch/qwen rep79: INVALID cost=$0.0017 tokens p=79/c=385/r=360
+[2026-09-29T13:42:42Z]     batch/qwen rep80: ok cost=$0.0018 tokens p=79/c=412/r=382
+[2026-09-29T13:42:44Z]     batch/qwen rep81: INVALID cost=$0.0018 tokens p=79/c=399/r=371
+[2026-09-29T13:42:46Z]     batch/qwen rep82: INVALID cost=$0.0017 tokens p=79/c=389/r=362
+[2026-09-29T13:42:49Z]     batch/qwen rep83: INVALID cost=$0.0017 tokens p=79/c=391/r=365
+[2026-09-29T13:42:51Z]     batch/qwen rep84: INVALID cost=$0.0018 tokens p=79/c=408/r=381
+[2026-09-29T13:42:53Z]     batch/qwen rep85: INVALID cost=$0.0017 tokens p=79/c=386/r=361
+[2026-09-29T13:42:55Z]     batch/qwen rep86: INVALID cost=$0.0030 tokens p=79/c=688/r=664
+[2026-09-29T13:42:57Z]     batch/qwen rep87: INVALID cost=$0.0017 tokens p=79/c=383/r=358
+[2026-09-29T13:43:00Z]     batch/qwen rep88: INVALID cost=$0.0018 tokens p=79/c=403/r=378
+[2026-09-29T13:43:02Z]     batch/qwen rep89: INVALID cost=$0.0018 tokens p=79/c=408/r=378
+[2026-09-29T13:43:08Z]     batch/qwen rep90: INVALID cost=$0.0090 tokens p=79/c=2048/r=2053
+[2026-09-29T13:43:10Z]     batch/qwen rep91: INVALID cost=$0.0017 tokens p=79/c=390/r=360
+[2026-09-29T13:43:12Z]     batch/qwen rep92: INVALID cost=$0.0017 tokens p=79/c=385/r=360
+[2026-09-29T13:43:17Z]     batch/qwen rep93: INVALID cost=$0.0017 tokens p=79/c=390/r=362
+[2026-09-29T13:43:19Z]     batch/qwen rep94: INVALID cost=$0.0018 tokens p=79/c=405/r=377
+[2026-09-29T13:43:21Z]     batch/qwen rep95: ok cost=$0.0018 tokens p=79/c=402/r=372
+[2026-09-29T13:43:21Z] PHASE: trial construction
+[2026-09-29T13:43:21Z]   wrote 144 trials to data/spar_dynamic/spar-dynamic-run-20260929T081814Z/trials/trial_manifest.json
+[2026-09-29T13:43:21Z] PHASE: judgment (144 trials, response_mode=json_schema)
+[2026-09-29T13:43:21Z]   144 trials pending (of 144 total)
+[2026-09-29T13:43:33Z]   judgment progress 10/144  latest: astra/batch/A parsed='SAME' correct=True spent=$0.2325
+[2026-09-29T13:43:43Z]   judgment progress 20/144  latest: astra/batch/D parsed='DIFFERENT' correct=True spent=$0.2755
+[2026-09-29T13:43:56Z]   judgment progress 30/144  latest: astra/online/C parsed='DIFFERENT' correct=False spent=$0.3223
+[2026-09-29T13:44:05Z]   judgment progress 40/144  latest: astra/online/C parsed='SAME' correct=True spent=$0.3563
+[2026-09-29T13:44:18Z]   judgment progress 50/144  latest: fable/batch/D parsed='SAME' correct=False spent=$0.3941
+[2026-09-29T13:44:36Z]   judgment progress 60/144  latest: fable/batch/C parsed='SAME' correct=True spent=$0.4457
+[2026-09-29T13:44:48Z]   judgment progress 70/144  latest: fable/batch/C parsed='SAME' correct=True spent=$0.4975
+[2026-09-29T13:45:11Z]   judgment progress 80/144  latest: fable/online/B parsed='DIFFERENT' correct=True spent=$0.5502
+[2026-09-29T13:45:37Z]   judgment progress 90/144  latest: fable/online/B parsed='DIFFERENT' correct=True spent=$0.6032
+[2026-09-29T13:46:43Z]   judgment progress 100/144  latest: qwen/batch/A parsed='SAME' correct=True spent=$0.6716
+[2026-09-29T13:50:30Z]   judgment progress 110/144  latest: qwen/batch/D parsed='SAME' correct=False spent=$0.8906
+[2026-09-29T13:53:29Z]   judgment progress 120/144  latest: qwen/online/C parsed='SAME' correct=True spent=$1.0470
+[2026-09-29T13:55:55Z]   judgment progress 130/144  latest: qwen/online/C parsed='SAME' correct=True spent=$1.1512
+[2026-09-29T14:00:15Z]   judgment progress 140/144  latest: qwen/online/B parsed='DIFFERENT' correct=True spent=$1.3595
+[2026-09-29T14:03:11Z]   judgment progress 144/144  latest: qwen/online/D parsed='' correct=None spent=$1.4316
+[2026-09-29T14:03:11Z] PHASE: analysis + reports
+[2026-09-29T14:03:11Z]   wrote data/spar_dynamic/spar-dynamic-run-20260929T081814Z/results/FINAL_OVERNIGHT_REPORT.md
+[2026-09-29T14:03:11Z] COMPLETE  total_spend=$1.4316

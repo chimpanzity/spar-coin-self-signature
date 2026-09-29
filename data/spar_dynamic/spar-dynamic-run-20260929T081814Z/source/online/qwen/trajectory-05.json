@@ -1,0 +1,18 @@
+{
+  "trajectory_id": "online/qwen/05",
+  "architecture": "online",
+  "source_model_label": "qwen",
+  "requested_model_id": "qwen/qwen3.8-27b",
+  "replicate_index": 5,
+  "parsed_sequence": "HTHHHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+  "valid": true,
+  "invalid_reason": "",
+  "n_calls": 50,
+  "total_cost_usd": 0.013466156400000004,
+  "started_utc": "2026-09-29T08:44:13Z",
+  "finished_utc": "2026-09-29T08:45:37Z",
+  "attempts_summary": {
+    "partial_history": "HTHHHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+    "invalid_at_step": null
+  }
+}

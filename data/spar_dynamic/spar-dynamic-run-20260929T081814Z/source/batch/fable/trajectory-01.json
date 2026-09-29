@@ -1,0 +1,26 @@
+{
+  "trajectory_id": "batch/fable/01",
+  "architecture": "batch",
+  "source_model_label": "fable",
+  "requested_model_id": "anthropic/claude-fable-5.1",
+  "replicate_index": 1,
+  "parsed_sequence": "HTTHHTHTTTHHHTHTTHHTHTHHTTTHTHHHTTHTHHTHTTHHTHTTHT",
+  "valid": true,
+  "invalid_reason": "",
+  "n_calls": 1,
+  "total_cost_usd": 0.0032900000000000004,
+  "started_utc": "2026-09-29T08:19:05Z",
+  "finished_utc": "2026-09-29T08:19:09Z",
+  "attempts_summary": {
+    "raw_response": "HTTHHTHTTTHHHTHTTHHTHTHHTTTHTHHHTTHTHHTHTTHHTHTTHT",
+    "served_model": "anthropic/claude-fable-5.1",
+    "provider": "Anthropic",
+    "prompt_tokens": 69,
+    "completion_tokens": 52,
+    "reasoning_tokens": 0,
+    "finish_reason": "stop",
+    "cost_usd": 0.0032900000000000004,
+    "latency_ms": 4191,
+    "error_message": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "trajectory_id": "batch/qwen/30",
+  "architecture": "batch",
+  "source_model_label": "qwen",
+  "requested_model_id": "qwen/qwen3.8-27b",
+  "replicate_index": 30,
+  "parsed_sequence": "",
+  "valid": false,
+  "invalid_reason": "parse_fail: raw='\\n\\nHTTHHTHTTHHTTHHTTHHTHTTHHTHTHHTTHHTHTHTHHTTH'",
+  "n_calls": 1,
+  "total_cost_usd": 0.0016879571,
+  "started_utc": "2026-09-29T13:35:39Z",
+  "finished_utc": "2026-09-29T13:35:41Z",
+  "attempts_summary": {
+    "raw_response": "\n\nHTTHHTHTTHHTTHHTTHHTHTTHHTHTHHTTHHTHTHTHHTTH",
+    "served_model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "prompt_tokens": 79,
+    "completion_tokens": 383,
+    "reasoning_tokens": 358,
+    "finish_reason": "stop",
+    "cost_usd": 0.0016879571,
+    "latency_ms": 2059,
+    "error_message": ""
+  }
+}
