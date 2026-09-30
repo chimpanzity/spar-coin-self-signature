@@ -1,0 +1,16 @@
+{
+  "trajectory_id": "astra_batch_13",
+  "run_id": "spar-stimulus-corpus-20260930T012044Z",
+  "model_label": "astra",
+  "requested_model_id": "openai/gpt-6-astra",
+  "method": "batch",
+  "replicate_index": 13,
+  "parsed_sequence": "HTTHHTHTTTTHHHTTHTHHTHTTTHTHHTHHTHTTHHTTTTHTHHHTHTHTTHTHTTHHTHHTTTHTHTHHTHHTTTHHTTHTHTHHTTHTHHTTHTHT",
+  "valid": true,
+  "status": "ok",
+  "invalid_reason": "",
+  "n_calls": 1,
+  "total_cost_usd": 0.00873,
+  "started_utc": "2026-09-30T02:17:18Z",
+  "finished_utc": "2026-09-30T02:17:24Z"
+}

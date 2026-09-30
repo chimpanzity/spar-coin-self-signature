@@ -1,0 +1,47 @@
+{
+  "n_records": 187,
+  "cell_counts": {
+    "astra/batch": 20,
+    "astra/history_conditioned": 20,
+    "astra/independent_calls": 20,
+    "fable/batch": 20,
+    "fable/history_conditioned": 20,
+    "fable/independent_calls": 20,
+    "mimo/batch": 20,
+    "mimo/history_conditioned": 20,
+    "mimo/independent_calls": 20
+  },
+  "cell_counts_ok": true,
+  "cell_counts_min_required": 20,
+  "invalid_trajectories": [
+    [
+      "mimo_history_conditioned_04",
+      "status=failed len=0"
+    ],
+    [
+      "mimo_history_conditioned_08",
+      "status=failed len=0"
+    ],
+    [
+      "mimo_history_conditioned_09",
+      "status=failed len=0"
+    ],
+    [
+      "mimo_history_conditioned_14",
+      "status=failed len=0"
+    ],
+    [
+      "mimo_history_conditioned_16",
+      "status=failed len=0"
+    ],
+    [
+      "mimo_history_conditioned_17",
+      "status=failed len=0"
+    ],
+    [
+      "mimo_history_conditioned_19",
+      "status=failed len=0"
+    ]
+  ],
+  "run_complete_ok": true
+}

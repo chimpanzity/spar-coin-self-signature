@@ -1,0 +1,16 @@
+{
+  "trajectory_id": "astra_history_conditioned_06",
+  "run_id": "spar-stimulus-corpus-20260930T012044Z",
+  "model_label": "astra",
+  "requested_model_id": "openai/gpt-6-astra",
+  "method": "history_conditioned",
+  "replicate_index": 6,
+  "parsed_sequence": "THTHTHHTHTHTHTHTHTTHHTHTHHTTHTHTTHHHTTHTTTHHTHTTHHTTHTHTHHHTTTHHTHTHHTTHTTTTHHTHTTHHHHHTTHHTTHTTTTHT",
+  "valid": true,
+  "status": "ok",
+  "invalid_reason": "",
+  "n_calls": 100,
+  "total_cost_usd": 0.08825999999999999,
+  "started_utc": "2026-09-30T04:10:41Z",
+  "finished_utc": "2026-09-30T04:13:35Z"
+}

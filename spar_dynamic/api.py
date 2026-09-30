@@ -16,6 +16,8 @@ from openai import OpenAI
 
 from . import config as C
 
+# ---- module-level helpers should be able to load from disk before class use ----
+
 
 @dataclass
 class APIResult:
@@ -80,6 +82,15 @@ class CostAccountant:
         self.calls_by_kind[kind] = self.calls_by_kind.get(kind, 0) + 1
         self.spent_by_kind[kind] = self.spent_by_kind.get(kind, 0.0) + cost_usd
 
+    def bootstrap_from_disk(self, jsonl_path: str) -> None:
+        """Add historical spend from a jsonl of raw attempts. For resume safety."""
+        total, by_kind, calls = load_prior_spend_from_jsonl(jsonl_path)
+        self.spent_usd += total
+        for k, v in by_kind.items():
+            self.spent_by_kind[k] = self.spent_by_kind.get(k, 0.0) + v
+        for k, v in calls.items():
+            self.calls_by_kind[k] = self.calls_by_kind.get(k, 0) + v
+
 
 class BudgetExceeded(Exception):
     pass
@@ -87,6 +98,31 @@ class BudgetExceeded(Exception):
 
 class ModelUnavailable(Exception):
     pass
+
+
+def load_prior_spend_from_jsonl(path: str) -> Tuple[float, Dict[str, float], Dict[str, int]]:
+    """Read raw_attempts.jsonl (if present) and return (total_cost, by_kind, calls_by_kind).
+    Enables resume-safe cost accounting: any restart re-derives spend from persisted records."""
+    total = 0.0
+    by_kind: Dict[str, float] = {}
+    calls: Dict[str, int] = {}
+    if not os.path.exists(path):
+        return total, by_kind, calls
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except Exception:
+                continue
+            c = float(rec.get("cost_usd", 0) or 0.0)
+            k = str(rec.get("kind", "unknown"))
+            total += c
+            by_kind[k] = by_kind.get(k, 0.0) + c
+            calls[k] = calls.get(k, 0) + 1
+    return total, by_kind, calls
 
 
 def make_client(timeout_s: float = 120.0) -> OpenAI:
@@ -195,14 +231,23 @@ def call_model(
 
 
 # --- parsers --------------------------------------------------------------
-_BATCH_RE = re.compile(r"^[HT]{50}$")
+_BATCH_RE_50 = re.compile(r"^[HT]{50}$")     # kept for backwards compat
+_BATCH_RE_100 = re.compile(r"^[HT]{100}$")
 _ONLINE_RE = re.compile(r"^[HT]$")
 
-def parse_batch(text: str) -> Optional[str]:
+def parse_batch(text: str, length: int = 50) -> Optional[str]:
+    """Strict: after whitespace strip, must be exactly `length` chars of H/T."""
     if not text:
         return None
     stripped = "".join(text.split()).upper()
-    return stripped if _BATCH_RE.match(stripped) else None
+    if length == 50 and _BATCH_RE_50.match(stripped):
+        return stripped
+    if length == 100 and _BATCH_RE_100.match(stripped):
+        return stripped
+    # generic fallback for other lengths
+    if len(stripped) == length and all(c in "HT" for c in stripped):
+        return stripped
+    return None
 
 def parse_online(text: str) -> Optional[str]:
     if not text:

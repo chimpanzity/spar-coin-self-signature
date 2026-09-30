@@ -1,0 +1,10 @@
+method,prefix_length,accuracy,n,confusion:astra->mimo,confusion:astra->astra,confusion:fable->fable,confusion:fable->astra,confusion:mimo->astra,confusion:mimo->fable,confusion:mimo->mimo,confusion:astra->fable,confusion:fable->mimo
+batch,20,0.5666666666666667,60,6,14,13,7,5,8,7,,
+batch,50,0.38333333333333336,60,8,5,11,8,8,5,7,7,1
+batch,100,0.5333333333333333,60,6,12,14,5,9,5,6,2,1
+history_conditioned,20,0.6833333333333333,60,3,11,14,3,,4,16,6,3
+history_conditioned,50,0.8833333333333333,60,1,18,17,,,2,18,1,3
+history_conditioned,100,0.9,60,1,19,18,1,3,,17,,1
+independent_calls,20,0.3333333333333333,60,,20,,20,20,,,,
+independent_calls,50,0.6666666666666666,60,,20,,11,,,20,,9
+independent_calls,100,0.6666666666666666,60,,20,,6,,,20,,14

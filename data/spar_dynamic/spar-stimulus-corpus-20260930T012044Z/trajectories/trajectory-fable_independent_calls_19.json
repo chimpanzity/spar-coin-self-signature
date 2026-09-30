@@ -1,0 +1,16 @@
+{
+  "trajectory_id": "fable_independent_calls_19",
+  "run_id": "spar-stimulus-corpus-20260930T012044Z",
+  "model_label": "fable",
+  "requested_model_id": "anthropic/claude-fable-5.1",
+  "method": "independent_calls",
+  "replicate_index": 19,
+  "parsed_sequence": "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+  "valid": true,
+  "status": "ok",
+  "invalid_reason": "",
+  "n_calls": 100,
+  "total_cost_usd": 0.05000000000000004,
+  "started_utc": "2026-09-30T04:57:50Z",
+  "finished_utc": "2026-09-30T05:03:49Z"
+}

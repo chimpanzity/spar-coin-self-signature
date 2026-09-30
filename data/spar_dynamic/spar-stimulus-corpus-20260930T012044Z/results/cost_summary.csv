@@ -1,0 +1,5 @@
+kind,calls,cost_usd
+corpus_batch,238,0.6040546299999999
+corpus_history_conditioned,6722,4.38560299999999
+corpus_independent_calls,6016,2.4300125500000678
+TOTAL,12976,7.419670179999419

@@ -1,0 +1,1442 @@
+[
+  {
+    "trajectory_id": "mimo_batch_17",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 17,
+    "execution_order": 0
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_18",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 18,
+    "execution_order": 1
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_19",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 19,
+    "execution_order": 2
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_12",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 12,
+    "execution_order": 3
+  },
+  {
+    "trajectory_id": "mimo_batch_07",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 7,
+    "execution_order": 4
+  },
+  {
+    "trajectory_id": "fable_independent_calls_04",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 4,
+    "execution_order": 5
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_19",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 19,
+    "execution_order": 6
+  },
+  {
+    "trajectory_id": "astra_independent_calls_10",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 10,
+    "execution_order": 7
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_06",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 6,
+    "execution_order": 8
+  },
+  {
+    "trajectory_id": "astra_independent_calls_06",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 6,
+    "execution_order": 9
+  },
+  {
+    "trajectory_id": "astra_independent_calls_19",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 19,
+    "execution_order": 10
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_15",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 15,
+    "execution_order": 11
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_11",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 11,
+    "execution_order": 12
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_04",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 4,
+    "execution_order": 13
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_07",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 7,
+    "execution_order": 14
+  },
+  {
+    "trajectory_id": "astra_independent_calls_18",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 18,
+    "execution_order": 15
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_04",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 4,
+    "execution_order": 16
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_06",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 6,
+    "execution_order": 17
+  },
+  {
+    "trajectory_id": "astra_independent_calls_01",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 1,
+    "execution_order": 18
+  },
+  {
+    "trajectory_id": "fable_independent_calls_07",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 7,
+    "execution_order": 19
+  },
+  {
+    "trajectory_id": "fable_independent_calls_15",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 15,
+    "execution_order": 20
+  },
+  {
+    "trajectory_id": "astra_batch_06",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 6,
+    "execution_order": 21
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_08",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 8,
+    "execution_order": 22
+  },
+  {
+    "trajectory_id": "mimo_batch_16",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 16,
+    "execution_order": 23
+  },
+  {
+    "trajectory_id": "fable_batch_03",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 3,
+    "execution_order": 24
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_07",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 7,
+    "execution_order": 25
+  },
+  {
+    "trajectory_id": "astra_batch_00",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 0,
+    "execution_order": 26
+  },
+  {
+    "trajectory_id": "astra_independent_calls_04",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 4,
+    "execution_order": 27
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_12",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 12,
+    "execution_order": 28
+  },
+  {
+    "trajectory_id": "astra_batch_10",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 10,
+    "execution_order": 29
+  },
+  {
+    "trajectory_id": "astra_independent_calls_02",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 2,
+    "execution_order": 30
+  },
+  {
+    "trajectory_id": "fable_batch_13",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 13,
+    "execution_order": 31
+  },
+  {
+    "trajectory_id": "mimo_batch_18",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 18,
+    "execution_order": 32
+  },
+  {
+    "trajectory_id": "mimo_batch_14",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 14,
+    "execution_order": 33
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_16",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 16,
+    "execution_order": 34
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_19",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 19,
+    "execution_order": 35
+  },
+  {
+    "trajectory_id": "fable_independent_calls_02",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 2,
+    "execution_order": 36
+  },
+  {
+    "trajectory_id": "mimo_batch_10",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 10,
+    "execution_order": 37
+  },
+  {
+    "trajectory_id": "fable_batch_09",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 9,
+    "execution_order": 38
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_02",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 2,
+    "execution_order": 39
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_02",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 2,
+    "execution_order": 40
+  },
+  {
+    "trajectory_id": "astra_independent_calls_00",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 0,
+    "execution_order": 41
+  },
+  {
+    "trajectory_id": "astra_independent_calls_05",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 5,
+    "execution_order": 42
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_07",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 7,
+    "execution_order": 43
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_15",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 15,
+    "execution_order": 44
+  },
+  {
+    "trajectory_id": "astra_independent_calls_17",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 17,
+    "execution_order": 45
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_17",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 17,
+    "execution_order": 46
+  },
+  {
+    "trajectory_id": "fable_batch_11",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 11,
+    "execution_order": 47
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_12",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 12,
+    "execution_order": 48
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_03",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 3,
+    "execution_order": 49
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_15",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 15,
+    "execution_order": 50
+  },
+  {
+    "trajectory_id": "astra_batch_03",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 3,
+    "execution_order": 51
+  },
+  {
+    "trajectory_id": "fable_batch_04",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 4,
+    "execution_order": 52
+  },
+  {
+    "trajectory_id": "mimo_batch_11",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 11,
+    "execution_order": 53
+  },
+  {
+    "trajectory_id": "astra_independent_calls_09",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 9,
+    "execution_order": 54
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_06",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 6,
+    "execution_order": 55
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_10",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 10,
+    "execution_order": 56
+  },
+  {
+    "trajectory_id": "astra_batch_04",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 4,
+    "execution_order": 57
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_11",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 11,
+    "execution_order": 58
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_07",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 7,
+    "execution_order": 59
+  },
+  {
+    "trajectory_id": "mimo_batch_05",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 5,
+    "execution_order": 60
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_18",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 18,
+    "execution_order": 61
+  },
+  {
+    "trajectory_id": "astra_batch_08",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 8,
+    "execution_order": 62
+  },
+  {
+    "trajectory_id": "fable_independent_calls_03",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 3,
+    "execution_order": 63
+  },
+  {
+    "trajectory_id": "astra_independent_calls_13",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 13,
+    "execution_order": 64
+  },
+  {
+    "trajectory_id": "fable_batch_16",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 16,
+    "execution_order": 65
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_04",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 4,
+    "execution_order": 66
+  },
+  {
+    "trajectory_id": "fable_batch_01",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 1,
+    "execution_order": 67
+  },
+  {
+    "trajectory_id": "fable_independent_calls_09",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 9,
+    "execution_order": 68
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_10",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 10,
+    "execution_order": 69
+  },
+  {
+    "trajectory_id": "fable_batch_07",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 7,
+    "execution_order": 70
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_14",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 14,
+    "execution_order": 71
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_17",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 17,
+    "execution_order": 72
+  },
+  {
+    "trajectory_id": "mimo_batch_01",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 1,
+    "execution_order": 73
+  },
+  {
+    "trajectory_id": "fable_independent_calls_05",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 5,
+    "execution_order": 74
+  },
+  {
+    "trajectory_id": "astra_batch_13",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 13,
+    "execution_order": 75
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_16",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 16,
+    "execution_order": 76
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_09",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 9,
+    "execution_order": 77
+  },
+  {
+    "trajectory_id": "mimo_batch_00",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 0,
+    "execution_order": 78
+  },
+  {
+    "trajectory_id": "fable_batch_10",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 10,
+    "execution_order": 79
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_11",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 11,
+    "execution_order": 80
+  },
+  {
+    "trajectory_id": "fable_independent_calls_00",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 0,
+    "execution_order": 81
+  },
+  {
+    "trajectory_id": "astra_batch_18",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 18,
+    "execution_order": 82
+  },
+  {
+    "trajectory_id": "astra_independent_calls_14",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 14,
+    "execution_order": 83
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_01",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 1,
+    "execution_order": 84
+  },
+  {
+    "trajectory_id": "astra_batch_12",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 12,
+    "execution_order": 85
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_05",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 5,
+    "execution_order": 86
+  },
+  {
+    "trajectory_id": "fable_batch_18",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 18,
+    "execution_order": 87
+  },
+  {
+    "trajectory_id": "astra_batch_19",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 19,
+    "execution_order": 88
+  },
+  {
+    "trajectory_id": "mimo_batch_15",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 15,
+    "execution_order": 89
+  },
+  {
+    "trajectory_id": "fable_batch_17",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 17,
+    "execution_order": 90
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_16",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 16,
+    "execution_order": 91
+  },
+  {
+    "trajectory_id": "fable_batch_08",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 8,
+    "execution_order": 92
+  },
+  {
+    "trajectory_id": "fable_batch_06",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 6,
+    "execution_order": 93
+  },
+  {
+    "trajectory_id": "astra_independent_calls_12",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 12,
+    "execution_order": 94
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_09",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 9,
+    "execution_order": 95
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_18",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 18,
+    "execution_order": 96
+  },
+  {
+    "trajectory_id": "astra_batch_16",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 16,
+    "execution_order": 97
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_00",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 0,
+    "execution_order": 98
+  },
+  {
+    "trajectory_id": "fable_independent_calls_19",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 19,
+    "execution_order": 99
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_01",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 1,
+    "execution_order": 100
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_09",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 9,
+    "execution_order": 101
+  },
+  {
+    "trajectory_id": "astra_independent_calls_03",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 3,
+    "execution_order": 102
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_02",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 2,
+    "execution_order": 103
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_01",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 1,
+    "execution_order": 104
+  },
+  {
+    "trajectory_id": "astra_batch_07",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 7,
+    "execution_order": 105
+  },
+  {
+    "trajectory_id": "astra_batch_09",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 9,
+    "execution_order": 106
+  },
+  {
+    "trajectory_id": "astra_independent_calls_16",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 16,
+    "execution_order": 107
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_05",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 5,
+    "execution_order": 108
+  },
+  {
+    "trajectory_id": "astra_batch_15",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 15,
+    "execution_order": 109
+  },
+  {
+    "trajectory_id": "mimo_batch_13",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 13,
+    "execution_order": 110
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_00",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 0,
+    "execution_order": 111
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_01",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 1,
+    "execution_order": 112
+  },
+  {
+    "trajectory_id": "fable_batch_12",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 12,
+    "execution_order": 113
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_10",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 10,
+    "execution_order": 114
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_08",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 8,
+    "execution_order": 115
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_00",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 0,
+    "execution_order": 116
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_03",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 3,
+    "execution_order": 117
+  },
+  {
+    "trajectory_id": "astra_batch_01",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 1,
+    "execution_order": 118
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_05",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 5,
+    "execution_order": 119
+  },
+  {
+    "trajectory_id": "mimo_batch_02",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 2,
+    "execution_order": 120
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_08",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 8,
+    "execution_order": 121
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_03",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 3,
+    "execution_order": 122
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_08",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 8,
+    "execution_order": 123
+  },
+  {
+    "trajectory_id": "fable_independent_calls_01",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 1,
+    "execution_order": 124
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_14",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 14,
+    "execution_order": 125
+  },
+  {
+    "trajectory_id": "astra_independent_calls_15",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 15,
+    "execution_order": 126
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_05",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 5,
+    "execution_order": 127
+  },
+  {
+    "trajectory_id": "fable_batch_02",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 2,
+    "execution_order": 128
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_03",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 3,
+    "execution_order": 129
+  },
+  {
+    "trajectory_id": "fable_independent_calls_06",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 6,
+    "execution_order": 130
+  },
+  {
+    "trajectory_id": "astra_batch_05",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 5,
+    "execution_order": 131
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_02",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 2,
+    "execution_order": 132
+  },
+  {
+    "trajectory_id": "astra_batch_11",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 11,
+    "execution_order": 133
+  },
+  {
+    "trajectory_id": "astra_independent_calls_08",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 8,
+    "execution_order": 134
+  },
+  {
+    "trajectory_id": "fable_independent_calls_12",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 12,
+    "execution_order": 135
+  },
+  {
+    "trajectory_id": "fable_independent_calls_10",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 10,
+    "execution_order": 136
+  },
+  {
+    "trajectory_id": "astra_independent_calls_11",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 11,
+    "execution_order": 137
+  },
+  {
+    "trajectory_id": "fable_batch_15",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 15,
+    "execution_order": 138
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_15",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 15,
+    "execution_order": 139
+  },
+  {
+    "trajectory_id": "fable_independent_calls_16",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 16,
+    "execution_order": 140
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_19",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 19,
+    "execution_order": 141
+  },
+  {
+    "trajectory_id": "mimo_batch_19",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 19,
+    "execution_order": 142
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_18",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 18,
+    "execution_order": 143
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_16",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 16,
+    "execution_order": 144
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_06",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 6,
+    "execution_order": 145
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_14",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 14,
+    "execution_order": 146
+  },
+  {
+    "trajectory_id": "mimo_batch_06",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 6,
+    "execution_order": 147
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_00",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 0,
+    "execution_order": 148
+  },
+  {
+    "trajectory_id": "fable_batch_05",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 5,
+    "execution_order": 149
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_14",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 14,
+    "execution_order": 150
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_12",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 12,
+    "execution_order": 151
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_13",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 13,
+    "execution_order": 152
+  },
+  {
+    "trajectory_id": "mimo_batch_04",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 4,
+    "execution_order": 153
+  },
+  {
+    "trajectory_id": "astra_independent_calls_07",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "independent_calls",
+    "replicate_index": 7,
+    "execution_order": 154
+  },
+  {
+    "trajectory_id": "astra_batch_14",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 14,
+    "execution_order": 155
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_13",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 13,
+    "execution_order": 156
+  },
+  {
+    "trajectory_id": "fable_independent_calls_14",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 14,
+    "execution_order": 157
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_04",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 4,
+    "execution_order": 158
+  },
+  {
+    "trajectory_id": "fable_independent_calls_13",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 13,
+    "execution_order": 159
+  },
+  {
+    "trajectory_id": "fable_independent_calls_17",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 17,
+    "execution_order": 160
+  },
+  {
+    "trajectory_id": "fable_independent_calls_08",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 8,
+    "execution_order": 161
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_11",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 11,
+    "execution_order": 162
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_09",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 9,
+    "execution_order": 163
+  },
+  {
+    "trajectory_id": "mimo_batch_08",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 8,
+    "execution_order": 164
+  },
+  {
+    "trajectory_id": "fable_batch_19",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 19,
+    "execution_order": 165
+  },
+  {
+    "trajectory_id": "astra_batch_02",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 2,
+    "execution_order": 166
+  },
+  {
+    "trajectory_id": "mimo_batch_09",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 9,
+    "execution_order": 167
+  },
+  {
+    "trajectory_id": "astra_batch_17",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "batch",
+    "replicate_index": 17,
+    "execution_order": 168
+  },
+  {
+    "trajectory_id": "mimo_batch_03",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 3,
+    "execution_order": 169
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_13",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 13,
+    "execution_order": 170
+  },
+  {
+    "trajectory_id": "mimo_history_conditioned_13",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "history_conditioned",
+    "replicate_index": 13,
+    "execution_order": 171
+  },
+  {
+    "trajectory_id": "fable_batch_00",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 0,
+    "execution_order": 172
+  },
+  {
+    "trajectory_id": "fable_independent_calls_11",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 11,
+    "execution_order": 173
+  },
+  {
+    "trajectory_id": "astra_history_conditioned_17",
+    "model_label": "astra",
+    "model_slug": "openai/gpt-6-astra",
+    "method": "history_conditioned",
+    "replicate_index": 17,
+    "execution_order": 174
+  },
+  {
+    "trajectory_id": "fable_independent_calls_18",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "independent_calls",
+    "replicate_index": 18,
+    "execution_order": 175
+  },
+  {
+    "trajectory_id": "mimo_independent_calls_10",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "independent_calls",
+    "replicate_index": 10,
+    "execution_order": 176
+  },
+  {
+    "trajectory_id": "fable_batch_14",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "batch",
+    "replicate_index": 14,
+    "execution_order": 177
+  },
+  {
+    "trajectory_id": "mimo_batch_12",
+    "model_label": "mimo",
+    "model_slug": "xiaomi/mimo-v2.6-pro",
+    "method": "batch",
+    "replicate_index": 12,
+    "execution_order": 178
+  },
+  {
+    "trajectory_id": "fable_history_conditioned_17",
+    "model_label": "fable",
+    "model_slug": "anthropic/claude-fable-5.1",
+    "method": "history_conditioned",
+    "replicate_index": 17,
+    "execution_order": 179
+  }
+]

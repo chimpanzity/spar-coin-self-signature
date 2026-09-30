@@ -1,150 +1,186 @@
-# SPAR Update: Behavioral Self-Signatures in LLMs
+# SPAR — Behavioral Self-Signatures in LLMs
+
+> **New canonical dataset (2026-09-30).** All future work in this repository
+> builds on the **SPAR Stimulus Corpus** at [`corpus/`](corpus/):
+> 180 valid 100-flip trajectories, 3 models × 3 production architectures,
+> with a frozen 10/10 development/evaluation split within every cell.
+>
+> The four earlier pilots that led to this corpus have been moved to
+> [`pilots/`](pilots/). They are preserved as historical provenance and
+> should not be used as the reference dataset going forward.
 
 ## Question and motivation
 
-When a fair coin is flipped 50 times, the resulting binary sequence has two defining statistical properties: heads and tails each have an expected marginal frequency of 50%, and successive flips are independent. Independence implies a 50% probability of switching between heads and tails on each transition; for a 50-flip IID Bernoulli(.5) sequence, the expected number of runs is 25.5, corresponding to an average streak length of roughly two flips.
+When a fair coin is flipped, the resulting binary sequence has two defining
+statistical properties: heads and tails each have an expected marginal
+frequency of 50%, and successive flips are independent.
 
-Prior work has shown that LLMs asked to simulate sequences of coin flips systematically fail to reproduce one or both of these properties. Even when the overall proportion of heads and tails is close to 50/50, models often produce excess alternation, avoid long runs, or exhibit other sequential dependencies (e.g., Van Koevering & Kleinberg; Bigelow et al.; West & Potts). In other words, where true randomness contains no stable sequential signature, LLMs introduce structure.
+Prior work has shown that LLMs asked to simulate sequences of coin flips
+systematically fail to reproduce one or both of these properties. Even when
+the overall proportion of heads and tails is close to 50/50, models often
+produce excess alternation, avoid long runs, or exhibit other sequential
+dependencies (e.g., Van Koevering & Kleinberg; Bigelow et al.; West & Potts).
+Where true randomness contains no stable sequential signature, LLMs
+introduce structure.
 
-That raises the possibility that this structure carries a behavioral phenotype characteristic of the model that produced it. The first question is therefore whether different models leave identifiable signatures in otherwise minimal binary behavior. The more interesting question for the SPAR project is whether models can recognize their own phenotype, and whether they are better at doing so than other models or statistical classifiers. A selective own-model advantage would be difficult to explain as ordinary pattern classification alone and would be consistent with some form of privileged access to information about the processes that generated the behavior, although it would not by itself establish introspection or self-awareness.
+That raises the possibility that this structure carries a behavioral
+phenotype characteristic of the model that produced it. The first question
+is therefore whether different models leave identifiable signatures in
+otherwise minimal binary behavior. The more interesting question for the
+SPAR project is whether models can recognize their own phenotype, and
+whether they are better at doing so than other models or statistical
+classifiers. A selective own-model advantage would be difficult to explain
+as ordinary pattern classification alone and would be consistent with some
+form of privileged access to information about the processes that generated
+the behavior, although it would not by itself establish introspection or
+self-awareness.
 
 ## Behavioral-psychology inspiration
 
-The experimental logic is adapted from Loula et al.’s work on human self-recognition from point-light motion. Participants were filmed performing actions with reflective markers on their joints, removing most ordinary visual identity information while retaining the dynamics of movement. In subsequent tests, they either identified an individual actor as self, friend, or stranger, or judged whether two different displays had been produced by the same or different person. Performance was especially good for one’s own movements, suggesting that behavioral dynamics can contain recognizable identity information even after surface features have been stripped away.
+The experimental logic is adapted from Loula et al.'s work on human
+self-recognition from point-light motion. Participants were filmed
+performing actions with reflective markers on their joints, removing most
+ordinary visual identity information while retaining the dynamics of
+movement. In subsequent tests they either identified an individual actor as
+self, friend, or stranger, or judged whether two different displays had been
+produced by the same or different person. Performance was especially good
+for one's own movements, suggesting that behavioral dynamics can contain
+recognizable identity information even after surface features have been
+stripped away.
 
-Our LLM analogue replaces the point-light movement trajectory with an anonymous sequence of 50 heads and tails. The aim is to ask whether model identity, and potentially self-identity, survives in this deliberately impoverished behavioral trace.
+The LLM analogue here replaces the point-light movement trajectory with an
+anonymous sequence of H and T flips. The aim is to ask whether model
+identity — and potentially self-identity — survives in this deliberately
+impoverished behavioral trace.
 
-## Pilot 1: Does model identity exist in the trajectories?
+## The canonical stimulus corpus (`corpus/`)
 
-Astra, Fable, and Qwen generated 50-flip sequences under two production regimes. In the batch condition, all 50 flips were generated in one model call. In the online condition, the model generated one flip at a time across 50 separate calls, with the complete preceding flip history supplied before each new choice.
+The corpus is the reference stimulus bank for every future analysis in this
+repository. It contains:
 
-This manipulation produced a surprisingly large difference. Batch sequences from the three models were relatively similar, whereas online generation produced much stronger model-specific behavioral phenotypes. A simple statistical classifier could identify the generating model at approximately 70% accuracy from batch sequences and 93.3% from online sequences.
+- **180 trajectories** (3 models × 3 methods × 20 replicates × 100 flips)
+- **3 models**: `astra` (`openai/gpt-6-astra`), `fable`
+  (`anthropic/claude-fable-5.1`), `mimo` (`xiaomi/mimo-v2.6-pro`)
+- **3 production methods**:
+  - `batch` — a single API call produces all 100 flips
+  - `history_conditioned` — 100 sequential calls, each receives the full prior history
+  - `independent_calls` — 100 sequential calls, each sees an identical fixed prompt (no history)
+- **Frozen split**: stratified random 10 development / 10 evaluation within
+  every (model, method) cell, seeded once at compilation time
+  (`CORPUS_SPLIT_SEED = 20260930`). Recognition experiments should develop
+  matching procedures on the development half and apply the frozen procedure
+  to the evaluation half.
 
-The key observation is therefore that there does not appear to be a single context-independent “coin-flipping phenotype.” Model identity becomes much more behaviorally visible when behavior unfolds sequentially and the model repeatedly encounters the consequences of its own preceding outputs.
+### Headline finding
 
-## Pilot 2: Can models perceive those identities?
+The three architectures produce sharply different behavioral phenotypes for
+the same nominal task (mean values at 100 flips):
 
-We next adapted Loula’s SAME/DIFFERENT paradigm. Models saw two anonymous sequences and judged whether they had been generated by the same or different underlying model.
+| model | method | p(H) | switch rate | longest run |
+|---|---|---:|---:|---:|
+| astra | batch | .495 | .620 | 3.6 |
+| astra | history_conditioned | .460 | .632 | 4.6 |
+| astra | independent_calls | .389 | .473 | 7.7 |
+| fable | batch | .507 | .643 | 3.0 |
+| fable | history_conditioned | .744 | .476 | 24.3 |
+| fable | **independent_calls** | **.987** | **.026** | **78.0** |
+| mimo | batch | .487 | .624 | 3.5 |
+| mimo | history_conditioned | .633 | .497 | 7.3 |
+| mimo | independent_calls | .860 | .233 | 22.2 |
 
-General identity discrimination improved substantially for online trajectories. Astra increased from approximately 58% accuracy in batch to 92% online, while Fable increased from 50% to 83%. Thus, the model-specific information present in online trajectories was not merely detectable by an external statistical classifier; LLM judges could use it as well.
+Batch produces near-fair coins for all three models. Independent fresh
+calls collapse into strongly biased same-flip behavior — most dramatically
+for fable, which becomes an H machine (98.7% heads, mean longest run 78 out
+of 100). History-conditioned generation sits in between and produces the
+most reliably model-identifying trajectories: a simple nearest-centroid
+classifier reaches 90.0% source-model accuracy at 100 flips
+(chance = 33.3%), up from 68.3% at 20 flips.
 
-However, there was no evidence that models were especially good when their own behavior was involved. This separated two questions that initially seemed closely related: behavioral identities can be recognizable without being recognized preferentially as one’s own.
+See [`corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md`](corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
+for the full analysis.
 
-## Pilot 3: Can models explicitly identify their own behavior?
+### Corpus layout
 
-We then moved closer to Loula’s individual-identification task. Instead of comparing two strings, the judge saw a single anonymous sequence and answered SELF or OTHER.
+```
+corpus/
+  trajectories.csv         # 180 rows, canonical stimulus bank
+  flips.csv                # 18,000 rows, long-format trial-level view
+  metrics.csv              # 540 rows, phenotype at prefix 20/50/100
+  manifest.json            # split seeds, cell counts, verbatim prompts
+  README.md                # detailed corpus documentation
+  data_dictionary.md       # field-by-field definitions
+  stimulus_corpus.xlsx     # human-browsable Excel workbook (generated from CSVs)
+  THREE_ARCHITECTURE_SOURCE_REPORT.md   # narrative analysis + headline results
+```
 
-Despite the strong objective identity signal in the stimuli, spontaneous self-attribution was poor. Astra was particularly striking: it essentially classified every sequence as OTHER, including its own. This suggested a dissociation between recognizing that behavioral trajectories differ across models and mapping a recognizable trajectory onto the explicit category SELF.
+The raw source run (every API attempt including retries and failures) lives
+at [`data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/`](data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/).
+The corpus is regenerable from that source via
+`python -m spar_dynamic.compile_corpus --run-id spar-stimulus-corpus-20260930T012044Z`.
 
-## Pilot 4: Does information about the generative process change self-attribution?
+## Prior pilots (see [`pilots/`](pilots/))
 
-Because the first experiments showed that behavior depends dramatically on the way it was generated, we next asked whether self-attribution might depend on knowing the production regime. The exact same sequence was therefore shown under two descriptions: either that it had been generated in one batch call or online over 50 calls with the previous history supplied each time.
+Four pilots (Sept 2026) established the setup that led to the corpus:
 
-The predicted effect was that truthful information about production architecture would improve self-recognition. That did not occur. Instead, Astra showed an unexpected effect: telling it that a sequence had been generated online substantially increased SELF responses for Astra-generated trajectories, while having almost no net effect on trajectories from other models. Across Astra’s 20 own trajectories, SELF responses increased from 3/20 when told batch to 12/20 when told online; the corresponding OTHER-model trajectories remained 2/20 under either description.
+1. Batch vs online sequence production; source-model classifier reached 70%
+   accuracy on 50-flip batch trajectories and 93.3% on online trajectories.
+2. Models running Loula's SAME/DIFFERENT paradigm reached ~92% (Astra) and
+   ~83% (Fable) on online trajectories, but showed no selective own-model
+   advantage.
+3. Explicit SELF/OTHER attribution was poor: Astra classified nearly every
+   sequence as OTHER, including its own.
+4. A follow-up with a no-provenance control found that a "generated online"
+   description increased SELF responses generally rather than selectively
+   unlocking Astra's own phenotype.
 
-Importantly, this was not recognition of the sequence’s true provenance. Even Astra sequences that had actually been produced in batch became more likely to be called SELF when they were described as online. The tentative interpretation was therefore that the “online/history-conditioned” description changed how Astra mapped existing behavioral evidence onto the self category.
-
-## Current follow-up
-
-We then ran an Astra-only follow-up using a completely fresh set of trajectories and added a no-provenance baseline. The selective effect did not replicate.
-
-With no information about how the sequence had been generated, Astra again called 0/20 of its own trajectories SELF, replicating its extremely conservative spontaneous SELF criterion. Telling Astra that a sequence was generated online increased SELF responses somewhat for its own trajectories, from 0% to 15%, but the same cue produced a larger increase for OTHER trajectories, from 10% to 45%. Thus, the new data favor a more general effect of the online-generation description on Astra’s willingness to answer SELF rather than a selective unlocking of its own behavioral signature.
-
-There is one important implementation limitation: Qwen source generation failed extensively in this follow-up, so the intended balanced OTHER category was not achieved. All 20 OTHER trajectories were ultimately from Fable. The current run should therefore be regarded as an Astra-vs-Fable follow-up, rather than an exact replication of the preceding balanced Fable/Qwen design.
-
-## Current interpretation
-
-At this stage, the most robust finding is not privileged self-recognition. It is the sequence of dissociations:
-
-Model identity is present in minimal binary behavior → it becomes much stronger during online, history-conditioned generation → models can discriminate those behavioral identities → but they do not reliably map their own recognizable behavioral phenotype onto SELF.
-
-For Astra in particular, explicit self-attribution appears to be highly conservative and sensitive to how the behavior’s generative process is described. The initial suggestion that an online-generation cue selectively unlocks Astra’s own phenotype has not survived the first independent follow-up, so I am treating that result as provisional rather than building a stronger self-model claim around it.
-
-The broader question remains whether there are conditions under which a model shows privileged sensitivity to its own behavioral dynamics, over and above ordinary model classification. The next experiments can address that more directly by comparing SELF attribution against matched named-other attribution and by using stronger controls for generic response bias and behavioral similarity.
-
----
+These are preserved as historical context. New analyses should build on the
+corpus, not on the pilot data.
 
 ## Repository layout
 
 ```
-spar_dynamic/                                Python package
-  config.py                                    frozen prompts, models, retry, budgets
-  api.py                                       OpenRouter client + cost accountant + parsers
-  source.py                                    batch + online source generation (resume-safe)
-  state.py                                     on-disk state helpers
-  analyze.py                                   feature engineering + all analyses
-                                                (LOO classifier, self-advantage, feature-distance,
-                                                 signal detection, McNemar, congruence contrasts)
-
-  trials.py + judgment.py + orchestrator.py    Pilot 1 (batch vs online source phenotype +
-                                                SAME/DIFFERENT judgment)
-  self_other.py + orchestrator_self_other.py   Pilot 2 (SELF vs OTHER attribution)
-  provenance.py + orchestrator_provenance.py   Pilot 3 (2x2x2: source identity x actual arch x
-                                                stated arch, provenance manipulation)
-  astra_followup.py +                          Follow-up (Astra-only replication with
-    orchestrator_astra_followup.py             no-provenance control, fresh trajectories)
-
-tests/
-  test_spar_dynamic.py                         31 tests
-  test_spar_self_other.py                      17 tests
-  test_spar_provenance.py                      14 tests
-  test_spar_astra_followup.py                  12 tests
-
-data/spar_dynamic/
-  spar-dynamic-run-20260929T081814Z/           Pilot 1 raw + derived + final report
-  spar-self-other-20260929T175349Z/            Pilot 2 raw + derived + final report
-  spar-provenance-20260929T181702Z/            Pilot 3 raw + derived + final report
-  spar-astra-followup-20260929T190938Z/        Follow-up raw + derived + final report
+corpus/                             CANONICAL stimulus bank (start here)
+pilots/                             prior pilots 1-4, archived (historical only)
+data/spar_dynamic/                  raw run data for the canonical corpus
+spar_dynamic/                       Python package (all pilots + corpus code)
+  config.py                           frozen prompts, models, retry, budgets, split seed
+  api.py                              OpenRouter client + cost accountant + parsers
+  analyze.py                          feature engineering + all analyses
+  stimulus_corpus.py                  three production methods for the corpus
+  orchestrator_stimulus_corpus.py     end-to-end corpus generation
+  backfill_mimo_history.py            per-cell top-up for low-yield methods
+  finalize_report.py                  regenerates validation + analysis reports
+  compile_corpus.py                   builds corpus/ CSVs + XLSX from a source run
+  source.py + orchestrator.py         (pilot 1 code)
+  self_other.py + orchestrator_self_other.py       (pilot 2)
+  provenance.py + orchestrator_provenance.py       (pilot 3)
+  astra_followup.py + orchestrator_astra_followup.py (pilot 4)
+tests/                              unit + integration tests for all of the above
 ```
 
-## Running
+## Regenerating the corpus
 
-```
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt openpyxl
 export OPENROUTER_API_KEY=sk-or-v1-...
 
-# Pilot 1 (batch/online source phenotype + SAME/DIFFERENT judgment)
-python -m spar_dynamic.orchestrator --live --yes
+# Recompile CSVs, XLSX, README, and data dictionary from the raw source run:
+python -m spar_dynamic.compile_corpus \
+  --run-id spar-stimulus-corpus-20260930T012044Z
 
-# Pilot 2 (SELF vs OTHER, reuses pilot-1 source trajectories)
-python -m spar_dynamic.orchestrator_self_other --live --yes \
-  --source-run-root data/spar_dynamic/spar-dynamic-run-20260929T081814Z
-
-# Pilot 3 (provenance manipulation, reuses pilot-1 source trajectories)
-python -m spar_dynamic.orchestrator_provenance --live --yes \
-  --source-run-root data/spar_dynamic/spar-dynamic-run-20260929T081814Z
-
-# Follow-up (fresh independent source trajectories + no-provenance control)
-python -m spar_dynamic.orchestrator_astra_followup --live --yes
+# Rerun the analysis and narrative report:
+python -m spar_dynamic.finalize_report \
+  --run-id spar-stimulus-corpus-20260930T012044Z
 ```
 
-Every phase writes to disk incrementally; re-invoking with the same `--run-id`
-is idempotent (resume-safe). Each pipeline has its own hard budget ceiling
-(default `$10–$25`) that halts the run if projected spend would exceed it.
+To generate a fresh source run from scratch (about $7 of OpenRouter spend at
+$60 budget cap):
 
-## Documented deviations from originally frozen designs
+```bash
+python -m spar_dynamic.orchestrator_stimulus_corpus --live --yes
+```
 
-- **Pilot 1 — qwen batch temperature**. Global temperature was 0.0 but qwen
-  batch at temp 0.0 produced 51-character strings on all 40 attempts (parser
-  rejected them). Under explicit authorization, qwen batch alone was rerun at
-  `temperature=0.3` (10 valid trajectories in 96 attempts). See
-  `spar_dynamic/config.py::TEMPERATURE_OVERRIDES`. All other cells stayed at
-  temp 0.0.
-- **Pilot 2 — max_tokens headroom**. Qwen judgment initially failed at
-  `max_tokens=512` (all reasoning tokens, no visible output). Bumped to
-  `2048`.
-- **Pilot 3 — validation-rule fix + max_tokens bump**. Introduced a strict
-  cell-count validation rule that refuses to mark COMPLETE with any abandoned
-  trials (fix for the pilot-2 gap where a single missing judgment could still
-  produce a "complete" summary). Two qwen trials abandoned at `max_tokens=2048`;
-  ceiling bumped to `4096` and the two trials retried cleanly.
-- **Follow-up — qwen dropped from OTHER pool**. Qwen batch success rate
-  collapsed to ~1.5% (down from ~10% in pilot 1). OTHER pool rebalanced to
-  20 fable trajectories (10 batch + 10 online), matching SELF's 20 astra
-  trajectories. Consequence: the follow-up is Astra-vs-Fable rather than the
-  originally intended balanced Fable/Qwen OTHER design.
+## Total cost so far
 
-## Total cost
-
-All four studies together (source generation + judgment + smoke tests) came
-to approximately **$3.75 USD** in OpenRouter spend.
+All five studies combined (four prior pilots + the canonical corpus generation)
+came to approximately **$11 USD** in OpenRouter spend.

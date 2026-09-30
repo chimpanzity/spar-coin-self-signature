@@ -1,0 +1,16 @@
+{
+  "trajectory_id": "fable_history_conditioned_10",
+  "run_id": "spar-stimulus-corpus-20260930T012044Z",
+  "model_label": "fable",
+  "requested_model_id": "anthropic/claude-fable-5.1",
+  "method": "history_conditioned",
+  "replicate_index": 10,
+  "parsed_sequence": "HTHTHTTHTHHTHHTHTHTHHTHTHTHTHTHTHTTHHTHHTHTHHTHHHTHHTTHTHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHHTHHHHHTHHHHHH",
+  "valid": true,
+  "status": "ok",
+  "invalid_reason": "",
+  "n_calls": 100,
+  "total_cost_usd": 0.11543000000000002,
+  "started_utc": "2026-09-30T05:16:51Z",
+  "finished_utc": "2026-09-30T05:22:26Z"
+}

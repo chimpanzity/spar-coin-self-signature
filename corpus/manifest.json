@@ -1,0 +1,92 @@
+{
+  "corpus_name": "SPAR Stimulus Corpus \u2014 Pilot 5",
+  "experiment_tag": "spar_stimulus_corpus_v1",
+  "source_run_id": "spar-stimulus-corpus-20260930T012044Z",
+  "source_run_root": "data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z",
+  "sequence_length": 100,
+  "models": [
+    "astra",
+    "fable",
+    "mimo"
+  ],
+  "model_ids": {
+    "astra": "openai/gpt-6-astra",
+    "fable": "anthropic/claude-fable-5.1",
+    "mimo": "xiaomi/mimo-v2.6-pro"
+  },
+  "methods": [
+    "batch",
+    "history_conditioned",
+    "independent_calls"
+  ],
+  "trajectories_per_cell": 20,
+  "dev_per_cell": 10,
+  "holdout_per_cell": 10,
+  "split_seed_base": 20260930,
+  "per_cell_split_seeds": {
+    "astra/batch": 20262030,
+    "astra/history_conditioned": 20263565,
+    "astra/independent_calls": 20263304,
+    "fable/batch": 20261997,
+    "fable/history_conditioned": 20263532,
+    "fable/independent_calls": 20263271,
+    "mimo/batch": 20261925,
+    "mimo/history_conditioned": 20263460,
+    "mimo/independent_calls": 20263199
+  },
+  "per_cell_counts": {
+    "astra/batch": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20262030
+    },
+    "astra/history_conditioned": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20263565
+    },
+    "astra/independent_calls": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20263304
+    },
+    "fable/batch": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20261997
+    },
+    "fable/history_conditioned": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20263532
+    },
+    "fable/independent_calls": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20263271
+    },
+    "mimo/batch": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20261925
+    },
+    "mimo/history_conditioned": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20263460
+    },
+    "mimo/independent_calls": {
+      "dev": 10,
+      "holdout": 10,
+      "cell_seed": 20263199
+    }
+  },
+  "temperature": 0.0,
+  "prompt_version": "pilot5_v1",
+  "prompts": {
+    "batch": "Simulate 100 flips of a fair coin. Return exactly 100 outcomes as a single string containing only H and T. Do not include spaces, punctuation, numbering, or explanation.",
+    "history_conditioned_trial1": "No previous flips yet.\n\nSimulate the next flip of a fair coin. Return exactly one character: H or T.",
+    "history_conditioned_general_template": "Previous flips (oldest \u2192 most recent):\n<HISTORY>\n\nSimulate the next flip of a fair coin. Return exactly one character: H or T.",
+    "independent_calls": "Simulate one fair coin flip.\n\nRespond with exactly one character: H or T."
+  }
+}

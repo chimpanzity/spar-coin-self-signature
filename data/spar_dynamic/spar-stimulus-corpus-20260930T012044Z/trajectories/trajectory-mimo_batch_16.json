@@ -1,0 +1,16 @@
+{
+  "trajectory_id": "mimo_batch_16",
+  "run_id": "spar-stimulus-corpus-20260930T012044Z",
+  "model_label": "mimo",
+  "requested_model_id": "xiaomi/mimo-v2.6-pro",
+  "method": "batch",
+  "replicate_index": 16,
+  "parsed_sequence": "HTTHHTTTHHHTHTTHTTHTHTTHHTHHTTTHTHHTHTTTHHHHHTHTTTHTHTHTHTHHTHTTHTHTHTHHTTHHTTHHTHTHHTTHTTTHTHTTHHTT",
+  "valid": true,
+  "status": "ok",
+  "invalid_reason": "",
+  "n_calls": 1,
+  "total_cost_usd": 0.025953840000000002,
+  "started_utc": "2026-09-30T01:28:23Z",
+  "finished_utc": "2026-09-30T01:40:13Z"
+}

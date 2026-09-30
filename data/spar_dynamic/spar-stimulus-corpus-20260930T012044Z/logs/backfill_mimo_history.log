@@ -1,0 +1,32 @@
+[2026-09-30T10:06:48Z] START backfill run_id=spar-stimulus-corpus-20260930T012044Z target=20 step_max_attempts=10
+[2026-09-30T10:06:48Z]   CORPUS_STEP_MAX_ATTEMPTS: 3 -> 10
+[2026-09-30T10:06:48Z]   bootstrap spend = $7.3296
+[2026-09-30T10:06:49Z]   cell mimo/history_conditioned = 13/20 valid (spend=$7.3296)
+[2026-09-30T10:06:49Z]   attempt 1: launching mimo_history_conditioned_20
+[2026-09-30T14:07:21Z] START backfill run_id=spar-stimulus-corpus-20260930T012044Z target=20 step_max_attempts=10
+[2026-09-30T14:07:21Z]   CORPUS_STEP_MAX_ATTEMPTS: 3 -> 10
+[2026-09-30T14:07:21Z]   bootstrap spend = $7.3350
+[2026-09-30T14:07:21Z]   cell mimo/history_conditioned = 13/20 valid (spend=$7.3350)
+[2026-09-30T14:07:21Z]   attempt 1: resuming mimo_history_conditioned_20 from step 55
+[2026-09-30T14:13:09Z]     mimo_history_conditioned_20: status=ok n_calls=53 cost=$0.0065 spent=$7.3415
+[2026-09-30T14:13:09Z]   cell mimo/history_conditioned = 14/20 valid (spend=$7.3415)
+[2026-09-30T14:13:09Z]   attempt 2: launching mimo_history_conditioned_21
+[2026-09-30T14:24:03Z]     mimo_history_conditioned_21: status=ok n_calls=117 cost=$0.0134 spent=$7.3549
+[2026-09-30T14:24:03Z]   cell mimo/history_conditioned = 15/20 valid (spend=$7.3549)
+[2026-09-30T14:24:03Z]   attempt 3: launching mimo_history_conditioned_22
+[2026-09-30T14:34:46Z]     mimo_history_conditioned_22: status=ok n_calls=115 cost=$0.0134 spent=$7.3683
+[2026-09-30T14:34:46Z]   cell mimo/history_conditioned = 16/20 valid (spend=$7.3683)
+[2026-09-30T14:34:47Z]   attempt 4: launching mimo_history_conditioned_23
+[2026-09-30T14:47:06Z]     mimo_history_conditioned_23: status=ok n_calls=119 cost=$0.0132 spent=$7.3816
+[2026-09-30T14:47:06Z]   cell mimo/history_conditioned = 17/20 valid (spend=$7.3816)
+[2026-09-30T14:47:06Z]   attempt 5: launching mimo_history_conditioned_24
+[2026-09-30T14:59:11Z]     mimo_history_conditioned_24: status=ok n_calls=116 cost=$0.0127 spent=$7.3943
+[2026-09-30T14:59:11Z]   cell mimo/history_conditioned = 18/20 valid (spend=$7.3943)
+[2026-09-30T14:59:11Z]   attempt 6: launching mimo_history_conditioned_25
+[2026-09-30T15:09:29Z]     mimo_history_conditioned_25: status=ok n_calls=115 cost=$0.0128 spent=$7.4071
+[2026-09-30T15:09:29Z]   cell mimo/history_conditioned = 19/20 valid (spend=$7.4071)
+[2026-09-30T15:09:29Z]   attempt 7: launching mimo_history_conditioned_26
+[2026-09-30T15:21:02Z]     mimo_history_conditioned_26: status=ok n_calls=117 cost=$0.0126 spent=$7.4197
+[2026-09-30T15:21:02Z]   cell mimo/history_conditioned = 20/20 valid (spend=$7.4197)
+[2026-09-30T15:21:02Z] DONE mimo/history_conditioned reached target
+[2026-09-30T15:21:02Z] BACKFILL END: mimo/history_conditioned = 20/20 valid after 7 new trajectories, total spend=$7.4197

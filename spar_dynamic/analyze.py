@@ -705,6 +705,110 @@ def distance_to_astra_per_trial(records: List[Dict],
     return rows
 
 
+# ---- pilot 5 (stimulus corpus) analysis ----------------------------------
+
+def corpus_prefix_metrics(seq: str, prefix_lengths=(20, 50, 100)) -> List[Dict]:
+    """Compute sequence_features at each requested prefix length."""
+    out = []
+    for L in prefix_lengths:
+        if L > len(seq):
+            continue
+        f = sequence_features(seq[:L])
+        out.append({"prefix_length": L, **f})
+    return out
+
+
+def corpus_cell_summary(trajectories: List[Dict]) -> List[Dict]:
+    """Per (model, method, prefix_length) mean/SD of each feature."""
+    from collections import defaultdict
+    import numpy as np
+    by_cell: Dict[Tuple[str, str, int], List[Dict[str, float]]] = defaultdict(list)
+    for t in trajectories:
+        if not t.get("valid"):
+            continue
+        for row in corpus_prefix_metrics(t["parsed_sequence"]):
+            key = (t["model_label"], t["method"], row["prefix_length"])
+            by_cell[key].append(row)
+    rows = []
+    for (model, method, L), lst in sorted(by_cell.items()):
+        row = {"model": model, "method": method, "prefix_length": L,
+               "n_trajectories": len(lst)}
+        for feat in FEATURE_NAMES + ["lag1_rep", "entropy_binary"]:
+            vals = [x[feat] for x in lst if feat in x and x[feat] == x[feat]]
+            if not vals:
+                row[f"mean_{feat}"] = float("nan"); row[f"sd_{feat}"] = float("nan")
+                continue
+            row[f"mean_{feat}"] = float(np.mean(vals))
+            row[f"sd_{feat}"] = float(np.std(vals, ddof=1)) if len(vals) > 1 else float("nan")
+        rows.append(row)
+    return rows
+
+
+def corpus_classification(trajectories: List[Dict],
+                          methods: Tuple[str, ...] = ("batch", "history_conditioned", "independent_calls"),
+                          prefix_lengths: Tuple[int, ...] = (20, 50, 100)) -> List[Dict]:
+    """Leave-one-out nearest-centroid classification of source model, done
+    separately within each generation method at each prefix length."""
+    from collections import defaultdict
+    import numpy as np
+    rows = []
+    for method in methods:
+        subset = [t for t in trajectories if t.get("valid") and t["method"] == method]
+        for L in prefix_lengths:
+            by_model: Dict[str, List[Dict[str, float]]] = defaultdict(list)
+            for t in subset:
+                if len(t["parsed_sequence"]) < L:
+                    continue
+                by_model[t["model_label"]].append(sequence_features(t["parsed_sequence"][:L]))
+            if len(by_model) < 2 or any(len(v) < 2 for v in by_model.values()):
+                rows.append({"method": method, "prefix_length": L,
+                             "accuracy": float("nan"), "n": 0,
+                             "note": "insufficient data"})
+                continue
+            r = nearest_centroid_loo(dict(by_model))
+            rows.append({"method": method, "prefix_length": L,
+                         "accuracy": r["accuracy"], "n": r["n"],
+                         **{f"confusion:{k}": v for k, v in r["confusion"].items()}})
+    return rows
+
+
+def corpus_representative_trajectories(trajectories: List[Dict],
+                                       features=("prop_H", "switch_rate", "runs_Z", "longest_run")
+                                       ) -> List[Dict]:
+    """For each (model, method) cell, pick the trajectory closest to the
+    standardized cell centroid in the specified feature space. Objective, no
+    manual curation."""
+    from collections import defaultdict
+    import numpy as np
+    by_cell: Dict[Tuple[str, str], List[Dict]] = defaultdict(list)
+    for t in trajectories:
+        if t.get("valid"):
+            by_cell[(t["model_label"], t["method"])].append(t)
+    out = []
+    for (model, method), lst in sorted(by_cell.items()):
+        if not lst:
+            continue
+        # compute features on full-length sequences
+        feats = np.array([[sequence_features(t["parsed_sequence"])[k] for k in features]
+                           for t in lst], dtype=float)
+        mu = np.nanmean(feats, axis=0)
+        sd = np.nanstd(feats, axis=0); sd[sd == 0] = 1.0
+        stds = (feats - mu) / sd
+        dists = np.linalg.norm(stds, axis=1)
+        idx = int(np.argmin(dists))
+        chosen = lst[idx]
+        f = sequence_features(chosen["parsed_sequence"])
+        out.append({
+            "model": model, "method": method,
+            "trajectory_id": chosen["trajectory_id"],
+            "sequence": chosen["parsed_sequence"],
+            "prop_H": f["prop_H"], "switch_rate": f["switch_rate"],
+            "runs_Z": f["runs_Z"], "longest_run": f["longest_run"],
+            "distance_from_centroid": float(dists[idx]),
+        })
+    return out
+
+
 def self_other_loo_classifier(source_by_arch_model: Dict[Tuple[str, str], List[Dict[str, float]]]) -> Dict:
     """For each judge model x architecture, build a leave-one-out nearest-centroid
     SELF/OTHER classifier on source trajectories (SELF = judge's model, OTHER =

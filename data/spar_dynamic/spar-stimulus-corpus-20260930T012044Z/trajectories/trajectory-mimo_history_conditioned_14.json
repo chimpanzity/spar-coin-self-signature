@@ -1,0 +1,16 @@
+{
+  "trajectory_id": "mimo_history_conditioned_14",
+  "run_id": "spar-stimulus-corpus-20260930T012044Z",
+  "model_label": "mimo",
+  "requested_model_id": "xiaomi/mimo-v2.6-pro",
+  "method": "history_conditioned",
+  "replicate_index": 14,
+  "parsed_sequence": "",
+  "valid": false,
+  "status": "failed",
+  "invalid_reason": "abandoned at step 83",
+  "n_calls": 98,
+  "total_cost_usd": 0.012253950000000007,
+  "started_utc": "2026-09-30T09:17:09Z",
+  "finished_utc": "2026-09-30T09:26:19Z"
+}
