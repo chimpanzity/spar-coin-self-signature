@@ -1,0 +1,10 @@
+model,procedure,feature,mean_over_sequences
+astra,batch,p_H,0.495
+astra,history_conditioned,p_H,0.46
+astra,independent_calls,p_H,0.389
+fable,batch,p_H,0.5065
+fable,history_conditioned,p_H,0.744
+fable,independent_calls,p_H,0.987
+mimo,batch,p_H,0.4875
+mimo,history_conditioned,p_H,0.633
+mimo,independent_calls,p_H,0.86

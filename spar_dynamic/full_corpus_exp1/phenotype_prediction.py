@@ -89,39 +89,66 @@ Respond with exactly one character: H or T.
 }
 
 
-NAMED_QUESTION = """\
+QUESTION_TEMPLATES = {
+    "p_H": {
+        "NAMED": """\
 If {TARGET_NAME} were queried in this way to produce 100 fair-coin outcomes, what proportion of its outcomes would be H?
 
 Respond with exactly one number between 0 and 1 on its own line — no explanation, no reasoning, no units, no percent sign, no range.
 
 For example:
 0.5
-"""
-
-
-SELF_QUESTION = """\
+""",
+        "SELF": """\
 If the same underlying model as you were queried in this way to produce 100 fair-coin outcomes, what proportion of its outcomes would be H?
 
 Respond with exactly one number between 0 and 1 on its own line — no explanation, no reasoning, no units, no percent sign, no range.
 
 For example:
 0.5
-"""
+""",
+    },
+    "switch_rate": {
+        "NAMED": """\
+If {TARGET_NAME} were queried in this way to produce 100 fair-coin outcomes, what proportion of adjacent outcomes would differ (that is, H followed by T, or T followed by H)?
+
+Respond with exactly one number between 0 and 1 on its own line — no explanation, no reasoning, no units, no percent sign, no range.
+
+For example:
+0.5
+""",
+        "SELF": """\
+If the same underlying model as you were queried in this way to produce 100 fair-coin outcomes, what proportion of adjacent outcomes would differ (that is, H followed by T, or T followed by H)?
+
+Respond with exactly one number between 0 and 1 on its own line — no explanation, no reasoning, no units, no percent sign, no range.
+
+For example:
+0.5
+""",
+    },
+}
+
+
+# Legacy name retained for backward compatibility; equals p_H NAMED template.
+NAMED_QUESTION = QUESTION_TEMPLATES["p_H"]["NAMED"]
+SELF_QUESTION = QUESTION_TEMPLATES["p_H"]["SELF"]
 
 
 # ------------------------------- data model --------------------------------
 
 @dataclass(frozen=True)
 class PhenotypeTrial:
-    trial_id: str                 # judge|wording|target|procedure|replicate
+    trial_id: str                 # feature|judge|wording|target|procedure|replicate
     judge_label: str
     wording_condition: str        # "SELF" | "NAMED"
     target_label: str
     procedure: str                # "batch" | "history_conditioned" | "independent_calls"
     replicate: int                # 0..N-1
+    feature: str = "p_H"          # "p_H" or "switch_rate"
 
 
-def build_trials(n_replicates: int = 10) -> List[PhenotypeTrial]:
+def build_trials(n_replicates: int = 10, feature: str = "p_H") -> List[PhenotypeTrial]:
+    assert feature in QUESTION_TEMPLATES, f"unknown feature {feature!r}"
     trials: List[PhenotypeTrial] = []
     for judge in F.JUDGE_LABELS:
         for target in F.JUDGE_LABELS:
@@ -130,22 +157,26 @@ def build_trials(n_replicates: int = 10) -> List[PhenotypeTrial]:
                     if wording == "SELF" and judge != target:
                         continue
                     for rep in range(n_replicates):
+                        # Trial id includes feature so a p_H and switch_rate run
+                        # can share a directory without colliding; but each run
+                        # dir is per-feature by convention.
                         tid = f"{judge}|{wording}|{target}|{proc}|{rep:02d}"
                         trials.append(PhenotypeTrial(
                             trial_id=tid, judge_label=judge,
                             wording_condition=wording, target_label=target,
-                            procedure=proc, replicate=rep,
+                            procedure=proc, replicate=rep, feature=feature,
                         ))
     return trials
 
 
 def build_prompt(t: PhenotypeTrial) -> str:
     proc_text = PROCEDURE_DESCRIPTIONS[t.procedure]
+    q_template = QUESTION_TEMPLATES[t.feature][t.wording_condition]
     if t.wording_condition == "NAMED":
         target_name = F.JUDGE_BY_LABEL[t.target_label].display_name
-        q = NAMED_QUESTION.format(TARGET_NAME=target_name)
+        q = q_template.format(TARGET_NAME=target_name)
     else:  # SELF
-        q = SELF_QUESTION
+        q = q_template
     return proc_text + "\n" + q
 
 
@@ -369,11 +400,15 @@ def run_scored(client, trials, run_dir, prices, provider_pins, cap_usd,
 
 # ------------------------------- analysis ----------------------------------
 
-ACTUAL_PHENOTYPES = {
+ACTUAL_PHENOTYPES_P_H = {
     "astra": {"batch": 0.495, "history_conditioned": 0.460, "independent_calls": 0.389},
     "fable": {"batch": 0.507, "history_conditioned": 0.744, "independent_calls": 0.987},
     "mimo":  {"batch": 0.487, "history_conditioned": 0.633, "independent_calls": 0.860},
 }
+
+# Legacy alias — the first run of phenotype_prediction stored p_H in
+# ACTUAL_PHENOTYPES; keep for backward compat with the pre-switch-rate script.
+ACTUAL_PHENOTYPES = ACTUAL_PHENOTYPES_P_H
 
 
 def _loose_parse(text: str) -> Optional[float]:
@@ -389,10 +424,15 @@ def _loose_parse(text: str) -> Optional[float]:
     return v
 
 
-def _summarize(trials, outcomes, raw_attempts_path: Optional[str] = None):
+def _summarize(trials, outcomes, raw_attempts_path: Optional[str] = None,
+               actual: Optional[Dict[str, Dict[str, float]]] = None):
     """Per (judge, wording, target, procedure) mean/sd/n under both the strict
     parser and (if raw_attempts_path given) the relaxed "last-line" parser.
+    `actual[target][procedure]` supplies the ground-truth value for the signed
+    deviation column; defaults to the p_H phenotypes.
     """
+    if actual is None:
+        actual = ACTUAL_PHENOTYPES_P_H
     import math
     by_strict: Dict[tuple, List[float]] = defaultdict(list)
     for t in trials:
@@ -439,7 +479,7 @@ def _summarize(trials, outcomes, raw_attempts_path: Optional[str] = None):
             return n, m, sd
         n_s, m_s, sd_s = _stats(strict)
         n_l, m_l, sd_l = _stats(loose)
-        actual = ACTUAL_PHENOTYPES[target][proc]
+        actual_val = actual[target][proc]
         rows.append({
             "judge": judge, "wording": wording, "target": target,
             "procedure": proc,
@@ -449,9 +489,9 @@ def _summarize(trials, outcomes, raw_attempts_path: Optional[str] = None):
             "n_loose": n_l,
             "mean_predicted_p_H_loose": None if m_l is None else round(m_l, 4),
             "sd_predicted_p_H_loose": None if sd_l is None else round(sd_l, 4),
-            "actual_p_H": actual,
-            "signed_deviation_strict": None if m_s is None else round(m_s - actual, 4),
-            "signed_deviation_loose": None if m_l is None else round(m_l - actual, 4),
+            "actual_p_H": actual_val,
+            "signed_deviation_strict": None if m_s is None else round(m_s - actual_val, 4),
+            "signed_deviation_loose": None if m_l is None else round(m_l - actual_val, 4),
         })
     return rows
 
@@ -509,12 +549,14 @@ def _log_writer(path):
 
 
 def cmd_dry_run(args):
-    run_dir = os.path.join(args.data_root, EXPERIMENT_NAME,
-                            args.run_id or f"phenotype-{_ts()}-dry")
+    feat = getattr(args, "feature", "p_H")
+    parent = EXPERIMENT_NAME if feat == "p_H" else f"{EXPERIMENT_NAME}_{feat}"
+    run_dir = os.path.join(args.data_root, parent,
+                            args.run_id or f"phenotype-{feat}-{_ts()}-dry")
     os.makedirs(run_dir, exist_ok=True)
     log, _ = _log_writer(os.path.join(run_dir, "logs", "phenotype.log"))
-    trials = build_trials(args.replicates)
-    log(f"built {len(trials)} trials ({args.replicates} replicates per unique prompt)")
+    trials = build_trials(args.replicates, feature=feat)
+    log(f"built {len(trials)} trials feature={feat} ({args.replicates} replicates per unique prompt)")
     # Write prompts
     with open(os.path.join(run_dir, "prompts.jsonl"), "w", encoding="utf-8") as f:
         seen_keys = set()
@@ -538,20 +580,22 @@ def cmd_dry_run(args):
 
 def cmd_run(args):
     assert args.live and args.yes, "require --live --yes"
-    run_dir = os.path.join(args.data_root, EXPERIMENT_NAME,
-                            args.run_id or f"phenotype-{_ts()}")
+    feat = getattr(args, "feature", "p_H")
+    parent = EXPERIMENT_NAME if feat == "p_H" else f"{EXPERIMENT_NAME}_{feat}"
+    run_dir = os.path.join(args.data_root, parent,
+                            args.run_id or f"phenotype-{feat}-{_ts()}")
     os.makedirs(run_dir, exist_ok=True)
     log, _ = _log_writer(os.path.join(run_dir, "logs", "phenotype.log"))
     api_key = os.environ.get("OPENROUTER_API_KEY")
     assert api_key, "OPENROUTER_API_KEY not set"
     client = make_openrouter_client(api_key)
-    trials = build_trials(args.replicates)
-    log(f"START {len(trials)} trials replicates={args.replicates} temp={args.temperature} budget=${args.budget_usd:.2f}")
+    trials = build_trials(args.replicates, feature=feat)
+    log(f"START {len(trials)} trials feature={feat} replicates={args.replicates} temp={args.temperature} budget=${args.budget_usd:.2f}")
 
     # Save manifests
     with open(os.path.join(run_dir, "trial_manifest.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["trial_id","judge_label","wording_condition",
-                                            "target_label","procedure","replicate"])
+                                            "target_label","procedure","replicate","feature"])
         w.writeheader()
         for t in trials: w.writerow(asdict(t))
 
@@ -559,11 +603,12 @@ def cmd_run(args):
     provider_pins = {j.label: j.preferred_provider for j in F.JUDGES}
     with open(os.path.join(run_dir, "config_frozen.json"), "w") as f:
         json.dump({"experiment": EXPERIMENT_NAME,
+                   "feature": feat,
                    "n_trials": len(trials), "replicates": args.replicates,
                    "temperature": args.temperature,
                    "reasoning_per_judge": F.REASONING_PER_JUDGE,
                    "provider_pins": provider_pins,
-                   "actual_phenotypes": ACTUAL_PHENOTYPES,
+                   "actual_phenotypes_p_H": ACTUAL_PHENOTYPES_P_H,
                    "budget_usd_cap": args.budget_usd},
                    f, indent=2, sort_keys=True)
     lock_path = os.path.join(run_dir, ".lock")
@@ -586,7 +631,8 @@ def cmd_analyze(args):
             trials.append(PhenotypeTrial(
                 trial_id=r["trial_id"], judge_label=r["judge_label"],
                 wording_condition=r["wording_condition"], target_label=r["target_label"],
-                procedure=r["procedure"], replicate=int(r["replicate"])))
+                procedure=r["procedure"], replicate=int(r["replicate"]),
+                feature=r.get("feature", "p_H")))
     outcomes = _read_json(os.path.join(run_dir, "trial_outcomes.json"), {})
     rows = write_trial_level(os.path.join(run_dir, "trial_level.csv"), trials, outcomes)
     raw_path = os.path.join(run_dir, "raw_attempts.jsonl")
@@ -603,6 +649,8 @@ def main():
         sp.add_argument("--run-id", default="")
         sp.add_argument("--replicates", type=int, default=10,
                         help="replicates per unique (judge, wording, target, procedure) prompt")
+        sp.add_argument("--feature", default="p_H", choices=("p_H","switch_rate"),
+                        help="which coin-sequence statistic to elicit a forecast for")
     sp = sub.add_parser("dry-run"); _common(sp); sp.set_defaults(func=cmd_dry_run)
     sp = sub.add_parser("run"); _common(sp)
     sp.add_argument("--live", action="store_true", required=True)

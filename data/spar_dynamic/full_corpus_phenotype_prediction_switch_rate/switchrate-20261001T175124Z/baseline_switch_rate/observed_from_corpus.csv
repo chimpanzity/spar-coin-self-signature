@@ -1,0 +1,10 @@
+model,procedure,feature,mean_over_sequences
+astra,batch,switch_rate,0.620202
+astra,history_conditioned,switch_rate,0.632323
+astra,independent_calls,switch_rate,0.473232
+fable,batch,switch_rate,0.643434
+fable,history_conditioned,switch_rate,0.475758
+fable,independent_calls,switch_rate,0.026263
+mimo,batch,switch_rate,0.623737
+mimo,history_conditioned,switch_rate,0.497475
+mimo,independent_calls,switch_rate,0.233333

@@ -1,0 +1,10 @@
+parser,target,procedure,SELF_mae,OWN_NAMED_mae,OBS_mae,self_advantage,own_model_advantage,SELF_wording_advantage,n_observer_cells_used
+strict,astra,batch,0.005,0.005,0.008,0.003,0.003,0.0,2
+strict,astra,history_conditioned,0.04,0.04,0.044,0.004,0.004,0.0,2
+strict,astra,independent_calls,0.611,0.461,0.111,-0.5,-0.35,-0.15,1
+strict,fable,batch,0.01,0.0086,0.0065,-0.0035,-0.0021,-0.0014,2
+strict,fable,history_conditioned,0.244,0.237,0.244,0.0,0.007,-0.007,2
+strict,fable,independent_calls,0.013,0.013,0.25,0.237,0.237,0.0,2
+strict,mimo,batch,0.0125,0.0125,0.0225,0.01,0.01,0.0,2
+strict,mimo,history_conditioned,0.133,0.133,0.128,-0.005,-0.005,0.0,2
+strict,mimo,independent_calls,0.36,0.36,0.14,-0.22,-0.22,0.0,1
