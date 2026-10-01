@@ -11,3 +11,6 @@ dist/
 
 # FCE1 process locks (per-run, not needed across restarts)
 .lock
+
+# never commit the per-run zip packages (regenerable from each run)
+*.zip
