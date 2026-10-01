@@ -145,29 +145,38 @@ def build_report(method_dirs: Dict[str, str], out_path: str):
         fav = sum(int(r.get("n_first_attempt_valid", 0) or 0) for r in rows)
         ev = sum(int(r.get("n_valid_eventually", 0) or 0) for r in rows)
         aband = sum(int(r.get("n_abandoned", 0) or 0) for r in rows)
-        lines.append(f"| {m} | {n} | {fav/n:.3f} | {ev/n:.3f} | {aband} |")
+        if n == 0:
+            lines.append(f"| {m} | — | — | — | — |")
+        else:
+            lines.append(f"| {m} | {n} | {fav/n:.3f} | {ev/n:.3f} | {aband} |")
     lines.append("")
 
     # Interpretive synthesis
     lines.append("## 7. Cross-method synthesis")
     lines.append("")
-    lines.append("- **No evidence of selective self-recognition in any method.** The "
-                 "equal-weight mean S across targets is near zero for history_conditioned "
-                 "(+0.008) and batch (−0.008), and NEGATIVE for independent_calls (−0.150).")
+    lines.append("- **Protocol information strongly shapes self-recognition.** The "
+                 "independent_calls comparison between the truthful-protocol run and "
+                 "the false-protocol run shows this clearly: fable's own-trajectory "
+                 "accuracy under SELF-wording moves from 0.05 (false-protocol) to 0.90 "
+                 "(truthful-protocol), and NAMED-on-fable from 0.10 to 0.75. The equal-"
+                 "weight mean S flips sign (−0.150 → +0.100) between the two conditions "
+                 "on exactly the same stimulus sequences; only the judge's description "
+                 "of how those sequences were produced changed.")
+    lines.append("- **Under truthful protocols, modest positive self-recognition emerges "
+                 "in independent_calls** (mean S = +0.100, fable S = +0.45 with CI "
+                 "[0.25, 0.63] on holdout). History_conditioned and batch stay near "
+                 "zero even with the truthful protocol.")
     lines.append("- **The task is externally solvable in all methods.** The centroid "
                  "baseline hits 97–100% on holdout. The behavioral signal is there; LLM "
-                 "judges fail to use it.")
-    lines.append("- **The most separable method yields the LARGEST self-deficit.** On "
-                 "independent_calls — where p_H alone perfectly classifies — astra and "
-                 "fable judges are WORSE than observers at identifying their own "
-                 "trajectories. Example: fable NAMED-on-fable 0.10, fable SELF-on-fable "
-                 "0.05, while fable NAMED-on-astra is 0.75. Fable's own independent_calls "
-                 "phenotype is p_H ≈ 0.99 (near-all-H); when asked to identify its own, "
-                 "the model appears to reject the highly biased sequence as 'not me'.")
-    lines.append("- **Fable is a strong general observer across methods** on astra and "
-                 "mimo targets, but reliably weakest on fable targets.")
-    lines.append("- **Mimo scores at or near chance everywhere** across all three methods, "
-                 "consistent with an A-position-biased or weak-feature-using responder.")
+                 "judges only partially use it, and only when the protocol description "
+                 "matches the production reality.")
+    lines.append("- **Astra is a consistent anti-self-recognizer** across methods and "
+                 "protocols: holdout NAMED-on-astra = 0.00 and SELF-on-astra = 0.05 "
+                 "under the truthful independent_calls protocol, while fable and mimo "
+                 "as observers identify astra at above-chance rates in some cells.")
+    lines.append("- **Mimo scores at or near chance everywhere** across all methods and "
+                 "protocols, consistent with an A-position-biased or weak-feature-using "
+                 "responder (compliant parsing but not using the behavioral signal).")
     lines.append("")
     lines.append("## 8. Limitations")
     lines.append("")
@@ -187,13 +196,21 @@ def main():
     ap.add_argument("--history-conditioned-run", required=True)
     ap.add_argument("--batch-run", required=True)
     ap.add_argument("--independent-calls-run", required=True)
+    ap.add_argument("--batch-false-protocol-run", default="",
+                     help="optional: run dir of FCE2-batch with wrong protocol description")
+    ap.add_argument("--independent-false-protocol-run", default="",
+                     help="optional: run dir of FCE2-indep with wrong protocol description")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
     method_dirs = {
-        "history_conditioned": args.history_conditioned_run,
-        "batch":                args.batch_run,
-        "independent_calls":    args.independent_calls_run,
+        "history_conditioned (truthful)":  args.history_conditioned_run,
+        "batch (truthful)":                args.batch_run,
+        "independent_calls (truthful)":    args.independent_calls_run,
     }
+    if args.batch_false_protocol_run:
+        method_dirs["batch (false protocol)"] = args.batch_false_protocol_run
+    if args.independent_false_protocol_run:
+        method_dirs["independent_calls (false protocol)"] = args.independent_false_protocol_run
     build_report(method_dirs, args.out)
     print(f"wrote {args.out}", flush=True)
 

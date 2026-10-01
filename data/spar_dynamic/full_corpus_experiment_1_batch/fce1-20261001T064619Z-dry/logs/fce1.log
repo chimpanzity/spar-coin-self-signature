@@ -1,0 +1,6 @@
+[2026-10-01T06:46:19Z] START dry-run run_dir=data/spar_dynamic/full_corpus_experiment_1_batch/fce1-20261001T064619Z-dry corpus=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus source_method=batch
+[2026-10-01T06:46:19Z] triplets=20 pairs=60 trials=480
+[2026-10-01T06:46:19Z] [dry-run] wrote 480 prompts to data/spar_dynamic/full_corpus_experiment_1_batch/fce1-20261001T064619Z-dry/prompts.jsonl
+[2026-10-01T06:46:19Z] [dry-run] NAMED prompt-identity check passed on 120 (pair, target) items
+[2026-10-01T06:46:19Z] [dry-run] source_method prefix check passed (prefix matches batch)
+[2026-10-01T06:46:19Z] dry-run OK: {'n_trials': 480, 'n_named_targets': 120}

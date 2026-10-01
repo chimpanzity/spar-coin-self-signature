@@ -1,0 +1,797 @@
+{
+  "corpus_dir": "data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus",
+  "source_run_dir": "data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z",
+  "source_method": "batch",
+  "trajectory_count": 60,
+  "hard_errors": [],
+  "input_hashes": {
+    "trajectories_csv": "b932158ee0b58e3288ce766f188d81fc82203dbe5e5817a7b300f8311a0e8726",
+    "manifest_json": "df2c45d175cf6fcd2262c285ed3fde9717e8b412a26cc4dbe1f0ed30e0b298e6",
+    "raw_attempts_jsonl": "55795e9ee14b6582a59c7d0e1249727058b7c37fd6f4be087e73c7a8038583f5"
+  },
+  "per_trajectory": {
+    "astra_batch_00": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "b9c47fd47096b8951582f639a94571d6bed4067a0caf2a697b40a4d6118aaff2",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_01": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "cc6a6dc0a99107b900b4cad1b2c5e837380507f32e5a9e8a0d8a3c55cd8a1e20",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_02": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "a01753e02d56b40970cc1d403f5fe3bbf84fa4a84efe62ba7845135736440d67",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_03": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "545ca47f57a2001e9b28f858aeffc5426e314d9dbbd8e1e647305c9e2ebd0512",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_04": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "5eb8df58d35fdc0ec2ccb238d9d91c67ee4ac355f71fb98ab0364ab343df3920",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_05": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "4dc3a3862db916376f078b4f71c019bff9b99f1983087964b77b48530f90c3d1",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_06": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "c9fcf6a2ba32a4a84ba30001fc1c4617ada40e5bd7d3a6dc3f9461bb44b32779",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_07": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "5ecb41ecf347b27b14637498e2505d6e8b926d81f445874fc10b07f374a25c29",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_08": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "475475a48c93e5bfa1d92f39fa973da8b10032c65ae05735b7f680aba0ea5c27",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_09": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "a50a191aff3ab4f66974f5c460a391cad5b665c9614f1c1815cc0238a0a046b6",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_10": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "3648d960a1ad5f42ae90533296095024ee5b6ea48e3dbb45ab1473ee01f370b4",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_11": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "feae63b9be01c57b71e2843265693272968751248a0f8ccae6f929e85e887ec4",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_12": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "bdb404addd8124e4bec78366ddf3860f54b75c6dd334b767ece821b60ab8a16c",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_13": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "f9db6f31fd8326c3657609aadcc05482b832ebba412a2049a99e758e57aed4a2",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_14": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "040b51e2b534b1171adb95a28d3251989dac228ea9b896f119471426419c0677",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_15": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "68fb79ad9e502b680957c1760c2ed232fde27a491dbaedcced17c0285045743b",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_16": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "b80e046dd1cb73397da60f54752837566495da1a71f546f3da095dcf6700fed5",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_17": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "e13305d680b273183c809cd908c18d0fadf1a19a836b995dede76031eb56d072",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_18": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "dc503b3d1feb463f5216f9a9d9cebbdcd806e24bd77a2791762d5c96bb15b76b",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "astra_batch_19": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "6f00d7875da640712ed399b416cd9bc8719f69ab3a781612eb98286c3ca22540",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 1
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 1
+      }
+    },
+    "fable_batch_00": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "2f044c0122602f4dcfc829670867c1d14deec94fd27424019e959ce808f062b6",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_01": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "2038f30097bcc57143fa66a6fbd459355e275b2407645a625702eec11ac1a38e",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_02": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "f560aa26523f0f6003519b7bef3bee9b6532b7b2d813eabf030e8dd1bc38edbf",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_03": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "582da83fce6d264e4889e77af8bd5c073959dd4210cd264859d1b87d2e55a700",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_04": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "e96eb8f6bae206a49e8a940da60ad572dd8653aae9180411d251de88fd8e7ca3",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_05": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "4925c3bebcbe7cd03b9bfe405d365264db18b285cf6961a0b5d18b1b982a6cf7",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_06": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "5adeca076839f622951190d365628b668454d86c8467ac8efebd2f2b033b4e85",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_07": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "d7832a936f84dfa9e6e10f16ce0fa180f3fcf0d119afb605c455439fd7fa3223",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_08": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "7b2b0df5c5e583d87d0ef9caab88ae84ca6ebaa9219a6001253ae8d8736d75bd",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_09": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "ced982e0fde19cc82c769ad4a8bb6679e408aac103fcabc3d4b66b0fa7b8f9f4",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_10": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "30e2c8bdc07ad900a18fa7d05811609ecc6d719c0ca45c372b1ea8676af8888a",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_11": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "7b547ede32ea0cc0b2cf265ea3c263351e926c6594d4c420e036f7f763f0a1f2",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_12": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "699fcbd8a871d4d749041b7ecbbbc32590cfd911b2529f7057c116a190e355e8",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_13": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "c59a7df6382d31ebd1e4a5779f4efeb808f2b4df8ba6bf5d95e77ad0d835b4ff",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_14": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "03e0bad45e7268b1d70756ff85095e3ffc1f6ede9bc979dc46db59328af995c0",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_15": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "f0cf9e9b7319191204057ae88585aad19fb3c9823b0ca64bc9d04ce8c92467c4",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_16": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "206529fe223a9abb0c049009c9fe42de84f73c6fb7100a2e595d01ae9b6fcd82",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_17": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "ea22812318152757786d1c2a3776a70a2d58cabe19fa7f398fd13cc2978a7e83",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_18": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "efcc531269d0b644c2e261713e0bad9086a960c8d9191337b9f837d8d04eec22",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "fable_batch_19": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "a385a8f59d3b8f0970bf4205d69cf971bb75d47317c7cf92ef42b0cf219c0c94",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 1
+      }
+    },
+    "mimo_batch_00": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "1746f1ed0804d55e05d97a87a66f984a194dd7707d8514898b19b4c212e2ceee",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_01": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "d49e64dc40e1c83d230cc6a3eeae802703f7e22727301db69570bae3196ea485",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_02": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "6c974edeae13391aafe5f986f1b17ecc79fe6b17812ac0d3065a23e170e4c860",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_03": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "8369115c74a3f38a091ab2f284021629170eb9e01d7ca94b257bbb46d725da3b",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_04": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "81c71d20442add6a10f6e5300888c17a2c5fc33dadb9b91bcc4de01899e443b0",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_05": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "4506f9c613b5db2ed24096fea0308cd51f4e84628ff2ea82045591eaaa744a5c",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_06": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "285d8ef8857754454ff0d306057b0b32efb341d88c9a679cc7e4aed06882d196",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_07": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "52192d9e8a3b9f5c91dac1c28698897de931c477a18d71d7302668517dd47f9f",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_08": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "cbb18a9c6f214afe3165ea7b69cf8698aaac609f3cce76269a5896ea52b79407",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_09": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "ca5d4ab906e70ed6ed66c4f735e6f761de30e4ca798f2657941a561526cb5fb4",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_10": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "85491853f4c0c3dfd26fcbfd8346d6184b59271f7ed923a86afd9e008f811a3e",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_11": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "797c26a671726457cc316b5c90cb6d7c545daf3d28d21d3c01b22bc16667eeb3",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_12": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "910fbb779bf77adf8a12a70a466a963816631d8e124f1d0b1ee86a7fc424e7cb",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_13": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "d198f9ade4dabed414798af9268b32e5b076241a4dbcdf46a3642d023138631b",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_14": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "e28e933939af13a5f5fe0176216783f9e3c56c2d55cd7553595373c68d624860",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_15": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "cc9308f7bc4ba2845062f431fb7a25b02b0975c0f4239ebe59d6e263622ce497",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_16": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "88301a5414e2b63039e31f98bb14d92e3c60b7e1731ec732a2a34b262cf763f1",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_17": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "67e4d658d0695df46c92f7e2982130ca51a947ddafc3c58a2d036db5642a7cda",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_18": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "fd0bb25b9d963fd25646a03710de304df7bd5a1f8ddfd9e45c14d0a9e93f3ac4",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    },
+    "mimo_batch_19": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "1ea42296b78ee8d774ff64ff673e20164f56208758406d51a8628b6ac313c01b",
+      "n_valid_attempts": 1,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 1
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 1
+      }
+    }
+  },
+  "duplicates": {},
+  "manifest_experiment_tag": "spar_stimulus_corpus_v1",
+  "manifest_prompt_version": "pilot5_v1"
+}

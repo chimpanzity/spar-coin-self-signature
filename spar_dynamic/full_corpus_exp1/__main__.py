@@ -111,7 +111,7 @@ def cmd_dry_run(args):
     write_triplet_manifest(os.path.join(run_dir, "triplet_manifest.csv"), triplets)
     write_pair_manifest(os.path.join(run_dir, "pair_manifest.csv"), pairs)
     write_trial_manifest(os.path.join(run_dir, "trial_manifest.csv"), trials)
-    r = dry_run(trials, run_dir, log=log)
+    r = dry_run(trials, run_dir, log=log, source_method=sm)
     log(f"dry-run OK: {r}")
     # Save frozen config (without provider pins — those are resolved at run-time)
     with open(os.path.join(run_dir, "config_frozen.json"), "w", encoding="utf-8") as f:
@@ -176,7 +176,7 @@ def cmd_run(args):
     write_triplet_manifest(os.path.join(run_dir, "triplet_manifest.csv"), triplets)
     write_pair_manifest(os.path.join(run_dir, "pair_manifest.csv"), pairs)
     write_trial_manifest(os.path.join(run_dir, "trial_manifest.csv"), trials)
-    write_prompts_jsonl(os.path.join(run_dir, "prompts.jsonl"), trials)
+    write_prompts_jsonl(os.path.join(run_dir, "prompts.jsonl"), trials, source_method=sm)
 
     # Audit sources
     tids = sorted({t.sequence_A_id for t in trials} | {t.sequence_B_id for t in trials})
@@ -209,7 +209,8 @@ def cmd_run(args):
         with process_lock(lock_path):
             if args.stage in ("preflight", "all"):
                 pre = run_preflight(client, trials, run_dir, prices, provider_pins,
-                                    cap_usd=args.budget_usd, log=log)
+                                    cap_usd=args.budget_usd, log=log,
+                                    source_method=sm)
                 if not pre["passes"]:
                     log(f"ABORT: preflight failed: {pre}")
                     return run_dir
@@ -219,7 +220,8 @@ def cmd_run(args):
             if args.stage in ("scored", "all"):
                 summary = run_scored(client, trials, run_dir, prices, provider_pins,
                                      max_tokens=F.INITIAL_MAX_TOKENS,
-                                     cap_usd=args.budget_usd, log=log)
+                                     cap_usd=args.budget_usd, log=log,
+                                     source_method=sm)
                 log(f"scored summary: {summary}")
     except RuntimeError as e:
         log(f"LOCK ERROR: {e}")

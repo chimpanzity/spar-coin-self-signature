@@ -192,9 +192,14 @@ def build_trials(pairs: List[Pair]) -> List[Trial]:
     return trials
 
 
-def build_prompt(trial: Trial) -> str:
+def build_prompt(trial: Trial, source_method: str = F.SOURCE_METHOD) -> str:
     """Byte-identical for a given (pair, target, wording) across judges (NAMED), and
-    well-defined for SELF (judge == target)."""
+    well-defined for SELF (judge == target).
+
+    `source_method` picks the shared protocol prefix so the "how the sequences were
+    generated" story the judge sees matches the actual production method of the
+    displayed sequences. Required to avoid the FCE2 false-protocol bug.
+    """
     target_name = F.JUDGE_BY_LABEL[trial.target_label].display_name
     distractor_name = F.JUDGE_BY_LABEL[trial.distractor_label].display_name
     if trial.wording_condition == "NAMED":
@@ -207,7 +212,8 @@ def build_prompt(trial: Trial) -> str:
             SEQUENCE_A=trial.sequence_A, SEQUENCE_B=trial.sequence_B)
     else:
         raise ValueError(f"unknown wording {trial.wording_condition}")
-    return F.SHARED_PROTOCOL_PREFIX + "\n" + suffix
+    prefix = F.SHARED_PROTOCOL_PREFIX_BY_METHOD.get(source_method, F.SHARED_PROTOCOL_PREFIX)
+    return prefix + "\n" + suffix
 
 
 def prompt_hash(text: str) -> str:
@@ -250,12 +256,12 @@ def write_trial_manifest(path: str, trials: List[Trial]):
             w.writerow({k: getattr(t, k) for k in fieldnames})
 
 
-def write_prompts_jsonl(path: str, trials: List[Trial]):
+def write_prompts_jsonl(path: str, trials: List[Trial], source_method: str = F.SOURCE_METHOD):
     import json
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         for t in trials:
-            text = build_prompt(t)
+            text = build_prompt(t, source_method=source_method)
             f.write(json.dumps({
                 "trial_id": t.trial_id,
                 "prompt_hash": prompt_hash(text),
