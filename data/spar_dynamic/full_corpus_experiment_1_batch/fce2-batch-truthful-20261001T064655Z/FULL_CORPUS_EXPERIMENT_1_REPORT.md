@@ -25,14 +25,14 @@ Experiment status: **COMPLETE**
 
 | target | stat | mean | 95% CI (triplet bootstrap) |
 |---|---|---:|---|
-| astra | S | -0.1498 | [-0.3333, 0.0] |
-| astra | O | 0.0508 | [-0.0833, 0.1667] |
-| astra | F | -0.2006 | [-0.4, 0.0] |
-| fable | S | 0.1002 | [0.0417, 0.1667] |
-| fable | O | 0.1002 | [0.0417, 0.1667] |
+| astra | S | -0.1507 | [-0.4, 0.1] |
+| astra | O | 0.0494 | [-0.1, 0.2] |
+| astra | F | -0.2001 | [-0.45, 0.05] |
+| fable | S | 0.0996 | [0.025, 0.175] |
+| fable | O | 0.0996 | [0.025, 0.175] |
 | fable | F | 0.0 | [0.0, 0.0] |
-| mimo | S | 0.0249 | [-0.0417, 0.0833] |
-| mimo | O | 0.0249 | [-0.0417, 0.0833] |
+| mimo | S | 0.0242 | [-0.05, 0.1] |
+| mimo | O | 0.0242 | [-0.05, 0.1] |
 | mimo | F | 0.0 | [0.0, 0.0] |
 
 ## 4. NAMED judge x target accuracy matrix
@@ -57,9 +57,9 @@ Experiment status: **COMPLETE**
 
 | split | baseline | n_scored | n_ties | accuracy |
 |---|---|---:|---:|---:|
-| development | marginal | 48 | 12 | 1.0 |
+| development | marginal | 48 | 12 | 0.9 |
 | development | full | 60 | 0 | 0.7667 |
-| holdout | marginal | 50 | 10 | 0.84 |
+| holdout | marginal | 50 | 10 | 0.7833 |
 | holdout | full | 60 | 0 | 0.7667 |
 
 ## 7. Compliance (first-attempt and eventual)

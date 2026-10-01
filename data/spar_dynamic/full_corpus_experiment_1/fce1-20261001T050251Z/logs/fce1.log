@@ -86,3 +86,6 @@
 [2026-10-01T05:16:58Z] scored summary: {'n_outcomes': 480, 'n_ok': 480, 'n_abandoned': 0, 'spent_usd': 2.84227522}
 [2026-10-01T05:17:10Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T050251Z
 [2026-10-01T05:17:11Z] analysis done; final report at data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T050251Z/FULL_CORPUS_EXPERIMENT_1_REPORT.md
+[2026-10-01T07:52:39Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T050251Z source_method=history_conditioned
+[2026-10-01T07:52:39Z] loaded 480 trials from saved trial_manifest.csv
+[2026-10-01T07:52:41Z] analysis done; final report at data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T050251Z/FULL_CORPUS_EXPERIMENT_1_REPORT.md

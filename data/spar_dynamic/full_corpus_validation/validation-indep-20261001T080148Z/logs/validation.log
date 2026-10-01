@@ -1,0 +1,39 @@
+[2026-10-01T08:01:48Z] START run run_dir=data/spar_dynamic/full_corpus_validation/validation-indep-20261001T080148Z source_method=independent_calls budget_cap=$10.00
+[2026-10-01T08:01:49Z] built 720 trials
+[2026-10-01T08:01:49Z] [scored] start with 0 prior outcomes spent=$0.0000 cap=$10.00
+[2026-10-01T08:01:49Z] [scored] pending=720
+[2026-10-01T08:02:14Z] [scored] 20/720 done (spent=$0.0326 last=dev_t02_af:natural:more_switches|fable status=ok)
+[2026-10-01T08:02:50Z] [scored] 40/720 done (spent=$0.0652 last=dev_t04_af:natural:more_switches|mimo status=ok)
+[2026-10-01T08:03:16Z] [scored] 60/720 done (spent=$0.1010 last=dev_t05_af:reversed:more_H|fable status=ok)
+[2026-10-01T08:03:55Z] [scored] 80/720 done (spent=$0.1449 last=dev_t07_af:natural:more_switches|fable status=ok)
+[2026-10-01T08:04:25Z] [scored] 100/720 done (spent=$0.1775 last=dev_t09_af:natural:more_switches|mimo status=ok)
+[2026-10-01T08:09:02Z] [scored] 120/720 done (spent=$0.2132 last=hold_t01_af:natural:more_H|astra status=ok)
+[2026-10-01T08:09:35Z] [scored] 140/720 done (spent=$0.2459 last=hold_t02_af:reversed:more_switches|astra status=ok)
+[2026-10-01T08:10:08Z] [scored] 160/720 done (spent=$0.2797 last=hold_t04_af:natural:more_switches|mimo status=ok)
+[2026-10-01T08:10:33Z] [scored] 180/720 done (spent=$0.3154 last=hold_t05_af:reversed:more_H|fable status=ok)
+[2026-10-01T08:11:04Z] [scored] 200/720 done (spent=$0.3493 last=hold_t07_af:natural:more_switches|fable status=ok)
+[2026-10-01T08:11:28Z] [scored] 220/720 done (spent=$0.3821 last=hold_t09_af:natural:more_switches|mimo status=ok)
+[2026-10-01T08:12:03Z] [scored] 240/720 done (spent=$0.4207 last=hold_t10_af:reversed:more_switches|fable status=ok)
+[2026-10-01T08:12:26Z] [scored] 260/720 done (spent=$0.4505 last=dev_t02_am:reversed:more_switches|astra status=ok)
+[2026-10-01T08:12:56Z] [scored] 280/720 done (spent=$0.4844 last=dev_t04_am:natural:more_switches|mimo status=ok)
+[2026-10-01T08:13:20Z] [scored] 300/720 done (spent=$0.5215 last=dev_t06_am:natural:more_H|astra status=ok)
+[2026-10-01T08:14:05Z] [scored] 320/720 done (spent=$0.6492 last=dev_t07_am:reversed:more_switches|astra status=ok)
+[2026-10-01T08:14:35Z] [scored] 340/720 done (spent=$0.6951 last=dev_t09_am:natural:more_H|mimo status=ok)
+[2026-10-01T08:15:10Z] [scored] 351/720 done (spent=$0.8252 last=dev_t09_am:reversed:more_switches|fable status=abandoned)
+[2026-10-01T08:15:26Z] [scored] 360/720 done (spent=$0.8406 last=hold_t01_am:natural:more_H|astra status=ok)
+[2026-10-01T08:17:17Z] [scored] 375/720 done (spent=$0.9788 last=hold_t01_am:reversed:more_switches|fable status=abandoned)
+[2026-10-01T08:17:24Z] [scored] 380/720 done (spent=$0.9871 last=hold_t02_am:reversed:more_H|mimo status=ok)
+[2026-10-01T08:18:25Z] [scored] 400/720 done (spent=$1.1993 last=hold_t04_am:natural:more_switches|mimo status=ok)
+[2026-10-01T12:36:01Z] START run run_dir=data/spar_dynamic/full_corpus_validation/validation-indep-20261001T080148Z source_method=independent_calls budget_cap=$10.00
+[2026-10-01T12:36:01Z] built 720 trials
+[2026-10-01T12:36:02Z] [scored] start with 719 prior outcomes spent=$1.9717 cap=$10.00
+[2026-10-01T12:36:02Z] [scored] pending=9
+[2026-10-01T12:36:35Z] [scored] 1/9 done (spent=$2.0798 last=dev_t09_am:reversed:more_switches|fable status=abandoned)
+[2026-10-01T12:37:16Z] [scored] 2/9 done (spent=$2.1935 last=hold_t01_am:reversed:more_switches|fable status=abandoned)
+[2026-10-01T12:37:38Z] [scored] 3/9 done (spent=$2.2237 last=hold_t04_am:natural:more_switches|fable status=abandoned)
+[2026-10-01T12:38:11Z] [scored] 4/9 done (spent=$2.2994 last=hold_t10_am:natural:more_switches|fable status=abandoned)
+[2026-10-01T12:38:33Z] [scored] 5/9 done (spent=$2.3275 last=dev_t03_fm:natural:more_H|fable status=abandoned)
+[2026-10-01T12:39:24Z] [scored] FINAL: {'n_outcomes': 720, 'n_ok': 715, 'n_abandoned': 5, 'spent_usd': 2.389081840000005}
+[2026-10-01T12:39:24Z] DONE {'n_outcomes': 720, 'n_ok': 715, 'n_abandoned': 5, 'spent_usd': 2.389081840000005}
+[2026-10-01T12:39:56Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_validation/validation-indep-20261001T080148Z
+[2026-10-01T12:39:56Z] wrote trial_level.csv, summary_by_judge_question_split.csv, summary_by_ordering.csv

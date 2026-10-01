@@ -9,7 +9,8 @@ from . import config as F
 from .audit import audit_sources, write_audit_outputs, sha256_file, sha256_text
 from .pairs import (build_triplets, build_pairs, build_trials, build_prompt,
                     prompt_hash, write_triplet_manifest, write_pair_manifest,
-                    write_trial_manifest, write_prompts_jsonl)
+                    write_trial_manifest, write_prompts_jsonl,
+                    load_trials_from_manifest)
 from .runner import (make_openrouter_client, snapshot_prices, process_lock,
                      worst_case_cost, judge_request_config_hash)
 from .orchestration import (dry_run, run_preflight, run_scored,
@@ -235,11 +236,14 @@ def cmd_validate(args):
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
     log(f"VALIDATE run_dir={run_dir} source_method={sm}")
 
-    # Build manifests from frozen inputs
     corpus_rows = _load_corpus_rows(args.corpus_dir, source_method=sm)
-    triplets = build_triplets(corpus_rows, source_method=sm)
-    pairs = build_pairs(triplets, corpus_rows)
-    trials = build_trials(pairs)
+    manifest_path = os.path.join(run_dir, "trial_manifest.csv")
+    if os.path.exists(manifest_path):
+        trials = load_trials_from_manifest(run_dir, corpus_rows)
+    else:
+        triplets = build_triplets(corpus_rows, source_method=sm)
+        pairs = build_pairs(triplets, corpus_rows)
+        trials = build_trials(pairs)
 
     outcomes = load_outcomes(run_dir)
     audit = {}
@@ -269,9 +273,18 @@ def cmd_analyze(args):
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
     log(f"ANALYZE run_dir={run_dir} source_method={sm}")
     corpus_rows = _load_corpus_rows(args.corpus_dir, source_method=sm)
-    triplets = build_triplets(corpus_rows, source_method=sm)
-    pairs = build_pairs(triplets, corpus_rows)
-    trials = build_trials(pairs)
+    # Prefer loading trials from the saved live-run manifest so the analyze-time
+    # trial reconstruction matches the actual prompts the judges saw (works
+    # even for legacy runs where build_pairs() used a non-deterministic hash).
+    manifest_path = os.path.join(run_dir, "trial_manifest.csv")
+    if os.path.exists(manifest_path):
+        trials = load_trials_from_manifest(run_dir, corpus_rows)
+        log(f"loaded {len(trials)} trials from saved trial_manifest.csv")
+    else:
+        triplets = build_triplets(corpus_rows, source_method=sm)
+        pairs = build_pairs(triplets, corpus_rows)
+        trials = build_trials(pairs)
+        log(f"rebuilt {len(trials)} trials (no saved manifest)")
     outcomes = load_outcomes(run_dir)
     write_all_analysis_csvs(run_dir, trials, outcomes, corpus_rows)
     # Validation (regenerate) + final report

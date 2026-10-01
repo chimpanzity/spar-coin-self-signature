@@ -1,0 +1,5 @@
+[2026-10-01T07:58:52Z] START dry-run run_dir=data/spar_dynamic/full_corpus_validation/validation-20261001T075852Z-dry source_method=independent_calls
+[2026-10-01T07:58:52Z] built 720 trials from 60 pairs
+[2026-10-01T07:58:52Z] correct_answer distribution: {'B': 360, 'A': 360}
+[2026-10-01T07:58:52Z]   question=more_H: 360 trials, 0 ties
+[2026-10-01T07:58:52Z]   question=more_switches: 360 trials, 0 ties

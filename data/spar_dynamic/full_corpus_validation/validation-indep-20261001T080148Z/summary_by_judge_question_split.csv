@@ -1,0 +1,13 @@
+judge,question,split,n_planned,n_scored_nontie,n_responded,accuracy_on_nontie,a_response_rate
+astra,more_H,development,60,60,60,1.0,0.5
+astra,more_H,holdout,60,60,60,1.0,0.5
+astra,more_switches,development,60,60,60,1.0,0.5
+astra,more_switches,holdout,60,60,60,1.0,0.5
+fable,more_H,development,60,59,59,1.0,0.5085
+fable,more_H,holdout,60,60,60,1.0,0.5
+fable,more_switches,development,60,59,59,1.0,0.4915
+fable,more_switches,holdout,60,57,57,1.0,0.4737
+mimo,more_H,development,60,60,60,0.9,0.6
+mimo,more_H,holdout,60,60,60,0.8833,0.6167
+mimo,more_switches,development,60,60,60,0.55,0.95
+mimo,more_switches,holdout,60,60,60,0.5333,0.9667

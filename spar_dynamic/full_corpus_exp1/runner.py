@@ -130,7 +130,19 @@ def _call_judge(client: OpenAI, judge: F.JudgeSpec, prompt_text: str,
                 "prompt_tokens": 0, "completion_tokens": 0, "reasoning_tokens": 0,
                 "provider": "", "served_model": "", "request_id": "", "generation_id": "",
                 "latency_ms": int(1000 * (time.time() - t0))}
-    choice = r.choices[0]
+    # Some providers occasionally return a 200 with choices=None or []
+    # (seen with xiaomi/fp8 on 2026-10-01). Treat that like a transport error
+    # so the retry policy picks it up instead of crashing the whole run.
+    choices = getattr(r, "choices", None) or []
+    if not choices:
+        return {"raw_text": "", "finish_reason": "no_choices",
+                "error": "provider_returned_no_choices",
+                "prompt_tokens": 0, "completion_tokens": 0, "reasoning_tokens": 0,
+                "provider": getattr(r, "provider", "") or "",
+                "served_model": getattr(r, "model", "") or "",
+                "request_id": "", "generation_id": getattr(r, "id", "") or "",
+                "latency_ms": int(1000 * (time.time() - t0))}
+    choice = choices[0]
     msg = getattr(choice, "message", None)
     raw_text = (getattr(msg, "content", None) or "") if msg is not None else ""
     usage = getattr(r, "usage", None)

@@ -1,0 +1,28 @@
+{
+  "budget_usd_cap": 10.0,
+  "experiment": "full_corpus_validation",
+  "fce_run_dir": "data/spar_dynamic/full_corpus_experiment_1_independent_calls/fce2-indep-truthful-20261001T070301Z",
+  "max_tokens": 8192,
+  "pair_count": 60,
+  "provider_pins": {
+    "astra": "openai",
+    "fable": "anthropic",
+    "mimo": "xiaomi/fp8"
+  },
+  "reasoning_per_judge": {
+    "astra": {
+      "effort": "low",
+      "exclude": true
+    },
+    "fable": {
+      "effort": "low",
+      "exclude": true
+    },
+    "mimo": {
+      "enabled": false
+    }
+  },
+  "source_method": "independent_calls",
+  "temperature": 0.0,
+  "trial_count": 720
+}

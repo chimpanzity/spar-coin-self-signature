@@ -114,17 +114,17 @@ Positive values would indicate SELF-wording-plus-ownership advantage over named 
 | history_conditioned (truthful) | development | full | 0.967 |
 | history_conditioned (truthful) | holdout | marginal | 0.967 |
 | history_conditioned (truthful) | holdout | full | 1.000 |
-| batch (truthful) | development | marginal | 1.000 |
+| batch (truthful) | development | marginal | 0.900 |
 | batch (truthful) | development | full | 0.767 |
-| batch (truthful) | holdout | marginal | 0.840 |
+| batch (truthful) | holdout | marginal | 0.783 |
 | batch (truthful) | holdout | full | 0.767 |
 | independent_calls (truthful) | development | marginal | 1.000 |
 | independent_calls (truthful) | development | full | 1.000 |
 | independent_calls (truthful) | holdout | marginal | 1.000 |
 | independent_calls (truthful) | holdout | full | 1.000 |
-| batch (false protocol) | development | marginal | 1.000 |
+| batch (false protocol) | development | marginal | 0.900 |
 | batch (false protocol) | development | full | 0.767 |
-| batch (false protocol) | holdout | marginal | 0.840 |
+| batch (false protocol) | holdout | marginal | 0.783 |
 | batch (false protocol) | holdout | full | 0.767 |
 | independent_calls (false protocol) | development | marginal | 1.000 |
 | independent_calls (false protocol) | development | full | 1.000 |
@@ -153,6 +153,29 @@ Interpretation: the behavioral phenotype of each production method is cleanly se
 | batch (false protocol) | 480 | 1.000 | 1.000 | 0 |
 | independent_calls (false protocol) | 480 | 1.000 | 1.000 | 0 |
 
+## 6b. Validation study — objective A/B task
+
+Same 60 stimulus pairs from the independent_calls method, shown in both natural and reversed A/B order, with two objectively-answerable questions (correct answer deterministic from the stimulus text):
+- `more_H`: which sequence has more H outcomes
+- `more_switches`: which sequence has more H/T transitions
+
+| judge | question | split | n | accuracy | A-response rate |
+|---|---|---|---:|---:|---:|
+| astra | more_H | development | 60 | 1.000 | 0.500 |
+| astra | more_H | holdout | 60 | 1.000 | 0.500 |
+| astra | more_switches | development | 60 | 1.000 | 0.500 |
+| astra | more_switches | holdout | 60 | 1.000 | 0.500 |
+| fable | more_H | development | 59 | 1.000 | 0.508 |
+| fable | more_H | holdout | 60 | 1.000 | 0.500 |
+| fable | more_switches | development | 59 | 1.000 | 0.491 |
+| fable | more_switches | holdout | 57 | 1.000 | 0.474 |
+| mimo | more_H | development | 60 | 0.900 | 0.600 |
+| mimo | more_H | holdout | 60 | 0.883 | 0.617 |
+| mimo | more_switches | development | 60 | 0.550 | 0.950 |
+| mimo | more_switches | holdout | 60 | 0.533 | 0.967 |
+
+**Takeaway:** astra and fable both reach 100% accuracy on both objective questions with A-response rates near 0.50. Their heavy A-bias on source-attribution trials (astra ~87%, fable ~97%) is therefore **task-specific**, not a general A/B format incompetence. Mimo partially uses the stimulus for `more_H` (~89% accuracy, 60% A-rate) but collapses to near-always-A on `more_switches` (~54% accuracy, 96% A-rate) — mimo's position bias is partly feature-dependent.
+
 ## 7. Cross-method synthesis
 
 - **Protocol information strongly shapes self-recognition.** The independent_calls comparison between the truthful-protocol run and the false-protocol run shows this clearly: fable's own-trajectory accuracy under SELF-wording moves from 0.05 (false-protocol) to 0.90 (truthful-protocol), and NAMED-on-fable from 0.10 to 0.75. The equal-weight mean S flips sign (−0.150 → +0.100) between the two conditions on exactly the same stimulus sequences; only the judge's description of how those sequences were produced changed.
@@ -160,6 +183,7 @@ Interpretation: the behavioral phenotype of each production method is cleanly se
 - **The task is externally solvable in all methods.** The centroid baseline hits 97–100% on holdout. The behavioral signal is there; LLM judges only partially use it, and only when the protocol description matches the production reality.
 - **Astra is a consistent anti-self-recognizer** across methods and protocols: holdout NAMED-on-astra = 0.00 and SELF-on-astra = 0.05 under the truthful independent_calls protocol, while fable and mimo as observers identify astra at above-chance rates in some cells.
 - **Mimo scores at or near chance everywhere** across all methods and protocols, consistent with an A-position-biased or weak-feature-using responder (compliant parsing but not using the behavioral signal).
+- **Astra and fable's heavy A-bias on source-attribution is task-specific, not a general format problem.** The validation study (same stimuli, both A/B orderings, objectively-answerable questions) shows astra and fable at 100% accuracy with A-rate near 0.50 on both `more_H` and `more_switches`. Mimo partially uses the stimulus for `more_H` but still collapses to A-always on `more_switches`.
 
 ## 8. Limitations
 

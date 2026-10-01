@@ -76,3 +76,6 @@
 [2026-10-01T06:59:35Z] scored summary: {'n_outcomes': 480, 'n_ok': 480, 'n_abandoned': 0, 'spent_usd': 2.197864219999999}
 [2026-10-01T07:02:59Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_experiment_1_batch/fce2-batch-truthful-20261001T064655Z source_method=batch
 [2026-10-01T07:03:01Z] analysis done; final report at data/spar_dynamic/full_corpus_experiment_1_batch/fce2-batch-truthful-20261001T064655Z/FULL_CORPUS_EXPERIMENT_1_REPORT.md
+[2026-10-01T07:52:42Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_experiment_1_batch/fce2-batch-truthful-20261001T064655Z source_method=batch
+[2026-10-01T07:52:42Z] loaded 480 trials from saved trial_manifest.csv
+[2026-10-01T07:52:44Z] analysis done; final report at data/spar_dynamic/full_corpus_experiment_1_batch/fce2-batch-truthful-20261001T064655Z/FULL_CORPUS_EXPERIMENT_1_REPORT.md

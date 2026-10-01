@@ -428,18 +428,26 @@ def baseline_predictions_and_summary(trials: List[Trial], corpus_rows: List[Dict
                     "tie": (pred == "TIE"),
                 })
 
-    # Summary
+    # Summary. Spec section 19: "Score exact ties as 0.5". Reported accuracy
+    # is the half-credit score across *all* items (not conditional on
+    # non-ties); `accuracy_conditional_on_nontie` keeps the old conditional
+    # view available for sanity checks.
     for split in ("development", "holdout"):
         for baseline in ("marginal", "full"):
             subset = [p for p in pred_rows if p["split"] == split and p["baseline"] == baseline]
             scored = [p for p in subset if not p["tie"]]
             ties = [p for p in subset if p["tie"]]
-            acc = (sum(1 for p in scored if p["correct"]) / len(scored)) if scored else None
+            n_total = len(subset)
+            n_correct = sum(1 for p in scored if p["correct"])
+            n_ties = len(ties)
+            acc_half_credit = ((n_correct + 0.5 * n_ties) / n_total) if n_total else None
+            acc_conditional = (n_correct / len(scored)) if scored else None
             summary_rows.append({
                 "split": split, "baseline": baseline,
-                "n_scored": len(scored), "n_ties": len(ties), "n_total": len(subset),
-                "accuracy": None if acc is None else round(acc, 4),
-                "tie_rate": round(len(ties) / len(subset), 4) if subset else None,
+                "n_scored": len(scored), "n_ties": n_ties, "n_total": n_total,
+                "accuracy": None if acc_half_credit is None else round(acc_half_credit, 4),
+                "accuracy_conditional_on_nontie": None if acc_conditional is None else round(acc_conditional, 4),
+                "tie_rate": round(n_ties / n_total, 4) if n_total else None,
             })
     return pred_rows, summary_rows
 
@@ -448,25 +456,40 @@ def baseline_predictions_and_summary(trials: List[Trial], corpus_rows: List[Dict
 # Section 18: triplet bootstrap
 # ---------------------------------------------------------------------------
 
-def _acc_from_items(rows_scope: List[Dict], item_ids: set, wording: str, judge: str,
-                     target: str) -> Optional[float]:
+def _acc_from_items_weighted(rows_scope: List[Dict], item_counts: Dict[str, int],
+                               wording: str, judge: str,
+                               target: str) -> Optional[float]:
+    """Accuracy over a *weighted* bag of target_item_ids.
+
+    `item_counts[item_id]` is the number of times that item appears in the
+    bootstrap resample (via its triplet). Each matching row contributes its
+    (correct, 1) pair that many times. This is the key fix for the clustered
+    bootstrap: if a triplet is drawn k times, its items weigh k into the
+    accuracy calculation, which propagates the correct across-triplet
+    variance.
+    """
     tot = 0; correct = 0
     for r in rows_scope:
-        if r["target_item_id"] in item_ids \
-                and r["wording_condition"] == wording \
-                and r["judge_label"] == judge \
-                and r["target_label"] == target \
-                and r["status"] == "ok":
-            tot += 1
-            if r["correct"]: correct += 1
+        w = item_counts.get(r["target_item_id"], 0)
+        if w == 0: continue
+        if r["wording_condition"] != wording: continue
+        if r["judge_label"] != judge: continue
+        if r["target_label"] != target: continue
+        if r["status"] != "ok": continue
+        tot += w
+        if r["correct"]: correct += w
     return correct / tot if tot else None
 
 
 def _bootstrap_split(rows: List[Dict], split: str,
                      reps: int, seed: int) -> Dict[str, Dict]:
-    """Return { target_label -> {S:[...], O:[...], F:[...]} resampled triplet distributions }."""
+    """Return { target_label -> {S:[...], O:[...], F:[...]} resampled triplet distributions }.
+
+    Clustered bootstrap: resample 10 holdout triplets with replacement, keep
+    their constituent items together, and weight accuracy by resample
+    multiplicity (so duplicated triplets contribute multiply, not once).
+    """
     rng = random.Random(seed)
-    # triplets in this split
     triplets = sorted({r["triplet_id"] for r in rows if r["split"] == split})
     # per-triplet target_item_ids
     items_by_triplet: Dict[str, List[str]] = defaultdict(list)
@@ -478,17 +501,19 @@ def _bootstrap_split(rows: List[Dict], split: str,
 
     boot: Dict[str, Dict[str, List[float]]] = {t: {"S": [], "O": [], "F": []} for t in F.JUDGE_LABELS}
     for _ in range(reps):
+        # Resample triplets with replacement; count multiplicity per item.
         resample = [rng.choice(triplets) for _ in triplets]
-        items = set()
+        item_counts: Dict[str, int] = defaultdict(int)
         for t in resample:
-            items.update(items_by_triplet[t])
+            for item in items_by_triplet[t]:
+                item_counts[item] += 1
         for target in F.JUDGE_LABELS:
             # restrict to items where target_label == target
-            tgt_items = {it for it in items if it.endswith(f":{target}")}
-            if not tgt_items: continue
-            SELF = _acc_from_items(rows_scope, tgt_items, "SELF", target, target)
-            NAMED = _acc_from_items(rows_scope, tgt_items, "NAMED", target, target)
-            OBSs = [_acc_from_items(rows_scope, tgt_items, "NAMED", j, target)
+            tgt_counts = {it: w for it, w in item_counts.items() if it.endswith(f":{target}")}
+            if not tgt_counts: continue
+            SELF = _acc_from_items_weighted(rows_scope, tgt_counts, "SELF", target, target)
+            NAMED = _acc_from_items_weighted(rows_scope, tgt_counts, "NAMED", target, target)
+            OBSs = [_acc_from_items_weighted(rows_scope, tgt_counts, "NAMED", j, target)
                     for j in F.JUDGE_LABELS if j != target]
             OBSs = [o for o in OBSs if o is not None]
             OBS = sum(OBSs) / len(OBSs) if OBSs else None

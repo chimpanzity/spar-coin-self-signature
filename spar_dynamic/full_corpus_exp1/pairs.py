@@ -125,7 +125,13 @@ def build_pairs(triplets: List[SourceTriplet], corpus_rows: List[Dict],
         # 5 of the 10 put the alphabetically-first label (first of pair) in A, the other 5 in B.
         # The alphabetically-first label is the first element of the pair name as constructed
         # above (A < F < M), so items[i][3] is the first-alpha label.
-        order_rng = random.Random(seed + 101 + hash((sp, pt)) % 1000)
+        # NOTE: use a *stable* hash of the cell key so the pair construction is
+        # deterministic across Python processes. Python's builtin hash() is
+        # randomized per process (PYTHONHASHSEED), which previously caused
+        # trial_level.csv (built at analyze time) to disagree with the saved
+        # live-run prompts on 272/480 rows.
+        cell_hash = sum(ord(c) for c in f"{sp}:{pt}")
+        order_rng = random.Random(seed + 101 + cell_hash)
         indices = list(range(len(items)))
         order_rng.shuffle(indices)
         first_in_A = set(indices[:5])
@@ -254,6 +260,32 @@ def write_trial_manifest(path: str, trials: List[Trial]):
         w.writeheader()
         for t in trials:
             w.writerow({k: getattr(t, k) for k in fieldnames})
+
+
+def load_trials_from_manifest(run_dir: str, corpus_rows: List[Dict]) -> List[Trial]:
+    """Rehydrate the exact trials used by a prior live run from its saved
+    trial_manifest.csv. Prefer this to rebuild_from_corpus whenever analyzing
+    an existing run, so the analyze-time trial objects agree with the saved
+    prompts even if the pair-construction code changes later.
+    """
+    import csv as _csv
+    path = os.path.join(run_dir, "trial_manifest.csv")
+    seq = _seq_lookup(corpus_rows)
+    trials: List[Trial] = []
+    with open(path, "r", encoding="utf-8") as f:
+        for r in _csv.DictReader(f):
+            trials.append(Trial(
+                trial_id=r["trial_id"], pair_id=r["pair_id"], triplet_id=r["triplet_id"],
+                split=r["split"], target_item_id=r["target_item_id"],
+                target_label=r["target_label"], distractor_label=r["distractor_label"],
+                wording_condition=r["wording_condition"], judge_label=r["judge_label"],
+                judge_role=r["judge_role"], source_pair_type=r["source_pair_type"],
+                source_label_A=r["source_label_A"], source_label_B=r["source_label_B"],
+                sequence_A_id=r["sequence_A_id"], sequence_B_id=r["sequence_B_id"],
+                sequence_A=seq[r["sequence_A_id"]], sequence_B=seq[r["sequence_B_id"]],
+                correct_answer=r["correct_answer"],
+            ))
+    return trials
 
 
 def write_prompts_jsonl(path: str, trials: List[Trial], source_method: str = F.SOURCE_METHOD):

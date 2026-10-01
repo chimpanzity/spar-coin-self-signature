@@ -76,3 +76,6 @@
 [2026-10-01T06:33:43Z] scored summary: {'n_outcomes': 480, 'n_ok': 480, 'n_abandoned': 0, 'spent_usd': 2.8362485249999967}
 [2026-10-01T06:34:39Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_experiment_1_independent_calls/fce2-indep-20261001T061930Z source_method=independent_calls
 [2026-10-01T06:34:41Z] analysis done; final report at data/spar_dynamic/full_corpus_experiment_1_independent_calls/fce2-indep-20261001T061930Z/FULL_CORPUS_EXPERIMENT_1_REPORT.md
+[2026-10-01T07:52:48Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_experiment_1_independent_calls/fce2-indep-20261001T061930Z-false-protocol source_method=independent_calls
+[2026-10-01T07:52:48Z] loaded 480 trials from saved trial_manifest.csv
+[2026-10-01T07:52:50Z] analysis done; final report at data/spar_dynamic/full_corpus_experiment_1_independent_calls/fce2-indep-20261001T061930Z-false-protocol/FULL_CORPUS_EXPERIMENT_1_REPORT.md

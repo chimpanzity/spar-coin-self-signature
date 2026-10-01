@@ -1,5 +1,5 @@
-split,baseline,n_scored,n_ties,n_total,accuracy,tie_rate
-development,marginal,60,0,60,1.0,0.0
-development,full,60,0,60,1.0,0.0
-holdout,marginal,60,0,60,1.0,0.0
-holdout,full,60,0,60,1.0,0.0
+split,baseline,n_scored,n_ties,n_total,accuracy,accuracy_conditional_on_nontie,tie_rate
+development,marginal,60,0,60,1.0,1.0,0.0
+development,full,60,0,60,1.0,1.0,0.0
+holdout,marginal,60,0,60,1.0,1.0,0.0
+holdout,full,60,0,60,1.0,1.0,0.0
