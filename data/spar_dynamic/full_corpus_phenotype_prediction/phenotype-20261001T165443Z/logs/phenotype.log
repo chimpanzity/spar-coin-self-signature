@@ -1,0 +1,40 @@
+[2026-10-01T16:54:43Z] START 360 trials replicates=10 temp=0.7 budget=$5.00
+[2026-10-01T16:54:44Z] [scored] start: 0 prior outcomes spent=$0.0000 cap=$5.00 temp=0.7
+[2026-10-01T16:54:44Z] [scored] pending=360
+[2026-10-01T16:55:48Z] [scored] 30/360 done (spent=$0.1031 last=astra|NAMED|astra|history_conditioned|09 status=ok p=0.5)
+[2026-10-01T16:57:05Z] [scored] 60/360 done (spent=$0.2861 last=astra|SELF|astra|independent_calls|09 status=ok p=1.0)
+[2026-10-01T16:58:19Z] [scored] 90/360 done (spent=$0.4082 last=astra|NAMED|fable|independent_calls|09 status=ok p=1.0)
+[2026-10-01T16:59:27Z] [scored] 120/360 done (spent=$0.5414 last=astra|NAMED|mimo|independent_calls|09 status=ok p=1.0)
+[2026-10-01T17:02:30Z] [scored] 141/360 done (spent=$0.9138 last=fable|NAMED|astra|independent_calls|00 status=abandoned p=None)
+[2026-10-01T17:02:46Z] [scored] 142/360 done (spent=$0.9350 last=fable|NAMED|astra|independent_calls|01 status=abandoned p=None)
+[2026-10-01T17:03:05Z] [scored] 143/360 done (spent=$0.9587 last=fable|NAMED|astra|independent_calls|02 status=abandoned p=None)
+[2026-10-01T17:03:25Z] [scored] 144/360 done (spent=$0.9814 last=fable|NAMED|astra|independent_calls|03 status=abandoned p=None)
+[2026-10-01T17:03:44Z] [scored] 145/360 done (spent=$1.0032 last=fable|NAMED|astra|independent_calls|04 status=abandoned p=None)
+[2026-10-01T17:04:00Z] [scored] 146/360 done (spent=$1.0255 last=fable|NAMED|astra|independent_calls|05 status=abandoned p=None)
+[2026-10-01T17:04:17Z] [scored] 147/360 done (spent=$1.0461 last=fable|NAMED|astra|independent_calls|06 status=abandoned p=None)
+[2026-10-01T17:04:45Z] [scored] 148/360 done (spent=$1.0680 last=fable|NAMED|astra|independent_calls|07 status=abandoned p=None)
+[2026-10-01T17:05:02Z] [scored] 149/360 done (spent=$1.0916 last=fable|NAMED|astra|independent_calls|08 status=abandoned p=None)
+[2026-10-01T17:05:17Z] [scored] 150/360 done (spent=$1.1130 last=fable|NAMED|astra|independent_calls|09 status=abandoned p=None)
+[2026-10-01T17:08:28Z] [scored] 180/360 done (spent=$1.5169 last=fable|NAMED|fable|history_conditioned|09 status=ok p=0.5)
+[2026-10-01T17:12:18Z] [scored] 210/360 done (spent=$2.1796 last=fable|NAMED|mimo|batch|01 status=ok p=0.52)
+[2026-10-01T17:14:12Z] [scored] 231/360 done (spent=$2.5964 last=fable|NAMED|mimo|independent_calls|00 status=abandoned p=None)
+[2026-10-01T17:14:27Z] [scored] 232/360 done (spent=$2.6168 last=fable|NAMED|mimo|independent_calls|01 status=abandoned p=None)
+[2026-10-01T17:14:42Z] [scored] 233/360 done (spent=$2.6394 last=fable|NAMED|mimo|independent_calls|02 status=abandoned p=None)
+[2026-10-01T17:19:19Z] [scored] 234/360 done (spent=$2.6609 last=fable|NAMED|mimo|independent_calls|03 status=abandoned p=None)
+[2026-10-01T17:19:36Z] [scored] 235/360 done (spent=$2.6821 last=fable|NAMED|mimo|independent_calls|04 status=abandoned p=None)
+[2026-10-01T17:19:51Z] [scored] 236/360 done (spent=$2.7050 last=fable|NAMED|mimo|independent_calls|05 status=abandoned p=None)
+[2026-10-01T17:20:12Z] [scored] 237/360 done (spent=$2.7303 last=fable|NAMED|mimo|independent_calls|06 status=abandoned p=None)
+[2026-10-01T17:20:25Z] [scored] 238/360 done (spent=$2.7524 last=fable|NAMED|mimo|independent_calls|07 status=abandoned p=None)
+[2026-10-01T17:20:33Z] [scored] 240/360 done (spent=$2.7606 last=mimo|NAMED|astra|batch|01 status=ok p=0.5)
+[2026-10-01T17:20:39Z] [scored] 243/360 done (spent=$2.7756 last=fable|NAMED|mimo|independent_calls|08 status=abandoned p=None)
+[2026-10-01T17:20:52Z] [scored] 251/360 done (spent=$2.7997 last=fable|NAMED|mimo|independent_calls|09 status=abandoned p=None)
+[2026-10-01T17:21:28Z] [scored] 270/360 done (spent=$2.8019 last=mimo|NAMED|astra|independent_calls|09 status=ok p=0.5)
+[2026-10-01T17:22:23Z] [scored] 300/360 done (spent=$2.8054 last=mimo|NAMED|fable|independent_calls|09 status=ok p=0.5)
+[2026-10-01T17:23:30Z] [scored] 330/360 done (spent=$2.8088 last=mimo|NAMED|mimo|history_conditioned|07 status=ok p=0.5)
+[2026-10-01T17:24:24Z] [scored] 360/360 done (spent=$2.8123 last=mimo|SELF|mimo|independent_calls|09 status=ok p=0.5)
+[2026-10-01T17:24:24Z] [scored] FINAL: {'n_outcomes': 360, 'n_ok': 340, 'n_abandoned': 20, 'spent_usd': 2.812269500000003}
+[2026-10-01T17:24:24Z] DONE {'n_outcomes': 360, 'n_ok': 340, 'n_abandoned': 20, 'spent_usd': 2.812269500000003}
+[2026-10-01T17:24:39Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_phenotype_prediction/phenotype-20261001T165443Z
+[2026-10-01T17:24:39Z] wrote trial_level.csv (360 rows) and summary_by_cell.csv (34 rows)
+[2026-10-01T17:25:50Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_phenotype_prediction/phenotype-20261001T165443Z
+[2026-10-01T17:25:50Z] wrote trial_level.csv (360 rows) and summary_by_cell.csv (36 rows)

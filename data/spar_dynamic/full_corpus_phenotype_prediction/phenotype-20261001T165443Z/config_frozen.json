@@ -1,0 +1,42 @@
+{
+  "actual_phenotypes": {
+    "astra": {
+      "batch": 0.495,
+      "history_conditioned": 0.46,
+      "independent_calls": 0.389
+    },
+    "fable": {
+      "batch": 0.507,
+      "history_conditioned": 0.744,
+      "independent_calls": 0.987
+    },
+    "mimo": {
+      "batch": 0.487,
+      "history_conditioned": 0.633,
+      "independent_calls": 0.86
+    }
+  },
+  "budget_usd_cap": 5.0,
+  "experiment": "full_corpus_phenotype_prediction",
+  "n_trials": 360,
+  "provider_pins": {
+    "astra": "openai",
+    "fable": "anthropic",
+    "mimo": "xiaomi/fp8"
+  },
+  "reasoning_per_judge": {
+    "astra": {
+      "effort": "low",
+      "exclude": true
+    },
+    "fable": {
+      "effort": "low",
+      "exclude": true
+    },
+    "mimo": {
+      "enabled": false
+    }
+  },
+  "replicates": 10,
+  "temperature": 0.7
+}

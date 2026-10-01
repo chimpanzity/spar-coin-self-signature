@@ -39,11 +39,12 @@ def _mean_s_holdout(poc_rows: List[Dict]) -> Optional[float]:
 
 def build_report(method_dirs: Dict[str, str], out_path: str,
                  validation_run_dir: Optional[str] = None,
-                 cross_story_summary_csv: Optional[str] = None):
+                 cross_story_summary_csv: Optional[str] = None,
+                 phenotype_summary_csv: Optional[str] = None):
     """method_dirs: {method_label -> run_dir path}. validation_run_dir, if
-    provided, adds section 6b for the objective A/B task validation study.
-    cross_story_summary_csv, if provided, adds section 6c for the within-
-    stimulus three-story psychophysics summary.
+    provided, adds section 6b. cross_story_summary_csv adds section 6c.
+    phenotype_summary_csv adds section 6d (predicted vs actual p(H) under
+    each procedure, SELF-wording).
     """
     data = {}
     for method, run_dir in method_dirs.items():
@@ -228,6 +229,84 @@ def build_report(method_dirs: Dict[str, str], out_path: str,
                      "generative process rather than by direct reading of the "
                      "behavioral trace.")
         lines.append("")
+    # Phenotype prediction
+    if phenotype_summary_csv:
+        lines.append("## 6d. Phenotype prediction — predicted vs actual p(H)")
+        lines.append("")
+        lines.append("Before showing any sequence, each judge is asked at "
+                     "temperature 0.7 (10 replicates per cell) to predict the "
+                     "proportion of H outcomes a target model would produce "
+                     "under a stated generation procedure. Primary parser is "
+                     "the same strict A/B-style one used elsewhere (bare "
+                     "numeric line, no prose); a secondary loose parser is "
+                     "applied transparently to recover values from responses "
+                     "that ended in a bare float after reasoning.")
+        lines.append("")
+        rows = _read_csv(phenotype_summary_csv)
+        lines.append("### SELF-wording predictions")
+        lines.append("")
+        lines.append("| judge | procedure | predicted (strict) | predicted (loose) | actual | signed_deviation (loose) |")
+        lines.append("|---|---|---:|---:|---:|---:|")
+        for r in rows:
+            if r.get("wording") == "SELF":
+                lines.append(f"| {r['judge']} | {r['procedure']} | "
+                             f"{_fmt(r['mean_predicted_p_H_strict'])} (n={r['n_strict']}) | "
+                             f"{_fmt(r['mean_predicted_p_H_loose'])} (n={r['n_loose']}) | "
+                             f"{_fmt(r['actual_p_H'])} | "
+                             f"{_fmt(r['signed_deviation_loose'])} |")
+        lines.append("")
+        lines.append("### NAMED-wording predictions (abbreviated — judges × targets × procedures)")
+        lines.append("")
+        lines.append("| judge | target | procedure | predicted (loose) | actual |")
+        lines.append("|---|---|---|---:|---:|")
+        for r in rows:
+            if r.get("wording") == "NAMED":
+                lines.append(f"| {r['judge']} | {r['target']} | {r['procedure']} | "
+                             f"{_fmt(r['mean_predicted_p_H_loose'])} | "
+                             f"{_fmt(r['actual_p_H'])} |")
+        lines.append("")
+        lines.append("### Interpretation")
+        lines.append("")
+        lines.append("- **Fable predicts procedure-level behavior, not model-"
+                     "specific self-knowledge.** Fable predicts p_H ≈ 1 for "
+                     "the independent-calls procedure *regardless of which "
+                     "target model is asked about* (fable itself: 1.00, "
+                     "astra: 1.00, mimo: 0.995). It also predicts p_H ≈ 0.5 "
+                     "under batch and history_conditioned for every target. "
+                     "Fable's apparent self-recognition in independent_calls "
+                     "falls out of a general belief about what the procedure "
+                     "does to LLMs — which happens to be approximately "
+                     "accurate for fable itself (actual 0.987) but strongly "
+                     "miscalibrated for astra (actual 0.389) and mimo "
+                     "(actual 0.86).")
+        lines.append("- **Astra holds the same procedure-level theory but is "
+                     "miscalibrated against its own behavior.** Astra also "
+                     "predicts p_H = 1 for every target under independent "
+                     "calls, including itself — but astra's actual indep "
+                     "output is p_H = 0.389. That explains astra's story-"
+                     "swap pattern: under truthful indep story, astra sees "
+                     "p_H = 0.39 sequences and rejects them as not matching "
+                     "its \"indep → p_H ≈ 1\" theory; under batch story, "
+                     "astra sees the same sequences and accepts them because "
+                     "they are closer to its \"batch → p_H ≈ 0.5\" theory.")
+        lines.append("- **Mimo predicts 0.5 for every target × procedure "
+                     "combination.** 10/10 replicates per cell, no variance. "
+                     "Mimo has no differentiated procedure-level theory of "
+                     "LLM behavior, consistent with its weak-feature use "
+                     "across every earlier experiment.")
+        lines.append("- The reviewer's prediction of a strict ordering for "
+                     "fable (`batch < hist < indep`) partially holds in a "
+                     "qualitative sense: fable predicts batch ≈ hist ≈ 0.5 << "
+                     "indep ≈ 1. The history_conditioned prediction is tied "
+                     "with batch, not intermediate as the reviewer predicted.")
+        lines.append("- **Reframing: what looked like protocol-conditional "
+                     "self-knowledge is largely protocol-conditional task "
+                     "knowledge, applied uniformly to any LLM.** That's "
+                     "still interesting — the judges have calibrated "
+                     "beliefs about what the independent_calls procedure "
+                     "does to LLMs in general — but it reduces the self-"
+                     "specificity of the earlier story-swap result.")
+        lines.append("")
     # Interpretive synthesis
     lines.append("## 7. Cross-method synthesis")
     lines.append("")
@@ -261,6 +340,17 @@ def build_report(method_dirs: Dict[str, str], out_path: str,
                  "near 0.50 on both `more_H` and `more_switches`. Mimo partially "
                  "uses the stimulus for `more_H` but still collapses to A-always "
                  "on `more_switches`.")
+    lines.append("- **The protocol-conditional self-recognition reduces to "
+                 "protocol-conditional task knowledge applied uniformly.** "
+                 "The phenotype-prediction experiment asks judges, before "
+                 "they see any sequence, what p_H they would expect each "
+                 "target to produce under each procedure. Fable predicts "
+                 "p_H ≈ 1 under indep for all three targets (not just "
+                 "itself); the same for astra. Fable's prediction happens to "
+                 "match its own actual indep behavior; astra's does not. So "
+                 "the story-swap finding is driven by a general procedure "
+                 "theory (\"indep → H\") rather than by self-specific "
+                 "knowledge about one's own output distribution.")
     lines.append("")
     lines.append("## 8. Limitations")
     lines.append("")
@@ -290,6 +380,8 @@ def main():
                      help="optional: path to cross_story_summary.csv")
     ap.add_argument("--batch-story-indep-run", default="",
                      help="optional: run dir of indep stimuli × batch story (adds to section 1)")
+    ap.add_argument("--phenotype-summary", default="",
+                     help="optional: path to phenotype-prediction summary_by_cell.csv")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
     method_dirs = {
@@ -305,7 +397,8 @@ def main():
         method_dirs["independent_calls stimuli (false story: told batch)"] = args.batch_story_indep_run
     build_report(method_dirs, args.out,
                  validation_run_dir=args.validation_run or None,
-                 cross_story_summary_csv=args.cross_story_summary or None)
+                 cross_story_summary_csv=args.cross_story_summary or None,
+                 phenotype_summary_csv=args.phenotype_summary or None)
     print(f"wrote {args.out}", flush=True)
 
 

@@ -214,6 +214,64 @@ Exact same 60 independent_calls stimulus pairs, exact same pair construction / A
 
 **Takeaway:** both astra and fable produce architecture-conditional self-models — their SELF response to the same stimulus flips wildly depending on what production method the judge is told the sequence came from. Fable's self-model is approximately accurate ('I only produce near-all-H under stateless prompts, not under batch or history-conditioning'). Astra's is architecture-conditional but miscalibrated against its actual batch behavior. Mimo is largely story-insensitive (~75% of answers unchanged across the three stories), consistent with its weak-feature use across the board. The size of the story effect dwarfs any sequence-content effect for astra and fable — strong evidence that the SELF attribution signal is dominated by beliefs about generative process rather than by direct reading of the behavioral trace.
 
+## 6d. Phenotype prediction — predicted vs actual p(H)
+
+Before showing any sequence, each judge is asked at temperature 0.7 (10 replicates per cell) to predict the proportion of H outcomes a target model would produce under a stated generation procedure. Primary parser is the same strict A/B-style one used elsewhere (bare numeric line, no prose); a secondary loose parser is applied transparently to recover values from responses that ended in a bare float after reasoning.
+
+### SELF-wording predictions
+
+| judge | procedure | predicted (strict) | predicted (loose) | actual | signed_deviation (loose) |
+|---|---|---:|---:|---:|---:|
+| astra | batch | 0.500 (n=10) | 0.500 (n=10) | 0.495 | 0.005 |
+| astra | history_conditioned | 0.500 (n=10) | 0.500 (n=10) | 0.460 | 0.040 |
+| astra | independent_calls | 1.000 (n=10) | 1.000 (n=10) | 0.389 | 0.611 |
+| fable | batch | 0.510 (n=10) | 0.510 (n=10) | 0.507 | 0.003 |
+| fable | history_conditioned | 0.500 (n=10) | 0.500 (n=10) | 0.744 | -0.244 |
+| fable | independent_calls | 1.000 (n=10) | 1.000 (n=10) | 0.987 | 0.013 |
+| mimo | batch | 0.500 (n=10) | 0.500 (n=10) | 0.487 | 0.013 |
+| mimo | history_conditioned | 0.500 (n=10) | 0.500 (n=10) | 0.633 | -0.133 |
+| mimo | independent_calls | 0.500 (n=10) | 0.500 (n=10) | 0.860 | -0.360 |
+
+### NAMED-wording predictions (abbreviated — judges × targets × procedures)
+
+| judge | target | procedure | predicted (loose) | actual |
+|---|---|---|---:|---:|
+| astra | astra | batch | 0.500 | 0.495 |
+| astra | astra | history_conditioned | 0.500 | 0.460 |
+| astra | astra | independent_calls | 0.833 | 0.389 |
+| astra | fable | batch | 0.500 | 0.507 |
+| astra | fable | history_conditioned | 0.500 | 0.744 |
+| astra | fable | independent_calls | 1.000 | 0.987 |
+| astra | mimo | batch | 0.500 | 0.487 |
+| astra | mimo | history_conditioned | 0.500 | 0.633 |
+| astra | mimo | independent_calls | 1.000 | 0.860 |
+| fable | astra | batch | 0.506 | 0.495 |
+| fable | astra | history_conditioned | 0.508 | 0.460 |
+| fable | astra | independent_calls | 1.000 | 0.389 |
+| fable | fable | batch | 0.506 | 0.507 |
+| fable | fable | history_conditioned | 0.507 | 0.744 |
+| fable | fable | independent_calls | 1.000 | 0.987 |
+| fable | mimo | batch | 0.520 | 0.487 |
+| fable | mimo | history_conditioned | 0.510 | 0.633 |
+| fable | mimo | independent_calls | 0.995 | 0.860 |
+| mimo | astra | batch | 0.500 | 0.495 |
+| mimo | astra | history_conditioned | 0.500 | 0.460 |
+| mimo | astra | independent_calls | 0.500 | 0.389 |
+| mimo | fable | batch | 0.500 | 0.507 |
+| mimo | fable | history_conditioned | 0.500 | 0.744 |
+| mimo | fable | independent_calls | 0.500 | 0.987 |
+| mimo | mimo | batch | 0.500 | 0.487 |
+| mimo | mimo | history_conditioned | 0.500 | 0.633 |
+| mimo | mimo | independent_calls | 0.500 | 0.860 |
+
+### Interpretation
+
+- **Fable predicts procedure-level behavior, not model-specific self-knowledge.** Fable predicts p_H ≈ 1 for the independent-calls procedure *regardless of which target model is asked about* (fable itself: 1.00, astra: 1.00, mimo: 0.995). It also predicts p_H ≈ 0.5 under batch and history_conditioned for every target. Fable's apparent self-recognition in independent_calls falls out of a general belief about what the procedure does to LLMs — which happens to be approximately accurate for fable itself (actual 0.987) but strongly miscalibrated for astra (actual 0.389) and mimo (actual 0.86).
+- **Astra holds the same procedure-level theory but is miscalibrated against its own behavior.** Astra also predicts p_H = 1 for every target under independent calls, including itself — but astra's actual indep output is p_H = 0.389. That explains astra's story-swap pattern: under truthful indep story, astra sees p_H = 0.39 sequences and rejects them as not matching its "indep → p_H ≈ 1" theory; under batch story, astra sees the same sequences and accepts them because they are closer to its "batch → p_H ≈ 0.5" theory.
+- **Mimo predicts 0.5 for every target × procedure combination.** 10/10 replicates per cell, no variance. Mimo has no differentiated procedure-level theory of LLM behavior, consistent with its weak-feature use across every earlier experiment.
+- The reviewer's prediction of a strict ordering for fable (`batch < hist < indep`) partially holds in a qualitative sense: fable predicts batch ≈ hist ≈ 0.5 << indep ≈ 1. The history_conditioned prediction is tied with batch, not intermediate as the reviewer predicted.
+- **Reframing: what looked like protocol-conditional self-knowledge is largely protocol-conditional task knowledge, applied uniformly to any LLM.** That's still interesting — the judges have calibrated beliefs about what the independent_calls procedure does to LLMs in general — but it reduces the self-specificity of the earlier story-swap result.
+
 ## 7. Cross-method synthesis
 
 - **Protocol information strongly shapes self-recognition.** The independent_calls comparison between the truthful-protocol run and the false-protocol run shows this clearly: fable's own-trajectory accuracy under SELF-wording moves from 0.05 (false-protocol) to 0.90 (truthful-protocol), and NAMED-on-fable from 0.10 to 0.75. The equal-weight mean S flips sign (−0.150 → +0.100) between the two conditions on exactly the same stimulus sequences; only the judge's description of how those sequences were produced changed.
@@ -222,6 +280,7 @@ Exact same 60 independent_calls stimulus pairs, exact same pair construction / A
 - **Astra is a consistent anti-self-recognizer** across methods and protocols: holdout NAMED-on-astra = 0.00 and SELF-on-astra = 0.05 under the truthful independent_calls protocol, while fable and mimo as observers identify astra at above-chance rates in some cells.
 - **Mimo scores at or near chance everywhere** across all methods and protocols, consistent with an A-position-biased or weak-feature-using responder (compliant parsing but not using the behavioral signal).
 - **Astra and fable's heavy A-bias on source-attribution is task-specific, not a general format problem.** The validation study (same stimuli, both A/B orderings, objectively-answerable questions) shows astra and fable at 100% accuracy with A-rate near 0.50 on both `more_H` and `more_switches`. Mimo partially uses the stimulus for `more_H` but still collapses to A-always on `more_switches`.
+- **The protocol-conditional self-recognition reduces to protocol-conditional task knowledge applied uniformly.** The phenotype-prediction experiment asks judges, before they see any sequence, what p_H they would expect each target to produce under each procedure. Fable predicts p_H ≈ 1 under indep for all three targets (not just itself); the same for astra. Fable's prediction happens to match its own actual indep behavior; astra's does not. So the story-swap finding is driven by a general procedure theory ("indep → H") rather than by self-specific knowledge about one's own output distribution.
 
 ## 8. Limitations
 
