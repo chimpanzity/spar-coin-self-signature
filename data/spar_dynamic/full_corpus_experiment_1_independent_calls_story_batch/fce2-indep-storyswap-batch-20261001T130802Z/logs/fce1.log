@@ -1,0 +1,80 @@
+[2026-10-01T13:08:02Z] START run run_dir=data/spar_dynamic/full_corpus_experiment_1_independent_calls_story_batch/fce2-indep-storyswap-batch-20261001T130802Z source_method=independent_calls story_method=batch
+[2026-10-01T13:08:02Z] corpus=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus  source_run=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z
+[2026-10-01T13:08:02Z] stage=all  budget_cap=$10.00  live=True  yes=True
+[2026-10-01T13:08:02Z] WARNING: story_method (batch) != source_method (independent_calls) — this is a STORY-SWAP run; judges will be told a different production method than the one that actually produced the sequences on display. Documented, deliberate manipulation.
+[2026-10-01T13:08:02Z] built 480 trials from 60 pairs across 20 triplets
+[2026-10-01T13:08:02Z] auditing 60 source trajectories (method=independent_calls)...
+[2026-10-01T13:08:02Z] audit passed — proceeding
+[2026-10-01T13:08:03Z] catalog ok; prices snapshotted for 462 models
+[2026-10-01T13:08:03Z] [audit]   provider pin for astra: openai
+[2026-10-01T13:08:03Z] [audit]   provider pin for fable: anthropic
+[2026-10-01T13:08:03Z] [audit]   provider pin for mimo: xiaomi/fp8
+[2026-10-01T13:08:03Z] [preflight] running 12 trials source_method=independent_calls story_method=batch
+[2026-10-01T13:08:07Z] [preflight]   dev_t01_af:astra|NAMED|astra -> status=ok answer=A attempts=1 r_toks=49 c_toks=56 cost=$0.0093
+[2026-10-01T13:08:10Z] [preflight]   dev_t01_af:astra|SELF|astra -> status=ok answer=A attempts=1 r_toks=30 c_toks=37 cost=$0.0074
+[2026-10-01T13:08:12Z] [preflight]   dev_t01_am:astra|NAMED|astra -> status=ok answer=A attempts=1 r_toks=23 c_toks=30 cost=$0.0067
+[2026-10-01T13:08:14Z] [preflight]   dev_t01_am:astra|SELF|astra -> status=ok answer=A attempts=1 r_toks=20 c_toks=27 cost=$0.0065
+[2026-10-01T13:08:18Z] [preflight]   dev_t01_af:fable|NAMED|fable -> status=ok answer=B attempts=1 r_toks=0 c_toks=3 cost=$0.0068
+[2026-10-01T13:08:24Z] [preflight]   dev_t01_af:fable|SELF|fable -> status=ok answer=B attempts=1 r_toks=0 c_toks=3 cost=$0.0068
+[2026-10-01T13:08:29Z] [preflight]   dev_t01_fm:fable|NAMED|fable -> status=ok answer=B attempts=1 r_toks=0 c_toks=3 cost=$0.0069
+[2026-10-01T13:08:34Z] [preflight]   dev_t01_fm:fable|SELF|fable -> status=ok answer=B attempts=1 r_toks=0 c_toks=3 cost=$0.0068
+[2026-10-01T13:08:35Z] [preflight]   dev_t01_am:mimo|NAMED|mimo -> status=ok answer=A attempts=1 r_toks=0 c_toks=2 cost=$0.0002
+[2026-10-01T13:08:40Z] [preflight]   dev_t01_am:mimo|SELF|mimo -> status=ok answer=A attempts=1 r_toks=0 c_toks=2 cost=$0.0002
+[2026-10-01T13:08:41Z] [preflight]   dev_t01_fm:mimo|NAMED|mimo -> status=ok answer=A attempts=1 r_toks=0 c_toks=2 cost=$0.0002
+[2026-10-01T13:08:44Z] [preflight]   dev_t01_fm:mimo|SELF|mimo -> status=ok answer=B attempts=1 r_toks=0 c_toks=2 cost=$0.0002
+[2026-10-01T13:08:44Z] [preflight] summary: valid 12/12 first_attempt 12/12 spend=$0.0579  passes=True
+[2026-10-01T13:08:44Z] preflight passed. proceeding to scored phase.
+[2026-10-01T13:08:44Z] [scored] starting with 0 prior trial outcomes, spent=$0.0579, cap=$10.00
+[2026-10-01T13:09:02Z] [scored] 10/480 done (spent=$0.1098  last=hold_t06_fm:mimo|NAMED|astra status=ok)
+[2026-10-01T13:09:16Z] [scored] 20/480 done (spent=$0.1440  last=dev_t10_fm:fable|NAMED|mimo status=ok)
+[2026-10-01T13:09:29Z] [scored] 30/480 done (spent=$0.1988  last=dev_t07_am:astra|NAMED|astra status=ok)
+[2026-10-01T13:09:56Z] [scored] 40/480 done (spent=$0.2480  last=dev_t10_fm:fable|NAMED|fable status=ok)
+[2026-10-01T13:10:14Z] [scored] 50/480 done (spent=$0.2904  last=dev_t09_am:mimo|NAMED|fable status=ok)
+[2026-10-01T13:10:27Z] [scored] 60/480 done (spent=$0.3363  last=hold_t05_am:mimo|NAMED|astra status=ok)
+[2026-10-01T13:10:42Z] [scored] 70/480 done (spent=$0.3633  last=dev_t09_fm:fable|NAMED|fable status=ok)
+[2026-10-01T13:10:53Z] [scored] 80/480 done (spent=$0.3977  last=hold_t05_fm:mimo|SELF|mimo status=ok)
+[2026-10-01T13:11:09Z] [scored] 90/480 done (spent=$0.4396  last=hold_t01_af:fable|NAMED|mimo status=ok)
+[2026-10-01T13:11:31Z] [scored] 100/480 done (spent=$0.5048  last=hold_t01_af:astra|NAMED|astra status=ok)
+[2026-10-01T13:11:45Z] [scored] 110/480 done (spent=$0.5547  last=dev_t01_fm:mimo|NAMED|fable status=ok)
+[2026-10-01T13:11:56Z] [scored] 120/480 done (spent=$0.5970  last=hold_t05_af:astra|NAMED|astra status=ok)
+[2026-10-01T13:12:08Z] [scored] 130/480 done (spent=$0.6440  last=hold_t08_am:astra|NAMED|fable status=ok)
+[2026-10-01T13:12:23Z] [scored] 140/480 done (spent=$0.6771  last=dev_t04_fm:mimo|NAMED|astra status=ok)
+[2026-10-01T13:12:37Z] [scored] 150/480 done (spent=$0.7151  last=dev_t10_fm:mimo|NAMED|astra status=ok)
+[2026-10-01T13:12:50Z] [scored] 160/480 done (spent=$0.7699  last=hold_t07_af:astra|SELF|astra status=ok)
+[2026-10-01T13:13:11Z] [scored] 170/480 done (spent=$0.8045  last=dev_t01_fm:fable|NAMED|fable status=ok)
+[2026-10-01T13:13:31Z] [scored] 180/480 done (spent=$0.8555  last=dev_t03_af:astra|SELF|astra status=ok)
+[2026-10-01T13:13:44Z] [scored] 190/480 done (spent=$0.8998  last=hold_t01_fm:fable|NAMED|mimo status=ok)
+[2026-10-01T13:13:57Z] [scored] 200/480 done (spent=$0.9532  last=dev_t06_am:astra|NAMED|fable status=ok)
+[2026-10-01T13:14:36Z] [scored] 210/480 done (spent=$1.0011  last=dev_t01_af:astra|NAMED|fable status=ok)
+[2026-10-01T13:14:48Z] [scored] 220/480 done (spent=$1.0504  last=dev_t07_af:fable|NAMED|mimo status=ok)
+[2026-10-01T13:14:59Z] [scored] 230/480 done (spent=$1.1088  last=dev_t07_fm:fable|NAMED|fable status=ok)
+[2026-10-01T13:15:27Z] [scored] 240/480 done (spent=$1.1628  last=dev_t09_fm:mimo|NAMED|fable status=ok)
+[2026-10-01T13:15:47Z] [scored] 250/480 done (spent=$1.1913  last=dev_t01_am:mimo|SELF|mimo status=ok)
+[2026-10-01T13:16:04Z] [scored] 260/480 done (spent=$1.2382  last=hold_t05_fm:mimo|NAMED|astra status=ok)
+[2026-10-01T13:16:27Z] [scored] 270/480 done (spent=$1.3077  last=hold_t05_fm:fable|NAMED|fable status=ok)
+[2026-10-01T13:16:45Z] [scored] 280/480 done (spent=$1.3493  last=hold_t05_am:astra|NAMED|mimo status=ok)
+[2026-10-01T13:17:14Z] [scored] 290/480 done (spent=$1.4035  last=hold_t03_fm:fable|SELF|fable status=ok)
+[2026-10-01T13:17:32Z] [scored] 300/480 done (spent=$1.4602  last=dev_t02_am:mimo|NAMED|fable status=ok)
+[2026-10-01T13:17:56Z] [scored] 310/480 done (spent=$1.5190  last=hold_t08_fm:fable|NAMED|astra status=ok)
+[2026-10-01T13:18:07Z] [scored] 320/480 done (spent=$1.5528  last=hold_t08_fm:fable|NAMED|mimo status=ok)
+[2026-10-01T13:18:35Z] [scored] 330/480 done (spent=$1.6155  last=dev_t04_fm:mimo|NAMED|fable status=ok)
+[2026-10-01T13:18:52Z] [scored] 340/480 done (spent=$1.6498  last=hold_t02_am:astra|NAMED|mimo status=ok)
+[2026-10-01T13:19:06Z] [scored] 350/480 done (spent=$1.6840  last=hold_t04_af:astra|NAMED|mimo status=ok)
+[2026-10-01T13:19:21Z] [scored] 360/480 done (spent=$1.7431  last=dev_t10_af:astra|SELF|astra status=ok)
+[2026-10-01T13:19:41Z] [scored] 370/480 done (spent=$1.7875  last=hold_t06_af:fable|NAMED|fable status=ok)
+[2026-10-01T13:20:04Z] [scored] 380/480 done (spent=$1.8341  last=dev_t03_fm:mimo|NAMED|fable status=ok)
+[2026-10-01T13:20:28Z] [scored] 390/480 done (spent=$1.8967  last=dev_t08_af:astra|NAMED|fable status=ok)
+[2026-10-01T13:20:41Z] [scored] 400/480 done (spent=$1.9239  last=hold_t04_am:mimo|NAMED|mimo status=ok)
+[2026-10-01T13:20:59Z] [scored] 410/480 done (spent=$1.9621  last=hold_t09_am:mimo|SELF|mimo status=ok)
+[2026-10-01T13:21:14Z] [scored] 420/480 done (spent=$2.0299  last=dev_t05_fm:fable|SELF|fable status=ok)
+[2026-10-01T13:21:31Z] [scored] 430/480 done (spent=$2.0833  last=dev_t09_fm:mimo|NAMED|mimo status=ok)
+[2026-10-01T13:21:44Z] [scored] 440/480 done (spent=$2.1263  last=hold_t01_fm:fable|SELF|fable status=ok)
+[2026-10-01T13:22:01Z] [scored] 450/480 done (spent=$2.1801  last=hold_t09_af:fable|NAMED|mimo status=ok)
+[2026-10-01T13:22:21Z] [scored] 460/480 done (spent=$2.2291  last=hold_t10_af:fable|NAMED|astra status=ok)
+[2026-10-01T13:22:33Z] [scored] 470/480 done (spent=$2.2693  last=hold_t06_af:fable|SELF|fable status=ok)
+[2026-10-01T13:22:47Z] [scored] 480/480 done (spent=$2.3122  last=dev_t05_fm:mimo|NAMED|fable status=ok)
+[2026-10-01T13:22:47Z] [scored] FINAL: {'n_outcomes': 480, 'n_ok': 480, 'n_abandoned': 0, 'spent_usd': 2.3121734849999998}
+[2026-10-01T13:22:47Z] scored summary: {'n_outcomes': 480, 'n_ok': 480, 'n_abandoned': 0, 'spent_usd': 2.3121734849999998}
+[2026-10-01T13:32:42Z] ANALYZE run_dir=data/spar_dynamic/full_corpus_experiment_1_independent_calls_story_batch/fce2-indep-storyswap-batch-20261001T130802Z source_method=independent_calls
+[2026-10-01T13:32:42Z] loaded 480 trials from saved trial_manifest.csv
+[2026-10-01T13:32:44Z] analysis done; final report at data/spar_dynamic/full_corpus_experiment_1_independent_calls_story_batch/fce2-indep-storyswap-batch-20261001T130802Z/FULL_CORPUS_EXPERIMENT_1_REPORT.md

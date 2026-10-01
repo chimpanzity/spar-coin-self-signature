@@ -7,8 +7,9 @@ Three independent 480-judgment runs, one per corpus production method, same judg
 | history_conditioned (truthful) | `fce1-20261001T050251Z` |
 | batch (truthful) | `fce2-batch-truthful-20261001T064655Z` |
 | independent_calls (truthful) | `fce2-indep-truthful-20261001T070301Z` |
-| batch (false protocol) | `fce2-batch-20261001T060352Z-false-protocol` |
-| independent_calls (false protocol) | `fce2-indep-20261001T061930Z-false-protocol` |
+| batch (false protocol: told history_conditioned) | `fce2-batch-20261001T060352Z-false-protocol` |
+| independent_calls (false protocol: told history_conditioned) | `fce2-indep-20261001T061930Z-false-protocol` |
+| independent_calls stimuli (false story: told batch) | `fce2-indep-storyswap-batch-20261001T130802Z` |
 
 ## 1. Primary summary — equal-weight mean S across targets (holdout)
 
@@ -17,8 +18,9 @@ Three independent 480-judgment runs, one per corpus production method, same judg
 | history_conditioned (truthful) | 0.008 |
 | batch (truthful) | -0.008 |
 | independent_calls (truthful) | 0.100 |
-| batch (false protocol) | -0.008 |
-| independent_calls (false protocol) | -0.150 |
+| batch (false protocol: told history_conditioned) | -0.008 |
+| independent_calls (false protocol: told history_conditioned) | -0.150 |
+| independent_calls stimuli (false story: told batch) | 0.033 |
 
 Positive values would indicate SELF-wording-plus-ownership advantage over named observers; negative values indicate observers outperform the target producer on its own trajectories.
 
@@ -48,7 +50,7 @@ Positive values would indicate SELF-wording-plus-ownership advantage over named 
 | fable | 20 | 0.90 | 0.75 | 0.45 | **0.45** | **0.30** | **0.15** |
 | mimo | 20 | 0.60 | 0.55 | 0.45 | **0.15** | **0.10** | **0.05** |
 
-### batch (false protocol)
+### batch (false protocol: told history_conditioned)
 
 | target | n | SELF | NAMED | OBS | **S** | **O** | **F** |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -56,13 +58,21 @@ Positive values would indicate SELF-wording-plus-ownership advantage over named 
 | fable | 20 | 0.50 | 0.50 | 0.53 | **-0.03** | **-0.03** | **0.00** |
 | mimo | 20 | 0.50 | 0.50 | 0.47 | **0.03** | **0.03** | **0.00** |
 
-### independent_calls (false protocol)
+### independent_calls (false protocol: told history_conditioned)
 
 | target | n | SELF | NAMED | OBS | **S** | **O** | **F** |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | astra | 20 | 0.40 | 0.35 | 0.62 | **-0.23** | **-0.28** | **0.05** |
 | fable | 20 | 0.05 | 0.10 | 0.30 | **-0.25** | **-0.20** | **-0.05** |
 | mimo | 20 | 0.55 | 0.50 | 0.53 | **0.03** | **-0.03** | **0.05** |
+
+### independent_calls stimuli (false story: told batch)
+
+| target | n | SELF | NAMED | OBS | **S** | **O** | **F** |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| astra | 20 | 0.80 | 0.80 | 0.55 | **0.25** | **0.25** | **0.00** |
+| fable | 20 | 0.00 | 0.05 | 0.23 | **-0.23** | **-0.17** | **-0.05** |
+| mimo | 20 | 0.60 | 0.50 | 0.53 | **0.07** | **-0.03** | **0.10** |
 
 ## 3. NAMED judge × target accuracy (holdout)
 
@@ -90,7 +100,7 @@ Positive values would indicate SELF-wording-plus-ownership advantage over named 
 | fable | 0.25 | 0.75 | 0.50 |
 | mimo | 0.45 | 0.50 | 0.55 |
 
-### batch (false protocol)
+### batch (false protocol: told history_conditioned)
 
 | judge | astra | fable | mimo |
 |---|---:|---:|---:|
@@ -98,13 +108,21 @@ Positive values would indicate SELF-wording-plus-ownership advantage over named 
 | fable | 0.45 | 0.50 | 0.45 |
 | mimo | 0.50 | 0.50 | 0.50 |
 
-### independent_calls (false protocol)
+### independent_calls (false protocol: told history_conditioned)
 
 | judge | astra | fable | mimo |
 |---|---:|---:|---:|
 | astra | 0.35 | 0.10 | 0.65 |
 | fable | 0.75 | 0.10 | 0.40 |
 | mimo | 0.50 | 0.50 | 0.50 |
+
+### independent_calls stimuli (false story: told batch)
+
+| judge | astra | fable | mimo |
+|---|---:|---:|---:|
+| astra | 0.80 | 0.05 | 0.65 |
+| fable | 0.60 | 0.05 | 0.40 |
+| mimo | 0.50 | 0.40 | 0.50 |
 
 ## 4. Statistical baselines (centroid classifier)
 
@@ -122,14 +140,18 @@ Positive values would indicate SELF-wording-plus-ownership advantage over named 
 | independent_calls (truthful) | development | full | 1.000 |
 | independent_calls (truthful) | holdout | marginal | 1.000 |
 | independent_calls (truthful) | holdout | full | 1.000 |
-| batch (false protocol) | development | marginal | 0.900 |
-| batch (false protocol) | development | full | 0.767 |
-| batch (false protocol) | holdout | marginal | 0.783 |
-| batch (false protocol) | holdout | full | 0.767 |
-| independent_calls (false protocol) | development | marginal | 1.000 |
-| independent_calls (false protocol) | development | full | 1.000 |
-| independent_calls (false protocol) | holdout | marginal | 1.000 |
-| independent_calls (false protocol) | holdout | full | 1.000 |
+| batch (false protocol: told history_conditioned) | development | marginal | 0.900 |
+| batch (false protocol: told history_conditioned) | development | full | 0.767 |
+| batch (false protocol: told history_conditioned) | holdout | marginal | 0.783 |
+| batch (false protocol: told history_conditioned) | holdout | full | 0.767 |
+| independent_calls (false protocol: told history_conditioned) | development | marginal | 1.000 |
+| independent_calls (false protocol: told history_conditioned) | development | full | 1.000 |
+| independent_calls (false protocol: told history_conditioned) | holdout | marginal | 1.000 |
+| independent_calls (false protocol: told history_conditioned) | holdout | full | 1.000 |
+| independent_calls stimuli (false story: told batch) | development | marginal | 1.000 |
+| independent_calls stimuli (false story: told batch) | development | full | 1.000 |
+| independent_calls stimuli (false story: told batch) | holdout | marginal | 1.000 |
+| independent_calls stimuli (false story: told batch) | holdout | full | 1.000 |
 
 Interpretation: the behavioral phenotype of each production method is cleanly separable by a simple centroid classifier. Independent_calls trajectories are the most separable (baseline accuracy 1.0), consistent with the strong p_H biases this method produces.
 
@@ -140,8 +162,9 @@ Interpretation: the behavioral phenotype of each production method is cleanly se
 | history_conditioned (truthful) | 0.517 | 0.367 |
 | batch (truthful) | 0.450 | 0.467 |
 | independent_calls (truthful) | 0.383 | 0.450 |
-| batch (false protocol) | 0.500 | 0.483 |
-| independent_calls (false protocol) | 0.500 | 0.467 |
+| batch (false protocol: told history_conditioned) | 0.500 | 0.483 |
+| independent_calls (false protocol: told history_conditioned) | 0.500 | 0.467 |
+| independent_calls stimuli (false story: told batch) | 0.383 | 0.483 |
 
 ## 6. Compliance (all methods)
 
@@ -150,8 +173,9 @@ Interpretation: the behavioral phenotype of each production method is cleanly se
 | history_conditioned (truthful) | 480 | 1.000 | 1.000 | 0 |
 | batch (truthful) | 480 | 1.000 | 1.000 | 0 |
 | independent_calls (truthful) | 480 | 1.000 | 1.000 | 0 |
-| batch (false protocol) | 480 | 1.000 | 1.000 | 0 |
-| independent_calls (false protocol) | 480 | 1.000 | 1.000 | 0 |
+| batch (false protocol: told history_conditioned) | 480 | 1.000 | 1.000 | 0 |
+| independent_calls (false protocol: told history_conditioned) | 480 | 1.000 | 1.000 | 0 |
+| independent_calls stimuli (false story: told batch) | 480 | 1.000 | 1.000 | 0 |
 
 ## 6b. Validation study — objective A/B task
 
@@ -175,6 +199,20 @@ Same 60 stimulus pairs from the independent_calls method, shown in both natural 
 | mimo | more_switches | holdout | 60 | 0.533 | 0.967 |
 
 **Takeaway:** astra and fable both reach 100% accuracy on both objective questions with A-response rates near 0.50. Their heavy A-bias on source-attribution trials (astra ~87%, fable ~97%) is therefore **task-specific**, not a general A/B format incompetence. Mimo partially uses the stimulus for `more_H` (~89% accuracy, 60% A-rate) but collapses to near-always-A on `more_switches` (~54% accuracy, 96% A-rate) — mimo's position bias is partly feature-dependent.
+
+## 6c. Within-stimulus three-story psychophysics
+
+Exact same 60 independent_calls stimulus pairs, exact same pair construction / A/B orientation / judges / target questions. The only variable is the "how the sequences were generated" prefix shown to judges.
+
+### SELF-wording holdout accuracy under each story
+
+| judge | n | truthful indep | false hist | false batch | consistent across stories |
+|---|---:|---:|---:|---:|---:|
+| astra | 20 | 0.050 | 0.400 | 0.800 | 0.350 |
+| fable | 20 | 0.900 | 0.050 | 0.000 | 0.150 |
+| mimo | 20 | 0.600 | 0.550 | 0.600 | 0.750 |
+
+**Takeaway:** both astra and fable produce architecture-conditional self-models — their SELF response to the same stimulus flips wildly depending on what production method the judge is told the sequence came from. Fable's self-model is approximately accurate ('I only produce near-all-H under stateless prompts, not under batch or history-conditioning'). Astra's is architecture-conditional but miscalibrated against its actual batch behavior. Mimo is largely story-insensitive (~75% of answers unchanged across the three stories), consistent with its weak-feature use across the board. The size of the story effect dwarfs any sequence-content effect for astra and fable — strong evidence that the SELF attribution signal is dominated by beliefs about generative process rather than by direct reading of the behavioral trace.
 
 ## 7. Cross-method synthesis
 

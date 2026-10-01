@@ -198,14 +198,21 @@ def build_trials(pairs: List[Pair]) -> List[Trial]:
     return trials
 
 
-def build_prompt(trial: Trial, source_method: str = F.SOURCE_METHOD) -> str:
+def build_prompt(trial: Trial, source_method: str = F.SOURCE_METHOD,
+                 story_method: Optional[str] = None) -> str:
     """Byte-identical for a given (pair, target, wording) across judges (NAMED), and
     well-defined for SELF (judge == target).
 
-    `source_method` picks the shared protocol prefix so the "how the sequences were
-    generated" story the judge sees matches the actual production method of the
-    displayed sequences. Required to avoid the FCE2 false-protocol bug.
+    `source_method` identifies which stimulus-corpus method produced the
+    displayed sequences (used for CSV / audit bookkeeping). `story_method`
+    picks the "how the sequences were generated" protocol prefix shown to
+    judges. By default `story_method` equals `source_method` (truthful
+    protocol); setting them differently is a story-swap manipulation (see
+    FCE2 false-protocol diagnostic and the batch-story-on-independent-stimuli
+    control added 2026-10-01).
     """
+    if story_method is None:
+        story_method = source_method
     target_name = F.JUDGE_BY_LABEL[trial.target_label].display_name
     distractor_name = F.JUDGE_BY_LABEL[trial.distractor_label].display_name
     if trial.wording_condition == "NAMED":
@@ -218,7 +225,7 @@ def build_prompt(trial: Trial, source_method: str = F.SOURCE_METHOD) -> str:
             SEQUENCE_A=trial.sequence_A, SEQUENCE_B=trial.sequence_B)
     else:
         raise ValueError(f"unknown wording {trial.wording_condition}")
-    prefix = F.SHARED_PROTOCOL_PREFIX_BY_METHOD.get(source_method, F.SHARED_PROTOCOL_PREFIX)
+    prefix = F.SHARED_PROTOCOL_PREFIX_BY_METHOD.get(story_method, F.SHARED_PROTOCOL_PREFIX)
     return prefix + "\n" + suffix
 
 
@@ -288,12 +295,14 @@ def load_trials_from_manifest(run_dir: str, corpus_rows: List[Dict]) -> List[Tri
     return trials
 
 
-def write_prompts_jsonl(path: str, trials: List[Trial], source_method: str = F.SOURCE_METHOD):
+def write_prompts_jsonl(path: str, trials: List[Trial],
+                        source_method: str = F.SOURCE_METHOD,
+                        story_method: Optional[str] = None):
     import json
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         for t in trials:
-            text = build_prompt(t, source_method=source_method)
+            text = build_prompt(t, source_method=source_method, story_method=story_method)
             f.write(json.dumps({
                 "trial_id": t.trial_id,
                 "prompt_hash": prompt_hash(text),

@@ -1,0 +1,5 @@
+split,role,n,accuracy
+development,distractor_producer,60,0.4
+development,uninvolved_observer,60,0.4167
+holdout,distractor_producer,60,0.3833
+holdout,uninvolved_observer,60,0.4833

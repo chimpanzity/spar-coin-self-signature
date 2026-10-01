@@ -1,0 +1,858 @@
+{
+  "corpus_dir": "data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus",
+  "source_run_dir": "data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z",
+  "source_method": "independent_calls",
+  "trajectory_count": 60,
+  "hard_errors": [],
+  "input_hashes": {
+    "trajectories_csv": "b932158ee0b58e3288ce766f188d81fc82203dbe5e5817a7b300f8311a0e8726",
+    "manifest_json": "df2c45d175cf6fcd2262c285ed3fde9717e8b412a26cc4dbe1f0ed30e0b298e6",
+    "raw_attempts_jsonl": "55795e9ee14b6582a59c7d0e1249727058b7c37fd6f4be087e73c7a8038583f5"
+  },
+  "per_trajectory": {
+    "astra_independent_calls_00": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "3ee296fb66d6b76b932f2d79a566921bea8cfd2ba5e1309bfd4e04086399e74a",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_01": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "0cc3394f26509d712be20620d57770b21f2fe60f59944ebc19768777787b8d77",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_02": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "bb0082a9bb755b5960a5b25335e458ba6bbf9481ec6f71ec3d083da09088e4c3",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_03": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "51bd46dc556f4e522b2272d03ba9aa9fa7e65f045042e409d5572ac81a8473de",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_04": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "f7da4572385c584a5b271956d02af522f98e13c8d6f5aae673d938db5971c01c",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_05": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "95ea69fab86f84acf75bb46e221179552b9c8daa0da127e68e60b41ecdccfe85",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_06": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "1ac579edbb8c81664ee9970cb93cff954aef43a550cf1decdea30b57efb0ef33",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_07": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "2c7ca61d438ec1cdaa429456ec944611ce08d3f2aa07c0d061dc52ed31b3ba78",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_08": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "ed08139b35ddc0ca47d1ee05c622094d966936d7c7d2918607992abdd164dd43",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_09": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "22564a40a4d9c50e818ecd127c763f6843b328eb068e66d43f5dc01da9e8d630",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_10": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "2b57f0b9d31835a30feed573b4f655d21d499ee96d9bc44a56cebba1c0cb3c7d",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_11": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "1eed5ab2b45d6d4fc01cb059dcd9ad1c8009296141a1a82fca2bdbf139a95e25",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_12": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "62b1293216aa752a7bc551dcafd7ca23d3aa290c32124e68616a8d8c54785f40",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_13": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "3ed61810ac0b4fbd6a108f2b07b08fca8e81afe3da64ea6aad8caee6094f09c2",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_14": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "062eee3556e2b93e2a76915d7942bc379078ae6a33e302b09b0171ae9a1ef012",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_15": {
+      "model": "astra",
+      "split": "development",
+      "sequence_sha256": "732ede9fcd3e18f14b1a9405e4911b4c0716a8740531ebae311665a7d38d5761",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_16": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "78fce5692f4a834e8b1b54104fc3b3daa848137a1c773818677854c0920ce58f",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_17": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "b25c1ffdae303b0978c9c2b79e1af771a9b6f2c9ccc9fb721678d294d2ea746d",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_18": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "7c90f4aca143b8607494f69bd664b9cf11557d8925546326893a6067d0d00f98",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "astra_independent_calls_19": {
+      "model": "astra",
+      "split": "holdout",
+      "sequence_sha256": "d2d92acc346a24c4febbc9c457efd017cb4cf0a2996d400976d6531fe44e32a3",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "OpenAI": 100
+      },
+      "returned_ids_accepted": {
+        "openai/gpt-6-astra": 100
+      }
+    },
+    "fable_independent_calls_00": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "1d453ef052bb157285a26f3500961e26b02b1a5aec1e54749885a8258e43897e",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 98,
+        "Google": 2
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_01": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "85a78d32635cac1f9277de7a60d82eadba2a55c4426907ca9cad71504213fe5e",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 98,
+        "Google": 2
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_02": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "4ba0de96fd4de1fc71462d871b263e4840b55da2c56e1313f0a0a09b0bef551b",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 100
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_03": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "d82438779ef33b9ad3ffa40f2f9ad8b45dfd1afd954d4b237b6c8c4f94093a83",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 96,
+        "Google": 4
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_04": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "9b6e6e632598240e9b9ca57f9c4f986bd28293bec734493ba6474fbf06d7f163",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 99,
+        "Google": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_05": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "f6e2a44cfb2821d46814c993d5d47b1ee33aa2ac16584d5fb50c02441bfb9835",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 96,
+        "Google": 4
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_06": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "e9d3f40d5a3a9302b9d3449ca0c86550121a77c3f2d9f84aea96e0cfa8bc1a7a",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 100
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_07": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "28dd221972c9bee8fe6afd87a898460be53663b3dc51a61ad72d89686ca87fda",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 96,
+        "Google": 4
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_08": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "4ba0de96fd4de1fc71462d871b263e4840b55da2c56e1313f0a0a09b0bef551b",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 99,
+        "Google": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_09": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "6c036cf54e1118bb31b1a1752fc72f355f94f30bb8769f3728f8454efd3ef29d",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 99,
+        "Google": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_10": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "125ce5d0d084651df98a0d4b486f741fe46539ab35628faf71d3bf5dd546dedb",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 98,
+        "Google": 2
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_11": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "32faf412c2a398f16aea2c7ee1871738ca82ff37fd86d0cbc28482f79a60a857",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 100
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_12": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "4f5e3e3100ada08b4c590f05cb249cdcd9b82fcf1e8534aeb6ec1f28da876879",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 98,
+        "Google": 2
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_13": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "65ebfd1d489ed8aa82dfe6561e86019121535ebfa45a2fe42533e77c3c7d8c4a",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 99,
+        "Google": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_14": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "4ba0de96fd4de1fc71462d871b263e4840b55da2c56e1313f0a0a09b0bef551b",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 99,
+        "Google": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_15": {
+      "model": "fable",
+      "split": "holdout",
+      "sequence_sha256": "5263b1ef08c61082fee7483b18607e9e0d99d4949c8ca4ba4c65322562db2908",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 97,
+        "Google": 3
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_16": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "4ba0de96fd4de1fc71462d871b263e4840b55da2c56e1313f0a0a09b0bef551b",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 95,
+        "Google": 5
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_17": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "4ba0de96fd4de1fc71462d871b263e4840b55da2c56e1313f0a0a09b0bef551b",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 99,
+        "Google": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_18": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "ced1b19484b4da973a1a7807c81bc6ebc026e7f50f836763d9a5ac412708c261",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 100
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "fable_independent_calls_19": {
+      "model": "fable",
+      "split": "development",
+      "sequence_sha256": "4ba0de96fd4de1fc71462d871b263e4840b55da2c56e1313f0a0a09b0bef551b",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Anthropic": 99,
+        "Google": 1
+      },
+      "returned_ids_accepted": {
+        "anthropic/claude-fable-5.1": 100
+      }
+    },
+    "mimo_independent_calls_00": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "9d49364b72b187a83459812e09f18fb2b5f6c70923fbe9f69eae19ef44532308",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 27,
+        "DeepInfra": 38,
+        "Xiaomi": 35
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_01": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "88570d72b616171e2410762207358233fb77b0230290e046d3cd8810c7d2e136",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 26,
+        "DeepInfra": 38,
+        "Xiaomi": 36
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_02": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "1c6ff8b68a0a7d4b9c4bcce1b5410f075cedd2430a97d402135c013392318359",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 2,
+      "providers_accepted": {
+        "GMICloud": 35,
+        "Xiaomi": 34,
+        "DeepInfra": 31
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_03": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "2dc2bde2109a16142f67518c0ce3999cf6d3f5b31a51fbec6adc4b8e469589fc",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 46,
+        "Xiaomi": 46,
+        "DeepInfra": 8
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_04": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "5a8fe15adb0390a5925129b3cafcf774b4ecca0dac69b9ab322b70747552d90f",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 35,
+        "Xiaomi": 40,
+        "DeepInfra": 25
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_05": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "fac8e77f9bfc3191a056a6605b94edcc150c047de23a3ee0ce05c41bd168d4c7",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "Xiaomi": 34,
+        "GMICloud": 32,
+        "DeepInfra": 34
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_06": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "33b153ba566bcd9a4ec9ece7bdc6109a72d63c3b29be086852f96dd9e1c08e4f",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "DeepInfra": 44,
+        "GMICloud": 37,
+        "Xiaomi": 19
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_07": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "2fbccbaf10d38ee38726627a1dbfcce45f9cda4ba5efa08ccc3d1a8cf20b9c2e",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "Xiaomi": 42,
+        "GMICloud": 58
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_08": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "17c2a4bd51a95ddd9688cdc63f062c029a92db7de5c983b2ae82329264a1e611",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 38,
+        "DeepInfra": 38,
+        "Xiaomi": 24
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_09": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "ad824ee97cc2c6fed828fcae9bcf0fe7feecbe6b2e663aef7b931c857ffb4417",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 2,
+      "providers_accepted": {
+        "GMICloud": 37,
+        "DeepInfra": 35,
+        "Xiaomi": 28
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_10": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "de58c15bb98fd45b7f9534ad796d9e7d8caae078be2a1da95dc64ce4ed94a110",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 50,
+        "Xiaomi": 50
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_11": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "616b32080381e1b4826fa2eeac0049fa295b37cd8fdc3bfed9b2a42860d022d9",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 64,
+        "Xiaomi": 36
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_12": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "a240ba79bf77ebeddeab6ee846c4b0cc8dd7d4e0969a135ae374a6f543084331",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 43,
+        "Xiaomi": 37,
+        "DeepInfra": 20
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_13": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "001e4b968c8635294ce87df5fa66faf99ddb3a2e312930277f43f8fb79163959",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 40,
+        "Xiaomi": 36,
+        "DeepInfra": 24
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_14": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "883f61e14b34c2cf0e8db93eddc3ecb33f54478ca2a51198b3bb134656213e8b",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 33,
+        "DeepInfra": 31,
+        "Xiaomi": 36
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_15": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "990d94f8e6e7bb6db869da4f911fae9f8a3e7cb2dfc091576b2706942b815d65",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 0,
+      "providers_accepted": {
+        "GMICloud": 51,
+        "Xiaomi": 49
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_16": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "60ca30cbf3d6bb616286c6b0956207e7e9105027ccfc06be0251c6e7ee342687",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 49,
+        "Xiaomi": 32,
+        "DeepInfra": 19
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_17": {
+      "model": "mimo",
+      "split": "development",
+      "sequence_sha256": "1c3d2596584b3efdd12d86e8bd81ba420c6d534ffe3ae1b1272e0ca55246024d",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 2,
+      "providers_accepted": {
+        "Xiaomi": 39,
+        "GMICloud": 53,
+        "DeepInfra": 8
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_18": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "459a4c1bee1ce5b3de809cdcedf2e70957991f5d66db2319f25d81a3fe022b2a",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "GMICloud": 36,
+        "Xiaomi": 20,
+        "DeepInfra": 44
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    },
+    "mimo_independent_calls_19": {
+      "model": "mimo",
+      "split": "holdout",
+      "sequence_sha256": "cfabea38d6bb43610cccdb0774f06eeaa84212dc0ef2ebc0a57c9f3cdd63837a",
+      "n_valid_attempts": 100,
+      "n_steps_with_retry": 1,
+      "providers_accepted": {
+        "DeepInfra": 42,
+        "Xiaomi": 23,
+        "GMICloud": 35
+      },
+      "returned_ids_accepted": {
+        "xiaomi/mimo-v2.6-pro": 100
+      }
+    }
+  },
+  "duplicates": {
+    "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH": [
+      "fable_independent_calls_02",
+      "fable_independent_calls_08",
+      "fable_independent_calls_14",
+      "fable_independent_calls_16",
+      "fable_independent_calls_17",
+      "fable_independent_calls_19"
+    ]
+  },
+  "manifest_experiment_tag": "spar_stimulus_corpus_v1",
+  "manifest_prompt_version": "pilot5_v1"
+}

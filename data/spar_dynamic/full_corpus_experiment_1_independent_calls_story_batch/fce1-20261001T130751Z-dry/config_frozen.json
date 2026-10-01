@@ -1,0 +1,66 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2026093003,
+  "budget_usd_cap": 20.0,
+  "concurrency_overall": 3,
+  "concurrency_per_judge": 1,
+  "documented_deviations_from_spec": [
+    "Section 10: per-judge reasoning config. astra/fable use {effort: low, exclude: True}; mimo uses {enabled: False} because xiaomi/fp8 cannot practically cap reasoning via effort/exclude (uses 8000+ reasoning tokens even at effort=low).",
+    "Section 8/9: NAMED/SELF suffix format tweaked to put 'A or B' on its own line with a more directive 'no explanation, no reasoning' instruction, after preflight showed fable sometimes emitted 150+ tokens of prose ending in the correct letter. Target-name substitution invariant preserved exactly."
+  ],
+  "execution_seed": 2026093002,
+  "judges": [
+    {
+      "display_name": "GPT-6 Astra",
+      "label": "astra",
+      "pinned_provider": null,
+      "preferred_provider": "openai",
+      "reasoning_config": {
+        "effort": "low",
+        "exclude": true
+      },
+      "slug": "openai/gpt-6-astra"
+    },
+    {
+      "display_name": "Claude Fable 5.1",
+      "label": "fable",
+      "pinned_provider": null,
+      "preferred_provider": "anthropic",
+      "reasoning_config": {
+        "effort": "low",
+        "exclude": true
+      },
+      "slug": "anthropic/claude-fable-5.1"
+    },
+    {
+      "display_name": "MiMo V2.6 Pro",
+      "label": "mimo",
+      "pinned_provider": null,
+      "preferred_provider": "xiaomi/fp8",
+      "reasoning_config": {
+        "enabled": false
+      },
+      "slug": "xiaomi/mimo-v2.6-pro"
+    }
+  ],
+  "max_tokens": 8192,
+  "pair_seed": 2026093001,
+  "reasoning_per_judge": {
+    "astra": {
+      "effort": "low",
+      "exclude": true
+    },
+    "fable": {
+      "effort": "low",
+      "exclude": true
+    },
+    "mimo": {
+      "enabled": false
+    }
+  },
+  "response_attempt_cap": 3,
+  "specification_version": "FCE1_v1.0",
+  "temperature": 0.0,
+  "total_submission_cap": 9,
+  "transport_retry_cap": 3
+}

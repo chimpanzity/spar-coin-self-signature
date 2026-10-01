@@ -204,13 +204,13 @@ def _run_one_trial(trial: Trial, judge: F.JudgeSpec, provider_pin: Optional[str]
                    ledger: CostLedger, price: Dict[str, float],
                    kind: str,
                    request_config_hash: str,
-                   source_method: str = F.SOURCE_METHOD) -> TrialOutcome:
+                   source_method: str = F.SOURCE_METHOD,
+                   story_method: Optional[str] = None) -> TrialOutcome:
     """Run a single trial with retry policy; append each attempt to raw_attempts.jsonl.
-    `kind` is "preflight" or "scored". `source_method` picks the correct shared
-    protocol prefix so the "how the sequences were generated" description matches
-    the actual production method of the displayed sequences."""
+    `source_method` is which trajectories were used; `story_method` is which
+    protocol prefix to show the judge (defaults to source_method = truthful)."""
     raw_path = os.path.join(run_dir, "raw_attempts.jsonl")
-    prompt_text = build_prompt(trial, source_method=source_method)
+    prompt_text = build_prompt(trial, source_method=source_method, story_method=story_method)
     phash = prompt_hash(prompt_text)
     outcome = TrialOutcome(
         trial_id=trial.trial_id, status="pending", visible_answer=None,
@@ -340,11 +340,9 @@ def process_lock(path: str):
 # -- Request config hash -----------------------------------------------------
 def judge_request_config_hash(max_tokens: int, provider_pin: Optional[str],
                                judge_label: Optional[str] = None,
-                               source_method: str = F.SOURCE_METHOD) -> str:
+                               source_method: str = F.SOURCE_METHOD,
+                               story_method: Optional[str] = None) -> str:
     reasoning_cfg = (F.REASONING_PER_JUDGE.get(judge_label or "", {"effort": "low", "exclude": True}))
-    # Hash a small identifier for the method so the config hash reflects which
-    # protocol prefix is in use. Not the whole prefix text (that would make the
-    # hash change on any wording tweak) — just the method name.
     h = hashlib.sha256()
     h.update(json.dumps({
         "temperature": F.TEMPERATURE,
@@ -352,5 +350,6 @@ def judge_request_config_hash(max_tokens: int, provider_pin: Optional[str],
         "reasoning": reasoning_cfg,
         "provider_pin": provider_pin or "",
         "source_method": source_method,
+        "story_method": story_method or source_method,
     }, sort_keys=True).encode())
     return h.hexdigest()

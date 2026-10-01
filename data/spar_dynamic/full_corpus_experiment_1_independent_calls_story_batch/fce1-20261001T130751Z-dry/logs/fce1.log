@@ -1,0 +1,7 @@
+[2026-10-01T13:07:51Z] START dry-run run_dir=data/spar_dynamic/full_corpus_experiment_1_independent_calls_story_batch/fce1-20261001T130751Z-dry corpus=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus source_method=independent_calls story_method=batch
+[2026-10-01T13:07:51Z] triplets=20 pairs=60 trials=480
+[2026-10-01T13:07:51Z] [dry-run] wrote 480 prompts to data/spar_dynamic/full_corpus_experiment_1_independent_calls_story_batch/fce1-20261001T130751Z-dry/prompts.jsonl source_method=independent_calls story_method=batch
+[2026-10-01T13:07:51Z] [dry-run] NAMED prompt-identity check passed on 120 (pair, target) items
+[2026-10-01T13:07:51Z] [dry-run] story_method prefix check passed (prefix matches batch)
+[2026-10-01T13:07:51Z] [dry-run] story-leak check passed (no tokens from ['history_conditioned', 'independent_calls'] appear in batch prompt)
+[2026-10-01T13:07:51Z] dry-run OK: {'n_trials': 480, 'n_named_targets': 120, 'source_method': 'independent_calls', 'story_method': 'batch'}

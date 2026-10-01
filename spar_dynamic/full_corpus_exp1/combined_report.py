@@ -38,9 +38,12 @@ def _mean_s_holdout(poc_rows: List[Dict]) -> Optional[float]:
 
 
 def build_report(method_dirs: Dict[str, str], out_path: str,
-                 validation_run_dir: Optional[str] = None):
+                 validation_run_dir: Optional[str] = None,
+                 cross_story_summary_csv: Optional[str] = None):
     """method_dirs: {method_label -> run_dir path}. validation_run_dir, if
-    provided, adds a section 6b for the objective A/B task validation study.
+    provided, adds section 6b for the objective A/B task validation study.
+    cross_story_summary_csv, if provided, adds section 6c for the within-
+    stimulus three-story psychophysics summary.
     """
     data = {}
     for method, run_dir in method_dirs.items():
@@ -186,6 +189,45 @@ def build_report(method_dirs: Dict[str, str], out_path: str,
                      "accuracy, 96% A-rate) — mimo's position bias is partly "
                      "feature-dependent.")
         lines.append("")
+    # Within-stimulus three-story psychophysics
+    if cross_story_summary_csv:
+        lines.append("## 6c. Within-stimulus three-story psychophysics")
+        lines.append("")
+        lines.append("Exact same 60 independent_calls stimulus pairs, exact same "
+                     "pair construction / A/B orientation / judges / target "
+                     "questions. The only variable is the \"how the sequences "
+                     "were generated\" prefix shown to judges.")
+        lines.append("")
+        lines.append("### SELF-wording holdout accuracy under each story")
+        lines.append("")
+        lines.append("| judge | n | truthful indep | false hist | false batch | consistent across stories |")
+        lines.append("|---|---:|---:|---:|---:|---:|")
+        rows = _read_csv(cross_story_summary_csv)
+        for r in rows:
+            if r.get("split") == "holdout" and r.get("wording") == "SELF":
+                lines.append(f"| {r['judge']} | {r['n']} | "
+                             f"{_fmt(r['accuracy_truthful'])} | "
+                             f"{_fmt(r['accuracy_false_history'])} | "
+                             f"{_fmt(r['accuracy_false_batch'])} | "
+                             f"{_fmt(r['pct_consistent_across_stories'])} |")
+        lines.append("")
+        lines.append("**Takeaway:** both astra and fable produce architecture-"
+                     "conditional self-models — their SELF response to the same "
+                     "stimulus flips wildly depending on what production method "
+                     "the judge is told the sequence came from. Fable's self-"
+                     "model is approximately accurate ('I only produce near-"
+                     "all-H under stateless prompts, not under batch or "
+                     "history-conditioning'). Astra's is architecture-"
+                     "conditional but miscalibrated against its actual batch "
+                     "behavior. Mimo is largely story-insensitive (~75% of "
+                     "answers unchanged across the three stories), consistent "
+                     "with its weak-feature use across the board. The size of "
+                     "the story effect dwarfs any sequence-content effect for "
+                     "astra and fable — strong evidence that the SELF "
+                     "attribution signal is dominated by beliefs about "
+                     "generative process rather than by direct reading of the "
+                     "behavioral trace.")
+        lines.append("")
     # Interpretive synthesis
     lines.append("## 7. Cross-method synthesis")
     lines.append("")
@@ -244,6 +286,10 @@ def main():
                      help="optional: run dir of FCE2-indep with wrong protocol description")
     ap.add_argument("--validation-run", default="",
                      help="optional: run dir of the objective-task validation study")
+    ap.add_argument("--cross-story-summary", default="",
+                     help="optional: path to cross_story_summary.csv")
+    ap.add_argument("--batch-story-indep-run", default="",
+                     help="optional: run dir of indep stimuli × batch story (adds to section 1)")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
     method_dirs = {
@@ -252,10 +298,14 @@ def main():
         "independent_calls (truthful)":    args.independent_calls_run,
     }
     if args.batch_false_protocol_run:
-        method_dirs["batch (false protocol)"] = args.batch_false_protocol_run
+        method_dirs["batch (false protocol: told history_conditioned)"] = args.batch_false_protocol_run
     if args.independent_false_protocol_run:
-        method_dirs["independent_calls (false protocol)"] = args.independent_false_protocol_run
-    build_report(method_dirs, args.out, validation_run_dir=args.validation_run or None)
+        method_dirs["independent_calls (false protocol: told history_conditioned)"] = args.independent_false_protocol_run
+    if args.batch_story_indep_run:
+        method_dirs["independent_calls stimuli (false story: told batch)"] = args.batch_story_indep_run
+    build_report(method_dirs, args.out,
+                 validation_run_dir=args.validation_run or None,
+                 cross_story_summary_csv=args.cross_story_summary or None)
     print(f"wrote {args.out}", flush=True)
 
 

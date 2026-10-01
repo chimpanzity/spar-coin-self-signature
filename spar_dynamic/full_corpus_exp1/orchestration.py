@@ -113,9 +113,11 @@ def preflight_trial_subset(trials: List[Trial]) -> List[Trial]:
 def run_preflight(client: OpenAI, trials: List[Trial], run_dir: str,
                   prices: Dict[str, Dict[str, float]], provider_pins: Dict[str, Optional[str]],
                   cap_usd: float, log=print,
-                  source_method: str = F.SOURCE_METHOD) -> Dict:
+                  source_method: str = F.SOURCE_METHOD,
+                  story_method: Optional[str] = None) -> Dict:
     pre_subset = preflight_trial_subset(trials)
-    log(f"[preflight] running {len(pre_subset)} trials source_method={source_method}")
+    log(f"[preflight] running {len(pre_subset)} trials "
+        f"source_method={source_method} story_method={story_method or source_method}")
     ledger = load_ledger(run_dir, cap_usd)
     results: List[TrialOutcome] = []
     for t in pre_subset:
@@ -124,12 +126,14 @@ def run_preflight(client: OpenAI, trials: List[Trial], run_dir: str,
         req_hash = judge_request_config_hash(F.INITIAL_MAX_TOKENS,
                                               provider_pins.get(t.judge_label),
                                               judge_label=t.judge_label,
-                                              source_method=source_method)
+                                              source_method=source_method,
+                                              story_method=story_method)
         outcome = _run_one_trial(t, judge, provider_pins.get(t.judge_label),
                                  client, F.INITIAL_MAX_TOKENS, run_dir, ledger,
                                  price, kind="preflight",
                                  request_config_hash=req_hash,
-                                 source_method=source_method)
+                                 source_method=source_method,
+                                 story_method=story_method)
         save_ledger(run_dir, ledger)
         log(f"[preflight]   {t.trial_id[:60]} -> status={outcome.status} answer={outcome.visible_answer} "
             f"attempts={outcome.attempts} r_toks={outcome.reasoning_tokens_total} "
@@ -162,7 +166,8 @@ def run_scored(client: OpenAI, trials: List[Trial], run_dir: str,
                provider_pins: Dict[str, Optional[str]],
                max_tokens: int, cap_usd: float,
                log=print,
-               source_method: str = F.SOURCE_METHOD) -> Dict:
+               source_method: str = F.SOURCE_METHOD,
+               story_method: Optional[str] = None) -> Dict:
     outcomes = load_outcomes(run_dir)
     ledger = load_ledger(run_dir, cap_usd)
     log(f"[scored] starting with {len(outcomes)} prior trial outcomes, "
@@ -186,7 +191,8 @@ def run_scored(client: OpenAI, trials: List[Trial], run_dir: str,
         price = prices.get(judge.slug, {"prompt": 0.0, "completion": 0.0})
         req_hash = judge_request_config_hash(max_tokens, provider_pins.get(t.judge_label),
                                               judge_label=t.judge_label,
-                                              source_method=source_method)
+                                              source_method=source_method,
+                                              story_method=story_method)
         with judge_locks[t.judge_label]:
             with ledger_lock:
                 # Pre-check (worst case) before dispatch
@@ -197,7 +203,8 @@ def run_scored(client: OpenAI, trials: List[Trial], run_dir: str,
                                      client, max_tokens, run_dir, ledger,
                                      price, kind="scored",
                                      request_config_hash=req_hash,
-                                     source_method=source_method)
+                                     source_method=source_method,
+                                     story_method=story_method)
             with ledger_lock:
                 save_ledger(run_dir, ledger)
             with outcomes_lock:
@@ -237,28 +244,67 @@ def run_scored(client: OpenAI, trials: List[Trial], run_dir: str,
 
 # -- Dry-run (no API calls) --------------------------------------------------
 def dry_run(trials: List[Trial], run_dir: str, log=print,
-            source_method: str = F.SOURCE_METHOD) -> Dict:
+            source_method: str = F.SOURCE_METHOD,
+            story_method: Optional[str] = None) -> Dict:
     """Smoke everything short of actual API calls: build prompts, hash them,
-    check manifest invariants, write prompts.jsonl. No cost."""
+    check manifest invariants, write prompts.jsonl. No cost.
+
+    When story_method != source_method we additionally assert that the prompt
+    text does NOT accidentally contain tokens from the other story — a defense
+    against the kind of silent-template-bug that caused the first FCE2 run.
+    """
     from .pairs import write_prompts_jsonl
-    prompts_path = os.path.join(run_dir, "prompts.jsonl")
-    write_prompts_jsonl(prompts_path, trials, source_method=source_method)
-    log(f"[dry-run] wrote {len(trials)} prompts to {prompts_path}")
-    # Minimal invariant check: NAMED prompts for same (pair_id, target_label) must be identical across judges
-    from collections import defaultdict
     import hashlib
+    from collections import defaultdict
+    sm = source_method
+    stm = story_method or source_method
+    prompts_path = os.path.join(run_dir, "prompts.jsonl")
+    write_prompts_jsonl(prompts_path, trials, source_method=sm, story_method=stm)
+    log(f"[dry-run] wrote {len(trials)} prompts to {prompts_path} "
+        f"source_method={sm} story_method={stm}")
+    # NAMED prompt-identity across judges (same pair, same target, same wording)
     named_hashes: Dict[tuple, set] = defaultdict(set)
     for t in trials:
         if t.wording_condition == "NAMED":
-            h = hashlib.sha256(build_prompt(t, source_method=source_method).encode()).hexdigest()
+            h = hashlib.sha256(build_prompt(t, source_method=sm, story_method=stm).encode()).hexdigest()
             named_hashes[(t.pair_id, t.target_label)].add(h)
     bad = [k for k, s in named_hashes.items() if len(s) != 1]
     assert not bad, f"NAMED prompt not byte-identical across judges for: {bad[:5]}"
     log(f"[dry-run] NAMED prompt-identity check passed on {len(named_hashes)} (pair, target) items")
-    # Also verify the prefix actually matches source_method
-    sample_prompt = build_prompt(trials[0], source_method=source_method)
-    expected_prefix = F.SHARED_PROTOCOL_PREFIX_BY_METHOD[source_method]
-    assert sample_prompt.startswith(expected_prefix), \
-        f"build_prompt did not select the {source_method} prefix"
-    log(f"[dry-run] source_method prefix check passed (prefix matches {source_method})")
-    return {"n_trials": len(trials), "n_named_targets": len(named_hashes)}
+    # Prefix matches story_method
+    sample = build_prompt(trials[0], source_method=sm, story_method=stm)
+    expected_prefix = F.SHARED_PROTOCOL_PREFIX_BY_METHOD[stm]
+    assert sample.startswith(expected_prefix), \
+        f"build_prompt did not select the {stm} story prefix"
+    log(f"[dry-run] story_method prefix check passed (prefix matches {stm})")
+    # Negative checks: when swapping stories, make absolutely sure NO tokens
+    # from the other story leaked into the prompt body. These substrings each
+    # appear only in their own story prefix.
+    STORY_TOKENS = {
+        "history_conditioned": [
+            "Previous flips", "<HISTORY>", "oldest → most recent",
+            "first_call_prompt", "subsequent_call_prompt",
+            "accumulated history", "accepted outcome",
+        ],
+        "batch": [
+            "<batch_prompt>", "one completion",
+            "autoregressively within that single call",
+            "two independent API requests",
+        ],
+        "independent_calls": [
+            "<independent_calls_prompt>", "fully stateless",
+            "two separate series of 100 requests",
+            "stateless and received the same fixed prompt",
+        ],
+    }
+    other_stories = [m for m in STORY_TOKENS if m != stm]
+    for other in other_stories:
+        for tok in STORY_TOKENS[other]:
+            if tok in sample:
+                raise AssertionError(
+                    f"story leak: token {tok!r} from story={other} found in "
+                    f"prompt built with story_method={stm}")
+    log(f"[dry-run] story-leak check passed (no tokens from "
+        f"{other_stories} appear in {stm} prompt)")
+    return {"n_trials": len(trials), "n_named_targets": len(named_hashes),
+            "source_method": sm, "story_method": stm}

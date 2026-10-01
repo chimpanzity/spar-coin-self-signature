@@ -49,13 +49,18 @@ def _load_corpus_rows(corpus_dir: str, source_method: str = F.SOURCE_METHOD) -> 
     return rows
 
 
-def _run_dir(data_root: str, run_id: str, source_method: str = F.SOURCE_METHOD) -> str:
-    # Non-default source methods live under a per-method parent dir so FCE1
-    # and FCE2 outputs don't collide.
-    if source_method == F.SOURCE_METHOD:
+def _run_dir(data_root: str, run_id: str, source_method: str = F.SOURCE_METHOD,
+             story_method: Optional[str] = None) -> str:
+    # Default story_method = source_method (truthful). Mismatch -> add a
+    # `_story_<story>` suffix to the parent dir so story-swap runs are visually
+    # separated from truthful ones.
+    stm = story_method or source_method
+    if source_method == F.SOURCE_METHOD and stm == source_method:
         parent = EXPERIMENT_NAME
     else:
         parent = f"{EXPERIMENT_NAME}_{source_method}"
+        if stm != source_method:
+            parent += f"_story_{stm}"
     return os.path.join(data_root, parent, run_id)
 
 
@@ -99,10 +104,12 @@ def _frozen_config_snapshot(provider_pins: Dict[str, Optional[str]], max_tokens:
 def cmd_dry_run(args):
     corpus_dir = args.corpus_dir
     sm = args.source_method
-    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}-dry", sm)
+    stm = args.story_method or sm
+    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}-dry", sm, stm)
     os.makedirs(run_dir, exist_ok=True)
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
-    log(f"START dry-run run_dir={run_dir} corpus={corpus_dir} source_method={sm}")
+    log(f"START dry-run run_dir={run_dir} corpus={corpus_dir} "
+        f"source_method={sm} story_method={stm}")
     corpus_rows = _load_corpus_rows(corpus_dir, source_method=sm)
     assert len(corpus_rows) == 60, f"expected 60 {sm} rows, got {len(corpus_rows)}"
     triplets = build_triplets(corpus_rows, source_method=sm)
@@ -112,7 +119,7 @@ def cmd_dry_run(args):
     write_triplet_manifest(os.path.join(run_dir, "triplet_manifest.csv"), triplets)
     write_pair_manifest(os.path.join(run_dir, "pair_manifest.csv"), pairs)
     write_trial_manifest(os.path.join(run_dir, "trial_manifest.csv"), trials)
-    r = dry_run(trials, run_dir, log=log, source_method=sm)
+    r = dry_run(trials, run_dir, log=log, source_method=sm, story_method=stm)
     log(f"dry-run OK: {r}")
     # Save frozen config (without provider pins — those are resolved at run-time)
     with open(os.path.join(run_dir, "config_frozen.json"), "w", encoding="utf-8") as f:
@@ -155,14 +162,21 @@ def cmd_run(args):
     corpus_dir = args.corpus_dir
     source_run_dir = args.source_run_dir
     sm = args.source_method
-    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}", sm)
+    stm = args.story_method or sm
+    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}", sm, stm)
     os.makedirs(run_dir, exist_ok=True)
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
-    log(f"START run run_dir={run_dir} source_method={sm}")
+    log(f"START run run_dir={run_dir} source_method={sm} story_method={stm}")
     log(f"corpus={corpus_dir}  source_run={source_run_dir}")
     log(f"stage={args.stage}  budget_cap=${args.budget_usd:.2f}  live={args.live}  yes={args.yes}")
     assert args.live and args.yes, "require --live --yes to run paid"
     assert sm in F.ALLOWED_SOURCE_METHODS, f"source_method must be one of {F.ALLOWED_SOURCE_METHODS}"
+    assert stm in F.ALLOWED_SOURCE_METHODS, f"story_method must be one of {F.ALLOWED_SOURCE_METHODS}"
+    if stm != sm:
+        log(f"WARNING: story_method ({stm}) != source_method ({sm}) — "
+            "this is a STORY-SWAP run; judges will be told a different "
+            "production method than the one that actually produced the "
+            "sequences on display. Documented, deliberate manipulation.")
 
     api_key = os.environ.get("OPENROUTER_API_KEY")
     assert api_key, "OPENROUTER_API_KEY not set in environment"
@@ -177,7 +191,8 @@ def cmd_run(args):
     write_triplet_manifest(os.path.join(run_dir, "triplet_manifest.csv"), triplets)
     write_pair_manifest(os.path.join(run_dir, "pair_manifest.csv"), pairs)
     write_trial_manifest(os.path.join(run_dir, "trial_manifest.csv"), trials)
-    write_prompts_jsonl(os.path.join(run_dir, "prompts.jsonl"), trials, source_method=sm)
+    write_prompts_jsonl(os.path.join(run_dir, "prompts.jsonl"), trials,
+                        source_method=sm, story_method=stm)
 
     # Audit sources
     tids = sorted({t.sequence_A_id for t in trials} | {t.sequence_B_id for t in trials})
@@ -211,7 +226,7 @@ def cmd_run(args):
             if args.stage in ("preflight", "all"):
                 pre = run_preflight(client, trials, run_dir, prices, provider_pins,
                                     cap_usd=args.budget_usd, log=log,
-                                    source_method=sm)
+                                    source_method=sm, story_method=stm)
                 if not pre["passes"]:
                     log(f"ABORT: preflight failed: {pre}")
                     return run_dir
@@ -222,7 +237,7 @@ def cmd_run(args):
                 summary = run_scored(client, trials, run_dir, prices, provider_pins,
                                      max_tokens=F.INITIAL_MAX_TOKENS,
                                      cap_usd=args.budget_usd, log=log,
-                                     source_method=sm)
+                                     source_method=sm, story_method=stm)
                 log(f"scored summary: {summary}")
     except RuntimeError as e:
         log(f"LOCK ERROR: {e}")
@@ -337,6 +352,12 @@ def main():
         sp.add_argument("--source-method", default=F.SOURCE_METHOD,
                         choices=F.ALLOWED_SOURCE_METHODS,
                         help="which stimulus-corpus production method to use")
+        sp.add_argument("--story-method", default="",
+                        choices=("",) + F.ALLOWED_SOURCE_METHODS,
+                        help="protocol story shown to judges; defaults to "
+                             "source-method (truthful). Setting it to a "
+                             "different method is a deliberate false-protocol "
+                             "manipulation.")
 
     sp = sub.add_parser("dry-run"); _common(sp); sp.set_defaults(func=cmd_dry_run)
     sp = sub.add_parser("run"); _common(sp)
