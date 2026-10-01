@@ -39,17 +39,23 @@ def _log_writer(path: str):
     return log, f
 
 
-def _load_corpus_rows(corpus_dir: str) -> List[Dict]:
+def _load_corpus_rows(corpus_dir: str, source_method: str = F.SOURCE_METHOD) -> List[Dict]:
     rows = []
     with open(os.path.join(corpus_dir, "trajectories.csv"), "r", encoding="utf-8") as f:
         for r in csv.DictReader(f):
-            if r["method"] == F.SOURCE_METHOD:
+            if r["method"] == source_method:
                 rows.append(r)
     return rows
 
 
-def _run_dir(data_root: str, run_id: str) -> str:
-    return os.path.join(data_root, EXPERIMENT_NAME, run_id)
+def _run_dir(data_root: str, run_id: str, source_method: str = F.SOURCE_METHOD) -> str:
+    # Non-default source methods live under a per-method parent dir so FCE1
+    # and FCE2 outputs don't collide.
+    if source_method == F.SOURCE_METHOD:
+        parent = EXPERIMENT_NAME
+    else:
+        parent = f"{EXPERIMENT_NAME}_{source_method}"
+    return os.path.join(data_root, parent, run_id)
 
 
 def _frozen_config_snapshot(provider_pins: Dict[str, Optional[str]], max_tokens: int) -> Dict:
@@ -91,13 +97,14 @@ def _frozen_config_snapshot(provider_pins: Dict[str, Optional[str]], max_tokens:
 # ------------------------------------------------------------------ dry-run --
 def cmd_dry_run(args):
     corpus_dir = args.corpus_dir
-    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}-dry")
+    sm = args.source_method
+    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}-dry", sm)
     os.makedirs(run_dir, exist_ok=True)
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
-    log(f"START dry-run run_dir={run_dir} corpus={corpus_dir}")
-    corpus_rows = _load_corpus_rows(corpus_dir)
-    assert len(corpus_rows) == 60, f"expected 60 hc rows, got {len(corpus_rows)}"
-    triplets = build_triplets(corpus_rows)
+    log(f"START dry-run run_dir={run_dir} corpus={corpus_dir} source_method={sm}")
+    corpus_rows = _load_corpus_rows(corpus_dir, source_method=sm)
+    assert len(corpus_rows) == 60, f"expected 60 {sm} rows, got {len(corpus_rows)}"
+    triplets = build_triplets(corpus_rows, source_method=sm)
     pairs = build_pairs(triplets, corpus_rows)
     trials = build_trials(pairs)
     log(f"triplets={len(triplets)} pairs={len(pairs)} trials={len(trials)}")
@@ -146,21 +153,23 @@ def _validate_catalog(client, log=print):
 def cmd_run(args):
     corpus_dir = args.corpus_dir
     source_run_dir = args.source_run_dir
-    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}")
+    sm = args.source_method
+    run_dir = _run_dir(args.data_root, args.run_id or f"fce1-{_ts()}", sm)
     os.makedirs(run_dir, exist_ok=True)
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
-    log(f"START run run_dir={run_dir}")
+    log(f"START run run_dir={run_dir} source_method={sm}")
     log(f"corpus={corpus_dir}  source_run={source_run_dir}")
     log(f"stage={args.stage}  budget_cap=${args.budget_usd:.2f}  live={args.live}  yes={args.yes}")
     assert args.live and args.yes, "require --live --yes to run paid"
+    assert sm in F.ALLOWED_SOURCE_METHODS, f"source_method must be one of {F.ALLOWED_SOURCE_METHODS}"
 
     api_key = os.environ.get("OPENROUTER_API_KEY")
     assert api_key, "OPENROUTER_API_KEY not set in environment"
     client = make_openrouter_client(api_key)
 
     # Build manifests
-    corpus_rows = _load_corpus_rows(corpus_dir)
-    triplets = build_triplets(corpus_rows)
+    corpus_rows = _load_corpus_rows(corpus_dir, source_method=sm)
+    triplets = build_triplets(corpus_rows, source_method=sm)
     pairs = build_pairs(triplets, corpus_rows)
     trials = build_trials(pairs)
     log(f"built {len(trials)} trials from {len(pairs)} pairs across {len(triplets)} triplets")
@@ -171,8 +180,8 @@ def cmd_run(args):
 
     # Audit sources
     tids = sorted({t.sequence_A_id for t in trials} | {t.sequence_B_id for t in trials})
-    log(f"auditing {len(tids)} source trajectories...")
-    audit = audit_sources(corpus_dir, source_run_dir, tids)
+    log(f"auditing {len(tids)} source trajectories (method={sm})...")
+    audit = audit_sources(corpus_dir, source_run_dir, tids, source_method=sm)
     write_audit_outputs(audit, run_dir)
     log("audit passed — proceeding")
 
@@ -220,12 +229,13 @@ def cmd_run(args):
 # --------------------------------------------------------------- validate ---
 def cmd_validate(args):
     run_dir = args.run_dir
+    sm = args.source_method
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
-    log(f"VALIDATE run_dir={run_dir}")
+    log(f"VALIDATE run_dir={run_dir} source_method={sm}")
 
     # Build manifests from frozen inputs
-    corpus_rows = _load_corpus_rows(args.corpus_dir)
-    triplets = build_triplets(corpus_rows)
+    corpus_rows = _load_corpus_rows(args.corpus_dir, source_method=sm)
+    triplets = build_triplets(corpus_rows, source_method=sm)
     pairs = build_pairs(triplets, corpus_rows)
     trials = build_trials(pairs)
 
@@ -253,10 +263,11 @@ def cmd_validate(args):
 # ----------------------------------------------------------------- analyze --
 def cmd_analyze(args):
     run_dir = args.run_dir
+    sm = args.source_method
     log, _ = _log_writer(os.path.join(run_dir, "logs", "fce1.log"))
-    log(f"ANALYZE run_dir={run_dir}")
-    corpus_rows = _load_corpus_rows(args.corpus_dir)
-    triplets = build_triplets(corpus_rows)
+    log(f"ANALYZE run_dir={run_dir} source_method={sm}")
+    corpus_rows = _load_corpus_rows(args.corpus_dir, source_method=sm)
+    triplets = build_triplets(corpus_rows, source_method=sm)
     pairs = build_pairs(triplets, corpus_rows)
     trials = build_trials(pairs)
     outcomes = load_outcomes(run_dir)
@@ -308,6 +319,9 @@ def main():
         sp.add_argument("--source-run-dir", default=DEFAULT_SOURCE_RUN_DIR)
         sp.add_argument("--data-root", default="data/spar_dynamic")
         sp.add_argument("--run-id", default="")
+        sp.add_argument("--source-method", default=F.SOURCE_METHOD,
+                        choices=F.ALLOWED_SOURCE_METHODS,
+                        help="which stimulus-corpus production method to use")
 
     sp = sub.add_parser("dry-run"); _common(sp); sp.set_defaults(func=cmd_dry_run)
     sp = sub.add_parser("run"); _common(sp)

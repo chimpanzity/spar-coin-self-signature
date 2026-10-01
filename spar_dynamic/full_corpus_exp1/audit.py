@@ -38,10 +38,10 @@ def _load_raw_attempts(path: str) -> List[Dict]:
     return rows
 
 
-def _hcon_attempts_by_trajectory(raw: List[Dict]) -> Dict[str, List[Dict]]:
+def _attempts_by_trajectory(raw: List[Dict], source_method: str) -> Dict[str, List[Dict]]:
     by: Dict[str, List[Dict]] = defaultdict(list)
     for r in raw:
-        if r.get("method") == F.SOURCE_METHOD:
+        if r.get("method") == source_method:
             tid = r.get("trajectory_id")
             if tid: by[tid].append(r)
     for tid in by:
@@ -117,7 +117,8 @@ def _providers_for_trajectory(attempts: List[Dict]) -> Dict[str, Any]:
     }
 
 
-def audit_sources(corpus_dir: str, source_run_dir: str, trajectory_ids: List[str]) -> Dict[str, Any]:
+def audit_sources(corpus_dir: str, source_run_dir: str, trajectory_ids: List[str],
+                  source_method: str = F.SOURCE_METHOD) -> Dict[str, Any]:
     """Full audit. Returns a report dict; raises AssertionError on hard failure."""
     trajectories_csv = os.path.join(corpus_dir, "trajectories.csv")
     manifest_path = os.path.join(corpus_dir, "manifest.json")
@@ -140,7 +141,7 @@ def audit_sources(corpus_dir: str, source_run_dir: str, trajectory_ids: List[str
 
     # Load raw and group
     raw = _load_raw_attempts(raw_path)
-    hc_by_tid = _hcon_attempts_by_trajectory(raw)
+    attempts_by_tid = _attempts_by_trajectory(raw, source_method)
 
     # Verify per-trajectory
     per_traj: Dict[str, Any] = {}
@@ -148,8 +149,8 @@ def audit_sources(corpus_dir: str, source_run_dir: str, trajectory_ids: List[str
     sequence_hashes: Dict[str, str] = {}
     for tid in trajectory_ids:
         row = rows_by_tid[tid]
-        if row["method"] != F.SOURCE_METHOD:
-            hard_errors.append(f"{tid}: method={row['method']} (expected {F.SOURCE_METHOD})")
+        if row["method"] != source_method:
+            hard_errors.append(f"{tid}: method={row['method']} (expected {source_method})")
             continue
         if not re.fullmatch(r"[HT]{100}", row["sequence"] or ""):
             hard_errors.append(f"{tid}: sequence not ^[HT]{{100}}$")
@@ -166,23 +167,24 @@ def audit_sources(corpus_dir: str, source_run_dir: str, trajectory_ids: List[str
                 hard_errors.append(f"{tid}: temperature {row.get('temperature')} != 0.0")
         except Exception:
             hard_errors.append(f"{tid}: temperature field unparseable")
-        # Reconstruct
-        attempts = hc_by_tid.get(tid, [])
-        seq, errs = _reconstruct_sequence(attempts)
-        if seq is None:
-            hard_errors.append(f"{tid}: reconstruction failed: {errs}")
-            continue
-        if seq != row["sequence"]:
-            hard_errors.append(f"{tid}: reconstructed sequence differs from CSV")
-            continue
-        # Any other reconstruction-level warnings? treat as hard errors.
-        if errs:
-            for e in errs:
-                hard_errors.append(f"{tid}: {e}")
+        attempts = attempts_by_tid.get(tid, [])
+        # Reconstruction + prompt-template verification only applies to
+        # history_conditioned trajectories (single-step batch and
+        # independent_calls use different source prompts and have no history_before).
+        if source_method == "history_conditioned":
+            seq, errs = _reconstruct_sequence(attempts)
+            if seq is None:
+                hard_errors.append(f"{tid}: reconstruction failed: {errs}")
+                continue
+            if seq != row["sequence"]:
+                hard_errors.append(f"{tid}: reconstructed sequence differs from CSV")
+                continue
+            if errs:
+                for e in errs: hard_errors.append(f"{tid}: {e}")
         prov = _providers_for_trajectory(attempts)
         per_traj[tid] = {
             "model": row["model"], "split": row["split"],
-            "sequence_sha256": sha256_text(seq),
+            "sequence_sha256": sha256_text(row["sequence"]),
             "n_valid_attempts": prov["n_valid_attempts"],
             "n_steps_with_retry": prov["n_steps_with_retry"],
             "providers_accepted": prov["providers_accepted"],
@@ -207,6 +209,7 @@ def audit_sources(corpus_dir: str, source_run_dir: str, trajectory_ids: List[str
     report = {
         "corpus_dir": corpus_dir,
         "source_run_dir": source_run_dir,
+        "source_method": source_method,
         "trajectory_count": len(trajectory_ids),
         "hard_errors": hard_errors,
         "input_hashes": input_hashes,

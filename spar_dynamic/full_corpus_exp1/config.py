@@ -24,8 +24,12 @@ JUDGE_LABELS = tuple(j.label for j in JUDGES)
 JUDGE_BY_LABEL = {j.label: j for j in JUDGES}
 LABEL_BY_SLUG = {j.slug: j.label for j in JUDGES}
 
-# -- Section 3: use only history_conditioned trajectories --------------------
+# -- Section 3: default source method is history_conditioned (FCE1 spec).
+# FCE2 reuses this entire pipeline on the batch and independent_calls
+# trajectories; CLI --source-method overrides at run time. Allowed values are
+# the three CORPUS_GENERATION_METHODS from the stimulus corpus.
 SOURCE_METHOD = "history_conditioned"
+ALLOWED_SOURCE_METHODS = ("batch", "history_conditioned", "independent_calls")
 
 # -- Section 5: seeds (frozen) -----------------------------------------------
 PAIR_SEED      = 2026093001

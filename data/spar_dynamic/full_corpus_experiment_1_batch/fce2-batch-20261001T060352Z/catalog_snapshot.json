@@ -1,0 +1,17 @@
+{
+  "models": {
+    "openai/gpt-6-astra": {
+      "prompt": 1e-05,
+      "completion": 5e-05
+    },
+    "anthropic/claude-fable-5.1": {
+      "prompt": 1e-05,
+      "completion": 5e-05
+    },
+    "xiaomi/mimo-v2.6-pro": {
+      "prompt": 4.35e-07,
+      "completion": 8.7e-07
+    }
+  },
+  "snapshot_utc": "2026-10-01T06:03:53Z"
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_completeness": {
+    "all_csvs_exist": true
+  },
+  "collection_completeness": {
+    "n_abandoned": 0,
+    "n_ok": 480,
+    "n_planned": 480,
+    "ok_eq_planned": true
+  },
+  "cost_ledger": {
+    "cap_usd": 20.0,
+    "reserved_usd": 1.1449174941446927e-16,
+    "spent_usd": 2.6569392600000064
+  },
+  "overall_complete": true,
+  "preflight_summary": {
+    "n": 12,
+    "n_first_attempt_valid": 12,
+    "n_valid": 12,
+    "passes": true,
+    "per_judge_truncated": [],
+    "total_cost_usd": 0.06575347000000001
+  },
+  "scientific_limitations": {
+    "known_source_provider_heterogeneity": true,
+    "ten_held_out_triplets_small_sample_bootstrap": true
+  },
+  "source_integrity": {
+    "duplicates_present": false,
+    "hard_errors": [],
+    "input_hashes": {
+      "manifest_json": "df2c45d175cf6fcd2262c285ed3fde9717e8b412a26cc4dbe1f0ed30e0b298e6",
+      "raw_attempts_jsonl": "55795e9ee14b6582a59c7d0e1249727058b7c37fd6f4be087e73c7a8038583f5",
+      "trajectories_csv": "b932158ee0b58e3288ce766f188d81fc82203dbe5e5817a7b300f8311a0e8726"
+    },
+    "trajectory_count_audited": 60
+  },
+  "specification_version": "FCE1_v1.0"
+}

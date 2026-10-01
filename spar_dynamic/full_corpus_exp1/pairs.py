@@ -67,10 +67,10 @@ class Trial:
     correct_answer: str             # "A" or "B" — the position of the target's sequence
 
 
-def _by_model(rows: List[Dict], split: str) -> Dict[str, List[Dict]]:
+def _by_model(rows: List[Dict], split: str, source_method: str) -> Dict[str, List[Dict]]:
     out: Dict[str, List[Dict]] = {"astra": [], "fable": [], "mimo": []}
     for r in rows:
-        if r["method"] == F.SOURCE_METHOD and r["split"] == split:
+        if r["method"] == source_method and r["split"] == split:
             if r["model"] in out:
                 out[r["model"]].append(r)
     for m in out:
@@ -78,11 +78,12 @@ def _by_model(rows: List[Dict], split: str) -> Dict[str, List[Dict]]:
     return out
 
 
-def build_triplets(corpus_rows: List[Dict], seed: int = F.PAIR_SEED) -> List[SourceTriplet]:
+def build_triplets(corpus_rows: List[Dict], seed: int = F.PAIR_SEED,
+                   source_method: str = F.SOURCE_METHOD) -> List[SourceTriplet]:
     """10 triplets per split. Deterministic under seed."""
     triplets: List[SourceTriplet] = []
     for split, split_tag in (("development", "dev"), ("holdout", "hold")):
-        per_model = _by_model(corpus_rows, split)
+        per_model = _by_model(corpus_rows, split, source_method)
         assert all(len(per_model[m]) == 10 for m in per_model), \
             f"split {split} needs 10 trajectories per model, got " \
             f"{ {m: len(per_model[m]) for m in per_model} }"

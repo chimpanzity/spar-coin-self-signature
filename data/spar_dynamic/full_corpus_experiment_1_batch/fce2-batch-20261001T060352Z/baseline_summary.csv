@@ -1,0 +1,5 @@
+split,baseline,n_scored,n_ties,n_total,accuracy,tie_rate
+development,marginal,48,12,60,1.0,0.2
+development,full,60,0,60,0.7667,0.0
+holdout,marginal,50,10,60,0.84,0.1667
+holdout,full,60,0,60,0.7667,0.0

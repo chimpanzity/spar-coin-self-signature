@@ -1,0 +1,7 @@
+split,target,n_items,SELF,NAMED,OBS,S,O,F
+development,astra,20,0.45,0.5,0.525,-0.075,-0.025,-0.05
+development,fable,20,0.5,0.5,0.575,-0.075,-0.075,0.0
+development,mimo,20,0.5,0.5,0.525,-0.025,-0.025,0.0
+holdout,astra,20,0.45,0.6,0.475,-0.025,0.125,-0.15
+holdout,fable,20,0.5,0.5,0.525,-0.025,-0.025,0.0
+holdout,mimo,20,0.5,0.5,0.475,0.025,0.025,0.0
