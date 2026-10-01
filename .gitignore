@@ -8,3 +8,6 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+
+# FCE1 process locks (per-run, not needed across restarts)
+.lock

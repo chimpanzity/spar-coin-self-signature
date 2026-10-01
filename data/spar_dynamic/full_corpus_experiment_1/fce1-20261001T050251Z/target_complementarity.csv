@@ -1,0 +1,7 @@
+split,judge,n_pairs_complete,pct_complementary
+development,astra,30,0.6
+development,fable,30,0.2333
+development,mimo,30,0.0
+holdout,astra,30,0.5333
+holdout,fable,30,0.1667
+holdout,mimo,30,0.0

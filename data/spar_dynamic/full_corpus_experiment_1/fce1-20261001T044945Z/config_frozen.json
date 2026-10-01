@@ -1,0 +1,40 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2026093003,
+  "budget_usd_cap": 20.0,
+  "concurrency_overall": 3,
+  "concurrency_per_judge": 1,
+  "exclude_reasoning": true,
+  "execution_seed": 2026093002,
+  "judges": [
+    {
+      "display_name": "GPT-6 Astra",
+      "label": "astra",
+      "pinned_provider": "openai",
+      "preferred_provider": "openai",
+      "slug": "openai/gpt-6-astra"
+    },
+    {
+      "display_name": "Claude Fable 5.1",
+      "label": "fable",
+      "pinned_provider": "anthropic",
+      "preferred_provider": "anthropic",
+      "slug": "anthropic/claude-fable-5.1"
+    },
+    {
+      "display_name": "MiMo V2.6 Pro",
+      "label": "mimo",
+      "pinned_provider": "xiaomi/fp8",
+      "preferred_provider": "xiaomi/fp8",
+      "slug": "xiaomi/mimo-v2.6-pro"
+    }
+  ],
+  "max_tokens": 8192,
+  "pair_seed": 2026093001,
+  "reasoning_effort": "low",
+  "response_attempt_cap": 3,
+  "specification_version": "FCE1_v1.0",
+  "temperature": 0.0,
+  "total_submission_cap": 9,
+  "transport_retry_cap": 3
+}

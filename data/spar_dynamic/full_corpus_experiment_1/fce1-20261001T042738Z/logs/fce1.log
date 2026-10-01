@@ -1,0 +1,25 @@
+[2026-10-01T04:27:39Z] START run run_dir=data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T042738Z
+[2026-10-01T04:27:39Z] corpus=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus  source_run=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z
+[2026-10-01T04:27:39Z] stage=preflight  budget_cap=$20.00  live=True  yes=True
+[2026-10-01T04:27:39Z] built 480 trials from 60 pairs across 20 triplets
+[2026-10-01T04:27:39Z] auditing 60 source trajectories...
+[2026-10-01T04:27:39Z] audit passed — proceeding
+[2026-10-01T04:27:39Z] catalog ok; prices snapshotted for 462 models
+[2026-10-01T04:27:39Z] [audit]   provider pin for astra: openai
+[2026-10-01T04:27:39Z] [audit]   provider pin for fable: anthropic
+[2026-10-01T04:27:39Z] [audit]   provider pin for mimo: xiaomi/fp8
+[2026-10-01T04:27:39Z] [preflight] running 12 trials
+[2026-10-01T04:27:43Z] [preflight]   dev_t01_af:astra|NAMED|astra -> status=ok answer=B attempts=1 r_toks=45 c_toks=52 cost=$0.0095
+[2026-10-01T04:27:46Z] [preflight]   dev_t01_af:astra|SELF|astra -> status=ok answer=A attempts=1 r_toks=44 c_toks=51 cost=$0.0094
+[2026-10-01T04:27:50Z] [preflight]   dev_t01_am:astra|NAMED|astra -> status=ok answer=A attempts=1 r_toks=31 c_toks=38 cost=$0.0081
+[2026-10-01T04:27:53Z] [preflight]   dev_t01_am:astra|SELF|astra -> status=ok answer=A attempts=1 r_toks=54 c_toks=61 cost=$0.0104
+[2026-10-01T04:28:10Z] [preflight]   dev_t01_af:fable|NAMED|fable -> status=abandoned answer=None attempts=3 r_toks=0 c_toks=535 cost=$0.0505
+[2026-10-01T04:28:14Z] [preflight]   dev_t01_af:fable|SELF|fable -> status=ok answer=A attempts=1 r_toks=0 c_toks=3 cost=$0.0080
+[2026-10-01T04:28:17Z] [preflight]   dev_t01_fm:fable|NAMED|fable -> status=ok answer=A attempts=1 r_toks=0 c_toks=3 cost=$0.0081
+[2026-10-01T04:28:21Z] [preflight]   dev_t01_fm:fable|SELF|fable -> status=ok answer=A attempts=1 r_toks=0 c_toks=3 cost=$0.0081
+[2026-10-01T04:32:07Z] [preflight]   dev_t01_am:mimo|NAMED|mimo -> status=abandoned answer=None attempts=3 r_toks=12299 c_toks=12288 cost=$0.0220
+[2026-10-01T04:35:33Z] [preflight]   dev_t01_am:mimo|SELF|mimo -> status=abandoned answer=None attempts=3 r_toks=12295 c_toks=12288 cost=$0.0220
+[2026-10-01T04:39:22Z] [preflight]   dev_t01_fm:mimo|NAMED|mimo -> status=abandoned answer=None attempts=3 r_toks=12290 c_toks=12288 cost=$0.0220
+[2026-10-01T04:44:20Z] [preflight]   dev_t01_fm:mimo|SELF|mimo -> status=abandoned answer=None attempts=3 r_toks=12285 c_toks=12288 cost=$0.0220
+[2026-10-01T04:44:20Z] [preflight] summary: valid 7/12 first_attempt 7/12 spend=$0.2000  passes=False
+[2026-10-01T04:44:20Z] ABORT: preflight failed: {'n': 12, 'n_valid': 7, 'n_first_attempt_valid': 7, 'total_cost_usd': 0.20000484000000002, 'passes': False, 'per_judge_truncated': []}

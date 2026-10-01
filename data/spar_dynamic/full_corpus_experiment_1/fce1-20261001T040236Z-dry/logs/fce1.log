@@ -1,0 +1,5 @@
+[2026-10-01T04:02:36Z] START dry-run run_dir=data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T040236Z-dry corpus=corpus
+[2026-10-01T04:02:36Z] triplets=20 pairs=60 trials=480
+[2026-10-01T04:02:36Z] [dry-run] wrote 480 prompts to data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T040236Z-dry/prompts.jsonl
+[2026-10-01T04:02:36Z] [dry-run] NAMED prompt-identity check passed on 120 (pair, target) items
+[2026-10-01T04:02:36Z] dry-run OK: {'n_trials': 480, 'n_named_targets': 120}

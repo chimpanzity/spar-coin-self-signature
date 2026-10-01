@@ -1,0 +1,7 @@
+judge,wording,n,n_valid_eventually,n_first_attempt_valid,n_abandoned,pct_valid_eventually,pct_first_attempt_valid
+astra,NAMED,120,120,120,0,1.0,1.0
+astra,SELF,40,40,40,0,1.0,1.0
+fable,NAMED,120,120,120,0,1.0,1.0
+fable,SELF,40,40,40,0,1.0,1.0
+mimo,NAMED,120,120,120,0,1.0,1.0
+mimo,SELF,40,40,40,0,1.0,1.0

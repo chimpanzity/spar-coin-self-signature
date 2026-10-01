@@ -1,0 +1,20 @@
+[2026-10-01T04:49:46Z] START run run_dir=data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T044945Z
+[2026-10-01T04:49:46Z] corpus=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus  source_run=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z
+[2026-10-01T04:49:46Z] stage=preflight  budget_cap=$20.00  live=True  yes=True
+[2026-10-01T04:49:46Z] built 480 trials from 60 pairs across 20 triplets
+[2026-10-01T04:49:46Z] auditing 60 source trajectories...
+[2026-10-01T04:49:46Z] audit passed — proceeding
+[2026-10-01T04:49:46Z] catalog ok; prices snapshotted for 462 models
+[2026-10-01T04:49:46Z] [audit]   provider pin for astra: openai
+[2026-10-01T04:49:46Z] [audit]   provider pin for fable: anthropic
+[2026-10-01T04:49:46Z] [audit]   provider pin for mimo: xiaomi/fp8
+[2026-10-01T04:49:46Z] [preflight] running 12 trials
+[2026-10-01T04:49:48Z] [preflight]   dev_t01_af:astra|NAMED|astra -> status=ok answer=A attempts=1 r_toks=19 c_toks=26 cost=$0.0070
+[2026-10-01T04:49:51Z] [preflight]   dev_t01_af:astra|SELF|astra -> status=ok answer=A attempts=1 r_toks=44 c_toks=51 cost=$0.0096
+[2026-10-01T04:49:53Z] [preflight]   dev_t01_am:astra|NAMED|astra -> status=ok answer=A attempts=1 r_toks=21 c_toks=28 cost=$0.0072
+[2026-10-01T04:49:56Z] [preflight]   dev_t01_am:astra|SELF|astra -> status=ok answer=A attempts=1 r_toks=39 c_toks=46 cost=$0.0091
+[2026-10-01T04:49:58Z] [preflight]   dev_t01_af:fable|NAMED|fable -> status=ok answer=A attempts=1 r_toks=0 c_toks=3 cost=$0.0083
+[2026-10-01T04:50:01Z] [preflight]   dev_t01_af:fable|SELF|fable -> status=ok answer=A attempts=1 r_toks=0 c_toks=3 cost=$0.0083
+[2026-10-01T04:50:05Z] [preflight]   dev_t01_fm:fable|NAMED|fable -> status=ok answer=A attempts=1 r_toks=0 c_toks=3 cost=$0.0083
+[2026-10-01T04:50:09Z] [preflight]   dev_t01_fm:fable|SELF|fable -> status=ok answer=A attempts=1 r_toks=0 c_toks=3 cost=$0.0083
+[2026-10-01T04:56:53Z] [preflight]   dev_t01_am:mimo|NAMED|mimo -> status=abandoned answer=None attempts=3 r_toks=24584 c_toks=24576 cost=$0.0434

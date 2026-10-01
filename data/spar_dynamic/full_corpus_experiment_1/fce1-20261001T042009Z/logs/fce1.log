@@ -1,0 +1,17 @@
+[2026-10-01T04:20:10Z] START run run_dir=data/spar_dynamic/full_corpus_experiment_1/fce1-20261001T042009Z
+[2026-10-01T04:20:10Z] corpus=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/results/corpus  source_run=data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z
+[2026-10-01T04:20:10Z] stage=preflight  budget_cap=$20.00  live=True  yes=True
+[2026-10-01T04:20:10Z] built 480 trials from 60 pairs across 20 triplets
+[2026-10-01T04:20:10Z] auditing 60 source trajectories...
+[2026-10-01T04:20:10Z] audit passed — proceeding
+[2026-10-01T04:20:10Z] catalog ok; prices snapshotted for 462 models
+[2026-10-01T04:20:10Z] [audit]   provider pin for astra: OpenAI
+[2026-10-01T04:20:10Z] [audit]   provider pin for fable: Anthropic
+[2026-10-01T04:20:10Z] [audit]   provider pin for mimo: Xiaomi
+[2026-10-01T04:20:10Z] [preflight] running 12 trials
+[2026-10-01T04:20:59Z] [preflight]   dev_t01_af:astra|NAMED|astra -> status=abandoned answer=None attempts=3 r_toks=0 c_toks=0 cost=$0.0000
+[2026-10-01T04:21:45Z] [preflight]   dev_t01_af:astra|SELF|astra -> status=abandoned answer=None attempts=3 r_toks=0 c_toks=0 cost=$0.0000
+[2026-10-01T04:22:33Z] [preflight]   dev_t01_am:astra|NAMED|astra -> status=abandoned answer=None attempts=3 r_toks=0 c_toks=0 cost=$0.0000
+[2026-10-01T04:23:21Z] [preflight]   dev_t01_am:astra|SELF|astra -> status=abandoned answer=None attempts=3 r_toks=0 c_toks=0 cost=$0.0000
+[2026-10-01T04:24:08Z] [preflight]   dev_t01_af:fable|NAMED|fable -> status=abandoned answer=None attempts=3 r_toks=0 c_toks=0 cost=$0.0000
+[2026-10-01T04:24:56Z] [preflight]   dev_t01_af:fable|SELF|fable -> status=abandoned answer=None attempts=3 r_toks=0 c_toks=0 cost=$0.0000
