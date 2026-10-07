@@ -169,13 +169,22 @@ windows for comparison with human data.
   the human level.
 - **Independent calls match their single-flip regime.** Their heads bias
   predicts the collapse seen here (fable 98.7% H under independent calls).
-- **Temperature caveat.** Every corpus call here requested temperature 0.0
-  (`corpus/README.md`; whether each provider honoured it was not separately
-  verified). Under independent calls an identical prompt at temperature 0
-  should give an almost deterministic answer, so near-constant output is
-  expected. A judge that predicts p(H) ≈ 1 for any model under that procedure
-  may be reasoning correctly about sampling, not drawing on self-knowledge.
-  This supports the procedure-belief interpretation and should be stated
-  explicitly. The phenotypes in this corpus are temperature-0 phenotypes.
+- **Temperature caveat (checked 2026-10-07).** Every corpus call *requested*
+  temperature 0.0 (`corpus/README.md`). But OpenRouter's live catalog lists
+  no `temperature` support for `openai/gpt-6-astra` or
+  `anthropic/claude-fable-5.1`, only for `xiaomi/mimo-v2.6-pro`. The source
+  requests did not set `require_parameters`, so for Astra and Fable the
+  setting was most likely ignored and they ran at default sampling. Only Mimo
+  is reliably a temperature-0 phenotype. The catalog could have changed since
+  2026-09-30, but the earlier build notes also recorded "no temperature
+  parameter" for both. Consequences:
+  - Fable's 98.7% H under independent calls probably happened at default
+    sampling, so it is a real heads bias, like Van Koevering's single-flip
+    results, not an artefact of deterministic decoding.
+  - The judges' protocol prefix states that "the source requests used
+    temperature 0.0". For Astra and Fable trajectories that statement is
+    probably false, including in the "truthful" conditions.
+  - A greedy versus default comparison cannot be run for Astra or Fable
+    through OpenRouter as currently configured.
 - **A ready-made predictability metric.** Their LASSO next-flip MSE could be
   added to the corpus phenotype alongside p(H), switch rate and longest run.
