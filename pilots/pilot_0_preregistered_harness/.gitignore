@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Raw run data is intentionally NOT ignored: data/raw/<run_id>/ is the primary record of a run.
+# Fake demo runs can be discarded:
+data/raw/fake_*/
+data/derived/fake_*/
+results/fake_*/

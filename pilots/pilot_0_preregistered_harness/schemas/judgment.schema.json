@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "judgment": {
+      "type": "string",
+      "enum": ["SAME", "DIFFERENT"]
+    }
+  },
+  "required": ["judgment"],
+  "additionalProperties": false
+}

@@ -34,6 +34,16 @@ broad generalization from only three models.
 - [FCE1/FCE2 cross-method report](data/spar_dynamic/FCE1_FCE2_CROSS_METHOD_REPORT.md)
 - [Phenotype baselines report](data/spar_dynamic/PHENOTYPE_BASELINES_REPORT.md)
 - [Corpus source report](corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
+- [Original preregistration (v1.0, 2026-09-21)](docs/preregistration/preregistration_v1.0_2026-09-21.md) and [build notes](docs/preregistration/build_notes_2026-09-21_rev4.md)
+- [All handoff notes](docs/handoffs/)
+
+**Related work.** Martin, C. F. (2026). *Dodging Proteus: Prescribing
+unexploitable play made language models more exploitable in a closed-loop
+matching pennies assay.* Preprint, not peer reviewed.
+[doi:10.5281/zenodo.21781962](https://doi.org/10.5281/zenodo.21781962) ·
+[code](https://github.com/chimpanzity/dodging-proteus). The same LLM
+behavioral signatures (over-alternation, persistent action bias) appear in an
+adaptive matching-pennies setting.
 
 Total OpenRouter spend across all studies: about **$38** (about $11 for the
 pilots and corpus generation, plus about $27 for this week's experiments and
@@ -175,7 +185,7 @@ corpus, not on the pilot data.
 
 ```
 corpus/                             CANONICAL stimulus bank (start here)
-pilots/                             prior pilots 1-4, archived (historical only)
+pilots/                             preregistered harness (0) + prior pilots 1-4, archived
 data/spar_dynamic/                  raw run data for the canonical corpus
 spar_dynamic/                       Python package (all pilots + corpus code)
   config.py                           frozen prompts, models, retry, budgets, split seed
@@ -196,7 +206,8 @@ spar_dynamic/                       Python package (all pilots + corpus code)
     cross_story.py                      within-stimulus three-story analysis
     phenotype_prediction.py             forecast elicitation (p_H or switch_rate)
     baselines_analysis.py / baselines_report.py  forecast MAE + self/observer contrasts
-docs/handoffs/                      weekly handoff notes (full narrative of each week)
+docs/handoffs/                      handoff notes (full narrative of each work session)
+docs/preregistration/               original pilot preregistration v1.0 + build notes
 tests/                              unit + integration tests for all of the above
 ```
 

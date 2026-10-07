@@ -1,0 +1,68 @@
+{
+  "astra": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Simulate 50 flips of a fair coin. Return exactly 50 outcomes as a single string containing only H and T. Do not include spaces, punctuation, numbering, or explanation."
+      }
+    ],
+    "max_tokens": 6000,
+    "stream": false,
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "reasoning": {
+      "effort": "low",
+      "exclude": true
+    }
+  },
+  "fable": {
+    "model": "anthropic/claude-fable-5.1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Simulate 50 flips of a fair coin. Return exactly 50 outcomes as a single string containing only H and T. Do not include spaces, punctuation, numbering, or explanation."
+      }
+    ],
+    "max_tokens": 6000,
+    "stream": false,
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "reasoning": {
+      "effort": "low",
+      "exclude": true
+    }
+  },
+  "qwen": {
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Simulate 50 flips of a fair coin. Return exactly 50 outcomes as a single string containing only H and T. Do not include spaces, punctuation, numbering, or explanation."
+      }
+    ],
+    "max_tokens": 6000,
+    "stream": false,
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "reasoning": {
+      "effort": "low",
+      "exclude": true
+    }
+  }
+}

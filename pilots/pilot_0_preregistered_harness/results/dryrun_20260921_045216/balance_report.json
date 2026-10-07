@@ -1,0 +1,542 @@
+{
+  "astra": {
+    "judge": "astra",
+    "n_trials": 24,
+    "trials_per_cell": {
+      "A": 6,
+      "B": 6,
+      "C": 6,
+      "D": 6
+    },
+    "trials_per_subcell": {
+      "A": 6,
+      "B:fable": 3,
+      "B:qwen": 3,
+      "C:fable": 3,
+      "C:qwen": 3,
+      "D": 6
+    },
+    "answers": {
+      "DIFFERENT": 12,
+      "SAME": 12
+    },
+    "same_response_expected": 12,
+    "source_pair_frequencies": {
+      "astra-astra": 6,
+      "astra-fable": 3,
+      "astra-qwen": 3,
+      "fable-fable": 3,
+      "fable-qwen": 6,
+      "qwen-qwen": 3
+    },
+    "left_right_by_model": {
+      "astra": {
+        "string_1": 9,
+        "string_2": 9
+      },
+      "fable": {
+        "string_1": 8,
+        "string_2": 7
+      },
+      "qwen": {
+        "string_1": 7,
+        "string_2": 8
+      }
+    },
+    "position_balance_in_different_subcells": {
+      "B:qwen": {
+        "judge_as_string_1": 2,
+        "judge_as_string_2": 1
+      },
+      "B:fable": {
+        "judge_as_string_1": 1,
+        "judge_as_string_2": 2
+      },
+      "D": {
+        "fable_as_string_1": 3,
+        "fable_as_string_2": 3
+      }
+    },
+    "use_counts_by_model": {
+      "astra": {
+        "src_astra_001": 1,
+        "src_astra_002": 2,
+        "src_astra_003": 2,
+        "src_astra_004": 2,
+        "src_astra_005": 2,
+        "src_astra_006": 1,
+        "src_astra_007": 2,
+        "src_astra_008": 2,
+        "src_astra_009": 2,
+        "src_astra_010": 2
+      },
+      "fable": {
+        "src_fable_001": 1,
+        "src_fable_002": 2,
+        "src_fable_003": 1,
+        "src_fable_004": 1,
+        "src_fable_005": 1,
+        "src_fable_006": 1,
+        "src_fable_007": 2,
+        "src_fable_008": 2,
+        "src_fable_009": 2,
+        "src_fable_010": 2
+      },
+      "qwen": {
+        "src_qwen_001": 1,
+        "src_qwen_002": 2,
+        "src_qwen_003": 1,
+        "src_qwen_004": 2,
+        "src_qwen_005": 2,
+        "src_qwen_006": 2,
+        "src_qwen_007": 2,
+        "src_qwen_008": 1,
+        "src_qwen_009": 1,
+        "src_qwen_010": 1
+      }
+    },
+    "use_count_range_by_model": {
+      "astra": [
+        1,
+        2
+      ],
+      "qwen": [
+        1,
+        2
+      ],
+      "fable": [
+        1,
+        2
+      ]
+    },
+    "self_pairs": 0,
+    "duplicate_unordered_pairs": 0,
+    "longest_run_by_cell": {
+      "A": 1,
+      "B": 2,
+      "C": 2,
+      "D": 2
+    },
+    "longest_run_any_cell": 2,
+    "longest_run_by_answer": {
+      "SAME": 3,
+      "DIFFERENT": 3
+    },
+    "longest_run_any_answer": 3,
+    "duplicate_positions": false,
+    "duplicate_trial_ids": false,
+    "construction_seed": "20260921:astra",
+    "checks": [
+      {
+        "check": "six_trials_per_cell",
+        "pass": true,
+        "detail": "{'A': 6, 'B': 6, 'C': 6, 'D': 6} (expected 6 each)"
+      },
+      {
+        "check": "same_different_balance",
+        "pass": true,
+        "detail": "{'DIFFERENT': 12, 'SAME': 12} (expected 12 each)"
+      },
+      {
+        "check": "cell_B_balanced_across_others",
+        "pass": true,
+        "detail": "B per other: [3, 3] (expected [3, 3])"
+      },
+      {
+        "check": "cell_C_balanced_across_others",
+        "pass": true,
+        "detail": "C per other: [3, 3] (expected [3, 3])"
+      },
+      {
+        "check": "no_self_pairs",
+        "pass": true,
+        "detail": "0 self pairs"
+      },
+      {
+        "check": "no_duplicate_unordered_pairs",
+        "pass": true,
+        "detail": "0 duplicates"
+      },
+      {
+        "check": "string_reuse_balanced",
+        "pass": true,
+        "detail": "use-count [min,max] per model: {'astra': [1, 2], 'qwen': [1, 2], 'fable': [1, 2]}"
+      },
+      {
+        "check": "display_order_balanced",
+        "pass": true,
+        "detail": "B:qwen: {'judge_as_string_1': 2, 'judge_as_string_2': 1}; B:fable: {'judge_as_string_1': 1, 'judge_as_string_2': 2}; D: {'fable_as_string_1': 3, 'fable_as_string_2': 3}; astra S1/S2: 9/9; fable S1/S2: 8/7; qwen S1/S2: 7/8"
+      },
+      {
+        "check": "max_cell_run_le_2",
+        "pass": true,
+        "detail": "longest run of one cell: 2"
+      },
+      {
+        "check": "unique_positions_and_ids",
+        "pass": true,
+        "detail": "positions and trial ids unique"
+      }
+    ]
+  },
+  "fable": {
+    "judge": "fable",
+    "n_trials": 24,
+    "trials_per_cell": {
+      "A": 6,
+      "B": 6,
+      "C": 6,
+      "D": 6
+    },
+    "trials_per_subcell": {
+      "A": 6,
+      "B:astra": 3,
+      "B:qwen": 3,
+      "C:astra": 3,
+      "C:qwen": 3,
+      "D": 6
+    },
+    "answers": {
+      "DIFFERENT": 12,
+      "SAME": 12
+    },
+    "same_response_expected": 12,
+    "source_pair_frequencies": {
+      "astra-astra": 3,
+      "astra-fable": 3,
+      "astra-qwen": 6,
+      "fable-fable": 6,
+      "fable-qwen": 3,
+      "qwen-qwen": 3
+    },
+    "left_right_by_model": {
+      "astra": {
+        "string_1": 8,
+        "string_2": 7
+      },
+      "fable": {
+        "string_1": 9,
+        "string_2": 9
+      },
+      "qwen": {
+        "string_1": 7,
+        "string_2": 8
+      }
+    },
+    "position_balance_in_different_subcells": {
+      "D": {
+        "astra_as_string_1": 3,
+        "astra_as_string_2": 3
+      },
+      "B:qwen": {
+        "judge_as_string_1": 2,
+        "judge_as_string_2": 1
+      },
+      "B:astra": {
+        "judge_as_string_1": 1,
+        "judge_as_string_2": 2
+      }
+    },
+    "use_counts_by_model": {
+      "astra": {
+        "src_astra_001": 2,
+        "src_astra_002": 2,
+        "src_astra_003": 1,
+        "src_astra_004": 1,
+        "src_astra_005": 1,
+        "src_astra_006": 1,
+        "src_astra_007": 1,
+        "src_astra_008": 2,
+        "src_astra_009": 2,
+        "src_astra_010": 2
+      },
+      "fable": {
+        "src_fable_001": 1,
+        "src_fable_002": 2,
+        "src_fable_003": 2,
+        "src_fable_004": 1,
+        "src_fable_005": 2,
+        "src_fable_006": 2,
+        "src_fable_007": 2,
+        "src_fable_008": 2,
+        "src_fable_009": 2,
+        "src_fable_010": 2
+      },
+      "qwen": {
+        "src_qwen_001": 1,
+        "src_qwen_002": 1,
+        "src_qwen_003": 2,
+        "src_qwen_004": 1,
+        "src_qwen_005": 2,
+        "src_qwen_006": 2,
+        "src_qwen_007": 1,
+        "src_qwen_008": 1,
+        "src_qwen_009": 2,
+        "src_qwen_010": 2
+      }
+    },
+    "use_count_range_by_model": {
+      "astra": [
+        1,
+        2
+      ],
+      "qwen": [
+        1,
+        2
+      ],
+      "fable": [
+        1,
+        2
+      ]
+    },
+    "self_pairs": 0,
+    "duplicate_unordered_pairs": 0,
+    "longest_run_by_cell": {
+      "A": 2,
+      "B": 2,
+      "C": 2,
+      "D": 2
+    },
+    "longest_run_any_cell": 2,
+    "longest_run_by_answer": {
+      "SAME": 3,
+      "DIFFERENT": 3
+    },
+    "longest_run_any_answer": 3,
+    "duplicate_positions": false,
+    "duplicate_trial_ids": false,
+    "construction_seed": "20260921:fable",
+    "checks": [
+      {
+        "check": "six_trials_per_cell",
+        "pass": true,
+        "detail": "{'A': 6, 'B': 6, 'C': 6, 'D': 6} (expected 6 each)"
+      },
+      {
+        "check": "same_different_balance",
+        "pass": true,
+        "detail": "{'DIFFERENT': 12, 'SAME': 12} (expected 12 each)"
+      },
+      {
+        "check": "cell_B_balanced_across_others",
+        "pass": true,
+        "detail": "B per other: [3, 3] (expected [3, 3])"
+      },
+      {
+        "check": "cell_C_balanced_across_others",
+        "pass": true,
+        "detail": "C per other: [3, 3] (expected [3, 3])"
+      },
+      {
+        "check": "no_self_pairs",
+        "pass": true,
+        "detail": "0 self pairs"
+      },
+      {
+        "check": "no_duplicate_unordered_pairs",
+        "pass": true,
+        "detail": "0 duplicates"
+      },
+      {
+        "check": "string_reuse_balanced",
+        "pass": true,
+        "detail": "use-count [min,max] per model: {'astra': [1, 2], 'qwen': [1, 2], 'fable': [1, 2]}"
+      },
+      {
+        "check": "display_order_balanced",
+        "pass": true,
+        "detail": "D: {'astra_as_string_1': 3, 'astra_as_string_2': 3}; B:qwen: {'judge_as_string_1': 2, 'judge_as_string_2': 1}; B:astra: {'judge_as_string_1': 1, 'judge_as_string_2': 2}; astra S1/S2: 8/7; fable S1/S2: 9/9; qwen S1/S2: 7/8"
+      },
+      {
+        "check": "max_cell_run_le_2",
+        "pass": true,
+        "detail": "longest run of one cell: 2"
+      },
+      {
+        "check": "unique_positions_and_ids",
+        "pass": true,
+        "detail": "positions and trial ids unique"
+      }
+    ]
+  },
+  "qwen": {
+    "judge": "qwen",
+    "n_trials": 24,
+    "trials_per_cell": {
+      "A": 6,
+      "B": 6,
+      "C": 6,
+      "D": 6
+    },
+    "trials_per_subcell": {
+      "A": 6,
+      "B:astra": 3,
+      "B:fable": 3,
+      "C:astra": 3,
+      "C:fable": 3,
+      "D": 6
+    },
+    "answers": {
+      "DIFFERENT": 12,
+      "SAME": 12
+    },
+    "same_response_expected": 12,
+    "source_pair_frequencies": {
+      "astra-astra": 3,
+      "astra-fable": 6,
+      "astra-qwen": 3,
+      "fable-fable": 3,
+      "fable-qwen": 3,
+      "qwen-qwen": 6
+    },
+    "left_right_by_model": {
+      "astra": {
+        "string_1": 8,
+        "string_2": 7
+      },
+      "fable": {
+        "string_1": 7,
+        "string_2": 8
+      },
+      "qwen": {
+        "string_1": 9,
+        "string_2": 9
+      }
+    },
+    "position_balance_in_different_subcells": {
+      "B:fable": {
+        "judge_as_string_1": 2,
+        "judge_as_string_2": 1
+      },
+      "B:astra": {
+        "judge_as_string_1": 1,
+        "judge_as_string_2": 2
+      },
+      "D": {
+        "astra_as_string_1": 3,
+        "astra_as_string_2": 3
+      }
+    },
+    "use_counts_by_model": {
+      "astra": {
+        "src_astra_001": 1,
+        "src_astra_002": 2,
+        "src_astra_003": 1,
+        "src_astra_004": 2,
+        "src_astra_005": 1,
+        "src_astra_006": 2,
+        "src_astra_007": 1,
+        "src_astra_008": 2,
+        "src_astra_009": 1,
+        "src_astra_010": 2
+      },
+      "fable": {
+        "src_fable_001": 1,
+        "src_fable_002": 2,
+        "src_fable_003": 1,
+        "src_fable_004": 1,
+        "src_fable_005": 2,
+        "src_fable_006": 2,
+        "src_fable_007": 1,
+        "src_fable_008": 2,
+        "src_fable_009": 2,
+        "src_fable_010": 1
+      },
+      "qwen": {
+        "src_qwen_001": 2,
+        "src_qwen_002": 1,
+        "src_qwen_003": 2,
+        "src_qwen_004": 2,
+        "src_qwen_005": 1,
+        "src_qwen_006": 2,
+        "src_qwen_007": 2,
+        "src_qwen_008": 2,
+        "src_qwen_009": 2,
+        "src_qwen_010": 2
+      }
+    },
+    "use_count_range_by_model": {
+      "fable": [
+        1,
+        2
+      ],
+      "astra": [
+        1,
+        2
+      ],
+      "qwen": [
+        1,
+        2
+      ]
+    },
+    "self_pairs": 0,
+    "duplicate_unordered_pairs": 0,
+    "longest_run_by_cell": {
+      "A": 2,
+      "B": 1,
+      "C": 2,
+      "D": 1
+    },
+    "longest_run_any_cell": 2,
+    "longest_run_by_answer": {
+      "SAME": 2,
+      "DIFFERENT": 3
+    },
+    "longest_run_any_answer": 3,
+    "duplicate_positions": false,
+    "duplicate_trial_ids": false,
+    "construction_seed": "20260921:qwen",
+    "checks": [
+      {
+        "check": "six_trials_per_cell",
+        "pass": true,
+        "detail": "{'A': 6, 'B': 6, 'C': 6, 'D': 6} (expected 6 each)"
+      },
+      {
+        "check": "same_different_balance",
+        "pass": true,
+        "detail": "{'DIFFERENT': 12, 'SAME': 12} (expected 12 each)"
+      },
+      {
+        "check": "cell_B_balanced_across_others",
+        "pass": true,
+        "detail": "B per other: [3, 3] (expected [3, 3])"
+      },
+      {
+        "check": "cell_C_balanced_across_others",
+        "pass": true,
+        "detail": "C per other: [3, 3] (expected [3, 3])"
+      },
+      {
+        "check": "no_self_pairs",
+        "pass": true,
+        "detail": "0 self pairs"
+      },
+      {
+        "check": "no_duplicate_unordered_pairs",
+        "pass": true,
+        "detail": "0 duplicates"
+      },
+      {
+        "check": "string_reuse_balanced",
+        "pass": true,
+        "detail": "use-count [min,max] per model: {'fable': [1, 2], 'astra': [1, 2], 'qwen': [1, 2]}"
+      },
+      {
+        "check": "display_order_balanced",
+        "pass": true,
+        "detail": "B:fable: {'judge_as_string_1': 2, 'judge_as_string_2': 1}; B:astra: {'judge_as_string_1': 1, 'judge_as_string_2': 2}; D: {'astra_as_string_1': 3, 'astra_as_string_2': 3}; astra S1/S2: 8/7; fable S1/S2: 7/8; qwen S1/S2: 9/9"
+      },
+      {
+        "check": "max_cell_run_le_2",
+        "pass": true,
+        "detail": "longest run of one cell: 2"
+      },
+      {
+        "check": "unique_positions_and_ids",
+        "pass": true,
+        "detail": "positions and trial ids unique"
+      }
+    ]
+  }
+}

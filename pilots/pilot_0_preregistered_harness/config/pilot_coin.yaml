@@ -1,0 +1,103 @@
+# SPAR coin-string SAME/DIFFERENT pilot, run configuration.
+# The API key is never stored here. Put it in .env as OPENROUTER_API_KEY (see .env.example).
+
+run:
+  name: spar_coin_same_different_pilot_01
+  seed: 20260921
+  # dry_run: true means generate / run-judgments build payloads and manifests but make no
+  # paid calls. Set to false (or pass --live) once the dry-run report has been reviewed.
+  dry_run: true
+  # Hard ceiling on cumulative reported cost (USD) for one run. Checked before every dispatch.
+  max_cost_usd: 25.00
+
+openrouter:
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTER_API_KEY
+  request_timeout_seconds: 180
+  max_retries: 5
+  concurrency: 3
+  # Only route to the model's primary provider; never silently fall back to another.
+  provider_allow_fallbacks: false
+  # Only route to providers that support every parameter we send (reasoning, response_format).
+  provider_require_parameters: true
+  # Optional attribution header (X-Title). Harmless; helps identify traffic on the OpenRouter dashboard.
+  app_title: spar-coin-pilot
+  # Send a deterministic per-call `seed` (derived from run.seed and the record id) to models whose
+  # catalog entry lists `seed`. Does not change the sampling distribution; only lets providers that
+  # honor seeds reproduce a call. Off by default; design-locked once a run exists.
+  send_seed: false
+
+# Exact OpenRouter IDs (no mutable "latest" aliases). Verified against the live catalog at startup.
+# provider: null lets OpenRouter pick the model's primary provider per request. After the smoke
+# test, set it to the provider name seen in the records (e.g. "OpenAI", "Anthropic", "DeepInfra")
+# so that every remaining call for that model goes to the same serving stack. The pin must be one
+# of the providers listed in the model's endpoints, and it must agree with the provider of any
+# calls already made in the run being resumed (otherwise start a new run).
+models:
+  astra:
+    model_id: openai/gpt-6-astra
+    provider: null
+  fable:
+    model_id: anthropic/claude-fable-5.1
+    provider: null
+  qwen:
+    model_id: qwen/qwen3.8-27b
+    provider: null
+
+generation:
+  valid_strings_per_model: 10
+  string_length: 50
+  alphabet: HT
+  reasoning_effort: low
+  include_reasoning: false
+  max_invalid_attempts_per_model: 10
+  # Output-token limit. Reasoning tokens count against this limit on most routes, and
+  # Anthropic routes need room for a reasoning budget of at least 1024 tokens, so keep this
+  # comfortably above the 50-character answer. Malformed or runaway output is rejected by the
+  # strict parser, not by the token limit. Lower it after inspecting real token usage.
+  max_tokens: 6000
+  # null = send no system message (the handoff asks for minimal or none).
+  system_prompt: null
+  # null = do not send a temperature parameter at all.
+  temperature: null
+
+judgment:
+  trials_per_judge: 24
+  trials_per_cell: 6
+  reasoning_effort: low
+  include_reasoning: false
+  # structured = JSON schema response_format (schemas/judgment.schema.json);
+  # one_word = plain "SAME" / "DIFFERENT". If the preflight fails for any judge,
+  # all judges fall back to fallback_response_mode so that every judge uses the same method.
+  response_mode: structured
+  fallback_response_mode: one_word
+  # Make one tiny paid structured call per judge before the real trials to confirm the route
+  # honors the JSON schema (in addition to the free catalog supported_parameters check).
+  preflight_live: true
+  # HT shows the canonical H/T strings; AB relabels H->A, T->B for display only.
+  # Note: the judge prompt text mentions coin flips; revise prompts/ if you switch to AB.
+  display_alphabet: HT
+  fresh_context_per_trial: true
+  max_tokens: 6000
+  system_prompt: null
+  temperature: null
+  # An invalid judgment is kept in the raw data; up to this many attempts per trial are made,
+  # each new attempt linked to the previous one via replacement_for.
+  max_attempts_per_trial: 3
+  # false = the reply must be exactly SAME or DIFFERENT after normalization.
+  # true = additionally accept a short reply containing exactly one of the two labels.
+  lenient_parse: false
+
+# Token assumptions used only for the pre-run cost estimate (prices come from the live catalog).
+# Completion estimates include reasoning tokens, which are billed as completion tokens.
+estimate:
+  source_prompt_tokens: 60
+  source_completion_tokens: 400
+  judgment_prompt_tokens: 220
+  judgment_completion_tokens: 400
+
+paths:
+  data_dir: data
+  results_dir: results
+  prompts_dir: prompts
+  schemas_dir: schemas

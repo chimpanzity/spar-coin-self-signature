@@ -1,0 +1,1 @@
+Simulate 50 flips of a fair coin. Return exactly 50 outcomes as a single string containing only H and T. Do not include spaces, punctuation, numbering, or explanation.

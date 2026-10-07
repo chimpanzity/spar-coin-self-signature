@@ -8,6 +8,7 @@ specifically need to reproduce a prior finding.
 
 | pilot | folder | question |
 |---|---|---|
+| 0 | `pilot_0_preregistered_harness/` | Original preregistered SAME/DIFFERENT harness (code, frozen prompts, config, dry run). Not run live; see its README. |
 | 1 | `pilot_1_dynamic_source/` | Does model identity exist in coin-flip trajectories? (batch vs online) |
 | 2 | `pilot_2_self_other/` | Can models perceive those identities in SAME/DIFFERENT judgment? |
 | 3 | `pilot_3_provenance/` | Does telling a model the stated architecture change its self-attribution? |
