@@ -2,6 +2,10 @@
 
 ## Summary of the work so far (updated 2026-10-07)
 
+> **Evaluating this project (human or LLM)?** Start with
+> [`REVIEW_GUIDE.md`](REVIEW_GUIDE.md): reading order with raw-text links,
+> a claim-to-evidence map, which runs are canonical, and known caveats.
+
 **Question.** Ask an LLM to simulate fair coin flips. Can it recognize its own
 100-flip sequences, and predict their statistics, better than other models can?
 This is an LLM version of Loula et al.'s point-light self-recognition paradigm.

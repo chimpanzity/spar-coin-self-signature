@@ -1,0 +1,11 @@
+# SPAR — Behavioral Self-Signatures in LLMs
+
+> Can an LLM recognize its own simulated coin-flip sequences, or predict their statistics, better than other models can? Three models, three generation procedures, a frozen 180-sequence corpus, and eight experiments. Main finding: no privileged self-recognition. Attribution follows the stated generation procedure, not the sequence.
+
+Start with the review guide. It gives the reading order, maps claims to evidence, indexes the runs, and lists large files to avoid.
+
+- [Review guide](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/REVIEW_GUIDE.md)
+- [README with summary](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/README.md)
+- [Weekly handoff notes (full narrative)](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/handoffs/HANDOFF_SPAR_WEEK_2026-09-29_to_2026-10-03.md)
+- [Cross-method results report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/data/spar_dynamic/FCE1_FCE2_CROSS_METHOD_REPORT.md)
+- [Phenotype baselines report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/data/spar_dynamic/PHENOTYPE_BASELINES_REPORT.md)
