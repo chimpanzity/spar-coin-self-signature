@@ -40,6 +40,7 @@ broad generalization from only three models.
 - [Corpus source report](corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
 - [Original preregistration (v1.0, 2026-09-21)](docs/preregistration/preregistration_v1.0_2026-09-21.md) and [build notes](docs/preregistration/build_notes_2026-09-21_rev4.md)
 - [All handoff notes](docs/handoffs/)
+- [Key references, with notes on how each relates to this project](docs/references.md) (Loula 2005; Couchman 2012; Kaneko & Tomonaga 2011; Van Koevering & Kleinberg 2024)
 
 **Related work.** Martin, C. F. (2026). *Dodging Proteus: Prescribing
 unexploitable play made language models more exploitable in a closed-loop
