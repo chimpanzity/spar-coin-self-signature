@@ -1,13 +1,45 @@
 # SPAR — Behavioral Self-Signatures in LLMs
 
-> **New canonical dataset (2026-09-30).** All future work in this repository
-> builds on the **SPAR Stimulus Corpus** at [`corpus/`](corpus/):
-> 180 valid 100-flip trajectories, 3 models × 3 production architectures,
-> with a frozen 10/10 development/evaluation split within every cell.
->
-> The four earlier pilots that led to this corpus have been moved to
-> [`pilots/`](pilots/). They are preserved as historical provenance and
-> should not be used as the reference dataset going forward.
+## Summary of the work so far (updated 2026-10-07)
+
+**Question.** Ask an LLM to simulate fair coin flips. Can it recognize its own
+100-flip sequences, and predict their statistics, better than other models can?
+This is an LLM version of Loula et al.'s point-light self-recognition paradigm.
+
+**Main result.** No model showed a clean privileged self-recognition ability.
+What decides a model's attribution is the story it is told about how the
+sequence was generated, not the sequence itself. Models hold clear beliefs
+about how LLMs behave under each generation procedure, and they apply those
+beliefs the same way to every model, themselves included. Fable's beliefs
+happen to match its own behavior; Astra's do not.
+
+| # | study | what it showed |
+|---|---|---|
+| 1–4 | [Pilots](pilots/) (50 flips) | Source phenotypes exist (classifier 70% batch / 93% online); no selective own-model advantage; SELF/OTHER attribution is poor |
+| 5 | [SPAR Stimulus Corpus](corpus/) | 180 frozen trajectories (3 models × 3 procedures × 20 × 100 flips) with a 10/10 dev/holdout split. The procedure changes the phenotype sharply: Fable under independent calls gives 98.7% H |
+| FCE1 | Producer vs. observer identification, history-conditioned | Holdout mean self-advantage S = +0.008, essentially zero. A centroid classifier on p(H) alone reaches 96.7% |
+| FCE2 | Same design on batch / independent calls | S = −0.008 (batch), +0.100 (indep); the indep result comes almost entirely from Fable |
+| — | Task validation (objective A/B questions) | Astra and Fable answer 100% correctly with balanced A/B use, so their A-bias in source attribution is specific to that task, not a broken format |
+| — | Story swap (same stimuli, three stories) | Changing only the stated procedure flips Fable's SELF answer on 85% of identical items. **Attribution follows the story, not the trace** |
+| — | Phenotype prediction, p(H) and switch rate | Judges forecast the statistics before seeing any sequence and predict the **same values for every target model**. What looks like a self-model is a procedure-level task model |
+
+**What we can defend:** the within-stimulus story-swap effect; the
+procedure-belief finding from phenotype prediction; the task-specificity of
+the position bias; the overall null for self-recognition.
+**What we cannot claim:** privileged introspection, a special SELF channel, or
+broad generalization from only three models.
+
+**Read more:**
+- 📓 [Weekly handoff notes, 2026-09-29 → 10-03](docs/handoffs/HANDOFF_SPAR_WEEK_2026-09-29_to_2026-10-03.md): the full narrative, with designs, numbers, bugs fixed, costs, limitations and next steps
+- [FCE1/FCE2 cross-method report](data/spar_dynamic/FCE1_FCE2_CROSS_METHOD_REPORT.md)
+- [Phenotype baselines report](data/spar_dynamic/PHENOTYPE_BASELINES_REPORT.md)
+- [Corpus source report](corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
+
+Total OpenRouter spend across all studies: about **$38** (about $11 for the
+pilots and corpus generation, plus about $27 for this week's experiments and
+model-selection preflights; the itemized table is in the handoff).
+
+---
 
 ## Question and motivation
 
@@ -54,6 +86,9 @@ identity — and potentially self-identity — survives in this deliberately
 impoverished behavioral trace.
 
 ## The canonical stimulus corpus (`corpus/`)
+
+All work in this repository builds on this corpus. The four earlier
+pilots are archived in [`pilots/`](pilots/) for provenance.
 
 The corpus is the reference stimulus bank for every future analysis in this
 repository. It contains:
@@ -155,6 +190,13 @@ spar_dynamic/                       Python package (all pilots + corpus code)
   self_other.py + orchestrator_self_other.py       (pilot 2)
   provenance.py + orchestrator_provenance.py       (pilot 3)
   astra_followup.py + orchestrator_astra_followup.py (pilot 4)
+  full_corpus_exp1/                   FCE1/FCE2, validation, story-swap, phenotype prediction
+    pairs.py / runner.py / analysis.py  pair construction, live runs, S/O/F contrasts
+    validation.py                       objective A/B task-validation study
+    cross_story.py                      within-stimulus three-story analysis
+    phenotype_prediction.py             forecast elicitation (p_H or switch_rate)
+    baselines_analysis.py / baselines_report.py  forecast MAE + self/observer contrasts
+docs/handoffs/                      weekly handoff notes (full narrative of each week)
 tests/                              unit + integration tests for all of the above
 ```
 
@@ -182,5 +224,9 @@ python -m spar_dynamic.orchestrator_stimulus_corpus --live --yes
 
 ## Total cost so far
 
-All five studies combined (four prior pilots + the canonical corpus generation)
-came to approximately **$11 USD** in OpenRouter spend.
+The four pilots plus the canonical corpus generation came to about $11.
+The corpus experiments (FCE1, FCE2, validation, story swap, phenotype
+prediction) and model-selection preflights added about $27, so the total is
+roughly **$38 USD** in
+OpenRouter spend. Itemized costs are in the
+[handoff notes](docs/handoffs/HANDOFF_SPAR_WEEK_2026-09-29_to_2026-10-03.md#cost-accounting).
