@@ -1,0 +1,276 @@
+[
+ {
+  "label": "t0.7 seed=1",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   },
+   "seed": 1
+  },
+  "text": "ERR HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-8b is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your r",
+  "usage": {}
+ },
+ {
+  "label": "t0.7 seed=2",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   },
+   "seed": 2
+  },
+  "text": "Sure! Let's simulate flipping 20 coins. Each coin flip has a 50% chance of landing heads (H) or tails (T). Here's the result of 20 random coin flips:\n\n**Coin Flips:**\n1. H  \n2. T  \n3. H  \n4. H  \n5. T  \n6. T  \n7. H  \n8. T  \n9. H  \n10. T  \n11. H  \n12. T  \n13. H  \n14. T  \n15. H  \n16. T  \n17. H  \n18. T  \n19. H  \n20. T  \n\n### Summary:\n- **Heads (H):** 10  \n- **Tails (T):** 10  \n\nLet me know if you'd like to see this as a histogram, chart, or want to analyze the results further!",
+  "usage": {
+   "prompt_tokens": 18,
+   "completion_tokens": 192,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 8.9466e-05
+  }
+ },
+ {
+  "label": "t0.7 seed=3",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   },
+   "seed": 3
+  },
+  "text": "Sure! Let's flip 20 coins. Here's the result:\n\n**Coin Flips (Heads = H, Tails = T):**\n\n1. H  \n2. T  \n3. H  \n4. H  \n5. T  \n6. T  \n7. H  \n8. T  \n9. H  \n10. T  \n11. H  \n12. T  \n13. H  \n14. T  \n15. H  \n16. T  \n17. H  \n18. T  \n19. H  \n20. T  \n\n### Summary:\n- **Heads (H):** 10  \n- **Tails (T):** 10  \n\nLet me know if you'd like to simulate this again or analyze it further! \ud83e\ude99",
+  "usage": {
+   "prompt_tokens": 18,
+   "completion_tokens": 168,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 7.8546e-05
+  }
+ },
+ {
+  "label": "t1.0",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 1.0,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "text": "Sure! Let's flip 20 coins. I'll simulate this using a random process.\n\n### Coin Flip Results (Heads = H, Tails = T):\n\n1. **H**  \n2. **T**  \n3. **H**  \n4. **T**  \n5. **H**  \n6. **T**  \n7. **H**  \n8. **T**  \n9. **H**  \n10. **T**  \n11. **H**  \n12. **T**  \n13. **H**  \n14. **T**  \n15. **H**  \n16. **T**  \n17. **H**  \n18. **T**  \n19. **H**  \n20. **T**\n\n### Summary:\n- **Heads (H):** 10  \n- **Tails (T):** 10  \n\nLet me know if you'd like to see another set of flips or do something with these results! \ud83e\ude99",
+  "usage": {
+   "prompt_tokens": 18,
+   "completion_tokens": 214,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 9.9476e-05
+  }
+ },
+ {
+  "label": "t1.0",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 1.0,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "text": "Sure! Let's flip 20 coins. I'll simulate this using a random process.\n\n### Coin Flip Results (Heads = H, Tails = T):\n\n1. **H**  \n2. **T**  \n3. **H**  \n4. **T**  \n5. **H**  \n6. **T**  \n7. **H**  \n8. **T**  \n9. **H**  \n10. **T**  \n11. **H**  \n12. **T**  \n13. **H**  \n14. **T**  \n15. **H**  \n16. **T**  \n17. **H**  \n18. **T**  \n19. **H**  \n20. **T**\n\n### Summary:\n- **Heads (H):** 10  \n- **Tails (T):** 10  \n\nLet me know if you'd like to see another set of flips or do something with these results! \ud83e\ude99",
+  "usage": {
+   "prompt_tokens": 18,
+   "completion_tokens": 214,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 9.9476e-05
+  }
+ },
+ {
+  "label": "t1.3 top_p1 no top_k",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 1.3,
+   "top_p": 1.0,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "text": "Sure! Let's flip 20 coins. I'll simulate this using a random process.\n\n### Coin Flip Results (Heads = H, Tails = T):\n\n1. **H**  \n2. **T**  \n3. **H**  \n4. **T**  \n5. **H**  \n6. **T**  \n7. **H**  \n8. **T**  \n9. **T**  \n10. **H**  \n11. **T**  \n12. **H**  \n13. **T**  \n14. **H**  \n15. **T**  \n16. **H**  \n17. **T**  \n18. **H**  \n19. **T**  \n20. **H**  \n\n### Summary:\n- Number of Heads: **10**\n- Number of Tails: **10**\n\nLet me know if you'd like to see the results as percentages or if you want to repeat the experiment! \ud83e\udc7a",
+  "usage": {
+   "prompt_tokens": 18,
+   "completion_tokens": 212,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 9.8566e-05
+  }
+ },
+ {
+  "label": "no require_parameters",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "text": "Sure! Let's flip 20 coins. I'll simulate the result for you.\n\nHere are the results of flipping 20 coins:\n\n**Heads (H):** 10  \n**Tails (T):** 10  \n\nSo, we got **10 heads** and **10 tails**.\n\nLet me know if you'd like to see the sequence or do another simulation! \ud83e\ude99",
+  "usage": {
+   "prompt_tokens": 18,
+   "completion_tokens": 86,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 4.1236e-05
+  }
+ },
+ {
+  "label": "thinking on",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": true
+   },
+   "max_tokens": 4000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "text": "Flipping 20 coins involves simulating 20 independent trials where each trial results in either **Heads (H)** or **Tails (T)**, assuming a fair coin. Here's a breakdown of the process and related concepts:\n\n---\n\n### **1. Basic Process**\n- **Each flip** has two outcomes: Heads (H) or Tails (T), each with a **50% probability**.\n- **Total possible outcomes**: $2^{20} = 1,048,576$ unique sequences (e.g., HHTTHHT...).\n- **Independence**: Each flip does not affect the others.\n\n---\n\n### **2. Key Probabilities**\n- **All Heads**:  \n  Probability = $\\left(\\frac{1}{2}\\right)^{20} \\approx 9.54 \\times 10^{-7}$ (about 0.0000954%).\n- **At Least One Head**:  \n  Probability = $1 - \\left(\\frac{1}{2}\\right)^{20} \\approx 99.999905\\%$.\n- **Exactly $k$ Heads**:  \n  Use the **binomial formula**:  \n  $$\n  P(k) = \\binom{20}{k} \\cdot \\left(\\frac{1}{2}\\right)^{20}\n  $$\n  Example:  \n  - Exactly 10 Heads: $\\binom{20}{10} \\cdot \\left(\\frac{1}{2}\\right)^{20} \\approx 17.62\\%$.\n\n---\n\n### **3. Statistical Properties**\n- **Expected Number of Heads**:  \n  $E = n \\cdot p = 20 \\cdot 0.5 = 10$.\n- **Variance**:  \n  $\\text{Var} = n \\cdot p \\cdot (1-p) = 5$.\n- **Standard Deviation**:  \n  $\\sqrt{\\text{Var}} \\approx 2.24$.\n\n---\n\n### **4. Example Simulated Flip Sequence**\nA randomly generated sequence of 20 coin flips could be:  \n**H T H H T T H T H T H H T T H T H T H T**\n\n*(Note: This is one of $1,048,576$ possible outcomes.)*\n\n---\n\n### **5. Practical Considerations**\n- **Fair Coin Assumption**: Results depend on the coin being unbiased.\n- **Real-World Variability**: Physical coins may have slight biases, but theoretical calculations assume fairness.\n\nIf you need further analysis (e.g., probability of specific patterns, cumulative probabilities, or simulations), feel free to ask!",
+  "usage": {
+   "prompt_tokens": 14,
+   "completion_tokens": 2108,
+   "reasoning_tokens": 1522,
+   "cached_tokens": 0,
+   "cost": 0.000960778
+  }
+ },
+ {
+  "label": "thinking on",
+  "body": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": true
+   },
+   "max_tokens": 4000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "text": "Flipping 20 coins involves simulating 20 independent trials where each trial has two possible outcomes: **Heads (H)** or **Tails (T)**, each with an equal probability of $ \\frac{1}{2} $ for a fair coin. Here's a breakdown of key aspects:\n\n---\n\n### **1. Simulating Coin Flips**\nIf you were to physically or computationally flip 20 coins, the result would be a random sequence of 20 H/T values. For example:\n```\nH T H H T T H T H T H H T H T T H T H T\n```\nEach outcome is independent, and the sequence is purely random.\n\n**Note:** Without a specific method or tool, the exact result cannot be predicted. A computer program or random number generator could simulate this.\n\n---\n\n### **2. Probability Analysis**\nAssuming a fair coin, the number of heads in 20 flips follows a **binomial distribution** with parameters $ n = 20 $ and $ p = 0.5 $. Key probabilities include:\n\n- **Expected number of heads**:  \n  $$\n  \\mu = n \\cdot p = 20 \\cdot 0.5 = 10\n  $$\n\n- **Variance**:  \n  $$\n  \\sigma^2 = n \\cdot p \\cdot (1 - p) = 20 \\cdot 0.5 \\cdot 0.5 = 5\n  $$\n\n- **Standard deviation**:  \n  $$\n  \\sigma = \\sqrt{5} \\approx 2.24\n  $$\n\n- **Probability of exactly $ k $ heads**:  \n  $$\n  P(k) = \\binom{20}{k} \\cdot (0.5)^{20}\n  $$\n  For example, the chance of getting **all heads** is $ (0.5)^{20} \\approx 9.5 \\times 10^{-7} $, which is extremely low.\n\n- **Probability of at least one head**:  \n  $$\n  1 - (0.5)^{20} \\approx 1\n  $$\n\n---\n\n### **3. Practical Applications**\n- **Games or Decisions**: Flipping 20 coins might represent a probabilistic event in games, experiments, or decision-making processes.\n- **Statistical Testing**: It could be used to test hypotheses about randomness or fairness.\n- **Information Theory**: The entropy of 20 coin flips is $ 20 \\cdot \\log_2(2) = 20 $ bits, reflecting the total uncertainty.\n\n---\n\n### **Summary**\nFlipping 20 coins yields a random sequence of outcomes, with probabilities governed by the binomial distribution. While individual results are unpredictable, statistical properties like expectation and variance provide insights into the behavior of the process. If you need a specific simulation or further calculations, tools like Python\u2019s `random` module or probability formulas can help!",
+  "usage": {
+   "prompt_tokens": 14,
+   "completion_tokens": 1600,
+   "reasoning_tokens": 970,
+   "cached_tokens": 0,
+   "cost": 0.000729638
+  }
+ }
+]

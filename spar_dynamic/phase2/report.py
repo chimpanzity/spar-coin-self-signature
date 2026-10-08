@@ -287,6 +287,17 @@ def analyze_all(rd: Path) -> None:
                           "gain_withheld_minus_known": statistics.mean(dd) if dd else None})
     out["identity_gains"] = gains
 
+    # A3 (reporting only): how often judges return an all-0.5 forecast
+    src_of = {pid: seq[pid]["source"] for pid in seq}
+    flat = defaultdict(lambda: [0, 0, 0.0])
+    for r in calls.values():
+        if r["task"] == "completion" and (r.get("parse") or {}).get("valid"):
+            v = r["parse"]["value"]; k = (r["alias"], src_of.get(r["meta"]["parent_id"]), r["meta"]["condition"])
+            flat[k][0] += 1; flat[k][1] += int(all(x == 0.5 for x in v)); flat[k][2] += sum(abs(x - 0.5) for x in v) / 10
+    out["completion_flatness"] = [{"judge": k[0], "source": k[1], "condition": k[2], "n": v[0],
+                                   "share_all_0.5": v[1] / v[0], "mean_abs_dev_from_0.5": v[2] / v[0]}
+                                  for k, v in sorted(flat.items())]
+
     # suffix permutation diagnostic
     out["suffix_permutation"] = suffix_permutation(calls, seq, test_cells, rows)
 
@@ -360,9 +371,14 @@ def analyze_all(rd: Path) -> None:
                                     C.DELTA_AUC, 0.0 if v else 1.0, "", "pairwise-common both orders"))
     for p in C.PROMPT_ORDER:
         v = pdr["per_prompt"][p]
-        res.append(A.resolution_row(f"R prompt={p}", v["R"] if v else None, (None, None), C.DELTA_AUC,
-                                    0.0 if v else 1.0, "", "per prompt, point estimate only"))
+        res.append(A.resolution_row(f"R prompt={p}", v["R"] if v else None, pdrb["prompt_ci"][p]["R"], C.DELTA_AUC,
+                                    pdrb["prompt_undefined_frac"][p], "", "per prompt (secondary; CI added by amendment A3)"))
     if out["named"]:
+        for p in C.PROMPT_ORDER:
+            v = out["named"]["primary"]["per_prompt"][p]
+            res.append(A.resolution_row(f"named R prompt={p}", v["R"] if v else None, out["named"]["boot"]["prompt_ci"][p]["R"],
+                                        C.DELTA_AUC, out["named"]["boot"]["prompt_undefined_frac"][p], "",
+                                        "per prompt (secondary; amendment A3)"))
         npn = out["named"]["primary"]
         for k in ("R", "P", "D"):
             res.append(A.resolution_row(f"named {k}", npn["panel"][k] if npn["panel"] else None,
@@ -700,6 +716,10 @@ def write_reports(rd: Path, out: Dict[str, Any], man, rows) -> None:
     for j in J:
         for c in A.CONDS:
             L.append(f"| {j} | {c} | " + " | ".join(f"{f3(sk[(j, g, p, c)]['mean_brier'])} (n={sk[(j, g, p, c)]['n']})" for g in J for p in C.PROMPT_ORDER) + " |")
+    L += ["", "How often judges return 0.5 at every position (amendment A3, descriptive):", "",
+          "| judge | source | condition | n | share all-0.5 | mean abs deviation from 0.5 |", "|---|---|---|---:|---:|---:|"]
+    for x in out["completion_flatness"]:
+        L.append(f"| {x['judge']} | {x['source']} | {x['condition']} | {x['n']} | {x['share_all_0.5']:.3f} | {x['mean_abs_dev_from_0.5']:.3f} |")
     L += ["", "External baselines on the same test parents (fit on development only):", "",
           "| source/prompt | n | fair | pooled position | source position | observer known | observer withheld | L2 known | L2 withheld |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for key, v in out["completion_baselines"]["per_cell"].items():
@@ -730,7 +750,12 @@ def write_reports(rd: Path, out: Dict[str, Any], man, rows) -> None:
     for k in ("R", "P", "D"):
         r = resmap[k]
         L.append(f"| {k} | {f4(r['estimate'])} | {_ci((r['ci_lower'], r['ci_upper']))} | {r['direction']} | {r['bounded_small']} |")
-    L += ["", f"Support: {pr['support']}. Undefined bootstrap replicates: {pb['undefined_frac']:.3f}. Panel estimable: {pr['primary']['estimable']}.", "",
+    L += ["", f"Support: {pr['support']}. Undefined bootstrap replicates: {pb['undefined_frac']:.3f}. Panel estimable: {pr['primary']['estimable']}.", ""]
+    for p in C.PROMPT_ORDER:
+        v = pr["primary"]["per_prompt"][p]; ci = pb["prompt_ci"][p]
+        L.append(f"- Per-prompt (secondary; CI added by amendment A3) prompt {p}: " +
+                 (", ".join(f"{k} {f4(v[k])} {_ci(ci[k])}" for k in ("R", "P", "D")) if v else "not estimable (no pair blocks)"))
+    L += ["",
           "| crossover | P | D | R | items |", "|---|---:|---:|---:|---:|"]
     for key, t in pr["primary"]["crossovers"].items():
         L.append(f"| {key} | {f4(t['P'])} | {f4(t['D'])} | {f4(t['R'])} | {t['n_items']} |")
@@ -777,6 +802,10 @@ def write_reports(rd: Path, out: Dict[str, Any], man, rows) -> None:
         for k in ("R", "P", "D"):
             r = resmap[f"named {k}"]
             R.append(f"| named {k} | {f4(r['estimate'])} | {_ci((r['ci_lower'], r['ci_upper']))} |")
+        for p in C.PROMPT_ORDER:
+            v = n["primary"]["per_prompt"][p]; ci = n["boot"]["prompt_ci"][p]
+            R.append(f"- Per-prompt named (secondary; amendment A3) prompt {p}: " +
+                     (", ".join(f"{k} {f4(v[k])} {_ci(ci[k])}" for k in ("R", "P", "D")) if v else "not estimable"))
         R += ["", "| judge | prompt | n | choice counts | self-choice rate | balanced accuracy | multiclass Brier sum (uniform 0.667) |", "|---|---|---:|---|---:|---:|---:|"]
         for s in n["secondary"]:
             R.append(f"| {s['judge']} | {s['prompt']} | {s['n']} | {s['choice_counts']} | {f3(s['self_choice_rate'])} | {f3(s['balanced_accuracy'])} | {f3(s['multiclass_brier_sum'])} |")

@@ -1,0 +1,164 @@
+{
+ "fix:named:astra:00": {
+  "slot_id": "fix:named:astra:00",
+  "truth": {
+   "C1": 0.9999990463265931,
+   "C2": 0.0,
+   "C3": 9.536734069124156e-07
+  },
+  "rule": "ALLH"
+ },
+ "fix:named:astra:01": {
+  "slot_id": "fix:named:astra:01",
+  "truth": {
+   "C1": 0.0,
+   "C2": 9.536734069124156e-07,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALT"
+ },
+ "fix:named:astra:02": {
+  "slot_id": "fix:named:astra:02",
+  "truth": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 1.0
+  },
+  "rule": "FAIR"
+ },
+ "fix:named:astra:03": {
+  "slot_id": "fix:named:astra:03",
+  "truth": {
+   "C1": 0.0,
+   "C2": 9.536734069124156e-07,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALLH"
+ },
+ "fix:named:astra:04": {
+  "slot_id": "fix:named:astra:04",
+  "truth": {
+   "C1": 9.536734069124156e-07,
+   "C2": 0.0,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALT"
+ },
+ "fix:named:astra:05": {
+  "slot_id": "fix:named:astra:05",
+  "truth": {
+   "C1": 1.0,
+   "C2": 0.0,
+   "C3": 0.0
+  },
+  "rule": "FAIR"
+ },
+ "fix:named:fable:00": {
+  "slot_id": "fix:named:fable:00",
+  "truth": {
+   "C1": 0.9999990463265931,
+   "C2": 0.0,
+   "C3": 9.536734069124156e-07
+  },
+  "rule": "ALLH"
+ },
+ "fix:named:fable:01": {
+  "slot_id": "fix:named:fable:01",
+  "truth": {
+   "C1": 0.0,
+   "C2": 9.536734069124156e-07,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALT"
+ },
+ "fix:named:fable:02": {
+  "slot_id": "fix:named:fable:02",
+  "truth": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 1.0
+  },
+  "rule": "FAIR"
+ },
+ "fix:named:fable:03": {
+  "slot_id": "fix:named:fable:03",
+  "truth": {
+   "C1": 0.0,
+   "C2": 9.536734069124156e-07,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALLH"
+ },
+ "fix:named:fable:04": {
+  "slot_id": "fix:named:fable:04",
+  "truth": {
+   "C1": 9.536734069124156e-07,
+   "C2": 0.0,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALT"
+ },
+ "fix:named:fable:05": {
+  "slot_id": "fix:named:fable:05",
+  "truth": {
+   "C1": 1.0,
+   "C2": 0.0,
+   "C3": 0.0
+  },
+  "rule": "FAIR"
+ },
+ "fix:named:qwen:00": {
+  "slot_id": "fix:named:qwen:00",
+  "truth": {
+   "C1": 0.9999990463265931,
+   "C2": 0.0,
+   "C3": 9.536734069124156e-07
+  },
+  "rule": "ALLH"
+ },
+ "fix:named:qwen:01": {
+  "slot_id": "fix:named:qwen:01",
+  "truth": {
+   "C1": 0.0,
+   "C2": 9.536734069124156e-07,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALT"
+ },
+ "fix:named:qwen:02": {
+  "slot_id": "fix:named:qwen:02",
+  "truth": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 1.0
+  },
+  "rule": "FAIR"
+ },
+ "fix:named:qwen:03": {
+  "slot_id": "fix:named:qwen:03",
+  "truth": {
+   "C1": 0.0,
+   "C2": 9.536734069124156e-07,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALLH"
+ },
+ "fix:named:qwen:04": {
+  "slot_id": "fix:named:qwen:04",
+  "truth": {
+   "C1": 9.536734069124156e-07,
+   "C2": 0.0,
+   "C3": 0.9999990463265931
+  },
+  "rule": "ALT"
+ },
+ "fix:named:qwen:05": {
+  "slot_id": "fix:named:qwen:05",
+  "truth": {
+   "C1": 1.0,
+   "C2": 0.0,
+   "C3": 0.0
+  },
+  "rule": "FAIR"
+ }
+}

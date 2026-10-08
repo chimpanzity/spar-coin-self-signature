@@ -1,0 +1,80 @@
+{
+ "fetched_utc": "2026-10-08T03:49:22.176994Z",
+ "openai/gpt-6-astra": {
+  "prompt": 1e-05,
+  "completion": 5e-05,
+  "canonical_slug": "openai/gpt-6-astra-20260903",
+  "supported_parameters": [
+   "include_reasoning",
+   "max_completion_tokens",
+   "max_tokens",
+   "reasoning",
+   "reasoning_effort",
+   "response_format",
+   "seed",
+   "structured_outputs",
+   "tool_choice",
+   "tools",
+   "verbosity"
+  ]
+ },
+ "anthropic/claude-fable-5.1": {
+  "prompt": 1e-05,
+  "completion": 5e-05,
+  "canonical_slug": "anthropic/claude-fable-5.1-20260831",
+  "supported_parameters": [
+   "include_reasoning",
+   "max_completion_tokens",
+   "max_tokens",
+   "reasoning",
+   "reasoning_effort",
+   "response_format",
+   "stop",
+   "structured_outputs",
+   "tool_choice",
+   "tools",
+   "verbosity"
+  ]
+ },
+ "qwen/qwen3-8b": {
+  "prompt": 1.17e-07,
+  "completion": 4.55e-07,
+  "canonical_slug": "qwen/qwen3-8b-04-28",
+  "supported_parameters": [
+   "frequency_penalty",
+   "include_reasoning",
+   "max_tokens",
+   "presence_penalty",
+   "reasoning",
+   "response_format",
+   "seed",
+   "stop",
+   "temperature",
+   "tool_choice",
+   "tools",
+   "top_k",
+   "top_p"
+  ]
+ },
+ "openai/gpt-3.5-turbo-0613": {
+  "prompt": 1e-06,
+  "completion": 2e-06,
+  "canonical_slug": "openai/gpt-3.5-turbo-0613",
+  "supported_parameters": [
+   "frequency_penalty",
+   "logit_bias",
+   "logprobs",
+   "max_completion_tokens",
+   "presence_penalty",
+   "response_format",
+   "seed",
+   "stop",
+   "structured_outputs",
+   "temperature",
+   "tool_choice",
+   "tools",
+   "top_logprobs",
+   "top_p"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+task,judge,condition,n,valid,mean_value,sd_value,share_exact_0.5
+rehearsal_completion,astra,known,12,12,0.5,0.176,0.833
+rehearsal_completion,astra,withheld,12,12,0.501,0.151,0.833
+rehearsal_completion,fable,known,12,12,0.502,0.1,0.725
+rehearsal_completion,fable,withheld,12,12,0.503,0.091,0.692
+rehearsal_completion,qwen,known,12,12,0.496,0.014,0.917
+rehearsal_completion,qwen,withheld,12,12,0.496,0.014,0.917
+rehearsal_pairs,astra,designated,12,12,0.537,0.124,0.917
+rehearsal_pairs,fable,designated,12,11,0.547,0.177,0.091
+rehearsal_pairs,qwen,designated,12,12,0.417,0.215,0.083

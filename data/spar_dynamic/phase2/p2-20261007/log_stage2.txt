@@ -1,0 +1,53 @@
+- 2026-10-08 00:10:17 STAGE 2 start (freeze verified)
+- 2026-10-08 00:10:17 generation/test: dispatching 144 of 144 slots (spent so far $2.77)
+- 2026-10-08 00:11:10 generation/test: 50/144 recorded, spent $3.02
+- 2026-10-08 00:11:47 generation/test: 100/144 recorded, spent $3.30
+- 2026-10-08 00:12:29 generation/test: finished; 144/144 recorded, 144 completed, 121 valid; spent $3.53
+- 2026-10-08 00:12:31   test astra/fair: valid 24/24
+- 2026-10-08 00:12:31   test astra/plain: valid 24/24
+- 2026-10-08 00:12:31   test fable/fair: valid 24/24
+- 2026-10-08 00:12:31   test fable/plain: valid 24/24
+- 2026-10-08 00:12:31   test qwen/fair: valid 1/24
+- 2026-10-08 00:12:31   test qwen/plain: valid 24/24
+- 2026-10-08 00:12:31   manifests built and hashed: 72 pairs in 12 blocks; audit blocks {'plain': 'BLKc5eb12bb96d4', 'fair': None}
+- 2026-10-08 00:12:31 h4: dispatching 726 of 726 slots (spent so far $3.53)
+- 2026-10-08 00:12:49 h4: 50/726 recorded, spent $3.73
+- 2026-10-08 00:13:07 h4: 100/726 recorded, spent $3.96
+- 2026-10-08 00:13:23 h4: 150/726 recorded, spent $4.14
+- 2026-10-08 00:13:48 h4: 200/726 recorded, spent $4.37
+- 2026-10-08 00:14:22 h4: 250/726 recorded, spent $4.57
+- 2026-10-08 00:14:45 h4: 300/726 recorded, spent $4.75
+- 2026-10-08 00:15:05 h4: 350/726 recorded, spent $4.92
+- 2026-10-08 00:15:59 h4: 400/726 recorded, spent $5.11
+- 2026-10-08 00:16:23 h4: 450/726 recorded, spent $5.29
+- 2026-10-08 00:16:39 h4: 500/726 recorded, spent $5.51
+- 2026-10-08 00:16:57 h4: 550/726 recorded, spent $5.73
+- 2026-10-08 00:17:13 h4: 600/726 recorded, spent $5.91
+- 2026-10-08 00:17:30 h4: 650/726 recorded, spent $6.13
+- 2026-10-08 00:17:50 h4: 700/726 recorded, spent $6.32
+- 2026-10-08 00:18:11 h4: finished; 726/726 recorded, 726 completed, 725 valid; spent $6.39
+- 2026-10-08 00:18:29 completion_repeat: dispatching 66 of 66 slots (spent so far $6.39)
+- 2026-10-08 00:18:55 completion_repeat: 50/66 recorded, spent $6.61
+- 2026-10-08 00:18:59 completion_repeat: finished; 66/66 recorded, 66 completed, 66 valid; spent $6.66
+- 2026-10-08 00:19:01 completion_polarity: dispatching 66 of 66 slots (spent so far $6.66)
+- 2026-10-08 00:19:20 completion_polarity: 50/66 recorded, spent $6.88
+- 2026-10-08 00:19:26 completion_polarity: finished; 66/66 recorded, 66 completed, 66 valid; spent $6.93
+- 2026-10-08 00:19:28 completion_priors: dispatching 24 of 24 slots (spent so far $6.93)
+- 2026-10-08 00:19:35 completion_priors: finished; 24/24 recorded, 24 completed, 24 valid; spent $7.01
+- 2026-10-08 00:19:36 pairs: dispatching 432 of 432 slots (spent so far $7.01)
+- 2026-10-08 00:19:51 pairs: 50/432 recorded, spent $7.11
+- 2026-10-08 00:20:07 pairs: 100/432 recorded, spent $7.23
+- 2026-10-08 00:20:27 pairs: 150/432 recorded, spent $7.33
+- 2026-10-08 00:20:48 pairs: 200/432 recorded, spent $7.45
+- 2026-10-08 00:21:13 pairs: 250/432 recorded, spent $7.55
+- 2026-10-08 00:21:35 pairs: 300/432 recorded, spent $7.63
+- 2026-10-08 00:21:58 pairs: 350/432 recorded, spent $7.75
+- 2026-10-08 00:22:14 pairs: 400/432 recorded, spent $7.84
+- 2026-10-08 00:23:18 pairs: finished; 432/432 recorded, 432 completed, 424 valid; spent $7.90
+- 2026-10-08 00:23:33 pair_repeat: dispatching 18 of 18 slots (spent so far $7.90)
+- 2026-10-08 00:23:47 pair_repeat: finished; 18/18 recorded, 18 completed, 18 valid; spent $7.94
+- 2026-10-08 00:23:48 pair_polarity: dispatching 18 of 18 slots (spent so far $7.94)
+- 2026-10-08 00:23:54 pair_polarity: finished; 18/18 recorded, 18 completed, 18 valid; spent $7.98
+- 2026-10-08 00:23:55 pair_priors: dispatching 12 of 12 slots (spent so far $7.98)
+- 2026-10-08 00:23:58 pair_priors: finished; 12/12 recorded, 12 completed, 12 valid; spent $7.99
+- 2026-10-08 00:23:58 STAGE 2 complete

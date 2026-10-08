@@ -273,6 +273,7 @@ def bootstrap_pdr(items: List[Dict[str, Any]], n_boot: int, tag: str, A: Callabl
     reps = {k: [] for k in ("P", "D", "R")}
     c3 = {k: [] for k in ("P", "D", "R", "D_legacy")}
     pair_reps = {f"{a}-{b}": {k: [] for k in ("P", "D", "R")} for a, b in PAIRS}
+    prompt_reps = {p: {k: [] for k in ("P", "D", "R")} for p in C.PROMPT_ORDER}   # A3 (reporting only)
     undefined = undefined3 = 0
     for _ in range(n_boot):
         sample = []
@@ -290,6 +291,10 @@ def bootstrap_pdr(items: List[Dict[str, Any]], n_boot: int, tag: str, A: Callabl
             if v is not None:
                 for k in v:
                     pair_reps[pk][k].append(v[k])
+        for p, v in res["per_prompt"].items():
+            if v is not None:
+                for k in v:
+                    prompt_reps[p][k].append(v[k])
         r3 = pdr_common3(sample, A)
         if r3["panel"] is None:
             undefined3 += 1
@@ -299,6 +304,8 @@ def bootstrap_pdr(items: List[Dict[str, Any]], n_boot: int, tag: str, A: Callabl
     return {"n_boot": n_boot, "undefined": undefined, "undefined_frac": undefined / n_boot,
             "ci": {k: pct_ci(v) for k, v in reps.items()},
             "pair_ci": {pk: {k: pct_ci(v[k]) for k in v} for pk, v in pair_reps.items()},
+            "prompt_ci": {p: {k: pct_ci(v[k]) for k in v} for p, v in prompt_reps.items()},
+            "prompt_undefined_frac": {p: 1 - len(v["R"]) / n_boot for p, v in prompt_reps.items()},
             "common3_ci": {k: pct_ci(v) for k, v in c3.items()},
             "common3_undefined_frac": undefined3 / n_boot}
 
@@ -362,6 +369,7 @@ def bootstrap_named(items, n_boot, tag):
     for it in conv:
         cells.setdefault((it["source"], it["prompt"]), []).append(it)
     reps = {k: [] for k in ("P", "D", "R")}
+    preps = {p: {k: [] for k in ("P", "D", "R")} for p in C.PROMPT_ORDER}   # A3 (reporting only)
     und = 0
     A = lambda S, j, g, r, p: named_A(S, j, g, r, p)
     for _ in range(n_boot):
@@ -374,7 +382,13 @@ def bootstrap_named(items, n_boot, tag):
         else:
             for k in reps:
                 reps[k].append(res["panel"][k])
-    return {"n_boot": n_boot, "undefined_frac": und / n_boot, "ci": {k: pct_ci(v) for k, v in reps.items()}}
+        for p, v in res["per_prompt"].items():
+            if v is not None:
+                for k in v:
+                    preps[p][k].append(v[k])
+    return {"n_boot": n_boot, "undefined_frac": und / n_boot, "ci": {k: pct_ci(v) for k, v in reps.items()},
+            "prompt_ci": {p: {k: pct_ci(v[k]) for k in v} for p, v in preps.items()},
+            "prompt_undefined_frac": {p: 1 - len(v["R"]) / n_boot for p, v in preps.items()}}
 
 
 def named_secondary(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:

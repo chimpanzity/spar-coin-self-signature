@@ -1,0 +1,34 @@
+{
+ "shared": "ready",
+ "completion": "ready",
+ "anonymous": "ready",
+ "named": "pending (fixtures run in retained stage)",
+ "historical": "pending (retained stage)",
+ "lasso": "implemented before freeze",
+ "fixture_gates": {
+  "fixture_completion|astra": {
+   "valid_gate_pass": true,
+   "threshold": 11
+  },
+  "fixture_pair|astra": {
+   "valid_gate_pass": true,
+   "threshold": 11
+  },
+  "fixture_completion|fable": {
+   "valid_gate_pass": true,
+   "threshold": 11
+  },
+  "fixture_pair|fable": {
+   "valid_gate_pass": false,
+   "threshold": 11
+  },
+  "fixture_completion|qwen": {
+   "valid_gate_pass": true,
+   "threshold": 11
+  },
+  "fixture_pair|qwen": {
+   "valid_gate_pass": true,
+   "threshold": 11
+  }
+ }
+}

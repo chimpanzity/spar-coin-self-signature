@@ -1,0 +1,38 @@
+{
+ "frozen_utc": "2026-10-08T04:10:16.910189Z",
+ "protocol": "SPAR_Phase2_v7.1",
+ "combined_recipe_hash": "d44fb19b4aabe34cd4ed6ac03b6fdcd64b41791dd14a097bdfac0ba44384be65",
+ "recipe_hashes": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "__main__.py": "792213bdac51a50d29e7cf3a99ca8aee7c701daa1ec2b23ccf917067c6f6f19e",
+  "analysis.py": "a9155889f7d10caf2165f6a2f5c26fe4dbd13e329129370fe069eb07c8bfbad6",
+  "baselines.py": "387519e84f01810fa3c7497ad423818d15384b80b9c6a006b6380b2a97ebddf2",
+  "client.py": "e912e2eca9808417e1d2f1488d3c106b8c718bb6482df7b977c30692d7ed770e",
+  "config.py": "d78e38c4ee7e71e3e207e7b100265b69e061eb3bedb017635dc210597cbe3476",
+  "corpus.py": "e5ce65ddc64283d7f23f22c5a6c6d0e65d25c815b274c4f27edf37948aa6964e",
+  "lasso.py": "92bc2b1f7095eef8c150e32ec162fe6d483591f084a238f823046a76df9c8f55",
+  "parse.py": "b1b851a947bb723629f39a8ee681bb087183362aa373f95012153711a97d3be0",
+  "pipeline.py": "8e43f34121e82ff89a04a0c9cece45e13573dc1b05bcf6fcc18717c0e8a41ffc",
+  "report.py": "10851a479125423cf941f983d8129e511e67f21b9a9d9ba257d577ab9d9b56ae",
+  "rescore.py": "958fe0888dae82455447a80e7e64bcdab6f5653a3d588e859d08589bc5819e8e",
+  "tasks.py": "cedd5aeea217afc0ceede1bcb838c0f61f0970be09c5caa8e0487a5ed18eb9b4"
+ },
+ "approvals_sha256": "b0bcb41cb090efb302ee6727464f7a137e0226a5adf5d64f97827cb41cd90acf",
+ "approval_basis": "Stage 2 freeze pre-approved by Chris Martin in chat on 2026-10-07",
+ "margins": {
+  "delta_brier": 0.02,
+  "delta_auc": 0.05
+ },
+ "headroom_threshold": 0.02,
+ "n_boot": 5000,
+ "master_seed": 20261007,
+ "prefix_len": 10,
+ "test_attempts_per_cell": 24,
+ "note": "Scientific-specification lock: prompts, parsers, settings, allocation, benchmarks, grids, intervals, masks, headroom rule, quotas and audit-selection algorithms are the code at these hashes.",
+ "stage1_artifacts": {
+  "headroom_review.json": "5b193ce90595053a54432116d3557ee23ece715f5f06102600b31d446d87a760",
+  "fixtures_results_core.json": "7c156f96a2d9bcb140bb3aebf9c39a12899a46f5e4e8c2abb2421e9542056421",
+  "PRECISION_PLAN.md": "fb7e40f42afdaa11cea9d28f6c673e2c0de5a84261896e9c81de8786f3c06698",
+  "DECISION_MEMO.md": "4d22a69ea6e78347bb92a84812329386720dc8916a2aff0fba7194966a44cdd7"
+ }
+}

@@ -1,0 +1,794 @@
+{
+ "fix:completion:astra:00": {
+  "slot_id": "fix:completion:astra:00",
+  "truth": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "rule": "ALLH",
+  "condition": "known"
+ },
+ "fix:completion:astra:01": {
+  "slot_id": "fix:completion:astra:01",
+  "truth": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "rule": "ALLH",
+  "condition": "known"
+ },
+ "fix:completion:astra:02": {
+  "slot_id": "fix:completion:astra:02",
+  "truth": [
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512
+  ],
+  "rule": "ALLH",
+  "condition": "withheld"
+ },
+ "fix:completion:astra:03": {
+  "slot_id": "fix:completion:astra:03",
+  "truth": [
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512
+  ],
+  "rule": "ALLH",
+  "condition": "withheld"
+ },
+ "fix:completion:astra:04": {
+  "slot_id": "fix:completion:astra:04",
+  "truth": [
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0
+  ],
+  "rule": "ALT",
+  "condition": "known"
+ },
+ "fix:completion:astra:05": {
+  "slot_id": "fix:completion:astra:05",
+  "truth": [
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0
+  ],
+  "rule": "ALT",
+  "condition": "known"
+ },
+ "fix:completion:astra:06": {
+  "slot_id": "fix:completion:astra:06",
+  "truth": [
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805
+  ],
+  "rule": "ALT",
+  "condition": "withheld"
+ },
+ "fix:completion:astra:07": {
+  "slot_id": "fix:completion:astra:07",
+  "truth": [
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805
+  ],
+  "rule": "ALT",
+  "condition": "withheld"
+ },
+ "fix:completion:astra:08": {
+  "slot_id": "fix:completion:astra:08",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "known"
+ },
+ "fix:completion:astra:09": {
+  "slot_id": "fix:completion:astra:09",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "known"
+ },
+ "fix:completion:astra:10": {
+  "slot_id": "fix:completion:astra:10",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "withheld"
+ },
+ "fix:completion:astra:11": {
+  "slot_id": "fix:completion:astra:11",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "withheld"
+ },
+ "fix:pair:astra:00": {
+  "slot_id": "fix:pair:astra:00",
+  "truth": 0.9999990463265931,
+  "case": "ALLH-ALLH"
+ },
+ "fix:pair:astra:01": {
+  "slot_id": "fix:pair:astra:01",
+  "truth": 0.9999990463265931,
+  "case": "ALT-ALT"
+ },
+ "fix:pair:astra:02": {
+  "slot_id": "fix:pair:astra:02",
+  "truth": 1.0,
+  "case": "FAIR-FAIR"
+ },
+ "fix:pair:astra:03": {
+  "slot_id": "fix:pair:astra:03",
+  "truth": 0.9999990463265931,
+  "case": "ALLH-ALLH"
+ },
+ "fix:pair:astra:04": {
+  "slot_id": "fix:pair:astra:04",
+  "truth": 1.0,
+  "case": "FAIR-FAIR"
+ },
+ "fix:pair:astra:05": {
+  "slot_id": "fix:pair:astra:05",
+  "truth": 1.8189859341022132e-12,
+  "case": "ALLH-ALT"
+ },
+ "fix:pair:astra:06": {
+  "slot_id": "fix:pair:astra:06",
+  "truth": 1.9073449948406318e-06,
+  "case": "ALLH-FAIR"
+ },
+ "fix:pair:astra:07": {
+  "slot_id": "fix:pair:astra:07",
+  "truth": 1.9073449948406318e-06,
+  "case": "ALT-FAIR"
+ },
+ "fix:pair:astra:08": {
+  "slot_id": "fix:pair:astra:08",
+  "truth": 1.9073449948406318e-06,
+  "case": "FAIR-ALT"
+ },
+ "fix:pair:astra:09": {
+  "slot_id": "fix:pair:astra:09",
+  "truth": 1.8189859341022132e-12,
+  "case": "ALT-ALLH"
+ },
+ "fix:pair:astra:10": {
+  "slot_id": "fix:pair:astra:10",
+  "truth": 0.5,
+  "case": "ALLFAIR-ALLFAIR"
+ },
+ "fix:pair:astra:11": {
+  "slot_id": "fix:pair:astra:11",
+  "truth": 0.5,
+  "case": "ALLFAIR-ALLFAIR"
+ },
+ "fix:completion:fable:00": {
+  "slot_id": "fix:completion:fable:00",
+  "truth": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "rule": "ALLH",
+  "condition": "known"
+ },
+ "fix:completion:fable:01": {
+  "slot_id": "fix:completion:fable:01",
+  "truth": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "rule": "ALLH",
+  "condition": "known"
+ },
+ "fix:completion:fable:02": {
+  "slot_id": "fix:completion:fable:02",
+  "truth": [
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512
+  ],
+  "rule": "ALLH",
+  "condition": "withheld"
+ },
+ "fix:completion:fable:03": {
+  "slot_id": "fix:completion:fable:03",
+  "truth": [
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512
+  ],
+  "rule": "ALLH",
+  "condition": "withheld"
+ },
+ "fix:completion:fable:04": {
+  "slot_id": "fix:completion:fable:04",
+  "truth": [
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0
+  ],
+  "rule": "ALT",
+  "condition": "known"
+ },
+ "fix:completion:fable:05": {
+  "slot_id": "fix:completion:fable:05",
+  "truth": [
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0
+  ],
+  "rule": "ALT",
+  "condition": "known"
+ },
+ "fix:completion:fable:06": {
+  "slot_id": "fix:completion:fable:06",
+  "truth": [
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805
+  ],
+  "rule": "ALT",
+  "condition": "withheld"
+ },
+ "fix:completion:fable:07": {
+  "slot_id": "fix:completion:fable:07",
+  "truth": [
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805
+  ],
+  "rule": "ALT",
+  "condition": "withheld"
+ },
+ "fix:completion:fable:08": {
+  "slot_id": "fix:completion:fable:08",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "known"
+ },
+ "fix:completion:fable:09": {
+  "slot_id": "fix:completion:fable:09",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "known"
+ },
+ "fix:completion:fable:10": {
+  "slot_id": "fix:completion:fable:10",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "withheld"
+ },
+ "fix:completion:fable:11": {
+  "slot_id": "fix:completion:fable:11",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "withheld"
+ },
+ "fix:pair:fable:00": {
+  "slot_id": "fix:pair:fable:00",
+  "truth": 0.9999990463265931,
+  "case": "ALLH-ALLH"
+ },
+ "fix:pair:fable:01": {
+  "slot_id": "fix:pair:fable:01",
+  "truth": 0.9999990463265931,
+  "case": "ALT-ALT"
+ },
+ "fix:pair:fable:02": {
+  "slot_id": "fix:pair:fable:02",
+  "truth": 1.0,
+  "case": "FAIR-FAIR"
+ },
+ "fix:pair:fable:03": {
+  "slot_id": "fix:pair:fable:03",
+  "truth": 0.9999990463265931,
+  "case": "ALLH-ALLH"
+ },
+ "fix:pair:fable:04": {
+  "slot_id": "fix:pair:fable:04",
+  "truth": 1.0,
+  "case": "FAIR-FAIR"
+ },
+ "fix:pair:fable:05": {
+  "slot_id": "fix:pair:fable:05",
+  "truth": 1.8189859341022132e-12,
+  "case": "ALLH-ALT"
+ },
+ "fix:pair:fable:06": {
+  "slot_id": "fix:pair:fable:06",
+  "truth": 1.9073449948406318e-06,
+  "case": "ALLH-FAIR"
+ },
+ "fix:pair:fable:07": {
+  "slot_id": "fix:pair:fable:07",
+  "truth": 1.9073449948406318e-06,
+  "case": "ALT-FAIR"
+ },
+ "fix:pair:fable:08": {
+  "slot_id": "fix:pair:fable:08",
+  "truth": 1.9073449948406318e-06,
+  "case": "FAIR-ALT"
+ },
+ "fix:pair:fable:09": {
+  "slot_id": "fix:pair:fable:09",
+  "truth": 1.8189859341022132e-12,
+  "case": "ALT-ALLH"
+ },
+ "fix:pair:fable:10": {
+  "slot_id": "fix:pair:fable:10",
+  "truth": 0.5,
+  "case": "ALLFAIR-ALLFAIR"
+ },
+ "fix:pair:fable:11": {
+  "slot_id": "fix:pair:fable:11",
+  "truth": 0.5,
+  "case": "ALLFAIR-ALLFAIR"
+ },
+ "fix:completion:qwen:00": {
+  "slot_id": "fix:completion:qwen:00",
+  "truth": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "rule": "ALLH",
+  "condition": "known"
+ },
+ "fix:completion:qwen:01": {
+  "slot_id": "fix:completion:qwen:01",
+  "truth": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "rule": "ALLH",
+  "condition": "known"
+ },
+ "fix:completion:qwen:02": {
+  "slot_id": "fix:completion:qwen:02",
+  "truth": [
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512
+  ],
+  "rule": "ALLH",
+  "condition": "withheld"
+ },
+ "fix:completion:qwen:03": {
+  "slot_id": "fix:completion:qwen:03",
+  "truth": [
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512,
+   0.9995121951219512
+  ],
+  "rule": "ALLH",
+  "condition": "withheld"
+ },
+ "fix:completion:qwen:04": {
+  "slot_id": "fix:completion:qwen:04",
+  "truth": [
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0
+  ],
+  "rule": "ALT",
+  "condition": "known"
+ },
+ "fix:completion:qwen:05": {
+  "slot_id": "fix:completion:qwen:05",
+  "truth": [
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   0.0
+  ],
+  "rule": "ALT",
+  "condition": "known"
+ },
+ "fix:completion:qwen:06": {
+  "slot_id": "fix:completion:qwen:06",
+  "truth": [
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805
+  ],
+  "rule": "ALT",
+  "condition": "withheld"
+ },
+ "fix:completion:qwen:07": {
+  "slot_id": "fix:completion:qwen:07",
+  "truth": [
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805,
+   0.9995121951219512,
+   0.0004878048780487805
+  ],
+  "rule": "ALT",
+  "condition": "withheld"
+ },
+ "fix:completion:qwen:08": {
+  "slot_id": "fix:completion:qwen:08",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "known"
+ },
+ "fix:completion:qwen:09": {
+  "slot_id": "fix:completion:qwen:09",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "known"
+ },
+ "fix:completion:qwen:10": {
+  "slot_id": "fix:completion:qwen:10",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "withheld"
+ },
+ "fix:completion:qwen:11": {
+  "slot_id": "fix:completion:qwen:11",
+  "truth": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "rule": "FAIR",
+  "condition": "withheld"
+ },
+ "fix:pair:qwen:00": {
+  "slot_id": "fix:pair:qwen:00",
+  "truth": 0.9999990463265931,
+  "case": "ALLH-ALLH"
+ },
+ "fix:pair:qwen:01": {
+  "slot_id": "fix:pair:qwen:01",
+  "truth": 0.9999990463265931,
+  "case": "ALT-ALT"
+ },
+ "fix:pair:qwen:02": {
+  "slot_id": "fix:pair:qwen:02",
+  "truth": 1.0,
+  "case": "FAIR-FAIR"
+ },
+ "fix:pair:qwen:03": {
+  "slot_id": "fix:pair:qwen:03",
+  "truth": 0.9999990463265931,
+  "case": "ALLH-ALLH"
+ },
+ "fix:pair:qwen:04": {
+  "slot_id": "fix:pair:qwen:04",
+  "truth": 1.0,
+  "case": "FAIR-FAIR"
+ },
+ "fix:pair:qwen:05": {
+  "slot_id": "fix:pair:qwen:05",
+  "truth": 1.8189859341022132e-12,
+  "case": "ALLH-ALT"
+ },
+ "fix:pair:qwen:06": {
+  "slot_id": "fix:pair:qwen:06",
+  "truth": 1.9073449948406318e-06,
+  "case": "ALLH-FAIR"
+ },
+ "fix:pair:qwen:07": {
+  "slot_id": "fix:pair:qwen:07",
+  "truth": 1.9073449948406318e-06,
+  "case": "ALT-FAIR"
+ },
+ "fix:pair:qwen:08": {
+  "slot_id": "fix:pair:qwen:08",
+  "truth": 1.9073449948406318e-06,
+  "case": "FAIR-ALT"
+ },
+ "fix:pair:qwen:09": {
+  "slot_id": "fix:pair:qwen:09",
+  "truth": 1.8189859341022132e-12,
+  "case": "ALT-ALLH"
+ },
+ "fix:pair:qwen:10": {
+  "slot_id": "fix:pair:qwen:10",
+  "truth": 0.5,
+  "case": "ALLFAIR-ALLFAIR"
+ },
+ "fix:pair:qwen:11": {
+  "slot_id": "fix:pair:qwen:11",
+  "truth": 0.5,
+  "case": "ALLFAIR-ALLFAIR"
+ }
+}

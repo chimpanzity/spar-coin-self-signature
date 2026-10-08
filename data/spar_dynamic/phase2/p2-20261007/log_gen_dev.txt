@@ -1,0 +1,14 @@
+- 2026-10-07 23:52:49 generation/development: dispatching 330 of 360 slots (spent so far $0.13)
+- 2026-10-07 23:53:33 generation/development: 50/330 recorded, spent $0.39
+- 2026-10-07 23:54:07 generation/development: 100/330 recorded, spent $0.62
+- 2026-10-07 23:54:45 generation/development: 150/330 recorded, spent $0.88
+- 2026-10-07 23:55:18 generation/development: 200/330 recorded, spent $1.13
+- 2026-10-07 23:55:50 generation/development: 250/330 recorded, spent $1.41
+- 2026-10-07 23:56:25 generation/development: 300/330 recorded, spent $1.65
+- 2026-10-07 23:56:48 generation/development: finished; 360/360 recorded, 360 completed, 292 valid; spent $1.79
+- 2026-10-07 23:56:48   development/astra/fair: 50/60 valid {'wrong_length': 10} mean_heads=10.44 switch=0.643
+- 2026-10-07 23:56:48   development/astra/plain: 58/60 valid {'wrong_length': 2} mean_heads=10.69 switch=0.652
+- 2026-10-07 23:56:48   development/fable/fair: 59/60 valid {'no_list': 1} mean_heads=10.017 switch=0.623
+- 2026-10-07 23:56:48   development/fable/plain: 60/60 valid  mean_heads=10.467 switch=0.668
+- 2026-10-07 23:56:48   development/qwen/fair: 6/60 valid {'no_list': 38, 'wrong_length': 16} mean_heads=10.333 switch=0.754
+- 2026-10-07 23:56:48   development/qwen/plain: 59/60 valid {'no_list': 1} mean_heads=10.085 switch=0.898

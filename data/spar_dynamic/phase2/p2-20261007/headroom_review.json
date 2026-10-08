@@ -1,0 +1,27 @@
+{
+ "I_gp": {
+  "astra|plain": 0.029391483137247935,
+  "astra|fair": 0.02287378435233554,
+  "fable|plain": -0.006903350497148715,
+  "fable|fair": 0.009135226673172243,
+  "qwen|plain": 0.003788482893220962,
+  "qwen|fair": 0.00660138737202826
+ },
+ "I_g": {
+  "astra": 0.026132633744791738,
+  "fable": 0.001115938088011764,
+  "qwen": 0.005194935132624611
+ },
+ "prefix_value": {
+  "astra|plain": 0.06419888251603494,
+  "astra|fair": 0.05046257583152535,
+  "fable|plain": 0.0801714575520707,
+  "fable|fair": 0.009360839244180946,
+  "qwen|plain": 0.016856469042075828,
+  "qwen|fair": 0.0
+ },
+ "headroom_review_required": false,
+ "threshold": 0.02,
+ "decision_if_required": null,
+ "computed_utc": "2026-10-08T04:09:43.829101Z"
+}

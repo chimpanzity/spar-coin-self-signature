@@ -1,0 +1,139 @@
+- 2026-10-07 23:49:20 init: run p2-20261007 created; recipe hash 38630c386aca
+- 2026-10-07 23:49:22 generation/development smoke: dispatching 30 of 30 slots (spent so far $0.00)
+- 2026-10-07 23:49:56 generation/development smoke: finished; 30/30 recorded, 30 completed, 20 valid; spent $0.13
+- 2026-10-07 23:49:56   development/astra/fair: 5/5 valid  mean_heads=10.4 switch=0.674
+- 2026-10-07 23:49:56   development/astra/plain: 5/5 valid  mean_heads=11.0 switch=0.663
+- 2026-10-07 23:49:56   development/fable/fair: 5/5 valid  mean_heads=10.0 switch=0.632
+- 2026-10-07 23:49:56   development/fable/plain: 5/5 valid  mean_heads=10.6 switch=0.642
+- 2026-10-07 23:49:56   development/qwen/fair: 0/5 valid {'no_list': 5} mean_heads=None switch=None
+- 2026-10-07 23:49:56   development/qwen/plain: 0/5 valid {'no_list': 5} mean_heads=None switch=None
+- 2026-10-07 23:52:12 generation/development smoke: dispatching 10 of 30 slots (spent so far $0.13)
+- 2026-10-07 23:52:23 generation/development smoke: finished; 30/30 recorded, 30 completed, 25 valid; spent $0.13
+- 2026-10-07 23:52:23   development/astra/fair: 5/5 valid  mean_heads=10.4 switch=0.674
+- 2026-10-07 23:52:23   development/astra/plain: 5/5 valid  mean_heads=11.0 switch=0.663
+- 2026-10-07 23:52:23   development/fable/fair: 5/5 valid  mean_heads=10.0 switch=0.632
+- 2026-10-07 23:52:23   development/fable/plain: 5/5 valid  mean_heads=10.6 switch=0.642
+- 2026-10-07 23:52:23   development/qwen/fair: 0/5 valid {'no_list': 3, 'wrong_length': 2} mean_heads=None switch=None
+- 2026-10-07 23:52:23   development/qwen/plain: 5/5 valid  mean_heads=10.2 switch=0.884
+- 2026-10-07 23:52:49 generation/development: dispatching 330 of 360 slots (spent so far $0.13)
+- 2026-10-07 23:53:33 generation/development: 50/330 recorded, spent $0.39
+- 2026-10-07 23:54:07 generation/development: 100/330 recorded, spent $0.62
+- 2026-10-07 23:54:45 generation/development: 150/330 recorded, spent $0.88
+- 2026-10-07 23:55:18 generation/development: 200/330 recorded, spent $1.13
+- 2026-10-07 23:55:50 generation/development: 250/330 recorded, spent $1.41
+- 2026-10-07 23:56:25 generation/development: 300/330 recorded, spent $1.65
+- 2026-10-07 23:56:48 generation/development: finished; 360/360 recorded, 360 completed, 292 valid; spent $1.79
+- 2026-10-07 23:56:48   development/astra/fair: 50/60 valid {'wrong_length': 10} mean_heads=10.44 switch=0.643
+- 2026-10-07 23:56:48   development/astra/plain: 58/60 valid {'wrong_length': 2} mean_heads=10.69 switch=0.652
+- 2026-10-07 23:56:48   development/fable/fair: 59/60 valid {'no_list': 1} mean_heads=10.017 switch=0.623
+- 2026-10-07 23:56:48   development/fable/plain: 60/60 valid  mean_heads=10.467 switch=0.668
+- 2026-10-07 23:56:48   development/qwen/fair: 6/60 valid {'no_list': 38, 'wrong_length': 16} mean_heads=10.333 switch=0.754
+- 2026-10-07 23:56:48   development/qwen/plain: 59/60 valid {'no_list': 1} mean_heads=10.085 switch=0.898
+- 2026-10-08 00:08:06 STAGE 1 start
+- 2026-10-08 00:08:06 generation/development: nothing to do (360 slots already recorded)
+- 2026-10-08 00:08:09   dev astra/fair: valid 60/60 heads=10.433 switch=0.644 distinct=31 eff_prefix10=3.03
+- 2026-10-08 00:08:09   dev astra/plain: valid 60/60 heads=10.683 switch=0.651 distinct=37 eff_prefix10=6.29
+- 2026-10-08 00:08:09   dev fable/fair: valid 59/60 heads=10.017 switch=0.623 distinct=18 eff_prefix10=1.42
+- 2026-10-08 00:08:09   dev fable/plain: valid 60/60 heads=10.467 switch=0.668 distinct=16 eff_prefix10=2.39
+- 2026-10-08 00:08:09   dev qwen/fair: valid 6/60 heads=10.333 switch=0.754 distinct=6 eff_prefix10=6.0
+- 2026-10-08 00:08:09   dev qwen/plain: valid 59/60 heads=10.085 switch=0.898 distinct=16 eff_prefix10=2.63
+- 2026-10-08 00:08:09 fixtures/completion+pairs: dispatching 72 of 72 slots (spent so far $1.79)
+- 2026-10-08 00:08:38 fixtures/completion+pairs: 50/72 recorded, spent $2.35
+- 2026-10-08 00:08:52 fixtures/completion+pairs: finished; 72/72 recorded, 72 completed, 62 valid; spent $2.39
+- 2026-10-08 00:08:52   fixture fixture_completion|astra: valid 12/12, correct 12/12
+- 2026-10-08 00:08:52   fixture fixture_pair|astra: valid 12/12, correct 12/12
+- 2026-10-08 00:08:52   fixture fixture_completion|fable: valid 12/12, correct 12/12
+- 2026-10-08 00:08:52   fixture fixture_pair|fable: valid 2/12, correct 2/12
+- 2026-10-08 00:08:52   fixture fixture_completion|qwen: valid 12/12, correct 9/12
+- 2026-10-08 00:08:52   fixture fixture_pair|qwen: valid 12/12, correct 8/12
+- 2026-10-08 00:08:53 rehearsal: dispatching 108 of 108 slots (spent so far $2.39)
+- 2026-10-08 00:09:16 rehearsal: 50/108 recorded, spent $2.57
+- 2026-10-08 00:09:39 rehearsal: 100/108 recorded, spent $2.73
+- 2026-10-08 00:09:42 rehearsal: finished; 108/108 recorded, 108 completed, 107 valid; spent $2.77
+- 2026-10-08 00:09:43   headroom I[g] = {"astra": 0.0261, "fable": 0.0011, "qwen": 0.0052}; review_required=False
+- 2026-10-08 00:09:43 STAGE 1 complete
+- 2026-10-08 00:10:16 FREEZE recorded: recipe hash d44fb19b4aab
+- 2026-10-08 00:10:17 STAGE 2 start (freeze verified)
+- 2026-10-08 00:10:17 generation/test: dispatching 144 of 144 slots (spent so far $2.77)
+- 2026-10-08 00:11:10 generation/test: 50/144 recorded, spent $3.02
+- 2026-10-08 00:11:47 generation/test: 100/144 recorded, spent $3.30
+- 2026-10-08 00:12:29 generation/test: finished; 144/144 recorded, 144 completed, 121 valid; spent $3.53
+- 2026-10-08 00:12:31   test astra/fair: valid 24/24
+- 2026-10-08 00:12:31   test astra/plain: valid 24/24
+- 2026-10-08 00:12:31   test fable/fair: valid 24/24
+- 2026-10-08 00:12:31   test fable/plain: valid 24/24
+- 2026-10-08 00:12:31   test qwen/fair: valid 1/24
+- 2026-10-08 00:12:31   test qwen/plain: valid 24/24
+- 2026-10-08 00:12:31   manifests built and hashed: 72 pairs in 12 blocks; audit blocks {'plain': 'BLKc5eb12bb96d4', 'fair': None}
+- 2026-10-08 00:12:31 h4: dispatching 726 of 726 slots (spent so far $3.53)
+- 2026-10-08 00:12:49 h4: 50/726 recorded, spent $3.73
+- 2026-10-08 00:13:07 h4: 100/726 recorded, spent $3.96
+- 2026-10-08 00:13:23 h4: 150/726 recorded, spent $4.14
+- 2026-10-08 00:13:48 h4: 200/726 recorded, spent $4.37
+- 2026-10-08 00:14:22 h4: 250/726 recorded, spent $4.57
+- 2026-10-08 00:14:45 h4: 300/726 recorded, spent $4.75
+- 2026-10-08 00:15:05 h4: 350/726 recorded, spent $4.92
+- 2026-10-08 00:15:59 h4: 400/726 recorded, spent $5.11
+- 2026-10-08 00:16:23 h4: 450/726 recorded, spent $5.29
+- 2026-10-08 00:16:39 h4: 500/726 recorded, spent $5.51
+- 2026-10-08 00:16:57 h4: 550/726 recorded, spent $5.73
+- 2026-10-08 00:17:13 h4: 600/726 recorded, spent $5.91
+- 2026-10-08 00:17:30 h4: 650/726 recorded, spent $6.13
+- 2026-10-08 00:17:50 h4: 700/726 recorded, spent $6.32
+- 2026-10-08 00:18:11 h4: finished; 726/726 recorded, 726 completed, 725 valid; spent $6.39
+- 2026-10-08 00:18:29 completion_repeat: dispatching 66 of 66 slots (spent so far $6.39)
+- 2026-10-08 00:18:55 completion_repeat: 50/66 recorded, spent $6.61
+- 2026-10-08 00:18:59 completion_repeat: finished; 66/66 recorded, 66 completed, 66 valid; spent $6.66
+- 2026-10-08 00:19:01 completion_polarity: dispatching 66 of 66 slots (spent so far $6.66)
+- 2026-10-08 00:19:20 completion_polarity: 50/66 recorded, spent $6.88
+- 2026-10-08 00:19:26 completion_polarity: finished; 66/66 recorded, 66 completed, 66 valid; spent $6.93
+- 2026-10-08 00:19:28 completion_priors: dispatching 24 of 24 slots (spent so far $6.93)
+- 2026-10-08 00:19:35 completion_priors: finished; 24/24 recorded, 24 completed, 24 valid; spent $7.01
+- 2026-10-08 00:19:36 pairs: dispatching 432 of 432 slots (spent so far $7.01)
+- 2026-10-08 00:19:51 pairs: 50/432 recorded, spent $7.11
+- 2026-10-08 00:20:07 pairs: 100/432 recorded, spent $7.23
+- 2026-10-08 00:20:27 pairs: 150/432 recorded, spent $7.33
+- 2026-10-08 00:20:48 pairs: 200/432 recorded, spent $7.45
+- 2026-10-08 00:21:13 pairs: 250/432 recorded, spent $7.55
+- 2026-10-08 00:21:35 pairs: 300/432 recorded, spent $7.63
+- 2026-10-08 00:21:58 pairs: 350/432 recorded, spent $7.75
+- 2026-10-08 00:22:14 pairs: 400/432 recorded, spent $7.84
+- 2026-10-08 00:23:18 pairs: finished; 432/432 recorded, 432 completed, 424 valid; spent $7.90
+- 2026-10-08 00:23:33 pair_repeat: dispatching 18 of 18 slots (spent so far $7.90)
+- 2026-10-08 00:23:47 pair_repeat: finished; 18/18 recorded, 18 completed, 18 valid; spent $7.94
+- 2026-10-08 00:23:48 pair_polarity: dispatching 18 of 18 slots (spent so far $7.94)
+- 2026-10-08 00:23:54 pair_polarity: finished; 18/18 recorded, 18 completed, 18 valid; spent $7.98
+- 2026-10-08 00:23:55 pair_priors: dispatching 12 of 12 slots (spent so far $7.98)
+- 2026-10-08 00:23:58 pair_priors: finished; 12/12 recorded, 12 completed, 12 valid; spent $7.99
+- 2026-10-08 00:23:58 STAGE 2 complete
+- 2026-10-08 00:24:04 RETAINED ARMS start
+- 2026-10-08 00:24:04 fixtures/named: dispatching 18 of 18 slots (spent so far $7.99)
+- 2026-10-08 00:24:11 fixtures/named: finished; 18/18 recorded, 18 completed, 17 valid; spent $8.06
+- 2026-10-08 00:24:12 named: dispatching 54 of 54 slots (spent so far $8.06)
+- 2026-10-08 00:24:29 named: 50/54 recorded, spent $8.20
+- 2026-10-08 00:25:00 named: finished; 54/54 recorded, 54 completed, 54 valid; spent $8.21
+- 2026-10-08 00:25:02 named_priors: dispatching 36 of 36 slots (spent so far $8.21)
+- 2026-10-08 00:25:23 named_priors: finished; 36/36 recorded, 36 completed, 36 valid; spent $8.30
+- 2026-10-08 00:25:24 historical_generation: dispatching 360 of 360 slots (spent so far $8.30)
+- 2026-10-08 00:25:37 historical_generation: 50/360 recorded, spent $8.31
+- 2026-10-08 00:25:47 historical_generation: 100/360 recorded, spent $8.33
+- 2026-10-08 00:25:57 historical_generation: 150/360 recorded, spent $8.34
+- 2026-10-08 00:26:06 historical_generation: 200/360 recorded, spent $8.35
+- 2026-10-08 00:26:16 historical_generation: 250/360 recorded, spent $8.36
+- 2026-10-08 00:26:25 historical_generation: 300/360 recorded, spent $8.38
+- 2026-10-08 00:26:35 historical_generation: 350/360 recorded, spent $8.39
+- 2026-10-08 00:26:37 historical_generation: finished; 360/360 recorded, 360 completed, 355 valid; spent $8.39
+- 2026-10-08 00:26:45 ANALYZE start
+- 2026-10-08 00:26:46   H4 primary panel: {'H4': -0.0025891002415458957, 'gain_own': -0.00019184178743961167, 'gain_other': 0.0023972584541062845, 'C_known': -0.014113200483091781, 'C_withheld': -0.011524100241545883}
+- 2026-10-08 00:26:51   anonymous R/P/D panel: None
+- 2026-10-08 00:26:52 RETAINED ARMS complete
+- 2026-10-08 00:26:53 ANALYZE complete
+- 2026-10-08 00:27:02 ANALYZE start
+- 2026-10-08 00:27:03   H4 primary panel: {'H4': -0.0025891002415458957, 'gain_own': -0.00019184178743961167, 'gain_other': 0.0023972584541062845, 'C_known': -0.014113200483091781, 'C_withheld': -0.011524100241545883}
+- 2026-10-08 00:27:08   anonymous R/P/D panel: None
+- 2026-10-08 00:27:10 ANALYZE complete
+- 2026-10-08 00:28:28 ANALYZE start
+- 2026-10-08 00:28:30   H4 primary panel: {'H4': -0.0025891002415458957, 'gain_own': -0.00019184178743961167, 'gain_other': 0.0023972584541062845, 'C_known': -0.014113200483091781, 'C_withheld': -0.011524100241545883}
+- 2026-10-08 00:28:34   anonymous R/P/D panel: None
+- 2026-10-08 00:28:36 ANALYZE complete
+- 2026-10-08 00:29:30 RUN COMPLETE: 2514 calls, $8.39. Summary: docs/handoffs/PHASE2_PILOT_RESULTS_2026-10-08.md

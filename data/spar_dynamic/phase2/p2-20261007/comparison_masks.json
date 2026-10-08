@@ -1,0 +1,94 @@
+{
+ "completion": {
+  "astra-fable|astra|fair": {
+   "n": 24,
+   "sha256": "ed5912723b20db41"
+  },
+  "astra-qwen|astra|fair": {
+   "n": 24,
+   "sha256": "ed5912723b20db41"
+  },
+  "common3|astra|fair": {
+   "n": 24,
+   "of": 24
+  },
+  "astra-fable|astra|plain": {
+   "n": 24,
+   "sha256": "8c5ef9462b811ed5"
+  },
+  "astra-qwen|astra|plain": {
+   "n": 24,
+   "sha256": "8c5ef9462b811ed5"
+  },
+  "common3|astra|plain": {
+   "n": 24,
+   "of": 24
+  },
+  "astra-fable|fable|fair": {
+   "n": 24,
+   "sha256": "8988cd185b84d9b7"
+  },
+  "fable-qwen|fable|fair": {
+   "n": 24,
+   "sha256": "8988cd185b84d9b7"
+  },
+  "common3|fable|fair": {
+   "n": 24,
+   "of": 24
+  },
+  "astra-fable|fable|plain": {
+   "n": 23,
+   "sha256": "e03205e1d628ec3c"
+  },
+  "fable-qwen|fable|plain": {
+   "n": 23,
+   "sha256": "e03205e1d628ec3c"
+  },
+  "common3|fable|plain": {
+   "n": 23,
+   "of": 24
+  },
+  "astra-qwen|qwen|fair": {
+   "n": 1,
+   "sha256": "2319f01ad9af8bfd"
+  },
+  "fable-qwen|qwen|fair": {
+   "n": 1,
+   "sha256": "2319f01ad9af8bfd"
+  },
+  "common3|qwen|fair": {
+   "n": 1,
+   "of": 1
+  },
+  "astra-qwen|qwen|plain": {
+   "n": 24,
+   "sha256": "6ed83e5d71b975b9"
+  },
+  "fable-qwen|qwen|plain": {
+   "n": 24,
+   "sha256": "6ed83e5d71b975b9"
+  },
+  "common3|qwen|plain": {
+   "n": 24,
+   "of": 24
+  }
+ },
+ "pairs": {
+  "astra-fable": {
+   "n": 65,
+   "sha256": "a8aa68744d6ec7ae"
+  },
+  "astra-qwen": {
+   "n": 72,
+   "sha256": "7e71a114028676cf"
+  },
+  "fable-qwen": {
+   "n": 65,
+   "sha256": "a8aa68744d6ec7ae"
+  },
+  "common3": {
+   "n": 65,
+   "of": 72
+  }
+ }
+}

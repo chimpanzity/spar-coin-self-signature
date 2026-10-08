@@ -1,0 +1,10 @@
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "deployment", "value": "All models via OpenRouter; no local runtime. Open model = qwen/qwen3-8b hosted (Alibaba)."}
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "api_key", "value": "Use the same OpenRouter key as the previous pilot (PACA_implicit/.env)."}
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "branch", "value": "New branch phase2; commit locally, do not push until reviewed."}
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "low_validity", "value": "If a model falls below 80% valid, keep going (no pause)."}
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "budget_cap_usd", "value": 100.0}
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "historical_source", "value": "openai/gpt-3.5-turbo-0613 (Azure) as planned."}
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "stage1_spend", "value": "Approved ('go ahead with the pilot')."}
+{"utc": "2026-10-08T03:45:00Z", "by": "Chris Martin (in chat)", "decision": "stage2_freeze", "value": "Pre-approved in advance of any development data."}
+{"utc": "2026-10-08T03:45:00Z", "by": "Claude (inferred, flagged)", "decision": "headroom_review", "value": "Option (a): continue the fixed pilot with explicitly limited external evidence of disclosure headroom. Inferred from Chris's go-ahead after Claude recommended (a); not an explicit selection."}
+{"utc": "2026-10-08T04:10:16.912529Z", "by": "Chris Martin (pre-approved)", "decision": "freeze_executed", "value": "d44fb19b4aabe34cd4ed6ac03b6fdcd64b41791dd14a097bdfac0ba44384be65"}

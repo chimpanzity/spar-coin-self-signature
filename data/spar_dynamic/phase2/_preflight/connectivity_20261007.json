@@ -1,0 +1,190 @@
+[
+ {
+  "alias": "astra",
+  "role": "generation",
+  "body_sent": {
+   "model": "openai/gpt-6-astra",
+   "reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "max_tokens": 2000,
+   "provider": {
+    "order": [
+     "openai"
+    ],
+    "allow_fallbacks": false
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "extract": {
+   "text": "OK",
+   "finish_reason": "stop",
+   "native_finish_reason": "completed",
+   "returned_model": "openai/gpt-6-astra",
+   "provider": "OpenAI",
+   "generation_id": "gen-1791431150-KNSmHZLauSB5xEQCmHva",
+   "usage": {
+    "prompt_tokens": 13,
+    "completion_tokens": 5,
+    "reasoning_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.00038
+   },
+   "has_reasoning_field": false
+  }
+ },
+ {
+  "alias": "fable",
+  "role": "generation",
+  "body_sent": {
+   "model": "anthropic/claude-fable-5.1",
+   "reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "max_tokens": 2000,
+   "provider": {
+    "order": [
+     "anthropic"
+    ],
+    "allow_fallbacks": false
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "extract": {
+   "text": "OK",
+   "finish_reason": "stop",
+   "native_finish_reason": "end_turn",
+   "returned_model": "anthropic/claude-fable-5.1",
+   "provider": "Anthropic",
+   "generation_id": "gen-1791431152-1nVZX0QeRcutKZyuAvdy",
+   "usage": {
+    "prompt_tokens": 18,
+    "completion_tokens": 4,
+    "reasoning_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.00038
+   },
+   "has_reasoning_field": false
+  }
+ },
+ {
+  "alias": "qwen",
+  "role": "generation",
+  "body_sent": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "extract": {
+   "text": "OK.",
+   "finish_reason": "stop",
+   "native_finish_reason": "stop",
+   "returned_model": "qwen/qwen3-8b",
+   "provider": "Alibaba",
+   "generation_id": "gen-1791431155-Dpxv0Y6yxYZlWJ77l26T",
+   "usage": {
+    "prompt_tokens": 19,
+    "completion_tokens": 2,
+    "reasoning_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 3.133e-06
+   },
+   "has_reasoning_field": false
+  }
+ },
+ {
+  "alias": "qwen",
+  "role": "judge",
+  "body_sent": {
+   "model": "qwen/qwen3-8b",
+   "temperature": 0.0,
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 1000,
+   "provider": {
+    "order": [
+     "alibaba"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "extract": {
+   "text": "OK.",
+   "finish_reason": "stop",
+   "native_finish_reason": "stop",
+   "returned_model": "qwen/qwen3-8b",
+   "provider": "Alibaba",
+   "generation_id": "gen-1791431156-5tCbsp16gFKZRl79yEbQ",
+   "usage": {
+    "prompt_tokens": 19,
+    "completion_tokens": 2,
+    "reasoning_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 3.133e-06
+   },
+   "has_reasoning_field": false
+  }
+ },
+ {
+  "alias": "gpt35_0613",
+  "role": "generation",
+  "body_sent": {
+   "model": "openai/gpt-3.5-turbo-0613",
+   "temperature": 0.8,
+   "top_p": 1.0,
+   "max_tokens": 300,
+   "provider": {
+    "order": [
+     "azure"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+   },
+   "usage": {
+    "include": true
+   }
+  },
+  "extract": {
+   "text": "OK",
+   "finish_reason": "stop",
+   "native_finish_reason": "stop",
+   "returned_model": "openai/gpt-3.5-turbo-0613",
+   "provider": "Azure",
+   "generation_id": "gen-1791431157-SQTB8SLb4mCtu43b66DI",
+   "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 1,
+    "reasoning_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 2.6e-05
+   },
+   "has_reasoning_field": false
+  }
+ }
+]

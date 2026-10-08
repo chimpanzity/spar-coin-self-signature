@@ -1,0 +1,2126 @@
+{
+ "built_utc": "2026-10-08T04:12:31.915900Z",
+ "completion_allocation": {
+  "Pdf2b3d9b2d24": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pbd9a30ecefb0": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P2bc62689bf73": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pba7ed2d6d916": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pc434b1c8d803": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "Pf2e94fd041d7": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P7e2d234eb35f": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P6e7386996121": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P08efdd7d726e": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pf1ad18af4dc4": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P9333131fafea": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P35fe2e518f05": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pd25809680f86": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P311165b56986": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P8a52e2dbb002": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P483ac6ab3bf0": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P5ca0318e86f9": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P114313b6e44d": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P633cce82bfa2": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pf1091159de0d": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pf91d12d82d7d": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P6fff31dd7949": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pf70272b70c32": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pbeed48b9831a": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P8d5c033a6c9d": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P677417766022": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P987914eb2fe5": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P339318dfb86f": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pc59a35412461": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P82c20dad2b44": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pb728176c80b0": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P9f41bf196202": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P31c371139df3": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pd1d27b041b66": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P482e641d1ec6": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pde0906d9007c": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P932a30f0b2af": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P48b6ce201a09": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P4c4008541209": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pf912b277130e": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pe19f1b60ae5e": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "Pf340370ed9c4": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pc8c003cfff1f": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P8a4a199d7c0d": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P252befd2665e": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P1fbe776671a1": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pf414edc880f7": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pbe2c91a32679": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P34df0d0e02ef": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pefa8f3467812": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P1461349dd16d": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P9799ccdd11c6": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P4355c1f030d6": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P6da7736ec049": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pce14028dab81": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P9bcd6a4ebe2e": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pc5a04d251fc6": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pee79f212bea4": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P38d4da757e9b": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P44c3132dd9c8": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P9bb52487a24b": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P6508b3b0ad8d": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "Pabd1e6d7f795": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pe165b33556bf": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P34c52e49399b": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "Pc0fd2996d5e3": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P80afc9796590": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P5adfe8899512": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P087b9bc9c757": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P39595f3e98ab": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P9aa5b2d197cd": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P158904262452": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P200d4085da52": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P8ca0d4cc96b1": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "Pac1e59009057": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pc206c573b70f": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pfb1fbd01a972": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P50b87a09560e": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pd1003400bc2f": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pe8e0638e8b6a": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P9bc7c6621612": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pcf8e49786697": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P154ffb63867c": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pb81766b1c156": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pf55cf6e8ccb0": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P9a81728eb902": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "Pf6a25a3d68ec": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pfefe7f7bbcc9": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pf4b50baaac55": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "Pa10056f1a764": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P9623d498f378": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P5979a50c624a": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P085b274e4e18": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P912e764d7a17": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P80b013660f29": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pb30f63c422d5": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pca6d538aa286": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P9085e4933441": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pc9cd24ab55f4": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P0b6c85ef85e6": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pf81c72ae8aab": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pc3e2c454d97b": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P3e33e4b69101": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "Pe3e5a00b8559": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P5f191a10c135": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P67960b7e759d": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P4311dc4c44fc": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pd776de804751": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pae70030805e7": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pb0afcbdaf9dc": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "P717e9da1021c": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P3535c47405fa": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "known"
+  },
+  "Pea0d3f32f903": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P9de0b17502c0": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "known"
+  },
+  "P422f555d345f": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "known"
+  },
+  "P71e3bed10720": {
+   "order_index": 0,
+   "candidate_order": [
+    "astra",
+    "fable",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pc6de4564221f": {
+   "order_index": 1,
+   "candidate_order": [
+    "astra",
+    "qwen",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "Pb52dde02fcd2": {
+   "order_index": 2,
+   "candidate_order": [
+    "fable",
+    "astra",
+    "qwen"
+   ],
+   "first_condition": "withheld"
+  },
+  "P8b6829cb915c": {
+   "order_index": 3,
+   "candidate_order": [
+    "fable",
+    "qwen",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  },
+  "P6091b7693004": {
+   "order_index": 4,
+   "candidate_order": [
+    "qwen",
+    "astra",
+    "fable"
+   ],
+   "first_condition": "withheld"
+  },
+  "P537c6c1f7b6a": {
+   "order_index": 5,
+   "candidate_order": [
+    "qwen",
+    "fable",
+    "astra"
+   ],
+   "first_condition": "withheld"
+  }
+ },
+ "pair_blocks": [
+  {
+   "block_id": "BLK98e1ac4e0ce7",
+   "split": "test",
+   "prompt": "plain",
+   "index": 0,
+   "parents": {
+    "A1": "Pde0906d9007c",
+    "A2": "Pf414edc880f7",
+    "B1": "Pd1003400bc2f",
+    "B2": "Pe8e0638e8b6a",
+    "C1": "P717e9da1021c",
+    "C2": "Pc6de4564221f"
+   },
+   "cycle_reversed": false
+  },
+  {
+   "block_id": "BLK70a7601df3cd",
+   "split": "test",
+   "prompt": "plain",
+   "index": 1,
+   "parents": {
+    "A1": "P31c371139df3",
+    "A2": "P8a4a199d7c0d",
+    "B1": "P085b274e4e18",
+    "B2": "Pa10056f1a764",
+    "C1": "Pea0d3f32f903",
+    "C2": "Pf81c72ae8aab"
+   },
+   "cycle_reversed": false
+  },
+  {
+   "block_id": "BLKc5eb12bb96d4",
+   "split": "test",
+   "prompt": "plain",
+   "index": 2,
+   "parents": {
+    "A1": "P252befd2665e",
+    "A2": "P339318dfb86f",
+    "B1": "P200d4085da52",
+    "B2": "P9bc7c6621612",
+    "C1": "P422f555d345f",
+    "C2": "P537c6c1f7b6a"
+   },
+   "cycle_reversed": false
+  },
+  {
+   "block_id": "BLK8fa1b91f6201",
+   "split": "test",
+   "prompt": "plain",
+   "index": 3,
+   "parents": {
+    "A1": "Pf340370ed9c4",
+    "A2": "P987914eb2fe5",
+    "B1": "P8ca0d4cc96b1",
+    "B2": "P9a81728eb902",
+    "C1": "P3e33e4b69101",
+    "C2": "P3535c47405fa"
+   },
+   "cycle_reversed": true
+  },
+  {
+   "block_id": "BLK1d2ec1ab51ad",
+   "split": "test",
+   "prompt": "plain",
+   "index": 4,
+   "parents": {
+    "A1": "P9f41bf196202",
+    "A2": "P932a30f0b2af",
+    "B1": "Pcf8e49786697",
+    "B2": "P912e764d7a17",
+    "C1": "P67960b7e759d",
+    "C2": "Pd776de804751"
+   },
+   "cycle_reversed": true
+  },
+  {
+   "block_id": "BLK9b63cf1294ab",
+   "split": "test",
+   "prompt": "plain",
+   "index": 5,
+   "parents": {
+    "A1": "Pe19f1b60ae5e",
+    "A2": "P4c4008541209",
+    "B1": "Pc206c573b70f",
+    "B2": "P50b87a09560e",
+    "C1": "P4311dc4c44fc",
+    "C2": "P5f191a10c135"
+   },
+   "cycle_reversed": true
+  },
+  {
+   "block_id": "BLKce47d55aa5b1",
+   "split": "test",
+   "prompt": "plain",
+   "index": 6,
+   "parents": {
+    "A1": "Pb728176c80b0",
+    "A2": "Pbe2c91a32679",
+    "B1": "Pac1e59009057",
+    "B2": "Pfb1fbd01a972",
+    "C1": "Pc9cd24ab55f4",
+    "C2": "Pe3e5a00b8559"
+   },
+   "cycle_reversed": true
+  },
+  {
+   "block_id": "BLK4fe40fd984e6",
+   "split": "test",
+   "prompt": "plain",
+   "index": 7,
+   "parents": {
+    "A1": "Pc8c003cfff1f",
+    "A2": "P677417766022",
+    "B1": "Pf6a25a3d68ec",
+    "B2": "Pf55cf6e8ccb0",
+    "C1": "Pc3e2c454d97b",
+    "C2": "Pae70030805e7"
+   },
+   "cycle_reversed": true
+  },
+  {
+   "block_id": "BLK7984f6c3c3d6",
+   "split": "test",
+   "prompt": "plain",
+   "index": 8,
+   "parents": {
+    "A1": "P482e641d1ec6",
+    "A2": "Pc59a35412461",
+    "B1": "Pb81766b1c156",
+    "B2": "P5979a50c624a",
+    "C1": "Pb52dde02fcd2",
+    "C2": "P0b6c85ef85e6"
+   },
+   "cycle_reversed": true
+  },
+  {
+   "block_id": "BLK09d290dece29",
+   "split": "test",
+   "prompt": "plain",
+   "index": 9,
+   "parents": {
+    "A1": "Pf912b277130e",
+    "A2": "Pd1d27b041b66",
+    "B1": "P154ffb63867c",
+    "B2": "Pb30f63c422d5",
+    "C1": "P8b6829cb915c",
+    "C2": "P9de0b17502c0"
+   },
+   "cycle_reversed": false
+  },
+  {
+   "block_id": "BLKabdd48f8e66e",
+   "split": "test",
+   "prompt": "plain",
+   "index": 10,
+   "parents": {
+    "A1": "P48b6ce201a09",
+    "A2": "P1fbe776671a1",
+    "B1": "P9623d498f378",
+    "B2": "Pf4b50baaac55",
+    "C1": "P71e3bed10720",
+    "C2": "Pb0afcbdaf9dc"
+   },
+   "cycle_reversed": false
+  },
+  {
+   "block_id": "BLK82919ea650a0",
+   "split": "test",
+   "prompt": "plain",
+   "index": 11,
+   "parents": {
+    "A1": "P8d5c033a6c9d",
+    "A2": "P82c20dad2b44",
+    "B1": "Pfefe7f7bbcc9",
+    "B2": "P80b013660f29",
+    "C1": "P9085e4933441",
+    "C2": "P6091b7693004"
+   },
+   "cycle_reversed": false
+  }
+ ],
+ "pairs": [
+  {
+   "pair_id": "PR9b22fa569173",
+   "block_id": "BLK98e1ac4e0ce7",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pde0906d9007c",
+   "second": "Pf414edc880f7",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR90b841f0e65a",
+   "block_id": "BLK98e1ac4e0ce7",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pf414edc880f7",
+   "second": "P717e9da1021c",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR806034e39f52",
+   "block_id": "BLK98e1ac4e0ce7",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P717e9da1021c",
+   "second": "Pc6de4564221f",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRc4e8d0c3ab32",
+   "block_id": "BLK98e1ac4e0ce7",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pc6de4564221f",
+   "second": "Pe8e0638e8b6a",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR3699c0857ccb",
+   "block_id": "BLK98e1ac4e0ce7",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pe8e0638e8b6a",
+   "second": "Pd1003400bc2f",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR48d508591d4b",
+   "block_id": "BLK98e1ac4e0ce7",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pd1003400bc2f",
+   "second": "Pde0906d9007c",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR9f2c5bfa8b92",
+   "block_id": "BLK70a7601df3cd",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P31c371139df3",
+   "second": "P8a4a199d7c0d",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR5d9467940577",
+   "block_id": "BLK70a7601df3cd",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P8a4a199d7c0d",
+   "second": "Pea0d3f32f903",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRe85e6ef6ef19",
+   "block_id": "BLK70a7601df3cd",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pea0d3f32f903",
+   "second": "Pf81c72ae8aab",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRecbe0e4f035b",
+   "block_id": "BLK70a7601df3cd",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pf81c72ae8aab",
+   "second": "Pa10056f1a764",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRfba485e46ba2",
+   "block_id": "BLK70a7601df3cd",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pa10056f1a764",
+   "second": "P085b274e4e18",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR9a20a9141673",
+   "block_id": "BLK70a7601df3cd",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P085b274e4e18",
+   "second": "P31c371139df3",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR4662d0af4fd6",
+   "block_id": "BLKc5eb12bb96d4",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P252befd2665e",
+   "second": "P339318dfb86f",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR780e1ccc0ac8",
+   "block_id": "BLKc5eb12bb96d4",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P339318dfb86f",
+   "second": "P422f555d345f",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR155025653e76",
+   "block_id": "BLKc5eb12bb96d4",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P422f555d345f",
+   "second": "P537c6c1f7b6a",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRe83c39e65024",
+   "block_id": "BLKc5eb12bb96d4",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P537c6c1f7b6a",
+   "second": "P9bc7c6621612",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR07ab1bb4a7d8",
+   "block_id": "BLKc5eb12bb96d4",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P9bc7c6621612",
+   "second": "P200d4085da52",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR6b8362ba585f",
+   "block_id": "BLKc5eb12bb96d4",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P200d4085da52",
+   "second": "P252befd2665e",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR72c336d564d4",
+   "block_id": "BLK8fa1b91f6201",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P987914eb2fe5",
+   "second": "Pf340370ed9c4",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR03e84163ff1d",
+   "block_id": "BLK8fa1b91f6201",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P3e33e4b69101",
+   "second": "P987914eb2fe5",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PRbfc410874ea0",
+   "block_id": "BLK8fa1b91f6201",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P3535c47405fa",
+   "second": "P3e33e4b69101",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR04eee0a21619",
+   "block_id": "BLK8fa1b91f6201",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P9a81728eb902",
+   "second": "P3535c47405fa",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR26bbeb78cc8e",
+   "block_id": "BLK8fa1b91f6201",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P8ca0d4cc96b1",
+   "second": "P9a81728eb902",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRbfe5b45397d6",
+   "block_id": "BLK8fa1b91f6201",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pf340370ed9c4",
+   "second": "P8ca0d4cc96b1",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR2f90b92f4e63",
+   "block_id": "BLK1d2ec1ab51ad",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P932a30f0b2af",
+   "second": "P9f41bf196202",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR7cf7e6749146",
+   "block_id": "BLK1d2ec1ab51ad",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P67960b7e759d",
+   "second": "P932a30f0b2af",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR62c697058909",
+   "block_id": "BLK1d2ec1ab51ad",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pd776de804751",
+   "second": "P67960b7e759d",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR02f3106af1ab",
+   "block_id": "BLK1d2ec1ab51ad",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P912e764d7a17",
+   "second": "Pd776de804751",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRbdde5302f996",
+   "block_id": "BLK1d2ec1ab51ad",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pcf8e49786697",
+   "second": "P912e764d7a17",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRdade4e3292bd",
+   "block_id": "BLK1d2ec1ab51ad",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P9f41bf196202",
+   "second": "Pcf8e49786697",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRa0e4cda71d58",
+   "block_id": "BLK9b63cf1294ab",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P4c4008541209",
+   "second": "Pe19f1b60ae5e",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PRe5a98bbd7a7e",
+   "block_id": "BLK9b63cf1294ab",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P4311dc4c44fc",
+   "second": "P4c4008541209",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR606d6429937a",
+   "block_id": "BLK9b63cf1294ab",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P5f191a10c135",
+   "second": "P4311dc4c44fc",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR8f06ba340ddf",
+   "block_id": "BLK9b63cf1294ab",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P50b87a09560e",
+   "second": "P5f191a10c135",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRadf729f088f0",
+   "block_id": "BLK9b63cf1294ab",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pc206c573b70f",
+   "second": "P50b87a09560e",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR03decbcc6867",
+   "block_id": "BLK9b63cf1294ab",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pe19f1b60ae5e",
+   "second": "Pc206c573b70f",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR15dc436c9628",
+   "block_id": "BLKce47d55aa5b1",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pbe2c91a32679",
+   "second": "Pb728176c80b0",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PRce50e4c69b64",
+   "block_id": "BLKce47d55aa5b1",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pc9cd24ab55f4",
+   "second": "Pbe2c91a32679",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PRa6ae8ba10db5",
+   "block_id": "BLKce47d55aa5b1",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pe3e5a00b8559",
+   "second": "Pc9cd24ab55f4",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR5de8d2081c79",
+   "block_id": "BLKce47d55aa5b1",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pfb1fbd01a972",
+   "second": "Pe3e5a00b8559",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR08c2fc20441d",
+   "block_id": "BLKce47d55aa5b1",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pac1e59009057",
+   "second": "Pfb1fbd01a972",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR4a19d5c427d1",
+   "block_id": "BLKce47d55aa5b1",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pb728176c80b0",
+   "second": "Pac1e59009057",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR0110147319e9",
+   "block_id": "BLK4fe40fd984e6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P677417766022",
+   "second": "Pc8c003cfff1f",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PRe0573ab2bac6",
+   "block_id": "BLK4fe40fd984e6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pc3e2c454d97b",
+   "second": "P677417766022",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR795d50fdd829",
+   "block_id": "BLK4fe40fd984e6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pae70030805e7",
+   "second": "Pc3e2c454d97b",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR3e59a7af3c29",
+   "block_id": "BLK4fe40fd984e6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pf55cf6e8ccb0",
+   "second": "Pae70030805e7",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRd65166ca3eef",
+   "block_id": "BLK4fe40fd984e6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pf6a25a3d68ec",
+   "second": "Pf55cf6e8ccb0",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRf781d7731fd2",
+   "block_id": "BLK4fe40fd984e6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pc8c003cfff1f",
+   "second": "Pf6a25a3d68ec",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR862b9a0fcc59",
+   "block_id": "BLK7984f6c3c3d6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pc59a35412461",
+   "second": "P482e641d1ec6",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR28c2617f763b",
+   "block_id": "BLK7984f6c3c3d6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pb52dde02fcd2",
+   "second": "Pc59a35412461",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PRec9e6d7d7e28",
+   "block_id": "BLK7984f6c3c3d6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P0b6c85ef85e6",
+   "second": "Pb52dde02fcd2",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR20dae739b553",
+   "block_id": "BLK7984f6c3c3d6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P5979a50c624a",
+   "second": "P0b6c85ef85e6",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR08b00b4b7005",
+   "block_id": "BLK7984f6c3c3d6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pb81766b1c156",
+   "second": "P5979a50c624a",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR70a00c1f6fa5",
+   "block_id": "BLK7984f6c3c3d6",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P482e641d1ec6",
+   "second": "Pb81766b1c156",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRe1edec1c89cb",
+   "block_id": "BLK09d290dece29",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pf912b277130e",
+   "second": "Pd1d27b041b66",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR7696261c2d1d",
+   "block_id": "BLK09d290dece29",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pd1d27b041b66",
+   "second": "P8b6829cb915c",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR30764c2f7f10",
+   "block_id": "BLK09d290dece29",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P8b6829cb915c",
+   "second": "P9de0b17502c0",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRb1b350e0d63c",
+   "block_id": "BLK09d290dece29",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P9de0b17502c0",
+   "second": "Pb30f63c422d5",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRf6c212137626",
+   "block_id": "BLK09d290dece29",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pb30f63c422d5",
+   "second": "P154ffb63867c",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PRaa041d48e153",
+   "block_id": "BLK09d290dece29",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P154ffb63867c",
+   "second": "Pf912b277130e",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR74fe71848d91",
+   "block_id": "BLKabdd48f8e66e",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P48b6ce201a09",
+   "second": "P1fbe776671a1",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR26b3a61c565a",
+   "block_id": "BLKabdd48f8e66e",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P1fbe776671a1",
+   "second": "P71e3bed10720",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR01acd1baba5c",
+   "block_id": "BLKabdd48f8e66e",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P71e3bed10720",
+   "second": "Pb0afcbdaf9dc",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PR43d0d58399a7",
+   "block_id": "BLKabdd48f8e66e",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pb0afcbdaf9dc",
+   "second": "Pf4b50baaac55",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR97fb8b15cb43",
+   "block_id": "BLKabdd48f8e66e",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pf4b50baaac55",
+   "second": "P9623d498f378",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR57714878477b",
+   "block_id": "BLKabdd48f8e66e",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P9623d498f378",
+   "second": "P48b6ce201a09",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PRdfed1b4ccace",
+   "block_id": "BLK82919ea650a0",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P8d5c033a6c9d",
+   "second": "P82c20dad2b44",
+   "relation": "SAME",
+   "src_first": "astra",
+   "src_second": "astra"
+  },
+  {
+   "pair_id": "PR1e51da4715f7",
+   "block_id": "BLK82919ea650a0",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P82c20dad2b44",
+   "second": "P9085e4933441",
+   "relation": "DIFFERENT",
+   "src_first": "astra",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRb1f22ac4249c",
+   "block_id": "BLK82919ea650a0",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P9085e4933441",
+   "second": "P6091b7693004",
+   "relation": "SAME",
+   "src_first": "qwen",
+   "src_second": "qwen"
+  },
+  {
+   "pair_id": "PRca9e285b70e7",
+   "block_id": "BLK82919ea650a0",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P6091b7693004",
+   "second": "P80b013660f29",
+   "relation": "DIFFERENT",
+   "src_first": "qwen",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR940a23b36ac8",
+   "block_id": "BLK82919ea650a0",
+   "prompt": "plain",
+   "split": "test",
+   "first": "P80b013660f29",
+   "second": "Pfefe7f7bbcc9",
+   "relation": "SAME",
+   "src_first": "fable",
+   "src_second": "fable"
+  },
+  {
+   "pair_id": "PR1c96f8417c41",
+   "block_id": "BLK82919ea650a0",
+   "prompt": "plain",
+   "split": "test",
+   "first": "Pfefe7f7bbcc9",
+   "second": "P8d5c033a6c9d",
+   "relation": "DIFFERENT",
+   "src_first": "fable",
+   "src_second": "astra"
+  }
+ ],
+ "audit_blocks": {
+  "plain": "BLKc5eb12bb96d4",
+  "fair": null
+ },
+ "audit_parents": [
+  "P158904262452",
+  "P200d4085da52",
+  "P252befd2665e",
+  "P339318dfb86f",
+  "P422f555d345f",
+  "P537c6c1f7b6a",
+  "P633cce82bfa2",
+  "P9bc7c6621612",
+  "Pabd1e6d7f795",
+  "Pca6d538aa286",
+  "Pf91d12d82d7d"
+ ],
+ "audit_fallback_prompts": [
+  "fair"
+ ],
+ "named_blocks": {
+  "plain": [
+   "BLKc5eb12bb96d4",
+   "BLKabdd48f8e66e",
+   "BLK82919ea650a0"
+  ],
+  "fair": []
+ },
+ "named_order": {
+  "P252befd2665e": 0,
+  "P1fbe776671a1": 1,
+  "P48b6ce201a09": 2,
+  "P339318dfb86f": 3,
+  "P82c20dad2b44": 4,
+  "P8d5c033a6c9d": 5,
+  "Pfefe7f7bbcc9": 0,
+  "Pf4b50baaac55": 1,
+  "P9623d498f378": 2,
+  "P200d4085da52": 3,
+  "P80b013660f29": 4,
+  "P9bc7c6621612": 5,
+  "P9085e4933441": 0,
+  "P6091b7693004": 1,
+  "P537c6c1f7b6a": 2,
+  "Pb0afcbdaf9dc": 3,
+  "P71e3bed10720": 4,
+  "P422f555d345f": 5
+ },
+ "n_valid_test_parents": {
+  "astra|fair": 24,
+  "astra|plain": 24,
+  "fable|fair": 24,
+  "fable|plain": 24,
+  "qwen|fair": 1,
+  "qwen|plain": 24
+ }
+}

@@ -1,0 +1,24 @@
+contrast,estimate,ci_lower,ci_upper,margin,undefined_bootstrap_fraction,support,mask,width,max_side_distance,status,direction,bounded_small,benefit_not_excluded,harm_not_excluded
+H4,-0.0025891002415458957,-0.003989016530797114,-0.0012870635033369441,0.02,0.0,parents 121,pairwise-common,0.0027019530274601704,0.003989016530797114,ok,resolved_negative,True,False,False
+gain_own,-0.00019184178743961167,-0.0005908362016908315,0.00023029091183574495,0.02,0.0,parents 121,pairwise-common,0.0008211271135265764,0.0005908362016908315,ok,unresolved,True,False,False
+gain_other,0.0023972584541062845,0.001180788949275359,0.0037329532828282845,0.02,0.0,parents 121,pairwise-common,0.0025521643335529257,0.0037329532828282845,ok,resolved_positive,True,False,False
+C_known,-0.014113200483091781,-0.021941473731884053,-0.0071967732213438695,0.02,0.0,parents 121,pairwise-common,0.014744700510540183,0.021941473731884053,ok,resolved_negative,False,False,True
+C_withheld,-0.011524100241545883,-0.01824864322916665,-0.0054884571839317175,0.02,0.0,parents 121,pairwise-common,0.012760186045234932,0.01824864322916665,ok,resolved_negative,True,False,False
+H4 crossover astra-fable,-0.00016140851449274185,-0.0008711831974637726,0.0005740883255105193,0.02,0.0,,pairwise-common,0.001445271522974292,0.0008711831974637726,ok,unresolved,True,False,False
+H4 crossover astra-qwen,-0.0013844791666666745,-0.0029175911458333434,-0.000153398437499986,0.02,0.0,,pairwise-common,0.0027641927083333576,0.0029175911458333434,ok,resolved_negative,True,False,False
+H4 crossover fable-qwen,-0.006221413043478272,-0.009103261775362328,-0.003580680397727294,0.02,0.0,,pairwise-common,0.005522581377635034,0.009103261775362328,ok,resolved_negative,True,False,False
+H4 prompt=plain,-0.004177089371980682,-0.00695237266002415,-0.001639293025362344,0.02,0.0,,"pairwise-common (per prompt, secondary)",0.005313079634661806,0.00695237266002415,ok,resolved_negative,True,False,False
+H4 prompt=fair,-0.00100111111111111,-0.0016030625000000105,-0.0003456874999999982,0.02,0.0,,"pairwise-common (per prompt, secondary)",0.0012573750000000124,0.0016030625000000105,ok,resolved_negative,True,False,False
+R,,,,0.05,1.0,pairs 72,pairwise-common both orders,,,not_estimable,none,False,,
+P,,,,0.05,1.0,pairs 72,pairwise-common both orders,,,not_estimable,none,False,,
+D,,,,0.05,1.0,pairs 72,pairwise-common both orders,,,not_estimable,none,False,,
+R crossover astra-fable,,,,0.05,1.0,,pairwise-common both orders,,,not_estimable,none,False,,
+R crossover astra-qwen,,,,0.05,1.0,,pairwise-common both orders,,,not_estimable,none,False,,
+R crossover fable-qwen,,,,0.05,1.0,,pairwise-common both orders,,,not_estimable,none,False,,
+R prompt=plain,0.075915404040404,0.011000806677890012,0.12978804037397787,0.05,0.0,,per prompt (secondary; CI added by amendment A3),0.11878723369608786,0.12978804037397787,ok,resolved_positive,False,True,False
+R prompt=fair,,,,0.05,1.0,,per prompt (secondary; CI added by amendment A3),,,not_estimable,none,False,,
+named R prompt=plain,-0.04050925925925925,-0.1724826388888889,0.09375,0.05,0.0,,per prompt (secondary; amendment A3),0.26623263888888893,0.1724826388888889,ok,unresolved,False,True,True
+named R prompt=fair,,,,0.05,1.0,,per prompt (secondary; amendment A3),,,not_estimable,none,False,,
+named R,,,,0.05,1.0,parents 18,pairwise-common (secondary),,,not_estimable,none,False,,
+named P,,,,0.05,1.0,parents 18,pairwise-common (secondary),,,not_estimable,none,False,,
+named D,,,,0.05,1.0,parents 18,pairwise-common (secondary),,,not_estimable,none,False,,

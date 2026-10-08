@@ -1,0 +1,23 @@
+- 2026-10-08 00:08:06 STAGE 1 start
+- 2026-10-08 00:08:06 generation/development: nothing to do (360 slots already recorded)
+- 2026-10-08 00:08:09   dev astra/fair: valid 60/60 heads=10.433 switch=0.644 distinct=31 eff_prefix10=3.03
+- 2026-10-08 00:08:09   dev astra/plain: valid 60/60 heads=10.683 switch=0.651 distinct=37 eff_prefix10=6.29
+- 2026-10-08 00:08:09   dev fable/fair: valid 59/60 heads=10.017 switch=0.623 distinct=18 eff_prefix10=1.42
+- 2026-10-08 00:08:09   dev fable/plain: valid 60/60 heads=10.467 switch=0.668 distinct=16 eff_prefix10=2.39
+- 2026-10-08 00:08:09   dev qwen/fair: valid 6/60 heads=10.333 switch=0.754 distinct=6 eff_prefix10=6.0
+- 2026-10-08 00:08:09   dev qwen/plain: valid 59/60 heads=10.085 switch=0.898 distinct=16 eff_prefix10=2.63
+- 2026-10-08 00:08:09 fixtures/completion+pairs: dispatching 72 of 72 slots (spent so far $1.79)
+- 2026-10-08 00:08:38 fixtures/completion+pairs: 50/72 recorded, spent $2.35
+- 2026-10-08 00:08:52 fixtures/completion+pairs: finished; 72/72 recorded, 72 completed, 62 valid; spent $2.39
+- 2026-10-08 00:08:52   fixture fixture_completion|astra: valid 12/12, correct 12/12
+- 2026-10-08 00:08:52   fixture fixture_pair|astra: valid 12/12, correct 12/12
+- 2026-10-08 00:08:52   fixture fixture_completion|fable: valid 12/12, correct 12/12
+- 2026-10-08 00:08:52   fixture fixture_pair|fable: valid 2/12, correct 2/12
+- 2026-10-08 00:08:52   fixture fixture_completion|qwen: valid 12/12, correct 9/12
+- 2026-10-08 00:08:52   fixture fixture_pair|qwen: valid 12/12, correct 8/12
+- 2026-10-08 00:08:53 rehearsal: dispatching 108 of 108 slots (spent so far $2.39)
+- 2026-10-08 00:09:16 rehearsal: 50/108 recorded, spent $2.57
+- 2026-10-08 00:09:39 rehearsal: 100/108 recorded, spent $2.73
+- 2026-10-08 00:09:42 rehearsal: finished; 108/108 recorded, 108 completed, 107 valid; spent $2.77
+- 2026-10-08 00:09:43   headroom I[g] = {"astra": 0.0261, "fable": 0.0011, "qwen": 0.0052}; review_required=False
+- 2026-10-08 00:09:43 STAGE 1 complete

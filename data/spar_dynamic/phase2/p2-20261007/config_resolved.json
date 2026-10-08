@@ -1,0 +1,128 @@
+{
+ "protocol": "SPAR_Phase2_v7.1",
+ "master_seed": 20261007,
+ "created_utc": "2026-10-08T03:49:20.660203Z",
+ "core_models": {
+  "astra": {
+   "alias": "astra",
+   "slug": "openai/gpt-6-astra",
+   "display": "GPT-6 Astra",
+   "provider": "openai",
+   "gen_temperature": null,
+   "gen_top_p": null,
+   "gen_top_k": null,
+   "gen_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "gen_max_tokens": 4000,
+   "judge_temperature": null,
+   "judge_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "judge_max_tokens": 4000,
+   "require_parameters": false,
+   "system_message": null,
+   "notes": "Endpoint lists no temperature/top_p support; both omitted. Seed listed but omitted by policy (symmetry with Fable). Reasoning effort=low, exclude=true (setting verified in the FCE pilots)."
+  },
+  "fable": {
+   "alias": "fable",
+   "slug": "anthropic/claude-fable-5.1",
+   "display": "Claude Fable 5.1",
+   "provider": "anthropic",
+   "gen_temperature": null,
+   "gen_top_p": null,
+   "gen_top_k": null,
+   "gen_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "gen_max_tokens": 4000,
+   "judge_temperature": null,
+   "judge_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "judge_max_tokens": 4000,
+   "require_parameters": false,
+   "system_message": null,
+   "notes": "Endpoint lists no temperature/top_p/seed support; all omitted. Reasoning effort=low, exclude=true."
+  },
+  "qwen": {
+   "alias": "qwen",
+   "slug": "qwen/qwen3-8b",
+   "display": "Qwen3-8B",
+   "provider": "alibaba",
+   "gen_temperature": 0.7,
+   "gen_top_p": 0.8,
+   "gen_top_k": 20,
+   "gen_reasoning": {
+    "enabled": false
+   },
+   "gen_max_tokens": 1000,
+   "judge_temperature": 0.0,
+   "judge_reasoning": {
+    "enabled": false
+   },
+   "judge_max_tokens": 1000,
+   "require_parameters": true,
+   "system_message": null,
+   "notes": "Hosted on OpenRouter (Alibaba) by Chris's decision 2026-10-07 instead of a controlled local runtime; local-probe equivalence unverified. Official non-thinking sampling (t=0.7, top_p=0.8, top_k=20) for generation; min_p not supported by the endpoint and omitted. Greedy (t=0) judging, non-thinking."
+  }
+ },
+ "historical": {
+  "alias": "gpt35_0613",
+  "slug": "openai/gpt-3.5-turbo-0613",
+  "display": "GPT-3.5 Turbo (0613)",
+  "provider": "azure",
+  "gen_temperature": null,
+  "gen_top_p": 1.0,
+  "gen_top_k": null,
+  "gen_reasoning": null,
+  "gen_max_tokens": 300,
+  "judge_temperature": null,
+  "judge_reasoning": null,
+  "judge_max_tokens": 0,
+  "require_parameters": true,
+  "system_message": "You are a helpful assistant.",
+  "notes": "Van Koevering & Kleinberg v2 appendix setting (Azure gpt-35-turbo-0613, system message, max 300, top_p 1). Public listing is not proof of identical historical serving."
+ },
+ "historical_temperatures": [
+  0.0,
+  0.8,
+  1.5
+ ],
+ "generation_prompts": {
+  "plain": "Flip 20 coins.",
+  "fair": "Flip 20 fair coins."
+ },
+ "planned_executions": {
+  "core_dev_generation": 360,
+  "core_test_generation": 144,
+  "historical_generation": 360,
+  "fixtures": 90,
+  "rehearsal": 108,
+  "h4_completion": 864,
+  "anonymous_pairs": 864,
+  "named": 108,
+  "named_priors": 36,
+  "completion_polarity": 72,
+  "completion_repeat": 72,
+  "completion_priors": 24,
+  "pair_polarity": 36,
+  "pair_repeat": 36,
+  "pair_priors": 12
+ },
+ "budget_cap_usd": 100.0,
+ "recipe_hashes": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "__main__.py": "792213bdac51a50d29e7cf3a99ca8aee7c701daa1ec2b23ccf917067c6f6f19e",
+  "client.py": "b7c74f5262deb4bdfa2e465a945040b999f7b6c539bbe6006aaa449010fcecce",
+  "config.py": "53b69512a6e4b9c98aee3b2aab4308dffae3afd8e5aa8d35099924d1a0929ee5",
+  "corpus.py": "2fe4d4b7baa11b5bef9d3cf77430a95734a36c9a1ed0afbef818d8029425bc2b",
+  "parse.py": "d06ce8366c61d0f50349ec643cb28057e39bef3e672c37e467cf085b40338672",
+  "tasks.py": "d8b45802778bfc9ca5ad07a3afd8c40902671d4fa6dfdb46cd6b496b4b58ea6e"
+ },
+ "key_source": "previous pilot key file (path recorded, value never logged)"
+}
