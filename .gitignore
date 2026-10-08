@@ -14,3 +14,6 @@ dist/
 
 # never commit the per-run zip packages (regenerable from each run)
 *.zip
+
+# Phase 2 scratch runs
+data/spar_dynamic/phase2/_fake_*/

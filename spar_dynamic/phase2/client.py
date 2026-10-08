@@ -211,12 +211,19 @@ class OpenRouterTransport:
 
 
 class FakeTransport:
-    """Deterministic stand-in for tests and dry runs. Never touches the network."""
+    """Seeded stand-in for tests and dry runs. Never touches the network."""
     name = "fake"
+
+    def __init__(self):
+        self._n = 0
+        self._lock = threading.Lock()
 
     def send(self, body: Dict[str, Any]) -> Dict[str, Any]:
         text_in = body["messages"][-1]["content"]
-        rng = random.Random(C.derive_seed("fake", body["model"], text_in))
+        with self._lock:
+            self._n += 1
+            n = self._n
+        rng = random.Random(C.derive_seed("fake", body["model"], text_in, n))
         if "Flip 20" in text_in and len(text_in) < 40:
             bias = {"openai/gpt-6-astra": 0.5, "anthropic/claude-fable-5.1": 0.65,
                     "qwen/qwen3-8b": 0.45}.get(body["model"], 0.5)

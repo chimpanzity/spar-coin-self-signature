@@ -23,10 +23,11 @@ def load_calls(run_dir: Path) -> Dict[str, Dict[str, Any]]:
     return out
 
 
-def sequence_rows(calls: Dict[str, Dict[str, Any]], task: str = "generation") -> List[Dict[str, Any]]:
+def sequence_rows(calls: Dict[str, Dict[str, Any]],
+                  tasks: tuple = ("generation", "historical_generation")) -> List[Dict[str, Any]]:
     rows = []
     for sid, r in calls.items():
-        if r["task"] != task:
+        if r["task"] not in tasks:
             continue
         m = r["meta"]
         # Always re-parse raw text with the CURRENT frozen parser (versioned);
