@@ -42,6 +42,7 @@ class ModelSpec:
     judge_max_tokens: int
     require_parameters: bool
     system_message: Optional[str] = None
+    gen_send_seed: bool = False     # transmit a distinct per-slot seed on generation
     notes: str = ""
 
 
@@ -77,7 +78,11 @@ CORE_MODELS: Dict[str, ModelSpec] = {
         judge_temperature=0.0, judge_reasoning={"enabled": False},
         judge_max_tokens=1000,
         require_parameters=True,
-        notes="Hosted on OpenRouter (Alibaba) by Chris's decision 2026-10-07 "
+        gen_send_seed=True,
+        notes="Amendment A1 (2026-10-07): the Alibaba endpoint returns identical "
+              "output for identical requests unless a seed is sent, so each "
+              "generation call carries a distinct SHA-derived seed. "
+              "Hosted on OpenRouter (Alibaba) by Chris's decision 2026-10-07 "
               "instead of a controlled local runtime; local-probe equivalence "
               "unverified. Official non-thinking sampling (t=0.7, top_p=0.8, "
               "top_k=20) for generation; min_p not supported by the endpoint "

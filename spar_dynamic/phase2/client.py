@@ -75,7 +75,8 @@ def model_spec(alias: str) -> C.ModelSpec:
     raise KeyError(alias)
 
 
-def request_params(spec: C.ModelSpec, role: str, temperature_override: Optional[float] = None) -> Dict[str, Any]:
+def request_params(spec: C.ModelSpec, role: str, temperature_override: Optional[float] = None,
+                   seed: Optional[int] = None) -> Dict[str, Any]:
     """Build request controls. Omitted controls are NOT sent (never nominal zeros)."""
     p: Dict[str, Any] = {"model": spec.slug}
     if role == "generation":
@@ -88,6 +89,9 @@ def request_params(spec: C.ModelSpec, role: str, temperature_override: Optional[
             p["top_k"] = spec.gen_top_k
         if spec.gen_reasoning is not None:
             p["reasoning"] = dict(spec.gen_reasoning)
+        if spec.gen_send_seed:
+            assert seed is not None, "seed required for this generator"
+            p["seed"] = seed
         p["max_tokens"] = spec.gen_max_tokens
     else:
         if spec.judge_temperature is not None:
@@ -319,7 +323,7 @@ class Executor:
             except TransientError as e:
                 attempts.append({"attempt": i, "dispatch_utc": dispatch, "ok": False, "error": str(e)[:600]})
                 if i < C.MAX_TRANSIENT_RETRIES:
-                    time.sleep([5, 20, 60][i] + random.random())
+                    time.sleep([10, 30, 90][i] + random.random())
         completed = utc_now()
         rec: Dict[str, Any] = {
             "slot_id": slot.slot_id, "task": slot.task, "stage": slot.stage,
