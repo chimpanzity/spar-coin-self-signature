@@ -1,6 +1,6 @@
 # SPAR — Behavioral Self-Signatures in LLMs
 
-## Summary of the work so far (updated 2026-10-07)
+## Summary of the work so far (updated 2026-10-08)
 
 > **Evaluating this project (human or LLM)?** Start with
 > [`REVIEW_GUIDE.md`](REVIEW_GUIDE.md): reading order with raw-text links,
@@ -26,6 +26,7 @@ happen to match its own behavior; Astra's do not.
 | — | Task validation (objective A/B questions) | Astra and Fable answer 100% correctly with balanced A/B use, so their A-bias in source attribution is specific to that task, not a broken format |
 | — | Story swap (same stimuli, three stories) | Changing only the stated procedure flips Fable's SELF answer on 85% of identical items. **Attribution follows the story, not the trace** |
 | — | Phenotype prediction, p(H) and switch rate | Judges forecast the statistics before seeing any sequence and predict the **same values for every target model**. What looks like a self-model is a procedure-level task model |
+| P2 | Phase 2 pilot (v7.1): 20-flip strings, completion with source named vs withheld, anonymous same/different, small named arm; two runs ([Qwen3-8B](docs/handoffs/PHASE2_PILOT_RESULTS_2026-10-08.md), [MiMo](docs/handoffs/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md)) | No self-specific advantage. Completion H4 ≈ 0 and inside the ±0.02 margin in both runs; anonymous R unresolved (MiMo run); named arm unresolved. **Most judges answer 0.5 almost every time** (Astra and MiMo 100% on completion), and Fable labels nearly every sequence as its own. External observers beat all judges |
 
 **What we can defend:** the within-stimulus story-swap effect; the
 procedure-belief finding from phenotype prediction; the task-specificity of
@@ -40,6 +41,7 @@ broad generalization from only three models.
 - [Corpus source report](corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
 - [Original preregistration (v1.0, 2026-09-21)](docs/preregistration/preregistration_v1.0_2026-09-21.md) and [build notes](docs/preregistration/build_notes_2026-09-21_rev4.md)
 - [All handoff notes](docs/handoffs/)
+- Phase 2: [Qwen run results](docs/handoffs/PHASE2_PILOT_RESULTS_2026-10-08.md), [MiMo run results](docs/handoffs/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md); code in [`spar_dynamic/phase2/`](spar_dynamic/phase2/); full run outputs in [`data/spar_dynamic/phase2/`](data/spar_dynamic/phase2/)
 - [Key references, with notes on how each relates to this project](docs/references.md) (Loula 2005; Couchman 2012; Kaneko & Tomonaga 2011; Van Koevering & Kleinberg 2024)
 
 **Related work.** Martin, C. F. (2026). *Dodging Proteus: Prescribing
@@ -50,7 +52,7 @@ matching pennies assay.* Preprint, not peer reviewed.
 behavioral signatures (over-alternation, persistent action bias) appear in an
 adaptive matching-pennies setting.
 
-Total OpenRouter spend across all studies: about **$38** (about $11 for the
+Total OpenRouter spend across all studies: about **$55** (Phase 2 added $17.34). Before Phase 2 it was about **$38** (about $11 for the
 pilots and corpus generation, plus about $27 for this week's experiments and
 model-selection preflights; the itemized table is in the handoff).
 

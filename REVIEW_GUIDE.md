@@ -72,6 +72,16 @@ Code for all of the above is in [`spar_dynamic/full_corpus_exp1/`](https://githu
 | `full_corpus_phenotype_prediction_switch_rate/switchrate-20261001T175124Z/` | **Canonical** switch-rate forecasts |
 | any folder ending in `-dry` | Dry runs: prompts and manifests only, no API calls |
 
+## Phase 2 pilot (2026-10-07/08)
+
+Two runs of the v7.1 protocol: 20-flip "Flip 20 (fair) coins." strings; completion of the last ten flips with the source named vs withheld (H4); anonymous SAME/DIFFERENT pairs (R/P/D); a small named arm; a GPT-3.5-0613 replication of Van Koevering; LASSO. Each run has a development stage, a recorded freeze, then fresh test data.
+
+- [Qwen3-8B run summary](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/handoffs/PHASE2_PILOT_RESULTS_2026-10-08.md); full report: [CORE_REPORT.md](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/data/spar_dynamic/phase2/p2-20261007/CORE_REPORT.md)
+- [MiMo run summary](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/handoffs/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md); full report: [CORE_REPORT.md](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/data/spar_dynamic/phase2/p2-mimo-20261008/CORE_REPORT.md)
+- Every configuration or parser change is in each run's `amendments.jsonl`; decisions are in `approvals.jsonl`; the freeze is in `freeze.json`.
+- Check in particular: the share of all-0.5 answers (CORE_REPORT section 1); the Qwen run's fair-prompt cell (1/24 valid, so its two-prompt pair panel is not estimable); and the post-freeze reporting-only amendment A3.
+- Skip `calls.jsonl` (9–10 MB each) unless auditing raw requests. `scores.csv` and `contrasts.json` hold everything used in the reports.
+
 ## Large files
 
 These are over 500 KB. Most fetch tools will truncate them, and none are
