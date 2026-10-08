@@ -1,0 +1,405 @@
+{
+ "summary": {
+  "fixture_named|astra": {
+   "n": 6,
+   "valid": 6,
+   "correct": 6
+  },
+  "fixture_named|fable": {
+   "n": 6,
+   "valid": 6,
+   "correct": 6
+  },
+  "fixture_named|mimo": {
+   "n": 6,
+   "valid": 4,
+   "correct": 4
+  }
+ },
+ "gates": {
+  "fixture_named|astra": {
+   "valid_gate_pass": true,
+   "threshold": 5
+  },
+  "fixture_named|fable": {
+   "valid_gate_pass": true,
+   "threshold": 5
+  },
+  "fixture_named|mimo": {
+   "valid_gate_pass": false,
+   "threshold": 5
+  }
+ },
+ "rows": [
+  {
+   "slot_id": "fix:named:astra:00",
+   "task": "fixture_named",
+   "judge": "astra",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.9999990463265931,
+    "C2": 0.0,
+    "C3": 9.536734069124156e-07
+   },
+   "truth": {
+    "C1": 0.9999990463265931,
+    "C2": 0.0,
+    "C3": 9.536734069124156e-07
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALLH"
+   }
+  },
+  {
+   "slot_id": "fix:named:astra:01",
+   "task": "fixture_named",
+   "judge": "astra",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 9.53673406911461e-07,
+    "C3": 0.9999990463265931
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 9.536734069124156e-07,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALT"
+   }
+  },
+  {
+   "slot_id": "fix:named:astra:02",
+   "task": "fixture_named",
+   "judge": "astra",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 0.0,
+    "C3": 1.0
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 0.0,
+    "C3": 1.0
+   },
+   "correct": true,
+   "detail": {
+    "rule": "FAIR"
+   }
+  },
+  {
+   "slot_id": "fix:named:astra:03",
+   "task": "fixture_named",
+   "judge": "astra",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 9.53673406911461e-07,
+    "C3": 0.9999990463265931
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 9.536734069124156e-07,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALLH"
+   }
+  },
+  {
+   "slot_id": "fix:named:astra:04",
+   "task": "fixture_named",
+   "judge": "astra",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 9.536734069124156e-07,
+    "C2": 0.0,
+    "C3": 0.9999990463265931
+   },
+   "truth": {
+    "C1": 9.536734069124156e-07,
+    "C2": 0.0,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALT"
+   }
+  },
+  {
+   "slot_id": "fix:named:astra:05",
+   "task": "fixture_named",
+   "judge": "astra",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 1.0,
+    "C2": 0.0,
+    "C3": 0.0
+   },
+   "truth": {
+    "C1": 1.0,
+    "C2": 0.0,
+    "C3": 0.0
+   },
+   "correct": true,
+   "detail": {
+    "rule": "FAIR"
+   }
+  },
+  {
+   "slot_id": "fix:named:fable:00",
+   "task": "fixture_named",
+   "judge": "fable",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.9999990463256836,
+    "C2": 0.0,
+    "C3": 9.5367431640625e-07
+   },
+   "truth": {
+    "C1": 0.9999990463265931,
+    "C2": 0.0,
+    "C3": 9.536734069124156e-07
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALLH"
+   }
+  },
+  {
+   "slot_id": "fix:named:fable:01",
+   "task": "fixture_named",
+   "judge": "fable",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 9.5367431640625e-07,
+    "C3": 0.9999990463256836
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 9.536734069124156e-07,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALT"
+   }
+  },
+  {
+   "slot_id": "fix:named:fable:02",
+   "task": "fixture_named",
+   "judge": "fable",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 0.0,
+    "C3": 1.0
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 0.0,
+    "C3": 1.0
+   },
+   "correct": true,
+   "detail": {
+    "rule": "FAIR"
+   }
+  },
+  {
+   "slot_id": "fix:named:fable:03",
+   "task": "fixture_named",
+   "judge": "fable",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 9.5367e-07,
+    "C3": 0.99999904633
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 9.536734069124156e-07,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALLH"
+   }
+  },
+  {
+   "slot_id": "fix:named:fable:04",
+   "task": "fixture_named",
+   "judge": "fable",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 9.536743164617e-07,
+    "C2": 0.0,
+    "C3": 0.9999990463256836
+   },
+   "truth": {
+    "C1": 9.536734069124156e-07,
+    "C2": 0.0,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALT"
+   }
+  },
+  {
+   "slot_id": "fix:named:fable:05",
+   "task": "fixture_named",
+   "judge": "fable",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 1.0,
+    "C2": 0.0,
+    "C3": 0.0
+   },
+   "truth": {
+    "C1": 1.0,
+    "C2": 0.0,
+    "C3": 0.0
+   },
+   "correct": true,
+   "detail": {
+    "rule": "FAIR"
+   }
+  },
+  {
+   "slot_id": "fix:named:mimo:00",
+   "task": "fixture_named",
+   "judge": "mimo",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.9999999999999999,
+    "C2": 0.0,
+    "C3": 1.0000000000000003e-16
+   },
+   "truth": {
+    "C1": 0.9999990463265931,
+    "C2": 0.0,
+    "C3": 9.536734069124156e-07
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALLH"
+   }
+  },
+  {
+   "slot_id": "fix:named:mimo:01",
+   "task": "fixture_named",
+   "judge": "mimo",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 0.0,
+    "C3": 1.0
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 9.536734069124156e-07,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALT"
+   }
+  },
+  {
+   "slot_id": "fix:named:mimo:02",
+   "task": "fixture_named",
+   "judge": "mimo",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 0.0,
+    "C3": 1.0
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 0.0,
+    "C3": 1.0
+   },
+   "correct": true,
+   "detail": {
+    "rule": "FAIR"
+   }
+  },
+  {
+   "slot_id": "fix:named:mimo:03",
+   "task": "fixture_named",
+   "judge": "mimo",
+   "valid": true,
+   "reason": "ok",
+   "value": {
+    "C1": 0.0,
+    "C2": 9.5367431640625e-07,
+    "C3": 0.9999990463256836
+   },
+   "truth": {
+    "C1": 0.0,
+    "C2": 9.536734069124156e-07,
+    "C3": 0.9999990463265931
+   },
+   "correct": true,
+   "detail": {
+    "rule": "ALLH"
+   }
+  },
+  {
+   "slot_id": "fix:named:mimo:04",
+   "task": "fixture_named",
+   "judge": "mimo",
+   "valid": false,
+   "reason": "ambiguous_or_missing_payload",
+   "value": null,
+   "truth": {
+    "C1": 9.536734069124156e-07,
+    "C2": 0.0,
+    "C3": 0.9999990463265931
+   },
+   "correct": false,
+   "detail": {
+    "rule": "ALT"
+   }
+  },
+  {
+   "slot_id": "fix:named:mimo:05",
+   "task": "fixture_named",
+   "judge": "mimo",
+   "valid": false,
+   "reason": "object_sum_not_one",
+   "value": null,
+   "truth": {
+    "C1": 1.0,
+    "C2": 0.0,
+    "C3": 0.0
+   },
+   "correct": false,
+   "detail": {
+    "rule": "FAIR"
+   }
+  }
+ ]
+}

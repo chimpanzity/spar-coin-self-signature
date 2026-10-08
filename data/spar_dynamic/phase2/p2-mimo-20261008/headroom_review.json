@@ -1,0 +1,31 @@
+{
+ "I_gp": {
+  "astra|plain": 0.009580828933253982,
+  "astra|fair": 0.0046589530458777915,
+  "fable|plain": -0.009516998073490494,
+  "fable|fair": 0.010334668297408506,
+  "mimo|plain": -0.005439810086370579,
+  "mimo|fair": 0.007781381921733134
+ },
+ "I_g": {
+  "astra": 0.007119890989565887,
+  "fable": 0.00040883511195900606,
+  "mimo": 0.0011707859176812775
+ },
+ "prefix_value": {
+  "astra|plain": 0.07670528083711617,
+  "astra|fair": 0.041009891327676594,
+  "fable|plain": 0.0758730210278479,
+  "fable|fair": 0.03556721340843423,
+  "mimo|plain": -0.007667439369730245,
+  "mimo|fair": -0.001627739984882841
+ },
+ "headroom_review_required": true,
+ "threshold": 0.02,
+ "decision_if_required": {
+  "option": "a",
+  "text": "continue the fixed pilot with explicitly limited external evidence of disclosure headroom",
+  "source": "approvals.jsonl (inferred from Chris's go-ahead; flagged)"
+ },
+ "computed_utc": "2026-10-08T10:37:41.370820Z"
+}

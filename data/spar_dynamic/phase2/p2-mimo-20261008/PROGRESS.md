@@ -1,0 +1,121 @@
+- 2026-10-08 06:28:39 init: run p2-mimo-20261008 created; recipe hash 24828128c771
+- 2026-10-08 06:28:39 generation/development smoke: dispatching 30 of 30 slots (spent so far $0.00)
+- 2026-10-08 06:29:45 generation/development smoke: finished; 30/30 recorded, 30 completed, 29 valid; spent $0.16
+- 2026-10-08 06:29:45   development/astra/fair: 5/5 valid  mean_heads=10.8 switch=0.642
+- 2026-10-08 06:29:45   development/astra/plain: 5/5 valid  mean_heads=10.2 switch=0.674
+- 2026-10-08 06:29:45   development/fable/fair: 5/5 valid  mean_heads=10.2 switch=0.632
+- 2026-10-08 06:29:45   development/fable/plain: 5/5 valid  mean_heads=10.6 switch=0.674
+- 2026-10-08 06:29:45   development/mimo/fair: 4/5 valid {'conflicting_lists': 1} mean_heads=10.5 switch=0.618
+- 2026-10-08 06:29:45   development/mimo/plain: 5/5 valid  mean_heads=11.2 switch=0.663
+- 2026-10-08 06:30:02 STAGE 1 start
+- 2026-10-08 06:30:02 generation/development: dispatching 330 of 360 slots (spent so far $0.16)
+- 2026-10-08 06:30:56 generation/development: 50/330 recorded, spent $0.44
+- 2026-10-08 06:32:03 generation/development: 100/330 recorded, spent $0.70
+- 2026-10-08 06:32:46 generation/development: 150/330 recorded, spent $0.96
+- 2026-10-08 06:33:37 generation/development: 200/330 recorded, spent $1.23
+- 2026-10-08 06:34:29 generation/development: 250/330 recorded, spent $1.51
+- 2026-10-08 06:35:03 generation/development: 300/330 recorded, spent $1.76
+- 2026-10-08 06:35:48 generation/development: finished; 360/360 recorded, 360 completed, 320 valid; spent $1.90
+- 2026-10-08 06:35:50   dev astra/fair: valid 60/60 heads=10.533 switch=0.641 distinct=32 eff_prefix10=3.24
+- 2026-10-08 06:35:50   dev astra/plain: valid 60/60 heads=10.567 switch=0.657 distinct=36 eff_prefix10=5.56
+- 2026-10-08 06:35:50   dev fable/fair: valid 59/60 heads=10.203 switch=0.631 distinct=29 eff_prefix10=2.64
+- 2026-10-08 06:35:50   dev fable/plain: valid 60/60 heads=10.633 switch=0.682 distinct=15 eff_prefix10=2.2
+- 2026-10-08 06:35:50   dev mimo/fair: valid 25/60 heads=10.16 switch=0.606 distinct=25 eff_prefix10=18.94
+- 2026-10-08 06:35:50   dev mimo/plain: valid 56/60 heads=10.482 switch=0.647 distinct=56 eff_prefix10=28.51
+- 2026-10-08 06:35:50 fixtures/completion+pairs: dispatching 72 of 72 slots (spent so far $1.90)
+- 2026-10-08 06:36:21 fixtures/completion+pairs: 50/72 recorded, spent $2.45
+- 2026-10-08 06:37:01 fixtures/completion+pairs: finished; 72/72 recorded, 72 completed, 59 valid; spent $2.49
+- 2026-10-08 06:37:02   fixture fixture_completion|astra: valid 12/12, correct 12/12
+- 2026-10-08 06:37:02   fixture fixture_pair|astra: valid 12/12, correct 12/12
+- 2026-10-08 06:37:02   fixture fixture_completion|fable: valid 12/12, correct 12/12
+- 2026-10-08 06:37:02   fixture fixture_pair|fable: valid 2/12, correct 2/12
+- 2026-10-08 06:37:02   fixture fixture_completion|mimo: valid 12/12, correct 6/12
+- 2026-10-08 06:37:02   fixture fixture_pair|mimo: valid 9/12, correct 4/12
+- 2026-10-08 06:37:02 rehearsal: dispatching 108 of 108 slots (spent so far $2.49)
+- 2026-10-08 06:37:18 rehearsal: 50/108 recorded, spent $2.65
+- 2026-10-08 06:37:37 rehearsal: 100/108 recorded, spent $2.80
+- 2026-10-08 06:37:40 rehearsal: finished; 108/108 recorded, 108 completed, 108 valid; spent $2.82
+- 2026-10-08 06:37:41   headroom I[g] = {"astra": 0.0071, "fable": 0.0004, "mimo": 0.0012}; review_required=True
+- 2026-10-08 06:37:41 STAGE 1 complete
+- 2026-10-08 06:37:41 FREEZE recorded: recipe hash 24828128c771
+- 2026-10-08 06:37:42 STAGE 2 start (freeze verified)
+- 2026-10-08 06:37:42 generation/test: dispatching 144 of 144 slots (spent so far $2.82)
+- 2026-10-08 06:38:35 generation/test: 50/144 recorded, spent $3.10
+- 2026-10-08 06:39:59 generation/test: 100/144 recorded, spent $3.38
+- 2026-10-08 06:40:59 generation/test: finished; 144/144 recorded, 144 completed, 128 valid; spent $3.59
+- 2026-10-08 06:41:01   test astra/fair: valid 24/24
+- 2026-10-08 06:41:01   test astra/plain: valid 24/24
+- 2026-10-08 06:41:01   test fable/fair: valid 24/24
+- 2026-10-08 06:41:01   test fable/plain: valid 24/24
+- 2026-10-08 06:41:01   test mimo/fair: valid 10/24
+- 2026-10-08 06:41:01   test mimo/plain: valid 22/24
+- 2026-10-08 06:41:01   manifests built and hashed: 96 pairs in 16 blocks; audit blocks {'plain': 'BLKce47d55aa5b1', 'fair': 'BLK1085be17436c'}
+- 2026-10-08 06:41:01 h4: dispatching 768 of 768 slots (spent so far $3.59)
+- 2026-10-08 06:41:20 h4: 50/768 recorded, spent $3.77
+- 2026-10-08 06:41:37 h4: 100/768 recorded, spent $3.94
+- 2026-10-08 06:41:54 h4: 150/768 recorded, spent $4.12
+- 2026-10-08 06:42:13 h4: 200/768 recorded, spent $4.31
+- 2026-10-08 06:42:30 h4: 250/768 recorded, spent $4.49
+- 2026-10-08 06:42:48 h4: 300/768 recorded, spent $4.71
+- 2026-10-08 06:43:08 h4: 350/768 recorded, spent $4.89
+- 2026-10-08 06:44:00 h4: 400/768 recorded, spent $5.07
+- 2026-10-08 06:44:17 h4: 450/768 recorded, spent $5.27
+- 2026-10-08 06:44:34 h4: 500/768 recorded, spent $5.45
+- 2026-10-08 06:44:51 h4: 550/768 recorded, spent $5.65
+- 2026-10-08 06:45:09 h4: 600/768 recorded, spent $5.81
+- 2026-10-08 06:45:28 h4: 650/768 recorded, spent $6.01
+- 2026-10-08 06:45:49 h4: 700/768 recorded, spent $6.18
+- 2026-10-08 06:46:08 h4: 750/768 recorded, spent $6.35
+- 2026-10-08 06:46:19 h4: finished; 768/768 recorded, 768 completed, 767 valid; spent $6.42
+- 2026-10-08 06:46:37 completion_repeat: dispatching 72 of 72 slots (spent so far $6.42)
+- 2026-10-08 06:47:03 completion_repeat: 50/72 recorded, spent $6.62
+- 2026-10-08 06:47:12 completion_repeat: finished; 72/72 recorded, 72 completed, 72 valid; spent $6.70
+- 2026-10-08 06:47:14 completion_polarity: dispatching 72 of 72 slots (spent so far $6.70)
+- 2026-10-08 06:47:33 completion_polarity: 50/72 recorded, spent $6.90
+- 2026-10-08 06:47:42 completion_polarity: finished; 72/72 recorded, 72 completed, 72 valid; spent $6.99
+- 2026-10-08 06:47:44 completion_priors: dispatching 24 of 24 slots (spent so far $6.99)
+- 2026-10-08 06:47:57 completion_priors: finished; 24/24 recorded, 24 completed, 24 valid; spent $7.07
+- 2026-10-08 06:47:57 pairs: dispatching 576 of 576 slots (spent so far $7.07)
+- 2026-10-08 06:48:13 pairs: 50/576 recorded, spent $7.16
+- 2026-10-08 06:48:28 pairs: 100/576 recorded, spent $7.27
+- 2026-10-08 06:48:41 pairs: 150/576 recorded, spent $7.34
+- 2026-10-08 06:48:56 pairs: 200/576 recorded, spent $7.44
+- 2026-10-08 06:49:43 pairs: 250/576 recorded, spent $7.56
+- 2026-10-08 06:50:03 pairs: 300/576 recorded, spent $7.65
+- 2026-10-08 06:50:21 pairs: 350/576 recorded, spent $7.76
+- 2026-10-08 06:50:37 pairs: 400/576 recorded, spent $7.85
+- 2026-10-08 06:50:52 pairs: 450/576 recorded, spent $7.94
+- 2026-10-08 06:51:06 pairs: 500/576 recorded, spent $8.05
+- 2026-10-08 06:51:22 pairs: 550/576 recorded, spent $8.18
+- 2026-10-08 06:51:30 pairs: finished; 576/576 recorded, 576 completed, 559 valid; spent $8.23
+- 2026-10-08 06:51:50 pair_repeat: dispatching 36 of 36 slots (spent so far $8.23)
+- 2026-10-08 06:52:03 pair_repeat: finished; 36/36 recorded, 36 completed, 33 valid; spent $8.31
+- 2026-10-08 06:52:04 pair_polarity: dispatching 36 of 36 slots (spent so far $8.31)
+- 2026-10-08 06:52:17 pair_polarity: finished; 36/36 recorded, 36 completed, 35 valid; spent $8.38
+- 2026-10-08 06:52:19 pair_priors: dispatching 12 of 12 slots (spent so far $8.38)
+- 2026-10-08 06:52:24 pair_priors: finished; 12/12 recorded, 12 completed, 12 valid; spent $8.40
+- 2026-10-08 06:52:25 STAGE 2 complete
+- 2026-10-08 06:52:25 RETAINED ARMS start
+- 2026-10-08 06:52:25 fixtures/named: dispatching 18 of 18 slots (spent so far $8.40)
+- 2026-10-08 06:52:32 fixtures/named: finished; 18/18 recorded, 18 completed, 16 valid; spent $8.46
+- 2026-10-08 06:52:33 named: dispatching 108 of 108 slots (spent so far $8.46)
+- 2026-10-08 06:52:51 named: 50/108 recorded, spent $8.59
+- 2026-10-08 06:53:07 named: 100/108 recorded, spent $8.74
+- 2026-10-08 06:53:12 named: finished; 108/108 recorded, 108 completed, 108 valid; spent $8.76
+- 2026-10-08 06:53:16 named_priors: dispatching 36 of 36 slots (spent so far $8.76)
+- 2026-10-08 06:53:29 named_priors: finished; 36/36 recorded, 36 completed, 36 valid; spent $8.85
+- 2026-10-08 06:53:30 historical_generation: dispatching 360 of 360 slots (spent so far $8.85)
+- 2026-10-08 06:53:42 historical_generation: 50/360 recorded, spent $8.86
+- 2026-10-08 06:53:52 historical_generation: 100/360 recorded, spent $8.88
+- 2026-10-08 06:54:01 historical_generation: 150/360 recorded, spent $8.89
+- 2026-10-08 06:54:13 historical_generation: 200/360 recorded, spent $8.90
+- 2026-10-08 06:54:23 historical_generation: 250/360 recorded, spent $8.91
+- 2026-10-08 06:54:33 historical_generation: 300/360 recorded, spent $8.93
+- 2026-10-08 06:54:43 historical_generation: 350/360 recorded, spent $8.94
+- 2026-10-08 06:54:45 historical_generation: finished; 360/360 recorded, 360 completed, 357 valid; spent $8.94
+- 2026-10-08 06:55:01 RETAINED ARMS complete
+- 2026-10-08 06:55:02 ANALYZE start
+- 2026-10-08 06:55:03   H4 primary panel: {'H4': -0.0004106899978041321, 'gain_own': -0.00011795893719807511, 'gain_other': 0.000292731060606057, 'C_known': -0.0019467063296003486, 'C_withheld': -0.0015360163317962167}
+- 2026-10-08 06:55:10   anonymous R/P/D panel: {'P': 0.03261166863439592, 'D': -0.07037037037037036, 'R': -0.01887935086798722}
+- 2026-10-08 06:55:13 ANALYZE complete
+- 2026-10-08 06:55:54 RUN COMPLETE: 2802 calls, $8.94. Summary: docs/handoffs/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md

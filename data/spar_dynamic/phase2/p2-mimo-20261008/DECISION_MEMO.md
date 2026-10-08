@@ -1,0 +1,13 @@
+# Decision memo (Stage 1 -> Stage 2)
+
+- Apparatus and generation parser valid? See amendments.jsonl for every configuration or parser change (parser gen_v3).
+- Completion and pair fixtures valid? One or more valid-response gates FAILED (see STAGE1_REPORT.md); per Chris, the run continues and failures are reported.
+- Rehearsal valid? See STAGE1_REPORT.md rehearsal table; flat judgments are reported, not rejected.
+- Minimal observer diagnostics and headroom decision recorded? Yes; review_required=True. Decision (a) continue, inferred from Chris's go-ahead and flagged.
+- Prefix k=10 and probability-response policy retained? Yes.
+- Two-sided H4 and common-set rules fixed? Yes (analysis.py at the frozen hash).
+- Precision plan acknowledged? PRECISION_PLAN.md written before test generation.
+- Cost ceiling: hard cap $91 (Chris).
+- Arm status: core completion and anonymous arms ready; named fixtures, named calls and historical generation run after the protected core calls; LASSO/regularized code exists before the freeze.
+- Low-validity cells are not paused, per Chris's instruction.
+

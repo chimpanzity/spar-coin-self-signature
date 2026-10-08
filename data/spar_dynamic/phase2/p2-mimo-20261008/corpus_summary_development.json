@@ -1,0 +1,357 @@
+[
+ {
+  "split": "development",
+  "source": "astra",
+  "prompt": "fair",
+  "temperature": null,
+  "attempted": 60,
+  "valid": 60,
+  "valid_rate": 1.0,
+  "failure_reasons": {},
+  "mean_heads": 10.533,
+  "first_H_rate": 0.933,
+  "mean_switches": 12.183,
+  "switch_rate": 0.641,
+  "mean_longest_run": 2.867,
+  "distinct_strings": 32,
+  "max_string_freq": 7,
+  "effective_strings": 18.18,
+  "distinct_prefix10": 13,
+  "max_prefix10_freq": 32,
+  "effective_prefix10": 3.24,
+  "top_strings": [
+   [
+    "HTTHHTHTTTHHTHTHHTHH",
+    7
+   ],
+   [
+    "HTTHHTHTTTHHTHHHTTHT",
+    7
+   ],
+   [
+    "HTTHHTHTTTHHTHTHHTTH",
+    5
+   ]
+  ],
+  "bigrams": {
+   "HH": 0.1956,
+   "HT": 0.3316,
+   "TH": 0.3096,
+   "TT": 0.1632
+  },
+  "trigrams": {
+   "HHH": 0.0296,
+   "HHT": 0.162,
+   "HTH": 0.1889,
+   "HTT": 0.1398,
+   "THH": 0.1759,
+   "THT": 0.137,
+   "TTH": 0.1343,
+   "TTT": 0.0324
+  },
+  "window8_heads_hist": {
+   "3": 145,
+   "4": 409,
+   "5": 218,
+   "6": 8
+  }
+ },
+ {
+  "split": "development",
+  "source": "astra",
+  "prompt": "plain",
+  "temperature": null,
+  "attempted": 60,
+  "valid": 60,
+  "valid_rate": 1.0,
+  "failure_reasons": {},
+  "mean_heads": 10.567,
+  "first_H_rate": 0.95,
+  "mean_switches": 12.483,
+  "switch_rate": 0.657,
+  "mean_longest_run": 2.667,
+  "distinct_strings": 36,
+  "max_string_freq": 5,
+  "effective_strings": 25.35,
+  "distinct_prefix10": 9,
+  "max_prefix10_freq": 16,
+  "effective_prefix10": 5.56,
+  "top_strings": [
+   [
+    "HTTHHTHTTHTHHHTTHTHT",
+    5
+   ],
+   [
+    "HTHHTTHTTHHTHTHHTTHH",
+    4
+   ],
+   [
+    "HTTHHTHTTTHHTHTHHTHT",
+    4
+   ]
+  ],
+  "bigrams": {
+   "HH": 0.1877,
+   "HT": 0.3386,
+   "TH": 0.3184,
+   "TT": 0.1553
+  },
+  "trigrams": {
+   "HHH": 0.0287,
+   "HHT": 0.1528,
+   "HTH": 0.1852,
+   "HTT": 0.15,
+   "THH": 0.1694,
+   "THT": 0.1519,
+   "TTH": 0.1481,
+   "TTT": 0.0139
+  },
+  "window8_heads_hist": {
+   "2": 2,
+   "3": 115,
+   "4": 455,
+   "5": 206,
+   "6": 2
+  }
+ },
+ {
+  "split": "development",
+  "source": "fable",
+  "prompt": "fair",
+  "temperature": null,
+  "attempted": 60,
+  "valid": 59,
+  "valid_rate": 0.983,
+  "failure_reasons": {
+   "conflicting_lists": 1
+  },
+  "mean_heads": 10.203,
+  "first_H_rate": 0.932,
+  "mean_switches": 11.983,
+  "switch_rate": 0.631,
+  "mean_longest_run": 2.949,
+  "distinct_strings": 29,
+  "max_string_freq": 7,
+  "effective_strings": 16.19,
+  "distinct_prefix10": 8,
+  "max_prefix10_freq": 34,
+  "effective_prefix10": 2.64,
+  "top_strings": [
+   [
+    "HTTHHTHTTTHHTHTTHHTH",
+    7
+   ],
+   [
+    "HTTHHTHTTTHHHTHTTHHT",
+    7
+   ],
+   [
+    "HTTHHTHTTTHHTHTTHHHT",
+    6
+   ]
+  ],
+  "bigrams": {
+   "HH": 0.1838,
+   "HT": 0.3265,
+   "TH": 0.3042,
+   "TT": 0.1855
+  },
+  "trigrams": {
+   "HHH": 0.0377,
+   "HHT": 0.1554,
+   "HTH": 0.162,
+   "HTT": 0.161,
+   "THH": 0.1563,
+   "THT": 0.1375,
+   "TTH": 0.1554,
+   "TTT": 0.0348
+  },
+  "window8_heads_hist": {
+   "3": 145,
+   "4": 467,
+   "5": 152,
+   "6": 3
+  }
+ },
+ {
+  "split": "development",
+  "source": "fable",
+  "prompt": "plain",
+  "temperature": null,
+  "attempted": 60,
+  "valid": 60,
+  "valid_rate": 1.0,
+  "failure_reasons": {},
+  "mean_heads": 10.633,
+  "first_H_rate": 0.967,
+  "mean_switches": 12.95,
+  "switch_rate": 0.682,
+  "mean_longest_run": 2.967,
+  "distinct_strings": 15,
+  "max_string_freq": 17,
+  "effective_strings": 5.23,
+  "distinct_prefix10": 6,
+  "max_prefix10_freq": 37,
+  "effective_prefix10": 2.2,
+  "top_strings": [
+   [
+    "HTTHHHTHTTHTHHTHTHTH",
+    17
+   ],
+   [
+    "HTTHHHTHTTHTHHTHTTHH",
+    15
+   ],
+   [
+    "HTTHHTHTTTHHTHTHHTHT",
+    12
+   ]
+  ],
+  "bigrams": {
+   "HH": 0.1763,
+   "HT": 0.3491,
+   "TH": 0.3325,
+   "TT": 0.1421
+  },
+  "trigrams": {
+   "HHH": 0.0398,
+   "HHT": 0.1306,
+   "HTH": 0.2167,
+   "HTT": 0.1343,
+   "THH": 0.1463,
+   "THT": 0.1843,
+   "TTH": 0.1324,
+   "TTT": 0.0157
+  },
+  "window8_heads_hist": {
+   "3": 68,
+   "4": 507,
+   "5": 204,
+   "6": 1
+  }
+ },
+ {
+  "split": "development",
+  "source": "mimo",
+  "prompt": "fair",
+  "temperature": null,
+  "attempted": 60,
+  "valid": 25,
+  "valid_rate": 0.417,
+  "failure_reasons": {
+   "conflicting_lists": 7,
+   "no_list": 17,
+   "wrong_length": 9,
+   "truncated_length": 2
+  },
+  "mean_heads": 10.16,
+  "first_H_rate": 0.72,
+  "mean_switches": 11.52,
+  "switch_rate": 0.606,
+  "mean_longest_run": 2.96,
+  "distinct_strings": 25,
+  "max_string_freq": 1,
+  "effective_strings": 25.0,
+  "distinct_prefix10": 22,
+  "max_prefix10_freq": 3,
+  "effective_prefix10": 18.94,
+  "top_strings": [
+   [
+    "HHTTHTHHHTTHTTTHTHHT",
+    1
+   ],
+   [
+    "THHTHHHTTHTTHTHTHHTH",
+    1
+   ],
+   [
+    "HTTHHTHHHTTTHHTTHTHT",
+    1
+   ]
+  ],
+  "bigrams": {
+   "HH": 0.2,
+   "HT": 0.3095,
+   "TH": 0.2968,
+   "TT": 0.1937
+  },
+  "trigrams": {
+   "HHH": 0.0467,
+   "HHT": 0.1578,
+   "HTH": 0.1422,
+   "HTT": 0.1644,
+   "THH": 0.1533,
+   "THT": 0.14,
+   "TTH": 0.1578,
+   "TTT": 0.0378
+  },
+  "window8_heads_hist": {
+   "2": 5,
+   "3": 82,
+   "4": 155,
+   "5": 77,
+   "6": 6
+  }
+ },
+ {
+  "split": "development",
+  "source": "mimo",
+  "prompt": "plain",
+  "temperature": null,
+  "attempted": 60,
+  "valid": 56,
+  "valid_rate": 0.933,
+  "failure_reasons": {
+   "no_list": 3,
+   "wrong_length": 1
+  },
+  "mean_heads": 10.482,
+  "first_H_rate": 0.714,
+  "mean_switches": 12.286,
+  "switch_rate": 0.647,
+  "mean_longest_run": 2.732,
+  "distinct_strings": 56,
+  "max_string_freq": 1,
+  "effective_strings": 56.0,
+  "distinct_prefix10": 39,
+  "max_prefix10_freq": 4,
+  "effective_prefix10": 28.51,
+  "top_strings": [
+   [
+    "HTHHTHHTHTTHTHHTHTHH",
+    1
+   ],
+   [
+    "HTHHTTHTHHTHHTHTTHHT",
+    1
+   ],
+   [
+    "HTHHTHTHTHHTTHHHTTHT",
+    1
+   ]
+  ],
+  "bigrams": {
+   "HH": 0.1974,
+   "HT": 0.3299,
+   "TH": 0.3167,
+   "TT": 0.156
+  },
+  "trigrams": {
+   "HHH": 0.0407,
+   "HHT": 0.1587,
+   "HTH": 0.1845,
+   "HTT": 0.1429,
+   "THH": 0.1657,
+   "THT": 0.1518,
+   "TTH": 0.1389,
+   "TTT": 0.0169
+  },
+  "window8_heads_hist": {
+   "2": 3,
+   "3": 104,
+   "4": 405,
+   "5": 198,
+   "6": 18
+  }
+ }
+]

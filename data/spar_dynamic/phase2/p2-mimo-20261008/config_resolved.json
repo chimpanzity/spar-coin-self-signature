@@ -1,0 +1,166 @@
+{
+ "protocol": "SPAR_Phase2_v7.1",
+ "master_seed": 20261007,
+ "created_utc": "2026-10-08T10:28:38.873765Z",
+ "core_models": {
+  "astra": {
+   "alias": "astra",
+   "slug": "openai/gpt-6-astra",
+   "display": "GPT-6 Astra",
+   "provider": "openai",
+   "gen_temperature": null,
+   "gen_top_p": null,
+   "gen_top_k": null,
+   "gen_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "gen_max_tokens": 4000,
+   "judge_temperature": null,
+   "judge_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "judge_max_tokens": 4000,
+   "require_parameters": false,
+   "system_message": null,
+   "gen_send_seed": false,
+   "notes": "Endpoint lists no temperature/top_p support; both omitted. Seed listed but omitted by policy (symmetry with Fable). Reasoning effort=low, exclude=true (setting verified in the FCE pilots)."
+  },
+  "fable": {
+   "alias": "fable",
+   "slug": "anthropic/claude-fable-5.1",
+   "display": "Claude Fable 5.1",
+   "provider": "anthropic",
+   "gen_temperature": null,
+   "gen_top_p": null,
+   "gen_top_k": null,
+   "gen_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "gen_max_tokens": 4000,
+   "judge_temperature": null,
+   "judge_reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "judge_max_tokens": 4000,
+   "require_parameters": false,
+   "system_message": null,
+   "gen_send_seed": false,
+   "notes": "Endpoint lists no temperature/top_p/seed support; all omitted. Reasoning effort=low, exclude=true."
+  },
+  "qwen": {
+   "alias": "qwen",
+   "slug": "qwen/qwen3-8b",
+   "display": "Qwen3-8B",
+   "provider": "alibaba",
+   "gen_temperature": 0.7,
+   "gen_top_p": 0.8,
+   "gen_top_k": 20,
+   "gen_reasoning": {
+    "enabled": false
+   },
+   "gen_max_tokens": 1000,
+   "judge_temperature": 0.0,
+   "judge_reasoning": {
+    "enabled": false
+   },
+   "judge_max_tokens": 1000,
+   "require_parameters": true,
+   "system_message": null,
+   "gen_send_seed": true,
+   "notes": "Amendment A1 (2026-10-07): the Alibaba endpoint returns identical output for identical requests unless a seed is sent, so each generation call carries a distinct SHA-derived seed. Hosted on OpenRouter (Alibaba) by Chris's decision 2026-10-07 instead of a controlled local runtime; local-probe equivalence unverified. Official non-thinking sampling (t=0.7, top_p=0.8, top_k=20) for generation; min_p not supported by the endpoint and omitted. Greedy (t=0) judging, non-thinking."
+  },
+  "mimo": {
+   "alias": "mimo",
+   "slug": "xiaomi/mimo-v2.6-pro",
+   "display": "MiMo-V2.6-Pro",
+   "provider": "xiaomi",
+   "gen_temperature": null,
+   "gen_top_p": null,
+   "gen_top_k": null,
+   "gen_reasoning": {
+    "enabled": false
+   },
+   "gen_max_tokens": 4000,
+   "judge_temperature": 0.0,
+   "judge_reasoning": {
+    "enabled": false
+   },
+   "judge_max_tokens": 4000,
+   "require_parameters": true,
+   "system_message": null,
+   "gen_send_seed": false,
+   "notes": "Run p2-mimo-20261008 (Chris: 'try mimo', 2026-10-08). First-party Xiaomi endpoint, as in the earlier corpus pilots. Generation at provider-default sampling (temperature omitted, like Astra/Fable); smoke test showed varied outputs without a seed (endpoint does not support seed). Reasoning disabled (as in FCE pilots). Greedy (t=0) judging, enforced with require_parameters. 4000-token budget because 'fair' responses ran ~800 tokens and one smoke response hit 1000."
+  }
+ },
+ "historical": {
+  "alias": "gpt35_0613",
+  "slug": "openai/gpt-3.5-turbo-0613",
+  "display": "GPT-3.5 Turbo (0613)",
+  "provider": "azure",
+  "gen_temperature": null,
+  "gen_top_p": 1.0,
+  "gen_top_k": null,
+  "gen_reasoning": null,
+  "gen_max_tokens": 300,
+  "judge_temperature": null,
+  "judge_reasoning": null,
+  "judge_max_tokens": 0,
+  "require_parameters": true,
+  "system_message": "You are a helpful assistant.",
+  "gen_send_seed": false,
+  "notes": "Van Koevering & Kleinberg v2 appendix setting (Azure gpt-35-turbo-0613, system message, max 300, top_p 1). Public listing is not proof of identical historical serving."
+ },
+ "historical_temperatures": [
+  0.0,
+  0.8,
+  1.5
+ ],
+ "generation_prompts": {
+  "plain": "Flip 20 coins.",
+  "fair": "Flip 20 fair coins."
+ },
+ "planned_executions": {
+  "core_dev_generation": 360,
+  "core_test_generation": 144,
+  "historical_generation": 360,
+  "fixtures": 90,
+  "rehearsal": 108,
+  "h4_completion": 864,
+  "anonymous_pairs": 864,
+  "named": 108,
+  "named_priors": 36,
+  "completion_polarity": 72,
+  "completion_repeat": 72,
+  "completion_priors": 24,
+  "pair_polarity": 36,
+  "pair_repeat": 36,
+  "pair_priors": 12
+ },
+ "budget_cap_usd": 91.0,
+ "recipe_hashes": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "__main__.py": "eb0e83f1b67053f4ab9d5c83bd22a9193560e558f3fe3c29d9c0c74156e21b4e",
+  "analysis.py": "294b7383d1d24d6afbb9e58333d343b3a96888015c8c87e56069291609114bc1",
+  "baselines.py": "387519e84f01810fa3c7497ad423818d15384b80b9c6a006b6380b2a97ebddf2",
+  "client.py": "00f673aace8f71e95ef6dc90ac8a9ad760a2e3e6c0c96df10bb48e579a9308c2",
+  "config.py": "76274eb99c1c3b11d3aa1cfac73926ec401b4def2f11e8db9c0063fb48f2cbed",
+  "corpus.py": "e5ce65ddc64283d7f23f22c5a6c6d0e65d25c815b274c4f27edf37948aa6964e",
+  "lasso.py": "92bc2b1f7095eef8c150e32ec162fe6d483591f084a238f823046a76df9c8f55",
+  "parse.py": "cf51f5a8f58059ad5799a6f93867b6ac5d318e1eb6701d10dad1dae12f365271",
+  "pipeline.py": "8e43f34121e82ff89a04a0c9cece45e13573dc1b05bcf6fcc18717c0e8a41ffc",
+  "report.py": "bc318ba733457c5183ab32846f56f6226161bff1a9b1a3f51cda750c0a11b396",
+  "rescore.py": "958fe0888dae82455447a80e7e64bcdab6f5653a3d588e859d08589bc5819e8e",
+  "tasks.py": "cedd5aeea217afc0ceede1bcb838c0f61f0970be09c5caa8e0487a5ed18eb9b4"
+ },
+ "core_order": [
+  "astra",
+  "fable",
+  "mimo"
+ ],
+ "third_model": "mimo",
+ "key_source": "previous pilot key file (path recorded, value never logged)"
+}

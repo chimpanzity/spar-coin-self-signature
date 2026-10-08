@@ -1,0 +1,94 @@
+{
+ "completion": {
+  "astra-fable|astra|fair": {
+   "n": 24,
+   "sha256": "ed5912723b20db41"
+  },
+  "astra-mimo|astra|fair": {
+   "n": 24,
+   "sha256": "ed5912723b20db41"
+  },
+  "common3|astra|fair": {
+   "n": 24,
+   "of": 24
+  },
+  "astra-fable|astra|plain": {
+   "n": 24,
+   "sha256": "8c5ef9462b811ed5"
+  },
+  "astra-mimo|astra|plain": {
+   "n": 24,
+   "sha256": "8c5ef9462b811ed5"
+  },
+  "common3|astra|plain": {
+   "n": 24,
+   "of": 24
+  },
+  "astra-fable|fable|fair": {
+   "n": 24,
+   "sha256": "8988cd185b84d9b7"
+  },
+  "fable-mimo|fable|fair": {
+   "n": 24,
+   "sha256": "8988cd185b84d9b7"
+  },
+  "common3|fable|fair": {
+   "n": 24,
+   "of": 24
+  },
+  "astra-fable|fable|plain": {
+   "n": 23,
+   "sha256": "f78831d7ac00cc3e"
+  },
+  "fable-mimo|fable|plain": {
+   "n": 23,
+   "sha256": "f78831d7ac00cc3e"
+  },
+  "common3|fable|plain": {
+   "n": 23,
+   "of": 24
+  },
+  "astra-mimo|mimo|fair": {
+   "n": 10,
+   "sha256": "9c5bce84bc598fa9"
+  },
+  "fable-mimo|mimo|fair": {
+   "n": 10,
+   "sha256": "9c5bce84bc598fa9"
+  },
+  "common3|mimo|fair": {
+   "n": 10,
+   "of": 10
+  },
+  "astra-mimo|mimo|plain": {
+   "n": 22,
+   "sha256": "4faa92f836c00821"
+  },
+  "fable-mimo|mimo|plain": {
+   "n": 22,
+   "sha256": "4faa92f836c00821"
+  },
+  "common3|mimo|plain": {
+   "n": 22,
+   "of": 22
+  }
+ },
+ "pairs": {
+  "astra-fable": {
+   "n": 83,
+   "sha256": "b3768f2669263ef0"
+  },
+  "astra-mimo": {
+   "n": 96,
+   "sha256": "98e832a31a31ab13"
+  },
+  "fable-mimo": {
+   "n": 83,
+   "sha256": "b3768f2669263ef0"
+  },
+  "common3": {
+   "n": 83,
+   "of": 96
+  }
+ }
+}
