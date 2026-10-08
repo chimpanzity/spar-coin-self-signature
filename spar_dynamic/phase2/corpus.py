@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
 
 from . import config as C
+from .parse import GEN_PARSER_VERSION, parse_generation
 
 
 def load_calls(run_dir: Path) -> Dict[str, Dict[str, Any]]:
@@ -28,7 +29,13 @@ def sequence_rows(calls: Dict[str, Dict[str, Any]], task: str = "generation") ->
         if r["task"] != task:
             continue
         m = r["meta"]
-        parse = r.get("parse") or {}
+        # Always re-parse raw text with the CURRENT frozen parser (versioned);
+        # the dispatch-time parse remains in calls.jsonl.
+        parse = {}
+        if r["status"] == "completed":
+            gp = parse_generation(r["response"]["text"], r["response"].get("finish_reason") or "")
+            parse = {"valid": gp.valid, "outcomes": gp.outcomes, "reason": gp.reason,
+                     "repeated_list": gp.repeated_list}
         rows.append({
             "slot_id": sid, "parent_id": m["parent_id"], "split": m["split"], "source": m["source"],
             "prompt": m["prompt"], "temperature": m.get("temperature"), "idx": m["idx"],
@@ -40,6 +47,8 @@ def sequence_rows(calls: Dict[str, Dict[str, Any]], task: str = "generation") ->
             "finish_reason": (r.get("response") or {}).get("finish_reason"),
             "completed_utc": r.get("completed_utc"),
             "cost_usd": r.get("cost_usd"),
+            "parser_version": GEN_PARSER_VERSION,
+            "dispatch_parse_valid": (r.get("parse") or {}).get("valid"),
         })
     rows.sort(key=lambda x: (x["split"], x["source"], x["prompt"], str(x["temperature"]), x["idx"]))
     return rows

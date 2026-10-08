@@ -14,7 +14,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Any, List, Optional, Tuple
 
-GEN_PARSER_VERSION = "gen_v1"
+GEN_PARSER_VERSION = "gen_v2"
 ANSWER_PARSER_VERSION = "ans_v1"
 
 # ---------------------------------------------------------------------------
@@ -26,8 +26,9 @@ _BREAK = " § "  # section sign: never a separator, always breaks a list
 # Aggregate counts ("Heads: 11", "11 heads", "H = 9") and legends are removed
 # before tokenising so they cannot join an outcome list.
 _COUNT_PATTERNS = [
-    re.compile(r"\b(heads?|tails?|h|t)[ \t]*[:=][ \t]*\d+", re.I),
-    re.compile(r"\b\d+[ \t]*(heads?|tails?)\b", re.I),
+    # gen_v2: markdown emphasis may surround the label or colon ("**Heads:** 10")
+    re.compile(r"\b(heads?|tails?|h|t)[*_ \t]*[:=][*_ \t]*\d+", re.I),
+    re.compile(r"\b\d+[*_ \t]*(heads?|tails?)\b", re.I),
     re.compile(r"\b(heads?|tails?)[ \t]*(count|total)\b", re.I),
     re.compile(r"\b(h|t)[ \t]*=[ \t]*(heads?|tails?)\b", re.I),
     re.compile(r"\b(heads?|tails?)[ \t]*=[ \t]*(h|t)\b", re.I),
@@ -39,7 +40,7 @@ _ANNOT_LETTER_WORD = re.compile(r"\b([ht])\s*\(\s*(heads?|tails?)\s*\)", re.I)
 _TOKEN = re.compile(r"\b(heads?|tails?|[ht]+)\b", re.I)
 # What may sit between two outcome tokens of the same list.
 _SEPARATOR = re.compile(
-    r"^(?:[\s,;|/\-–—.()\[\]{}*_`'\"]"
+    r"^(?:[\s,;|/\-–—.()\[\]{}*_`'\"·•∙⋅>]"
     r"|(?:flip|coin|toss|throw|result|outcome)s?\s*#?\s*\d+\s*[.):\-]?"
     r"|#?\d+\s*[.):\-]"
     r"|\d+\s*(?=\s)"
