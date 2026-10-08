@@ -83,6 +83,7 @@ def cmd_init(args) -> None:
         "historical": C.HISTORICAL.__dict__, "historical_temperatures": C.HIST_TEMPERATURES,
         "generation_prompts": C.GEN_PROMPTS, "planned_executions": C.PLANNED_EXECUTIONS,
         "budget_cap_usd": C.BUDGET_CAP_USD, "recipe_hashes": recipe_hash(),
+        "core_order": list(C.CORE_ORDER), "third_model": C.THIRD_MODEL,
         "key_source": "previous pilot key file (path recorded, value never logged)",
     }
     (rd / "config_resolved.json").write_text(json.dumps(cfg, indent=1, default=str))

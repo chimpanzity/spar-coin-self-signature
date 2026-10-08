@@ -113,12 +113,14 @@ def write_stage1_docs(rd: Path, summ, fixtures, hr, reh) -> None:
     for g in J:
         for p in C.PROMPT_ORDER:
             P.append(f"| {g} x {p} | {v.get((g, p), 0)}/60 | {exp_test[f'{g}|{p}']} |")
-    nq = exp_test["qwen|fair"]
-    P += ["", f"The Qwen x fair cell is expected to yield about {nq} valid test parents. Pair blocks for the fair prompt need at least two valid parents "
-          "from every source, so the fair-prompt pair arm may have only zero to two blocks, and any crossover that needs Qwen sources under the "
-          "fair prompt may be non-estimable. Under the frozen rules a non-estimable component makes the panel summary non-estimable; it is never "
-          "silently dropped. Per-prompt results are reported separately.", "",
-          "## Assumption-only completion half-width scenarios (Section 11.4)", "",
+    low = [k for k, x in exp_test.items() if x < 0.8 * C.TEST_ATTEMPTS_PER_CELL]
+    P += [""]
+    if low:
+        P += [f"Cells expected to fall below 80% valid: {', '.join(f'{k} (about {exp_test[k]} of 24)' for k in low)}. Pair blocks need at least two "
+              "valid parents from every source in a prompt, so those prompts may have few or no blocks, and crossovers needing those sources may be "
+              "non-estimable. Under the frozen rules a non-estimable component makes the panel summary non-estimable; it is never silently dropped. "
+              "Per-prompt results are reported separately.", ""]
+    P += ["## Assumption-only completion half-width scenarios (Section 11.4)", "",
           "Normal half-width approx 1.96 s / sqrt(144) for independent parent-level contrasts with no missingness and equal cell weights. "
           "These are arithmetic sensitivity scenarios, not estimated study intervals.", "",
           "| s | half-width |", "|---:|---:|"] + [f"| {s:.2f} | {1.96 * s / 12:.4f} |" for s in s_vals]
@@ -133,7 +135,7 @@ def write_stage1_docs(rd: Path, summ, fixtures, hr, reh) -> None:
 
     fx_ok = all(g["valid_gate_pass"] for g in fixtures["gates"].values())
     D = ["# Decision memo (Stage 1 -> Stage 2)", "",
-         f"- Apparatus and generation parser valid? Yes, after amendments A1 (Qwen seeds) and A2 (parser gen_v2), both recorded in amendments.jsonl before any judge data.",
+         f"- Apparatus and generation parser valid? See amendments.jsonl for every configuration or parser change (parser {__import__('spar_dynamic.phase2.parse', fromlist=['x']).GEN_PARSER_VERSION}).",
          f"- Completion and pair fixtures valid? {'All valid-response gates passed.' if fx_ok else 'One or more valid-response gates FAILED (see STAGE1_REPORT.md); per Chris, the run continues and failures are reported.'}",
          "- Rehearsal valid? See STAGE1_REPORT.md rehearsal table; flat judgments are reported, not rejected.",
          f"- Minimal observer diagnostics and headroom decision recorded? Yes; review_required={hr['headroom_review_required']}."
@@ -143,7 +145,7 @@ def write_stage1_docs(rd: Path, summ, fixtures, hr, reh) -> None:
          "- Precision plan acknowledged? PRECISION_PLAN.md written before test generation.",
          f"- Cost ceiling: hard cap ${C.BUDGET_CAP_USD:.0f} (Chris).",
          "- Arm status: core completion and anonymous arms ready; named fixtures, named calls and historical generation run after the protected core calls; LASSO/regularized code exists before the freeze.",
-         "- Low-validity cells (Qwen x fair) are not paused, per Chris's instruction.", ""]
+         "- Low-validity cells are not paused, per Chris's instruction.", ""]
     (rd / "DECISION_MEMO.md").write_text("\n".join(D) + "\n")
     ready = {"shared": "ready", "completion": "ready", "anonymous": "ready",
              "named": "pending (fixtures run in retained stage)", "historical": "pending (retained stage)",

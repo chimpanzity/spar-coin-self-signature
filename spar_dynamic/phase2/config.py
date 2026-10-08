@@ -88,8 +88,24 @@ CORE_MODELS: Dict[str, ModelSpec] = {
               "top_k=20) for generation; min_p not supported by the endpoint "
               "and omitted. Greedy (t=0) judging, non-thinking.",
     ),
+    "mimo": ModelSpec(
+        alias="mimo", slug="xiaomi/mimo-v2.6-pro", display="MiMo-V2.6-Pro",
+        provider="xiaomi",
+        gen_temperature=None, gen_top_p=None, gen_top_k=None,
+        gen_reasoning={"enabled": False}, gen_max_tokens=4000,
+        judge_temperature=0.0, judge_reasoning={"enabled": False}, judge_max_tokens=4000,
+        require_parameters=True,
+        notes="Run p2-mimo-20261008 (Chris: 'try mimo', 2026-10-08). First-party Xiaomi endpoint, "
+              "as in the earlier corpus pilots. Generation at provider-default sampling (temperature "
+              "omitted, like Astra/Fable); smoke test showed varied outputs without a seed (endpoint "
+              "does not support seed). Reasoning disabled (as in FCE pilots). Greedy (t=0) judging, "
+              "enforced with require_parameters. 4000-token budget because 'fair' responses ran ~800 "
+              "tokens and one smoke response hit 1000.",
+    ),
 }
-CORE_ORDER: Tuple[str, ...] = ("astra", "fable", "qwen")
+# Third core model: "qwen" for run p2-20261007; "mimo" for run p2-mimo-20261008.
+THIRD_MODEL = os.environ.get("PHASE2_THIRD_MODEL", "qwen")
+CORE_ORDER: Tuple[str, ...] = ("astra", "fable", THIRD_MODEL)
 
 HISTORICAL = ModelSpec(
     alias="gpt35_0613", slug="openai/gpt-3.5-turbo-0613",
@@ -288,7 +304,7 @@ FIXTURE_TOLERANCE = 0.2
 # Budget and operations (Section 13.5) -- operational
 # ---------------------------------------------------------------------------
 
-BUDGET_CAP_USD = 100.0          # Chris, 2026-10-07: Phase 2 hard cap
+BUDGET_CAP_USD = float(os.environ.get("PHASE2_BUDGET_CAP_USD", "100.0"))  # Chris: $100 Phase 2 cap (cumulative across runs)
 MAX_TRANSIENT_RETRIES = 3
 REQUEST_TIMEOUT_S = 240
 CONCURRENCY = 8

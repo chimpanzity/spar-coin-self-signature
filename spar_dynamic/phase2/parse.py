@@ -14,7 +14,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Any, List, Optional, Tuple
 
-GEN_PARSER_VERSION = "gen_v2"
+GEN_PARSER_VERSION = "gen_v3"
 ANSWER_PARSER_VERSION = "ans_v1"
 
 # ---------------------------------------------------------------------------
@@ -71,10 +71,12 @@ def _token_outcomes(tok: str) -> str:
 
 def _candidate_lists(text: str) -> List[Tuple[str, Tuple[int, int]]]:
     work = text
-    for pat in _COUNT_PATTERNS:
-        work = pat.sub(lambda m: _BREAK.ljust(len(m.group(0)))[: len(m.group(0))], work)
+    # gen_v3: collapse "Heads (H)" annotations BEFORE removing counts, so that
+    # "**Heads (H):** 11" is recognised as a count.
     work = _ANNOT_WORD_LETTER.sub(lambda m: m.group(1).ljust(len(m.group(0))), work)
     work = _ANNOT_LETTER_WORD.sub(lambda m: m.group(1).ljust(len(m.group(0))), work)
+    for pat in _COUNT_PATTERNS:
+        work = pat.sub(lambda m: _BREAK.ljust(len(m.group(0)))[: len(m.group(0))], work)
     lists: List[Tuple[str, Tuple[int, int]]] = []
     cur = ""
     start = end = None

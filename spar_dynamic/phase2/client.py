@@ -226,7 +226,7 @@ class FakeTransport:
         rng = random.Random(C.derive_seed("fake", body["model"], text_in, n))
         if "Flip 20" in text_in and len(text_in) < 40:
             bias = {"openai/gpt-6-astra": 0.5, "anthropic/claude-fable-5.1": 0.65,
-                    "qwen/qwen3-8b": 0.45}.get(body["model"], 0.5)
+                    "qwen/qwen3-8b": 0.45, "xiaomi/mimo-v2.6-pro": 0.55}.get(body["model"], 0.5)
             seq, prev = [], None
             for i in range(20):
                 if prev is not None and rng.random() < 0.6:
