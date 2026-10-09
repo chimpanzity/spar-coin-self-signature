@@ -1,0 +1,21 @@
+{
+ "fetched_utc": "2026-10-09T12:00:09.635826Z",
+ "openai/gpt-6-astra": {
+  "prompt": 1e-05,
+  "completion": 5e-05,
+  "canonical_slug": "openai/gpt-6-astra-20260903",
+  "supported_parameters": [
+   "include_reasoning",
+   "max_completion_tokens",
+   "max_tokens",
+   "reasoning",
+   "reasoning_effort",
+   "response_format",
+   "seed",
+   "structured_outputs",
+   "tool_choice",
+   "tools",
+   "verbosity"
+  ]
+ }
+}

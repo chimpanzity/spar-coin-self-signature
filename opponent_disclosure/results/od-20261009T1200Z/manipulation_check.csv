@@ -1,0 +1,5 @@
+role,informed,n,pct_mentions_self_or_same_model,median_completion_tokens,pct_multiline
+matcher,False,320,0.0,38.0,0.0
+matcher,True,320,0.0,43.5,0.0
+mismatcher,False,320,0.0,34.0,0.0
+mismatcher,True,320,0.0,42.0,0.0

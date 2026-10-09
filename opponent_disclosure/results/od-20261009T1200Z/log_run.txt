@@ -1,0 +1,35 @@
+- 2026-10-09 08:02:44 RUN start (LIVE), cap $25
+- 2026-10-09 08:02:44 games: 32 games x 20 rounds, 16 concurrent (spent $0.40)
+- 2026-10-09 08:03:50   game D10_3: complete, 20 rounds  spent $2.09
+- 2026-10-09 08:03:51   game D11_1: complete, 20 rounds  spent $2.16
+- 2026-10-09 08:03:59   game D01_4: complete, 20 rounds  spent $2.46
+- 2026-10-09 08:04:04   game D00_4: complete, 20 rounds  spent $2.62
+- 2026-10-09 08:04:05   game D11_4: complete, 20 rounds  spent $2.67
+- 2026-10-09 08:04:18   game D01_1: complete, 20 rounds  spent $3.17
+- 2026-10-09 08:04:23   game D00_3: complete, 20 rounds  spent $3.36
+- 2026-10-09 08:04:26   game D11_2: complete, 20 rounds  spent $3.46
+- 2026-10-09 08:04:31   game D01_3: complete, 20 rounds  spent $3.64
+- 2026-10-09 08:04:31   game D10_2: complete, 20 rounds  spent $3.65
+- 2026-10-09 08:04:33   game D00_2: complete, 20 rounds  spent $3.75
+- 2026-10-09 08:04:37   game D00_1: complete, 20 rounds  spent $3.90
+- 2026-10-09 08:04:38   game D11_3: complete, 20 rounds  spent $3.95
+- 2026-10-09 08:05:05   game D00_5: complete, 20 rounds  spent $5.11
+- 2026-10-09 08:05:06   game D01_2: complete, 20 rounds  spent $5.17
+- 2026-10-09 08:05:09   game D10_5: complete, 20 rounds  spent $5.31
+- 2026-10-09 08:05:20   game D11_5: complete, 20 rounds  spent $5.82
+- 2026-10-09 08:05:22   game D01_5: complete, 20 rounds  spent $5.91
+- 2026-10-09 08:05:23   game D11_6: complete, 20 rounds  spent $5.97
+- 2026-10-09 08:05:29   game D10_4: complete, 20 rounds  spent $6.22
+- 2026-10-09 08:05:32   game D00_6: complete, 20 rounds  spent $6.30
+- 2026-10-09 08:05:34   game D10_1: complete, 20 rounds  spent $6.36
+- 2026-10-09 08:05:38   game D00_7: complete, 20 rounds  spent $6.48
+- 2026-10-09 08:05:39   game D10_6: complete, 20 rounds  spent $6.50
+- 2026-10-09 08:05:39   game D11_7: complete, 20 rounds  spent $6.55
+- 2026-10-09 08:05:40   game D01_6: complete, 20 rounds  spent $6.57
+- 2026-10-09 08:05:44   game D10_7: complete, 20 rounds  spent $6.65
+- 2026-10-09 08:05:46   game D01_7: complete, 20 rounds  spent $6.69
+- 2026-10-09 08:05:57   game D11_8: complete, 20 rounds  spent $6.80
+- 2026-10-09 08:06:10   game D10_8: complete, 20 rounds  spent $6.94
+- 2026-10-09 08:06:14   game D00_8: complete, 20 rounds  spent $6.97
+- 2026-10-09 08:06:40   game D01_8: complete, 20 rounds  spent $7.05
+- 2026-10-09 08:06:41 RUN complete: report.md written

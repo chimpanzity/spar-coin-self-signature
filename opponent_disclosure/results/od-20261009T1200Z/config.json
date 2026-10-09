@@ -1,0 +1,66 @@
+{
+ "protocol": "OpponentDisclosure_v1",
+ "master_seed": 20261011,
+ "model": {
+  "alias": "astra",
+  "slug": "openai/gpt-6-astra",
+  "display": "Astra",
+  "provider": "openai"
+ },
+ "reasoning": {
+  "effort": "low",
+  "exclude": true
+ },
+ "max_tokens": 4000,
+ "omitted_controls": [
+  "temperature",
+  "top_p",
+  "seed"
+ ],
+ "n_rounds": 20,
+ "games_per_condition": 8,
+ "conditions": {
+  "00": [
+   false,
+   false
+  ],
+  "10": [
+   true,
+   false
+  ],
+  "01": [
+   false,
+   true
+  ],
+  "11": [
+   true,
+   true
+  ]
+ },
+ "n_player_calls": 1280,
+ "n_boot": 5000,
+ "budget_cap_usd": 25.0,
+ "templates": {
+  "shared": "This is a 20-round simultaneous-choice matching-pennies game. There are two players: the Matcher and the Mismatcher. On each round, both players independently choose STAR or TRIANGLE without seeing the other's current choice. The Matcher wins if the choices are the same. The Mismatcher wins if the choices are different. After each completed round, both choices and the winner are revealed. Your objective is to win as many rounds as possible.",
+  "matcher": "{SHARED}\n\nYou are the MATCHER.\nYour objective is to choose the SAME shape as the Mismatcher.\n\n{OPPONENT_IDENTITY_SENTENCE}\n\nCompleted-round history:\n{PUBLIC_HISTORY}\n\nRound {T} of 20: choose STAR or TRIANGLE.\n\nReturn your final choice on the last line, using exactly STAR or TRIANGLE.",
+  "mismatcher": "{SHARED}\n\nYou are the MISMATCHER.\nYour objective is to choose a DIFFERENT shape from the Matcher.\n\n{OPPONENT_IDENTITY_SENTENCE}\n\nCompleted-round history:\n{PUBLIC_HISTORY}\n\nRound {T} of 20: choose STAR or TRIANGLE.\n\nReturn your final choice on the last line, using exactly STAR or TRIANGLE.",
+  "informed": "Opponent identity: Your opponent is another independent instance of the same language model as you, Astra.",
+  "uninformed": "Opponent identity: Your opponent's model identity is not disclosed.",
+  "history_header": "Round | Matcher | Mismatcher | Winner",
+  "empty_history": "None. This is the first round."
+ },
+ "self_reference_terms": [
+  "same model",
+  "same language model",
+  "instance",
+  "astra",
+  "copy of me",
+  "myself",
+  "like me",
+  "mirror",
+  "same as me",
+  "think like"
+ ],
+ "code_hash": "03257df7854c149a53c1c230412cb439635e85bde1b8f94137e8a1bbf4190ac0",
+ "created_utc": "2026-10-09T12:00:09.635355Z"
+}
