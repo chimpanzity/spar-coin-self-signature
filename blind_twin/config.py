@@ -6,7 +6,12 @@ import json
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-PROTOCOL = "BlindTwin_v1"
+import os
+
+# v1 = run bt-20261009T0455Z ("Return ONLY the chosen shape", strict parser).
+# v2 = players may briefly reason; the chosen shape must be alone on the final line (Chris, 2026-10-09).
+VERSION = os.environ.get("BLIND_TWIN_VERSION", "v2")
+PROTOCOL = f"BlindTwin_{VERSION}"
 MASTER_SEED = 20261009
 PKG = Path(__file__).resolve().parent
 RESULTS = PKG / "results"
@@ -61,17 +66,22 @@ SHARED_GAME_EXPLANATION = (
     "Prior rounds are public; the current round's choices are not revealed before both choices are submitted."
 )
 
+PLAYER_FORMAT_LINE = {
+    "v1": "Return ONLY the chosen shape.",
+    "v2": "You may briefly think through your choice. End your response with the chosen shape (STAR or TRIANGLE) alone on the final line.",
+}[VERSION]
+
 MATCHER_TEMPLATE = """{SHARED_GAME_EXPLANATION}
 You are the MATCHER. Your objective is to choose the SAME shape as the Mismatcher.
 Completed-round history (none before round 1):
 {PUBLIC_HISTORY}
-Round {T} of 20: choose STAR or TRIANGLE. Return ONLY the chosen shape."""
+Round {T} of 20: choose STAR or TRIANGLE. """ + PLAYER_FORMAT_LINE
 
 MISMATCHER_TEMPLATE = """{SHARED_GAME_EXPLANATION}
 You are the MISMATCHER. Your objective is to choose a DIFFERENT shape from the Matcher.
 Completed-round history (none before round 1):
 {PUBLIC_HISTORY}
-Round {T} of 20: choose STAR or TRIANGLE. Return ONLY the chosen shape."""
+Round {T} of 20: choose STAR or TRIANGLE. """ + PLAYER_FORMAT_LINE
 
 JUDGE_TEMPLATE = """{SHARED_GAME_EXPLANATION}
 You are {JUDGE_IDENTITY}, acting as an independent observer. You are NOT playing this game. The identities and roles of the two players are described below.
@@ -105,7 +115,7 @@ def code_hash() -> str:
 
 def frozen_config() -> Dict:
     return {
-        "protocol": PROTOCOL, "master_seed": MASTER_SEED, "models": MODELS, "reasoning": REASONING,
+        "protocol": PROTOCOL, "version": VERSION, "player_format_line": PLAYER_FORMAT_LINE, "master_seed": MASTER_SEED, "models": MODELS, "reasoning": REASONING,
         "max_tokens": MAX_TOKENS, "omitted_controls": ["temperature", "top_p", "seed"],
         "n_rounds": N_ROUNDS, "games_per_matchup": GAMES_PER_MATCHUP, "matchups": MATCHUPS,
         "judges": JUDGES, "conditions": CONDITIONS, "primary_contrast": PRIMARY_CONTRAST,

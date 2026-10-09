@@ -60,7 +60,7 @@ def test_players_not_told_identities_and_prompts_verbatim():
     for m in C.MODELS.values():
         assert m["display"] not in p
     assert p.startswith(C.SHARED_GAME_EXPLANATION + "\nYou are the MATCHER.")
-    assert p.endswith("Round 3 of 20: choose STAR or TRIANGLE. Return ONLY the chosen shape.")
+    assert p.endswith("Round 3 of 20: choose STAR or TRIANGLE. " + C.PLAYER_FORMAT_LINE)
     assert "You are the MISMATCHER. Your objective is to choose a DIFFERENT shape" in player_prompt("mismatcher", ROWS, 3)
 
 
@@ -69,13 +69,28 @@ def test_payoff():
     assert winner("STAR", "TRIANGLE") == "Mismatcher" and winner("TRIANGLE", "STAR") == "Mismatcher"
 
 
+def test_v2_prompt_wording():
+    assert C.VERSION == "v2"
+    p = player_prompt("matcher", [], 1)
+    assert p.endswith("You may briefly think through your choice. End your response with the chosen shape "
+                      "(STAR or TRIANGLE) alone on the final line.")
+    assert "Return ONLY" not in p
+
+
 def test_parsers():
     assert parse_shape("STAR") == ("STAR", "ok")
     assert parse_shape("**Triangle**")[0] == "TRIANGLE"
     assert parse_shape("STAR.")[0] == "STAR"
-    assert parse_shape("I choose STAR")[0] is None
+    assert parse_shape("I choose STAR")[0] is None                       # final line is not a bare shape
     assert parse_shape("STAR or TRIANGLE")[0] is None
     assert parse_shape("STAR", "length")[0] is None
+    # v2 final-line rule
+    assert parse_shape("Mismatcher alternated — pattern suggests STAR next.\n\nSTAR") == ("STAR", "ok_final_line")
+    assert parse_shape("Thinking.\n**TRIANGLE**")[0] == "TRIANGLE"
+    assert parse_shape("STAR\nActually no.\nTRIANGLE")[1] == "ambiguous_bare_shapes"
+    assert parse_shape("STAR\nreasoning\nSTAR")[0] == "STAR"
+    assert parse_shape("I pick TRIANGLE.\nChoice: TRIANGLE")[0] is None   # labelled final line is not bare
+    assert parse_shape("Reasoning only, no answer")[1] == "final_line_not_a_shape"
     assert parse_judge('{"matcher":"STAR","mismatcher":"TRIANGLE"}')[0] == {"matcher": "STAR", "mismatcher": "TRIANGLE"}
     assert parse_judge('```json\n{"matcher":"star","mismatcher":"TRIANGLE"}\n```')[1] == "ok_wrapped"
     assert parse_judge('{"matcher":"STAR"}')[0] is None

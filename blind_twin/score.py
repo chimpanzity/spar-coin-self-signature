@@ -418,6 +418,21 @@ def write_report(rd, games, calls, out, acc, breakdown, play, by_game) -> None:
     L += ["", "## Players", "", "| game | seat | model | % STAR | % switch | matcher wins /20 |", "|---|---|---|---:|---:|---:|"]
     for r in play:
         L.append(f"| {r['game_id']} | {r['seat']} | {r['model']} | {fmt(r['pct_star'])} | {fmt(r['pct_switch'])} | {r['matcher_wins'] if r['matcher_wins'] is not None else ''} |")
+    # v2 additions: player response lengths and replicate openings
+    L += ["", "Player responses (protocol " + C.PROTOCOL + "; player format line: \"" + C.PLAYER_FORMAT_LINE + "\"):", "",
+          "| model | responses | valid | median completion tokens | max completion tokens | % with reasoning before the shape |", "|---|---:|---:|---:|---:|---:|"]
+    for m in C.ORDER:
+        rs = [r for r in pl if r["model"] == m and r["status"] == "completed"]
+        toks = sorted((r["response"]["usage"].get("completion_tokens") or 0) for r in rs)
+        multi = [r for r in rs if len([l for l in (r["response"]["text"] or "").strip().splitlines() if l.strip()]) > 1]
+        L.append(f"| {m} | {len(rs)} | {sum(1 for r in rs if r['parse']['valid'])} | {toks[len(toks) // 2] if toks else 'NA'} | "
+                 f"{toks[-1] if toks else 'NA'} | {fmt(100 * len(multi) / len(rs) if rs else None)} |")
+    L += ["", "Replicate independence (first three rounds, matcher/mismatcher):", ""]
+    for mm, ms in C.MATCHUPS:
+        gs = [g for g in games if g["matchup"] == f"{mm}-{ms}"]
+        ops = ["".join(r["matcher"][0] for r in g["rounds"][:3]) + "/" + "".join(r["mismatcher"][0] for r in g["rounds"][:3]) for g in gs]
+        full = ["".join(r["matcher"][0] + r["mismatcher"][0] for r in g["rounds"]) for g in gs]
+        L.append(f"- {mm}-{ms}: openings {ops}; distinct openings {len(set(ops))}/{len(ops)}; distinct full games {len(set(full))}/{len(full)}")
     L += ["", "Per-game accuracy: `by_game.csv`; trajectories: `figures/trajectory_judge_astra.png`, `figures/trajectory_judge_fable.png`, `figures/choices_by_game.png`.", "",
           "## Limitations", "",
           "- Two models, three games per matchup, 20 rounds: a feasibility pilot. Effects are described at game level; no confirmatory claim.",

@@ -2,4 +2,4 @@
 You are the MATCHER. Your objective is to choose the SAME shape as the Mismatcher.
 Completed-round history (none before round 1):
 {PUBLIC_HISTORY}
-Round {T} of 20: choose STAR or TRIANGLE. Return ONLY the chosen shape.
+Round {T} of 20: choose STAR or TRIANGLE. You may briefly think through your choice. End your response with the chosen shape (STAR or TRIANGLE) alone on the final line.

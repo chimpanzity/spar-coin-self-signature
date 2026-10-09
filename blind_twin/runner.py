@@ -48,6 +48,8 @@ class FakeTransport:
             out = "I would pick a shape, maybe STAR or TRIANGLE."
         elif "Return ONLY the chosen shape" in text:
             out = rng.choice(["STAR", "TRIANGLE", "**STAR**", "Triangle"])
+        elif "alone on the final line" in text:
+            out = rng.choice(["STAR", "Opponent alternates.\n\nTRIANGLE", "Thinking briefly.\n**STAR**", "TRIANGLE"])
         else:
             out = json.dumps({"matcher": rng.choice(C.SHAPES), "mismatcher": rng.choice(C.SHAPES)})
         return {"id": f"fake-{n}", "model": body["model"], "provider": "Fake", "_http_status": 200,
@@ -79,7 +81,7 @@ class Runner:
             prices = {m["slug"]: {"prompt": 1e-5, "completion": 5e-5} for m in C.MODELS.values()}
         self.log = CallLog(self.rd / log_name)
         spent = sum(float(r.get("cost_usd") or 0) for r in self.log.done_ids().values())
-        for extra in ("smoke_calls.jsonl",):
+        for extra in ("smoke_calls.jsonl", "calls.jsonl"):
             p = self.rd / extra
             if p.exists() and extra != log_name:
                 spent += sum(float(json.loads(l).get("cost_usd") or 0) for l in p.read_text().splitlines() if l.strip())
@@ -262,6 +264,17 @@ class Runner:
         recs = [self.log.done_ids().get(s["slot_id"]) for s in sched]
         nv = sum(1 for r in recs if r and (r.get("parse") or {}).get("valid"))
         progress(self.rd, f"judges finished: {sum(1 for r in recs if r)}/{len(sched)} recorded, {nv} valid; spent ${self.acct.spent:.2f}")
+
+    # -- smoke games (v2): two full technical games, separate log ---------------
+    def smoke_games(self) -> List[Dict[str, Any]]:
+        games = [{"game_id": "SMK_AF", "matchup": "astra-fable", "matcher_model": "astra", "mismatcher_model": "fable", "replicate": 0},
+                 {"game_id": "SMK_FF", "matchup": "fable-fable", "matcher_model": "fable", "mismatcher_model": "fable", "replicate": 0}]
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            res = list(pool.map(self.play_game, games))
+        with open(self.rd / "smoke_game_logs.jsonl", "w") as f:
+            for g in res:
+                f.write(json.dumps(g) + "\n")
+        return res
 
     # -- smoke ---------------------------------------------------------------
     def smoke(self) -> List[Dict[str, Any]]:

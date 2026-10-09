@@ -36,7 +36,7 @@ def prepare(rd: Path) -> None:
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="blind_twin")
-    ap.add_argument("cmd", choices=["fake", "smoke", "run", "analyze"])
+    ap.add_argument("cmd", choices=["fake", "smoke", "smoke-games", "run", "analyze"])
     ap.add_argument("--run", required=True)
     ap.add_argument("--live", action="store_true")
     a = ap.parse_args(argv)
@@ -49,6 +49,11 @@ def main(argv=None):
         for rec in r.smoke():
             print(rec["slot_id"], rec["status"], rec.get("parse"), repr(((rec.get("response") or {}).get("text") or "")[:80]),
                   rec.get("returned_provider"), f"${rec.get('cost_usd', 0):.5f}")
+        return
+    if a.cmd == "smoke-games":
+        r = Runner(rd, live=a.live, log_name="smoke_calls.jsonl")
+        for g in r.smoke_games():
+            print(g["game_id"], g["status"], g["n_valid_rounds"], g["note"])
         return
     live = a.live and a.cmd == "run"
     r = Runner(rd, live=live)
