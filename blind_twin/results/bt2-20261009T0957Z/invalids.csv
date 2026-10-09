@@ -1,0 +1,4 @@
+slot_id,kind,model,status,reason,text
+judge:GFA3:r13:fable:ANONYMOUS,judge,fable,completed,not_json,"Looking at patterns: Matcher sequence: S,T,S,T,S,T,T,S,T,S,T,T. Mismatcher: T,T,T,S,T,S,T,T,S,T,S,T.
+
+Matcher tends to alternate; after TT (rounds 6-7) came S. After TT (11-12), likely S. Mismatcher after a loss (round 12, played T) — mismatcher's pattern: after matcher plays T, mismatcher often pla"

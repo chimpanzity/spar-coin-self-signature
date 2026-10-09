@@ -1,0 +1,297 @@
+{
+ "acc": {
+  "astra|astra|TRUE": 60.0,
+  "astra|astra|FALSE": 58.75,
+  "astra|astra|ANONYMOUS": 56.666666666666664,
+  "astra|fable|TRUE": 59.166666666666664,
+  "astra|fable|FALSE": 62.083333333333336,
+  "astra|fable|ANONYMOUS": 58.75,
+  "fable|astra|TRUE": 55.65789473684211,
+  "fable|astra|FALSE": 56.95175438596492,
+  "fable|astra|ANONYMOUS": 57.741228070175445,
+  "fable|fable|TRUE": 62.807017543859644,
+  "fable|fable|FALSE": 59.47368421052632,
+  "fable|fable|ANONYMOUS": 59.47368421052632
+ },
+ "indices": {
+  "T[astra,astra]": 3.3333333333333357,
+  "F[astra,astra]": 1.25,
+  "T[astra,fable]": 0.4166666666666643,
+  "F[astra,fable]": -2.9166666666666714,
+  "T[fable,astra]": -2.0833333333333357,
+  "F[fable,astra]": -1.2938596491228083,
+  "T[fable,fable]": 3.3333333333333215,
+  "F[fable,fable]": 3.3333333333333215,
+  "S": 4.166666666666664,
+  "S_false": 4.396929824561401
+ },
+ "ci": {
+  "T[astra,astra]": {
+   "lo": -1.250000000000007,
+   "hi": 8.75,
+   "undefined_frac": 0.0
+  },
+  "F[astra,astra]": {
+   "lo": -2.0833333333333286,
+   "hi": 4.1666666666666785,
+   "undefined_frac": 0.0
+  },
+  "T[astra,fable]": {
+   "lo": -2.9166666666666643,
+   "hi": 3.75,
+   "undefined_frac": 0.0
+  },
+  "F[astra,fable]": {
+   "lo": -5.000000000000007,
+   "hi": -0.4166666666666643,
+   "undefined_frac": 0.0
+  },
+  "T[fable,astra]": {
+   "lo": -6.25,
+   "hi": 2.0833333333333357,
+   "undefined_frac": 0.0
+  },
+  "F[fable,astra]": {
+   "lo": -3.048245614035082,
+   "hi": 0.8333333333333215,
+   "undefined_frac": 0.0
+  },
+  "T[fable,fable]": {
+   "lo": 1.249999999999993,
+   "hi": 5.416666666666657,
+   "undefined_frac": 0.0
+  },
+  "F[fable,fable]": {
+   "lo": 0.4166666666666572,
+   "hi": 6.666666666666657,
+   "undefined_frac": 0.0
+  },
+  "S": {
+   "lo": 0.4166666666666643,
+   "hi": 8.541666666666671,
+   "undefined_frac": 0.0
+  },
+  "S_false": {
+   "lo": 1.6666666666666679,
+   "hi": 7.10526315789474,
+   "undefined_frac": 0.0
+  }
+ },
+ "responsiveness": [
+  {
+   "judge": "astra",
+   "seat": "matcher",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 10.416666666666666
+  },
+  {
+   "judge": "astra",
+   "seat": "matcher",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 12.083333333333334
+  },
+  {
+   "judge": "astra",
+   "seat": "matcher",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 8.333333333333334
+  },
+  {
+   "judge": "astra",
+   "seat": "mismatcher",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 12.916666666666666
+  },
+  {
+   "judge": "astra",
+   "seat": "mismatcher",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 14.166666666666666
+  },
+  {
+   "judge": "astra",
+   "seat": "mismatcher",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 13.75
+  },
+  {
+   "judge": "fable",
+   "seat": "matcher",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 5.0
+  },
+  {
+   "judge": "fable",
+   "seat": "matcher",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 239,
+   "pct_differ": 9.623430962343097
+  },
+  {
+   "judge": "fable",
+   "seat": "matcher",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 239,
+   "pct_differ": 7.949790794979079
+  },
+  {
+   "judge": "fable",
+   "seat": "mismatcher",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 22.083333333333332
+  },
+  {
+   "judge": "fable",
+   "seat": "mismatcher",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 239,
+   "pct_differ": 27.615062761506277
+  },
+  {
+   "judge": "fable",
+   "seat": "mismatcher",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 239,
+   "pct_differ": 26.359832635983263
+  }
+ ],
+ "both_correct": [
+  {
+   "judge": "astra",
+   "condition": "TRUE",
+   "n_rounds": 240,
+   "pct_both_correct": 33.75
+  },
+  {
+   "judge": "astra",
+   "condition": "FALSE",
+   "n_rounds": 240,
+   "pct_both_correct": 35.416666666666664
+  },
+  {
+   "judge": "astra",
+   "condition": "ANONYMOUS",
+   "n_rounds": 240,
+   "pct_both_correct": 29.166666666666668
+  },
+  {
+   "judge": "fable",
+   "condition": "TRUE",
+   "n_rounds": 239,
+   "pct_both_correct": 34.72803347280335
+  },
+  {
+   "judge": "fable",
+   "condition": "FALSE",
+   "n_rounds": 239,
+   "pct_both_correct": 34.72803347280335
+  },
+  {
+   "judge": "fable",
+   "condition": "ANONYMOUS",
+   "n_rounds": 239,
+   "pct_both_correct": 33.05439330543933
+  }
+ ],
+ "baselines_all_rounds": [
+  {
+   "baseline": "frequency",
+   "pct": 45.208333333333336,
+   "n": 480
+  },
+  {
+   "baseline": "repeat_last",
+   "pct": 46.875,
+   "n": 480
+  },
+  {
+   "baseline": "alternate_last",
+   "pct": 53.125,
+   "n": 480
+  },
+  {
+   "baseline": "win_stay_lose_shift",
+   "pct": 41.458333333333336,
+   "n": 480
+  },
+  {
+   "baseline": "markov1",
+   "pct": 48.4375,
+   "n": 480
+  }
+ ],
+ "baselines_on_judge_items": [
+  {
+   "judge_item_set": "astra",
+   "baseline": "frequency",
+   "pct": 45.208333333333336,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "repeat_last",
+   "pct": 46.875,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "alternate_last",
+   "pct": 53.125,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "win_stay_lose_shift",
+   "pct": 41.458333333333336,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "markov1",
+   "pct": 48.4375,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "frequency",
+   "pct": 44.97907949790795,
+   "n": 478
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "repeat_last",
+   "pct": 46.65271966527197,
+   "n": 478
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "alternate_last",
+   "pct": 53.34728033472803,
+   "n": 478
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "win_stay_lose_shift",
+   "pct": 41.42259414225941,
+   "n": 478
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "markov1",
+   "pct": 48.64016736401673,
+   "n": 478
+  }
+ ],
+ "n_paired_items": {
+  "astra": 480,
+  "fable": 478
+ }
+}

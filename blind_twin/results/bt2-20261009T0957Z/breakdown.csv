@@ -1,0 +1,73 @@
+judge,condition,seat,seat_model,rounds,pct_correct,n
+astra,TRUE,matcher,astra,rounds 1-10,56.666666666666664,60
+astra,TRUE,matcher,astra,rounds 11-20,53.333333333333336,60
+astra,TRUE,matcher,astra,all,55.0,120
+astra,TRUE,matcher,fable,rounds 1-10,66.66666666666667,60
+astra,TRUE,matcher,fable,rounds 11-20,51.666666666666664,60
+astra,TRUE,matcher,fable,all,59.166666666666664,120
+astra,TRUE,mismatcher,astra,rounds 1-10,65.0,60
+astra,TRUE,mismatcher,astra,rounds 11-20,65.0,60
+astra,TRUE,mismatcher,astra,all,65.0,120
+astra,TRUE,mismatcher,fable,rounds 1-10,60.0,60
+astra,TRUE,mismatcher,fable,rounds 11-20,58.333333333333336,60
+astra,TRUE,mismatcher,fable,all,59.166666666666664,120
+astra,FALSE,matcher,astra,rounds 1-10,56.666666666666664,60
+astra,FALSE,matcher,astra,rounds 11-20,51.666666666666664,60
+astra,FALSE,matcher,astra,all,54.166666666666664,120
+astra,FALSE,matcher,fable,rounds 1-10,73.33333333333333,60
+astra,FALSE,matcher,fable,rounds 11-20,48.333333333333336,60
+astra,FALSE,matcher,fable,all,60.833333333333336,120
+astra,FALSE,mismatcher,astra,rounds 1-10,70.0,60
+astra,FALSE,mismatcher,astra,rounds 11-20,56.666666666666664,60
+astra,FALSE,mismatcher,astra,all,63.333333333333336,120
+astra,FALSE,mismatcher,fable,rounds 1-10,63.333333333333336,60
+astra,FALSE,mismatcher,fable,rounds 11-20,63.333333333333336,60
+astra,FALSE,mismatcher,fable,all,63.333333333333336,120
+astra,ANONYMOUS,matcher,astra,rounds 1-10,56.666666666666664,60
+astra,ANONYMOUS,matcher,astra,rounds 11-20,43.333333333333336,60
+astra,ANONYMOUS,matcher,astra,all,50.0,120
+astra,ANONYMOUS,matcher,fable,rounds 1-10,70.0,60
+astra,ANONYMOUS,matcher,fable,rounds 11-20,46.666666666666664,60
+astra,ANONYMOUS,matcher,fable,all,58.333333333333336,120
+astra,ANONYMOUS,mismatcher,astra,rounds 1-10,66.66666666666667,60
+astra,ANONYMOUS,mismatcher,astra,rounds 11-20,60.0,60
+astra,ANONYMOUS,mismatcher,astra,all,63.333333333333336,120
+astra,ANONYMOUS,mismatcher,fable,rounds 1-10,60.0,60
+astra,ANONYMOUS,mismatcher,fable,rounds 11-20,58.333333333333336,60
+astra,ANONYMOUS,mismatcher,fable,all,59.166666666666664,120
+fable,TRUE,matcher,astra,rounds 1-10,66.66666666666667,60
+fable,TRUE,matcher,astra,rounds 11-20,50.0,60
+fable,TRUE,matcher,astra,all,58.333333333333336,120
+fable,TRUE,matcher,fable,rounds 1-10,76.66666666666667,60
+fable,TRUE,matcher,fable,rounds 11-20,50.847457627118644,59
+fable,TRUE,matcher,fable,all,63.865546218487395,119
+fable,TRUE,mismatcher,astra,rounds 1-10,50.0,60
+fable,TRUE,mismatcher,astra,rounds 11-20,55.932203389830505,59
+fable,TRUE,mismatcher,astra,all,52.94117647058823,119
+fable,TRUE,mismatcher,fable,rounds 1-10,58.333333333333336,60
+fable,TRUE,mismatcher,fable,rounds 11-20,65.0,60
+fable,TRUE,mismatcher,fable,all,61.666666666666664,120
+fable,FALSE,matcher,astra,rounds 1-10,63.333333333333336,60
+fable,FALSE,matcher,astra,rounds 11-20,48.333333333333336,60
+fable,FALSE,matcher,astra,all,55.833333333333336,120
+fable,FALSE,matcher,fable,rounds 1-10,75.0,60
+fable,FALSE,matcher,fable,rounds 11-20,47.45762711864407,59
+fable,FALSE,matcher,fable,all,61.34453781512605,119
+fable,FALSE,mismatcher,astra,rounds 1-10,58.333333333333336,60
+fable,FALSE,mismatcher,astra,rounds 11-20,57.6271186440678,59
+fable,FALSE,mismatcher,astra,all,57.983193277310924,119
+fable,FALSE,mismatcher,fable,rounds 1-10,51.666666666666664,60
+fable,FALSE,mismatcher,fable,rounds 11-20,63.333333333333336,60
+fable,FALSE,mismatcher,fable,all,57.5,120
+fable,ANONYMOUS,matcher,astra,rounds 1-10,71.66666666666667,60
+fable,ANONYMOUS,matcher,astra,rounds 11-20,46.666666666666664,60
+fable,ANONYMOUS,matcher,astra,all,59.166666666666664,120
+fable,ANONYMOUS,matcher,fable,rounds 1-10,68.33333333333333,60
+fable,ANONYMOUS,matcher,fable,rounds 11-20,52.54237288135593,59
+fable,ANONYMOUS,matcher,fable,all,60.50420168067227,119
+fable,ANONYMOUS,mismatcher,astra,rounds 1-10,50.0,60
+fable,ANONYMOUS,mismatcher,astra,rounds 11-20,62.71186440677966,59
+fable,ANONYMOUS,mismatcher,astra,all,56.30252100840336,119
+fable,ANONYMOUS,mismatcher,fable,rounds 1-10,51.666666666666664,60
+fable,ANONYMOUS,mismatcher,fable,rounds 11-20,65.0,60
+fable,ANONYMOUS,mismatcher,fable,all,58.333333333333336,120
