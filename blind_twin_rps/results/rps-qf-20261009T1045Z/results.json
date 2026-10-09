@@ -1,0 +1,331 @@
+{
+ "acc": {
+  "qwen|qwen|TRUE": 40.0,
+  "qwen|qwen|FALSE": 41.25,
+  "qwen|qwen|ANONYMOUS": 39.583333333333336,
+  "qwen|fable|TRUE": 35.833333333333336,
+  "qwen|fable|FALSE": 32.08333333333333,
+  "qwen|fable|ANONYMOUS": 33.75,
+  "fable|qwen|TRUE": 38.576998050682256,
+  "fable|qwen|FALSE": 48.59892787524366,
+  "fable|qwen|ANONYMOUS": 44.73684210526316,
+  "fable|fable|TRUE": 46.932261208576996,
+  "fable|fable|FALSE": 39.29580896686159,
+  "fable|fable|ANONYMOUS": 40.019493177387915
+ },
+ "indices": {
+  "T[qwen,qwen]": 0.4166666666666643,
+  "F[qwen,qwen]": -1.25,
+  "T[qwen,fable]": 2.0833333333333357,
+  "F[qwen,fable]": 3.750000000000007,
+  "T[fable,qwen]": -6.159844054580901,
+  "F[fable,qwen]": -10.021929824561404,
+  "T[fable,fable]": 6.912768031189081,
+  "F[fable,fable]": 7.6364522417154035,
+  "S": 5.702972709551656,
+  "S_false": 6.3291910331384
+ },
+ "ci": {
+  "T[qwen,qwen]": {
+   "lo": -4.1666666666666785,
+   "hi": 5.833333333333336,
+   "undefined_frac": 0.0
+  },
+  "F[qwen,qwen]": {
+   "lo": -4.166666666666664,
+   "hi": 1.6666666666666643,
+   "undefined_frac": 0.0
+  },
+  "T[qwen,fable]": {
+   "lo": -3.7499999999999964,
+   "hi": 7.916666666666668,
+   "undefined_frac": 0.0
+  },
+  "F[qwen,fable]": {
+   "lo": 0.0,
+   "hi": 8.333333333333329,
+   "undefined_frac": 0.0
+  },
+  "T[fable,qwen]": {
+   "lo": -12.5,
+   "hi": 0.5506822612085784,
+   "undefined_frac": 0.0
+  },
+  "F[fable,qwen]": {
+   "lo": -14.166666666666671,
+   "hi": -5.877192982456144,
+   "undefined_frac": 0.0
+  },
+  "T[fable,fable]": {
+   "lo": 3.75,
+   "hi": 10.882066276803123,
+   "undefined_frac": 0.0
+  },
+  "F[fable,fable]": {
+   "lo": 4.60526315789474,
+   "hi": 10.548245614035089,
+   "undefined_frac": 0.0
+  },
+  "S": {
+   "lo": 1.1756822612085784,
+   "hi": 10.911306042884991,
+   "undefined_frac": 0.0
+  },
+  "S_false": {
+   "lo": 3.215155945419104,
+   "hi": 9.837962962962967,
+   "undefined_frac": 0.0
+  }
+ },
+ "responsiveness": [
+  {
+   "judge": "qwen",
+   "seat": "player_a",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 37.083333333333336
+  },
+  {
+   "judge": "qwen",
+   "seat": "player_a",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 38.75
+  },
+  {
+   "judge": "qwen",
+   "seat": "player_a",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 37.916666666666664
+  },
+  {
+   "judge": "qwen",
+   "seat": "player_b",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 38.75
+  },
+  {
+   "judge": "qwen",
+   "seat": "player_b",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 37.916666666666664
+  },
+  {
+   "judge": "qwen",
+   "seat": "player_b",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 36.666666666666664
+  },
+  {
+   "judge": "fable",
+   "seat": "player_a",
+   "comparison": "TRUE vs FALSE",
+   "n": 238,
+   "pct_differ": 21.008403361344538
+  },
+  {
+   "judge": "fable",
+   "seat": "player_a",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 237,
+   "pct_differ": 15.189873417721518
+  },
+  {
+   "judge": "fable",
+   "seat": "player_a",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 236,
+   "pct_differ": 16.949152542372882
+  },
+  {
+   "judge": "fable",
+   "seat": "player_b",
+   "comparison": "TRUE vs FALSE",
+   "n": 238,
+   "pct_differ": 34.45378151260504
+  },
+  {
+   "judge": "fable",
+   "seat": "player_b",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 237,
+   "pct_differ": 25.31645569620253
+  },
+  {
+   "judge": "fable",
+   "seat": "player_b",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 236,
+   "pct_differ": 30.084745762711865
+  }
+ ],
+ "both_correct": [
+  {
+   "judge": "qwen",
+   "condition": "TRUE",
+   "n_rounds": 240,
+   "pct_both_correct": 13.333333333333334
+  },
+  {
+   "judge": "qwen",
+   "condition": "FALSE",
+   "n_rounds": 240,
+   "pct_both_correct": 11.666666666666666
+  },
+  {
+   "judge": "qwen",
+   "condition": "ANONYMOUS",
+   "n_rounds": 240,
+   "pct_both_correct": 12.5
+  },
+  {
+   "judge": "fable",
+   "condition": "TRUE",
+   "n_rounds": 236,
+   "pct_both_correct": 17.796610169491526
+  },
+  {
+   "judge": "fable",
+   "condition": "FALSE",
+   "n_rounds": 236,
+   "pct_both_correct": 19.06779661016949
+  },
+  {
+   "judge": "fable",
+   "condition": "ANONYMOUS",
+   "n_rounds": 236,
+   "pct_both_correct": 16.949152542372882
+  }
+ ],
+ "baselines_all_rounds": [
+  {
+   "baseline": "frequency",
+   "pct": 29.54861111111111,
+   "n": 480
+  },
+  {
+   "baseline": "repeat_last",
+   "pct": 30.833333333333332,
+   "n": 480
+  },
+  {
+   "baseline": "cycle_up",
+   "pct": 30.208333333333332,
+   "n": 480
+  },
+  {
+   "baseline": "cycle_down",
+   "pct": 38.958333333333336,
+   "n": 480
+  },
+  {
+   "baseline": "counter_opponent_last",
+   "pct": 39.375,
+   "n": 480
+  },
+  {
+   "baseline": "win_stay_lose_shift",
+   "pct": 39.375,
+   "n": 480
+  },
+  {
+   "baseline": "markov1",
+   "pct": 33.47222222222222,
+   "n": 480
+  }
+ ],
+ "baselines_on_judge_items": [
+  {
+   "judge_item_set": "qwen",
+   "baseline": "frequency",
+   "pct": 29.54861111111111,
+   "n": 480
+  },
+  {
+   "judge_item_set": "qwen",
+   "baseline": "repeat_last",
+   "pct": 30.833333333333332,
+   "n": 480
+  },
+  {
+   "judge_item_set": "qwen",
+   "baseline": "cycle_up",
+   "pct": 30.208333333333332,
+   "n": 480
+  },
+  {
+   "judge_item_set": "qwen",
+   "baseline": "cycle_down",
+   "pct": 38.958333333333336,
+   "n": 480
+  },
+  {
+   "judge_item_set": "qwen",
+   "baseline": "counter_opponent_last",
+   "pct": 39.375,
+   "n": 480
+  },
+  {
+   "judge_item_set": "qwen",
+   "baseline": "win_stay_lose_shift",
+   "pct": 39.375,
+   "n": 480
+  },
+  {
+   "judge_item_set": "qwen",
+   "baseline": "markov1",
+   "pct": 33.47222222222222,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "frequency",
+   "pct": 29.555084745762713,
+   "n": 472
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "repeat_last",
+   "pct": 30.93220338983051,
+   "n": 472
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "cycle_up",
+   "pct": 29.872881355932204,
+   "n": 472
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "cycle_down",
+   "pct": 39.19491525423729,
+   "n": 472
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "counter_opponent_last",
+   "pct": 39.61864406779661,
+   "n": 472
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "win_stay_lose_shift",
+   "pct": 39.61864406779661,
+   "n": 472
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "markov1",
+   "pct": 33.298022598870055,
+   "n": 472
+  }
+ ],
+ "n_paired_items": {
+  "qwen": 480,
+  "fable": 472
+ }
+}

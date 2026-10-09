@@ -1,0 +1,82 @@
+{
+ "protocol": "BlindTwinRPS_v1",
+ "version": "v1",
+ "game": "rock-paper-scissors",
+ "model_pair": [
+  "qwen",
+  "fable"
+ ],
+ "player_format_line": "You may briefly think through your choice. End your response with the chosen move (ROCK, PAPER, or SCISSORS) alone on the final line.",
+ "master_seed": 20261010,
+ "models": {
+  "qwen": {
+   "slug": "qwen/qwen3.8-27b",
+   "display": "Qwen3.8 27B",
+   "provider": "alibaba",
+   "send_seed": false
+  },
+  "fable": {
+   "slug": "anthropic/claude-fable-5.1",
+   "display": "Claude Fable 5.1",
+   "provider": "anthropic",
+   "send_seed": false
+  }
+ },
+ "reasoning": {
+  "effort": "low",
+  "exclude": true
+ },
+ "max_tokens": 4000,
+ "omitted_controls": [
+  "temperature",
+  "top_p",
+  "seed"
+ ],
+ "n_rounds": 20,
+ "games_per_matchup": 3,
+ "matchups": [
+  [
+   "qwen",
+   "qwen"
+  ],
+  [
+   "qwen",
+   "fable"
+  ],
+  [
+   "fable",
+   "qwen"
+  ],
+  [
+   "fable",
+   "fable"
+  ]
+ ],
+ "judges": [
+  "qwen",
+  "fable"
+ ],
+ "conditions": [
+  "TRUE",
+  "FALSE",
+  "ANONYMOUS"
+ ],
+ "primary_contrast": "S_truth_vs_anonymous",
+ "chance_pct": 33.333333333333336,
+ "n_player_calls": 480,
+ "n_judge_calls": 1440,
+ "n_boot": 5000,
+ "budget_cap_usd": 25.0,
+ "max_transient_retries": 3,
+ "templates": {
+  "shared": "This is a 20-round simultaneous-choice rock-paper-scissors game. There are two players: Player A and Player B. In each round, each player independently chooses ROCK, PAPER, or SCISSORS without seeing the other player's current choice. ROCK beats SCISSORS, SCISSORS beats PAPER, and PAPER beats ROCK; identical choices are a tie. After each round, both choices and the result are revealed. Prior rounds are public; the current round's choices are not revealed before both choices are submitted.",
+  "player_a": "{SHARED_GAME_EXPLANATION}\nYou are PLAYER A. Your objective is to choose the move that beats Player B's move.\nCompleted-round history (none before round 1):\n{PUBLIC_HISTORY}\nRound {T} of 20: choose ROCK, PAPER, or SCISSORS. You may briefly think through your choice. End your response with the chosen move (ROCK, PAPER, or SCISSORS) alone on the final line.",
+  "player_b": "{SHARED_GAME_EXPLANATION}\nYou are PLAYER B. Your objective is to choose the move that beats Player A's move.\nCompleted-round history (none before round 1):\n{PUBLIC_HISTORY}\nRound {T} of 20: choose ROCK, PAPER, or SCISSORS. You may briefly think through your choice. End your response with the chosen move (ROCK, PAPER, or SCISSORS) alone on the final line.",
+  "judge": "{SHARED_GAME_EXPLANATION}\nYou are {JUDGE_IDENTITY}, acting as an independent observer. You are NOT playing this game. The identities of the two players are described below.\nPlayer identities: {IDENTITY_SENTENCE}\nCompleted-round history (none before round 1):\n{PUBLIC_HISTORY}\nBefore round {T} is revealed, predict the moves Player A and Player B will make in round {T}. Return ONLY a JSON object of this form:\n{{\"player_a\":\"ROCK\",\"player_b\":\"PAPER\"}}\nEach value must be ROCK, PAPER, or SCISSORS. Do not explain.",
+  "identity_known": "Player A is {player_a}; Player B is {player_b}.",
+  "identity_anonymous": "The Player A and Player B model identities are not disclosed.",
+  "empty_history": "(no completed rounds)"
+ },
+ "code_hash": "eb5164be3ae2622db43af28a4623398b692320deb4e771b428f9f3b10d8200bd",
+ "created_utc": "2026-10-09T10:45:19.790648Z"
+}

@@ -1,0 +1,16 @@
+slot_id,kind,model,status,reason,text
+judge:GQF1:r18:fable:ANONYMOUS,judge,fable,completed,not_json,"Looking at patterns: Player A alternates PAPER/SCISSORS recently (R12 S, R13 P, R14 S, R15 P, R16 S, R17 P) → R18 likely SCISSORS. Player B recently: R15 S, R16 R, R17 S → pattern suggests ROCK next, which also beats SCISSORS.
+
+{""player_a"":""SCISSORS"",""player_b"":""ROCK""}"
+judge:GFF3:r19:fable:ANONYMOUS,judge,fable,completed,not_json,"Looking at Player A's recent pattern: rounds 15-18 alternate PAPER, ROCK, PAPER, ROCK. Player B has been countering perfectly: SCISSORS, PAPER, SCISSORS, PAPER. If the pattern continues, A plays PAPER and B plays SCISSORS.
+
+{""player_a"":""PAPER"",""player_b"":""SCISSORS""}"
+judge:GFQ3:r10:fable:FALSE,judge,fable,completed,not_json,"Player A's sequence: PAPER, ROCK, PAPER, SCISSORS, ROCK, SCISSORS, PAPER, ROCK, SCISSORS. Rounds 4-9 show a cycle: SCISSORS, ROCK, SCISSORS, PAPER, ROCK, SCISSORS... Looking at recent: PAPER(7), ROCK(8), SCISSORS(9) — a descending cycle P→R→S, so next likely PAPER.
+
+Player B has played PAPER heavily"
+judge:GQF1:r19:fable:ANONYMOUS,judge,fable,completed,not_json,"Looking at the pattern: Player A has been alternating PAPER/SCISSORS since round 13 (P, S, P, S, P, S). Player B has been countering: SCISSORS, ROCK, SCISSORS, ROCK, SCISSORS, ROCK — exactly beating A each time. Next in A's alternation is PAPER; B's pattern predicts SCISSORS.
+
+{""player_a"":""PAPER"",""p"
+judge:GFF3:r19:fable:FALSE,judge,fable,completed,not_json,"Looking at Player A's recent pattern: PAPER, ROCK, PAPER, ROCK (rounds 15-18), alternating. Next would be PAPER. Player B has been countering A consistently: when A plays PAPER, B plays SCISSORS; when A plays ROCK, B plays PAPER. So B would play SCISSORS.
+
+{""player_a"":""PAPER"",""player_b"":""SCISSORS""}"

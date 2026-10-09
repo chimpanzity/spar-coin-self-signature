@@ -1,0 +1,49 @@
+{
+ "fetched_utc": "2026-10-09T10:45:19.917253Z",
+ "qwen/qwen3.8-27b": {
+  "prompt": 4.25e-07,
+  "completion": 2.55e-06,
+  "canonical_slug": "qwen/qwen3.8-27b-20260814",
+  "supported_parameters": [
+   "frequency_penalty",
+   "include_reasoning",
+   "logit_bias",
+   "logprobs",
+   "max_tokens",
+   "min_p",
+   "presence_penalty",
+   "reasoning",
+   "reasoning_effort",
+   "repetition_penalty",
+   "response_format",
+   "seed",
+   "stop",
+   "structured_outputs",
+   "temperature",
+   "tool_choice",
+   "tools",
+   "top_a",
+   "top_k",
+   "top_logprobs",
+   "top_p"
+  ]
+ },
+ "anthropic/claude-fable-5.1": {
+  "prompt": 1e-05,
+  "completion": 5e-05,
+  "canonical_slug": "anthropic/claude-fable-5.1-20260831",
+  "supported_parameters": [
+   "include_reasoning",
+   "max_completion_tokens",
+   "max_tokens",
+   "reasoning",
+   "reasoning_effort",
+   "response_format",
+   "stop",
+   "structured_outputs",
+   "tool_choice",
+   "tools",
+   "verbosity"
+  ]
+ }
+}
