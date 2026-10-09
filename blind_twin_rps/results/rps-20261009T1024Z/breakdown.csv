@@ -1,0 +1,73 @@
+judge,condition,seat,seat_model,rounds,pct_correct,n
+astra,TRUE,player_a,astra,rounds 1-10,50.0,60
+astra,TRUE,player_a,astra,rounds 11-20,43.333333333333336,60
+astra,TRUE,player_a,astra,all,46.666666666666664,120
+astra,TRUE,player_a,fable,rounds 1-10,45.0,60
+astra,TRUE,player_a,fable,rounds 11-20,45.0,60
+astra,TRUE,player_a,fable,all,45.0,120
+astra,TRUE,player_b,astra,rounds 1-10,41.666666666666664,60
+astra,TRUE,player_b,astra,rounds 11-20,43.333333333333336,60
+astra,TRUE,player_b,astra,all,42.5,120
+astra,TRUE,player_b,fable,rounds 1-10,48.333333333333336,60
+astra,TRUE,player_b,fable,rounds 11-20,40.0,60
+astra,TRUE,player_b,fable,all,44.166666666666664,120
+astra,FALSE,player_a,astra,rounds 1-10,50.0,60
+astra,FALSE,player_a,astra,rounds 11-20,41.666666666666664,60
+astra,FALSE,player_a,astra,all,45.833333333333336,120
+astra,FALSE,player_a,fable,rounds 1-10,31.666666666666668,60
+astra,FALSE,player_a,fable,rounds 11-20,60.0,60
+astra,FALSE,player_a,fable,all,45.833333333333336,120
+astra,FALSE,player_b,astra,rounds 1-10,46.666666666666664,60
+astra,FALSE,player_b,astra,rounds 11-20,33.333333333333336,60
+astra,FALSE,player_b,astra,all,40.0,120
+astra,FALSE,player_b,fable,rounds 1-10,45.0,60
+astra,FALSE,player_b,fable,rounds 11-20,35.0,60
+astra,FALSE,player_b,fable,all,40.0,120
+astra,ANONYMOUS,player_a,astra,rounds 1-10,45.0,60
+astra,ANONYMOUS,player_a,astra,rounds 11-20,40.0,60
+astra,ANONYMOUS,player_a,astra,all,42.5,120
+astra,ANONYMOUS,player_a,fable,rounds 1-10,35.0,60
+astra,ANONYMOUS,player_a,fable,rounds 11-20,56.666666666666664,60
+astra,ANONYMOUS,player_a,fable,all,45.833333333333336,120
+astra,ANONYMOUS,player_b,astra,rounds 1-10,41.666666666666664,60
+astra,ANONYMOUS,player_b,astra,rounds 11-20,41.666666666666664,60
+astra,ANONYMOUS,player_b,astra,all,41.666666666666664,120
+astra,ANONYMOUS,player_b,fable,rounds 1-10,38.333333333333336,60
+astra,ANONYMOUS,player_b,fable,rounds 11-20,30.0,60
+astra,ANONYMOUS,player_b,fable,all,34.166666666666664,120
+fable,TRUE,player_a,astra,rounds 1-10,58.333333333333336,60
+fable,TRUE,player_a,astra,rounds 11-20,35.0,60
+fable,TRUE,player_a,astra,all,46.666666666666664,120
+fable,TRUE,player_a,fable,rounds 1-10,43.333333333333336,60
+fable,TRUE,player_a,fable,rounds 11-20,55.0,60
+fable,TRUE,player_a,fable,all,49.166666666666664,120
+fable,TRUE,player_b,astra,rounds 1-10,51.666666666666664,60
+fable,TRUE,player_b,astra,rounds 11-20,38.333333333333336,60
+fable,TRUE,player_b,astra,all,45.0,120
+fable,TRUE,player_b,fable,rounds 1-10,50.0,60
+fable,TRUE,player_b,fable,rounds 11-20,40.0,60
+fable,TRUE,player_b,fable,all,45.0,120
+fable,FALSE,player_a,astra,rounds 1-10,55.0,60
+fable,FALSE,player_a,astra,rounds 11-20,33.333333333333336,60
+fable,FALSE,player_a,astra,all,44.166666666666664,120
+fable,FALSE,player_a,fable,rounds 1-10,33.333333333333336,60
+fable,FALSE,player_a,fable,rounds 11-20,50.0,60
+fable,FALSE,player_a,fable,all,41.666666666666664,120
+fable,FALSE,player_b,astra,rounds 1-10,43.333333333333336,60
+fable,FALSE,player_b,astra,rounds 11-20,40.0,60
+fable,FALSE,player_b,astra,all,41.666666666666664,120
+fable,FALSE,player_b,fable,rounds 1-10,50.0,60
+fable,FALSE,player_b,fable,rounds 11-20,38.333333333333336,60
+fable,FALSE,player_b,fable,all,44.166666666666664,120
+fable,ANONYMOUS,player_a,astra,rounds 1-10,36.666666666666664,60
+fable,ANONYMOUS,player_a,astra,rounds 11-20,30.0,60
+fable,ANONYMOUS,player_a,astra,all,33.333333333333336,120
+fable,ANONYMOUS,player_a,fable,rounds 1-10,30.0,60
+fable,ANONYMOUS,player_a,fable,rounds 11-20,56.666666666666664,60
+fable,ANONYMOUS,player_a,fable,all,43.333333333333336,120
+fable,ANONYMOUS,player_b,astra,rounds 1-10,40.0,60
+fable,ANONYMOUS,player_b,astra,rounds 11-20,46.666666666666664,60
+fable,ANONYMOUS,player_b,astra,all,43.333333333333336,120
+fable,ANONYMOUS,player_b,fable,rounds 1-10,48.333333333333336,60
+fable,ANONYMOUS,player_b,fable,rounds 11-20,36.666666666666664,60
+fable,ANONYMOUS,player_b,fable,all,42.5,120

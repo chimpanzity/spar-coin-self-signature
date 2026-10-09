@@ -1,0 +1,32 @@
+- 2026-10-09 06:27:10 RUN start (LIVE), cap $25
+- 2026-10-09 06:27:10 games: playing 12 games x 20 rounds (spent so far $1.03)
+- 2026-10-09 06:28:07   game GAA1 (astra-astra): complete, 20 valid rounds  spent $3.30
+- 2026-10-09 06:28:17   game GAA3 (astra-astra): complete, 20 valid rounds  spent $3.72
+- 2026-10-09 06:28:17   game GAA2 (astra-astra): complete, 20 valid rounds  spent $3.76
+- 2026-10-09 06:28:49   game GFA2 (fable-astra): complete, 20 valid rounds  spent $5.03
+- 2026-10-09 06:28:50   game GAF2 (astra-fable): complete, 20 valid rounds  spent $5.07
+- 2026-10-09 06:28:54   game GAF1 (astra-fable): complete, 20 valid rounds  spent $5.17
+- 2026-10-09 06:29:00   game GFA1 (fable-astra): complete, 20 valid rounds  spent $5.38
+- 2026-10-09 06:29:04   game GFA3 (fable-astra): complete, 20 valid rounds  spent $5.47
+- 2026-10-09 06:29:06   game GFF1 (fable-fable): complete, 20 valid rounds  spent $5.49
+- 2026-10-09 06:29:08   game GFF3 (fable-fable): complete, 20 valid rounds  spent $5.56
+- 2026-10-09 06:29:13   game GAF3 (astra-fable): complete, 20 valid rounds  spent $5.62
+- 2026-10-09 06:29:46   game GFF2 (fable-fable): complete, 20 valid rounds  spent $5.81
+- 2026-10-09 06:29:46 FREEZE: game logs and 1440-call judge schedule frozen (code a1ab0b430cbe)
+- 2026-10-09 06:29:46 judges: 1440 of 1440 calls to dispatch (spent so far $5.81)
+- 2026-10-09 06:30:30   judges: 100/1440 recorded, spent $6.48
+- 2026-10-09 06:31:09   judges: 200/1440 recorded, spent $7.16
+- 2026-10-09 06:31:49   judges: 300/1440 recorded, spent $7.84
+- 2026-10-09 06:32:36   judges: 400/1440 recorded, spent $8.54
+- 2026-10-09 06:33:15   judges: 500/1440 recorded, spent $9.22
+- 2026-10-09 06:33:53   judges: 600/1440 recorded, spent $9.89
+- 2026-10-09 06:34:32   judges: 700/1440 recorded, spent $10.57
+- 2026-10-09 06:35:10   judges: 800/1440 recorded, spent $11.25
+- 2026-10-09 06:35:49   judges: 900/1440 recorded, spent $11.94
+- 2026-10-09 06:36:27   judges: 1000/1440 recorded, spent $12.63
+- 2026-10-09 06:37:05   judges: 1100/1440 recorded, spent $13.34
+- 2026-10-09 06:37:47   judges: 1200/1440 recorded, spent $14.01
+- 2026-10-09 06:38:27   judges: 1300/1440 recorded, spent $14.68
+- 2026-10-09 06:39:04   judges: 1400/1440 recorded, spent $15.35
+- 2026-10-09 06:39:58 judges finished: 1440/1440 recorded, 1440 valid; spent $15.64
+- 2026-10-09 06:40:02 RUN complete: report.md written

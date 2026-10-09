@@ -1,0 +1,331 @@
+{
+ "acc": {
+  "astra|astra|TRUE": 44.583333333333336,
+  "astra|astra|FALSE": 42.91666666666667,
+  "astra|astra|ANONYMOUS": 42.08333333333334,
+  "astra|fable|TRUE": 44.58333333333333,
+  "astra|fable|FALSE": 42.91666666666667,
+  "astra|fable|ANONYMOUS": 40.0,
+  "fable|astra|TRUE": 45.833333333333336,
+  "fable|astra|FALSE": 42.91666666666667,
+  "fable|astra|ANONYMOUS": 38.33333333333333,
+  "fable|fable|TRUE": 47.083333333333336,
+  "fable|fable|FALSE": 42.91666666666667,
+  "fable|fable|ANONYMOUS": 42.916666666666664
+ },
+ "indices": {
+  "T[astra,astra]": 2.499999999999993,
+  "F[astra,astra]": 1.6666666666666643,
+  "T[astra,fable]": 4.583333333333329,
+  "F[astra,fable]": 1.6666666666666572,
+  "T[fable,astra]": 7.500000000000007,
+  "F[fable,astra]": 2.9166666666666643,
+  "T[fable,fable]": 4.166666666666671,
+  "F[fable,fable]": 4.166666666666664,
+  "S": -2.7083333333333357,
+  "S_false": 0.6250000000000036
+ },
+ "ci": {
+  "T[astra,astra]": {
+   "lo": -1.6666666666666572,
+   "hi": 6.666666666666671,
+   "undefined_frac": 0.0
+  },
+  "F[astra,astra]": {
+   "lo": -2.9166666666666643,
+   "hi": 6.666666666666664,
+   "undefined_frac": 0.0
+  },
+  "T[astra,fable]": {
+   "lo": 1.6666666666666643,
+   "hi": 7.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "F[astra,fable]": {
+   "lo": -1.25,
+   "hi": 4.999999999999993,
+   "undefined_frac": 0.0
+  },
+  "T[fable,astra]": {
+   "lo": 5.0,
+   "hi": 10.0,
+   "undefined_frac": 0.0
+  },
+  "F[fable,astra]": {
+   "lo": 0.4166666666666714,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "T[fable,fable]": {
+   "lo": 1.249999999999993,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "F[fable,fable]": {
+   "lo": 0.4166666666666643,
+   "hi": 7.916666666666671,
+   "undefined_frac": 0.0
+  },
+  "S": {
+   "lo": -4.583333333333332,
+   "hi": -0.8333333333333357,
+   "undefined_frac": 0.0
+  },
+  "S_false": {
+   "lo": -3.1249999999999964,
+   "hi": 3.9583333333333357,
+   "undefined_frac": 0.0
+  }
+ },
+ "responsiveness": [
+  {
+   "judge": "astra",
+   "seat": "player_a",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 21.25
+  },
+  {
+   "judge": "astra",
+   "seat": "player_a",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 21.666666666666668
+  },
+  {
+   "judge": "astra",
+   "seat": "player_a",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 15.833333333333334
+  },
+  {
+   "judge": "astra",
+   "seat": "player_b",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 24.583333333333332
+  },
+  {
+   "judge": "astra",
+   "seat": "player_b",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 21.666666666666668
+  },
+  {
+   "judge": "astra",
+   "seat": "player_b",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 24.583333333333332
+  },
+  {
+   "judge": "fable",
+   "seat": "player_a",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 15.416666666666666
+  },
+  {
+   "judge": "fable",
+   "seat": "player_a",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 24.166666666666668
+  },
+  {
+   "judge": "fable",
+   "seat": "player_a",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 22.916666666666668
+  },
+  {
+   "judge": "fable",
+   "seat": "player_b",
+   "comparison": "TRUE vs FALSE",
+   "n": 240,
+   "pct_differ": 27.083333333333332
+  },
+  {
+   "judge": "fable",
+   "seat": "player_b",
+   "comparison": "TRUE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 27.916666666666668
+  },
+  {
+   "judge": "fable",
+   "seat": "player_b",
+   "comparison": "FALSE vs ANONYMOUS",
+   "n": 240,
+   "pct_differ": 30.0
+  }
+ ],
+ "both_correct": [
+  {
+   "judge": "astra",
+   "condition": "TRUE",
+   "n_rounds": 240,
+   "pct_both_correct": 22.5
+  },
+  {
+   "judge": "astra",
+   "condition": "FALSE",
+   "n_rounds": 240,
+   "pct_both_correct": 19.583333333333332
+  },
+  {
+   "judge": "astra",
+   "condition": "ANONYMOUS",
+   "n_rounds": 240,
+   "pct_both_correct": 18.333333333333332
+  },
+  {
+   "judge": "fable",
+   "condition": "TRUE",
+   "n_rounds": 240,
+   "pct_both_correct": 22.916666666666668
+  },
+  {
+   "judge": "fable",
+   "condition": "FALSE",
+   "n_rounds": 240,
+   "pct_both_correct": 21.666666666666668
+  },
+  {
+   "judge": "fable",
+   "condition": "ANONYMOUS",
+   "n_rounds": 240,
+   "pct_both_correct": 17.083333333333332
+  }
+ ],
+ "baselines_all_rounds": [
+  {
+   "baseline": "frequency",
+   "pct": 28.819444444444446,
+   "n": 480
+  },
+  {
+   "baseline": "repeat_last",
+   "pct": 32.708333333333336,
+   "n": 480
+  },
+  {
+   "baseline": "cycle_up",
+   "pct": 28.541666666666668,
+   "n": 480
+  },
+  {
+   "baseline": "cycle_down",
+   "pct": 38.75,
+   "n": 480
+  },
+  {
+   "baseline": "counter_opponent_last",
+   "pct": 43.125,
+   "n": 480
+  },
+  {
+   "baseline": "win_stay_lose_shift",
+   "pct": 43.125,
+   "n": 480
+  },
+  {
+   "baseline": "markov1",
+   "pct": 27.98611111111111,
+   "n": 480
+  }
+ ],
+ "baselines_on_judge_items": [
+  {
+   "judge_item_set": "astra",
+   "baseline": "frequency",
+   "pct": 28.819444444444446,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "repeat_last",
+   "pct": 32.708333333333336,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "cycle_up",
+   "pct": 28.541666666666668,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "cycle_down",
+   "pct": 38.75,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "counter_opponent_last",
+   "pct": 43.125,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "win_stay_lose_shift",
+   "pct": 43.125,
+   "n": 480
+  },
+  {
+   "judge_item_set": "astra",
+   "baseline": "markov1",
+   "pct": 27.98611111111111,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "frequency",
+   "pct": 28.819444444444446,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "repeat_last",
+   "pct": 32.708333333333336,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "cycle_up",
+   "pct": 28.541666666666668,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "cycle_down",
+   "pct": 38.75,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "counter_opponent_last",
+   "pct": 43.125,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "win_stay_lose_shift",
+   "pct": 43.125,
+   "n": 480
+  },
+  {
+   "judge_item_set": "fable",
+   "baseline": "markov1",
+   "pct": 27.98611111111111,
+   "n": 480
+  }
+ ],
+ "n_paired_items": {
+  "astra": 480,
+  "fable": 480
+ }
+}
