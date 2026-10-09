@@ -1,0 +1,8 @@
+{SHARED_GAME_EXPLANATION}
+You are {JUDGE_IDENTITY}, acting as an independent observer. You are NOT playing this game. The identities and roles of the two players are described below.
+Player identities: {IDENTITY_SENTENCE}
+Completed-round history (none before round 1):
+{PUBLIC_HISTORY}
+Before round {T} is revealed, predict the choices the Matcher and Mismatcher will make in round {T}. Return ONLY a JSON object of this form:
+{{"matcher":"STAR","mismatcher":"TRIANGLE"}}
+Each value must be STAR or TRIANGLE. Do not explain.

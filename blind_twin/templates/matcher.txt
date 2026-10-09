@@ -1,0 +1,5 @@
+{SHARED_GAME_EXPLANATION}
+You are the MATCHER. Your objective is to choose the SAME shape as the Mismatcher.
+Completed-round history (none before round 1):
+{PUBLIC_HISTORY}
+Round {T} of 20: choose STAR or TRIANGLE. Return ONLY the chosen shape.

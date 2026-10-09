@@ -17,3 +17,6 @@ dist/
 
 # Phase 2 scratch runs
 data/spar_dynamic/phase2/_fake_*/
+
+# Blind Twin scratch runs
+blind_twin/results/_fake*/
