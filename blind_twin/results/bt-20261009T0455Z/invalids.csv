@@ -1,0 +1,29 @@
+slot_id,kind,model,status,reason,text
+player:GFA1:r04:matcher,player,fable,completed,not_a_single_shape,"Mismatcher has alternated TRIANGLE, STAR, TRIANGLE — pattern suggests STAR next.
+
+STAR"
+player:GFA2:r04:matcher,player,fable,completed,not_a_single_shape,"The Mismatcher has been alternating: TRIANGLE, STAR, TRIANGLE. If the pattern continues, next is STAR.
+
+STAR"
+player:GFA3:r04:matcher,player,fable,completed,not_a_single_shape,"The Mismatcher has alternated TRIANGLE, STAR, TRIANGLE — if the pattern continues, STAR comes next.
+
+STAR"
+player:GAF2:r05:mismatcher,player,fable,completed,not_a_single_shape,"Matcher pattern: STAR, TRIANGLE, STAR, TRIANGLE — alternating. Next likely STAR, so I choose TRIANGLE.
+
+TRIANGLE"
+player:GFF2:r05:mismatcher,player,fable,completed,not_a_single_shape,"Looking at the Matcher's pattern: STAR, STAR, TRIANGLE, STAR. After losing in round 2 with STAR, they switched to TRIANGLE. After losing in round 4 with STAR, they may switch to TRIANGLE again.
+
+STAR"
+player:GFF3:r07:mismatcher,player,fable,completed,not_a_single_shape,"Matcher has played STAR in 5 of 6 rounds, including the last 4. Best response is TRIANGLE.
+
+TRIANGLE"
+player:GAF1:r07:mismatcher,player,fable,completed,not_a_single_shape,"Matcher pattern so far: STAR, TRIANGLE, STAR, STAR, TRIANGLE, STAR — appears to repeat every 3 rounds (STAR, TRIANGLE, STAR). Round 7 would be STAR, so I should pick TRIANGLE.
+
+TRIANGLE"
+player:GFF3:r07:matcher,player,fable,completed,not_a_single_shape,"Mismatcher sequence: T, S, S, T, S, T. Recently alternating S/T from round 4: T, S, T → next likely S.
+
+STAR"
+player:GFF1:r07:matcher,player,fable,completed,not_a_single_shape,"Mismatcher pattern: T, S, S, T, T, S... Possibly alternating in pairs: T, S, S, T, T, S, S? That would predict STAR next.
+
+STAR"
+player:GAF3:r09:mismatcher,player,fable,completed,not_a_single_shape,"Matcher has played STAR for five consecutive rounds (4–8). If they continue, TRIANGLE wins. But after losing in round 8 with STAR, they may switch to TRIANGLE. Their pattern so far: switched after each loss (R1 loss → switched to TRIANGLE; R3 loss → switched to STAR). So they likely switch to TRIANG"

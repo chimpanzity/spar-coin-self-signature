@@ -1,0 +1,24 @@
+- 2026-10-09 00:56:04 RUN start (LIVE), cap $25
+- 2026-10-09 00:56:04 games: playing 12 games x 20 rounds (spent so far $0.01)
+- 2026-10-09 00:56:14   game GFA1 (fable-astra): incomplete, 3 valid rounds invalid round 4: {'matcher': 'not_a_single_shape'} spent $0.25
+- 2026-10-09 00:56:14   game GFA2 (fable-astra): incomplete, 3 valid rounds invalid round 4: {'matcher': 'not_a_single_shape'} spent $0.26
+- 2026-10-09 00:56:14   game GFA3 (fable-astra): incomplete, 3 valid rounds invalid round 4: {'matcher': 'not_a_single_shape'} spent $0.27
+- 2026-10-09 00:56:18   game GAF2 (astra-fable): incomplete, 4 valid rounds invalid round 5: {'mismatcher': 'not_a_single_shape'} spent $0.36
+- 2026-10-09 00:56:21   game GFF2 (fable-fable): incomplete, 4 valid rounds invalid round 5: {'mismatcher': 'not_a_single_shape'} spent $0.44
+- 2026-10-09 00:56:23   game GAF1 (astra-fable): incomplete, 6 valid rounds invalid round 7: {'mismatcher': 'not_a_single_shape'} spent $0.52
+- 2026-10-09 00:56:23   game GFF3 (fable-fable): incomplete, 6 valid rounds invalid round 7: {'mismatcher': 'not_a_single_shape', 'matcher': 'not_a_single_shape'} spent $0.53
+- 2026-10-09 00:56:25   game GFF1 (fable-fable): incomplete, 6 valid rounds invalid round 7: {'matcher': 'not_a_single_shape'} spent $0.56
+- 2026-10-09 00:56:29   game GAF3 (astra-fable): incomplete, 8 valid rounds invalid round 9: {'mismatcher': 'not_a_single_shape'} spent $0.63
+- 2026-10-09 00:56:45   game GAA1 (astra-astra): complete, 20 valid rounds  spent $0.83
+- 2026-10-09 00:56:46   game GAA2 (astra-astra): complete, 20 valid rounds  spent $0.85
+- 2026-10-09 00:56:55   game GAA3 (astra-astra): complete, 20 valid rounds  spent $0.88
+- 2026-10-09 00:56:55 FREEZE: game logs and 618-call judge schedule frozen (code 651bb947399c)
+- 2026-10-09 00:56:55 judges: 618 of 618 calls to dispatch (spent so far $0.88)
+- 2026-10-09 00:57:27   judges: 100/618 recorded, spent $1.48
+- 2026-10-09 00:57:56   judges: 200/618 recorded, spent $2.08
+- 2026-10-09 00:58:28   judges: 300/618 recorded, spent $2.69
+- 2026-10-09 00:58:58   judges: 400/618 recorded, spent $3.34
+- 2026-10-09 00:59:26   judges: 500/618 recorded, spent $3.92
+- 2026-10-09 00:59:53   judges: 600/618 recorded, spent $4.49
+- 2026-10-09 01:00:07 judges finished: 618/618 recorded, 618 valid; spent $4.62
+- 2026-10-09 01:00:10 RUN complete: report.md written
