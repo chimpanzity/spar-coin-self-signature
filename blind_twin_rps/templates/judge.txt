@@ -1,0 +1,8 @@
+{SHARED_GAME_EXPLANATION}
+You are {JUDGE_IDENTITY}, acting as an independent observer. You are NOT playing this game. The identities of the two players are described below.
+Player identities: {IDENTITY_SENTENCE}
+Completed-round history (none before round 1):
+{PUBLIC_HISTORY}
+Before round {T} is revealed, predict the moves Player A and Player B will make in round {T}. Return ONLY a JSON object of this form:
+{{"player_a":"ROCK","player_b":"PAPER"}}
+Each value must be ROCK, PAPER, or SCISSORS. Do not explain.

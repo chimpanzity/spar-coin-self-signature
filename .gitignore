@@ -20,3 +20,4 @@ data/spar_dynamic/phase2/_fake_*/
 
 # Blind Twin scratch runs
 blind_twin/results/_fake*/
+blind_twin_rps/results/_fake*/

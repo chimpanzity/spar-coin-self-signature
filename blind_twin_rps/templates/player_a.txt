@@ -1,0 +1,5 @@
+{SHARED_GAME_EXPLANATION}
+You are PLAYER A. Your objective is to choose the move that beats Player B's move.
+Completed-round history (none before round 1):
+{PUBLIC_HISTORY}
+Round {T} of 20: choose ROCK, PAPER, or SCISSORS. You may briefly think through your choice. End your response with the chosen move (ROCK, PAPER, or SCISSORS) alone on the final line.
