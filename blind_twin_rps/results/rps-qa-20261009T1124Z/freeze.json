@@ -1,0 +1,8 @@
+{
+ "frozen_utc": "2026-10-09T11:37:04.549521Z",
+ "code_hash": "eb5164be3ae2622db43af28a4623398b692320deb4e771b428f9f3b10d8200bd",
+ "game_logs_sha256": "d203407ec1ec03452f39a8401232ec0c74bdeac357c97e6151b08a150f72fc44",
+ "judge_schedule_sha256": "4bdd05b4067e0247bcf53f6e54078ade546a892d988b51cdc31e53c53ae205ed",
+ "config_sha256": "8b9d7832ad61b1c2231602fce61ff5ffddeb18e9ebc126d2affd9487f5ff8ebf",
+ "n_judge_calls": 1440
+}

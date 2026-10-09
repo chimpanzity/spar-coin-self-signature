@@ -1,0 +1,13 @@
+judge,seat,comparison,n,pct_differ
+qwen,player_a,TRUE vs FALSE,240,31.666666666666668
+qwen,player_a,TRUE vs ANONYMOUS,240,32.916666666666664
+qwen,player_a,FALSE vs ANONYMOUS,240,32.5
+qwen,player_b,TRUE vs FALSE,240,33.75
+qwen,player_b,TRUE vs ANONYMOUS,240,37.083333333333336
+qwen,player_b,FALSE vs ANONYMOUS,240,38.75
+astra,player_a,TRUE vs FALSE,240,19.166666666666668
+astra,player_a,TRUE vs ANONYMOUS,240,16.666666666666668
+astra,player_a,FALSE vs ANONYMOUS,240,15.0
+astra,player_b,TRUE vs FALSE,240,21.666666666666668
+astra,player_b,TRUE vs ANONYMOUS,240,20.0
+astra,player_b,FALSE vs ANONYMOUS,240,17.5

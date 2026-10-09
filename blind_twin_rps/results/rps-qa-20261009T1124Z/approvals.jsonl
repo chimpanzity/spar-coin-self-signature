@@ -1,0 +1,4 @@
+{"utc": "2026-10-09T11:24:32Z", "by": "Chris Martin (in chat, 2026-10-09)", "decision": "authorization", "value": "'when you finish do qwen vs astra' (after the Qwen-Fable RPS run)."}
+{"utc": "2026-10-09T11:24:32Z", "by": "Claude", "decision": "design", "value": "Blind Twin RPS v1 design with model pair (qwen, astra): matchups qwen-qwen, qwen-astra, astra-qwen, astra-astra x 3 games x 20 rounds; judges Qwen and Astra; FALSE swaps Qwen<->Astra per seat. Nothing else changed."}
+{"utc": "2026-10-09T11:24:32Z", "by": "Claude", "decision": "endpoints_decoding", "value": "qwen/qwen3.8-27b via Alibaba and openai/gpt-6-astra via OpenAI, pinned, fallbacks off; temperature/top_p/seed omitted; reasoning effort=low exclude=true; max_tokens 4000 (same as the Qwen-Fable run)."}
+{"utc": "2026-10-09T11:24:32Z", "by": "Claude (carried over, flagged)", "decision": "dollar_ceiling_usd", "value": 25.0, "note": "Same per-run ceiling; not restated."}
