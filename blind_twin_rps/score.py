@@ -171,7 +171,8 @@ def indices(acc) -> Dict[str, Optional[float]]:
             out[f"T[{j},{g}]"] = d(j, g, "TRUE", "ANONYMOUS")
             out[f"F[{j},{g}]"] = d(j, g, "TRUE", "FALSE")
     def inter(L):
-        a, b, c, e = out[f"{L}[astra,astra]"], out[f"{L}[fable,astra]"], out[f"{L}[fable,fable]"], out[f"{L}[astra,fable]"]
+        x, y = C.ORDER
+        a, b, c, e = out[f"{L}[{x},{x}]"], out[f"{L}[{y},{x}]"], out[f"{L}[{y},{y}]"], out[f"{L}[{x},{y}]"]
         return None if None in (a, b, c, e) else 0.5 * ((a - b) + (c - e))
     out["S"] = inter("T")
     out["S_false"] = inter("F")
@@ -415,10 +416,10 @@ def write_report(rd, games, calls, out, acc, breakdown, play, by_game) -> None:
     for r in out["responsiveness"]:
         L.append(f"| {r['judge']} | {r['seat']} | {r['comparison']} | {r['n']} | {fmt(r['pct_differ'])} |")
     L += ["", "## Simple history-only baselines (percent correct; round 1 and tied predictions get fractional credit; chance 33.3%)", "",
-          "| baseline | all valid rounds | on Astra judge items | on Fable judge items |", "|---|---:|---:|---:|"]
+          f"| baseline | all valid rounds | on {C.ORDER[0]} judge items | on {C.ORDER[1]} judge items |", "|---|---:|---:|---:|"]
     bp = {(r["judge_item_set"], r["baseline"]): r["pct"] for r in out["baselines_on_judge_items"]}
     for r in out["baselines_all_rounds"]:
-        L.append(f"| {r['baseline']} | {fmt(r['pct'])} | {fmt(bp.get(('astra', r['baseline'])))} | {fmt(bp.get(('fable', r['baseline'])))} |")
+        L.append(f"| {r['baseline']} | {fmt(r['pct'])} | {fmt(bp.get((C.ORDER[0], r['baseline'])))} | {fmt(bp.get((C.ORDER[1], r['baseline'])))} |")
     L += ["", "Both-seats-correct rate (descriptive only): " + "; ".join(f"{r['judge']}/{r['condition']} {fmt(r['pct_both_correct'])}% of {r['n_rounds']}" for r in out["both_correct"]), "",
           "## Per-judge, role-specific breakdown (all rounds, paired items)", "",
           "| judge | condition | seat | player model | % correct | n |", "|---|---|---|---|---:|---:|"]
@@ -451,7 +452,7 @@ def write_report(rd, games, calls, out, acc, breakdown, play, by_game) -> None:
         ops = ["".join(r["player_a"][0] for r in g["rounds"][:3]) + "/" + "".join(r["player_b"][0] for r in g["rounds"][:3]) for g in gs]  # R/P/S initials
         full = ["".join(r["player_a"][0] + r["player_b"][0] for r in g["rounds"]) for g in gs]
         L.append(f"- {mm}-{ms}: openings {ops}; distinct openings {len(set(ops))}/{len(ops)}; distinct full games {len(set(full))}/{len(full)}")
-    L += ["", "Per-game accuracy: `by_game.csv`; trajectories: `figures/trajectory_judge_astra.png`, `figures/trajectory_judge_fable.png`, `figures/choices_by_game.png`.", "",
+    L += ["", "Per-game accuracy: `by_game.csv`; trajectories: `figures/trajectory_judge_<model>.png`, `figures/choices_by_game.png`.", "",
           "## Limitations", "",
           "- Two models, three games per matchup, 20 rounds: a feasibility pilot. Effects are described at game level; no confirmatory claim.",
           "- 'Same model' means another independently queried instance, not memory of the actions. A truth benefit measures the functional value of identity information, not introspection or privileged access.",

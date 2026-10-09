@@ -55,12 +55,15 @@ class FakeTransport:
                 "usage": {"prompt_tokens": len(text) // 4, "completion_tokens": 5, "cost": 0.0}}
 
 
-def request_body(model: str, prompt: str) -> Dict[str, Any]:
+def request_body(model: str, prompt: str, slot_id: str = "") -> Dict[str, Any]:
     m = C.MODELS[model]
-    return {"model": m["slug"], "messages": [{"role": "user", "content": prompt}],
+    body = {"model": m["slug"], "messages": [{"role": "user", "content": prompt}],
             "reasoning": dict(C.REASONING), "max_tokens": C.MAX_TOKENS,
             "provider": {"order": [m["provider"]], "allow_fallbacks": False},
             "usage": {"include": True}}
+    if m.get("send_seed"):
+        body["seed"] = C.derive_seed("request_seed", slot_id) % 2**31     # distinct, recorded, per slot
+    return body
 
 
 class Runner:
@@ -97,7 +100,7 @@ class Runner:
             return done[slot_id]
         if self.stop.is_set():
             return None
-        body = request_body(model, prompt)
+        body = request_body(model, prompt, slot_id)
         shim = SimpleNamespace(params=body, messages=body["messages"])
         try:
             reserved = self.acct.reserve(shim)
@@ -265,8 +268,9 @@ class Runner:
 
     # -- smoke games (v2): two full technical games, separate log ---------------
     def smoke_games(self) -> List[Dict[str, Any]]:
-        games = [{"game_id": "SMK_AF", "matchup": "astra-fable", "player_a_model": "astra", "player_b_model": "fable", "replicate": 0},
-                 {"game_id": "SMK_FF", "matchup": "fable-fable", "player_a_model": "fable", "player_b_model": "fable", "replicate": 0}]
+        x, y = C.ORDER
+        games = [{"game_id": f"SMK_{x[0].upper()}{y[0].upper()}", "matchup": f"{x}-{y}", "player_a_model": x, "player_b_model": y, "replicate": 0},
+                 {"game_id": f"SMK_{y[0].upper()}{y[0].upper()}", "matchup": f"{y}-{y}", "player_a_model": y, "player_b_model": y, "replicate": 0}]
         with ThreadPoolExecutor(max_workers=2) as pool:
             res = list(pool.map(self.play_game, games))
         with open(self.rd / "smoke_game_logs.jsonl", "w") as f:
@@ -281,6 +285,6 @@ class Runner:
             out.append(self.call(f"smoke:player:{m}", m, player_prompt("player_a", [], 1), "player",
                                  {"game_id": "SMOKE", "round": 1, "role": "player_a", "public_history": []}, {}))
             rows = [{"round": 1, "player_a": "ROCK", "player_b": "PAPER", "winner": "Player B"}]
-            out.append(self.call(f"smoke:judge:{m}", m, judge_prompt(m, "ANONYMOUS", "astra", "fable", rows, 2), "judge",
+            out.append(self.call(f"smoke:judge:{m}", m, judge_prompt(m, "ANONYMOUS", C.ORDER[0], C.ORDER[1], rows, 2), "judge",
                                  {"game_id": "SMOKE", "round": 2, "judge": m, "condition": "ANONYMOUS", "public_history": rows}, {}))
         return out

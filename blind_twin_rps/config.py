@@ -8,6 +8,7 @@ chance = 33.3%, RPS-appropriate baselines (see protocol.md).
 from __future__ import annotations
 
 import hashlib
+import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -17,23 +18,28 @@ MASTER_SEED = 20261010
 PKG = Path(__file__).resolve().parent
 RESULTS = PKG / "results"
 
-MODELS: Dict[str, Dict] = {
-    "astra": {"slug": "openai/gpt-6-astra", "display": "GPT-6 Astra", "provider": "openai"},
-    "fable": {"slug": "anthropic/claude-fable-5.1", "display": "Claude Fable 5.1", "provider": "anthropic"},
+ALL_MODELS: Dict[str, Dict] = {
+    "astra": {"slug": "openai/gpt-6-astra", "display": "GPT-6 Astra", "provider": "openai", "send_seed": False},
+    "fable": {"slug": "anthropic/claude-fable-5.1", "display": "Claude Fable 5.1", "provider": "anthropic", "send_seed": False},
+    # Same Qwen as SPAR pilots 1-4; first-party Alibaba endpoint. send_seed set from the determinism check.
+    "qwen": {"slug": "qwen/qwen3.8-27b", "display": "Qwen3.8 27B", "provider": "alibaba", "send_seed": False},
 }
-ORDER: Tuple[str, str] = ("astra", "fable")
+# Model pair for this run: default astra,fable (run rps-20261009T1024Z); "qwen,fable" for the Qwen run.
+ORDER: Tuple[str, str] = tuple(os.environ.get("BT_MODELS", "astra,fable").split(","))  # type: ignore
+assert len(ORDER) == 2 and all(m in ALL_MODELS for m in ORDER)
+MODELS: Dict[str, Dict] = {m: ALL_MODELS[m] for m in ORDER}
 REASONING = {"effort": "low", "exclude": True}
 MAX_TOKENS = 4000
 
 
 def other_model(m: str) -> str:
-    return "fable" if m == "astra" else "astra"
+    return ORDER[1] if m == ORDER[0] else ORDER[0]
 
 
 N_ROUNDS = 20
 GAMES_PER_MATCHUP = 3
-MATCHUPS: List[Tuple[str, str]] = [("astra", "astra"), ("astra", "fable"), ("fable", "astra"), ("fable", "fable")]
-JUDGES: Tuple[str, str] = ("astra", "fable")
+MATCHUPS: List[Tuple[str, str]] = [(ORDER[0], ORDER[0]), (ORDER[0], ORDER[1]), (ORDER[1], ORDER[0]), (ORDER[1], ORDER[1])]
+JUDGES: Tuple[str, str] = ORDER
 CONDITIONS: Tuple[str, str, str] = ("TRUE", "FALSE", "ANONYMOUS")
 SHAPES = ("ROCK", "PAPER", "SCISSORS")          # "moves"; name kept for code reuse
 BEATS = {"ROCK": "SCISSORS", "SCISSORS": "PAPER", "PAPER": "ROCK"}       # key beats value
@@ -104,7 +110,7 @@ def code_hash() -> str:
 
 def frozen_config() -> Dict:
     return {
-        "protocol": PROTOCOL, "version": VERSION, "game": "rock-paper-scissors", "player_format_line": PLAYER_FORMAT_LINE,
+        "protocol": PROTOCOL, "version": VERSION, "game": "rock-paper-scissors", "model_pair": list(ORDER), "player_format_line": PLAYER_FORMAT_LINE,
         "master_seed": MASTER_SEED, "models": MODELS, "reasoning": REASONING, "max_tokens": MAX_TOKENS,
         "omitted_controls": ["temperature", "top_p", "seed"], "n_rounds": N_ROUNDS,
         "games_per_matchup": GAMES_PER_MATCHUP, "matchups": MATCHUPS, "judges": JUDGES, "conditions": CONDITIONS,
