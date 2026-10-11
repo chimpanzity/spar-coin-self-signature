@@ -1,0 +1,925 @@
+{
+ "indices": {
+  "rps:00:T[astra,astra]": 6.25,
+  "rps:00:F[astra,astra]": -6.25,
+  "rps:00:T[astra,fable]": 2.5,
+  "rps:00:F[astra,fable]": -1.25,
+  "rps:00:T[astra,qwen]": 1.25,
+  "rps:00:F[astra,qwen]": 2.5,
+  "rps:00:T[fable,astra]": 0.0,
+  "rps:00:F[fable,astra]": 2.5,
+  "rps:00:T[fable,fable]": 5.0,
+  "rps:00:F[fable,fable]": 3.750000000000007,
+  "rps:00:T[fable,qwen]": -5.000000000000007,
+  "rps:00:F[fable,qwen]": -10.0,
+  "rps:00:T[qwen,astra]": 1.25,
+  "rps:00:F[qwen,astra]": 8.75,
+  "rps:00:T[qwen,fable]": 0.0,
+  "rps:00:F[qwen,fable]": 7.5,
+  "rps:00:T[qwen,qwen]": -2.5,
+  "rps:00:F[qwen,qwen]": 0.0,
+  "rps:00:S": 2.916666666666668,
+  "rps:00:S_false": -2.499999999999998,
+  "rps:11:T[astra,astra]": 1.250000000000007,
+  "rps:11:F[astra,astra]": 1.250000000000007,
+  "rps:11:T[astra,fable]": 2.5,
+  "rps:11:F[astra,fable]": 6.25,
+  "rps:11:T[astra,qwen]": 6.25,
+  "rps:11:F[astra,qwen]": 2.5,
+  "rps:11:T[fable,astra]": -5.0,
+  "rps:11:F[fable,astra]": -1.25,
+  "rps:11:T[fable,fable]": 0.06578947368420529,
+  "rps:11:F[fable,fable]": -2.631578947368425,
+  "rps:11:T[fable,qwen]": 6.447368421052637,
+  "rps:11:F[fable,qwen]": 3.8157894736842053,
+  "rps:11:T[qwen,astra]": 0.0,
+  "rps:11:F[qwen,astra]": 2.5,
+  "rps:11:T[qwen,fable]": 8.75,
+  "rps:11:F[qwen,fable]": 1.250000000000007,
+  "rps:11:T[qwen,qwen]": 2.5,
+  "rps:11:F[qwen,qwen]": 6.25,
+  "rps:11:S": -1.885964912280702,
+  "rps:11:S_false": -0.8881578947368413,
+  "rps:Delta[astra,astra]": -4.999999999999993,
+  "rps:Delta[astra,fable]": 0.0,
+  "rps:Delta[astra,qwen]": 5.0,
+  "rps:Delta[fable,astra]": -5.0,
+  "rps:Delta[fable,fable]": -4.934210526315795,
+  "rps:Delta[fable,qwen]": 11.447368421052644,
+  "rps:Delta[qwen,astra]": -1.25,
+  "rps:Delta[qwen,fable]": 8.75,
+  "rps:Delta[qwen,qwen]": 5.0,
+  "rps:Delta_self": -1.6447368421052626,
+  "rps:Delta_other": 3.1578947368421075,
+  "rps:Delta_selfspec": -4.80263157894737,
+  "rps:DeltaF[astra,astra]": 7.500000000000007,
+  "rps:DeltaF[astra,fable]": 7.5,
+  "rps:DeltaF[astra,qwen]": 0.0,
+  "rps:DeltaF[fable,astra]": -3.75,
+  "rps:DeltaF[fable,fable]": -6.381578947368432,
+  "rps:DeltaF[fable,qwen]": 13.815789473684205,
+  "rps:DeltaF[qwen,astra]": -6.25,
+  "rps:DeltaF[qwen,fable]": -6.249999999999993,
+  "rps:DeltaF[qwen,qwen]": 6.25,
+  "rps:DeltaF_self": 2.4561403508771917,
+  "rps:DeltaF_other": 0.8442982456140354,
+  "rps:DeltaF_selfspec": 1.6118421052631562,
+  "mp:00:T[astra,astra]": -4.999999999999993,
+  "mp:00:F[astra,astra]": 0.0,
+  "mp:00:T[astra,fable]": 1.2500000000000142,
+  "mp:00:F[astra,fable]": 2.500000000000014,
+  "mp:00:T[astra,qwen]": 1.249999999999993,
+  "mp:00:F[astra,qwen]": 2.5,
+  "mp:00:T[fable,astra]": -2.500000000000007,
+  "mp:00:F[fable,astra]": 4.999999999999993,
+  "mp:00:T[fable,fable]": 3.750000000000007,
+  "mp:00:F[fable,fable]": 3.75,
+  "mp:00:T[fable,qwen]": -7.5,
+  "mp:00:F[fable,qwen]": -3.75,
+  "mp:00:T[qwen,astra]": -7.500000000000007,
+  "mp:00:F[qwen,astra]": -21.25000000000002,
+  "mp:00:T[qwen,fable]": 6.25,
+  "mp:00:F[qwen,fable]": 6.25,
+  "mp:00:T[qwen,qwen]": -3.750000000000014,
+  "mp:00:F[qwen,qwen]": 2.499999999999993,
+  "mp:00:S": -0.20833333333333215,
+  "mp:00:S_false": 3.5416666666666665,
+  "mp:11:T[astra,astra]": -2.500000000000007,
+  "mp:11:F[astra,astra]": -2.500000000000007,
+  "mp:11:T[astra,fable]": -3.750000000000007,
+  "mp:11:F[astra,fable]": -1.2500000000000142,
+  "mp:11:T[astra,qwen]": 3.75,
+  "mp:11:F[astra,qwen]": -6.25,
+  "mp:11:T[fable,astra]": 1.2500000000000142,
+  "mp:11:F[fable,astra]": 7.500000000000007,
+  "mp:11:T[fable,fable]": -7.499999999999993,
+  "mp:11:F[fable,fable]": -6.25,
+  "mp:11:T[fable,qwen]": -3.75,
+  "mp:11:F[fable,qwen]": 2.499999999999986,
+  "mp:11:T[qwen,astra]": -10.000000000000007,
+  "mp:11:F[qwen,astra]": -3.75,
+  "mp:11:T[qwen,fable]": -6.249999999999993,
+  "mp:11:F[qwen,fable]": -7.5,
+  "mp:11:T[qwen,qwen]": 7.105427357601002e-15,
+  "mp:11:F[qwen,qwen]": 3.750000000000014,
+  "mp:11:S": -0.20833333333333215,
+  "mp:11:S_false": -0.2083333333333274,
+  "mp:Delta[astra,astra]": 2.499999999999986,
+  "mp:Delta[astra,fable]": -5.000000000000021,
+  "mp:Delta[astra,qwen]": 2.500000000000007,
+  "mp:Delta[fable,astra]": 3.7500000000000213,
+  "mp:Delta[fable,fable]": -11.25,
+  "mp:Delta[fable,qwen]": 3.75,
+  "mp:Delta[qwen,astra]": -2.5,
+  "mp:Delta[qwen,fable]": -12.499999999999993,
+  "mp:Delta[qwen,qwen]": 3.7500000000000213,
+  "mp:Delta_self": -1.6666666666666643,
+  "mp:Delta_other": -1.6666666666666643,
+  "mp:Delta_selfspec": 0.0,
+  "mp:DeltaF[astra,astra]": -2.500000000000007,
+  "mp:DeltaF[astra,fable]": -3.7500000000000284,
+  "mp:DeltaF[astra,qwen]": -8.75,
+  "mp:DeltaF[fable,astra]": 2.500000000000014,
+  "mp:DeltaF[fable,fable]": -10.0,
+  "mp:DeltaF[fable,qwen]": 6.249999999999986,
+  "mp:DeltaF[qwen,astra]": 17.50000000000002,
+  "mp:DeltaF[qwen,fable]": -13.75,
+  "mp:DeltaF[qwen,qwen]": 1.2500000000000213,
+  "mp:DeltaF_self": -3.749999999999995,
+  "mp:DeltaF_other": -1.1842378929335002e-15,
+  "mp:DeltaF_selfspec": -3.749999999999994,
+  "pooled:Delta_self": -1.6557017543859636,
+  "pooled:Delta_other": 0.7456140350877216,
+  "pooled:Delta_selfspec": -2.401315789473685,
+  "pooled:DeltaF_self": -0.6469298245614017,
+  "pooled:DeltaF_other": 0.4221491228070171,
+  "pooled:DeltaF_selfspec": -1.0690789473684188
+ },
+ "ci": {
+  "rps:00:T[astra,astra]": {
+   "lo": -2.5,
+   "hi": 15.0,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[astra,astra]": {
+   "lo": -7.499999999999993,
+   "hi": -5.000000000000007,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[astra,fable]": {
+   "lo": -5.0,
+   "hi": 10.0,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[astra,fable]": {
+   "lo": -7.5,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[astra,qwen]": {
+   "lo": -2.500000000000014,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[astra,qwen]": {
+   "lo": 0.0,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[fable,astra]": {
+   "lo": -5.0,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[fable,astra]": {
+   "lo": 2.5,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[fable,fable]": {
+   "lo": 2.500000000000007,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[fable,fable]": {
+   "lo": -2.5,
+   "hi": 9.999999999999996,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[fable,qwen]": {
+   "lo": -7.5,
+   "hi": -2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[fable,qwen]": {
+   "lo": -12.5,
+   "hi": -7.5,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[qwen,astra]": {
+   "lo": 7.105427357601002e-15,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[qwen,astra]": {
+   "lo": 0.0,
+   "hi": 17.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[qwen,fable]": {
+   "lo": -2.5,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[qwen,fable]": {
+   "lo": -7.5,
+   "hi": 22.5,
+   "undefined_frac": 0.0
+  },
+  "rps:00:T[qwen,qwen]": {
+   "lo": -5.0,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "rps:00:F[qwen,qwen]": {
+   "lo": -5.0,
+   "hi": 5.000000000000007,
+   "undefined_frac": 0.0
+  },
+  "rps:00:S": {
+   "lo": -0.8333333333333345,
+   "hi": 6.666666666666669,
+   "undefined_frac": 0.0
+  },
+  "rps:00:S_false": {
+   "lo": -6.8749999999999964,
+   "hi": 1.8750000000000024,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[astra,astra]": {
+   "lo": -2.500000000000007,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[astra,astra]": {
+   "lo": 0.0,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[astra,fable]": {
+   "lo": 2.499999999999993,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[astra,fable]": {
+   "lo": 0.0,
+   "hi": 12.5,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[astra,qwen]": {
+   "lo": 5.0,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[astra,qwen]": {
+   "lo": 0.0,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[fable,astra]": {
+   "lo": -12.5,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[fable,astra]": {
+   "lo": -2.5,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[fable,fable]": {
+   "lo": -2.5,
+   "hi": 2.631578947368425,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[fable,fable]": {
+   "lo": -5.263157894736835,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[fable,qwen]": {
+   "lo": 4.999999999999993,
+   "hi": 7.894736842105267,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[fable,qwen]": {
+   "lo": 2.631578947368425,
+   "hi": 4.999999999999993,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[qwen,astra]": {
+   "lo": -7.5,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[qwen,astra]": {
+   "lo": -5.0,
+   "hi": 10.0,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[qwen,fable]": {
+   "lo": 7.4999999999999964,
+   "hi": 9.999999999999993,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[qwen,fable]": {
+   "lo": -5.000000000000007,
+   "hi": 7.4999999999999964,
+   "undefined_frac": 0.0
+  },
+  "rps:11:T[qwen,qwen]": {
+   "lo": 2.5,
+   "hi": 2.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "rps:11:F[qwen,qwen]": {
+   "lo": 2.500000000000007,
+   "hi": 10.0,
+   "undefined_frac": 0.0
+  },
+  "rps:11:S": {
+   "lo": -4.199561403508773,
+   "hi": 0.4276315789473693,
+   "undefined_frac": 0.0
+  },
+  "rps:11:S_false": {
+   "lo": -4.6271929824561395,
+   "hi": 2.8508771929824532,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[astra,astra]": {
+   "lo": -17.500000000000007,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[astra,fable]": {
+   "lo": -7.500000000000007,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[astra,qwen]": {
+   "lo": 0.0,
+   "hi": 10.000000000000014,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[fable,astra]": {
+   "lo": -17.5,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[fable,fable]": {
+   "lo": -10.0,
+   "hi": 0.1315789473684177,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[fable,qwen]": {
+   "lo": 7.499999999999993,
+   "hi": 15.394736842105267,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[qwen,astra]": {
+   "lo": -10.0,
+   "hi": 7.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[qwen,fable]": {
+   "lo": 4.9999999999999964,
+   "hi": 12.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta[qwen,qwen]": {
+   "lo": 2.5,
+   "hi": 7.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta_self": {
+   "lo": -6.249999999999997,
+   "hi": 2.9605263157894774,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta_other": {
+   "lo": 0.8333333333333298,
+   "hi": 5.48245614035088,
+   "undefined_frac": 0.0
+  },
+  "rps:Delta_selfspec": {
+   "lo": -9.64912280701755,
+   "hi": 0.010964912280706507,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[astra,astra]": {
+   "lo": 5.000000000000007,
+   "hi": 9.999999999999993,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[astra,fable]": {
+   "lo": -5.0,
+   "hi": 20.0,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[astra,qwen]": {
+   "lo": -5.0,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[fable,astra]": {
+   "lo": -5.0,
+   "hi": -2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[fable,fable]": {
+   "lo": -15.263157894736832,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[fable,qwen]": {
+   "lo": 10.131578947368425,
+   "hi": 17.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[qwen,astra]": {
+   "lo": -22.500000000000007,
+   "hi": 10.0,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[qwen,fable]": {
+   "lo": -27.500000000000007,
+   "hi": 14.999999999999996,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF[qwen,qwen]": {
+   "lo": -2.5,
+   "hi": 15.0,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF_self": {
+   "lo": -1.7543859649122797,
+   "hi": 6.666666666666669,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF_other": {
+   "lo": -2.905701754385967,
+   "hi": 4.594298245614033,
+   "undefined_frac": 0.0
+  },
+  "rps:DeltaF_selfspec": {
+   "lo": -4.265350877192975,
+   "hi": 7.236842105263156,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[astra,astra]": {
+   "lo": -10.000000000000007,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[astra,astra]": {
+   "lo": -2.5,
+   "hi": 2.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[astra,fable]": {
+   "lo": -4.999999999999993,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[astra,fable]": {
+   "lo": -2.500000000000007,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[astra,qwen]": {
+   "lo": -2.5,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[astra,qwen]": {
+   "lo": 2.5,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[fable,astra]": {
+   "lo": -5.000000000000007,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[fable,astra]": {
+   "lo": 0.0,
+   "hi": 9.999999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[fable,fable]": {
+   "lo": 2.499999999999986,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[fable,fable]": {
+   "lo": 2.5,
+   "hi": 4.999999999999979,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[fable,qwen]": {
+   "lo": -7.5,
+   "hi": -7.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[fable,qwen]": {
+   "lo": -7.5,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[qwen,astra]": {
+   "lo": -12.500000000000007,
+   "hi": -2.499999999999986,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[qwen,astra]": {
+   "lo": -30.0,
+   "hi": -12.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[qwen,fable]": {
+   "lo": 0.0,
+   "hi": 12.499999999999986,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[qwen,fable]": {
+   "lo": 4.999999999999993,
+   "hi": 7.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:00:T[qwen,qwen]": {
+   "lo": -10.000000000000007,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "mp:00:F[qwen,qwen]": {
+   "lo": -5.000000000000007,
+   "hi": 10.000000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:00:S": {
+   "lo": -5.625000000000011,
+   "hi": 5.208333333333331,
+   "undefined_frac": 0.0
+  },
+  "mp:00:S_false": {
+   "lo": 0.2083333333333274,
+   "hi": 6.8750000000000036,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[astra,astra]": {
+   "lo": -5.0,
+   "hi": -1.4210854715202004e-14,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[astra,astra]": {
+   "lo": -5.0,
+   "hi": -1.4210854715202004e-14,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[astra,fable]": {
+   "lo": -4.999999999999986,
+   "hi": -2.5,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[astra,fable]": {
+   "lo": -4.999999999999986,
+   "hi": 2.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[astra,qwen]": {
+   "lo": -2.500000000000007,
+   "hi": 10.0,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[astra,qwen]": {
+   "lo": -7.5,
+   "hi": -5.0,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[fable,astra]": {
+   "lo": -2.500000000000007,
+   "hi": 5.000000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[fable,astra]": {
+   "lo": 7.499999999999993,
+   "hi": 7.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[fable,fable]": {
+   "lo": -10.000000000000007,
+   "hi": -5.0,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[fable,fable]": {
+   "lo": -7.500000000000014,
+   "hi": -5.0,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[fable,qwen]": {
+   "lo": -7.5,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[fable,qwen]": {
+   "lo": 2.499999999999986,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[qwen,astra]": {
+   "lo": -10.000000000000007,
+   "hi": -10.0,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[qwen,astra]": {
+   "lo": -7.499999999999993,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[qwen,fable]": {
+   "lo": -19.999999999999993,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[qwen,fable]": {
+   "lo": -12.5,
+   "hi": -2.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:11:T[qwen,qwen]": {
+   "lo": -4.999999999999993,
+   "hi": 5.000000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:11:F[qwen,qwen]": {
+   "lo": -4.999999999999993,
+   "hi": 12.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:11:S": {
+   "lo": -4.791666666666669,
+   "hi": 4.374999999999996,
+   "undefined_frac": 0.0
+  },
+  "mp:11:S_false": {
+   "lo": -3.958333333333332,
+   "hi": 3.5416666666666594,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[astra,astra]": {
+   "lo": -5.0,
+   "hi": 9.999999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[astra,fable]": {
+   "lo": -12.499999999999986,
+   "hi": 2.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[astra,qwen]": {
+   "lo": -7.500000000000007,
+   "hi": 12.5,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[fable,astra]": {
+   "lo": -2.500000000000007,
+   "hi": 10.000000000000014,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[fable,fable]": {
+   "lo": -15.000000000000007,
+   "hi": -7.499999999999986,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[fable,qwen]": {
+   "lo": -7.105427357601002e-15,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[qwen,astra]": {
+   "lo": -7.500000000000021,
+   "hi": 2.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[qwen,fable]": {
+   "lo": -32.49999999999998,
+   "hi": 7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta[qwen,qwen]": {
+   "lo": -7.499999999999993,
+   "hi": 15.000000000000014,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta_self": {
+   "lo": -6.250000000000003,
+   "hi": 2.916666666666669,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta_other": {
+   "lo": -6.666666666666657,
+   "hi": 3.125000000000002,
+   "undefined_frac": 0.0
+  },
+  "mp:Delta_selfspec": {
+   "lo": -7.29166666666667,
+   "hi": 7.499999999999993,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[astra,astra]": {
+   "lo": -7.500000000000007,
+   "hi": 2.499999999999986,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[astra,fable]": {
+   "lo": -12.499999999999986,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[astra,qwen]": {
+   "lo": -10.0,
+   "hi": -7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[fable,astra]": {
+   "lo": -2.5,
+   "hi": 7.500000000000007,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[fable,fable]": {
+   "lo": -12.499999999999993,
+   "hi": -7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[fable,qwen]": {
+   "lo": 2.499999999999986,
+   "hi": 10.0,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[qwen,astra]": {
+   "lo": 5.0,
+   "hi": 30.0,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[qwen,fable]": {
+   "lo": -19.999999999999993,
+   "hi": -7.5,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF[qwen,qwen]": {
+   "lo": -15.0,
+   "hi": 17.500000000000014,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF_self": {
+   "lo": -9.583333333333329,
+   "hi": 2.0833333333333357,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF_other": {
+   "lo": -2.9166666666666585,
+   "hi": 2.708333333333338,
+   "undefined_frac": 0.0
+  },
+  "mp:DeltaF_selfspec": {
+   "lo": -8.958333333333332,
+   "hi": 1.4583333333333393,
+   "undefined_frac": 0.0
+  },
+  "pooled:Delta_self": {
+   "lo": -5.0000000000000036,
+   "hi": 1.6776315789473724,
+   "undefined_frac": 0.0
+  },
+  "pooled:Delta_other": {
+   "lo": -1.9791666666666665,
+   "hi": 3.437500000000001,
+   "undefined_frac": 0.0
+  },
+  "pooled:Delta_selfspec": {
+   "lo": -6.880482456140355,
+   "hi": 2.0833333333333384,
+   "undefined_frac": 0.0
+  },
+  "pooled:DeltaF_self": {
+   "lo": -4.188596491228071,
+   "hi": 2.916666666666668,
+   "undefined_frac": 0.0
+  },
+  "pooled:DeltaF_other": {
+   "lo": -1.9736842105263155,
+   "hi": 2.812499999999999,
+   "undefined_frac": 0.0
+  },
+  "pooled:DeltaF_selfspec": {
+   "lo": -5.104166666666662,
+   "hi": 2.801535087719301,
+   "undefined_frac": 0.0
+  }
+ },
+ "acc": {
+  "rps|00|astra|astra|TRUE": 50.0,
+  "rps|00|astra|astra|FALSE": 56.25,
+  "rps|00|astra|astra|ANONYMOUS": 43.75,
+  "rps|00|astra|fable|TRUE": 45.0,
+  "rps|00|astra|fable|FALSE": 46.25,
+  "rps|00|astra|fable|ANONYMOUS": 42.5,
+  "rps|00|astra|qwen|TRUE": 47.5,
+  "rps|00|astra|qwen|FALSE": 45.0,
+  "rps|00|astra|qwen|ANONYMOUS": 46.25,
+  "rps|00|fable|astra|TRUE": 40.0,
+  "rps|00|fable|astra|FALSE": 37.5,
+  "rps|00|fable|astra|ANONYMOUS": 40.0,
+  "rps|00|fable|fable|TRUE": 36.25,
+  "rps|00|fable|fable|FALSE": 32.49999999999999,
+  "rps|00|fable|fable|ANONYMOUS": 31.25,
+  "rps|00|fable|qwen|TRUE": 37.5,
+  "rps|00|fable|qwen|FALSE": 47.5,
+  "rps|00|fable|qwen|ANONYMOUS": 42.50000000000001,
+  "rps|00|qwen|astra|TRUE": 38.75,
+  "rps|00|qwen|astra|FALSE": 30.0,
+  "rps|00|qwen|astra|ANONYMOUS": 37.5,
+  "rps|00|qwen|fable|TRUE": 37.5,
+  "rps|00|qwen|fable|FALSE": 30.0,
+  "rps|00|qwen|fable|ANONYMOUS": 37.5,
+  "rps|00|qwen|qwen|TRUE": 31.25,
+  "rps|00|qwen|qwen|FALSE": 31.25,
+  "rps|00|qwen|qwen|ANONYMOUS": 33.75,
+  "rps|11|astra|astra|TRUE": 52.5,
+  "rps|11|astra|astra|FALSE": 51.24999999999999,
+  "rps|11|astra|astra|ANONYMOUS": 51.24999999999999,
+  "rps|11|astra|fable|TRUE": 41.25,
+  "rps|11|astra|fable|FALSE": 35.0,
+  "rps|11|astra|fable|ANONYMOUS": 38.75,
+  "rps|11|astra|qwen|TRUE": 43.75,
+  "rps|11|astra|qwen|FALSE": 41.25,
+  "rps|11|astra|qwen|ANONYMOUS": 37.5,
+  "rps|11|fable|astra|TRUE": 36.25,
+  "rps|11|fable|astra|FALSE": 37.5,
+  "rps|11|fable|astra|ANONYMOUS": 41.25,
+  "rps|11|fable|fable|TRUE": 37.23684210526316,
+  "rps|11|fable|fable|FALSE": 39.86842105263158,
+  "rps|11|fable|fable|ANONYMOUS": 37.17105263157895,
+  "rps|11|fable|qwen|TRUE": 47.5,
+  "rps|11|fable|qwen|FALSE": 43.684210526315795,
+  "rps|11|fable|qwen|ANONYMOUS": 41.05263157894736,
+  "rps|11|qwen|astra|TRUE": 37.5,
+  "rps|11|qwen|astra|FALSE": 35.0,
+  "rps|11|qwen|astra|ANONYMOUS": 37.5,
+  "rps|11|qwen|fable|TRUE": 33.75,
+  "rps|11|qwen|fable|FALSE": 32.49999999999999,
+  "rps|11|qwen|fable|ANONYMOUS": 25.0,
+  "rps|11|qwen|qwen|TRUE": 42.5,
+  "rps|11|qwen|qwen|FALSE": 36.25,
+  "rps|11|qwen|qwen|ANONYMOUS": 40.0,
+  "mp|00|astra|astra|TRUE": 52.5,
+  "mp|00|astra|astra|FALSE": 52.5,
+  "mp|00|astra|astra|ANONYMOUS": 57.49999999999999,
+  "mp|00|astra|fable|TRUE": 60.00000000000001,
+  "mp|00|astra|fable|FALSE": 57.49999999999999,
+  "mp|00|astra|fable|ANONYMOUS": 58.74999999999999,
+  "mp|00|astra|qwen|TRUE": 43.75,
+  "mp|00|astra|qwen|FALSE": 41.25,
+  "mp|00|astra|qwen|ANONYMOUS": 42.50000000000001,
+  "mp|00|fable|astra|TRUE": 58.75,
+  "mp|00|fable|astra|FALSE": 53.75000000000001,
+  "mp|00|fable|astra|ANONYMOUS": 61.25000000000001,
+  "mp|00|fable|fable|TRUE": 56.25,
+  "mp|00|fable|fable|FALSE": 52.5,
+  "mp|00|fable|fable|ANONYMOUS": 52.49999999999999,
+  "mp|00|fable|qwen|TRUE": 46.25,
+  "mp|00|fable|qwen|FALSE": 50.0,
+  "mp|00|fable|qwen|ANONYMOUS": 53.75,
+  "mp|00|qwen|astra|TRUE": 51.24999999999999,
+  "mp|00|qwen|astra|FALSE": 72.50000000000001,
+  "mp|00|qwen|astra|ANONYMOUS": 58.75,
+  "mp|00|qwen|fable|TRUE": 56.25,
+  "mp|00|qwen|fable|FALSE": 50.0,
+  "mp|00|qwen|fable|ANONYMOUS": 50.0,
+  "mp|00|qwen|qwen|TRUE": 62.5,
+  "mp|00|qwen|qwen|FALSE": 60.00000000000001,
+  "mp|00|qwen|qwen|ANONYMOUS": 66.25000000000001,
+  "mp|11|astra|astra|TRUE": 63.74999999999999,
+  "mp|11|astra|astra|FALSE": 66.25,
+  "mp|11|astra|astra|ANONYMOUS": 66.25,
+  "mp|11|astra|fable|TRUE": 52.49999999999999,
+  "mp|11|astra|fable|FALSE": 53.75000000000001,
+  "mp|11|astra|fable|ANONYMOUS": 56.25,
+  "mp|11|astra|qwen|TRUE": 50.0,
+  "mp|11|astra|qwen|FALSE": 56.25,
+  "mp|11|astra|qwen|ANONYMOUS": 46.25,
+  "mp|11|fable|astra|TRUE": 60.00000000000001,
+  "mp|11|fable|astra|FALSE": 52.5,
+  "mp|11|fable|astra|ANONYMOUS": 58.74999999999999,
+  "mp|11|fable|fable|TRUE": 55.00000000000001,
+  "mp|11|fable|fable|FALSE": 61.25000000000001,
+  "mp|11|fable|fable|ANONYMOUS": 62.5,
+  "mp|11|fable|qwen|TRUE": 57.49999999999999,
+  "mp|11|fable|qwen|FALSE": 55.00000000000001,
+  "mp|11|fable|qwen|ANONYMOUS": 61.24999999999999,
+  "mp|11|qwen|astra|TRUE": 50.0,
+  "mp|11|qwen|astra|FALSE": 53.75,
+  "mp|11|qwen|astra|ANONYMOUS": 60.00000000000001,
+  "mp|11|qwen|fable|TRUE": 45.0,
+  "mp|11|qwen|fable|FALSE": 52.5,
+  "mp|11|qwen|fable|ANONYMOUS": 51.24999999999999,
+  "mp|11|qwen|qwen|TRUE": 53.75000000000001,
+  "mp|11|qwen|qwen|FALSE": 49.99999999999999,
+  "mp|11|qwen|qwen|ANONYMOUS": 53.75
+ },
+ "n_paired_items": {
+  "astra": 960,
+  "fable": 956,
+  "qwen": 960
+ }
+}

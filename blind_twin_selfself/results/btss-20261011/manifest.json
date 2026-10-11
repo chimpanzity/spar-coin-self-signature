@@ -1,0 +1,66 @@
+{
+ "created_utc": "2026-10-11T12:34:06.337675Z",
+ "protocol": "BlindTwinSelfSelf_v1",
+ "code_hash": "0c1c6bf033f4eadab45c1c915d121b711a7ae6343e2d92491f12da75c4373348",
+ "template_sha256": {
+  "judge": "78335cdde274b862a6fbd5feb34c9e12ee3c483300d6610bfea78d079f9b5121",
+  "known": "dd77d76c36985a1aaaf02353cdd7192388b5f551b0162fd8437e0d2f15a49c4f",
+  "anonymous": "fadc98e10f41cbf85a002279f8c57e50bf7fc81f1e08eeb15f1796422939bda6",
+  "info_00": "fe7f1ba53f8e929096a5169a35641b53e3bba7d63f8344dd8e00beb1340c675c",
+  "info_11": "c43cebcbe6a4c4c2a738036c3651b8562574d3a95140c4d505dcba52fbeab072",
+  "rules_rps": "21e420ed4bd0e042db6e12ce46105bbcda14a3ba4178b9369eaf85b9e828f11c",
+  "rules_mp": "472c6e5c2de81b5af208bc275af8ef61da34b453b7100a99fa8d110da0229cb4"
+ },
+ "games_sha256": "eb5e8043c07dcfac4be8825cac45ac9fb7734898a95c4ad5f26652cd2b736179",
+ "games": [
+  "rps:AA_00_1",
+  "rps:AA_00_2",
+  "rps:AA_11_1",
+  "rps:AA_11_2",
+  "rps:FF_00_1",
+  "rps:FF_00_2",
+  "rps:FF_11_1",
+  "rps:FF_11_2",
+  "rps:QQ_00_1",
+  "rps:QQ_00_2",
+  "rps:QQ_11_1",
+  "rps:QQ_11_2",
+  "mp:AA_00_1",
+  "mp:AA_00_2",
+  "mp:AA_11_1",
+  "mp:AA_11_2",
+  "mp:FF_00_1",
+  "mp:FF_00_2",
+  "mp:FF_11_1",
+  "mp:FF_11_2",
+  "mp:QQ_00_1_MU2",
+  "mp:QQ_00_2",
+  "mp:QQ_11_1_MU6",
+  "mp:QQ_11_2"
+ ],
+ "schedule_sha256": "9d7d8378463b5b8f6028084f47b6f098fd8b6aba8dc19b1d2342023fbf7eb72b",
+ "n_calls": 4320,
+ "false_label": {
+  "astra": "fable",
+  "fable": "qwen",
+  "qwen": "astra"
+ },
+ "sources": {
+  "rps": {
+   "pkg": "opponent_disclosure_rps_3models",
+   "games": "opponent_disclosure_rps_3models/results/rps3m-p2-20261010/with_makeups/game_logs.jsonl"
+  },
+  "mp": {
+   "pkg": "opponent_disclosure_mp_3models",
+   "games": "opponent_disclosure_mp_3models/results/mp3m-p2-20261010/with_makeups/game_logs.jsonl"
+  }
+ },
+ "source_conditions": [
+  "00",
+  "11"
+ ],
+ "info": {
+  "00": "Neither player was told its opponent's model identity.",
+  "11": "Before the game, each player was told the true model identity of its opponent."
+ }
+}

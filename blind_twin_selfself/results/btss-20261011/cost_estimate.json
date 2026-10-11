@@ -1,0 +1,33 @@
+{
+ "per_model": {
+  "astra": {
+   "prior_judge_calls": 2160,
+   "mean_usd": 0.006158601851851852,
+   "p95_usd": 0.00967,
+   "planned_calls": 1440,
+   "expected_usd": 8.868386666666666,
+   "pessimistic_usd": 13.9248
+  },
+  "fable": {
+   "prior_judge_calls": 2160,
+   "mean_usd": 0.007462087962962963,
+   "p95_usd": 0.00954,
+   "planned_calls": 1440,
+   "expected_usd": 10.745406666666666,
+   "pessimistic_usd": 13.7376
+  },
+  "qwen": {
+   "prior_judge_calls": 1440,
+   "mean_usd": 0.0017700028125,
+   "p95_usd": 0.003304375,
+   "planned_calls": 1440,
+   "expected_usd": 2.5488040499999998,
+   "pessimistic_usd": 4.7583
+  }
+ },
+ "expected_total_usd": 22.16259738333333,
+ "pessimistic_total_usd": 32.4207,
+ "pessimistic_with_3pct_retries": 33.393321,
+ "cap_usd": 40.0,
+ "basis": "judge calls in the four earlier Blind Twin runs (same endpoints/settings, similar prompts)"
+}

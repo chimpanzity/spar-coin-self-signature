@@ -1,0 +1,14 @@
+- 2026-10-11 08:34:06 PLAN: 24 games, 4320 judge calls, schedule 9d7d8378463b, games eb5e8043c07d; not approved
+- 2026-10-11 08:34:20 VALIDATE: Result: PASS
+- 2026-10-11 08:34:29 RUN start, cap $40
+- 2026-10-11 08:34:29 judge calls: 4320 scheduled, 0 already recorded, 32 concurrent (spent $0.00, cap $40)
+- 2026-10-11 08:36:21   500 judge calls recorded; spent $2.65
+- 2026-10-11 08:37:57   1000 judge calls recorded; spent $5.48
+- 2026-10-11 08:39:36   1500 judge calls recorded; spent $8.20
+- 2026-10-11 08:41:15   2000 judge calls recorded; spent $10.86
+- 2026-10-11 08:42:55   2500 judge calls recorded; spent $13.48
+- 2026-10-11 08:44:42   3000 judge calls recorded; spent $16.16
+- 2026-10-11 08:46:28   3500 judge calls recorded; spent $18.84
+- 2026-10-11 08:48:05   4000 judge calls recorded; spent $21.69
+- 2026-10-11 08:49:50 RUN complete: REPORT.md written (spent $23.40)
+- 2026-10-11 08:50:15 Report-formatting fix (MP baseline table used RPS column headers); analysis re-run from logged calls. No calls, no estimate changes.

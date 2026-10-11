@@ -1,0 +1,7 @@
+slot_id,judge,status,reason,text_tail
+judge:fable:rps:FF_11_1:r16:FALSE,fable,completed,not_json,",R,P,P,R. P2 often plays what would beat P1's previous move? Round 15 P1 played P, so P2 plays S? Check: round 14 P1 played R, round 15 P2 played R... not consistent. P2's last: P,P,R. After R, P2 played P (2→3), P (7→8), S (10→11), P(12→13). Likely PAPER.
+
+{""player_1"":""SCISSORS"",""player_2"":""PAPER""}"
+judge:fable:rps:QQ_11_2:r06:FALSE,fable,completed,not_json,"ng at the pattern: Player 1 alternates ROCK, SCISSORS, ROCK, SCISSORS; Player 2 alternates PAPER, ROCK, PAPER, ROCK, consistently beating Player 1. Player 1 would likely break the losing pattern, while Player 2 may continue exploiting or anticipate the shift.
+
+{""player_1"":""PAPER"",""player_2"":""PAPER""}"
