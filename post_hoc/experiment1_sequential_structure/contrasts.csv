@@ -1,0 +1,193 @@
+game_type,model,metric,contrast,estimate,lo,hi
+rps,astra,entropy,told_self - uninformed_self,0.006,-0.018,0.03
+rps,astra,entropy,told_other - uninformed_other,-0.005,-0.037,0.028
+rps,astra,entropy,self-specific (interaction),0.011,-0.03,0.049
+rps,astra,switch_rate,told_self - uninformed_self,1.974,-9.868,13.158
+rps,astra,switch_rate,told_other - uninformed_other,6.908,0.987,12.829
+rps,astra,switch_rate,self-specific (interaction),-4.934,-18.421,7.566
+rps,astra,runs_z,told_self - uninformed_self,0.172,-0.925,1.175
+rps,astra,runs_z,told_other - uninformed_other,0.678,0.145,1.198
+rps,astra,runs_z,self-specific (interaction),-0.506,-1.725,0.632
+rps,astra,payoff,told_self - uninformed_self,0.056,0.0,0.109
+rps,astra,payoff,told_other - uninformed_other,0.088,0.036,0.136
+rps,astra,payoff,self-specific (interaction),-0.031,-0.108,0.042
+rps,astra,V_own_lag1,told_self - uninformed_self,0.107,-0.046,0.209
+rps,astra,V_own_lag1,told_other - uninformed_other,0.11,0.007,0.193
+rps,astra,V_own_lag1,self-specific (interaction),-0.003,-0.176,0.136
+rps,astra,V_opp_lag1,told_self - uninformed_self,-0.014,-0.193,0.18
+rps,astra,V_opp_lag1,told_other - uninformed_other,0.003,-0.118,0.135
+rps,astra,V_opp_lag1,self-specific (interaction),-0.018,-0.237,0.204
+rps,astra,V_outcome_lag1,told_self - uninformed_self,-0.031,-0.119,0.117
+rps,astra,V_outcome_lag1,told_other - uninformed_other,-0.062,-0.142,0.042
+rps,astra,V_outcome_lag1,self-specific (interaction),0.031,-0.1,0.198
+rps,astra,V_joint_lag1,told_self - uninformed_self,0.037,-0.142,0.199
+rps,astra,V_joint_lag1,told_other - uninformed_other,0.033,-0.067,0.145
+rps,astra,V_joint_lag1,self-specific (interaction),0.004,-0.209,0.192
+rps,fable,entropy,told_self - uninformed_self,0.022,-0.004,0.053
+rps,fable,entropy,told_other - uninformed_other,0.008,-0.016,0.032
+rps,fable,entropy,self-specific (interaction),0.014,-0.021,0.052
+rps,fable,switch_rate,told_self - uninformed_self,-2.632,-10.526,5.263
+rps,fable,switch_rate,told_other - uninformed_other,1.645,-4.276,7.566
+rps,fable,switch_rate,self-specific (interaction),-4.276,-14.145,5.263
+rps,fable,runs_z,told_self - uninformed_self,-0.357,-1.063,0.332
+rps,fable,runs_z,told_other - uninformed_other,0.122,-0.419,0.65
+rps,fable,runs_z,self-specific (interaction),-0.48,-1.368,0.376
+rps,fable,payoff,told_self - uninformed_self,0.044,-0.056,0.138
+rps,fable,payoff,told_other - uninformed_other,-0.041,-0.086,0.008
+rps,fable,payoff,self-specific (interaction),0.084,-0.028,0.189
+rps,fable,V_own_lag1,told_self - uninformed_self,-0.011,-0.14,0.116
+rps,fable,V_own_lag1,told_other - uninformed_other,0.071,-0.026,0.166
+rps,fable,V_own_lag1,self-specific (interaction),-0.082,-0.238,0.076
+rps,fable,V_opp_lag1,told_self - uninformed_self,0.098,-0.06,0.246
+rps,fable,V_opp_lag1,told_other - uninformed_other,0.031,-0.105,0.141
+rps,fable,V_opp_lag1,self-specific (interaction),0.067,-0.121,0.275
+rps,fable,V_outcome_lag1,told_self - uninformed_self,0.058,-0.076,0.174
+rps,fable,V_outcome_lag1,told_other - uninformed_other,-0.006,-0.102,0.102
+rps,fable,V_outcome_lag1,self-specific (interaction),0.064,-0.115,0.213
+rps,fable,V_joint_lag1,told_self - uninformed_self,0.082,-0.081,0.22
+rps,fable,V_joint_lag1,told_other - uninformed_other,0.062,-0.021,0.13
+rps,fable,V_joint_lag1,self-specific (interaction),0.019,-0.149,0.183
+rps,qwen,entropy,told_self - uninformed_self,0.03,-0.074,0.106
+rps,qwen,entropy,told_other - uninformed_other,-0.035,-0.063,-0.006
+rps,qwen,entropy,self-specific (interaction),0.065,-0.04,0.148
+rps,qwen,switch_rate,told_self - uninformed_self,3.947,-3.289,11.184
+rps,qwen,switch_rate,told_other - uninformed_other,-1.974,-11.184,7.895
+rps,qwen,switch_rate,self-specific (interaction),5.921,-6.25,17.763
+rps,qwen,runs_z,told_self - uninformed_self,0.235,-0.386,0.845
+rps,qwen,runs_z,told_other - uninformed_other,-0.027,-0.879,0.893
+rps,qwen,runs_z,self-specific (interaction),0.262,-0.832,1.327
+rps,qwen,payoff,told_self - uninformed_self,0.025,-0.056,0.106
+rps,qwen,payoff,told_other - uninformed_other,0.044,-0.011,0.1
+rps,qwen,payoff,self-specific (interaction),-0.019,-0.116,0.084
+rps,qwen,V_own_lag1,told_self - uninformed_self,0.008,-0.127,0.122
+rps,qwen,V_own_lag1,told_other - uninformed_other,0.039,-0.102,0.146
+rps,qwen,V_own_lag1,self-specific (interaction),-0.031,-0.207,0.142
+rps,qwen,V_opp_lag1,told_self - uninformed_self,-0.017,-0.193,0.127
+rps,qwen,V_opp_lag1,told_other - uninformed_other,-0.096,-0.186,0.022
+rps,qwen,V_opp_lag1,self-specific (interaction),0.079,-0.136,0.246
+rps,qwen,V_outcome_lag1,told_self - uninformed_self,0.033,-0.053,0.132
+rps,qwen,V_outcome_lag1,told_other - uninformed_other,-0.041,-0.118,0.045
+rps,qwen,V_outcome_lag1,self-specific (interaction),0.074,-0.049,0.196
+rps,qwen,V_joint_lag1,told_self - uninformed_self,-0.034,-0.171,0.1
+rps,qwen,V_joint_lag1,told_other - uninformed_other,-0.088,-0.188,0.036
+rps,qwen,V_joint_lag1,self-specific (interaction),0.054,-0.137,0.212
+rps,all,entropy,told_self - uninformed_self,0.019,-0.02,0.052
+rps,all,entropy,told_other - uninformed_other,-0.01,-0.028,0.007
+rps,all,entropy,self-specific (interaction),0.03,-0.013,0.066
+rps,all,switch_rate,told_self - uninformed_self,1.096,-6.798,8.333
+rps,all,switch_rate,told_other - uninformed_other,2.193,-2.412,6.579
+rps,all,switch_rate,self-specific (interaction),-1.096,-9.978,7.785
+rps,all,runs_z,told_self - uninformed_self,0.017,-0.659,0.661
+rps,all,runs_z,told_other - uninformed_other,0.258,-0.171,0.651
+rps,all,runs_z,self-specific (interaction),-0.241,-1.024,0.559
+rps,all,payoff,told_self - uninformed_self,0.042,-0.008,0.09
+rps,all,payoff,told_other - uninformed_other,0.03,-0.003,0.063
+rps,all,payoff,self-specific (interaction),0.011,-0.047,0.068
+rps,all,V_own_lag1,told_self - uninformed_self,0.071,-0.035,0.156
+rps,all,V_own_lag1,told_other - uninformed_other,0.07,-0.005,0.137
+rps,all,V_own_lag1,self-specific (interaction),0.001,-0.125,0.115
+rps,all,V_opp_lag1,told_self - uninformed_self,-0.005,-0.119,0.117
+rps,all,V_opp_lag1,told_other - uninformed_other,0.004,-0.071,0.084
+rps,all,V_opp_lag1,self-specific (interaction),-0.008,-0.151,0.132
+rps,all,V_outcome_lag1,told_self - uninformed_self,0.007,-0.058,0.08
+rps,all,V_outcome_lag1,told_other - uninformed_other,0.009,-0.04,0.053
+rps,all,V_outcome_lag1,self-specific (interaction),-0.002,-0.079,0.085
+rps,all,V_joint_lag1,told_self - uninformed_self,0.051,-0.061,0.155
+rps,all,V_joint_lag1,told_other - uninformed_other,0.061,-0.012,0.123
+rps,all,V_joint_lag1,self-specific (interaction),-0.01,-0.134,0.114
+mp,astra,entropy,told_self - uninformed_self,0.009,-0.006,0.027
+mp,astra,entropy,told_other - uninformed_other,-0.011,-0.03,0.004
+mp,astra,entropy,self-specific (interaction),0.02,-0.002,0.045
+mp,astra,switch_rate,told_self - uninformed_self,3.947,-3.289,12.5
+mp,astra,switch_rate,told_other - uninformed_other,5.263,-0.329,10.855
+mp,astra,switch_rate,self-specific (interaction),-1.316,-10.526,8.553
+mp,astra,runs_z,told_self - uninformed_self,0.296,-0.347,1.018
+mp,astra,runs_z,told_other - uninformed_other,0.556,0.065,1.062
+mp,astra,runs_z,self-specific (interaction),-0.259,-1.068,0.613
+mp,astra,payoff,told_self - uninformed_self,0.025,-0.019,0.075
+mp,astra,payoff,told_other - uninformed_other,0.028,-0.028,0.081
+mp,astra,payoff,self-specific (interaction),-0.003,-0.075,0.072
+mp,astra,V_own_lag1,told_self - uninformed_self,0.062,-0.091,0.144
+mp,astra,V_own_lag1,told_other - uninformed_other,0.079,-0.032,0.141
+mp,astra,V_own_lag1,self-specific (interaction),-0.017,-0.171,0.125
+mp,astra,V_opp_lag1,told_self - uninformed_self,-0.051,-0.201,0.383
+mp,astra,V_opp_lag1,told_other - uninformed_other,-0.013,-0.133,0.197
+mp,astra,V_opp_lag1,self-specific (interaction),-0.038,-0.279,0.394
+mp,astra,V_outcome_lag1,told_self - uninformed_self,-0.025,-0.118,0.153
+mp,astra,V_outcome_lag1,told_other - uninformed_other,-0.101,-0.161,0.029
+mp,astra,V_outcome_lag1,self-specific (interaction),0.076,-0.073,0.253
+mp,astra,V_joint_lag1,told_self - uninformed_self,-0.005,-0.179,0.312
+mp,astra,V_joint_lag1,told_other - uninformed_other,0.048,-0.078,0.199
+mp,astra,V_joint_lag1,self-specific (interaction),-0.053,-0.266,0.279
+mp,fable,entropy,told_self - uninformed_self,-0.004,-0.017,0.013
+mp,fable,entropy,told_other - uninformed_other,-0.007,-0.02,0.005
+mp,fable,entropy,self-specific (interaction),0.004,-0.016,0.024
+mp,fable,switch_rate,told_self - uninformed_self,3.947,-4.605,13.158
+mp,fable,switch_rate,told_other - uninformed_other,-0.329,-4.605,4.276
+mp,fable,switch_rate,self-specific (interaction),4.276,-5.592,14.474
+mp,fable,runs_z,told_self - uninformed_self,0.387,-0.41,1.218
+mp,fable,runs_z,told_other - uninformed_other,0.021,-0.345,0.392
+mp,fable,runs_z,self-specific (interaction),0.366,-0.519,1.29
+mp,fable,payoff,told_self - uninformed_self,-0.05,-0.144,0.056
+mp,fable,payoff,told_other - uninformed_other,-0.019,-0.084,0.047
+mp,fable,payoff,self-specific (interaction),-0.031,-0.144,0.094
+mp,fable,V_own_lag1,told_self - uninformed_self,0.078,-0.094,0.264
+mp,fable,V_own_lag1,told_other - uninformed_other,0.004,-0.082,0.091
+mp,fable,V_own_lag1,self-specific (interaction),0.074,-0.123,0.281
+mp,fable,V_opp_lag1,told_self - uninformed_self,0.024,-0.22,0.152
+mp,fable,V_opp_lag1,told_other - uninformed_other,0.005,-0.138,0.098
+mp,fable,V_opp_lag1,self-specific (interaction),0.019,-0.235,0.201
+mp,fable,V_outcome_lag1,told_self - uninformed_self,-0.082,-0.219,0.078
+mp,fable,V_outcome_lag1,told_other - uninformed_other,0.002,-0.123,0.152
+mp,fable,V_outcome_lag1,self-specific (interaction),-0.084,-0.29,0.124
+mp,fable,V_joint_lag1,told_self - uninformed_self,0.043,-0.168,0.22
+mp,fable,V_joint_lag1,told_other - uninformed_other,-0.024,-0.128,0.087
+mp,fable,V_joint_lag1,self-specific (interaction),0.067,-0.173,0.277
+mp,qwen,entropy,told_self - uninformed_self,-0.006,-0.023,0.008
+mp,qwen,entropy,told_other - uninformed_other,-0.002,-0.012,0.007
+mp,qwen,entropy,self-specific (interaction),-0.003,-0.023,0.014
+mp,qwen,switch_rate,told_self - uninformed_self,11.184,1.974,20.395
+mp,qwen,switch_rate,told_other - uninformed_other,3.947,-1.316,9.539
+mp,qwen,switch_rate,self-specific (interaction),7.237,-3.618,18.421
+mp,qwen,runs_z,told_self - uninformed_self,1.03,0.214,1.888
+mp,qwen,runs_z,told_other - uninformed_other,0.373,-0.096,0.875
+mp,qwen,runs_z,self-specific (interaction),0.657,-0.305,1.662
+mp,qwen,payoff,told_self - uninformed_self,-0.05,-0.15,0.062
+mp,qwen,payoff,told_other - uninformed_other,0.097,0.041,0.153
+mp,qwen,payoff,self-specific (interaction),-0.147,-0.263,-0.019
+mp,qwen,V_own_lag1,told_self - uninformed_self,-0.114,-0.258,0.071
+mp,qwen,V_own_lag1,told_other - uninformed_other,0.076,-0.029,0.152
+mp,qwen,V_own_lag1,self-specific (interaction),-0.19,-0.35,0.028
+mp,qwen,V_opp_lag1,told_self - uninformed_self,-0.012,-0.21,0.157
+mp,qwen,V_opp_lag1,told_other - uninformed_other,0.003,-0.161,0.121
+mp,qwen,V_opp_lag1,self-specific (interaction),-0.015,-0.24,0.224
+mp,qwen,V_outcome_lag1,told_self - uninformed_self,0.091,-0.14,0.249
+mp,qwen,V_outcome_lag1,told_other - uninformed_other,0.133,-0.025,0.248
+mp,qwen,V_outcome_lag1,self-specific (interaction),-0.042,-0.296,0.186
+mp,qwen,V_joint_lag1,told_self - uninformed_self,-0.093,-0.264,0.095
+mp,qwen,V_joint_lag1,told_other - uninformed_other,0.125,-0.034,0.2
+mp,qwen,V_joint_lag1,self-specific (interaction),-0.218,-0.393,0.043
+mp,all,entropy,told_self - uninformed_self,0.0,-0.009,0.01
+mp,all,entropy,told_other - uninformed_other,-0.007,-0.015,0.001
+mp,all,entropy,self-specific (interaction),0.007,-0.005,0.02
+mp,all,switch_rate,told_self - uninformed_self,6.36,0.439,12.5
+mp,all,switch_rate,told_other - uninformed_other,2.961,-0.219,6.14
+mp,all,switch_rate,self-specific (interaction),3.399,-3.18,9.978
+mp,all,runs_z,told_self - uninformed_self,0.571,0.049,1.113
+mp,all,runs_z,told_other - uninformed_other,0.316,0.046,0.587
+mp,all,runs_z,self-specific (interaction),0.255,-0.343,0.841
+mp,all,payoff,told_self - uninformed_self,-0.025,-0.075,0.027
+mp,all,payoff,told_other - uninformed_other,0.035,-0.0,0.072
+mp,all,payoff,self-specific (interaction),-0.06,-0.121,0.002
+mp,all,V_own_lag1,told_self - uninformed_self,0.124,-0.002,0.187
+mp,all,V_own_lag1,told_other - uninformed_other,0.061,-0.002,0.121
+mp,all,V_own_lag1,self-specific (interaction),0.063,-0.081,0.147
+mp,all,V_opp_lag1,told_self - uninformed_self,0.007,-0.106,0.141
+mp,all,V_opp_lag1,told_other - uninformed_other,0.035,-0.066,0.103
+mp,all,V_opp_lag1,self-specific (interaction),-0.028,-0.147,0.145
+mp,all,V_outcome_lag1,told_self - uninformed_self,-0.032,-0.123,0.082
+mp,all,V_outcome_lag1,told_other - uninformed_other,0.032,-0.058,0.119
+mp,all,V_outcome_lag1,self-specific (interaction),-0.063,-0.183,0.084
+mp,all,V_joint_lag1,told_self - uninformed_self,0.134,-0.021,0.209
+mp,all,V_joint_lag1,told_other - uninformed_other,0.069,-0.014,0.137
+mp,all,V_joint_lag1,self-specific (interaction),0.065,-0.104,0.162

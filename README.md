@@ -50,6 +50,7 @@ use default sampling with low hidden reasoning.
 | **Exp. 2: Blind Twin on Exp. 1 logs** | 3 judges × 3 labels on the 36 games where neither player was told (6,480 calls) | S_RPS = +1.8 [−0.7, +4.4], S_MP = +1.5 [−1.0, +4.2]; Fable-on-Fable TRUE > ANON > FALSE in both games | [`blind_twin_exp1/`](blind_twin_exp1/) |
 | Exp. 2 self-self pilot | Self-self games, 00 vs 11, judge told what the players knew | Δ self-specific RPS −4.8 [−9.6, 0.0], MP 0.0: no support for "informed twins are easier for a twin to read" | [`blind_twin_selfself/`](blind_twin_selfself/) |
 | Judge test-retest | Byte-identical prompts re-judged | 80% of predictions reproduce (Fable 88%, Astra 85%, Qwen 67%); a 40-item cell moves ~5 pp, T = TRUE − ANON ~7 pp | [`blind_twin_selfself/results/btss-retest-20261011/`](blind_twin_selfself/results/btss-retest-20261011/) |
+| PACA believed-self pilot | PACA forecasting task vs Proteus or an IID coin; one sentence says the landings come from "another instance of your model" vs "a different language model"; Fable and Astra, 1 × 200-trial session per cell | No consistent accuracy effect; the frame shifts history dependence in opposite directions for Fable (more expected switching) and Astra (less); one session per cell, so a candidate effect only. Qwen not run (≈30k reasoning tokens per forecast) | [`paca_believed_self/`](paca_believed_self/) |
 | Post-hoc analyses (offline) | Strategy measures; self-advantage by opponent; round-1 robustness; observation-equivalence calibration | No self-specific strategy change; a general RPS disclosure effect (players counter a *named* opponent ~5.5 pp more); Fable's self-advantage is in cross-model games | [`post_hoc/`](post_hoc/) |
 
 Full write-up for Study 1 Experiment 1 (design, completion, amendments, make-up protocol, budget):
@@ -114,6 +115,7 @@ blind_twin_retest.py                   judge test-retest driver
 experiment1_post_hoc_strategy.py       post-hoc strategy measures      -> post_hoc/experiment1_strategy_measures/
 experiment2_observation_equivalence.py classifier calibration of judges -> post_hoc/experiment2_observation_equivalence/
 post_hoc/experiment2_by_opponent/      self-advantage by opponent; round-1 robustness
+paca_believed_self/                    PACA believed-self generator pilot (own task/, code/, data/, tests/; PACA files vendored)
 tests/                                 unit + fake-transport tests for every package (pytest)
 ```
 
@@ -147,7 +149,8 @@ On a laptop, keep the machine awake (`caffeinate -i`); idle sleep stalled one ov
 | Opponent disclosure pilot | $7.05 |
 | Study 1 Exp. 1 (RPS $22.61, MP $27.36, incl. make-ups) | $49.97 |
 | Exp. 2 Blind Twin on logs / self-self pilot / test-retest | $33.06 / $23.40 / $5.77 |
-| **Total** | **~$229** |
+| PACA believed-self pilot (Fable, Astra; incl. preflight) | $22.44 |
+| **Total** | **~$251** |
 
 ## Related work
 

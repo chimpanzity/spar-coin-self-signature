@@ -1,0 +1,33 @@
+{
+ "per_model": {
+  "fable": {
+   "calls": 800,
+   "mean_prompt_tokens": 358,
+   "mean_completion_tokens": 347,
+   "p95_completion_tokens": 818,
+   "expected_usd": 16.744,
+   "pessimistic_usd": 35.583999999999996
+  },
+  "astra": {
+   "calls": 800,
+   "mean_prompt_tokens": 205,
+   "mean_completion_tokens": 62,
+   "p95_completion_tokens": 148,
+   "expected_usd": 4.12,
+   "pessimistic_usd": 7.5600000000000005
+  },
+  "qwen": {
+   "calls": 800,
+   "mean_prompt_tokens": 300,
+   "mean_completion_tokens": 1200,
+   "p95_completion_tokens": 4000,
+   "expected_usd": 2.5500000000000003,
+   "pessimistic_usd": 8.262
+  }
+ },
+ "expected_total_usd": 23.414,
+ "pessimistic_total_usd": 51.406,
+ "preflight_usd_upper": 0.6000000000000001,
+ "retry_allowance": "3% of pessimistic",
+ "cap_usd": 60.0
+}

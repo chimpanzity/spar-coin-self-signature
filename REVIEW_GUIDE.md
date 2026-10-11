@@ -107,7 +107,9 @@ rock-paper-scissors (RPS) and matching pennies (MP). In MP, Player 1 is the Matc
    [judge test-retest](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin_selfself/results/btss-retest-20261011/REPORT.md).
 6. Post-hoc: [strategy measures](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/post_hoc/experiment1_strategy_measures/REPORT.md) and
    [observation-equivalence calibration](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/post_hoc/experiment2_observation_equivalence/REPORT.md).
-7. Protocols: each package's `protocol.md`. Earlier pilots: [Blind Twin v1/v2](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin/protocol.md),
+7. [PACA believed-self pilot report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/paca_believed_self/data/believed_self_pilot/analysis/REPORT.md)
+   (forecasting a sequence believed to come from "another instance of your model"; see `paca_believed_self/README.md`).
+8. Protocols: each package's `protocol.md`. Earlier pilots: [Blind Twin v1/v2](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin/protocol.md),
    [Blind Twin RPS](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin_rps/protocol.md), [opponent disclosure (Astra-Astra MP)](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/opponent_disclosure/protocol.md).
 
 **Key terms:**
