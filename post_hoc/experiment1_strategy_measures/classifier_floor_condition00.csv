@@ -1,0 +1,7 @@
+game_type,target_model,n_player_games,predA_acc,predC_acc,predU_acc
+rps,astra,12,55.83,50.42,50.42
+rps,fable,12,55.83,55.0,51.25
+rps,qwen,12,49.17,49.17,47.5
+mp,astra,12,68.33,60.42,68.75
+mp,fable,12,70.83,58.75,65.0
+mp,qwen,12,53.75,62.5,52.5

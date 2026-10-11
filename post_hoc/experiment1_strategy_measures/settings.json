@@ -1,0 +1,10 @@
+{
+ "min_n": 8,
+ "seed": 20261011,
+ "n_boot": 4000,
+ "sources": {
+  "rps": "opponent_disclosure_rps_3models/results/rps3m-p2-20261010/with_makeups/rounds.csv",
+  "mp": "opponent_disclosure_mp_3models/results/mp3m-p2-20261010/with_makeups/rounds.csv"
+ },
+ "n_player_games": 288
+}

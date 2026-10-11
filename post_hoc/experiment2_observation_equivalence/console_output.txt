@@ -1,0 +1,28 @@
+# Observation equivalence: how many logged games match the LLM judges? (exploratory, 2026-10-11)
+
+History-only n-gram predictor trained on k player-games of the target model (same_model) or of the other two
+models only (other_models), evaluated on the condition-00 games Experiment 2 judged. Judge figures from
+`blind_twin_exp1/results/btx1-20261010/REPORT.md`. Accuracy in percent; chance RPS 33.3, MP 50.0.
+
+## RPS
+
+| target | predictor | k=0 | k=1 | k=2 | k=3 | k=5 | k=8 | k=12 | k=16 | k=24 | k=32 | k=47 | self-judge TRUE | self-judge ANON | best other judge TRUE | k to match self TRUE |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| astra | same_model | 34.6 | 37.2 | 38.7 | 38.4 | 38.5 | 42.2 | 42.2 | 45.4 | 47.5 | 51.8 | 55.8 | 43.8 | 40.0 | 40.8 | 16 |
+| astra | other_models | 34.6 | 35.3 | 37.9 | 38.0 | 38.9 | 39.5 | 39.5 | 40.3 | 40.6 | 42.7 | 45.7 | 43.8 | 40.0 | 40.8 | 47 |
+| fable | same_model | 27.5 | 38.3 | 44.4 | 42.9 | 46.0 | 48.4 | 49.7 | 49.8 | 52.3 | 55.3 | 55.8 | 53.4 | 45.0 | 46.7 | 32 |
+| fable | other_models | 27.5 | 37.3 | 39.0 | 40.2 | 40.2 | 39.3 | 39.9 | 40.4 | 40.1 | 44.6 | 49.1 | 53.4 | 45.0 | 46.7 | > 47 |
+| qwen | same_model | 30.0 | 36.4 | 33.9 | 36.8 | 39.7 | 43.0 | 42.5 | 43.0 | 44.5 | 45.5 | 49.2 | 37.5 | 38.8 | 46.3 | 5 |
+| qwen | other_models | 30.0 | 34.8 | 36.2 | 37.5 | 37.7 | 37.3 | 37.4 | 37.9 | 40.3 | 41.0 | 46.9 | 37.5 | 38.8 | 46.3 | 3 |
+
+## MP
+
+| target | predictor | k=0 | k=1 | k=2 | k=3 | k=5 | k=8 | k=12 | k=16 | k=24 | k=32 | k=47 | self-judge TRUE | self-judge ANON | best other judge TRUE | k to match self TRUE |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| astra | same_model | 53.3 | 54.4 | 54.4 | 55.7 | 59.5 | 60.4 | 63.8 | 65.0 | 67.1 | 67.9 | 68.3 | 58.3 | 55.0 | 58.3 | 5 |
+| astra | other_models | 53.3 | 53.7 | 53.3 | 55.4 | 53.5 | 55.9 | 58.0 | 58.8 | 61.5 | 60.9 | 60.9 | 58.3 | 55.0 | 58.3 | 16 |
+| fable | same_model | 51.2 | 52.9 | 53.4 | 53.6 | 56.5 | 56.6 | 59.5 | 62.6 | 66.7 | 67.2 | 70.8 | 65.0 | 62.1 | 55.4 | 24 |
+| fable | other_models | 51.2 | 52.2 | 52.2 | 52.4 | 54.6 | 52.8 | 53.4 | 54.0 | 56.5 | 56.8 | 57.9 | 65.0 | 62.1 | 55.4 | > 47 |
+| qwen | same_model | 52.5 | 52.5 | 50.9 | 51.1 | 50.5 | 50.6 | 52.3 | 54.3 | 54.3 | 53.9 | 53.8 | 56.7 | 58.3 | 57.5 | > 47 |
+| qwen | other_models | 52.5 | 52.5 | 52.2 | 53.8 | 51.0 | 51.0 | 50.7 | 53.1 | 57.0 | 57.2 | 59.8 | 56.7 | 58.3 | 57.5 | 24 |
+

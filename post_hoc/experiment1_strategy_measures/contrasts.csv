@@ -1,0 +1,169 @@
+game_type,model,contrast,metric,estimate,lo,hi
+rps,astra,told_self - uninformed_self,predA_acc,-8.75,-19.38,3.12
+rps,astra,told_other - uninformed_other,predA_acc,-0.94,-9.69,7.81
+rps,astra,self-specific (interaction),predA_acc,-7.81,-21.88,6.56
+rps,astra,told_self - uninformed_self,predB_acc,1.88,-6.88,10.62
+rps,astra,told_other - uninformed_other,predB_acc,4.69,-0.19,9.69
+rps,astra,self-specific (interaction),predB_acc,-2.81,-13.25,7.12
+rps,astra,told_self - uninformed_self,logloss_A,0.054,-0.071,0.17
+rps,astra,told_other - uninformed_other,logloss_A,0.061,-0.028,0.156
+rps,astra,self-specific (interaction),logloss_A,-0.007,-0.162,0.14
+rps,astra,told_self - uninformed_self,logloss_pooled,0.037,-0.07,0.141
+rps,astra,told_other - uninformed_other,logloss_pooled,0.053,-0.031,0.139
+rps,astra,self-specific (interaction),logloss_pooled,-0.016,-0.152,0.113
+rps,astra,told_self - uninformed_self,align_opp_model,4.38,-1.88,11.25
+rps,astra,told_other - uninformed_other,align_opp_model,8.75,1.56,15.94
+rps,astra,self-specific (interaction),align_opp_model,-4.38,-14.38,5.62
+rps,astra,told_self - uninformed_self,align_own_model,4.38,-1.88,11.25
+rps,astra,told_other - uninformed_other,align_own_model,0.94,-6.25,7.81
+rps,astra,self-specific (interaction),align_own_model,3.44,-6.25,13.12
+rps,astra,told_self - uninformed_self,payoff,0.06,-0.0,0.11
+rps,astra,told_other - uninformed_other,payoff,0.09,0.04,0.14
+rps,astra,self-specific (interaction),payoff,-0.03,-0.11,0.05
+rps,fable,told_self - uninformed_self,predA_acc,5.0,-2.5,12.5
+rps,fable,told_other - uninformed_other,predA_acc,-7.19,-12.81,-1.88
+rps,fable,self-specific (interaction),predA_acc,12.19,2.5,21.88
+rps,fable,told_self - uninformed_self,predB_acc,0.62,-11.25,13.12
+rps,fable,told_other - uninformed_other,predB_acc,2.19,-2.19,6.62
+rps,fable,self-specific (interaction),predB_acc,-1.56,-14.06,11.5
+rps,fable,told_self - uninformed_self,logloss_A,0.064,-0.074,0.199
+rps,fable,told_other - uninformed_other,logloss_A,0.009,-0.047,0.066
+rps,fable,self-specific (interaction),logloss_A,0.054,-0.097,0.2
+rps,fable,told_self - uninformed_self,logloss_pooled,0.108,-0.013,0.236
+rps,fable,told_other - uninformed_other,logloss_pooled,0.107,0.04,0.173
+rps,fable,self-specific (interaction),logloss_pooled,0.0,-0.136,0.144
+rps,fable,told_self - uninformed_self,align_opp_model,1.25,-8.12,11.25
+rps,fable,told_other - uninformed_other,align_opp_model,1.88,-4.38,8.44
+rps,fable,self-specific (interaction),align_opp_model,-0.62,-12.19,10.94
+rps,fable,told_self - uninformed_self,align_own_model,1.25,-8.12,11.25
+rps,fable,told_other - uninformed_other,align_own_model,10.31,2.81,17.81
+rps,fable,self-specific (interaction),align_own_model,-9.06,-20.94,3.12
+rps,fable,told_self - uninformed_self,payoff,0.04,-0.06,0.14
+rps,fable,told_other - uninformed_other,payoff,-0.04,-0.09,0.01
+rps,fable,self-specific (interaction),payoff,0.08,-0.02,0.2
+rps,qwen,told_self - uninformed_self,predA_acc,-5.62,-15.0,3.75
+rps,qwen,told_other - uninformed_other,predA_acc,-1.56,-8.44,5.0
+rps,qwen,self-specific (interaction),predA_acc,-4.06,-15.94,7.81
+rps,qwen,told_self - uninformed_self,predB_acc,-11.25,-20.0,-2.5
+rps,qwen,told_other - uninformed_other,predB_acc,-5.38,-11.81,1.12
+rps,qwen,self-specific (interaction),predB_acc,-5.88,-16.81,5.06
+rps,qwen,told_self - uninformed_self,logloss_A,0.164,0.051,0.282
+rps,qwen,told_other - uninformed_other,logloss_A,0.111,0.027,0.191
+rps,qwen,self-specific (interaction),logloss_A,0.053,-0.092,0.195
+rps,qwen,told_self - uninformed_self,logloss_pooled,0.071,-0.046,0.179
+rps,qwen,told_other - uninformed_other,logloss_pooled,0.012,-0.065,0.088
+rps,qwen,self-specific (interaction),logloss_pooled,0.058,-0.081,0.195
+rps,qwen,told_self - uninformed_self,align_opp_model,0.62,-10.62,11.88
+rps,qwen,told_other - uninformed_other,align_opp_model,5.94,-1.56,14.06
+rps,qwen,self-specific (interaction),align_opp_model,-5.31,-19.38,8.12
+rps,qwen,told_self - uninformed_self,align_own_model,0.62,-10.62,11.25
+rps,qwen,told_other - uninformed_other,align_own_model,6.25,-0.94,13.12
+rps,qwen,self-specific (interaction),align_own_model,-5.62,-18.75,7.5
+rps,qwen,told_self - uninformed_self,payoff,0.03,-0.06,0.11
+rps,qwen,told_other - uninformed_other,payoff,0.04,-0.01,0.1
+rps,qwen,self-specific (interaction),payoff,-0.02,-0.12,0.08
+rps,all,told_self - uninformed_self,predA_acc,-3.12,-9.58,3.33
+rps,all,told_other - uninformed_other,predA_acc,-3.23,-7.5,0.94
+rps,all,self-specific (interaction),predA_acc,0.1,-7.71,7.92
+rps,all,told_self - uninformed_self,predB_acc,-2.92,-9.79,4.38
+rps,all,told_other - uninformed_other,predB_acc,0.5,-2.83,3.96
+rps,all,self-specific (interaction),predB_acc,-3.42,-11.21,4.54
+rps,all,told_self - uninformed_self,logloss_A,0.094,0.016,0.166
+rps,all,told_other - uninformed_other,logloss_A,0.06,0.012,0.109
+rps,all,self-specific (interaction),logloss_A,0.033,-0.059,0.123
+rps,all,told_self - uninformed_self,logloss_pooled,0.072,-0.004,0.144
+rps,all,told_other - uninformed_other,logloss_pooled,0.058,0.012,0.106
+rps,all,self-specific (interaction),logloss_pooled,0.014,-0.073,0.104
+rps,all,told_self - uninformed_self,align_opp_model,2.08,-4.58,8.96
+rps,all,told_other - uninformed_other,align_opp_model,5.52,1.35,9.79
+rps,all,self-specific (interaction),align_opp_model,-3.44,-11.25,4.69
+rps,all,told_self - uninformed_self,align_own_model,2.08,-4.17,8.54
+rps,all,told_other - uninformed_other,align_own_model,5.83,1.35,10.21
+rps,all,self-specific (interaction),align_own_model,-3.75,-11.56,4.38
+rps,all,told_self - uninformed_self,payoff,0.04,-0.01,0.09
+rps,all,told_other - uninformed_other,payoff,0.03,-0.0,0.06
+rps,all,self-specific (interaction),payoff,0.01,-0.05,0.07
+mp,astra,told_self - uninformed_self,predA_acc,0.62,-10.62,11.88
+mp,astra,told_other - uninformed_other,predA_acc,6.25,-0.94,13.75
+mp,astra,self-specific (interaction),predA_acc,-5.62,-19.38,7.19
+mp,astra,told_self - uninformed_self,predB_acc,5.0,-10.0,16.25
+mp,astra,told_other - uninformed_other,predB_acc,4.31,-1.12,9.56
+mp,astra,self-specific (interaction),predB_acc,0.69,-15.44,13.19
+mp,astra,told_self - uninformed_self,logloss_A,0.021,-0.091,0.147
+mp,astra,told_other - uninformed_other,logloss_A,-0.06,-0.147,0.028
+mp,astra,self-specific (interaction),logloss_A,0.081,-0.064,0.233
+mp,astra,told_self - uninformed_self,logloss_pooled,-0.002,-0.071,0.069
+mp,astra,told_other - uninformed_other,logloss_pooled,-0.047,-0.096,0.003
+mp,astra,self-specific (interaction),logloss_pooled,0.045,-0.039,0.133
+mp,astra,told_self - uninformed_self,align_opp_model,-1.88,-12.5,8.12
+mp,astra,told_other - uninformed_other,align_opp_model,-0.31,-7.5,7.19
+mp,astra,self-specific (interaction),align_opp_model,-1.56,-14.69,10.62
+mp,astra,told_self - uninformed_self,align_own_model,-1.88,-12.5,8.12
+mp,astra,told_other - uninformed_other,align_own_model,-2.19,-9.06,5.0
+mp,astra,self-specific (interaction),align_own_model,0.31,-12.81,12.5
+mp,astra,told_self - uninformed_self,payoff,0.03,-0.02,0.07
+mp,astra,told_other - uninformed_other,payoff,0.03,-0.03,0.08
+mp,astra,self-specific (interaction),payoff,-0.0,-0.07,0.07
+mp,fable,told_self - uninformed_self,predA_acc,0.62,-7.5,9.38
+mp,fable,told_other - uninformed_other,predA_acc,-5.0,-12.19,2.5
+mp,fable,self-specific (interaction),predA_acc,5.62,-5.31,17.19
+mp,fable,told_self - uninformed_self,predB_acc,1.25,-6.88,10.0
+mp,fable,told_other - uninformed_other,predB_acc,-0.56,-5.56,4.44
+mp,fable,self-specific (interaction),predB_acc,1.81,-7.81,11.69
+mp,fable,told_self - uninformed_self,logloss_A,-0.043,-0.117,0.03
+mp,fable,told_other - uninformed_other,logloss_A,0.031,-0.023,0.086
+mp,fable,self-specific (interaction),logloss_A,-0.074,-0.165,0.016
+mp,fable,told_self - uninformed_self,logloss_pooled,0.008,-0.07,0.095
+mp,fable,told_other - uninformed_other,logloss_pooled,0.03,-0.008,0.07
+mp,fable,self-specific (interaction),logloss_pooled,-0.021,-0.11,0.073
+mp,fable,told_self - uninformed_self,align_opp_model,-3.12,-10.0,4.38
+mp,fable,told_other - uninformed_other,align_opp_model,1.56,-5.94,9.06
+mp,fable,self-specific (interaction),align_opp_model,-4.69,-15.0,5.94
+mp,fable,told_self - uninformed_self,align_own_model,-3.12,-10.0,3.75
+mp,fable,told_other - uninformed_other,align_own_model,2.19,-5.62,10.0
+mp,fable,self-specific (interaction),align_own_model,-5.31,-16.25,5.31
+mp,fable,told_self - uninformed_self,payoff,-0.05,-0.14,0.06
+mp,fable,told_other - uninformed_other,payoff,-0.02,-0.08,0.04
+mp,fable,self-specific (interaction),payoff,-0.03,-0.14,0.09
+mp,qwen,told_self - uninformed_self,predA_acc,2.5,-7.5,13.12
+mp,qwen,told_other - uninformed_other,predA_acc,2.19,-6.25,11.25
+mp,qwen,self-specific (interaction),predA_acc,0.31,-12.81,13.75
+mp,qwen,told_self - uninformed_self,predB_acc,-7.5,-16.25,1.25
+mp,qwen,told_other - uninformed_other,predB_acc,5.44,0.88,10.44
+mp,qwen,self-specific (interaction),predB_acc,-12.94,-22.81,-3.31
+mp,qwen,told_self - uninformed_self,logloss_A,0.028,-0.044,0.106
+mp,qwen,told_other - uninformed_other,logloss_A,-0.016,-0.065,0.03
+mp,qwen,self-specific (interaction),logloss_A,0.045,-0.038,0.135
+mp,qwen,told_self - uninformed_self,logloss_pooled,-0.022,-0.103,0.05
+mp,qwen,told_other - uninformed_other,logloss_pooled,0.023,-0.03,0.078
+mp,qwen,self-specific (interaction),logloss_pooled,-0.045,-0.141,0.046
+mp,qwen,told_self - uninformed_self,align_opp_model,11.25,4.38,18.12
+mp,qwen,told_other - uninformed_other,align_opp_model,4.69,-2.81,12.5
+mp,qwen,self-specific (interaction),align_opp_model,6.56,-3.75,16.88
+mp,qwen,told_self - uninformed_self,align_own_model,11.25,4.38,18.75
+mp,qwen,told_other - uninformed_other,align_own_model,2.81,-5.0,10.94
+mp,qwen,self-specific (interaction),align_own_model,8.44,-2.19,18.75
+mp,qwen,told_self - uninformed_self,payoff,-0.05,-0.15,0.06
+mp,qwen,told_other - uninformed_other,payoff,0.1,0.04,0.15
+mp,qwen,self-specific (interaction),payoff,-0.15,-0.26,-0.03
+mp,all,told_self - uninformed_self,predA_acc,1.25,-5.0,7.5
+mp,all,told_other - uninformed_other,predA_acc,1.15,-4.06,6.56
+mp,all,self-specific (interaction),predA_acc,0.1,-8.13,8.33
+mp,all,told_self - uninformed_self,predB_acc,-0.42,-7.71,6.67
+mp,all,told_other - uninformed_other,predB_acc,3.06,-0.02,6.21
+mp,all,self-specific (interaction),predB_acc,-3.48,-11.27,4.44
+mp,all,told_self - uninformed_self,logloss_A,0.002,-0.062,0.063
+mp,all,told_other - uninformed_other,logloss_A,-0.015,-0.059,0.027
+mp,all,self-specific (interaction),logloss_A,0.017,-0.058,0.094
+mp,all,told_self - uninformed_self,logloss_pooled,-0.005,-0.056,0.043
+mp,all,told_other - uninformed_other,logloss_pooled,0.002,-0.028,0.034
+mp,all,self-specific (interaction),logloss_pooled,-0.007,-0.066,0.048
+mp,all,told_self - uninformed_self,align_opp_model,2.08,-3.75,7.71
+mp,all,told_other - uninformed_other,align_opp_model,1.98,-2.5,6.46
+mp,all,self-specific (interaction),align_opp_model,0.1,-7.08,7.19
+mp,all,told_self - uninformed_self,align_own_model,2.08,-3.54,7.71
+mp,all,told_other - uninformed_other,align_own_model,0.94,-3.65,5.52
+mp,all,self-specific (interaction),align_own_model,1.15,-6.15,8.54
+mp,all,told_self - uninformed_self,payoff,-0.03,-0.08,0.03
+mp,all,told_other - uninformed_other,payoff,0.04,0.0,0.07
+mp,all,self-specific (interaction),payoff,-0.06,-0.12,0.0
