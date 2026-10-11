@@ -1,0 +1,96 @@
+- 2026-10-10 15:10:34 PLAN: manifest (72 games, schedule e2737f77779f), config, snapshots, cost estimate written; not approved
+- 2026-10-10 15:10:37 VALIDATE: Result: PASS
+- 2026-10-10 16:19:17 RUN start, cap $60
+- 2026-10-10 16:19:17 games: 72 scheduled, 16 concurrent (spent so far $0.00, cap $60)
+- 2026-10-10 16:20:19 LIVE START FAILED before any request (0 calls, $0): KeyError in live price lookup (plan snapshot format not read by Runner). Fixed (snapshot_prices); re-freezing with the same schedule; Chris's approval stands for this cohort and cap.
+- 2026-10-10 16:20:19 PLAN: manifest (72 games, schedule e2737f77779f), config, snapshots, cost estimate written; not approved
+- 2026-10-10 16:20:22 VALIDATE: Result: PASS
+- 2026-10-10 16:44:28 RUN start, cap $60
+- 2026-10-10 16:44:28 games: 72 scheduled, 16 concurrent (spent so far $0.00, cap $60)
+- 2026-10-10 16:45:06   1/72 games done; last QA_01_1 interrupted invalid response at round 4: {'p1': 'final_line_not_exact_choice'}; spent $1.16
+- 2026-10-10 16:48:30   13/72 games done; last QQ_00_1 interrupted invalid response at round 6: {'p2': 'final_line_not_exact_choice'}; spent $6.02
+- 2026-10-10 16:48:41   14/72 games done; last QQ_11_1 interrupted invalid response at round 7: {'p1': 'final_line_not_exact_choice'}; spent $6.20
+- 2026-10-10 16:49:29   16/72 games done; last QA_00_1 interrupted invalid response at round 16: {'p1': 'final_line_not_exact_choice'}; spent $6.85
+- 2026-10-10 16:49:53   18/72 games done; last AQ_10_1 interrupted invalid response at round 7: {'p2': 'final_line_not_exact_choice'}; spent $7.06
+- 2026-10-10 16:51:10   20/72 games done; last QA_11_1 interrupted invalid response at round 8: {'p1': 'final_line_not_exact_choice'}; spent $8.25
+- 2026-10-10 16:51:11   21/72 games done; last QF_10_1 interrupted invalid response at round 12: {'p1': 'final_line_not_exact_choice'}; spent $8.26
+- 2026-10-10 16:51:32   24/72 games done; last AQ_11_1 interrupted invalid response at round 18: {'p2': 'final_line_not_exact_choice'}; spent $8.77
+- 2026-10-10 16:51:35   25/72 games done; last QF_00_1 interrupted invalid response at round 16: {'p1': 'final_line_not_exact_choice'}; spent $8.84
+- 2026-10-10 16:55:12   39/72 games done; last QQ_10_2 interrupted invalid response at round 2: {'p1': 'final_line_not_exact_choice'}; spent $13.03
+- 2026-10-10 16:56:43   46/72 games done; last QF_01_2 interrupted invalid response at round 7: {'p1': 'final_line_not_exact_choice'}; spent $15.27
+- 2026-10-10 16:57:02   48/72 games done; last AQ_10_2 complete ; spent $15.56
+- 2026-10-10 16:58:22   53/72 games done; last AQ_01_2 interrupted invalid response at round 17: {'p2': 'final_line_not_exact_choice'}; spent $16.74
+- 2026-10-10 17:01:28   59/72 games done; last FQ_11_2 interrupted invalid response at round 9: {'p2': 'final_line_not_exact_choice'}; spent $19.11
+- 2026-10-10 17:02:03   60/72 games done; last AQ_11_2 interrupted invalid response at round 16: {'p2': 'final_line_not_exact_choice'}; spent $19.36
+- 2026-10-10 17:02:24   61/72 games done; last QA_10_2 interrupted invalid response at round 16: {'p1': 'final_line_not_exact_choice'}; spent $19.44
+- 2026-10-10 17:02:58   62/72 games done; last QA_11_2 interrupted invalid response at round 13: {'p1': 'final_line_not_exact_choice'}; spent $19.60
+- 2026-10-10 17:03:10   64/72 games done; last FQ_01_2 interrupted invalid response at round 14: {'p2': 'final_line_not_exact_choice'}; spent $19.65
+- 2026-10-10 17:04:11   65/72 games done; last AQ_00_2 interrupted invalid response at round 20: {'p2': 'final_line_not_exact_choice'}; spent $19.86
+- 2026-10-10 17:12:26 CRASH at ~17:04 after 65/72 games: http.client.IncompleteRead in transport was not classed as transient, so the process exited (2,573 completed calls logged, $20.24). Fix: spar_dynamic/phase2/client.py treats http.client.HTTPException as transient (identical-payload retry). Package code/schedule hashes unchanged. Resuming; logged calls are not reissued. The interrupted request(s) may have been billed by OpenRouter without a logged record.
+- 2026-10-10 17:12:26 RUN start, cap $60
+- 2026-10-10 17:12:26 games: 72 scheduled, 16 concurrent (spent so far $20.24, cap $60)
+- 2026-10-10 17:12:26   1/72 games done; last QA_01_1 interrupted invalid response at round 4: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   2/72 games done; last QQ_11_1 interrupted invalid response at round 7: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   3/72 games done; last QF_10_1 interrupted invalid response at round 12: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   4/72 games done; last QA_00_1 interrupted invalid response at round 16: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   8/72 games done; last AQ_11_1 interrupted invalid response at round 18: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   18/72 games done; last QQ_00_1 interrupted invalid response at round 6: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   19/72 games done; last AQ_10_1 interrupted invalid response at round 7: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   20/72 games done; last QA_11_1 interrupted invalid response at round 8: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   22/72 games done; last QF_00_1 interrupted invalid response at round 16: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   24/72 games done; last FF_10_1 complete ; spent $20.24
+- 2026-10-10 17:12:26   36/72 games done; last QF_01_2 interrupted invalid response at round 7: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   38/72 games done; last QQ_10_2 interrupted invalid response at round 2: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   41/72 games done; last AQ_01_2 interrupted invalid response at round 17: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   48/72 games done; last AA_01_2 complete ; spent $20.24
+- 2026-10-10 17:12:26   56/72 games done; last QA_10_2 interrupted invalid response at round 16: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   57/72 games done; last QA_11_2 interrupted invalid response at round 13: {'p1': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   58/72 games done; last AQ_11_2 interrupted invalid response at round 16: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   60/72 games done; last FQ_01_2 interrupted invalid response at round 14: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   61/72 games done; last FQ_11_2 interrupted invalid response at round 9: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:12:26   68/72 games done; last AQ_00_2 interrupted invalid response at round 20: {'p2': 'final_line_not_exact_choice'}; spent $20.24
+- 2026-10-10 17:32:15   72/72 games done; last QF_10_2 complete ; spent $20.28
+- 2026-10-10 17:32:15 RUN complete: REPORT.md written
+- 2026-10-10 19:58:03 MAKEUP start (MP mp3m-p2-20261010): 18 targets; spent incl. make-ups $20.28, cap $60
+- 2026-10-10 19:58:27   MAKEUP FQ_01_2_MU1: interrupted 0 rounds invalid response at round 1: {'p2': 'final_line_not_exact_choice'} (spent $20.40)
+- 2026-10-10 19:59:50   MAKEUP QF_10_1_MU1: interrupted 5 rounds invalid response at round 6: {'p1': 'final_line_not_exact_choice'} (spent $20.94)
+- 2026-10-10 20:00:51   MAKEUP AQ_01_2_MU1: interrupted 8 rounds invalid response at round 9: {'p2': 'final_line_not_exact_choice'} (spent $21.34)
+- 2026-10-10 20:01:22   MAKEUP QQ_00_1_MU1: interrupted 10 rounds invalid response at round 11: {'p1': 'final_line_not_exact_choice'} (spent $21.51)
+- 2026-10-10 20:02:22   MAKEUP AQ_11_2_MU1: interrupted 12 rounds invalid response at round 13: {'p2': 'final_line_not_exact_choice'} (spent $21.96)
+- 2026-10-10 20:02:37   MAKEUP QF_01_2_MU1: interrupted 16 rounds invalid response at round 17: {'p1': 'final_line_not_exact_choice'} (spent $22.02)
+- 2026-10-10 20:03:36   MAKEUP AQ_10_1_MU1: complete 20 rounds  (spent $22.35)
+- 2026-10-10 20:03:37   MAKEUP QF_10_1_MU2: interrupted 7 rounds invalid response at round 8: {'p1': 'final_line_not_exact_choice'} (spent $22.37)
+- 2026-10-10 20:04:06   MAKEUP AQ_11_2_MU2: interrupted 5 rounds invalid response at round 6: {'p2': 'final_line_not_exact_choice'} (spent $22.58)
+- 2026-10-10 20:04:16   MAKEUP FQ_11_2_MU1: interrupted 1 rounds invalid response at round 2: {'p2': 'final_line_not_exact_choice'} (spent $22.66)
+- 2026-10-10 20:04:39   MAKEUP AQ_11_1_MU1: complete 20 rounds  (spent $22.81)
+- 2026-10-10 20:05:25   MAKEUP QQ_11_1_MU1: interrupted 5 rounds invalid response at round 6: {'p2': 'final_line_not_exact_choice'} (spent $23.20)
+- 2026-10-10 20:06:04   MAKEUP QA_00_1_MU1: complete 20 rounds  (spent $23.45)
+- 2026-10-10 20:06:26   MAKEUP QA_11_1_MU1: complete 20 rounds  (spent $23.68)
+- 2026-10-10 20:06:33   MAKEUP QA_01_1_MU1: complete 20 rounds  (spent $23.74)
+- 2026-10-10 20:06:39   MAKEUP QA_10_2_MU1: complete 20 rounds  (spent $23.75)
+- 2026-10-10 20:06:48   MAKEUP QA_11_2_MU1: complete 20 rounds  (spent $23.79)
+- 2026-10-10 20:06:52   MAKEUP QF_01_2_MU2: interrupted 12 rounds invalid response at round 13: {'p1': 'final_line_not_exact_choice'} (spent $23.81)
+- 2026-10-10 20:07:10   MAKEUP AQ_01_2_MU2: complete 20 rounds  (spent $23.89)
+- 2026-10-10 20:07:36   MAKEUP FQ_01_2_MU2: complete 20 rounds  (spent $24.03)
+- 2026-10-10 20:09:42   MAKEUP QQ_00_1_MU2: complete 20 rounds  (spent $24.61)
+- 2026-10-10 20:10:03   MAKEUP QF_01_2_MU3: interrupted 10 rounds invalid response at round 11: {'p1': 'final_line_not_exact_choice'} (spent $24.72)
+- 2026-10-10 20:10:44   MAKEUP QF_00_1_MU1: complete 20 rounds  (spent $24.90)
+- 2026-10-10 20:11:02   MAKEUP QQ_11_1_MU2: interrupted 10 rounds invalid response at round 11: {'p1': 'final_line_not_exact_choice'} (spent $24.94)
+- 2026-10-10 20:11:29   MAKEUP AQ_00_2_MU1: complete 20 rounds  (spent $25.07)
+- 2026-10-10 20:11:34   MAKEUP AQ_11_2_MU3: complete 20 rounds  (spent $25.08)
+- 2026-10-10 20:11:35   MAKEUP QQ_10_2_MU1: complete 20 rounds  (spent $25.09)
+- 2026-10-10 20:12:00   MAKEUP FQ_11_2_MU2: interrupted 19 rounds invalid response at round 20: {'p2': 'final_line_not_exact_choice'} (spent $25.13)
+- 2026-10-10 20:14:04   MAKEUP QQ_11_1_MU3: interrupted 7 rounds invalid response at round 8: {'p1': 'final_line_not_exact_choice'} (spent $25.42)
+- 2026-10-10 20:14:57   MAKEUP QF_10_1_MU3: interrupted 19 rounds invalid response at round 20: {'p1': 'truncated_length'} (spent $25.54)
+- 2026-10-10 20:15:53   MAKEUP QQ_11_1_MU4: interrupted 4 rounds invalid response at round 5: {'p1': 'final_line_not_exact_choice'} (spent $25.65)
+- 2026-10-10 20:16:25   MAKEUP FQ_11_2_MU3: interrupted 10 rounds invalid response at round 11: {'p2': 'final_line_not_exact_choice'} (spent $25.74)
+- 2026-10-10 20:16:46   MAKEUP QF_01_2_MU4: complete 20 rounds  (spent $25.79)
+- 2026-10-10 20:16:57   MAKEUP QQ_11_1_MU5: interrupted 2 rounds invalid response at round 3: {'p2': 'final_line_not_exact_choice'} (spent $25.80)
+- 2026-10-10 20:17:29   MAKEUP QF_10_1_MU4: interrupted 4 rounds invalid response at round 5: {'p1': 'final_line_not_exact_choice'} (spent $25.84)
+- 2026-10-10 20:20:15   MAKEUP FQ_11_2_MU4: interrupted 11 rounds invalid response at round 12: {'p2': 'final_line_not_exact_choice'} (spent $26.12)
+- 2026-10-10 20:22:32   MAKEUP FQ_11_2_MU5: interrupted 7 rounds invalid response at round 8: {'p2': 'final_line_not_exact_choice'} (spent $26.37)
+- 2026-10-10 20:27:06   MAKEUP QQ_11_1_MU6: complete 20 rounds  (spent $26.84)
+- 2026-10-10 20:29:12   MAKEUP FQ_11_2_MU6: complete 20 rounds  (spent $26.94)
+- 2026-10-10 20:29:29   MAKEUP QF_10_1_MU5: interrupted 18 rounds invalid response at round 19: {'p1': 'final_line_not_exact_choice'} (spent $26.96)
+- 2026-10-10 20:42:46   MAKEUP QF_10_1_MU6: complete 20 rounds  (spent $27.36)
+- 2026-10-10 20:42:46 MAKEUP end (MP mp3m-p2-20261010): 18/18 targets filled; attempts 41; spent $27.36

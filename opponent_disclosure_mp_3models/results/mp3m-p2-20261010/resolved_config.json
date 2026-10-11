@@ -1,0 +1,111 @@
+{
+ "protocol": "MPDisclosure3M_v1_pilot2",
+ "master_seed": 20261014,
+ "analysis_seed": 20261015,
+ "models": {
+  "astra": {
+   "slug": "openai/gpt-6-astra",
+   "name": "GPT-6 Astra",
+   "provider": "openai"
+  },
+  "fable": {
+   "slug": "anthropic/claude-fable-5.1",
+   "name": "Claude Fable 5.1",
+   "provider": "anthropic"
+  },
+  "qwen": {
+   "slug": "qwen/qwen3.8-27b",
+   "name": "Qwen3.8 27B",
+   "provider": "alibaba"
+  }
+ },
+ "reasoning": {
+  "effort": "low",
+  "exclude": true
+ },
+ "max_tokens": 4000,
+ "omitted_controls": [
+  "temperature",
+  "top_p",
+  "seed"
+ ],
+ "pairings": [
+  [
+   "astra",
+   "astra"
+  ],
+  [
+   "astra",
+   "fable"
+  ],
+  [
+   "astra",
+   "qwen"
+  ],
+  [
+   "fable",
+   "astra"
+  ],
+  [
+   "fable",
+   "fable"
+  ],
+  [
+   "fable",
+   "qwen"
+  ],
+  [
+   "qwen",
+   "astra"
+  ],
+  [
+   "qwen",
+   "fable"
+  ],
+  [
+   "qwen",
+   "qwen"
+  ]
+ ],
+ "conditions": {
+  "00": [
+   false,
+   false
+  ],
+  "10": [
+   true,
+   false
+  ],
+  "01": [
+   false,
+   true
+  ],
+  "11": [
+   true,
+   true
+  ]
+ },
+ "replicates_per_cell": 2,
+ "n_rounds": 20,
+ "n_games": 72,
+ "n_planned_calls": 2880,
+ "budget_cap_usd": 60.0,
+ "max_transient_retries": 3,
+ "game_concurrency": 16,
+ "n_boot": 5000,
+ "templates": {
+  "game": "This is a 20-round simultaneous-choice matching-pennies game between Player 1 (the Matcher) and Player 2 (the Mismatcher). On each round, both players independently choose STAR or TRIANGLE without seeing the other's current choice. The Matcher wins if the two choices are the same. The Mismatcher wins if they differ. After each completed round, both choices and the winner are revealed. Your objective is to win as many rounds as possible.\n\nYou are {SEAT}, the {ROLE}.\nYour model identity is {OWN_MODEL_NAME}.\n\n{OPPONENT_IDENTITY_SENTENCE}\n\nCompleted-round history:\n{PUBLIC_HISTORY}\n\nRound {T} of 20: choose STAR or TRIANGLE.\n\nReturn your final choice on the last nonempty line, using exactly STAR or TRIANGLE.",
+  "informed": "Opponent identity: Your opponent is an independent instance of {TRUE_OPPONENT_MODEL_NAME}.",
+  "uninformed": "Opponent identity: Your opponent's model identity is not disclosed.",
+  "empty_history": "None. This is the first round.",
+  "history_header": "Round | Matcher (Player 1) | Mismatcher (Player 2) | Winner"
+ },
+ "template_sha256": {
+  "game": "9573bf743743962c435cb7840ebed1c5c077b58e91f6a37a1c4a3d9b3a5a1dbc",
+  "informed": "8e5f2b88ef63f590f87411ce2929162a9548e554cc97f11fcf65150479285c60",
+  "uninformed": "4bbd9c790c9d6cbddd9ab6e3cfe5e99d14679c06709967a5d59571b62192afb9",
+  "empty_history": "644408d956b95f381a02249119762225ac3869a5709ea2c0bf3612d274e7c7e0",
+  "history_header": "4d8961a4431350a1306a9c228d2fbcbab3a1799359a21eb4714bb5ca45d73f16"
+ },
+ "code_hash": "a10f02618e0a88814f00fcf5a0383a968f3af6a8c77591121f920aee9a203075"
+}

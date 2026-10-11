@@ -1,0 +1,433 @@
+{
+ "V": {
+  "astra|astra|00": 0.525,
+  "astra|astra|10": 0.5,
+  "astra|astra|01": 0.45,
+  "astra|astra|11": 0.525,
+  "astra|fable|00": 0.55,
+  "astra|fable|10": 0.4,
+  "astra|fable|01": 0.5,
+  "astra|fable|11": 0.55,
+  "astra|qwen|00": 0.42500000000000004,
+  "astra|qwen|10": 0.575,
+  "astra|qwen|01": 0.4,
+  "astra|qwen|11": 0.42500000000000004,
+  "fable|astra|00": 0.55,
+  "fable|astra|10": 0.4,
+  "fable|astra|01": 0.475,
+  "fable|astra|11": 0.575,
+  "fable|fable|00": 0.45,
+  "fable|fable|10": 0.47500000000000003,
+  "fable|fable|01": 0.575,
+  "fable|fable|11": 0.44999999999999996,
+  "fable|qwen|00": 0.47500000000000003,
+  "fable|qwen|10": 0.55,
+  "fable|qwen|01": 0.375,
+  "fable|qwen|11": 0.45,
+  "qwen|astra|00": 0.525,
+  "qwen|astra|10": 0.625,
+  "qwen|astra|01": 0.45,
+  "qwen|astra|11": 0.45,
+  "qwen|fable|00": 0.35,
+  "qwen|fable|10": 0.55,
+  "qwen|fable|01": 0.47500000000000003,
+  "qwen|fable|11": 0.575,
+  "qwen|qwen|00": 0.625,
+  "qwen|qwen|10": 0.425,
+  "qwen|qwen|01": 0.525,
+  "qwen|qwen|11": 0.42500000000000004
+ },
+ "contrasts": {
+  "U1[astra,astra]": -0.025000000000000022,
+  "U2[astra,astra]": 0.07500000000000001,
+  "U[astra,astra]": 0.024999999999999994,
+  "F1[astra,astra]": 0.024999999999999994,
+  "F2[astra,astra]": 0.024999999999999994,
+  "INT[astra,astra]": 0.10000000000000003,
+  "U1[astra,fable]": -0.15000000000000002,
+  "U2[astra,fable]": 0.050000000000000044,
+  "U[astra,fable]": -0.04999999999999999,
+  "F1[astra,fable]": -0.04999999999999999,
+  "F2[astra,fable]": -0.04999999999999999,
+  "INT[astra,fable]": 0.20000000000000007,
+  "U1[astra,qwen]": 0.1499999999999999,
+  "U2[astra,qwen]": 0.025000000000000022,
+  "U[astra,qwen]": 0.08749999999999997,
+  "F1[astra,qwen]": 0.08749999999999997,
+  "F2[astra,qwen]": 0.08749999999999997,
+  "INT[astra,qwen]": -0.12499999999999989,
+  "U1[fable,astra]": -0.15000000000000002,
+  "U2[fable,astra]": 0.07500000000000007,
+  "U[fable,astra]": -0.03749999999999998,
+  "F1[fable,astra]": -0.025000000000000022,
+  "F2[fable,astra]": -0.04999999999999993,
+  "INT[fable,astra]": 0.25,
+  "U1[fable,fable]": 0.025000000000000022,
+  "U2[fable,fable]": -0.12499999999999994,
+  "U[fable,fable]": -0.04999999999999996,
+  "F1[fable,fable]": -0.04999999999999999,
+  "F2[fable,fable]": -0.04999999999999993,
+  "INT[fable,fable]": -0.15000000000000008,
+  "U1[fable,qwen]": 0.07500000000000001,
+  "U2[fable,qwen]": 0.10000000000000003,
+  "U[fable,qwen]": 0.08750000000000002,
+  "F1[fable,qwen]": 0.07500000000000001,
+  "F2[fable,qwen]": 0.10000000000000003,
+  "INT[fable,qwen]": 0.0,
+  "U1[qwen,astra]": 0.09999999999999998,
+  "U2[qwen,astra]": 0.07500000000000001,
+  "U[qwen,astra]": 0.0875,
+  "F1[qwen,astra]": 0.04999999999999999,
+  "F2[qwen,astra]": 0.125,
+  "INT[qwen,astra]": -0.09999999999999998,
+  "U1[qwen,fable]": 0.20000000000000007,
+  "U2[qwen,fable]": -0.12500000000000006,
+  "U[qwen,fable]": 0.037500000000000006,
+  "F1[qwen,fable]": 0.15,
+  "F2[qwen,fable]": -0.07499999999999998,
+  "INT[qwen,fable]": -0.10000000000000014,
+  "U1[qwen,qwen]": -0.2,
+  "U2[qwen,qwen]": 0.09999999999999998,
+  "U[qwen,qwen]": -0.05000000000000002,
+  "F1[qwen,qwen]": -0.15,
+  "F2[qwen,qwen]": 0.04999999999999996,
+  "INT[qwen,qwen]": 0.10000000000000009,
+  "S[astra]": 0.024999999999999994,
+  "O[astra]": 0.03749999999999999,
+  "D[astra]": -0.012499999999999997,
+  "S[fable]": -0.04999999999999996,
+  "O[fable]": -0.037500000000000006,
+  "D[fable]": -0.012499999999999956,
+  "S[qwen]": -0.05000000000000002,
+  "O[qwen]": 0.10625000000000002,
+  "D[qwen]": -0.15625000000000006,
+  "D": -0.060416666666666674
+ },
+ "ci": {
+  "U1[astra,astra]": {
+   "lo": -0.10000000000000003,
+   "hi": 0.050000000000000044,
+   "undefined_frac": 0.0
+  },
+  "U2[astra,astra]": {
+   "lo": 0.0,
+   "hi": 0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "U[astra,astra]": {
+   "lo": -0.024999999999999994,
+   "hi": 0.07500000000000001,
+   "undefined_frac": 0.0
+  },
+  "F1[astra,astra]": {
+   "lo": -0.025000000000000022,
+   "hi": 0.07500000000000004,
+   "undefined_frac": 0.0
+  },
+  "F2[astra,astra]": {
+   "lo": -0.025000000000000022,
+   "hi": 0.07500000000000004,
+   "undefined_frac": 0.0
+  },
+  "INT[astra,astra]": {
+   "lo": 0.0,
+   "hi": 0.20000000000000007,
+   "undefined_frac": 0.0
+  },
+  "U1[astra,fable]": {
+   "lo": -0.25,
+   "hi": -0.04999999999999999,
+   "undefined_frac": 0.0
+  },
+  "U2[astra,fable]": {
+   "lo": 0.0,
+   "hi": 0.09999999999999998,
+   "undefined_frac": 0.0
+  },
+  "U[astra,fable]": {
+   "lo": -0.07500000000000001,
+   "hi": -0.024999999999999994,
+   "undefined_frac": 0.0
+  },
+  "F1[astra,fable]": {
+   "lo": -0.10000000000000003,
+   "hi": 2.7755575615628914e-17,
+   "undefined_frac": 0.0
+  },
+  "F2[astra,fable]": {
+   "lo": -0.10000000000000003,
+   "hi": 2.7755575615628914e-17,
+   "undefined_frac": 0.0
+  },
+  "INT[astra,fable]": {
+   "lo": 0.09999999999999998,
+   "hi": 0.30000000000000004,
+   "undefined_frac": 0.0
+  },
+  "U1[astra,qwen]": {
+   "lo": 0.04999999999999999,
+   "hi": 0.25,
+   "undefined_frac": 0.0
+  },
+  "U2[astra,qwen]": {
+   "lo": -0.04999999999999999,
+   "hi": 0.10000000000000003,
+   "undefined_frac": 0.0
+  },
+  "U[astra,qwen]": {
+   "lo": 0.024999999999999994,
+   "hi": 0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "F1[astra,qwen]": {
+   "lo": 0.024999999999999994,
+   "hi": 0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "F2[astra,qwen]": {
+   "lo": 0.024999999999999994,
+   "hi": 0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "INT[astra,qwen]": {
+   "lo": -0.25,
+   "hi": 1.1102230246251565e-16,
+   "undefined_frac": 0.0
+  },
+  "U1[fable,astra]": {
+   "lo": -0.15000000000000002,
+   "hi": -0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "U2[fable,astra]": {
+   "lo": 0.050000000000000044,
+   "hi": 0.10000000000000003,
+   "undefined_frac": 0.0
+  },
+  "U[fable,astra]": {
+   "lo": -0.04999999999999999,
+   "hi": -0.024999999999999994,
+   "undefined_frac": 0.0
+  },
+  "F1[fable,astra]": {
+   "lo": -0.07500000000000001,
+   "hi": 0.024999999999999994,
+   "undefined_frac": 0.0
+  },
+  "F2[fable,astra]": {
+   "lo": -0.09999999999999998,
+   "hi": 2.7755575615628914e-17,
+   "undefined_frac": 0.0
+  },
+  "INT[fable,astra]": {
+   "lo": 0.15000000000000002,
+   "hi": 0.35000000000000003,
+   "undefined_frac": 0.0
+  },
+  "U1[fable,fable]": {
+   "lo": -0.09999999999999998,
+   "hi": 0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "U2[fable,fable]": {
+   "lo": -0.19999999999999996,
+   "hi": -0.050000000000000044,
+   "undefined_frac": 0.0
+  },
+  "U[fable,fable]": {
+   "lo": -0.09999999999999998,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "F1[fable,fable]": {
+   "lo": -0.16249999999999998,
+   "hi": 0.06250000000000003,
+   "undefined_frac": 0.0
+  },
+  "F2[fable,fable]": {
+   "lo": -0.16249999999999995,
+   "hi": 0.07500000000000001,
+   "undefined_frac": 0.0
+  },
+  "INT[fable,fable]": {
+   "lo": -0.375,
+   "hi": 0.09999999999999992,
+   "undefined_frac": 0.0
+  },
+  "U1[fable,qwen]": {
+   "lo": -0.050000000000000044,
+   "hi": 0.19999999999999996,
+   "undefined_frac": 0.0
+  },
+  "U2[fable,qwen]": {
+   "lo": -0.09999999999999998,
+   "hi": 0.30000000000000004,
+   "undefined_frac": 0.0
+  },
+  "U[fable,qwen]": {
+   "lo": 0.0,
+   "hi": 0.175,
+   "undefined_frac": 0.0
+  },
+  "F1[fable,qwen]": {
+   "lo": -0.037500000000000006,
+   "hi": 0.18749999999999997,
+   "undefined_frac": 0.0
+  },
+  "F2[fable,qwen]": {
+   "lo": -0.012499999999999983,
+   "hi": 0.2125,
+   "undefined_frac": 0.0
+  },
+  "INT[fable,qwen]": {
+   "lo": -0.22499999999999992,
+   "hi": 0.22500000000000003,
+   "undefined_frac": 0.0
+  },
+  "U1[qwen,astra]": {
+   "lo": 0.04999999999999993,
+   "hi": 0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "U2[qwen,astra]": {
+   "lo": 0.04999999999999999,
+   "hi": 0.10000000000000003,
+   "undefined_frac": 0.0
+  },
+  "U[qwen,astra]": {
+   "lo": 0.07499999999999998,
+   "hi": 0.1,
+   "undefined_frac": 0.0
+  },
+  "F1[qwen,astra]": {
+   "lo": 0.012499999999999983,
+   "hi": 0.0875,
+   "undefined_frac": 0.0
+  },
+  "F2[qwen,astra]": {
+   "lo": 0.0875,
+   "hi": 0.1625,
+   "undefined_frac": 0.0
+  },
+  "INT[qwen,astra]": {
+   "lo": -0.17500000000000004,
+   "hi": -0.02499999999999991,
+   "undefined_frac": 0.0
+  },
+  "U1[qwen,fable]": {
+   "lo": 0.15000000000000002,
+   "hi": 0.25000000000000006,
+   "undefined_frac": 0.0
+  },
+  "U2[qwen,fable]": {
+   "lo": -0.25000000000000006,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "U[qwen,fable]": {
+   "lo": 0.0,
+   "hi": 0.07500000000000001,
+   "undefined_frac": 0.0
+  },
+  "F1[qwen,fable]": {
+   "lo": 0.08749999999999997,
+   "hi": 0.2125,
+   "undefined_frac": 0.0
+  },
+  "F2[qwen,fable]": {
+   "lo": -0.13749999999999998,
+   "hi": -0.012499999999999956,
+   "undefined_frac": 0.0
+  },
+  "INT[qwen,fable]": {
+   "lo": -0.22500000000000014,
+   "hi": 0.02499999999999991,
+   "undefined_frac": 0.0
+  },
+  "U1[qwen,qwen]": {
+   "lo": -0.30000000000000004,
+   "hi": -0.09999999999999998,
+   "undefined_frac": 0.0
+  },
+  "U2[qwen,qwen]": {
+   "lo": 0.04999999999999993,
+   "hi": 0.15000000000000002,
+   "undefined_frac": 0.0
+  },
+  "U[qwen,qwen]": {
+   "lo": -0.10000000000000003,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "F1[qwen,qwen]": {
+   "lo": -0.25,
+   "hi": -0.04999999999999999,
+   "undefined_frac": 0.0
+  },
+  "F2[qwen,qwen]": {
+   "lo": -0.050000000000000044,
+   "hi": 0.15,
+   "undefined_frac": 0.0
+  },
+  "INT[qwen,qwen]": {
+   "lo": -0.10000000000000009,
+   "hi": 0.30000000000000004,
+   "undefined_frac": 0.0
+  },
+  "S[astra]": {
+   "lo": -0.024999999999999994,
+   "hi": 0.07500000000000001,
+   "undefined_frac": 0.0
+  },
+  "O[astra]": {
+   "lo": 0.0,
+   "hi": 0.07500000000000001,
+   "undefined_frac": 0.0
+  },
+  "D[astra]": {
+   "lo": -0.07500000000000001,
+   "hi": 0.05,
+   "undefined_frac": 0.0
+  },
+  "S[fable]": {
+   "lo": -0.09999999999999998,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "O[fable]": {
+   "lo": -0.08125000000000003,
+   "hi": 0.01249999999999997,
+   "undefined_frac": 0.0
+  },
+  "D[fable]": {
+   "lo": -0.08124999999999998,
+   "hi": 0.056250000000000064,
+   "undefined_frac": 0.0
+  },
+  "S[qwen]": {
+   "lo": -0.10000000000000003,
+   "hi": 0.0,
+   "undefined_frac": 0.0
+  },
+  "O[qwen]": {
+   "lo": 0.05000000000000002,
+   "hi": 0.16250000000000003,
+   "undefined_frac": 0.0
+  },
+  "D[qwen]": {
+   "lo": -0.23750000000000004,
+   "hi": -0.08125000000000002,
+   "undefined_frac": 0.0
+  },
+  "D": {
+   "lo": -0.09999999999999999,
+   "hi": -0.022916666666666658,
+   "undefined_frac": 0.0
+  }
+ },
+ "rescore": {
+  "D_rescore": -0.060416666666666674,
+  "n_complete_games": 72,
+  "round_result_mismatches": 0
+ }
+}

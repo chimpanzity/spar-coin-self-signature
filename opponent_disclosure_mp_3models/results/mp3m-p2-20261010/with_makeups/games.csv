@@ -1,0 +1,114 @@
+game_id,pairing,matcher_model,mismatcher_model,p1_model,p2_model,condition,replicate,status,n_valid_rounds,note,p1_payoff,matcher_wins,mismatcher_wins
+AF_10_1,astra-fable,astra,fable,astra,fable,10,1,complete,20,,0.35,7,13
+QF_10_1,qwen-fable,qwen,fable,qwen,fable,10,1,interrupted,11,invalid response at round 12: {'p1': 'final_line_not_exact_choice'},0.6363636363636364,7,4
+QQ_10_1,qwen-qwen,qwen,qwen,qwen,qwen,10,1,complete,20,,0.5,10,10
+QA_01_1,qwen-astra,qwen,astra,qwen,astra,01,1,interrupted,3,invalid response at round 4: {'p1': 'final_line_not_exact_choice'},0.3333333333333333,1,2
+FQ_11_1,fable-qwen,fable,qwen,fable,qwen,11,1,complete,20,,0.5,10,10
+QQ_01_1,qwen-qwen,qwen,qwen,qwen,qwen,01,1,complete,20,,0.5,10,10
+FQ_10_1,fable-qwen,fable,qwen,fable,qwen,10,1,complete,20,,0.5,10,10
+QA_00_1,qwen-astra,qwen,astra,qwen,astra,00,1,interrupted,15,invalid response at round 16: {'p1': 'final_line_not_exact_choice'},0.6666666666666666,10,5
+AF_11_1,astra-fable,astra,fable,astra,fable,11,1,complete,20,,0.6,12,8
+FA_01_1,fable-astra,fable,astra,fable,astra,01,1,complete,20,,0.5,10,10
+AA_01_1,astra-astra,astra,astra,astra,astra,01,1,complete,20,,0.5,10,10
+AA_00_1,astra-astra,astra,astra,astra,astra,00,1,complete,20,,0.5,10,10
+FQ_00_1,fable-qwen,fable,qwen,fable,qwen,00,1,complete,20,,0.55,11,9
+AQ_11_1,astra-qwen,astra,qwen,astra,qwen,11,1,interrupted,17,invalid response at round 18: {'p2': 'final_line_not_exact_choice'},0.5882352941176471,10,7
+AF_01_1,astra-fable,astra,fable,astra,fable,01,1,complete,20,,0.5,10,10
+FA_10_1,fable-astra,fable,astra,fable,astra,10,1,complete,20,,0.4,8,12
+QQ_11_1,qwen-qwen,qwen,qwen,qwen,qwen,11,1,interrupted,6,invalid response at round 7: {'p1': 'final_line_not_exact_choice'},0.8333333333333334,5,1
+AF_00_1,astra-fable,astra,fable,astra,fable,00,1,complete,20,,0.5,10,10
+QF_11_1,qwen-fable,qwen,fable,qwen,fable,11,1,complete,20,,0.6,12,8
+FF_10_1,fable-fable,fable,fable,fable,fable,10,1,complete,20,,0.4,8,12
+FA_00_1,fable-astra,fable,astra,fable,astra,00,1,complete,20,,0.55,11,9
+QF_00_1,qwen-fable,qwen,fable,qwen,fable,00,1,interrupted,15,invalid response at round 16: {'p1': 'final_line_not_exact_choice'},0.5333333333333333,8,7
+QQ_00_1,qwen-qwen,qwen,qwen,qwen,qwen,00,1,interrupted,5,invalid response at round 6: {'p2': 'final_line_not_exact_choice'},0.6,3,2
+QA_10_1,qwen-astra,qwen,astra,qwen,astra,10,1,complete,20,,0.65,13,7
+FF_00_1,fable-fable,fable,fable,fable,fable,00,1,complete,20,,0.4,8,12
+AQ_01_1,astra-qwen,astra,qwen,astra,qwen,01,1,complete,20,,0.35,7,13
+FF_11_1,fable-fable,fable,fable,fable,fable,11,1,complete,20,,0.3,6,14
+FQ_01_1,fable-qwen,fable,qwen,fable,qwen,01,1,complete,20,,0.5,10,10
+AQ_10_1,astra-qwen,astra,qwen,astra,qwen,10,1,interrupted,6,invalid response at round 7: {'p2': 'final_line_not_exact_choice'},0.6666666666666666,4,2
+QA_11_1,qwen-astra,qwen,astra,qwen,astra,11,1,interrupted,7,invalid response at round 8: {'p1': 'final_line_not_exact_choice'},0.5714285714285714,4,3
+AA_10_1,astra-astra,astra,astra,astra,astra,10,1,complete,20,,0.55,11,9
+AQ_00_1,astra-qwen,astra,qwen,astra,qwen,00,1,complete,20,,0.45,9,11
+FF_01_1,fable-fable,fable,fable,fable,fable,01,1,complete,20,,0.6,12,8
+FA_11_1,fable-astra,fable,astra,fable,astra,11,1,complete,20,,0.65,13,7
+QF_01_1,qwen-fable,qwen,fable,qwen,fable,01,1,complete,20,,0.55,11,9
+AA_11_1,astra-astra,astra,astra,astra,astra,11,1,complete,20,,0.5,10,10
+AQ_10_2,astra-qwen,astra,qwen,astra,qwen,10,2,complete,20,,0.65,13,7
+FA_11_2,fable-astra,fable,astra,fable,astra,11,2,complete,20,,0.5,10,10
+AF_00_2,astra-fable,astra,fable,astra,fable,00,2,complete,20,,0.6,12,8
+QA_00_2,qwen-astra,qwen,astra,qwen,astra,00,2,complete,20,,0.5,10,10
+AQ_01_2,astra-qwen,astra,qwen,astra,qwen,01,2,interrupted,16,invalid response at round 17: {'p2': 'final_line_not_exact_choice'},0.5,8,8
+QQ_11_2,qwen-qwen,qwen,qwen,qwen,qwen,11,2,complete,20,,0.55,11,9
+AF_10_2,astra-fable,astra,fable,astra,fable,10,2,complete,20,,0.45,9,11
+AA_10_2,astra-astra,astra,astra,astra,astra,10,2,complete,20,,0.45,9,11
+FQ_10_2,fable-qwen,fable,qwen,fable,qwen,10,2,complete,20,,0.6,12,8
+QF_01_2,qwen-fable,qwen,fable,qwen,fable,01,2,interrupted,6,invalid response at round 7: {'p1': 'final_line_not_exact_choice'},0.5,3,3
+FF_11_2,fable-fable,fable,fable,fable,fable,11,2,complete,20,,0.6,12,8
+AA_01_2,astra-astra,astra,astra,astra,astra,01,2,complete,20,,0.4,8,12
+AA_00_2,astra-astra,astra,astra,astra,astra,00,2,complete,20,,0.55,11,9
+AF_01_2,astra-fable,astra,fable,astra,fable,01,2,complete,20,,0.5,10,10
+QF_11_2,qwen-fable,qwen,fable,qwen,fable,11,2,complete,20,,0.55,11,9
+FF_00_2,fable-fable,fable,fable,fable,fable,00,2,complete,20,,0.5,10,10
+QQ_10_2,qwen-qwen,qwen,qwen,qwen,qwen,10,2,interrupted,1,invalid response at round 2: {'p1': 'final_line_not_exact_choice'},0.0,0,1
+FA_01_2,fable-astra,fable,astra,fable,astra,01,2,complete,20,,0.45,9,11
+FF_10_2,fable-fable,fable,fable,fable,fable,10,2,complete,20,,0.55,11,9
+QF_10_2,qwen-fable,qwen,fable,qwen,fable,10,2,complete,20,,0.55,11,9
+QA_10_2,qwen-astra,qwen,astra,qwen,astra,10,2,interrupted,15,invalid response at round 16: {'p1': 'final_line_not_exact_choice'},0.5333333333333333,8,7
+AF_11_2,astra-fable,astra,fable,astra,fable,11,2,complete,20,,0.5,10,10
+AQ_11_2,astra-qwen,astra,qwen,astra,qwen,11,2,interrupted,15,invalid response at round 16: {'p2': 'final_line_not_exact_choice'},0.4666666666666667,7,8
+QA_11_2,qwen-astra,qwen,astra,qwen,astra,11,2,interrupted,12,invalid response at round 13: {'p1': 'final_line_not_exact_choice'},0.6666666666666666,8,4
+QQ_01_2,qwen-qwen,qwen,qwen,qwen,qwen,01,2,complete,20,,0.55,11,9
+QQ_00_2,qwen-qwen,qwen,qwen,qwen,qwen,00,2,complete,20,,0.65,13,7
+FA_10_2,fable-astra,fable,astra,fable,astra,10,2,complete,20,,0.4,8,12
+FQ_01_2,fable-qwen,fable,qwen,fable,qwen,01,2,interrupted,13,invalid response at round 14: {'p2': 'final_line_not_exact_choice'},0.3076923076923077,4,9
+AA_11_2,astra-astra,astra,astra,astra,astra,11,2,complete,20,,0.55,11,9
+QA_01_2,qwen-astra,qwen,astra,qwen,astra,01,2,complete,20,,0.45,9,11
+FQ_00_2,fable-qwen,fable,qwen,fable,qwen,00,2,complete,20,,0.4,8,12
+FA_00_2,fable-astra,fable,astra,fable,astra,00,2,complete,20,,0.55,11,9
+FQ_11_2,fable-qwen,fable,qwen,fable,qwen,11,2,interrupted,8,invalid response at round 9: {'p2': 'final_line_not_exact_choice'},0.5,4,4
+AQ_00_2,astra-qwen,astra,qwen,astra,qwen,00,2,interrupted,19,invalid response at round 20: {'p2': 'final_line_not_exact_choice'},0.631578947368421,12,7
+FF_01_2,fable-fable,fable,fable,fable,fable,01,2,complete,20,,0.55,11,9
+QF_00_2,qwen-fable,qwen,fable,qwen,fable,00,2,complete,20,,0.4,8,12
+AQ_00_2_MU1,astra-qwen,astra,qwen,astra,qwen,00,2,complete,20,,0.4,8,12
+AQ_01_2_MU1,astra-qwen,astra,qwen,astra,qwen,01,2,interrupted,8,invalid response at round 9: {'p2': 'final_line_not_exact_choice'},0.375,3,5
+AQ_01_2_MU2,astra-qwen,astra,qwen,astra,qwen,01,2,complete,20,,0.45,9,11
+AQ_10_1_MU1,astra-qwen,astra,qwen,astra,qwen,10,1,complete,20,,0.5,10,10
+AQ_11_1_MU1,astra-qwen,astra,qwen,astra,qwen,11,1,complete,20,,0.45,9,11
+AQ_11_2_MU1,astra-qwen,astra,qwen,astra,qwen,11,2,interrupted,12,invalid response at round 13: {'p2': 'final_line_not_exact_choice'},0.4166666666666667,5,7
+AQ_11_2_MU2,astra-qwen,astra,qwen,astra,qwen,11,2,interrupted,5,invalid response at round 6: {'p2': 'final_line_not_exact_choice'},0.2,1,4
+AQ_11_2_MU3,astra-qwen,astra,qwen,astra,qwen,11,2,complete,20,,0.4,8,12
+FQ_01_2_MU1,fable-qwen,fable,qwen,fable,qwen,01,2,interrupted,0,invalid response at round 1: {'p2': 'final_line_not_exact_choice'},,0,0
+FQ_01_2_MU2,fable-qwen,fable,qwen,fable,qwen,01,2,complete,20,,0.25,5,15
+FQ_11_2_MU1,fable-qwen,fable,qwen,fable,qwen,11,2,interrupted,1,invalid response at round 2: {'p2': 'final_line_not_exact_choice'},0.0,0,1
+FQ_11_2_MU2,fable-qwen,fable,qwen,fable,qwen,11,2,interrupted,19,invalid response at round 20: {'p2': 'final_line_not_exact_choice'},0.47368421052631576,9,10
+FQ_11_2_MU3,fable-qwen,fable,qwen,fable,qwen,11,2,interrupted,10,invalid response at round 11: {'p2': 'final_line_not_exact_choice'},0.7,7,3
+FQ_11_2_MU4,fable-qwen,fable,qwen,fable,qwen,11,2,interrupted,11,invalid response at round 12: {'p2': 'final_line_not_exact_choice'},0.5454545454545454,6,5
+FQ_11_2_MU5,fable-qwen,fable,qwen,fable,qwen,11,2,interrupted,7,invalid response at round 8: {'p2': 'final_line_not_exact_choice'},0.7142857142857143,5,2
+FQ_11_2_MU6,fable-qwen,fable,qwen,fable,qwen,11,2,complete,20,,0.4,8,12
+QA_00_1_MU1,qwen-astra,qwen,astra,qwen,astra,00,1,complete,20,,0.55,11,9
+QA_01_1_MU1,qwen-astra,qwen,astra,qwen,astra,01,1,complete,20,,0.45,9,11
+QA_10_2_MU1,qwen-astra,qwen,astra,qwen,astra,10,2,complete,20,,0.6,12,8
+QA_11_1_MU1,qwen-astra,qwen,astra,qwen,astra,11,1,complete,20,,0.4,8,12
+QA_11_2_MU1,qwen-astra,qwen,astra,qwen,astra,11,2,complete,20,,0.5,10,10
+QF_00_1_MU1,qwen-fable,qwen,fable,qwen,fable,00,1,complete,20,,0.3,6,14
+QF_01_2_MU1,qwen-fable,qwen,fable,qwen,fable,01,2,interrupted,16,invalid response at round 17: {'p1': 'final_line_not_exact_choice'},0.5,8,8
+QF_01_2_MU2,qwen-fable,qwen,fable,qwen,fable,01,2,interrupted,12,invalid response at round 13: {'p1': 'final_line_not_exact_choice'},0.3333333333333333,4,8
+QF_01_2_MU3,qwen-fable,qwen,fable,qwen,fable,01,2,interrupted,10,invalid response at round 11: {'p1': 'final_line_not_exact_choice'},0.5,5,5
+QF_01_2_MU4,qwen-fable,qwen,fable,qwen,fable,01,2,complete,20,,0.4,8,12
+QF_10_1_MU1,qwen-fable,qwen,fable,qwen,fable,10,1,interrupted,5,invalid response at round 6: {'p1': 'final_line_not_exact_choice'},0.2,1,4
+QF_10_1_MU2,qwen-fable,qwen,fable,qwen,fable,10,1,interrupted,7,invalid response at round 8: {'p1': 'final_line_not_exact_choice'},0.7142857142857143,5,2
+QF_10_1_MU3,qwen-fable,qwen,fable,qwen,fable,10,1,interrupted,19,invalid response at round 20: {'p1': 'truncated_length'},0.5789473684210527,11,8
+QF_10_1_MU4,qwen-fable,qwen,fable,qwen,fable,10,1,interrupted,4,invalid response at round 5: {'p1': 'final_line_not_exact_choice'},1.0,4,0
+QF_10_1_MU5,qwen-fable,qwen,fable,qwen,fable,10,1,interrupted,18,invalid response at round 19: {'p1': 'final_line_not_exact_choice'},0.6111111111111112,11,7
+QF_10_1_MU6,qwen-fable,qwen,fable,qwen,fable,10,1,complete,20,,0.55,11,9
+QQ_00_1_MU1,qwen-qwen,qwen,qwen,qwen,qwen,00,1,interrupted,10,invalid response at round 11: {'p1': 'final_line_not_exact_choice'},0.8,8,2
+QQ_00_1_MU2,qwen-qwen,qwen,qwen,qwen,qwen,00,1,complete,20,,0.6,12,8
+QQ_10_2_MU1,qwen-qwen,qwen,qwen,qwen,qwen,10,2,complete,20,,0.35,7,13
+QQ_11_1_MU1,qwen-qwen,qwen,qwen,qwen,qwen,11,1,interrupted,5,invalid response at round 6: {'p2': 'final_line_not_exact_choice'},0.8,4,1
+QQ_11_1_MU2,qwen-qwen,qwen,qwen,qwen,qwen,11,1,interrupted,10,invalid response at round 11: {'p1': 'final_line_not_exact_choice'},0.6,6,4
+QQ_11_1_MU3,qwen-qwen,qwen,qwen,qwen,qwen,11,1,interrupted,7,invalid response at round 8: {'p1': 'final_line_not_exact_choice'},0.5714285714285714,4,3
+QQ_11_1_MU4,qwen-qwen,qwen,qwen,qwen,qwen,11,1,interrupted,4,invalid response at round 5: {'p1': 'final_line_not_exact_choice'},0.75,3,1
+QQ_11_1_MU5,qwen-qwen,qwen,qwen,qwen,qwen,11,1,interrupted,2,invalid response at round 3: {'p2': 'final_line_not_exact_choice'},0.5,1,1
+QQ_11_1_MU6,qwen-qwen,qwen,qwen,qwen,qwen,11,1,complete,20,,0.3,6,14

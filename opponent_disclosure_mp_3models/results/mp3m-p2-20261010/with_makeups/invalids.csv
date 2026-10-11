@@ -1,0 +1,229 @@
+slot_id,model,status,reason,text_tail
+player:QA_01_1:r04:p1,qwen,completed,final_line_not_exact_choice,"Looking at the history, the opponent (Mismatcher) has chosen TRIANGLE in 2 out of 3 rounds, showing a tendency toward that choice. As the Matcher, I should aim to match their most likely choice.
+
+**TRIANGLE**"
+player:QQ_00_1:r06:p2,qwen,completed,final_line_not_exact_choice,"ating: TRIANGLE, STAR, TRIANGLE, STAR, TRIANGLE — so a rational Matcher would predict I'll choose STAR next and attempt to match me by also choosing STAR.
+
+To exploit this, I should break my predictable pattern and choose the opposite of what the Matcher is likely expecting me to play.
+
+**TRIANGLE**"
+player:QQ_11_1:r07:p1,qwen,completed,final_line_not_exact_choice,"kely reasoning:
+- They see I just played TRIANGLE (round 6)
+- They'll probably expect me to repeat TRIANGLE (reinforced by the earlier TRIANGLE pair in rounds 3-4)
+- To mismatch, they'll therefore choose **STAR**
+
+Since I want to *match* them, I should choose the same thing they'll choose.
+
+**STAR**"
+player:QA_00_1:r16:p1,qwen,completed,final_line_not_exact_choice,"ize:
+- T(1), S(1), T(1), S(1) — single alternating
+- TT(2), SS(2) — blocks of 2
+- TTT(3) — block of 3
+- SSSS(4) — block of 4
+
+Following this pattern, the next block should be **5 consecutive TRIANGLEs** (rounds 16–20).
+
+As the Matcher, I need to match the Mismatcher's predicted choice.
+
+**TRIANGLE**"
+player:AQ_10_1:r07:p2,qwen,completed,final_line_not_exact_choice,"2, 1, 1, 2 — suggesting an alternating pattern of run lengths (2,1,1,2,1,2,1...). If this holds, after the current run of 2 T's, the next choice should be a switch to STAR (a run of length 1).
+
+Since I'm the Mismatcher, I should play the opposite of what I predict Player 1 will choose.
+
+**TRIANGLE**"
+player:QA_11_1:r08:p1,qwen,completed,final_line_not_exact_choice,"to mismatch me
+
+**Counter-strategy:** By playing TRIANGLE, I catch the Mismatcher off guard. It expects me to play STAR, commits to TRIANGLE, and we end up matching.
+
+This is the classic ""anti-prediction"" exploit — the Mismatcher's best guess (that I'll play STAR) becomes my advantage.
+
+**TRIANGLE**"
+player:QF_10_1:r12:p1,qwen,completed,final_line_not_exact_choice," → played S
+   
+   That's 2/3 favoring S after an SS match.
+
+Round 11 was a match (SS), so I'm in the ""after match"" scenario. The slight statistical lean toward S after SS matches suggests the Mismatcher is more likely to play STAR. As the Matcher, I want to align with their likely choice.
+
+**STAR**"
+player:AQ_11_1:r18:p2,qwen,completed,final_line_not_exact_choice,"e |
+
+The dominant strategy (12 out of 17 times) is for the Matcher to play the **opposite** of my previous choice. My round 17 choice was TRIANGLE, so the Matcher is most likely to play STAR in round 18.
+
+As the Mismatcher, I need to play the opposite of the Matcher's predicted choice:
+
+**TRIANGLE**"
+player:QF_00_1:r16:p1,qwen,completed,final_line_not_exact_choice," If they anti-mirror (recent trend): they'd choose STAR → I should play STAR.
+
+The last two consecutive breaks from the mirroring pattern, combined with the fact that I've been winning 9/15 (giving them strong incentive to adapt), pushes me toward betting on the newer anti-mirror behavior.
+
+**STAR**"
+player:QQ_10_2:r02:p1,qwen,completed,final_line_not_exact_choice,"played TRIANGLE (Mismatcher won).
+- The opponent, as a strategic Mismatcher, will likely anticipate that I'll try to ""match"" their Round 1 choice (TRIANGLE).
+- To counter that prediction, a rational Mismatcher would switch to STAR.
+- If the opponent plays STAR, I should play STAR to match.
+
+**STAR**"
+player:QF_01_2:r07:p1,qwen,completed,final_line_not_exact_choice,"ion to the previous round's outcome. The underlying alternation pattern suggests the next choice should revert to **S**.
+
+Additionally, my own recent pattern (S, T, S in rounds 4-6) may prompt the Mismatcher to predict I'll continue with T, making them play S to mismatch — which I'd match.
+
+**STAR**"
+player:AQ_01_2:r17:p2,qwen,completed,final_line_not_exact_choice,"ploit this. If I switch to TRIANGLE while P1 is still at ""match my last choice"" reasoning (expecting STAR), I win. The data shows P1 has been matching my recent STAR picks, suggesting it's operating at the level of ""match what they just did"" rather than anticipating a strategic switch.
+
+**TRIANGLE**"
+player:FQ_11_2:r09:p2,qwen,completed,final_line_not_exact_choice,"rounds 1–4 they chose the opposite of me (losing), but in rounds 5–8 they started choosing the same as me (winning every round). They've locked onto my cycle.
+
+For Round 9, they'll predict the cycle restarts with TRIANGLE and will choose TRIANGLE to match. To win, I must break the pattern.
+
+**STAR**"
+player:AQ_11_2:r16:p2,qwen,completed,final_line_not_exact_choice,"
+
+- **STAR**: 10/15 (66.7%)
+- **TRIANGLE**: 5/15 (33.3%)
+
+The Matcher's recent 5 choices (rounds 11-15): STAR, STAR, STAR, TRIANGLE, STAR
+
+The dominant and most recent pattern strongly favors STAR. As the Mismatcher, I need to pick the opposite of the most likely Matcher choice to win.
+
+**TRIANGLE**"
+player:QA_10_2:r16:p1,qwen,completed,final_line_not_exact_choice,"o exploit my prediction, the simplest and most likely continuation is that they maintain their current streak.
+
+Additionally, my recent play (TRIANGLE in rounds 14-15) suggests a shift, and if the Mismatcher is anchoring on STAR, matching them with STAR gives me the best chance of a match.
+
+**STAR**"
+player:QA_11_2:r13:p1,qwen,completed,final_line_not_exact_choice,"5 consecutive rounds (rounds 8-12). The Mismatcher has responded with TRIANGLE in rounds 11 and 12, likely trying to exploit my STAR streak by playing the opposite.
+
+Since the Mismatcher is most likely expecting another STAR and will play TRIANGLE to mismatch, I should break my streak.
+
+**TRIANGLE**"
+player:FQ_01_2:r14:p2,qwen,completed,final_line_not_exact_choice,"n and base rate strongly favor STAR. Additionally, if the Matcher is trying to match *me*, and my recent pattern (T, S, T, T, S) might lead them to predict I'll pick STAR next, they'd likely choose STAR to match.
+
+To mismatch, I should pick the opposite of what I expect Player 1 to choose.
+
+**STAR**"
+player:AQ_00_2:r20:p2,qwen,completed,final_line_not_exact_choice,"cross rounds 2-19, the Matcher matched my prior choice in 11 out of 18 instances (~61%), which is a notable tendency.
+
+In Round 19, I chose **STAR**. If the Matcher continues this pattern, they are likely to choose **STAR** in Round 20.
+
+As the Mismatcher, I should choose the opposite.
+
+**TRIANGLE**"
+makeup:FQ_01_2_MU1:r01:p2,qwen,completed,final_line_not_exact_choice,"l likely choose.
+
+With no prior information, a Matcher facing this decision is most likely to default to the first-listed option (STAR) as a natural anchor. Since my goal is to be *different* from the Matcher, I should choose the option that is most likely to diverge from that default.
+
+**TRIANGLE**"
+makeup:QF_10_1_MU1:r06:p1,qwen,completed,final_line_not_exact_choice,"en inconsistent (S, T, S), giving me roughly a 1/3 to 1/2 chance of matching. My recent pattern (S, T, T, S, T) looks somewhat alternating, so the opponent might expect me to switch to STAR and play TRIANGLE to mismatch me — but if I stay on TRIANGLE, I exploit that very inconsistency.
+
+**TRIANGLE**"
+makeup:AQ_01_2_MU1:r09:p2,qwen,completed,final_line_not_exact_choice,"Looking at the Matcher's recent choices: TRIANGLE in rounds 5, 6, 7, and 8 — four consecutive TRIANGLEs. The pattern is heavily skewed toward TRIANGLE (6 out of 8 total rounds). As the Mismatcher, I should choose the opposite of the most likely next choice.
+
+**STAR**"
+makeup:QQ_00_1_MU1:r11:p1,qwen,completed,final_line_not_exact_choice,"y single time I've chosen TRIANGLE (rounds 2, 5, 7, 8, 9, 10), the Mismatcher also chose TRIANGLE, resulting in a match.
+
+The Mismatcher shows a very strong bias toward TRIANGLE. As the Matcher, my best strategy is to mirror the most likely choice of the Mismatcher to maximize matches.
+
+**TRIANGLE**"
+makeup:AQ_11_2_MU1:r13:p2,qwen,completed,final_line_not_exact_choice,"T, S, T, S, S, S
+
+The Matcher has just played STAR three times in a row (rounds 10-12). Looking at the run structure, previous runs of 3 (like the TTT in rounds 5-7) were followed by a switch. The most natural prediction is that the Matcher will break the streak and switch to TRIANGLE.
+
+**TRIANGLE**"
+makeup:QF_01_2_MU1:r17:p1,qwen,completed,final_line_not_exact_choice,"Looking at the Mismatcher's choice history, they have selected TRIANGLE in 11 out of 16 rounds (68.75%), and in the last 5 rounds they've chosen TRIANGLE in 4 of 5. The overwhelming tendency is toward TRIANGLE.
+
+**TRIANGLE**"
+makeup:QF_10_1_MU2:r08:p1,qwen,completed,final_line_not_exact_choice,"should choose TRIANGLE to match them.
+
+However, the dominant pattern in this game has been the Mismatcher matching me (5/6 rounds). If that tendency continues, I win regardless. The safer play that also exploits potential second-order thinking is to go with my ""pair continuation"" instinct.
+
+**STAR**"
+makeup:AQ_11_2_MU2:r06:p2,qwen,completed,final_line_not_exact_choice,"ategic response is to switch. Since the Matcher lost on TRIANGLE in Round 5, they're likely to switch to STAR in Round 6. Additionally, STAR is their more frequent historical choice (3/5).
+
+As the Mismatcher, if I expect the Matcher to choose STAR, I should choose TRIANGLE to mismatch.
+
+**TRIANGLE**"
+makeup:FQ_11_2_MU1:r02:p2,qwen,completed,final_line_not_exact_choice,"kely switch to STAR to stay different from me if I try to match TRIANGLE. So I should choose STAR.""
+- This is the most natural level-2 strategic prediction an opponent would make.
+
+If the Matcher chooses STAR (the most probable outcome of their reasoning), I need to choose differently.
+
+**TRIANGLE**"
+makeup:QQ_11_1_MU1:r06:p2,qwen,completed,final_line_not_exact_choice," recent choices: S, S, T, T, S — following a pairing pattern (SS, TT, S...) my ""natural"" next pick would be STAR to complete the pair.
+
+Since Player 1 (same model) would likely make the same ""natural"" choice, to actually MISMATCH I need to deliberately pick the opposite of my instinct.
+
+**TRIANGLE**"
+makeup:QF_01_2_MU2:r13:p1,qwen,completed,final_line_not_exact_choice,"
+Additionally, the Mismatcher has been perfectly countering my alternating S,T,S,T pattern in those rounds. If I break my own pattern by switching to TRIANGLE (instead of the expected STAR), and the Mismatcher is following their own T,S,T,S rhythm, we'd both land on TRIANGLE — a match.
+
+**TRIANGLE**"
+makeup:QF_01_2_MU3:r11:p1,qwen,completed,final_line_not_exact_choice,"s recent behavior:
+- Last 3 rounds: TRIANGLE, TRIANGLE, TRIANGLE
+- Overall frequency: TRIANGLE (6) vs STAR (4)
+
+The Mismatcher has been heavily favoring TRIANGLE, especially in the last 3 consecutive rounds. As the Matcher, I should exploit this pattern by matching their likely choice.
+
+**TRIANGLE**"
+makeup:QQ_11_1_MU2:r11:p1,qwen,completed,final_line_not_exact_choice,"gly suggests that STAR is the convergent choice for both players — it's the choice where our strategies overlap most reliably.
+
+The Mismatcher's recent sequence (S, T, S) also suggests an alternating tendency, pointing toward T next — but the stronger signal is the 3/3 correlation on STAR.
+
+**STAR**"
+makeup:FQ_11_2_MU2:r20:p2,qwen,completed,final_line_not_exact_choice,"ay T next — which would make them play T to match me. To counter that level-2 prediction, I should break the alternating pattern.
+
+However, the weight of evidence (the Matcher's own block structure) points most strongly toward them choosing STAR. Playing TRIANGLE gives me the mismatch.
+
+**TRIANGLE**"
+makeup:QQ_11_1_MU3:r08:p1,qwen,completed,final_line_not_exact_choice," me only 2 out of 4 times.
+
+This gives STAR a historically better win rate for me (67% vs 50%).
+
+Additionally, the recent pattern T→S→T suggests a possible alternation back to S, and if Player 2 is trying to predict and go opposite, the meta-reasoning favors playing what the data supports.
+
+**STAR**"
+makeup:QF_10_1_MU3:r20:p1,qwen,completed,truncated_length,"They mirrored T,T (15,16), then Mismatched T (17), then Mirrored S (18), then Mirrored T (19).
+    The ""Anti-Stick"" behavior hasn't been active in the last 4 rounds.
+    
+    Therefore, the risk of them playing ""Predict Repeat"" is low based on recent history.
+    The probability of them Mirroring or"
+makeup:QQ_11_1_MU4:r05:p1,qwen,completed,final_line_not_exact_choice,"Looking at the opponent's history:
+- TRIANGLE: 3 times (rounds 1, 2, 4)
+- STAR: 1 time (round 3)
+
+The opponent has a strong frequency bias toward TRIANGLE. As the Matcher, my best move is to align with their most likely choice.
+
+**TRIANGLE**"
+makeup:FQ_11_2_MU3:r11:p2,qwen,completed,final_line_not_exact_choice,"d Matcher would predict I'll choose STAR (since it's my more common choice) and therefore choose STAR to match me.
+
+Additionally, in round 10 I chose STAR, so the Matcher may expect continuity there. To exploit this predictability on their end, I should choose the less frequent option.
+
+**TRIANGLE**"
+makeup:QQ_11_1_MU5:r03:p2,qwen,completed,final_line_not_exact_choice,"Looking at the history:
+- Round 1: Player 1 → STAR
+- Round 2: Player 1 → STAR
+
+Player 1 has chosen STAR in both completed rounds. The most likely continuation of this pattern is another STAR. As the Mismatcher, I want to play the opposite.
+
+**TRIANGLE**"
+makeup:QF_10_1_MU4:r05:p1,qwen,completed,final_line_not_exact_choice,"s, my best move is to simply choose what feels natural and let the pattern continue.
+
+My sequence has been T, S, S, T — a symmetric/palindromic pattern. Breaking that symmetry with STAR (T, S, S, T, **S**) seems like a reasonable next move that doesn't follow an obviously predictable loop.
+
+**STAR**"
+makeup:FQ_11_2_MU4:r12:p2,qwen,completed,final_line_not_exact_choice,"ppear to be adapting to my tendencies.
+3. **Matcher's last choice:** STAR (round 11).
+
+Since I've been predominantly playing STAR, the Matcher is likely to predict I'll continue with STAR and will choose STAR to match. To win as the Mismatcher, I should deviate and choose the opposite.
+
+**TRIANGLE**"
+makeup:FQ_11_2_MU5:r08:p2,qwen,completed,final_line_not_exact_choice," chosen the opposite of my previous choice in all 6 rounds where this was testable. This is a very strong and clean pattern.
+
+**Prediction for Round 8:**
+- My Round 7 choice = STAR
+- P1 will choose the opposite = **TRIANGLE**
+
+**My optimal response:**
+To mismatch TRIANGLE, I need to choose **STAR**."
+makeup:QF_10_1_MU5:r19:p1,qwen,completed,final_line_not_exact_choice,"reliable exploit I can detect, I'll make my best judgment. The Mismatcher has shown a mild tendency toward TRIANGLE in long stretches, but I've just been burned by STAR. To maximize expected value against a mostly-unpredictable opponent, I'll lean toward what I expect them to continue.
+
+**TRIANGLE**"

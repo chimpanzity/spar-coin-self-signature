@@ -1,0 +1,1 @@
+Amended (make-up) analysis: original games plus all make-up attempts; see EXPERIMENT1_MAKEUP_GAMES.md. 'planned' counts in REPORT.md are games attempted per cell. Original raw files are in the parent folder, unchanged.
