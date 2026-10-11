@@ -10,6 +10,12 @@ Markdown or CSV rather than GitHub's HTML. Base:
 
 ## What the project asks
 
+The project has two parts. **Part 1 (coin flips, 2026-09-21 to 10-08)** is covered by everything from here to
+"Part 2". **Part 2 (strategic games, 2026-10-09 to 10-11)** has its own section below: Study 1 Experiment 1
+(opponent-identity disclosure in rock-paper-scissors and matching pennies) and Experiment 2 (Blind Twin observers).
+The top-level README summarises both.
+
+
 LLMs asked to simulate fair coin flips produce structured, model-specific
 sequences. The project asks whether a model can identify its own 100-flip
 sequences, and predict their statistics, better than other models can. It is
@@ -17,7 +23,7 @@ an LLM version of Loula et al.'s point-light self-recognition paradigm.
 Models: `astra` (openai/gpt-6-astra), `fable` (anthropic/claude-fable-5.1),
 `mimo` (xiaomi/mimo-v2.6-pro), all called through OpenRouter.
 
-## Reading order
+## Part 1: reading order
 
 **Quick review (about 60 KB of text):**
 
@@ -33,14 +39,14 @@ Models: `astra` (openai/gpt-6-astra), `fable` (anthropic/claude-fable-5.1),
 7. [Key references](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/references.md): Loula, Couchman, Kaneko & Tomonaga, and Van Koevering & Kleinberg, with notes on how each relates to the design. It includes the temperature-0 caveat for independent calls.
 8. [Preregistration v1.0 (2026-09-21)](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/preregistration/preregistration_v1.0_2026-09-21.md). It covers the original SAME/DIFFERENT pilot only. The later experiments were not preregistered (see "Things a reviewer should check").
 
-## Key terms
+## Part 1: key terms
 
 - **Procedures** (how a sequence was generated): `batch` (one call returns all 100 flips); `history_conditioned` (100 calls, each shown the prior flips; called `online` in pilots 1–4); `independent_calls` (100 calls with an identical prompt and no history).
 - **Split:** each (model, procedure) cell has 20 sequences, split 10 development / 10 holdout (seed 20260930). Headline numbers are holdout.
 - **FCE identification task:** two-alternative A/B. Each trial shows two sequences from different models and asks which one came from a given target. **Chance = 0.50.** SELF wording ("the same underlying model as you") is used only when judge = target. NAMED wording names the target model.
 - **Contrasts** (per target, from [`analysis.py`](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/spar_dynamic/full_corpus_exp1/analysis.py), `_contrast_target`): OBS = mean NAMED accuracy of the two non-target judges. **S = SELF − OBS** (the primary self-advantage), **O = NAMED(by target) − OBS**, **F = SELF − NAMED(by target)** (effect of the SELF wording). The primary summary is the equal-weight mean S across the three targets.
 
-## Claims and where the evidence is
+## Part 1: claims and evidence
 
 Run folders are under `data/spar_dynamic/`. Each FCE run folder contains a `FULL_CORPUS_EXPERIMENT_1_REPORT.md`, `trial_level.csv` (one row per judgment), `producer_observer_contrasts.csv`, `bootstrap_intervals.csv` and `baseline_summary.csv`.
 
@@ -56,7 +62,7 @@ Run folders are under `data/spar_dynamic/`. Each FCE run folder contains a `FULL
 
 Code for all of the above is in [`spar_dynamic/full_corpus_exp1/`](https://github.com/chimpanzity/spar-coin-self-signature/tree/main/spar_dynamic/full_corpus_exp1). Tests are in `tests/test_full_corpus_exp1.py`.
 
-## Run index: which folders count
+## Part 1: run index (which folders count)
 
 | folder (under `data/spar_dynamic/`) | status |
 |---|---|
@@ -72,7 +78,7 @@ Code for all of the above is in [`spar_dynamic/full_corpus_exp1/`](https://githu
 | `full_corpus_phenotype_prediction_switch_rate/switchrate-20261001T175124Z/` | **Canonical** switch-rate forecasts |
 | any folder ending in `-dry` | Dry runs: prompts and manifests only, no API calls |
 
-## Phase 2 pilot (2026-10-07/08)
+## Part 1: Phase 2 pilot (2026-10-07/08)
 
 Two runs of the v7.1 protocol: 20-flip "Flip 20 (fair) coins." strings; completion of the last ten flips with the source named vs withheld (H4); anonymous SAME/DIFFERENT pairs (R/P/D); a small named arm; a GPT-3.5-0613 replication of Van Koevering; LASSO. Each run has a development stage, a recorded freeze, then fresh test data.
 
@@ -82,7 +88,79 @@ Two runs of the v7.1 protocol: 20-flip "Flip 20 (fair) coins." strings; completi
 - Check in particular: the share of all-0.5 answers (CORE_REPORT section 1); the Qwen run's fair-prompt cell (1/24 valid, so its two-prompt pair panel is not estimable); and the post-freeze reporting-only amendment A3.
 - Skip `calls.jsonl` (9–10 MB each) unless auditing raw requests. `scores.csv` and `contrasts.json` hold everything used in the reports.
 
-## Large files
+## Part 2: strategic games (2026-10-09 to 10-11)
+
+Models: `astra` (openai/gpt-6-astra), `fable` (anthropic/claude-fable-5.1), `qwen` (qwen/qwen3.8-27b). Two games,
+rock-paper-scissors (RPS) and matching pennies (MP). In MP, Player 1 is the Matcher.
+
+**Reading order:**
+
+1. [README.md](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/README.md): the Part 2 table and the bottom line.
+2. [Study 1 Experiment 1 report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/study1/STUDY1_EXPERIMENT1_REPORT.md): design, completion, primary D for each
+   game, the make-up amendment and recommendations.
+3. [Make-up games protocol and log](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/study1/EXPERIMENT1_MAKEUP_GAMES.md): rules fixed before the first make-up
+   call, the attempt log, and Qwen's disclosure-dependent formatting failures.
+4. [Experiment 2 report (Blind Twin on Exp. 1 logs)](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin_exp1/results/btx1-20261010/REPORT.md), then
+   [self-advantage by opponent](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/post_hoc/experiment2_by_opponent/REPORT.md) and
+   [round-1 robustness](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/post_hoc/experiment2_by_opponent/ROBUSTNESS_round1.md).
+5. [Self-self 00-vs-11 pilot](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin_selfself/results/btss-20261011/REPORT.md) and the
+   [judge test-retest](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin_selfself/results/btss-retest-20261011/REPORT.md).
+6. Post-hoc: [strategy measures](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/post_hoc/experiment1_strategy_measures/REPORT.md) and
+   [observation-equivalence calibration](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/post_hoc/experiment2_observation_equivalence/REPORT.md).
+7. Protocols: each package's `protocol.md`. Earlier pilots: [Blind Twin v1/v2](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin/protocol.md),
+   [Blind Twin RPS](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin_rps/protocol.md), [opponent disclosure (Astra-Astra MP)](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/opponent_disclosure/protocol.md).
+
+**Key terms:**
+
+- **Disclosure conditions** (Exp. 1): 00 = neither player told the opponent's identity, 10 = only P1 told, 01 = only
+  P2 told, 11 = both told. Disclosure is always truthful.
+- **D** (Exp. 1): the self-specific disclosure benefit. For each focal model, S = its gain from unilateral disclosure
+  against itself, O = its gain against the other two models; D = mean over models of S - O, in payoff units.
+- **Labels** (Exp. 2): TRUE = real model names; FALSE = fixed rotation (Astra->Fable->Qwen->Astra); ANONYMOUS = no
+  names. T = TRUE - ANON, F = TRUE - FALSE.
+- **S** (Exp. 2): the self judge's T on its own model, minus other judges' T on that model, averaged over models.
+  S_false does the same with F.
+
+**Claims and evidence:**
+
+| claim | evidence | data |
+|---|---|---|
+| No self-specific disclosure effect in RPS (D = +0.011) | Study 1 report | `opponent_disclosure_rps_3models/results/rps3m-p2-20261010/with_makeups/` |
+| MP D = -0.060, driven by Qwen and subject to selection | Study 1 report, make-up notes | `opponent_disclosure_mp_3models/results/mp3m-p2-20261010/with_makeups/`, `makeup_*.jsonl` |
+| Qwen's MP invalid rate depends on disclosure (3.6% vs 1.8%) | make-up notes, Section 6 | `calls.jsonl` + `makeup_calls.jsonl` (field `parse.valid`, `private.informed`) |
+| Fable-on-Fable TRUE > ANON > FALSE in both games | Exp. 2 report | `blind_twin_exp1/results/btx1-20261010/predictions.csv`, `indices.csv` |
+| Fable's self-advantage is in cross-model games, not Fable-Fable | by-opponent report | `post_hoc/experiment2_by_opponent/self_advantage_by_opponent.csv` |
+| A history classifier needs tens of Fable games to match Fable's labelled self-prediction | observation-equivalence report | `post_hoc/experiment2_observation_equivalence/learning_curve.csv` |
+| Judges reproduce only ~80% of their own predictions | test-retest report | `blind_twin_selfself/results/btss-retest-20261011/predictions.csv` |
+
+**Canonical runs:**
+
+| run | status |
+|---|---|
+| `opponent_disclosure_rps_3models/results/rps3m-p2-20261010/` | **Canonical** RPS cohort; `with_makeups/` is the amended analysis |
+| `opponent_disclosure_rps_3models/results/rps3m-20261009T1240Z/` | Superseded eight-game plan, never executed (0 calls) |
+| `opponent_disclosure_mp_3models/results/mp3m-p2-20261010/` | **Canonical** MP cohort; `with_makeups/` is the amended analysis |
+| `blind_twin_exp1/results/btx1-20261010/` | **Canonical** Experiment 2 |
+| `blind_twin_selfself/results/btss-20261011/`, `btss-retest-20261011/` | Self-self pilot; test-retest |
+| `blind_twin/results/bt-*`, `bt2-*`; `blind_twin_rps/results/rps-*`; `opponent_disclosure/results/od-*` | Oct 9 pilots, each with its own games |
+
+**Large files:** each run's `calls.jsonl` is 3-18 MB, and the `with_makeups/calls.jsonl` files are concatenations of
+those. Skip them unless auditing raw requests; the CSVs and `results.json` hold everything used in the reports.
+
+**Things to check in Part 2:**
+
+- **Pilots, not confirmatory tests.** There are 2 games per cell. Bootstrap intervals resample games but not judge
+  sampling noise, so they understate uncertainty (see the test-retest).
+- **Make-up games are a post-hoc deviation** decided after the data were seen. They are triggered by formatting
+  failures, never by outcomes, and every interrupted game was replaced. The pilot-only results are reported alongside.
+- **The frozen Exp. 1 contrast code is stricter than the handoff's D** (it needs all four cells). The handoff
+  definition is applied in `experiment1_derived.py`. This matters only for the MP pilot-only analysis.
+- **Mid-run operational changes** (concurrency, timeouts, retry classification) are logged in each run's `PROGRESS.md`
+  and `protocol.md`. None changed prompts, parsers or scoring.
+- **Openings are near-deterministic** (RPS PAPER; MP STAR/TRIANGLE), so round-1 accuracy is not evidence of
+  self-knowledge. Robustness without round 1 is in `post_hoc/experiment2_by_opponent/ROBUSTNESS_round1.md`.
+
+## Large files (Part 1)
 
 These are over 500 KB. Most fetch tools will truncate them, and none are
 needed to evaluate the claims:
@@ -92,7 +170,7 @@ needed to evaluate the claims:
 - `corpus/flips.csv` (1.4 MB long format). `corpus/trajectories.csv` has the same data as one row per sequence
 - `corpus/stimulus_corpus.xlsx` (binary, a human view of the CSVs)
 
-## Things a reviewer should check
+## Things a reviewer should check (Part 1)
 
 - **Not preregistered.** Only the original SAME/DIFFERENT pilot was preregistered, and its harness ([`pilots/pilot_0_preregistered_harness/`](https://github.com/chimpanzity/spar-coin-self-signature/tree/main/pilots/pilot_0_preregistered_harness)) was never run live. Pilots 1–4 and every corpus experiment were designed afterwards, several of them in response to earlier results. The dev/holdout split is the main safeguard.
 - **Small samples.** 10 holdout triplets per cell, so the bootstrap intervals are wide. Three models.

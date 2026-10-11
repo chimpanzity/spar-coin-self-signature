@@ -1,11 +1,12 @@
-# SPAR — Behavioral Self-Signatures in LLMs
+# SPAR — Behavioural Self-Signatures in LLMs
 
-> Can an LLM recognize its own simulated coin-flip sequences, or predict their statistics, better than other models can? Three models, three generation procedures, a frozen 180-sequence corpus, and eight experiments. Main finding: no privileged self-recognition. Attribution follows the stated generation procedure, not the sequence.
+> Do LLMs leave recognisable behavioural signatures, and does a model have privileged access to its own? Part 1 (coin flips): a frozen 180-sequence corpus and eight experiments; no privileged self-recognition, and attribution follows the stated generation procedure. Part 2 (rock-paper-scissors and matching pennies, Astra/Fable/Qwen): telling a model its opponent's identity has no self-specific effect on play, and as observers only Fable predicts its own model better when labels are true. That effect is in cross-model games, is bounded by a history classifier, and sits near a judge-noise floor of ~80% test-retest agreement.
 
 Start with the review guide. It gives the reading order, maps claims to evidence, indexes the runs, and lists large files to avoid.
 
 - [Review guide](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/REVIEW_GUIDE.md)
-- [README with summary](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/README.md)
-- [Weekly handoff notes (full narrative)](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/handoffs/HANDOFF_SPAR_WEEK_2026-09-29_to_2026-10-03.md)
-- [Cross-method results report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/data/spar_dynamic/FCE1_FCE2_CROSS_METHOD_REPORT.md)
-- [Phenotype baselines report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/data/spar_dynamic/PHENOTYPE_BASELINES_REPORT.md)
+- [README with summary of both parts](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/README.md)
+- [Part 1 full write-up](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/COIN_FLIP_STUDY.md)
+- [Weekly handoff notes, Part 1 (full narrative)](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/handoffs/HANDOFF_SPAR_WEEK_2026-09-29_to_2026-10-03.md)
+- [Part 2: Study 1 Experiment 1 report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/docs/study1/STUDY1_EXPERIMENT1_REPORT.md)
+- [Part 2: Experiment 2 (Blind Twin) report](https://raw.githubusercontent.com/chimpanzity/spar-coin-self-signature/main/blind_twin_exp1/results/btx1-20261010/REPORT.md)

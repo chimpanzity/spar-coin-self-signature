@@ -1,4 +1,4 @@
-"""Make-up games for Qwen-interrupted games (Study 1 Experiment 1). Rules: EXPERIMENT1_MAKEUP_GAMES.md, Section 3.
+"""Make-up games for Qwen-interrupted games (Study 1 Experiment 1). Rules: docs/study1/EXPERIMENT1_MAKEUP_GAMES.md, Section 3.
 
 For each interrupted game in a run, play fresh 20-round games in the same cell (<orig>_MU1, _MU2, ...) with the frozen
 package until one completes. Never touches calls.jsonl / game_logs.jsonl; writes makeup_calls.jsonl,
@@ -19,7 +19,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
-NOTES = REPO / "EXPERIMENT1_MAKEUP_GAMES.md"
+NOTES = REPO / "docs" / "study1" / "EXPERIMENT1_MAKEUP_GAMES.md"
 GAMES = {"rps": ("opponent_disclosure_rps_3models", "rps3m-p2-20261010", "frozen_manifest.json"),
          "mp": ("opponent_disclosure_mp_3models", "mp3m-p2-20261010", "manifest.json")}
 CELL_KEYS = ("p1_model", "p2_model", "condition", "p1_informed", "p2_informed", "replicate")
@@ -37,7 +37,7 @@ def combine(game: str, rd: Path) -> Path:
     (out / "game_logs.jsonl").write_text("".join(json.dumps(g) + "\n" for g in games))
     (out / "calls.jsonl").write_text((rd / "calls.jsonl").read_text() + ((rd / "makeup_calls.jsonl").read_text() if (rd / "makeup_calls.jsonl").exists() else ""))
     (out / "README.md").write_text("Amended (make-up) analysis: original games plus all make-up attempts; see "
-                                   "EXPERIMENT1_MAKEUP_GAMES.md. 'planned' counts in REPORT.md are games attempted per "
+                                   "docs/study1/EXPERIMENT1_MAKEUP_GAMES.md. 'planned' counts in REPORT.md are games attempted per "
                                    "cell. Original raw files are in the parent folder, unchanged.\n")
     importlib.import_module(f"{pkg}.analysis").analyze(out)
     return out
