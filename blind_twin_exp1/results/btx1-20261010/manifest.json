@@ -1,0 +1,69 @@
+{
+ "created_utc": "2026-10-11T03:50:33.943999Z",
+ "protocol": "BlindTwinExp1_v1",
+ "code_hash": "c7c6279ee1a592ff0f9c0b71b09745784561be7465881bf3f5f2130e411fb68a",
+ "template_sha256": {
+  "judge": "b52de1a482d7779e27aa80375724cd601cf298e4e075475188589e28508fa15c",
+  "known": "dd77d76c36985a1aaaf02353cdd7192388b5f551b0162fd8437e0d2f15a49c4f",
+  "anonymous": "fadc98e10f41cbf85a002279f8c57e50bf7fc81f1e08eeb15f1796422939bda6",
+  "rules_rps": "21e420ed4bd0e042db6e12ce46105bbcda14a3ba4178b9369eaf85b9e828f11c",
+  "rules_mp": "472c6e5c2de81b5af208bc275af8ef61da34b453b7100a99fa8d110da0229cb4"
+ },
+ "games_sha256": "5b78dfd4b6de8549e2a5dad29e44a0e215c7f5ce5a4748aa9462848ca8bd3f6d",
+ "games": [
+  "rps:AA_00_1",
+  "rps:AA_00_2",
+  "rps:AF_00_1",
+  "rps:AF_00_2",
+  "rps:AQ_00_1",
+  "rps:AQ_00_2",
+  "rps:FA_00_1",
+  "rps:FA_00_2",
+  "rps:FF_00_1",
+  "rps:FF_00_2",
+  "rps:FQ_00_1_MU1",
+  "rps:FQ_00_2",
+  "rps:QA_00_1",
+  "rps:QA_00_2",
+  "rps:QF_00_1",
+  "rps:QF_00_2",
+  "rps:QQ_00_1",
+  "rps:QQ_00_2",
+  "mp:AA_00_1",
+  "mp:AA_00_2",
+  "mp:AF_00_1",
+  "mp:AF_00_2",
+  "mp:AQ_00_1",
+  "mp:AQ_00_2_MU1",
+  "mp:FA_00_1",
+  "mp:FA_00_2",
+  "mp:FF_00_1",
+  "mp:FF_00_2",
+  "mp:FQ_00_1",
+  "mp:FQ_00_2",
+  "mp:QA_00_1_MU1",
+  "mp:QA_00_2",
+  "mp:QF_00_1_MU1",
+  "mp:QF_00_2",
+  "mp:QQ_00_1_MU2",
+  "mp:QQ_00_2"
+ ],
+ "schedule_sha256": "22829598f878f26c347ec953f67ec07a533d47a91a55bb34e70e5ff8645b64b1",
+ "n_calls": 6480,
+ "false_label": {
+  "astra": "fable",
+  "fable": "qwen",
+  "qwen": "astra"
+ },
+ "sources": {
+  "rps": {
+   "pkg": "opponent_disclosure_rps_3models",
+   "games": "opponent_disclosure_rps_3models/results/rps3m-p2-20261010/with_makeups/game_logs.jsonl"
+  },
+  "mp": {
+   "pkg": "opponent_disclosure_mp_3models",
+   "games": "opponent_disclosure_mp_3models/results/mp3m-p2-20261010/with_makeups/game_logs.jsonl"
+  }
+ },
+ "source_condition": "00"
+}

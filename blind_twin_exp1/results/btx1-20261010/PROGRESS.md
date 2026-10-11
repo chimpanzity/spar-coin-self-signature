@@ -1,0 +1,22 @@
+- 2026-10-10 22:12:20 PLAN: 36 games, 6480 judge calls, schedule 22829598f878, games 5b78dfd4b6de; not approved
+- 2026-10-10 22:12:41 VALIDATE: Result: PASS
+- 2026-10-10 22:12:50 RUN start, cap $70
+- 2026-10-10 22:12:50 judge calls: 6480 scheduled, 0 already recorded, 16 concurrent (spent $0.00, cap $70)
+- 2026-10-10 22:22:36   500 judge calls recorded; spent $2.55
+- 2026-10-10 22:25:51   1000 judge calls recorded; spent $5.13
+- 2026-10-10 22:40:19   1500 judge calls recorded; spent $7.81
+- 2026-10-10 22:44:56   2000 judge calls recorded; spent $10.41
+- 2026-10-10 23:17:27   2500 judge calls recorded; spent $12.92
+- 2026-10-10 23:50:33 STOPPED by Claude after 2,532 calls (network stalls: ~8 calls/min). Operational amendment: concurrency 16->32, request timeout 120 s. Re-freezing (same schedule/games); approval carried over.
+- 2026-10-10 23:50:34 PLAN: 36 games, 6480 judge calls, schedule 22829598f878, games 5b78dfd4b6de; not approved
+- 2026-10-10 23:50:56 RUN start, cap $70
+- 2026-10-10 23:50:56 judge calls: 6480 scheduled, 2532 already recorded, 32 concurrent (spent $13.07, cap $70)
+- 2026-10-11 00:11:44 Cause of stalls found: macOS idle system sleep on battery (pmset sleep=1 min; slept 23:55-00:10). Started 'caffeinate -i -m -w <run pid>' to prevent idle sleep for the life of the run. No change to the run.
+- 2026-10-11 00:13:15   3032 judge calls recorded; spent $15.63
+- 2026-10-11 00:15:01   3532 judge calls recorded; spent $18.14
+- 2026-10-11 00:16:35   4032 judge calls recorded; spent $20.68
+- 2026-10-11 00:18:13   4532 judge calls recorded; spent $23.08
+- 2026-10-11 00:19:42   5032 judge calls recorded; spent $25.73
+- 2026-10-11 00:21:09   5532 judge calls recorded; spent $28.30
+- 2026-10-11 00:22:39   6032 judge calls recorded; spent $30.85
+- 2026-10-11 00:24:39 RUN complete: REPORT.md written (spent $33.06)

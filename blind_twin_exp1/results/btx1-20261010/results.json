@@ -1,0 +1,391 @@
+{
+ "indices": {
+  "rps:T[astra,astra]": 3.75,
+  "rps:F[astra,astra]": -2.9166666666666643,
+  "rps:T[astra,fable]": 6.25,
+  "rps:F[astra,fable]": 3.75,
+  "rps:T[astra,qwen]": 1.250000000000007,
+  "rps:F[astra,qwen]": -4.166666666666664,
+  "rps:T[fable,astra]": 0.46052631578947256,
+  "rps:F[fable,astra]": -0.7675438596491162,
+  "rps:T[fable,fable]": 8.321150097465882,
+  "rps:F[fable,fable]": 14.517543859649123,
+  "rps:T[fable,qwen]": 1.91764132553606,
+  "rps:F[fable,qwen]": -0.09502923976607747,
+  "rps:T[qwen,astra]": 0.0,
+  "rps:F[qwen,astra]": -2.5,
+  "rps:T[qwen,fable]": 0.8333333333333286,
+  "rps:F[qwen,fable]": 5.833333333333329,
+  "rps:T[qwen,qwen]": -1.250000000000007,
+  "rps:F[qwen,qwen]": 1.250000000000007,
+  "rps:S[astra]": 3.5197368421052637,
+  "rps:S[fable]": 4.779483430799218,
+  "rps:S[qwen]": -2.8338206627680407,
+  "rps:S": 1.8217998700454803,
+  "rps:S_false[astra]": -1.2828947368421062,
+  "rps:S_false[fable]": 9.725877192982459,
+  "rps:S_false[qwen]": 3.380847953216378,
+  "rps:S_false": 3.9412768031189103,
+  "mp:T[astra,astra]": 3.3333333333333357,
+  "mp:F[astra,astra]": -2.5,
+  "mp:T[astra,fable]": -0.8333333333333357,
+  "mp:F[astra,fable]": 0.4166666666666643,
+  "mp:T[astra,qwen]": 1.6666666666666714,
+  "mp:F[astra,qwen]": -0.8333333333333286,
+  "mp:T[fable,astra]": 0.8333333333333357,
+  "mp:F[fable,astra]": -1.6666666666666643,
+  "mp:T[fable,fable]": 2.9166666666666643,
+  "mp:F[fable,fable]": 8.75,
+  "mp:T[fable,qwen]": -0.4166666666666643,
+  "mp:F[fable,qwen]": -1.25,
+  "mp:T[qwen,astra]": -0.4166666666666714,
+  "mp:F[qwen,astra]": -2.0833333333333357,
+  "mp:T[qwen,fable]": -0.8333333333333357,
+  "mp:F[qwen,fable]": 0.0,
+  "mp:T[qwen,qwen]": -1.6666666666666714,
+  "mp:F[qwen,qwen]": 1.6666666666666643,
+  "mp:S[astra]": 3.1250000000000036,
+  "mp:S[fable]": 3.75,
+  "mp:S[qwen]": -2.291666666666675,
+  "mp:S": 1.5277777777777761,
+  "mp:S_false[astra]": -0.625,
+  "mp:S_false[fable]": 8.541666666666668,
+  "mp:S_false[qwen]": 2.7083333333333286,
+  "mp:S_false": 3.5416666666666656,
+  "pooled:S": 1.6747888239116282,
+  "pooled:S_false": 3.741471734892788
+ },
+ "ci": {
+  "rps:T[astra,astra]": {
+   "lo": 2.5,
+   "hi": 5.416666666666657,
+   "undefined_frac": 0.0
+  },
+  "rps:F[astra,astra]": {
+   "lo": -5.416666666666664,
+   "hi": -0.8333333333333286,
+   "undefined_frac": 0.0
+  },
+  "rps:T[astra,fable]": {
+   "lo": 3.75,
+   "hi": 8.75,
+   "undefined_frac": 0.0
+  },
+  "rps:F[astra,fable]": {
+   "lo": 1.25,
+   "hi": 6.25,
+   "undefined_frac": 0.0
+  },
+  "rps:T[astra,qwen]": {
+   "lo": -1.6666666666666643,
+   "hi": 4.166666666666664,
+   "undefined_frac": 0.0
+  },
+  "rps:F[astra,qwen]": {
+   "lo": -5.833333333333336,
+   "hi": -2.5,
+   "undefined_frac": 0.0
+  },
+  "rps:T[fable,astra]": {
+   "lo": -2.9824561403508767,
+   "hi": 3.9035087719298147,
+   "undefined_frac": 0.0
+  },
+  "rps:F[fable,astra]": {
+   "lo": -4.166666666666664,
+   "hi": 2.543859649122801,
+   "undefined_frac": 0.0
+  },
+  "rps:T[fable,fable]": {
+   "lo": 6.193957115009745,
+   "hi": 10.14619883040936,
+   "undefined_frac": 0.0
+  },
+  "rps:F[fable,fable]": {
+   "lo": 10.91374269005847,
+   "hi": 18.121345029239762,
+   "undefined_frac": 0.0
+  },
+  "rps:T[fable,qwen]": {
+   "lo": -2.6851851851851833,
+   "hi": 6.5423976608187075,
+   "undefined_frac": 0.0
+  },
+  "rps:F[fable,qwen]": {
+   "lo": -5.672514619883046,
+   "hi": 5.482456140350884,
+   "undefined_frac": 0.0
+  },
+  "rps:T[qwen,astra]": {
+   "lo": -4.583333333333332,
+   "hi": 4.583333333333329,
+   "undefined_frac": 0.0
+  },
+  "rps:F[qwen,astra]": {
+   "lo": -7.083333333333325,
+   "hi": 1.6666666666666679,
+   "undefined_frac": 0.0
+  },
+  "rps:T[qwen,fable]": {
+   "lo": -5.416666666666671,
+   "hi": 7.083333333333336,
+   "undefined_frac": 0.0
+  },
+  "rps:F[qwen,fable]": {
+   "lo": 0.8333333333333428,
+   "hi": 10.416666666666671,
+   "undefined_frac": 0.0
+  },
+  "rps:T[qwen,qwen]": {
+   "lo": -7.083333333333339,
+   "hi": 4.583333333333343,
+   "undefined_frac": 0.0
+  },
+  "rps:F[qwen,qwen]": {
+   "lo": -6.666666666666661,
+   "hi": 9.166666666666671,
+   "undefined_frac": 0.0
+  },
+  "rps:S[astra]": {
+   "lo": 0.15350877192982892,
+   "hi": 6.875000000000002,
+   "undefined_frac": 0.0
+  },
+  "rps:S[fable]": {
+   "lo": 0.706627680311886,
+   "hi": 8.852339181286546,
+   "undefined_frac": 0.0
+  },
+  "rps:S[qwen]": {
+   "lo": -9.325048732943479,
+   "hi": 3.6574074074074012,
+   "undefined_frac": 0.0
+  },
+  "rps:S": {
+   "lo": -0.6834795321637438,
+   "hi": 4.369314489928533,
+   "undefined_frac": 0.0
+  },
+  "rps:S_false[astra]": {
+   "lo": -5.7346491228070136,
+   "hi": 3.1359649122806985,
+   "undefined_frac": 0.0
+  },
+  "rps:S_false[fable]": {
+   "lo": 4.038742690058466,
+   "hi": 15.413011695906427,
+   "undefined_frac": 0.0
+  },
+  "rps:S_false[qwen]": {
+   "lo": -5.866228070175431,
+   "hi": 12.595029239766085,
+   "undefined_frac": 0.0
+  },
+  "rps:S_false": {
+   "lo": 0.5567738791422995,
+   "hi": 7.420808966861602,
+   "undefined_frac": 0.0
+  },
+  "mp:T[astra,astra]": {
+   "lo": 0.8333333333333357,
+   "hi": 5.833333333333336,
+   "undefined_frac": 0.0
+  },
+  "mp:F[astra,astra]": {
+   "lo": -5.416666666666671,
+   "hi": 0.4166666666666714,
+   "undefined_frac": 0.0
+  },
+  "mp:T[astra,fable]": {
+   "lo": -4.166666666666664,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "mp:F[astra,fable]": {
+   "lo": -5.833333333333329,
+   "hi": 6.25,
+   "undefined_frac": 0.0
+  },
+  "mp:T[astra,qwen]": {
+   "lo": -2.0833333333333357,
+   "hi": 5.416666666666664,
+   "undefined_frac": 0.0
+  },
+  "mp:F[astra,qwen]": {
+   "lo": -5.0,
+   "hi": 3.3333333333333357,
+   "undefined_frac": 0.0
+  },
+  "mp:T[fable,astra]": {
+   "lo": -0.8333333333333428,
+   "hi": 2.5,
+   "undefined_frac": 0.0
+  },
+  "mp:F[fable,astra]": {
+   "lo": -5.000000000000007,
+   "hi": 1.6666666666666643,
+   "undefined_frac": 0.0
+  },
+  "mp:T[fable,fable]": {
+   "lo": 0.8333333333333357,
+   "hi": 5.0,
+   "undefined_frac": 0.0
+  },
+  "mp:F[fable,fable]": {
+   "lo": 7.083333333333336,
+   "hi": 10.416666666666664,
+   "undefined_frac": 0.0
+  },
+  "mp:T[fable,qwen]": {
+   "lo": -3.75,
+   "hi": 2.9166666666666643,
+   "undefined_frac": 0.0
+  },
+  "mp:F[fable,qwen]": {
+   "lo": -4.583333333333336,
+   "hi": 2.0833333333333357,
+   "undefined_frac": 0.0
+  },
+  "mp:T[qwen,astra]": {
+   "lo": -7.083333333333336,
+   "hi": 6.25,
+   "undefined_frac": 0.0
+  },
+  "mp:F[qwen,astra]": {
+   "lo": -8.75,
+   "hi": 4.583333333333336,
+   "undefined_frac": 0.0
+  },
+  "mp:T[qwen,fable]": {
+   "lo": -7.5,
+   "hi": 5.833333333333336,
+   "undefined_frac": 0.0
+  },
+  "mp:F[qwen,fable]": {
+   "lo": -4.166666666666664,
+   "hi": 4.166666666666671,
+   "undefined_frac": 0.0
+  },
+  "mp:T[qwen,qwen]": {
+   "lo": -5.0,
+   "hi": 1.6666666666666572,
+   "undefined_frac": 0.0
+  },
+  "mp:F[qwen,qwen]": {
+   "lo": -3.3333333333333357,
+   "hi": 6.666666666666671,
+   "undefined_frac": 0.0
+  },
+  "mp:S[astra]": {
+   "lo": -1.0416666666666714,
+   "hi": 7.4999999999999964,
+   "undefined_frac": 0.0
+  },
+  "mp:S[fable]": {
+   "lo": -1.4583333333333428,
+   "hi": 8.958333333333332,
+   "undefined_frac": 0.0
+  },
+  "mp:S[qwen]": {
+   "lo": -4.791666666666664,
+   "hi": 0.20833333333333215,
+   "undefined_frac": 0.0
+  },
+  "mp:S": {
+   "lo": -1.0416666666666703,
+   "hi": 4.166666666666662,
+   "undefined_frac": 0.0
+  },
+  "mp:S_false[astra]": {
+   "lo": -6.2500000000000036,
+   "hi": 4.791666666666664,
+   "undefined_frac": 0.0
+  },
+  "mp:S_false[fable]": {
+   "lo": 3.5416666666666714,
+   "hi": 13.75,
+   "undefined_frac": 0.0
+  },
+  "mp:S_false[qwen]": {
+   "lo": -4.166666666666664,
+   "hi": 9.791666666666671,
+   "undefined_frac": 0.0
+  },
+  "mp:S_false": {
+   "lo": 0.763888888888887,
+   "hi": 6.319444444444444,
+   "undefined_frac": 0.0
+  },
+  "pooled:S": {
+   "lo": -0.12711176088369225,
+   "hi": 3.5315139701104625,
+   "undefined_frac": 0.0
+  },
+  "pooled:S_false": {
+   "lo": 1.4820906432748586,
+   "hi": 5.921052631578948,
+   "undefined_frac": 0.0
+  }
+ },
+ "acc": {
+  "rps|astra|astra|TRUE": 43.75,
+  "rps|astra|astra|FALSE": 46.666666666666664,
+  "rps|astra|astra|ANONYMOUS": 40.0,
+  "rps|astra|fable|TRUE": 46.666666666666664,
+  "rps|astra|fable|FALSE": 42.916666666666664,
+  "rps|astra|fable|ANONYMOUS": 40.416666666666664,
+  "rps|astra|qwen|TRUE": 40.41666666666667,
+  "rps|astra|qwen|FALSE": 44.583333333333336,
+  "rps|astra|qwen|ANONYMOUS": 39.166666666666664,
+  "rps|fable|astra|TRUE": 40.78947368421053,
+  "rps|fable|astra|FALSE": 41.557017543859644,
+  "rps|fable|astra|ANONYMOUS": 40.328947368421055,
+  "rps|fable|fable|TRUE": 53.350389863547754,
+  "rps|fable|fable|FALSE": 38.83284600389863,
+  "rps|fable|fable|ANONYMOUS": 45.02923976608187,
+  "rps|fable|qwen|TRUE": 46.33528265107213,
+  "rps|fable|qwen|FALSE": 46.430311890838205,
+  "rps|fable|qwen|ANONYMOUS": 44.41764132553607,
+  "rps|qwen|astra|TRUE": 31.25,
+  "rps|qwen|astra|FALSE": 33.75,
+  "rps|qwen|astra|ANONYMOUS": 31.25,
+  "rps|qwen|fable|TRUE": 41.666666666666664,
+  "rps|qwen|fable|FALSE": 35.833333333333336,
+  "rps|qwen|fable|ANONYMOUS": 40.833333333333336,
+  "rps|qwen|qwen|TRUE": 37.5,
+  "rps|qwen|qwen|FALSE": 36.24999999999999,
+  "rps|qwen|qwen|ANONYMOUS": 38.75000000000001,
+  "mp|astra|astra|TRUE": 58.333333333333336,
+  "mp|astra|astra|FALSE": 60.833333333333336,
+  "mp|astra|astra|ANONYMOUS": 55.0,
+  "mp|astra|fable|TRUE": 55.416666666666664,
+  "mp|astra|fable|FALSE": 55.0,
+  "mp|astra|fable|ANONYMOUS": 56.25,
+  "mp|astra|qwen|TRUE": 53.333333333333336,
+  "mp|astra|qwen|FALSE": 54.166666666666664,
+  "mp|astra|qwen|ANONYMOUS": 51.666666666666664,
+  "mp|fable|astra|TRUE": 58.333333333333336,
+  "mp|fable|astra|FALSE": 60.0,
+  "mp|fable|astra|ANONYMOUS": 57.5,
+  "mp|fable|fable|TRUE": 65.0,
+  "mp|fable|fable|FALSE": 56.25,
+  "mp|fable|fable|ANONYMOUS": 62.083333333333336,
+  "mp|fable|qwen|TRUE": 57.5,
+  "mp|fable|qwen|FALSE": 58.75,
+  "mp|fable|qwen|ANONYMOUS": 57.916666666666664,
+  "mp|qwen|astra|TRUE": 55.416666666666664,
+  "mp|qwen|astra|FALSE": 57.5,
+  "mp|qwen|astra|ANONYMOUS": 55.833333333333336,
+  "mp|qwen|fable|TRUE": 54.166666666666664,
+  "mp|qwen|fable|FALSE": 54.166666666666664,
+  "mp|qwen|fable|ANONYMOUS": 55.0,
+  "mp|qwen|qwen|TRUE": 56.666666666666664,
+  "mp|qwen|qwen|FALSE": 55.0,
+  "mp|qwen|qwen|ANONYMOUS": 58.333333333333336
+ },
+ "n_paired_items": {
+  "astra": 1440,
+  "fable": 1408,
+  "qwen": 1440
+ }
+}

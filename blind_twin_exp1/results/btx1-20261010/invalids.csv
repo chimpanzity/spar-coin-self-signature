@@ -1,0 +1,114 @@
+slot_id,judge,status,reason,text_tail
+judge:fable:rps:FA_00_2:r10:FALSE,fable,completed,not_json,"Player 1 pattern: PAPER, ROCK, PAPER, SCISSORS, ROCK, SCISSORS, PAPER, ROCK, SCISSORS... Recent cycle: ROCK, SCISSORS, PAPER, ROCK, SCISSORS → next PAPER.
+
+Player 2: likely predicts Player 1 PAPER and plays SCISSORS.
+
+{""player_1"":""PAPER"",""player_2"":""SCISSORS""}"
+judge:fable:rps:QF_00_2:r13:TRUE,fable,completed,not_json,"Looking at Player 1's sequence: R, S, P, S, P, R, S, P, R, P, R, S — mostly cycling backward (R→S→P→R...). After S at round 12, next likely PAPER.
+
+Player 2 has been countering P1 well recently; if P2 predicts PAPER, P2 plays SCISSORS.
+
+{""player_1"":""PAPER"",""player_2"":""SCISSORS""}"
+judge:fable:rps:QF_00_2:r10:TRUE,fable,completed,not_json,"Looking at patterns: Player 1 sequence: R, S, P, S, P, R, S, P, R — recent cycle R→S→P→R... After R (round 9), next would be S. Player 2 sequence: P, R, S, P, R, S, R, S, P — recent cycle R→S→P, next would be R.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:QF_00_2:r15:TRUE,fable,completed,not_json," P, R, S, P, R. The recent cycle is R→S→P→R repeating. After ROCK (round 14), Player 1 likely plays SCISSORS.
+
+Player 2 has been winning by countering this: after R came P, after S came R, after P came S. Player 2 will likely predict SCISSORS and play ROCK.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:QF_00_2:r12:FALSE,fable,completed,not_json,"yer 2 appears to cycle P, R, S, P, R, S, R, S, P, R, P... Recent: R, S, P, R, P. Player 1 recent: S, P, R, P, R — alternating P/R; next might be S or P.
+
+Player 1 after R (rounds 1,6,9): next were S, S, P. Player 2 after P (rounds 1,4,9): next were R, R, R.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:QF_00_2:r16:FALSE,fable,completed,not_json,"er 2 often plays what beats Player 1's previous move? R1 P1 ROCK -> R2 P2 ROCK (no). Player 2 pattern recently: P,R,S,P,R — cycling P→R→S→P→R, next S. Player 1 recently: R,S,P,R,P — after P, P1 played R (R10→R11: P→R, R13→R14: P→R). So P1 ROCK, P2 SCISSORS.
+
+{""player_1"":""ROCK"",""player_2"":""SCISSORS""}"
+judge:fable:rps:QF_00_2:r14:TRUE,fable,completed,not_json,"ern: R, S, P, S, P, R, S, P, R, P, R, S, P. Recent cycle R→S→P repeating from round 11; next likely ROCK. Player 2 has been countering: after PAPER at round 13 by P1, P2 chose SCISSORS; P2 seems to predict P1's next move — likely predicts ROCK and plays PAPER.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:QA_00_2:r06:ANONYMOUS,fable,completed,not_json,"Player 1 pattern: PAPER, SCISSORS, ROCK, PAPER, SCISSORS → next ROCK. Player 2 has been beating Player 1 by playing what beats P1's next move (rounds 3-5): P2 played PAPER, SCISSORS, ROCK — one step ahead of P1's cycle. If P1 plays ROCK, P2 plays PAPER.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:QF_00_2:r12:ANONYMOUS,fable,completed,not_json,", R, P.
+
+Player 1 recent: after losing, tends to... Round 9 R lost to P, round 10 P won, round 11 R lost to P. Player 1 after R-loss (rounds 1,9): played S, then P. Player 2 after winning tends to shift: after P win (r1) played R; after P win (r9) played R.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:FQ_00_2:r05:FALSE,fable,completed,not_json,"S, PAPER — cycling P→R→S→P, next ROCK. Player 2: ROCK, SCISSORS, PAPER, SCISSORS — Player 2 played what beat P1's previous? Round 4 P2 played SCISSORS beating P1's... P1's R3 was SCISSORS; P2's R4 SCISSORS. Hmm, P2 might predict P1 next is ROCK and play PAPER.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:FA_00_1:r10:FALSE,fable,completed,not_json,"Player 1 pattern: PAPER, ROCK, PAPER, SCISSORS, ROCK, SCISSORS, PAPER, ROCK, SCISSORS → cycle P, R, S repeating from round 4? Rounds 4-9: S, R, S, P, R, S. Rounds 7-9: P, R, S; round 10 likely PAPER.
+
+Player 2 would likely predict this and play SCISSORS.
+
+{""player_1"":""PAPER"",""player_2"":""SCISSORS""}"
+judge:fable:rps:FA_00_1:r10:ANONYMOUS,fable,completed,not_json,"P, S, R, S, P, R, S — cycling P→R→S? Rounds 7,8,9: P, R, S. Rounds 4,5,6: S,R,S. Rounds 2,3,4: R,P,S. Looks like recent pattern P,R,S repeating → next PAPER.
+
+Player 2: P, S, R, P, P, S, P, P, S. Pattern P,P,S repeating from round 4: P,P,S,P,P,S → next PAPER.
+
+{""player_1"":""PAPER"",""player_2"":""PAPER""}"
+judge:fable:rps:QA_00_2:r06:FALSE,fable,completed,not_json,"Player 1 pattern: PAPER, SCISSORS, ROCK, PAPER, SCISSORS → next ROCK. Player 2 pattern: PAPER, SCISSORS, PAPER, SCISSORS, ROCK → Player 2 has been countering P1's cycle; likely PAPER to beat ROCK.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:QF_00_2:r10:FALSE,fable,completed,not_json,"Looking at patterns: Player 1 sequence: R, S, P, S, P, R, S, P, R — cycling R→S→P repeatedly (R,S,P,S,P,R,S,P,R). Next after R is S.
+
+Player 2 sequence: P, R, S, P, R, S, R, S, P — cycling P→R→S; after P comes R.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:QF_00_2:r10:ANONYMOUS,fable,completed,not_json,"S→PAPER→SCISSORS→PAPER→ROCK→SCISSORS→PAPER→ROCK. Rounds 7-9: SCISSORS, PAPER, ROCK — repeating the R→S→P pattern suggests next is SCISSORS. Player 2 in rounds 7-9: ROCK, SCISSORS, PAPER, and Player 2 has been beating Player 1 consistently; next likely ROCK.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:QF_00_2:r19:ANONYMOUS,fable,completed,not_json,"P2 has been playing what beats P1's prior move... Round 17: P1 played R, P2 played P (beat). Round 18: P2 R beats P1's S. P2 seems to be counter-predicting P1. If P2 expects P1 to play PAPER, P2 plays SCISSORS. Pattern P2 after P,R → S (rounds 11-13, 1-3).
+
+{""player_1"":""PAPER"",""player_2"":""SCISSORS""}"
+judge:fable:rps:QF_00_2:r19:TRUE,fable,completed,not_json,"Looking at Player 1's pattern: R, S, P, S, P, R, S, P, R, P, R, S, P, R, P, P, R, S... Player 1 tends to cycle R→S→P. After S in round 18, likely P next. Player 2 has been countering well; after P1's SCISSORS, P2 would predict PAPER and play SCISSORS.
+
+{""player_1"":""PAPER"",""player_2"":""SCISSORS""}"
+judge:fable:rps:QF_00_1:r05:ANONYMOUS,fable,completed,not_json,"Player 1 pattern: PAPER, SCISSORS, ROCK, PAPER → cycles, next SCISSORS. Player 2 pattern: PAPER, ROCK, PAPER, SCISSORS... Player 2 seems to be beating Player 1 by predicting the cycle; if P1 plays SCISSORS, P2 plays ROCK.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:QF_00_2:r09:ANONYMOUS,fable,completed,not_json,"oking at patterns: Player 1 sequence: R, S, P, S, P, R, S, P — seems to cycle R→S→P repeatedly (with a hiccup at round 4-6). Rounds 6-8: R, S, P → next likely ROCK.
+
+Player 2 sequence: P, R, S, P, R, S, R, S — cycle P→R→S. Rounds 7-8: R, S → next likely PAPER.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:QF_00_2:r14:ANONYMOUS,fable,completed,not_json,"oking at Player 1's pattern: R, S, P, S, P, R, S, P, R, P, R, S, P — recent cycle R→S→P repeating from round 11. Next likely ROCK.
+
+Player 2 has been consistently beating Player 1 lately; after P, R, S in rounds 11-13, Player 2 likely plays PAPER to beat ROCK.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:QF_00_2:r09:FALSE,fable,completed,not_json," → cycles R→S→P. After P comes R (rounds 3→4 is P→S though... let's see: R,S,P,S,P,R,S,P). Pattern S,P,R repeating from round 4: S,P,R,S,P → next R.
+
+Player 2 sequence: P, R, S, P, R, S, R, S → pattern P,R,S,P,R,S then R,S... next likely P (continuing R,S,P) .
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:QF_00_2:r14:FALSE,fable,completed,not_json,"is R? But rounds 9→10 was R→P. Hmm. Most consistent: after P, P1 chose S (round 3→4), R (round 5→6), R (8→9), R (10→11). So R most likely.
+
+Player 2 sequence: P, R, S, P, R, S, R, S, P, R, P, R, S. Recent: P, R, S → likely P next (cycle P,R,S). Also P beats R.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:AF_00_1:r05:ANONYMOUS,fable,completed,not_json,"Player 1 pattern: PAPER, SCISSORS, ROCK, PAPER → cycling forward; next SCISSORS.
+Player 2 pattern: PAPER, ROCK, PAPER, SCISSORS... Player 2 seems to counter Player 1's next move (predicting the cycle). If P1 plays SCISSORS, P2 plays ROCK.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:QF_00_1:r06:ANONYMOUS,fable,completed,not_json,"Player 1 pattern: PAPER, SCISSORS, ROCK, PAPER, SCISSORS → next ROCK. Player 2 pattern: PAPER, ROCK, PAPER, SCISSORS, ROCK → counters P1, likely PAPER.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:QF_00_2:r15:ANONYMOUS,fable,completed,not_json,": R,S,P,S,P,R,S,P,R,P,R,S,P,R. Recent cycle R→S→P→R repeating from round 11: R,S,P,R → next S.
+
+Player 2: P,R,S,P,R,S,R,S,P,R,P,R,S,P. Recent: P,R,S,P → next R. Also P2 seems to beat P1's pattern (P beats R, R beats S, S beats P). If P1 plays S, P2 plays R.
+
+{""player_1"":""SCISSORS"",""player_2"":""ROCK""}"
+judge:fable:rps:AQ_00_2:r07:ANONYMOUS,fable,completed,not_json,"er 2 sequence: P, R, P, S, S, P — Player 2 seems to counter Player 1's last move: after P1 played P, P2 played S? Round 5 P1=P, round 6 P2=P (not countering). Round 2 P1=S, round 3 P2=P... Not clear. P2 won round 6 with PAPER; winners often repeat → PAPER.
+
+{""player_1"":""SCISSORS"",""player_2"":""PAPER""}"
+judge:fable:rps:QA_00_2:r06:TRUE,fable,completed,not_json,"Player 1 pattern: PAPER, SCISSORS, ROCK, PAPER, SCISSORS → next ROCK (cycling P→S→R). Player 2 has been beating that: after round 2, P2 played what beats P1's cyclic next. P2 next likely PAPER.
+
+{""player_1"":""ROCK"",""player_2"":""PAPER""}"
+judge:fable:rps:FA_00_2:r10:ANONYMOUS,fable,completed,not_json,"S,P,R,S...). Actually rounds 7-9: PAPER, ROCK, SCISSORS; rounds 4-6: SCISSORS, ROCK, SCISSORS. Likely next: PAPER.
+
+Player 2: PAPER, SCISSORS, ROCK, PAPER, PAPER, SCISSORS, PAPER, PAPER, SCISSORS → pattern PAPER, PAPER, SCISSORS repeating suggests PAPER next.
+
+{""player_1"":""PAPER"",""player_2"":""PAPER""}"
