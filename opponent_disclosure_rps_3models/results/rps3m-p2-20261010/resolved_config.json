@@ -1,0 +1,111 @@
+{
+ "protocol": "RPSDisclosure3M_v1_pilot2",
+ "master_seed": 20261012,
+ "analysis_seed": 20261013,
+ "models": {
+  "astra": {
+   "slug": "openai/gpt-6-astra",
+   "name": "GPT-6 Astra",
+   "provider": "openai"
+  },
+  "fable": {
+   "slug": "anthropic/claude-fable-5.1",
+   "name": "Claude Fable 5.1",
+   "provider": "anthropic"
+  },
+  "qwen": {
+   "slug": "qwen/qwen3.8-27b",
+   "name": "Qwen3.8 27B",
+   "provider": "alibaba"
+  }
+ },
+ "reasoning": {
+  "effort": "low",
+  "exclude": true
+ },
+ "max_tokens": 4000,
+ "omitted_controls": [
+  "temperature",
+  "top_p",
+  "seed"
+ ],
+ "pairings": [
+  [
+   "astra",
+   "astra"
+  ],
+  [
+   "astra",
+   "fable"
+  ],
+  [
+   "astra",
+   "qwen"
+  ],
+  [
+   "fable",
+   "astra"
+  ],
+  [
+   "fable",
+   "fable"
+  ],
+  [
+   "fable",
+   "qwen"
+  ],
+  [
+   "qwen",
+   "astra"
+  ],
+  [
+   "qwen",
+   "fable"
+  ],
+  [
+   "qwen",
+   "qwen"
+  ]
+ ],
+ "conditions": {
+  "00": [
+   false,
+   false
+  ],
+  "10": [
+   true,
+   false
+  ],
+  "01": [
+   false,
+   true
+  ],
+  "11": [
+   true,
+   true
+  ]
+ },
+ "replicates_per_cell": 2,
+ "n_rounds": 20,
+ "n_games": 72,
+ "n_planned_calls": 2880,
+ "budget_cap_usd": 60.0,
+ "max_transient_retries": 3,
+ "game_concurrency": 16,
+ "n_boot": 5000,
+ "templates": {
+  "game": "This is a 20-round simultaneous-choice rock-paper-scissors game between Player 1 and Player 2. On each round, both players independently choose ROCK, PAPER, or SCISSORS without seeing the other player's current choice. ROCK beats SCISSORS, SCISSORS beats PAPER, and PAPER beats ROCK. Equal choices result in a tie. After each completed round, both choices and the result are revealed. Your objective is to win as many rounds as possible.\n\nYou are {SEAT}.\nYour model identity is {OWN_MODEL_NAME}.\n\n{OPPONENT_IDENTITY_SENTENCE}\n\nCompleted-round history:\n{PUBLIC_HISTORY}\n\nRound {T} of 20: choose ROCK, PAPER, or SCISSORS.\n\nReturn your final choice on the last nonempty line, using exactly ROCK, PAPER, or SCISSORS.",
+  "informed": "Opponent identity: Your opponent is an independent instance of {TRUE_OPPONENT_MODEL_NAME}.",
+  "uninformed": "Opponent identity: Your opponent's model identity is not disclosed.",
+  "empty_history": "None. This is the first round.",
+  "history_header": "Round | Player 1 | Player 2 | Result"
+ },
+ "template_sha256": {
+  "game": "b1bde1da3d453e896f41ec9e50954911c8b92c56f6e42c5ae286cad129d45193",
+  "informed": "8e5f2b88ef63f590f87411ce2929162a9548e554cc97f11fcf65150479285c60",
+  "uninformed": "4bbd9c790c9d6cbddd9ab6e3cfe5e99d14679c06709967a5d59571b62192afb9",
+  "empty_history": "644408d956b95f381a02249119762225ac3869a5709ea2c0bf3612d274e7c7e0",
+  "history_header": "31e402f4a91f4c9e344e29952ed1fad0beae66281d8fecf79a36baa96cdc94d6"
+ },
+ "code_hash": "9a4f6245d26084cb85d96522ba03d8605437258fa6e675fdd189fa885f80f8f9"
+}

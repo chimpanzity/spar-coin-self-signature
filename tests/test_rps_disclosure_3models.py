@@ -16,12 +16,12 @@ ROWS = [{"round": 1, "p1": "ROCK", "p2": "PAPER", "result": "Player 2"},
 def test_design_counts():
     s = schedule()
     pairs = Counter((g["p1_model"], g["p2_model"]) for g in s)
-    assert len(pairs) == 9 and all(v == 32 for v in pairs.values())
+    assert len(pairs) == 9 and all(v == 4 * C.REPLICATES for v in pairs.values())
     assert sum(1 for a, b in pairs if a == b) == 3
     cells = Counter((g["p1_model"], g["p2_model"], g["condition"]) for g in s)
-    assert len(cells) == 36 and set(cells.values()) == {8}
-    assert len(s) == C.N_GAMES == 288 and C.N_GAMES * C.N_ROUNDS == 5760 and C.N_CALLS == 11520
-    assert len({g["game_id"] for g in s}) == 288
+    assert len(cells) == 36 and set(cells.values()) == {C.REPLICATES} == {2}
+    assert len(s) == C.N_GAMES == 72 and C.N_GAMES * C.N_ROUNDS == 1440 and C.N_CALLS == 2880
+    assert len({g["game_id"] for g in s}) == 72
     assert schedule_hash(s) == schedule_hash(schedule())                 # deterministic
     first_wave = s[:36]
     assert len({(g["p1_model"], g["p2_model"], g["condition"]) for g in first_wave}) == 36   # interleaved
@@ -114,15 +114,15 @@ def test_fake_full_run_resume_rescore_and_incomplete(tmp_path):
     rd = tmp_path / "run"
     r = Runner(rd, live=False)
     games = r.run(schedule())
-    assert len(games) == 288 and all(g["status"] == "complete" for g in games)
+    assert len(games) == 72 and all(g["status"] == "complete" for g in games)
     calls = [json.loads(l) for l in (rd / "calls.jsonl").read_text().splitlines()]
-    assert len(calls) == 11520
+    assert len(calls) == 2880
     by = {}
     for c in calls:
         by.setdefault((c["game_id"], c["round"]), []).append(c["public_history"])
     assert all(len(v) == 2 and v[0] == v[1] for v in by.values())
     Runner(rd, live=False).run(schedule())                                # resume: no duplicate calls
-    assert len((rd / "calls.jsonl").read_text().splitlines()) == 11520
+    assert len((rd / "calls.jsonl").read_text().splitlines()) == 2880
     res = A.analyze(rd)
     assert res["rescore"]["round_result_mismatches"] == 0
     assert res["contrasts"]["D"] == pytest.approx(res["rescore"]["D_rescore"], abs=1e-12)
@@ -148,3 +148,13 @@ def test_budget_and_approval_gates(tmp_path):
     r.acct.cap = 0.05                                                      # fake reservation ~$0.24 per call
     g = r.play(schedule()[0])
     assert g["status"] == "interrupted" and r.stop.is_set() and r.acct.spent <= 0.05
+
+
+def test_live_prices_from_plan_snapshot():
+    import pathlib
+    from opponent_disclosure_rps_3models.game import snapshot_prices
+    run = sorted(pathlib.Path(C.RESULTS).glob("*p2-20261010/endpoint_and_price_snapshots.json"))[0]
+    pr = snapshot_prices(json.loads(run.read_text()))
+    assert set(pr) == {m["slug"] for m in C.MODELS.values()}
+    assert pr["openai/gpt-6-astra"] == {"prompt": 1e-05, "completion": 5e-05}          # pinned "openai", not flex/fast
+    assert pr["qwen/qwen3.8-27b"]["completion"] == 2.55e-06

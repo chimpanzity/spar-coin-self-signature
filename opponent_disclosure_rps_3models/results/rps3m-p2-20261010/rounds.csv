@@ -1,0 +1,1433 @@
+game_id,p1_model,p2_model,condition,complete_game,round,p1,p2,result,p1_payoff
+FA_00_1,fable,astra,00,True,1,PAPER,PAPER,Tie,0.5
+FA_00_1,fable,astra,00,True,2,ROCK,SCISSORS,Player 1,1.0
+FA_00_1,fable,astra,00,True,3,PAPER,ROCK,Player 1,1.0
+FA_00_1,fable,astra,00,True,4,SCISSORS,PAPER,Player 1,1.0
+FA_00_1,fable,astra,00,True,5,ROCK,PAPER,Player 2,0.0
+FA_00_1,fable,astra,00,True,6,SCISSORS,SCISSORS,Tie,0.5
+FA_00_1,fable,astra,00,True,7,PAPER,PAPER,Tie,0.5
+FA_00_1,fable,astra,00,True,8,ROCK,PAPER,Player 2,0.0
+FA_00_1,fable,astra,00,True,9,SCISSORS,SCISSORS,Tie,0.5
+FA_00_1,fable,astra,00,True,10,SCISSORS,SCISSORS,Tie,0.5
+FA_00_1,fable,astra,00,True,11,SCISSORS,ROCK,Player 2,0.0
+FA_00_1,fable,astra,00,True,12,PAPER,ROCK,Player 1,1.0
+FA_00_1,fable,astra,00,True,13,ROCK,ROCK,Tie,0.5
+FA_00_1,fable,astra,00,True,14,PAPER,ROCK,Player 1,1.0
+FA_00_1,fable,astra,00,True,15,PAPER,PAPER,Tie,0.5
+FA_00_1,fable,astra,00,True,16,SCISSORS,PAPER,Player 1,1.0
+FA_00_1,fable,astra,00,True,17,PAPER,ROCK,Player 1,1.0
+FA_00_1,fable,astra,00,True,18,PAPER,PAPER,Tie,0.5
+FA_00_1,fable,astra,00,True,19,PAPER,ROCK,Player 1,1.0
+FA_00_1,fable,astra,00,True,20,SCISSORS,SCISSORS,Tie,0.5
+QA_01_1,qwen,astra,01,True,1,ROCK,PAPER,Player 2,0.0
+QA_01_1,qwen,astra,01,True,2,SCISSORS,ROCK,Player 2,0.0
+QA_01_1,qwen,astra,01,True,3,ROCK,SCISSORS,Player 1,1.0
+QA_01_1,qwen,astra,01,True,4,SCISSORS,ROCK,Player 2,0.0
+QA_01_1,qwen,astra,01,True,5,PAPER,PAPER,Tie,0.5
+QA_01_1,qwen,astra,01,True,6,ROCK,ROCK,Tie,0.5
+QA_01_1,qwen,astra,01,True,7,PAPER,ROCK,Player 1,1.0
+QA_01_1,qwen,astra,01,True,8,PAPER,PAPER,Tie,0.5
+QA_01_1,qwen,astra,01,True,9,PAPER,SCISSORS,Player 2,0.0
+QA_01_1,qwen,astra,01,True,10,PAPER,PAPER,Tie,0.5
+QA_01_1,qwen,astra,01,True,11,PAPER,SCISSORS,Player 2,0.0
+QA_01_1,qwen,astra,01,True,12,SCISSORS,SCISSORS,Tie,0.5
+QA_01_1,qwen,astra,01,True,13,ROCK,PAPER,Player 2,0.0
+QA_01_1,qwen,astra,01,True,14,PAPER,ROCK,Player 1,1.0
+QA_01_1,qwen,astra,01,True,15,PAPER,SCISSORS,Player 2,0.0
+QA_01_1,qwen,astra,01,True,16,SCISSORS,SCISSORS,Tie,0.5
+QA_01_1,qwen,astra,01,True,17,ROCK,PAPER,Player 2,0.0
+QA_01_1,qwen,astra,01,True,18,PAPER,SCISSORS,Player 2,0.0
+QA_01_1,qwen,astra,01,True,19,SCISSORS,ROCK,Player 2,0.0
+QA_01_1,qwen,astra,01,True,20,ROCK,PAPER,Player 2,0.0
+FA_10_1,fable,astra,10,True,1,SCISSORS,PAPER,Player 1,1.0
+FA_10_1,fable,astra,10,True,2,PAPER,ROCK,Player 1,1.0
+FA_10_1,fable,astra,10,True,3,ROCK,PAPER,Player 2,0.0
+FA_10_1,fable,astra,10,True,4,PAPER,ROCK,Player 1,1.0
+FA_10_1,fable,astra,10,True,5,ROCK,PAPER,Player 2,0.0
+FA_10_1,fable,astra,10,True,6,PAPER,SCISSORS,Player 2,0.0
+FA_10_1,fable,astra,10,True,7,SCISSORS,PAPER,Player 1,1.0
+FA_10_1,fable,astra,10,True,8,PAPER,SCISSORS,Player 2,0.0
+FA_10_1,fable,astra,10,True,9,SCISSORS,ROCK,Player 2,0.0
+FA_10_1,fable,astra,10,True,10,ROCK,SCISSORS,Player 1,1.0
+FA_10_1,fable,astra,10,True,11,SCISSORS,ROCK,Player 2,0.0
+FA_10_1,fable,astra,10,True,12,ROCK,PAPER,Player 2,0.0
+FA_10_1,fable,astra,10,True,13,ROCK,SCISSORS,Player 1,1.0
+FA_10_1,fable,astra,10,True,14,PAPER,ROCK,Player 1,1.0
+FA_10_1,fable,astra,10,True,15,SCISSORS,PAPER,Player 1,1.0
+FA_10_1,fable,astra,10,True,16,ROCK,PAPER,Player 2,0.0
+FA_10_1,fable,astra,10,True,17,ROCK,SCISSORS,Player 1,1.0
+FA_10_1,fable,astra,10,True,18,SCISSORS,SCISSORS,Tie,0.5
+FA_10_1,fable,astra,10,True,19,PAPER,PAPER,Tie,0.5
+FA_10_1,fable,astra,10,True,20,PAPER,PAPER,Tie,0.5
+FF_10_1,fable,fable,10,True,1,PAPER,PAPER,Tie,0.5
+FF_10_1,fable,fable,10,True,2,ROCK,ROCK,Tie,0.5
+FF_10_1,fable,fable,10,True,3,SCISSORS,ROCK,Player 2,0.0
+FF_10_1,fable,fable,10,True,4,ROCK,SCISSORS,Player 1,1.0
+FF_10_1,fable,fable,10,True,5,SCISSORS,PAPER,Player 1,1.0
+FF_10_1,fable,fable,10,True,6,PAPER,ROCK,Player 1,1.0
+FF_10_1,fable,fable,10,True,7,ROCK,PAPER,Player 2,0.0
+FF_10_1,fable,fable,10,True,8,SCISSORS,ROCK,Player 2,0.0
+FF_10_1,fable,fable,10,True,9,PAPER,SCISSORS,Player 2,0.0
+FF_10_1,fable,fable,10,True,10,SCISSORS,PAPER,Player 1,1.0
+FF_10_1,fable,fable,10,True,11,PAPER,SCISSORS,Player 2,0.0
+FF_10_1,fable,fable,10,True,12,ROCK,ROCK,Tie,0.5
+FF_10_1,fable,fable,10,True,13,PAPER,ROCK,Player 1,1.0
+FF_10_1,fable,fable,10,True,14,ROCK,PAPER,Player 2,0.0
+FF_10_1,fable,fable,10,True,15,ROCK,ROCK,Tie,0.5
+FF_10_1,fable,fable,10,True,16,PAPER,ROCK,Player 1,1.0
+FF_10_1,fable,fable,10,True,17,ROCK,PAPER,Player 2,0.0
+FF_10_1,fable,fable,10,True,18,ROCK,SCISSORS,Player 1,1.0
+FF_10_1,fable,fable,10,True,19,SCISSORS,PAPER,Player 1,1.0
+FF_10_1,fable,fable,10,True,20,PAPER,SCISSORS,Player 2,0.0
+AA_00_1,astra,astra,00,True,1,PAPER,PAPER,Tie,0.5
+AA_00_1,astra,astra,00,True,2,SCISSORS,SCISSORS,Tie,0.5
+AA_00_1,astra,astra,00,True,3,PAPER,PAPER,Tie,0.5
+AA_00_1,astra,astra,00,True,4,ROCK,ROCK,Tie,0.5
+AA_00_1,astra,astra,00,True,5,SCISSORS,ROCK,Player 2,0.0
+AA_00_1,astra,astra,00,True,6,PAPER,SCISSORS,Player 2,0.0
+AA_00_1,astra,astra,00,True,7,SCISSORS,PAPER,Player 1,1.0
+AA_00_1,astra,astra,00,True,8,ROCK,SCISSORS,Player 1,1.0
+AA_00_1,astra,astra,00,True,9,SCISSORS,ROCK,Player 2,0.0
+AA_00_1,astra,astra,00,True,10,ROCK,SCISSORS,Player 1,1.0
+AA_00_1,astra,astra,00,True,11,PAPER,ROCK,Player 1,1.0
+AA_00_1,astra,astra,00,True,12,ROCK,ROCK,Tie,0.5
+AA_00_1,astra,astra,00,True,13,ROCK,ROCK,Tie,0.5
+AA_00_1,astra,astra,00,True,14,PAPER,ROCK,Player 1,1.0
+AA_00_1,astra,astra,00,True,15,PAPER,ROCK,Player 1,1.0
+AA_00_1,astra,astra,00,True,16,PAPER,SCISSORS,Player 2,0.0
+AA_00_1,astra,astra,00,True,17,PAPER,PAPER,Tie,0.5
+AA_00_1,astra,astra,00,True,18,ROCK,SCISSORS,Player 1,1.0
+AA_00_1,astra,astra,00,True,19,PAPER,SCISSORS,Player 2,0.0
+AA_00_1,astra,astra,00,True,20,SCISSORS,SCISSORS,Tie,0.5
+QA_11_1,qwen,astra,11,True,1,PAPER,PAPER,Tie,0.5
+QA_11_1,qwen,astra,11,True,2,SCISSORS,SCISSORS,Tie,0.5
+QA_11_1,qwen,astra,11,True,3,PAPER,PAPER,Tie,0.5
+QA_11_1,qwen,astra,11,True,4,ROCK,ROCK,Tie,0.5
+QA_11_1,qwen,astra,11,True,5,SCISSORS,SCISSORS,Tie,0.5
+QA_11_1,qwen,astra,11,True,6,SCISSORS,PAPER,Player 1,1.0
+QA_11_1,qwen,astra,11,True,7,PAPER,ROCK,Player 1,1.0
+QA_11_1,qwen,astra,11,True,8,PAPER,PAPER,Tie,0.5
+QA_11_1,qwen,astra,11,True,9,PAPER,SCISSORS,Player 2,0.0
+QA_11_1,qwen,astra,11,True,10,ROCK,PAPER,Player 2,0.0
+QA_11_1,qwen,astra,11,True,11,PAPER,ROCK,Player 1,1.0
+QA_11_1,qwen,astra,11,True,12,SCISSORS,SCISSORS,Tie,0.5
+QA_11_1,qwen,astra,11,True,13,SCISSORS,SCISSORS,Tie,0.5
+QA_11_1,qwen,astra,11,True,14,PAPER,SCISSORS,Player 2,0.0
+QA_11_1,qwen,astra,11,True,15,ROCK,PAPER,Player 2,0.0
+QA_11_1,qwen,astra,11,True,16,PAPER,SCISSORS,Player 2,0.0
+QA_11_1,qwen,astra,11,True,17,PAPER,PAPER,Tie,0.5
+QA_11_1,qwen,astra,11,True,18,ROCK,SCISSORS,Player 1,1.0
+QA_11_1,qwen,astra,11,True,19,SCISSORS,SCISSORS,Tie,0.5
+QA_11_1,qwen,astra,11,True,20,PAPER,SCISSORS,Player 2,0.0
+FF_01_1,fable,fable,01,True,1,PAPER,SCISSORS,Player 2,0.0
+FF_01_1,fable,fable,01,True,2,ROCK,PAPER,Player 2,0.0
+FF_01_1,fable,fable,01,True,3,PAPER,ROCK,Player 1,1.0
+FF_01_1,fable,fable,01,True,4,ROCK,SCISSORS,Player 1,1.0
+FF_01_1,fable,fable,01,True,5,SCISSORS,SCISSORS,Tie,0.5
+FF_01_1,fable,fable,01,True,6,PAPER,PAPER,Tie,0.5
+FF_01_1,fable,fable,01,True,7,ROCK,ROCK,Tie,0.5
+FF_01_1,fable,fable,01,True,8,ROCK,ROCK,Tie,0.5
+FF_01_1,fable,fable,01,True,9,ROCK,ROCK,Tie,0.5
+FF_01_1,fable,fable,01,True,10,PAPER,SCISSORS,Player 2,0.0
+FF_01_1,fable,fable,01,True,11,ROCK,PAPER,Player 2,0.0
+FF_01_1,fable,fable,01,True,12,PAPER,ROCK,Player 1,1.0
+FF_01_1,fable,fable,01,True,13,ROCK,PAPER,Player 2,0.0
+FF_01_1,fable,fable,01,True,14,SCISSORS,SCISSORS,Tie,0.5
+FF_01_1,fable,fable,01,True,15,PAPER,SCISSORS,Player 2,0.0
+FF_01_1,fable,fable,01,True,16,SCISSORS,PAPER,Player 1,1.0
+FF_01_1,fable,fable,01,True,17,PAPER,SCISSORS,Player 2,0.0
+FF_01_1,fable,fable,01,True,18,ROCK,PAPER,Player 2,0.0
+FF_01_1,fable,fable,01,True,19,PAPER,SCISSORS,Player 2,0.0
+FF_01_1,fable,fable,01,True,20,ROCK,PAPER,Player 2,0.0
+FQ_10_1,fable,qwen,10,True,1,PAPER,PAPER,Tie,0.5
+FQ_10_1,fable,qwen,10,True,2,ROCK,SCISSORS,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,3,SCISSORS,ROCK,Player 2,0.0
+FQ_10_1,fable,qwen,10,True,4,SCISSORS,SCISSORS,Tie,0.5
+FQ_10_1,fable,qwen,10,True,5,PAPER,ROCK,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,6,ROCK,PAPER,Player 2,0.0
+FQ_10_1,fable,qwen,10,True,7,PAPER,ROCK,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,8,SCISSORS,PAPER,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,9,PAPER,ROCK,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,10,SCISSORS,PAPER,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,11,PAPER,SCISSORS,Player 2,0.0
+FQ_10_1,fable,qwen,10,True,12,SCISSORS,SCISSORS,Tie,0.5
+FQ_10_1,fable,qwen,10,True,13,PAPER,SCISSORS,Player 2,0.0
+FQ_10_1,fable,qwen,10,True,14,ROCK,ROCK,Tie,0.5
+FQ_10_1,fable,qwen,10,True,15,PAPER,ROCK,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,16,SCISSORS,SCISSORS,Tie,0.5
+FQ_10_1,fable,qwen,10,True,17,PAPER,SCISSORS,Player 2,0.0
+FQ_10_1,fable,qwen,10,True,18,ROCK,ROCK,Tie,0.5
+FQ_10_1,fable,qwen,10,True,19,ROCK,SCISSORS,Player 1,1.0
+FQ_10_1,fable,qwen,10,True,20,PAPER,SCISSORS,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,1,ROCK,PAPER,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,2,PAPER,SCISSORS,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,3,ROCK,SCISSORS,Player 1,1.0
+QQ_11_1,qwen,qwen,11,True,4,SCISSORS,ROCK,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,5,PAPER,PAPER,Tie,0.5
+QQ_11_1,qwen,qwen,11,True,6,ROCK,ROCK,Tie,0.5
+QQ_11_1,qwen,qwen,11,True,7,SCISSORS,PAPER,Player 1,1.0
+QQ_11_1,qwen,qwen,11,True,8,PAPER,PAPER,Tie,0.5
+QQ_11_1,qwen,qwen,11,True,9,SCISSORS,PAPER,Player 1,1.0
+QQ_11_1,qwen,qwen,11,True,10,SCISSORS,ROCK,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,11,SCISSORS,SCISSORS,Tie,0.5
+QQ_11_1,qwen,qwen,11,True,12,PAPER,ROCK,Player 1,1.0
+QQ_11_1,qwen,qwen,11,True,13,PAPER,ROCK,Player 1,1.0
+QQ_11_1,qwen,qwen,11,True,14,PAPER,SCISSORS,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,15,PAPER,SCISSORS,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,16,ROCK,SCISSORS,Player 1,1.0
+QQ_11_1,qwen,qwen,11,True,17,PAPER,SCISSORS,Player 2,0.0
+QQ_11_1,qwen,qwen,11,True,18,ROCK,SCISSORS,Player 1,1.0
+QQ_11_1,qwen,qwen,11,True,19,PAPER,PAPER,Tie,0.5
+QQ_11_1,qwen,qwen,11,True,20,SCISSORS,SCISSORS,Tie,0.5
+AQ_11_1,astra,qwen,11,True,1,PAPER,PAPER,Tie,0.5
+AQ_11_1,astra,qwen,11,True,2,SCISSORS,PAPER,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,3,PAPER,ROCK,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,4,ROCK,ROCK,Tie,0.5
+AQ_11_1,astra,qwen,11,True,5,PAPER,ROCK,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,6,PAPER,SCISSORS,Player 2,0.0
+AQ_11_1,astra,qwen,11,True,7,ROCK,SCISSORS,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,8,ROCK,SCISSORS,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,9,SCISSORS,PAPER,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,10,SCISSORS,SCISSORS,Tie,0.5
+AQ_11_1,astra,qwen,11,True,11,ROCK,PAPER,Player 2,0.0
+AQ_11_1,astra,qwen,11,True,12,SCISSORS,PAPER,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,13,PAPER,ROCK,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,14,PAPER,PAPER,Tie,0.5
+AQ_11_1,astra,qwen,11,True,15,SCISSORS,SCISSORS,Tie,0.5
+AQ_11_1,astra,qwen,11,True,16,SCISSORS,SCISSORS,Tie,0.5
+AQ_11_1,astra,qwen,11,True,17,ROCK,ROCK,Tie,0.5
+AQ_11_1,astra,qwen,11,True,18,SCISSORS,ROCK,Player 2,0.0
+AQ_11_1,astra,qwen,11,True,19,PAPER,ROCK,Player 1,1.0
+AQ_11_1,astra,qwen,11,True,20,ROCK,PAPER,Player 2,0.0
+QA_10_1,qwen,astra,10,True,1,SCISSORS,PAPER,Player 1,1.0
+QA_10_1,qwen,astra,10,True,2,ROCK,ROCK,Tie,0.5
+QA_10_1,qwen,astra,10,True,3,ROCK,SCISSORS,Player 1,1.0
+QA_10_1,qwen,astra,10,True,4,SCISSORS,PAPER,Player 1,1.0
+QA_10_1,qwen,astra,10,True,5,PAPER,ROCK,Player 1,1.0
+QA_10_1,qwen,astra,10,True,6,ROCK,PAPER,Player 2,0.0
+QA_10_1,qwen,astra,10,True,7,SCISSORS,PAPER,Player 1,1.0
+QA_10_1,qwen,astra,10,True,8,SCISSORS,SCISSORS,Tie,0.5
+QA_10_1,qwen,astra,10,True,9,SCISSORS,ROCK,Player 2,0.0
+QA_10_1,qwen,astra,10,True,10,SCISSORS,ROCK,Player 2,0.0
+QA_10_1,qwen,astra,10,True,11,PAPER,ROCK,Player 1,1.0
+QA_10_1,qwen,astra,10,True,12,PAPER,PAPER,Tie,0.5
+QA_10_1,qwen,astra,10,True,13,PAPER,SCISSORS,Player 2,0.0
+QA_10_1,qwen,astra,10,True,14,ROCK,SCISSORS,Player 1,1.0
+QA_10_1,qwen,astra,10,True,15,PAPER,ROCK,Player 1,1.0
+QA_10_1,qwen,astra,10,True,16,PAPER,SCISSORS,Player 2,0.0
+QA_10_1,qwen,astra,10,True,17,PAPER,PAPER,Tie,0.5
+QA_10_1,qwen,astra,10,True,18,PAPER,SCISSORS,Player 2,0.0
+QA_10_1,qwen,astra,10,True,19,ROCK,SCISSORS,Player 1,1.0
+QA_10_1,qwen,astra,10,True,20,ROCK,SCISSORS,Player 1,1.0
+AA_11_1,astra,astra,11,True,1,PAPER,SCISSORS,Player 2,0.0
+AA_11_1,astra,astra,11,True,2,ROCK,PAPER,Player 2,0.0
+AA_11_1,astra,astra,11,True,3,PAPER,ROCK,Player 1,1.0
+AA_11_1,astra,astra,11,True,4,ROCK,SCISSORS,Player 1,1.0
+AA_11_1,astra,astra,11,True,5,SCISSORS,SCISSORS,Tie,0.5
+AA_11_1,astra,astra,11,True,6,ROCK,SCISSORS,Player 1,1.0
+AA_11_1,astra,astra,11,True,7,ROCK,PAPER,Player 2,0.0
+AA_11_1,astra,astra,11,True,8,PAPER,PAPER,Tie,0.5
+AA_11_1,astra,astra,11,True,9,ROCK,PAPER,Player 2,0.0
+AA_11_1,astra,astra,11,True,10,SCISSORS,SCISSORS,Tie,0.5
+AA_11_1,astra,astra,11,True,11,SCISSORS,PAPER,Player 1,1.0
+AA_11_1,astra,astra,11,True,12,SCISSORS,ROCK,Player 2,0.0
+AA_11_1,astra,astra,11,True,13,ROCK,SCISSORS,Player 1,1.0
+AA_11_1,astra,astra,11,True,14,SCISSORS,SCISSORS,Tie,0.5
+AA_11_1,astra,astra,11,True,15,ROCK,PAPER,Player 2,0.0
+AA_11_1,astra,astra,11,True,16,SCISSORS,ROCK,Player 2,0.0
+AA_11_1,astra,astra,11,True,17,ROCK,PAPER,Player 2,0.0
+AA_11_1,astra,astra,11,True,18,PAPER,ROCK,Player 1,1.0
+AA_11_1,astra,astra,11,True,19,ROCK,PAPER,Player 2,0.0
+AA_11_1,astra,astra,11,True,20,PAPER,ROCK,Player 1,1.0
+QF_00_1,qwen,fable,00,True,1,PAPER,PAPER,Tie,0.5
+QF_00_1,qwen,fable,00,True,2,SCISSORS,ROCK,Player 2,0.0
+QF_00_1,qwen,fable,00,True,3,ROCK,PAPER,Player 2,0.0
+QF_00_1,qwen,fable,00,True,4,PAPER,SCISSORS,Player 2,0.0
+QF_00_1,qwen,fable,00,True,5,SCISSORS,ROCK,Player 2,0.0
+QF_00_1,qwen,fable,00,True,6,SCISSORS,PAPER,Player 1,1.0
+QF_00_1,qwen,fable,00,True,7,PAPER,ROCK,Player 1,1.0
+QF_00_1,qwen,fable,00,True,8,SCISSORS,ROCK,Player 2,0.0
+QF_00_1,qwen,fable,00,True,9,PAPER,ROCK,Player 1,1.0
+QF_00_1,qwen,fable,00,True,10,PAPER,ROCK,Player 1,1.0
+QF_00_1,qwen,fable,00,True,11,PAPER,SCISSORS,Player 2,0.0
+QF_00_1,qwen,fable,00,True,12,PAPER,SCISSORS,Player 2,0.0
+QF_00_1,qwen,fable,00,True,13,ROCK,SCISSORS,Player 1,1.0
+QF_00_1,qwen,fable,00,True,14,ROCK,PAPER,Player 2,0.0
+QF_00_1,qwen,fable,00,True,15,PAPER,SCISSORS,Player 2,0.0
+QF_00_1,qwen,fable,00,True,16,ROCK,PAPER,Player 2,0.0
+QF_00_1,qwen,fable,00,True,17,PAPER,SCISSORS,Player 2,0.0
+QF_00_1,qwen,fable,00,True,18,SCISSORS,PAPER,Player 1,1.0
+QF_00_1,qwen,fable,00,True,19,ROCK,PAPER,Player 2,0.0
+QF_00_1,qwen,fable,00,True,20,SCISSORS,SCISSORS,Tie,0.5
+AQ_10_1,astra,qwen,10,True,1,PAPER,PAPER,Tie,0.5
+AQ_10_1,astra,qwen,10,True,2,SCISSORS,SCISSORS,Tie,0.5
+AQ_10_1,astra,qwen,10,True,3,PAPER,PAPER,Tie,0.5
+AQ_10_1,astra,qwen,10,True,4,ROCK,ROCK,Tie,0.5
+AQ_10_1,astra,qwen,10,True,5,SCISSORS,SCISSORS,Tie,0.5
+AQ_10_1,astra,qwen,10,True,6,PAPER,PAPER,Tie,0.5
+AQ_10_1,astra,qwen,10,True,7,PAPER,ROCK,Player 1,1.0
+AQ_10_1,astra,qwen,10,True,8,ROCK,SCISSORS,Player 1,1.0
+AQ_10_1,astra,qwen,10,True,9,SCISSORS,PAPER,Player 1,1.0
+AQ_10_1,astra,qwen,10,True,10,PAPER,SCISSORS,Player 2,0.0
+AQ_10_1,astra,qwen,10,True,11,SCISSORS,PAPER,Player 1,1.0
+AQ_10_1,astra,qwen,10,True,12,PAPER,SCISSORS,Player 2,0.0
+AQ_10_1,astra,qwen,10,True,13,SCISSORS,SCISSORS,Tie,0.5
+AQ_10_1,astra,qwen,10,True,14,ROCK,SCISSORS,Player 1,1.0
+AQ_10_1,astra,qwen,10,True,15,SCISSORS,ROCK,Player 2,0.0
+AQ_10_1,astra,qwen,10,True,16,ROCK,PAPER,Player 2,0.0
+AQ_10_1,astra,qwen,10,True,17,ROCK,ROCK,Tie,0.5
+AQ_10_1,astra,qwen,10,True,18,ROCK,ROCK,Tie,0.5
+AQ_10_1,astra,qwen,10,True,19,SCISSORS,PAPER,Player 1,1.0
+AQ_10_1,astra,qwen,10,True,20,ROCK,SCISSORS,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,1,PAPER,ROCK,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,2,ROCK,ROCK,Tie,0.5
+FQ_01_1,fable,qwen,01,True,3,PAPER,SCISSORS,Player 2,0.0
+FQ_01_1,fable,qwen,01,True,4,ROCK,PAPER,Player 2,0.0
+FQ_01_1,fable,qwen,01,True,5,ROCK,SCISSORS,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,6,SCISSORS,PAPER,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,7,ROCK,PAPER,Player 2,0.0
+FQ_01_1,fable,qwen,01,True,8,SCISSORS,PAPER,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,9,SCISSORS,PAPER,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,10,PAPER,ROCK,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,11,SCISSORS,SCISSORS,Tie,0.5
+FQ_01_1,fable,qwen,01,True,12,SCISSORS,ROCK,Player 2,0.0
+FQ_01_1,fable,qwen,01,True,13,SCISSORS,ROCK,Player 2,0.0
+FQ_01_1,fable,qwen,01,True,14,PAPER,ROCK,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,15,PAPER,PAPER,Tie,0.5
+FQ_01_1,fable,qwen,01,True,16,ROCK,SCISSORS,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,17,SCISSORS,PAPER,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,18,PAPER,ROCK,Player 1,1.0
+FQ_01_1,fable,qwen,01,True,19,ROCK,PAPER,Player 2,0.0
+FQ_01_1,fable,qwen,01,True,20,PAPER,ROCK,Player 1,1.0
+FA_01_1,fable,astra,01,True,1,PAPER,PAPER,Tie,0.5
+FA_01_1,fable,astra,01,True,2,ROCK,SCISSORS,Player 1,1.0
+FA_01_1,fable,astra,01,True,3,PAPER,ROCK,Player 1,1.0
+FA_01_1,fable,astra,01,True,4,SCISSORS,ROCK,Player 2,0.0
+FA_01_1,fable,astra,01,True,5,PAPER,SCISSORS,Player 2,0.0
+FA_01_1,fable,astra,01,True,6,ROCK,ROCK,Tie,0.5
+FA_01_1,fable,astra,01,True,7,PAPER,SCISSORS,Player 2,0.0
+FA_01_1,fable,astra,01,True,8,PAPER,ROCK,Player 1,1.0
+FA_01_1,fable,astra,01,True,9,ROCK,SCISSORS,Player 1,1.0
+FA_01_1,fable,astra,01,True,10,PAPER,SCISSORS,Player 2,0.0
+FA_01_1,fable,astra,01,True,11,ROCK,PAPER,Player 2,0.0
+FA_01_1,fable,astra,01,True,12,ROCK,SCISSORS,Player 1,1.0
+FA_01_1,fable,astra,01,True,13,ROCK,SCISSORS,Player 1,1.0
+FA_01_1,fable,astra,01,True,14,ROCK,PAPER,Player 2,0.0
+FA_01_1,fable,astra,01,True,15,ROCK,PAPER,Player 2,0.0
+FA_01_1,fable,astra,01,True,16,SCISSORS,ROCK,Player 2,0.0
+FA_01_1,fable,astra,01,True,17,PAPER,SCISSORS,Player 2,0.0
+FA_01_1,fable,astra,01,True,18,ROCK,PAPER,Player 2,0.0
+FA_01_1,fable,astra,01,True,19,ROCK,ROCK,Tie,0.5
+FA_01_1,fable,astra,01,True,20,SCISSORS,PAPER,Player 1,1.0
+QF_10_1,qwen,fable,10,True,1,ROCK,PAPER,Player 2,0.0
+QF_10_1,qwen,fable,10,True,2,SCISSORS,ROCK,Player 2,0.0
+QF_10_1,qwen,fable,10,True,3,PAPER,SCISSORS,Player 2,0.0
+QF_10_1,qwen,fable,10,True,4,ROCK,PAPER,Player 2,0.0
+QF_10_1,qwen,fable,10,True,5,PAPER,ROCK,Player 1,1.0
+QF_10_1,qwen,fable,10,True,6,ROCK,SCISSORS,Player 1,1.0
+QF_10_1,qwen,fable,10,True,7,SCISSORS,PAPER,Player 1,1.0
+QF_10_1,qwen,fable,10,True,8,PAPER,SCISSORS,Player 2,0.0
+QF_10_1,qwen,fable,10,True,9,SCISSORS,PAPER,Player 1,1.0
+QF_10_1,qwen,fable,10,True,10,ROCK,SCISSORS,Player 1,1.0
+QF_10_1,qwen,fable,10,True,11,SCISSORS,PAPER,Player 1,1.0
+QF_10_1,qwen,fable,10,True,12,PAPER,ROCK,Player 1,1.0
+QF_10_1,qwen,fable,10,True,13,SCISSORS,PAPER,Player 1,1.0
+QF_10_1,qwen,fable,10,True,14,PAPER,SCISSORS,Player 2,0.0
+QF_10_1,qwen,fable,10,True,15,SCISSORS,ROCK,Player 2,0.0
+QF_10_1,qwen,fable,10,True,16,PAPER,SCISSORS,Player 2,0.0
+QF_10_1,qwen,fable,10,True,17,ROCK,ROCK,Tie,0.5
+QF_10_1,qwen,fable,10,True,18,ROCK,ROCK,Tie,0.5
+QF_10_1,qwen,fable,10,True,19,ROCK,ROCK,Tie,0.5
+QF_10_1,qwen,fable,10,True,20,SCISSORS,PAPER,Player 1,1.0
+QF_11_1,qwen,fable,11,True,1,PAPER,PAPER,Tie,0.5
+QF_11_1,qwen,fable,11,True,2,SCISSORS,ROCK,Player 2,0.0
+QF_11_1,qwen,fable,11,True,3,ROCK,PAPER,Player 2,0.0
+QF_11_1,qwen,fable,11,True,4,ROCK,SCISSORS,Player 1,1.0
+QF_11_1,qwen,fable,11,True,5,PAPER,PAPER,Tie,0.5
+QF_11_1,qwen,fable,11,True,6,SCISSORS,ROCK,Player 2,0.0
+QF_11_1,qwen,fable,11,True,7,SCISSORS,PAPER,Player 1,1.0
+QF_11_1,qwen,fable,11,True,8,ROCK,PAPER,Player 2,0.0
+QF_11_1,qwen,fable,11,True,9,SCISSORS,PAPER,Player 1,1.0
+QF_11_1,qwen,fable,11,True,10,SCISSORS,PAPER,Player 1,1.0
+QF_11_1,qwen,fable,11,True,11,SCISSORS,ROCK,Player 2,0.0
+QF_11_1,qwen,fable,11,True,12,SCISSORS,ROCK,Player 2,0.0
+QF_11_1,qwen,fable,11,True,13,PAPER,ROCK,Player 1,1.0
+QF_11_1,qwen,fable,11,True,14,PAPER,SCISSORS,Player 2,0.0
+QF_11_1,qwen,fable,11,True,15,SCISSORS,PAPER,Player 1,1.0
+QF_11_1,qwen,fable,11,True,16,PAPER,ROCK,Player 1,1.0
+QF_11_1,qwen,fable,11,True,17,SCISSORS,ROCK,Player 2,0.0
+QF_11_1,qwen,fable,11,True,18,PAPER,SCISSORS,Player 2,0.0
+QF_11_1,qwen,fable,11,True,19,SCISSORS,ROCK,Player 2,0.0
+QF_11_1,qwen,fable,11,True,20,PAPER,SCISSORS,Player 2,0.0
+AA_10_1,astra,astra,10,True,1,PAPER,PAPER,Tie,0.5
+AA_10_1,astra,astra,10,True,2,ROCK,SCISSORS,Player 1,1.0
+AA_10_1,astra,astra,10,True,3,SCISSORS,ROCK,Player 2,0.0
+AA_10_1,astra,astra,10,True,4,SCISSORS,SCISSORS,Tie,0.5
+AA_10_1,astra,astra,10,True,5,PAPER,ROCK,Player 1,1.0
+AA_10_1,astra,astra,10,True,6,ROCK,PAPER,Player 2,0.0
+AA_10_1,astra,astra,10,True,7,ROCK,ROCK,Tie,0.5
+AA_10_1,astra,astra,10,True,8,PAPER,ROCK,Player 1,1.0
+AA_10_1,astra,astra,10,True,9,PAPER,PAPER,Tie,0.5
+AA_10_1,astra,astra,10,True,10,PAPER,PAPER,Tie,0.5
+AA_10_1,astra,astra,10,True,11,SCISSORS,SCISSORS,Tie,0.5
+AA_10_1,astra,astra,10,True,12,PAPER,ROCK,Player 1,1.0
+AA_10_1,astra,astra,10,True,13,SCISSORS,SCISSORS,Tie,0.5
+AA_10_1,astra,astra,10,True,14,PAPER,SCISSORS,Player 2,0.0
+AA_10_1,astra,astra,10,True,15,PAPER,SCISSORS,Player 2,0.0
+AA_10_1,astra,astra,10,True,16,ROCK,SCISSORS,Player 1,1.0
+AA_10_1,astra,astra,10,True,17,PAPER,ROCK,Player 1,1.0
+AA_10_1,astra,astra,10,True,18,SCISSORS,SCISSORS,Tie,0.5
+AA_10_1,astra,astra,10,True,19,PAPER,SCISSORS,Player 2,0.0
+AA_10_1,astra,astra,10,True,20,ROCK,SCISSORS,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,1,PAPER,PAPER,Tie,0.5
+AQ_01_1,astra,qwen,01,True,2,SCISSORS,ROCK,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,3,ROCK,SCISSORS,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,4,SCISSORS,SCISSORS,Tie,0.5
+AQ_01_1,astra,qwen,01,True,5,ROCK,PAPER,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,6,PAPER,ROCK,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,7,ROCK,PAPER,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,8,PAPER,PAPER,Tie,0.5
+AQ_01_1,astra,qwen,01,True,9,PAPER,SCISSORS,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,10,SCISSORS,PAPER,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,11,SCISSORS,ROCK,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,12,SCISSORS,PAPER,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,13,PAPER,PAPER,Tie,0.5
+AQ_01_1,astra,qwen,01,True,14,SCISSORS,ROCK,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,15,SCISSORS,ROCK,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,16,PAPER,ROCK,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,17,SCISSORS,ROCK,Player 2,0.0
+AQ_01_1,astra,qwen,01,True,18,PAPER,ROCK,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,19,PAPER,ROCK,Player 1,1.0
+AQ_01_1,astra,qwen,01,True,20,PAPER,ROCK,Player 1,1.0
+FQ_00_1,fable,qwen,00,False,1,PAPER,PAPER,Tie,0.5
+FQ_00_1,fable,qwen,00,False,2,ROCK,ROCK,Tie,0.5
+FQ_00_1,fable,qwen,00,False,3,SCISSORS,ROCK,Player 2,0.0
+FQ_00_1,fable,qwen,00,False,4,PAPER,SCISSORS,Player 2,0.0
+FQ_00_1,fable,qwen,00,False,5,ROCK,PAPER,Player 2,0.0
+FQ_00_1,fable,qwen,00,False,6,PAPER,ROCK,Player 1,1.0
+FQ_00_1,fable,qwen,00,False,7,SCISSORS,SCISSORS,Tie,0.5
+FQ_00_1,fable,qwen,00,False,8,PAPER,SCISSORS,Player 2,0.0
+FQ_00_1,fable,qwen,00,False,9,SCISSORS,SCISSORS,Tie,0.5
+FQ_00_1,fable,qwen,00,False,10,ROCK,SCISSORS,Player 1,1.0
+FQ_00_1,fable,qwen,00,False,11,ROCK,ROCK,Tie,0.5
+FQ_00_1,fable,qwen,00,False,12,ROCK,SCISSORS,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,1,PAPER,PAPER,Tie,0.5
+FQ_11_1,fable,qwen,11,True,2,ROCK,PAPER,Player 2,0.0
+FQ_11_1,fable,qwen,11,True,3,SCISSORS,PAPER,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,4,SCISSORS,SCISSORS,Tie,0.5
+FQ_11_1,fable,qwen,11,True,5,PAPER,ROCK,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,6,ROCK,SCISSORS,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,7,SCISSORS,ROCK,Player 2,0.0
+FQ_11_1,fable,qwen,11,True,8,ROCK,SCISSORS,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,9,PAPER,ROCK,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,10,ROCK,PAPER,Player 2,0.0
+FQ_11_1,fable,qwen,11,True,11,SCISSORS,ROCK,Player 2,0.0
+FQ_11_1,fable,qwen,11,True,12,PAPER,PAPER,Tie,0.5
+FQ_11_1,fable,qwen,11,True,13,PAPER,PAPER,Tie,0.5
+FQ_11_1,fable,qwen,11,True,14,PAPER,SCISSORS,Player 2,0.0
+FQ_11_1,fable,qwen,11,True,15,SCISSORS,SCISSORS,Tie,0.5
+FQ_11_1,fable,qwen,11,True,16,PAPER,SCISSORS,Player 2,0.0
+FQ_11_1,fable,qwen,11,True,17,ROCK,SCISSORS,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,18,SCISSORS,ROCK,Player 2,0.0
+FQ_11_1,fable,qwen,11,True,19,SCISSORS,PAPER,Player 1,1.0
+FQ_11_1,fable,qwen,11,True,20,PAPER,SCISSORS,Player 2,0.0
+FF_00_1,fable,fable,00,True,1,PAPER,PAPER,Tie,0.5
+FF_00_1,fable,fable,00,True,2,ROCK,ROCK,Tie,0.5
+FF_00_1,fable,fable,00,True,3,ROCK,ROCK,Tie,0.5
+FF_00_1,fable,fable,00,True,4,SCISSORS,PAPER,Player 1,1.0
+FF_00_1,fable,fable,00,True,5,PAPER,ROCK,Player 1,1.0
+FF_00_1,fable,fable,00,True,6,SCISSORS,PAPER,Player 1,1.0
+FF_00_1,fable,fable,00,True,7,PAPER,SCISSORS,Player 2,0.0
+FF_00_1,fable,fable,00,True,8,ROCK,ROCK,Tie,0.5
+FF_00_1,fable,fable,00,True,9,PAPER,SCISSORS,Player 2,0.0
+FF_00_1,fable,fable,00,True,10,ROCK,PAPER,Player 2,0.0
+FF_00_1,fable,fable,00,True,11,PAPER,SCISSORS,Player 2,0.0
+FF_00_1,fable,fable,00,True,12,ROCK,PAPER,Player 2,0.0
+FF_00_1,fable,fable,00,True,13,ROCK,SCISSORS,Player 1,1.0
+FF_00_1,fable,fable,00,True,14,SCISSORS,PAPER,Player 1,1.0
+FF_00_1,fable,fable,00,True,15,ROCK,SCISSORS,Player 1,1.0
+FF_00_1,fable,fable,00,True,16,SCISSORS,ROCK,Player 2,0.0
+FF_00_1,fable,fable,00,True,17,ROCK,PAPER,Player 2,0.0
+FF_00_1,fable,fable,00,True,18,SCISSORS,ROCK,Player 2,0.0
+FF_00_1,fable,fable,00,True,19,PAPER,PAPER,Tie,0.5
+FF_00_1,fable,fable,00,True,20,ROCK,PAPER,Player 2,0.0
+QQ_01_1,qwen,qwen,01,True,1,PAPER,PAPER,Tie,0.5
+QQ_01_1,qwen,qwen,01,True,2,SCISSORS,PAPER,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,3,SCISSORS,PAPER,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,4,ROCK,SCISSORS,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,5,ROCK,ROCK,Tie,0.5
+QQ_01_1,qwen,qwen,01,True,6,SCISSORS,SCISSORS,Tie,0.5
+QQ_01_1,qwen,qwen,01,True,7,SCISSORS,ROCK,Player 2,0.0
+QQ_01_1,qwen,qwen,01,True,8,ROCK,ROCK,Tie,0.5
+QQ_01_1,qwen,qwen,01,True,9,PAPER,PAPER,Tie,0.5
+QQ_01_1,qwen,qwen,01,True,10,PAPER,ROCK,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,11,PAPER,SCISSORS,Player 2,0.0
+QQ_01_1,qwen,qwen,01,True,12,ROCK,SCISSORS,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,13,PAPER,ROCK,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,14,ROCK,SCISSORS,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,15,PAPER,SCISSORS,Player 2,0.0
+QQ_01_1,qwen,qwen,01,True,16,PAPER,PAPER,Tie,0.5
+QQ_01_1,qwen,qwen,01,True,17,ROCK,SCISSORS,Player 1,1.0
+QQ_01_1,qwen,qwen,01,True,18,PAPER,SCISSORS,Player 2,0.0
+QQ_01_1,qwen,qwen,01,True,19,ROCK,PAPER,Player 2,0.0
+QQ_01_1,qwen,qwen,01,True,20,PAPER,SCISSORS,Player 2,0.0
+QA_00_1,qwen,astra,00,True,1,ROCK,PAPER,Player 2,0.0
+QA_00_1,qwen,astra,00,True,2,SCISSORS,ROCK,Player 2,0.0
+QA_00_1,qwen,astra,00,True,3,PAPER,SCISSORS,Player 2,0.0
+QA_00_1,qwen,astra,00,True,4,SCISSORS,PAPER,Player 1,1.0
+QA_00_1,qwen,astra,00,True,5,PAPER,ROCK,Player 1,1.0
+QA_00_1,qwen,astra,00,True,6,PAPER,ROCK,Player 1,1.0
+QA_00_1,qwen,astra,00,True,7,PAPER,SCISSORS,Player 2,0.0
+QA_00_1,qwen,astra,00,True,8,ROCK,ROCK,Tie,0.5
+QA_00_1,qwen,astra,00,True,9,SCISSORS,ROCK,Player 2,0.0
+QA_00_1,qwen,astra,00,True,10,PAPER,SCISSORS,Player 2,0.0
+QA_00_1,qwen,astra,00,True,11,PAPER,SCISSORS,Player 2,0.0
+QA_00_1,qwen,astra,00,True,12,PAPER,SCISSORS,Player 2,0.0
+QA_00_1,qwen,astra,00,True,13,ROCK,SCISSORS,Player 1,1.0
+QA_00_1,qwen,astra,00,True,14,ROCK,ROCK,Tie,0.5
+QA_00_1,qwen,astra,00,True,15,PAPER,ROCK,Player 1,1.0
+QA_00_1,qwen,astra,00,True,16,PAPER,SCISSORS,Player 2,0.0
+QA_00_1,qwen,astra,00,True,17,ROCK,SCISSORS,Player 1,1.0
+QA_00_1,qwen,astra,00,True,18,PAPER,PAPER,Tie,0.5
+QA_00_1,qwen,astra,00,True,19,SCISSORS,SCISSORS,Tie,0.5
+QA_00_1,qwen,astra,00,True,20,ROCK,SCISSORS,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,1,PAPER,ROCK,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,2,PAPER,SCISSORS,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,3,ROCK,SCISSORS,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,4,SCISSORS,PAPER,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,5,PAPER,SCISSORS,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,6,ROCK,SCISSORS,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,7,ROCK,PAPER,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,8,ROCK,ROCK,Tie,0.5
+QQ_10_1,qwen,qwen,10,True,9,PAPER,PAPER,Tie,0.5
+QQ_10_1,qwen,qwen,10,True,10,PAPER,SCISSORS,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,11,PAPER,SCISSORS,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,12,ROCK,SCISSORS,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,13,ROCK,SCISSORS,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,14,ROCK,PAPER,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,15,PAPER,SCISSORS,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,16,ROCK,SCISSORS,Player 1,1.0
+QQ_10_1,qwen,qwen,10,True,17,ROCK,PAPER,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,18,ROCK,PAPER,Player 2,0.0
+QQ_10_1,qwen,qwen,10,True,19,PAPER,PAPER,Tie,0.5
+QQ_10_1,qwen,qwen,10,True,20,ROCK,PAPER,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,1,PAPER,PAPER,Tie,0.5
+QQ_00_1,qwen,qwen,00,True,2,SCISSORS,SCISSORS,Tie,0.5
+QQ_00_1,qwen,qwen,00,True,3,PAPER,PAPER,Tie,0.5
+QQ_00_1,qwen,qwen,00,True,4,ROCK,ROCK,Tie,0.5
+QQ_00_1,qwen,qwen,00,True,5,SCISSORS,SCISSORS,Tie,0.5
+QQ_00_1,qwen,qwen,00,True,6,ROCK,SCISSORS,Player 1,1.0
+QQ_00_1,qwen,qwen,00,True,7,ROCK,PAPER,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,8,SCISSORS,PAPER,Player 1,1.0
+QQ_00_1,qwen,qwen,00,True,9,ROCK,PAPER,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,10,SCISSORS,ROCK,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,11,SCISSORS,PAPER,Player 1,1.0
+QQ_00_1,qwen,qwen,00,True,12,SCISSORS,PAPER,Player 1,1.0
+QQ_00_1,qwen,qwen,00,True,13,SCISSORS,ROCK,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,14,SCISSORS,ROCK,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,15,PAPER,ROCK,Player 1,1.0
+QQ_00_1,qwen,qwen,00,True,16,PAPER,ROCK,Player 1,1.0
+QQ_00_1,qwen,qwen,00,True,17,PAPER,SCISSORS,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,18,ROCK,SCISSORS,Player 1,1.0
+QQ_00_1,qwen,qwen,00,True,19,ROCK,PAPER,Player 2,0.0
+QQ_00_1,qwen,qwen,00,True,20,SCISSORS,ROCK,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,1,PAPER,PAPER,Tie,0.5
+AQ_00_1,astra,qwen,00,True,2,SCISSORS,SCISSORS,Tie,0.5
+AQ_00_1,astra,qwen,00,True,3,PAPER,PAPER,Tie,0.5
+AQ_00_1,astra,qwen,00,True,4,ROCK,ROCK,Tie,0.5
+AQ_00_1,astra,qwen,00,True,5,ROCK,PAPER,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,6,SCISSORS,PAPER,Player 1,1.0
+AQ_00_1,astra,qwen,00,True,7,SCISSORS,ROCK,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,8,SCISSORS,SCISSORS,Tie,0.5
+AQ_00_1,astra,qwen,00,True,9,SCISSORS,ROCK,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,10,PAPER,ROCK,Player 1,1.0
+AQ_00_1,astra,qwen,00,True,11,ROCK,SCISSORS,Player 1,1.0
+AQ_00_1,astra,qwen,00,True,12,SCISSORS,SCISSORS,Tie,0.5
+AQ_00_1,astra,qwen,00,True,13,PAPER,ROCK,Player 1,1.0
+AQ_00_1,astra,qwen,00,True,14,ROCK,PAPER,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,15,SCISSORS,ROCK,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,16,PAPER,SCISSORS,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,17,PAPER,PAPER,Tie,0.5
+AQ_00_1,astra,qwen,00,True,18,PAPER,PAPER,Tie,0.5
+AQ_00_1,astra,qwen,00,True,19,PAPER,SCISSORS,Player 2,0.0
+AQ_00_1,astra,qwen,00,True,20,ROCK,SCISSORS,Player 1,1.0
+AF_00_1,astra,fable,00,True,1,PAPER,PAPER,Tie,0.5
+AF_00_1,astra,fable,00,True,2,SCISSORS,ROCK,Player 2,0.0
+AF_00_1,astra,fable,00,True,3,ROCK,PAPER,Player 2,0.0
+AF_00_1,astra,fable,00,True,4,PAPER,SCISSORS,Player 2,0.0
+AF_00_1,astra,fable,00,True,5,PAPER,ROCK,Player 1,1.0
+AF_00_1,astra,fable,00,True,6,SCISSORS,SCISSORS,Tie,0.5
+AF_00_1,astra,fable,00,True,7,PAPER,PAPER,Tie,0.5
+AF_00_1,astra,fable,00,True,8,PAPER,ROCK,Player 1,1.0
+AF_00_1,astra,fable,00,True,9,ROCK,SCISSORS,Player 1,1.0
+AF_00_1,astra,fable,00,True,10,SCISSORS,SCISSORS,Tie,0.5
+AF_00_1,astra,fable,00,True,11,ROCK,SCISSORS,Player 1,1.0
+AF_00_1,astra,fable,00,True,12,ROCK,PAPER,Player 2,0.0
+AF_00_1,astra,fable,00,True,13,PAPER,SCISSORS,Player 2,0.0
+AF_00_1,astra,fable,00,True,14,ROCK,SCISSORS,Player 1,1.0
+AF_00_1,astra,fable,00,True,15,ROCK,PAPER,Player 2,0.0
+AF_00_1,astra,fable,00,True,16,ROCK,PAPER,Player 2,0.0
+AF_00_1,astra,fable,00,True,17,ROCK,PAPER,Player 2,0.0
+AF_00_1,astra,fable,00,True,18,SCISSORS,SCISSORS,Tie,0.5
+AF_00_1,astra,fable,00,True,19,ROCK,ROCK,Tie,0.5
+AF_00_1,astra,fable,00,True,20,SCISSORS,PAPER,Player 1,1.0
+FA_11_1,fable,astra,11,True,1,SCISSORS,PAPER,Player 1,1.0
+FA_11_1,fable,astra,11,True,2,PAPER,ROCK,Player 1,1.0
+FA_11_1,fable,astra,11,True,3,ROCK,PAPER,Player 2,0.0
+FA_11_1,fable,astra,11,True,4,PAPER,ROCK,Player 1,1.0
+FA_11_1,fable,astra,11,True,5,SCISSORS,SCISSORS,Tie,0.5
+FA_11_1,fable,astra,11,True,6,PAPER,SCISSORS,Player 2,0.0
+FA_11_1,fable,astra,11,True,7,ROCK,PAPER,Player 2,0.0
+FA_11_1,fable,astra,11,True,8,SCISSORS,SCISSORS,Tie,0.5
+FA_11_1,fable,astra,11,True,9,ROCK,SCISSORS,Player 1,1.0
+FA_11_1,fable,astra,11,True,10,SCISSORS,SCISSORS,Tie,0.5
+FA_11_1,fable,astra,11,True,11,ROCK,SCISSORS,Player 1,1.0
+FA_11_1,fable,astra,11,True,12,ROCK,ROCK,Tie,0.5
+FA_11_1,fable,astra,11,True,13,SCISSORS,SCISSORS,Tie,0.5
+FA_11_1,fable,astra,11,True,14,ROCK,PAPER,Player 2,0.0
+FA_11_1,fable,astra,11,True,15,ROCK,ROCK,Tie,0.5
+FA_11_1,fable,astra,11,True,16,SCISSORS,ROCK,Player 2,0.0
+FA_11_1,fable,astra,11,True,17,PAPER,PAPER,Tie,0.5
+FA_11_1,fable,astra,11,True,18,ROCK,PAPER,Player 2,0.0
+FA_11_1,fable,astra,11,True,19,SCISSORS,ROCK,Player 2,0.0
+FA_11_1,fable,astra,11,True,20,PAPER,SCISSORS,Player 2,0.0
+QF_01_1,qwen,fable,01,True,1,PAPER,SCISSORS,Player 2,0.0
+QF_01_1,qwen,fable,01,True,2,ROCK,PAPER,Player 2,0.0
+QF_01_1,qwen,fable,01,True,3,SCISSORS,ROCK,Player 2,0.0
+QF_01_1,qwen,fable,01,True,4,PAPER,SCISSORS,Player 2,0.0
+QF_01_1,qwen,fable,01,True,5,SCISSORS,PAPER,Player 1,1.0
+QF_01_1,qwen,fable,01,True,6,PAPER,ROCK,Player 1,1.0
+QF_01_1,qwen,fable,01,True,7,ROCK,ROCK,Tie,0.5
+QF_01_1,qwen,fable,01,True,8,ROCK,SCISSORS,Player 1,1.0
+QF_01_1,qwen,fable,01,True,9,SCISSORS,PAPER,Player 1,1.0
+QF_01_1,qwen,fable,01,True,10,PAPER,SCISSORS,Player 2,0.0
+QF_01_1,qwen,fable,01,True,11,ROCK,ROCK,Tie,0.5
+QF_01_1,qwen,fable,01,True,12,SCISSORS,ROCK,Player 2,0.0
+QF_01_1,qwen,fable,01,True,13,PAPER,SCISSORS,Player 2,0.0
+QF_01_1,qwen,fable,01,True,14,ROCK,PAPER,Player 2,0.0
+QF_01_1,qwen,fable,01,True,15,PAPER,ROCK,Player 1,1.0
+QF_01_1,qwen,fable,01,True,16,PAPER,PAPER,Tie,0.5
+QF_01_1,qwen,fable,01,True,17,PAPER,PAPER,Tie,0.5
+QF_01_1,qwen,fable,01,True,18,PAPER,SCISSORS,Player 2,0.0
+QF_01_1,qwen,fable,01,True,19,SCISSORS,SCISSORS,Tie,0.5
+QF_01_1,qwen,fable,01,True,20,ROCK,SCISSORS,Player 1,1.0
+AF_10_1,astra,fable,10,True,1,PAPER,PAPER,Tie,0.5
+AF_10_1,astra,fable,10,True,2,SCISSORS,ROCK,Player 2,0.0
+AF_10_1,astra,fable,10,True,3,PAPER,PAPER,Tie,0.5
+AF_10_1,astra,fable,10,True,4,SCISSORS,SCISSORS,Tie,0.5
+AF_10_1,astra,fable,10,True,5,ROCK,SCISSORS,Player 1,1.0
+AF_10_1,astra,fable,10,True,6,SCISSORS,SCISSORS,Tie,0.5
+AF_10_1,astra,fable,10,True,7,ROCK,ROCK,Tie,0.5
+AF_10_1,astra,fable,10,True,8,SCISSORS,ROCK,Player 2,0.0
+AF_10_1,astra,fable,10,True,9,PAPER,SCISSORS,Player 2,0.0
+AF_10_1,astra,fable,10,True,10,ROCK,ROCK,Tie,0.5
+AF_10_1,astra,fable,10,True,11,ROCK,ROCK,Tie,0.5
+AF_10_1,astra,fable,10,True,12,ROCK,ROCK,Tie,0.5
+AF_10_1,astra,fable,10,True,13,PAPER,PAPER,Tie,0.5
+AF_10_1,astra,fable,10,True,14,ROCK,ROCK,Tie,0.5
+AF_10_1,astra,fable,10,True,15,PAPER,PAPER,Tie,0.5
+AF_10_1,astra,fable,10,True,16,PAPER,PAPER,Tie,0.5
+AF_10_1,astra,fable,10,True,17,PAPER,SCISSORS,Player 2,0.0
+AF_10_1,astra,fable,10,True,18,ROCK,PAPER,Player 2,0.0
+AF_10_1,astra,fable,10,True,19,ROCK,SCISSORS,Player 1,1.0
+AF_10_1,astra,fable,10,True,20,ROCK,PAPER,Player 2,0.0
+AA_01_1,astra,astra,01,True,1,PAPER,PAPER,Tie,0.5
+AA_01_1,astra,astra,01,True,2,SCISSORS,ROCK,Player 2,0.0
+AA_01_1,astra,astra,01,True,3,ROCK,SCISSORS,Player 1,1.0
+AA_01_1,astra,astra,01,True,4,SCISSORS,SCISSORS,Tie,0.5
+AA_01_1,astra,astra,01,True,5,ROCK,ROCK,Tie,0.5
+AA_01_1,astra,astra,01,True,6,ROCK,ROCK,Tie,0.5
+AA_01_1,astra,astra,01,True,7,PAPER,PAPER,Tie,0.5
+AA_01_1,astra,astra,01,True,8,PAPER,ROCK,Player 1,1.0
+AA_01_1,astra,astra,01,True,9,PAPER,ROCK,Player 1,1.0
+AA_01_1,astra,astra,01,True,10,PAPER,SCISSORS,Player 2,0.0
+AA_01_1,astra,astra,01,True,11,ROCK,SCISSORS,Player 1,1.0
+AA_01_1,astra,astra,01,True,12,PAPER,PAPER,Tie,0.5
+AA_01_1,astra,astra,01,True,13,PAPER,SCISSORS,Player 2,0.0
+AA_01_1,astra,astra,01,True,14,ROCK,PAPER,Player 2,0.0
+AA_01_1,astra,astra,01,True,15,PAPER,PAPER,Tie,0.5
+AA_01_1,astra,astra,01,True,16,PAPER,SCISSORS,Player 2,0.0
+AA_01_1,astra,astra,01,True,17,SCISSORS,PAPER,Player 1,1.0
+AA_01_1,astra,astra,01,True,18,ROCK,PAPER,Player 2,0.0
+AA_01_1,astra,astra,01,True,19,SCISSORS,SCISSORS,Tie,0.5
+AA_01_1,astra,astra,01,True,20,SCISSORS,PAPER,Player 1,1.0
+FF_11_1,fable,fable,11,True,1,SCISSORS,PAPER,Player 1,1.0
+FF_11_1,fable,fable,11,True,2,PAPER,ROCK,Player 1,1.0
+FF_11_1,fable,fable,11,True,3,ROCK,PAPER,Player 2,0.0
+FF_11_1,fable,fable,11,True,4,SCISSORS,SCISSORS,Tie,0.5
+FF_11_1,fable,fable,11,True,5,ROCK,SCISSORS,Player 1,1.0
+FF_11_1,fable,fable,11,True,6,SCISSORS,PAPER,Player 1,1.0
+FF_11_1,fable,fable,11,True,7,PAPER,ROCK,Player 1,1.0
+FF_11_1,fable,fable,11,True,8,SCISSORS,PAPER,Player 1,1.0
+FF_11_1,fable,fable,11,True,9,ROCK,SCISSORS,Player 1,1.0
+FF_11_1,fable,fable,11,True,10,SCISSORS,ROCK,Player 2,0.0
+FF_11_1,fable,fable,11,True,11,ROCK,SCISSORS,Player 1,1.0
+FF_11_1,fable,fable,11,True,12,PAPER,ROCK,Player 1,1.0
+FF_11_1,fable,fable,11,True,13,SCISSORS,PAPER,Player 1,1.0
+FF_11_1,fable,fable,11,True,14,ROCK,PAPER,Player 2,0.0
+FF_11_1,fable,fable,11,True,15,PAPER,ROCK,Player 1,1.0
+FF_11_1,fable,fable,11,True,16,PAPER,ROCK,Player 1,1.0
+FF_11_1,fable,fable,11,True,17,SCISSORS,ROCK,Player 2,0.0
+FF_11_1,fable,fable,11,True,18,PAPER,PAPER,Tie,0.5
+FF_11_1,fable,fable,11,True,19,ROCK,ROCK,Tie,0.5
+FF_11_1,fable,fable,11,True,20,PAPER,ROCK,Player 1,1.0
+AF_11_1,astra,fable,11,True,1,PAPER,SCISSORS,Player 2,0.0
+AF_11_1,astra,fable,11,True,2,ROCK,PAPER,Player 2,0.0
+AF_11_1,astra,fable,11,True,3,PAPER,ROCK,Player 1,1.0
+AF_11_1,astra,fable,11,True,4,ROCK,SCISSORS,Player 1,1.0
+AF_11_1,astra,fable,11,True,5,SCISSORS,SCISSORS,Tie,0.5
+AF_11_1,astra,fable,11,True,6,ROCK,PAPER,Player 2,0.0
+AF_11_1,astra,fable,11,True,7,PAPER,SCISSORS,Player 2,0.0
+AF_11_1,astra,fable,11,True,8,ROCK,PAPER,Player 2,0.0
+AF_11_1,astra,fable,11,True,9,ROCK,SCISSORS,Player 1,1.0
+AF_11_1,astra,fable,11,True,10,SCISSORS,PAPER,Player 1,1.0
+AF_11_1,astra,fable,11,True,11,ROCK,PAPER,Player 2,0.0
+AF_11_1,astra,fable,11,True,12,SCISSORS,PAPER,Player 1,1.0
+AF_11_1,astra,fable,11,True,13,SCISSORS,PAPER,Player 1,1.0
+AF_11_1,astra,fable,11,True,14,SCISSORS,SCISSORS,Tie,0.5
+AF_11_1,astra,fable,11,True,15,SCISSORS,ROCK,Player 2,0.0
+AF_11_1,astra,fable,11,True,16,ROCK,SCISSORS,Player 1,1.0
+AF_11_1,astra,fable,11,True,17,SCISSORS,PAPER,Player 1,1.0
+AF_11_1,astra,fable,11,True,18,ROCK,ROCK,Tie,0.5
+AF_11_1,astra,fable,11,True,19,ROCK,ROCK,Tie,0.5
+AF_11_1,astra,fable,11,True,20,SCISSORS,ROCK,Player 2,0.0
+AF_01_1,astra,fable,01,True,1,PAPER,SCISSORS,Player 2,0.0
+AF_01_1,astra,fable,01,True,2,ROCK,PAPER,Player 2,0.0
+AF_01_1,astra,fable,01,True,3,PAPER,ROCK,Player 1,1.0
+AF_01_1,astra,fable,01,True,4,ROCK,SCISSORS,Player 1,1.0
+AF_01_1,astra,fable,01,True,5,SCISSORS,SCISSORS,Tie,0.5
+AF_01_1,astra,fable,01,True,6,ROCK,PAPER,Player 2,0.0
+AF_01_1,astra,fable,01,True,7,PAPER,SCISSORS,Player 2,0.0
+AF_01_1,astra,fable,01,True,8,ROCK,PAPER,Player 2,0.0
+AF_01_1,astra,fable,01,True,9,ROCK,SCISSORS,Player 1,1.0
+AF_01_1,astra,fable,01,True,10,SCISSORS,PAPER,Player 1,1.0
+AF_01_1,astra,fable,01,True,11,ROCK,PAPER,Player 2,0.0
+AF_01_1,astra,fable,01,True,12,ROCK,SCISSORS,Player 1,1.0
+AF_01_1,astra,fable,01,True,13,SCISSORS,PAPER,Player 1,1.0
+AF_01_1,astra,fable,01,True,14,SCISSORS,PAPER,Player 1,1.0
+AF_01_1,astra,fable,01,True,15,SCISSORS,ROCK,Player 2,0.0
+AF_01_1,astra,fable,01,True,16,SCISSORS,ROCK,Player 2,0.0
+AF_01_1,astra,fable,01,True,17,PAPER,SCISSORS,Player 2,0.0
+AF_01_1,astra,fable,01,True,18,SCISSORS,PAPER,Player 1,1.0
+AF_01_1,astra,fable,01,True,19,SCISSORS,ROCK,Player 2,0.0
+AF_01_1,astra,fable,01,True,20,PAPER,SCISSORS,Player 2,0.0
+AA_10_2,astra,astra,10,True,1,PAPER,PAPER,Tie,0.5
+AA_10_2,astra,astra,10,True,2,ROCK,SCISSORS,Player 1,1.0
+AA_10_2,astra,astra,10,True,3,PAPER,ROCK,Player 1,1.0
+AA_10_2,astra,astra,10,True,4,SCISSORS,PAPER,Player 1,1.0
+AA_10_2,astra,astra,10,True,5,ROCK,PAPER,Player 2,0.0
+AA_10_2,astra,astra,10,True,6,ROCK,SCISSORS,Player 1,1.0
+AA_10_2,astra,astra,10,True,7,PAPER,SCISSORS,Player 2,0.0
+AA_10_2,astra,astra,10,True,8,ROCK,SCISSORS,Player 1,1.0
+AA_10_2,astra,astra,10,True,9,ROCK,SCISSORS,Player 1,1.0
+AA_10_2,astra,astra,10,True,10,SCISSORS,PAPER,Player 1,1.0
+AA_10_2,astra,astra,10,True,11,ROCK,PAPER,Player 2,0.0
+AA_10_2,astra,astra,10,True,12,ROCK,PAPER,Player 2,0.0
+AA_10_2,astra,astra,10,True,13,SCISSORS,SCISSORS,Tie,0.5
+AA_10_2,astra,astra,10,True,14,SCISSORS,PAPER,Player 1,1.0
+AA_10_2,astra,astra,10,True,15,SCISSORS,PAPER,Player 1,1.0
+AA_10_2,astra,astra,10,True,16,SCISSORS,ROCK,Player 2,0.0
+AA_10_2,astra,astra,10,True,17,SCISSORS,SCISSORS,Tie,0.5
+AA_10_2,astra,astra,10,True,18,SCISSORS,ROCK,Player 2,0.0
+AA_10_2,astra,astra,10,True,19,PAPER,ROCK,Player 1,1.0
+AA_10_2,astra,astra,10,True,20,ROCK,SCISSORS,Player 1,1.0
+AQ_00_2,astra,qwen,00,True,1,PAPER,PAPER,Tie,0.5
+AQ_00_2,astra,qwen,00,True,2,SCISSORS,ROCK,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,3,ROCK,PAPER,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,4,SCISSORS,SCISSORS,Tie,0.5
+AQ_00_2,astra,qwen,00,True,5,PAPER,SCISSORS,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,6,ROCK,PAPER,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,7,SCISSORS,PAPER,Player 1,1.0
+AQ_00_2,astra,qwen,00,True,8,SCISSORS,SCISSORS,Tie,0.5
+AQ_00_2,astra,qwen,00,True,9,SCISSORS,ROCK,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,10,SCISSORS,ROCK,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,11,PAPER,ROCK,Player 1,1.0
+AQ_00_2,astra,qwen,00,True,12,ROCK,ROCK,Tie,0.5
+AQ_00_2,astra,qwen,00,True,13,PAPER,ROCK,Player 1,1.0
+AQ_00_2,astra,qwen,00,True,14,PAPER,PAPER,Tie,0.5
+AQ_00_2,astra,qwen,00,True,15,ROCK,SCISSORS,Player 1,1.0
+AQ_00_2,astra,qwen,00,True,16,PAPER,SCISSORS,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,17,SCISSORS,PAPER,Player 1,1.0
+AQ_00_2,astra,qwen,00,True,18,ROCK,PAPER,Player 2,0.0
+AQ_00_2,astra,qwen,00,True,19,ROCK,ROCK,Tie,0.5
+AQ_00_2,astra,qwen,00,True,20,PAPER,PAPER,Tie,0.5
+FQ_11_2,fable,qwen,11,True,1,SCISSORS,PAPER,Player 1,1.0
+FQ_11_2,fable,qwen,11,True,2,PAPER,SCISSORS,Player 2,0.0
+FQ_11_2,fable,qwen,11,True,3,ROCK,PAPER,Player 2,0.0
+FQ_11_2,fable,qwen,11,True,4,SCISSORS,ROCK,Player 2,0.0
+FQ_11_2,fable,qwen,11,True,5,SCISSORS,SCISSORS,Tie,0.5
+FQ_11_2,fable,qwen,11,True,6,ROCK,ROCK,Tie,0.5
+FQ_11_2,fable,qwen,11,True,7,PAPER,PAPER,Tie,0.5
+FQ_11_2,fable,qwen,11,True,8,ROCK,ROCK,Tie,0.5
+FQ_11_2,fable,qwen,11,True,9,ROCK,SCISSORS,Player 1,1.0
+FQ_11_2,fable,qwen,11,True,10,SCISSORS,PAPER,Player 1,1.0
+FQ_11_2,fable,qwen,11,True,11,PAPER,ROCK,Player 1,1.0
+FQ_11_2,fable,qwen,11,True,12,ROCK,PAPER,Player 2,0.0
+FQ_11_2,fable,qwen,11,True,13,SCISSORS,ROCK,Player 2,0.0
+FQ_11_2,fable,qwen,11,True,14,ROCK,SCISSORS,Player 1,1.0
+FQ_11_2,fable,qwen,11,True,15,SCISSORS,ROCK,Player 2,0.0
+FQ_11_2,fable,qwen,11,True,16,ROCK,PAPER,Player 2,0.0
+FQ_11_2,fable,qwen,11,True,17,ROCK,ROCK,Tie,0.5
+FQ_11_2,fable,qwen,11,True,18,PAPER,ROCK,Player 1,1.0
+FQ_11_2,fable,qwen,11,True,19,PAPER,PAPER,Tie,0.5
+FQ_11_2,fable,qwen,11,True,20,PAPER,PAPER,Tie,0.5
+AQ_01_2,astra,qwen,01,True,1,PAPER,SCISSORS,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,2,ROCK,PAPER,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,3,PAPER,SCISSORS,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,4,SCISSORS,PAPER,Player 1,1.0
+AQ_01_2,astra,qwen,01,True,5,ROCK,PAPER,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,6,SCISSORS,SCISSORS,Tie,0.5
+AQ_01_2,astra,qwen,01,True,7,SCISSORS,ROCK,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,8,ROCK,SCISSORS,Player 1,1.0
+AQ_01_2,astra,qwen,01,True,9,ROCK,ROCK,Tie,0.5
+AQ_01_2,astra,qwen,01,True,10,ROCK,PAPER,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,11,SCISSORS,PAPER,Player 1,1.0
+AQ_01_2,astra,qwen,01,True,12,SCISSORS,PAPER,Player 1,1.0
+AQ_01_2,astra,qwen,01,True,13,SCISSORS,ROCK,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,14,ROCK,PAPER,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,15,SCISSORS,PAPER,Player 1,1.0
+AQ_01_2,astra,qwen,01,True,16,SCISSORS,ROCK,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,17,SCISSORS,ROCK,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,18,PAPER,ROCK,Player 1,1.0
+AQ_01_2,astra,qwen,01,True,19,SCISSORS,ROCK,Player 2,0.0
+AQ_01_2,astra,qwen,01,True,20,PAPER,ROCK,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,1,PAPER,ROCK,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,2,ROCK,SCISSORS,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,3,SCISSORS,PAPER,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,4,PAPER,SCISSORS,Player 2,0.0
+FQ_00_2,fable,qwen,00,True,5,SCISSORS,PAPER,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,6,ROCK,ROCK,Tie,0.5
+FQ_00_2,fable,qwen,00,True,7,SCISSORS,SCISSORS,Tie,0.5
+FQ_00_2,fable,qwen,00,True,8,PAPER,SCISSORS,Player 2,0.0
+FQ_00_2,fable,qwen,00,True,9,ROCK,PAPER,Player 2,0.0
+FQ_00_2,fable,qwen,00,True,10,PAPER,PAPER,Tie,0.5
+FQ_00_2,fable,qwen,00,True,11,SCISSORS,PAPER,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,12,SCISSORS,SCISSORS,Tie,0.5
+FQ_00_2,fable,qwen,00,True,13,SCISSORS,ROCK,Player 2,0.0
+FQ_00_2,fable,qwen,00,True,14,PAPER,ROCK,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,15,ROCK,PAPER,Player 2,0.0
+FQ_00_2,fable,qwen,00,True,16,SCISSORS,ROCK,Player 2,0.0
+FQ_00_2,fable,qwen,00,True,17,PAPER,SCISSORS,Player 2,0.0
+FQ_00_2,fable,qwen,00,True,18,SCISSORS,PAPER,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,19,ROCK,SCISSORS,Player 1,1.0
+FQ_00_2,fable,qwen,00,True,20,SCISSORS,ROCK,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,1,PAPER,PAPER,Tie,0.5
+QQ_01_2,qwen,qwen,01,True,2,SCISSORS,PAPER,Player 1,1.0
+QQ_01_2,qwen,qwen,01,True,3,SCISSORS,PAPER,Player 1,1.0
+QQ_01_2,qwen,qwen,01,True,4,SCISSORS,ROCK,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,5,PAPER,SCISSORS,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,6,ROCK,PAPER,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,7,SCISSORS,ROCK,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,8,PAPER,SCISSORS,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,9,SCISSORS,ROCK,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,10,SCISSORS,ROCK,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,11,PAPER,PAPER,Tie,0.5
+QQ_01_2,qwen,qwen,01,True,12,PAPER,ROCK,Player 1,1.0
+QQ_01_2,qwen,qwen,01,True,13,PAPER,ROCK,Player 1,1.0
+QQ_01_2,qwen,qwen,01,True,14,PAPER,ROCK,Player 1,1.0
+QQ_01_2,qwen,qwen,01,True,15,PAPER,SCISSORS,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,16,PAPER,PAPER,Tie,0.5
+QQ_01_2,qwen,qwen,01,True,17,PAPER,SCISSORS,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,18,SCISSORS,SCISSORS,Tie,0.5
+QQ_01_2,qwen,qwen,01,True,19,ROCK,PAPER,Player 2,0.0
+QQ_01_2,qwen,qwen,01,True,20,ROCK,SCISSORS,Player 1,1.0
+QF_10_2,qwen,fable,10,True,1,SCISSORS,PAPER,Player 1,1.0
+QF_10_2,qwen,fable,10,True,2,PAPER,ROCK,Player 1,1.0
+QF_10_2,qwen,fable,10,True,3,SCISSORS,PAPER,Player 1,1.0
+QF_10_2,qwen,fable,10,True,4,PAPER,ROCK,Player 1,1.0
+QF_10_2,qwen,fable,10,True,5,SCISSORS,ROCK,Player 2,0.0
+QF_10_2,qwen,fable,10,True,6,PAPER,SCISSORS,Player 2,0.0
+QF_10_2,qwen,fable,10,True,7,PAPER,ROCK,Player 1,1.0
+QF_10_2,qwen,fable,10,True,8,PAPER,SCISSORS,Player 2,0.0
+QF_10_2,qwen,fable,10,True,9,ROCK,SCISSORS,Player 1,1.0
+QF_10_2,qwen,fable,10,True,10,SCISSORS,PAPER,Player 1,1.0
+QF_10_2,qwen,fable,10,True,11,PAPER,SCISSORS,Player 2,0.0
+QF_10_2,qwen,fable,10,True,12,SCISSORS,SCISSORS,Tie,0.5
+QF_10_2,qwen,fable,10,True,13,ROCK,SCISSORS,Player 1,1.0
+QF_10_2,qwen,fable,10,True,14,PAPER,ROCK,Player 1,1.0
+QF_10_2,qwen,fable,10,True,15,ROCK,SCISSORS,Player 1,1.0
+QF_10_2,qwen,fable,10,True,16,PAPER,SCISSORS,Player 2,0.0
+QF_10_2,qwen,fable,10,True,17,ROCK,PAPER,Player 2,0.0
+QF_10_2,qwen,fable,10,True,18,PAPER,SCISSORS,Player 2,0.0
+QF_10_2,qwen,fable,10,True,19,ROCK,PAPER,Player 2,0.0
+QF_10_2,qwen,fable,10,True,20,ROCK,SCISSORS,Player 1,1.0
+FF_11_2,fable,fable,11,True,1,PAPER,PAPER,Tie,0.5
+FF_11_2,fable,fable,11,True,2,SCISSORS,ROCK,Player 2,0.0
+FF_11_2,fable,fable,11,True,3,ROCK,PAPER,Player 2,0.0
+FF_11_2,fable,fable,11,True,4,ROCK,PAPER,Player 2,0.0
+FF_11_2,fable,fable,11,True,5,ROCK,ROCK,Tie,0.5
+FF_11_2,fable,fable,11,True,6,SCISSORS,ROCK,Player 2,0.0
+FF_11_2,fable,fable,11,True,7,PAPER,SCISSORS,Player 2,0.0
+FF_11_2,fable,fable,11,True,8,SCISSORS,PAPER,Player 1,1.0
+FF_11_2,fable,fable,11,True,9,PAPER,ROCK,Player 1,1.0
+FF_11_2,fable,fable,11,True,10,ROCK,PAPER,Player 2,0.0
+FF_11_2,fable,fable,11,True,11,PAPER,ROCK,Player 1,1.0
+FF_11_2,fable,fable,11,True,12,PAPER,ROCK,Player 1,1.0
+FF_11_2,fable,fable,11,True,13,ROCK,PAPER,Player 2,0.0
+FF_11_2,fable,fable,11,True,14,PAPER,SCISSORS,Player 2,0.0
+FF_11_2,fable,fable,11,True,15,SCISSORS,PAPER,Player 1,1.0
+FF_11_2,fable,fable,11,True,16,PAPER,PAPER,Tie,0.5
+FF_11_2,fable,fable,11,True,17,SCISSORS,SCISSORS,Tie,0.5
+FF_11_2,fable,fable,11,True,18,SCISSORS,SCISSORS,Tie,0.5
+FF_11_2,fable,fable,11,True,19,PAPER,ROCK,Player 1,1.0
+FF_11_2,fable,fable,11,True,20,ROCK,ROCK,Tie,0.5
+AF_11_2,astra,fable,11,True,1,PAPER,SCISSORS,Player 2,0.0
+AF_11_2,astra,fable,11,True,2,ROCK,PAPER,Player 2,0.0
+AF_11_2,astra,fable,11,True,3,PAPER,ROCK,Player 1,1.0
+AF_11_2,astra,fable,11,True,4,ROCK,PAPER,Player 2,0.0
+AF_11_2,astra,fable,11,True,5,SCISSORS,SCISSORS,Tie,0.5
+AF_11_2,astra,fable,11,True,6,PAPER,SCISSORS,Player 2,0.0
+AF_11_2,astra,fable,11,True,7,ROCK,PAPER,Player 2,0.0
+AF_11_2,astra,fable,11,True,8,SCISSORS,SCISSORS,Tie,0.5
+AF_11_2,astra,fable,11,True,9,SCISSORS,SCISSORS,Tie,0.5
+AF_11_2,astra,fable,11,True,10,ROCK,SCISSORS,Player 1,1.0
+AF_11_2,astra,fable,11,True,11,SCISSORS,ROCK,Player 2,0.0
+AF_11_2,astra,fable,11,True,12,ROCK,SCISSORS,Player 1,1.0
+AF_11_2,astra,fable,11,True,13,ROCK,ROCK,Tie,0.5
+AF_11_2,astra,fable,11,True,14,ROCK,PAPER,Player 2,0.0
+AF_11_2,astra,fable,11,True,15,ROCK,ROCK,Tie,0.5
+AF_11_2,astra,fable,11,True,16,SCISSORS,PAPER,Player 1,1.0
+AF_11_2,astra,fable,11,True,17,ROCK,ROCK,Tie,0.5
+AF_11_2,astra,fable,11,True,18,SCISSORS,PAPER,Player 1,1.0
+AF_11_2,astra,fable,11,True,19,PAPER,PAPER,Tie,0.5
+AF_11_2,astra,fable,11,True,20,SCISSORS,PAPER,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,1,PAPER,PAPER,Tie,0.5
+FQ_01_2,fable,qwen,01,True,2,ROCK,ROCK,Tie,0.5
+FQ_01_2,fable,qwen,01,True,3,SCISSORS,ROCK,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,4,PAPER,SCISSORS,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,5,ROCK,PAPER,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,6,PAPER,ROCK,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,7,SCISSORS,PAPER,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,8,ROCK,SCISSORS,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,9,PAPER,SCISSORS,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,10,ROCK,PAPER,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,11,PAPER,SCISSORS,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,12,SCISSORS,PAPER,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,13,ROCK,PAPER,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,14,ROCK,SCISSORS,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,15,SCISSORS,PAPER,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,16,ROCK,PAPER,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,17,ROCK,PAPER,Player 2,0.0
+FQ_01_2,fable,qwen,01,True,18,SCISSORS,PAPER,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,19,SCISSORS,PAPER,Player 1,1.0
+FQ_01_2,fable,qwen,01,True,20,SCISSORS,ROCK,Player 2,0.0
+QA_11_2,qwen,astra,11,True,1,PAPER,SCISSORS,Player 2,0.0
+QA_11_2,qwen,astra,11,True,2,SCISSORS,PAPER,Player 1,1.0
+QA_11_2,qwen,astra,11,True,3,PAPER,ROCK,Player 1,1.0
+QA_11_2,qwen,astra,11,True,4,ROCK,SCISSORS,Player 1,1.0
+QA_11_2,qwen,astra,11,True,5,SCISSORS,ROCK,Player 2,0.0
+QA_11_2,qwen,astra,11,True,6,PAPER,SCISSORS,Player 2,0.0
+QA_11_2,qwen,astra,11,True,7,ROCK,PAPER,Player 2,0.0
+QA_11_2,qwen,astra,11,True,8,ROCK,ROCK,Tie,0.5
+QA_11_2,qwen,astra,11,True,9,PAPER,SCISSORS,Player 2,0.0
+QA_11_2,qwen,astra,11,True,10,SCISSORS,PAPER,Player 1,1.0
+QA_11_2,qwen,astra,11,True,11,PAPER,SCISSORS,Player 2,0.0
+QA_11_2,qwen,astra,11,True,12,ROCK,PAPER,Player 2,0.0
+QA_11_2,qwen,astra,11,True,13,PAPER,ROCK,Player 1,1.0
+QA_11_2,qwen,astra,11,True,14,PAPER,PAPER,Tie,0.5
+QA_11_2,qwen,astra,11,True,15,PAPER,SCISSORS,Player 2,0.0
+QA_11_2,qwen,astra,11,True,16,SCISSORS,ROCK,Player 2,0.0
+QA_11_2,qwen,astra,11,True,17,PAPER,SCISSORS,Player 2,0.0
+QA_11_2,qwen,astra,11,True,18,SCISSORS,PAPER,Player 1,1.0
+QA_11_2,qwen,astra,11,True,19,PAPER,SCISSORS,Player 2,0.0
+QA_11_2,qwen,astra,11,True,20,SCISSORS,ROCK,Player 2,0.0
+FA_11_2,fable,astra,11,True,1,SCISSORS,PAPER,Player 1,1.0
+FA_11_2,fable,astra,11,True,2,PAPER,ROCK,Player 1,1.0
+FA_11_2,fable,astra,11,True,3,ROCK,PAPER,Player 2,0.0
+FA_11_2,fable,astra,11,True,4,ROCK,ROCK,Tie,0.5
+FA_11_2,fable,astra,11,True,5,SCISSORS,ROCK,Player 2,0.0
+FA_11_2,fable,astra,11,True,6,PAPER,SCISSORS,Player 2,0.0
+FA_11_2,fable,astra,11,True,7,SCISSORS,PAPER,Player 1,1.0
+FA_11_2,fable,astra,11,True,8,PAPER,SCISSORS,Player 2,0.0
+FA_11_2,fable,astra,11,True,9,ROCK,ROCK,Tie,0.5
+FA_11_2,fable,astra,11,True,10,PAPER,PAPER,Tie,0.5
+FA_11_2,fable,astra,11,True,11,ROCK,PAPER,Player 2,0.0
+FA_11_2,fable,astra,11,True,12,ROCK,ROCK,Tie,0.5
+FA_11_2,fable,astra,11,True,13,PAPER,ROCK,Player 1,1.0
+FA_11_2,fable,astra,11,True,14,SCISSORS,PAPER,Player 1,1.0
+FA_11_2,fable,astra,11,True,15,PAPER,SCISSORS,Player 2,0.0
+FA_11_2,fable,astra,11,True,16,SCISSORS,PAPER,Player 1,1.0
+FA_11_2,fable,astra,11,True,17,ROCK,SCISSORS,Player 1,1.0
+FA_11_2,fable,astra,11,True,18,SCISSORS,PAPER,Player 1,1.0
+FA_11_2,fable,astra,11,True,19,ROCK,SCISSORS,Player 1,1.0
+FA_11_2,fable,astra,11,True,20,SCISSORS,ROCK,Player 2,0.0
+AA_01_2,astra,astra,01,True,1,PAPER,PAPER,Tie,0.5
+AA_01_2,astra,astra,01,True,2,SCISSORS,SCISSORS,Tie,0.5
+AA_01_2,astra,astra,01,True,3,PAPER,PAPER,Tie,0.5
+AA_01_2,astra,astra,01,True,4,ROCK,ROCK,Tie,0.5
+AA_01_2,astra,astra,01,True,5,SCISSORS,SCISSORS,Tie,0.5
+AA_01_2,astra,astra,01,True,6,PAPER,PAPER,Tie,0.5
+AA_01_2,astra,astra,01,True,7,PAPER,SCISSORS,Player 2,0.0
+AA_01_2,astra,astra,01,True,8,ROCK,PAPER,Player 2,0.0
+AA_01_2,astra,astra,01,True,9,SCISSORS,ROCK,Player 2,0.0
+AA_01_2,astra,astra,01,True,10,ROCK,SCISSORS,Player 1,1.0
+AA_01_2,astra,astra,01,True,11,SCISSORS,ROCK,Player 2,0.0
+AA_01_2,astra,astra,01,True,12,ROCK,SCISSORS,Player 1,1.0
+AA_01_2,astra,astra,01,True,13,PAPER,ROCK,Player 1,1.0
+AA_01_2,astra,astra,01,True,14,ROCK,PAPER,Player 2,0.0
+AA_01_2,astra,astra,01,True,15,PAPER,ROCK,Player 1,1.0
+AA_01_2,astra,astra,01,True,16,SCISSORS,PAPER,Player 1,1.0
+AA_01_2,astra,astra,01,True,17,ROCK,PAPER,Player 2,0.0
+AA_01_2,astra,astra,01,True,18,PAPER,ROCK,Player 1,1.0
+AA_01_2,astra,astra,01,True,19,SCISSORS,ROCK,Player 2,0.0
+AA_01_2,astra,astra,01,True,20,ROCK,PAPER,Player 2,0.0
+QA_10_2,qwen,astra,10,True,1,SCISSORS,PAPER,Player 1,1.0
+QA_10_2,qwen,astra,10,True,2,PAPER,ROCK,Player 1,1.0
+QA_10_2,qwen,astra,10,True,3,ROCK,PAPER,Player 2,0.0
+QA_10_2,qwen,astra,10,True,4,PAPER,ROCK,Player 1,1.0
+QA_10_2,qwen,astra,10,True,5,SCISSORS,PAPER,Player 1,1.0
+QA_10_2,qwen,astra,10,True,6,PAPER,SCISSORS,Player 2,0.0
+QA_10_2,qwen,astra,10,True,7,SCISSORS,PAPER,Player 1,1.0
+QA_10_2,qwen,astra,10,True,8,SCISSORS,SCISSORS,Tie,0.5
+QA_10_2,qwen,astra,10,True,9,SCISSORS,ROCK,Player 2,0.0
+QA_10_2,qwen,astra,10,True,10,SCISSORS,PAPER,Player 1,1.0
+QA_10_2,qwen,astra,10,True,11,SCISSORS,ROCK,Player 2,0.0
+QA_10_2,qwen,astra,10,True,12,SCISSORS,ROCK,Player 2,0.0
+QA_10_2,qwen,astra,10,True,13,PAPER,ROCK,Player 1,1.0
+QA_10_2,qwen,astra,10,True,14,PAPER,ROCK,Player 1,1.0
+QA_10_2,qwen,astra,10,True,15,PAPER,SCISSORS,Player 2,0.0
+QA_10_2,qwen,astra,10,True,16,PAPER,ROCK,Player 1,1.0
+QA_10_2,qwen,astra,10,True,17,PAPER,SCISSORS,Player 2,0.0
+QA_10_2,qwen,astra,10,True,18,ROCK,SCISSORS,Player 1,1.0
+QA_10_2,qwen,astra,10,True,19,ROCK,PAPER,Player 2,0.0
+QA_10_2,qwen,astra,10,True,20,SCISSORS,PAPER,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,1,PAPER,PAPER,Tie,0.5
+AQ_11_2,astra,qwen,11,True,2,SCISSORS,ROCK,Player 2,0.0
+AQ_11_2,astra,qwen,11,True,3,ROCK,PAPER,Player 2,0.0
+AQ_11_2,astra,qwen,11,True,4,SCISSORS,SCISSORS,Tie,0.5
+AQ_11_2,astra,qwen,11,True,5,PAPER,ROCK,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,6,SCISSORS,PAPER,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,7,ROCK,ROCK,Tie,0.5
+AQ_11_2,astra,qwen,11,True,8,SCISSORS,PAPER,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,9,PAPER,SCISSORS,Player 2,0.0
+AQ_11_2,astra,qwen,11,True,10,PAPER,ROCK,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,11,SCISSORS,ROCK,Player 2,0.0
+AQ_11_2,astra,qwen,11,True,12,SCISSORS,SCISSORS,Tie,0.5
+AQ_11_2,astra,qwen,11,True,13,PAPER,ROCK,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,14,SCISSORS,ROCK,Player 2,0.0
+AQ_11_2,astra,qwen,11,True,15,PAPER,SCISSORS,Player 2,0.0
+AQ_11_2,astra,qwen,11,True,16,PAPER,ROCK,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,17,PAPER,ROCK,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,18,ROCK,SCISSORS,Player 1,1.0
+AQ_11_2,astra,qwen,11,True,19,PAPER,SCISSORS,Player 2,0.0
+AQ_11_2,astra,qwen,11,True,20,PAPER,SCISSORS,Player 2,0.0
+QA_00_2,qwen,astra,00,True,1,PAPER,PAPER,Tie,0.5
+QA_00_2,qwen,astra,00,True,2,SCISSORS,SCISSORS,Tie,0.5
+QA_00_2,qwen,astra,00,True,3,ROCK,PAPER,Player 2,0.0
+QA_00_2,qwen,astra,00,True,4,PAPER,SCISSORS,Player 2,0.0
+QA_00_2,qwen,astra,00,True,5,SCISSORS,ROCK,Player 2,0.0
+QA_00_2,qwen,astra,00,True,6,SCISSORS,PAPER,Player 1,1.0
+QA_00_2,qwen,astra,00,True,7,ROCK,ROCK,Tie,0.5
+QA_00_2,qwen,astra,00,True,8,SCISSORS,SCISSORS,Tie,0.5
+QA_00_2,qwen,astra,00,True,9,PAPER,PAPER,Tie,0.5
+QA_00_2,qwen,astra,00,True,10,PAPER,ROCK,Player 1,1.0
+QA_00_2,qwen,astra,00,True,11,PAPER,ROCK,Player 1,1.0
+QA_00_2,qwen,astra,00,True,12,ROCK,SCISSORS,Player 1,1.0
+QA_00_2,qwen,astra,00,True,13,SCISSORS,SCISSORS,Tie,0.5
+QA_00_2,qwen,astra,00,True,14,SCISSORS,PAPER,Player 1,1.0
+QA_00_2,qwen,astra,00,True,15,ROCK,PAPER,Player 2,0.0
+QA_00_2,qwen,astra,00,True,16,SCISSORS,ROCK,Player 2,0.0
+QA_00_2,qwen,astra,00,True,17,PAPER,ROCK,Player 1,1.0
+QA_00_2,qwen,astra,00,True,18,PAPER,SCISSORS,Player 2,0.0
+QA_00_2,qwen,astra,00,True,19,ROCK,ROCK,Tie,0.5
+QA_00_2,qwen,astra,00,True,20,PAPER,ROCK,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,1,SCISSORS,PAPER,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,2,PAPER,ROCK,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,3,ROCK,PAPER,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,4,SCISSORS,ROCK,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,5,SCISSORS,SCISSORS,Tie,0.5
+FQ_10_2,fable,qwen,10,True,6,SCISSORS,ROCK,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,7,PAPER,ROCK,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,8,PAPER,ROCK,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,9,PAPER,SCISSORS,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,10,ROCK,PAPER,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,11,PAPER,PAPER,Tie,0.5
+FQ_10_2,fable,qwen,10,True,12,ROCK,SCISSORS,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,13,SCISSORS,SCISSORS,Tie,0.5
+FQ_10_2,fable,qwen,10,True,14,PAPER,ROCK,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,15,ROCK,SCISSORS,Player 1,1.0
+FQ_10_2,fable,qwen,10,True,16,SCISSORS,ROCK,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,17,PAPER,SCISSORS,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,18,PAPER,PAPER,Tie,0.5
+FQ_10_2,fable,qwen,10,True,19,ROCK,PAPER,Player 2,0.0
+FQ_10_2,fable,qwen,10,True,20,SCISSORS,ROCK,Player 2,0.0
+AQ_10_2,astra,qwen,10,True,1,PAPER,PAPER,Tie,0.5
+AQ_10_2,astra,qwen,10,True,2,ROCK,ROCK,Tie,0.5
+AQ_10_2,astra,qwen,10,True,3,ROCK,ROCK,Tie,0.5
+AQ_10_2,astra,qwen,10,True,4,PAPER,PAPER,Tie,0.5
+AQ_10_2,astra,qwen,10,True,5,SCISSORS,PAPER,Player 1,1.0
+AQ_10_2,astra,qwen,10,True,6,PAPER,ROCK,Player 1,1.0
+AQ_10_2,astra,qwen,10,True,7,PAPER,SCISSORS,Player 2,0.0
+AQ_10_2,astra,qwen,10,True,8,ROCK,SCISSORS,Player 1,1.0
+AQ_10_2,astra,qwen,10,True,9,SCISSORS,PAPER,Player 1,1.0
+AQ_10_2,astra,qwen,10,True,10,PAPER,SCISSORS,Player 2,0.0
+AQ_10_2,astra,qwen,10,True,11,ROCK,SCISSORS,Player 1,1.0
+AQ_10_2,astra,qwen,10,True,12,SCISSORS,SCISSORS,Tie,0.5
+AQ_10_2,astra,qwen,10,True,13,ROCK,SCISSORS,Player 1,1.0
+AQ_10_2,astra,qwen,10,True,14,ROCK,PAPER,Player 2,0.0
+AQ_10_2,astra,qwen,10,True,15,ROCK,ROCK,Tie,0.5
+AQ_10_2,astra,qwen,10,True,16,PAPER,PAPER,Tie,0.5
+AQ_10_2,astra,qwen,10,True,17,PAPER,PAPER,Tie,0.5
+AQ_10_2,astra,qwen,10,True,18,PAPER,SCISSORS,Player 2,0.0
+AQ_10_2,astra,qwen,10,True,19,ROCK,SCISSORS,Player 1,1.0
+AQ_10_2,astra,qwen,10,True,20,SCISSORS,SCISSORS,Tie,0.5
+QF_11_2,qwen,fable,11,True,1,PAPER,PAPER,Tie,0.5
+QF_11_2,qwen,fable,11,True,2,SCISSORS,ROCK,Player 2,0.0
+QF_11_2,qwen,fable,11,True,3,SCISSORS,PAPER,Player 1,1.0
+QF_11_2,qwen,fable,11,True,4,PAPER,ROCK,Player 1,1.0
+QF_11_2,qwen,fable,11,True,5,SCISSORS,SCISSORS,Tie,0.5
+QF_11_2,qwen,fable,11,True,6,PAPER,ROCK,Player 1,1.0
+QF_11_2,qwen,fable,11,True,7,PAPER,SCISSORS,Player 2,0.0
+QF_11_2,qwen,fable,11,True,8,PAPER,SCISSORS,Player 2,0.0
+QF_11_2,qwen,fable,11,True,9,ROCK,PAPER,Player 2,0.0
+QF_11_2,qwen,fable,11,True,10,PAPER,ROCK,Player 1,1.0
+QF_11_2,qwen,fable,11,True,11,ROCK,SCISSORS,Player 1,1.0
+QF_11_2,qwen,fable,11,True,12,ROCK,PAPER,Player 2,0.0
+QF_11_2,qwen,fable,11,True,13,PAPER,SCISSORS,Player 2,0.0
+QF_11_2,qwen,fable,11,True,14,ROCK,SCISSORS,Player 1,1.0
+QF_11_2,qwen,fable,11,True,15,ROCK,SCISSORS,Player 1,1.0
+QF_11_2,qwen,fable,11,True,16,PAPER,PAPER,Tie,0.5
+QF_11_2,qwen,fable,11,True,17,PAPER,SCISSORS,Player 2,0.0
+QF_11_2,qwen,fable,11,True,18,ROCK,PAPER,Player 2,0.0
+QF_11_2,qwen,fable,11,True,19,ROCK,PAPER,Player 2,0.0
+QF_11_2,qwen,fable,11,True,20,ROCK,SCISSORS,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,1,SCISSORS,PAPER,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,2,PAPER,ROCK,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,3,ROCK,PAPER,Player 2,0.0
+QQ_10_2,qwen,qwen,10,True,4,PAPER,ROCK,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,5,SCISSORS,PAPER,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,6,PAPER,SCISSORS,Player 2,0.0
+QQ_10_2,qwen,qwen,10,True,7,SCISSORS,PAPER,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,8,SCISSORS,SCISSORS,Tie,0.5
+QQ_10_2,qwen,qwen,10,True,9,SCISSORS,SCISSORS,Tie,0.5
+QQ_10_2,qwen,qwen,10,True,10,PAPER,ROCK,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,11,PAPER,ROCK,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,12,PAPER,SCISSORS,Player 2,0.0
+QQ_10_2,qwen,qwen,10,True,13,ROCK,SCISSORS,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,14,PAPER,SCISSORS,Player 2,0.0
+QQ_10_2,qwen,qwen,10,True,15,ROCK,SCISSORS,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,16,PAPER,SCISSORS,Player 2,0.0
+QQ_10_2,qwen,qwen,10,True,17,ROCK,PAPER,Player 2,0.0
+QQ_10_2,qwen,qwen,10,True,18,SCISSORS,SCISSORS,Tie,0.5
+QQ_10_2,qwen,qwen,10,True,19,ROCK,SCISSORS,Player 1,1.0
+QQ_10_2,qwen,qwen,10,True,20,ROCK,SCISSORS,Player 1,1.0
+QA_01_2,qwen,astra,01,True,1,PAPER,PAPER,Tie,0.5
+QA_01_2,qwen,astra,01,True,2,SCISSORS,SCISSORS,Tie,0.5
+QA_01_2,qwen,astra,01,True,3,ROCK,PAPER,Player 2,0.0
+QA_01_2,qwen,astra,01,True,4,ROCK,SCISSORS,Player 1,1.0
+QA_01_2,qwen,astra,01,True,5,SCISSORS,ROCK,Player 2,0.0
+QA_01_2,qwen,astra,01,True,6,SCISSORS,SCISSORS,Tie,0.5
+QA_01_2,qwen,astra,01,True,7,SCISSORS,ROCK,Player 2,0.0
+QA_01_2,qwen,astra,01,True,8,PAPER,ROCK,Player 1,1.0
+QA_01_2,qwen,astra,01,True,9,PAPER,ROCK,Player 1,1.0
+QA_01_2,qwen,astra,01,True,10,PAPER,SCISSORS,Player 2,0.0
+QA_01_2,qwen,astra,01,True,11,PAPER,PAPER,Tie,0.5
+QA_01_2,qwen,astra,01,True,12,ROCK,SCISSORS,Player 1,1.0
+QA_01_2,qwen,astra,01,True,13,SCISSORS,PAPER,Player 1,1.0
+QA_01_2,qwen,astra,01,True,14,PAPER,ROCK,Player 1,1.0
+QA_01_2,qwen,astra,01,True,15,PAPER,SCISSORS,Player 2,0.0
+QA_01_2,qwen,astra,01,True,16,PAPER,SCISSORS,Player 2,0.0
+QA_01_2,qwen,astra,01,True,17,PAPER,SCISSORS,Player 2,0.0
+QA_01_2,qwen,astra,01,True,18,PAPER,SCISSORS,Player 2,0.0
+QA_01_2,qwen,astra,01,True,19,ROCK,SCISSORS,Player 1,1.0
+QA_01_2,qwen,astra,01,True,20,ROCK,ROCK,Tie,0.5
+FF_00_2,fable,fable,00,True,1,PAPER,PAPER,Tie,0.5
+FF_00_2,fable,fable,00,True,2,ROCK,ROCK,Tie,0.5
+FF_00_2,fable,fable,00,True,3,ROCK,ROCK,Tie,0.5
+FF_00_2,fable,fable,00,True,4,SCISSORS,PAPER,Player 1,1.0
+FF_00_2,fable,fable,00,True,5,PAPER,ROCK,Player 1,1.0
+FF_00_2,fable,fable,00,True,6,PAPER,SCISSORS,Player 2,0.0
+FF_00_2,fable,fable,00,True,7,ROCK,PAPER,Player 2,0.0
+FF_00_2,fable,fable,00,True,8,SCISSORS,ROCK,Player 2,0.0
+FF_00_2,fable,fable,00,True,9,ROCK,SCISSORS,Player 1,1.0
+FF_00_2,fable,fable,00,True,10,SCISSORS,ROCK,Player 2,0.0
+FF_00_2,fable,fable,00,True,11,PAPER,PAPER,Tie,0.5
+FF_00_2,fable,fable,00,True,12,PAPER,PAPER,Tie,0.5
+FF_00_2,fable,fable,00,True,13,SCISSORS,PAPER,Player 1,1.0
+FF_00_2,fable,fable,00,True,14,PAPER,SCISSORS,Player 2,0.0
+FF_00_2,fable,fable,00,True,15,SCISSORS,PAPER,Player 1,1.0
+FF_00_2,fable,fable,00,True,16,SCISSORS,SCISSORS,Tie,0.5
+FF_00_2,fable,fable,00,True,17,SCISSORS,ROCK,Player 2,0.0
+FF_00_2,fable,fable,00,True,18,PAPER,ROCK,Player 1,1.0
+FF_00_2,fable,fable,00,True,19,SCISSORS,SCISSORS,Tie,0.5
+FF_00_2,fable,fable,00,True,20,PAPER,ROCK,Player 1,1.0
+FA_00_2,fable,astra,00,True,1,PAPER,PAPER,Tie,0.5
+FA_00_2,fable,astra,00,True,2,ROCK,SCISSORS,Player 1,1.0
+FA_00_2,fable,astra,00,True,3,PAPER,ROCK,Player 1,1.0
+FA_00_2,fable,astra,00,True,4,SCISSORS,PAPER,Player 1,1.0
+FA_00_2,fable,astra,00,True,5,ROCK,PAPER,Player 2,0.0
+FA_00_2,fable,astra,00,True,6,SCISSORS,SCISSORS,Tie,0.5
+FA_00_2,fable,astra,00,True,7,PAPER,PAPER,Tie,0.5
+FA_00_2,fable,astra,00,True,8,ROCK,PAPER,Player 2,0.0
+FA_00_2,fable,astra,00,True,9,SCISSORS,SCISSORS,Tie,0.5
+FA_00_2,fable,astra,00,True,10,ROCK,SCISSORS,Player 1,1.0
+FA_00_2,fable,astra,00,True,11,SCISSORS,SCISSORS,Tie,0.5
+FA_00_2,fable,astra,00,True,12,SCISSORS,PAPER,Player 1,1.0
+FA_00_2,fable,astra,00,True,13,SCISSORS,ROCK,Player 2,0.0
+FA_00_2,fable,astra,00,True,14,PAPER,ROCK,Player 1,1.0
+FA_00_2,fable,astra,00,True,15,PAPER,PAPER,Tie,0.5
+FA_00_2,fable,astra,00,True,16,SCISSORS,PAPER,Player 1,1.0
+FA_00_2,fable,astra,00,True,17,PAPER,ROCK,Player 1,1.0
+FA_00_2,fable,astra,00,True,18,PAPER,ROCK,Player 1,1.0
+FA_00_2,fable,astra,00,True,19,SCISSORS,ROCK,Player 2,0.0
+FA_00_2,fable,astra,00,True,20,PAPER,SCISSORS,Player 2,0.0
+AF_01_2,astra,fable,01,True,1,PAPER,SCISSORS,Player 2,0.0
+AF_01_2,astra,fable,01,True,2,ROCK,PAPER,Player 2,0.0
+AF_01_2,astra,fable,01,True,3,PAPER,ROCK,Player 1,1.0
+AF_01_2,astra,fable,01,True,4,ROCK,SCISSORS,Player 1,1.0
+AF_01_2,astra,fable,01,True,5,SCISSORS,SCISSORS,Tie,0.5
+AF_01_2,astra,fable,01,True,6,ROCK,SCISSORS,Player 1,1.0
+AF_01_2,astra,fable,01,True,7,ROCK,PAPER,Player 2,0.0
+AF_01_2,astra,fable,01,True,8,ROCK,PAPER,Player 2,0.0
+AF_01_2,astra,fable,01,True,9,SCISSORS,ROCK,Player 2,0.0
+AF_01_2,astra,fable,01,True,10,ROCK,SCISSORS,Player 1,1.0
+AF_01_2,astra,fable,01,True,11,ROCK,PAPER,Player 2,0.0
+AF_01_2,astra,fable,01,True,12,PAPER,PAPER,Tie,0.5
+AF_01_2,astra,fable,01,True,13,PAPER,PAPER,Tie,0.5
+AF_01_2,astra,fable,01,True,14,SCISSORS,PAPER,Player 1,1.0
+AF_01_2,astra,fable,01,True,15,SCISSORS,PAPER,Player 1,1.0
+AF_01_2,astra,fable,01,True,16,SCISSORS,ROCK,Player 2,0.0
+AF_01_2,astra,fable,01,True,17,ROCK,SCISSORS,Player 1,1.0
+AF_01_2,astra,fable,01,True,18,SCISSORS,PAPER,Player 1,1.0
+AF_01_2,astra,fable,01,True,19,PAPER,ROCK,Player 1,1.0
+AF_01_2,astra,fable,01,True,20,ROCK,PAPER,Player 2,0.0
+AA_11_2,astra,astra,11,True,1,PAPER,PAPER,Tie,0.5
+AA_11_2,astra,astra,11,True,2,ROCK,ROCK,Tie,0.5
+AA_11_2,astra,astra,11,True,3,ROCK,PAPER,Player 2,0.0
+AA_11_2,astra,astra,11,True,4,SCISSORS,ROCK,Player 2,0.0
+AA_11_2,astra,astra,11,True,5,PAPER,SCISSORS,Player 2,0.0
+AA_11_2,astra,astra,11,True,6,ROCK,PAPER,Player 2,0.0
+AA_11_2,astra,astra,11,True,7,PAPER,ROCK,Player 1,1.0
+AA_11_2,astra,astra,11,True,8,ROCK,SCISSORS,Player 1,1.0
+AA_11_2,astra,astra,11,True,9,SCISSORS,PAPER,Player 1,1.0
+AA_11_2,astra,astra,11,True,10,PAPER,SCISSORS,Player 2,0.0
+AA_11_2,astra,astra,11,True,11,SCISSORS,PAPER,Player 1,1.0
+AA_11_2,astra,astra,11,True,12,PAPER,SCISSORS,Player 2,0.0
+AA_11_2,astra,astra,11,True,13,SCISSORS,PAPER,Player 1,1.0
+AA_11_2,astra,astra,11,True,14,ROCK,SCISSORS,Player 1,1.0
+AA_11_2,astra,astra,11,True,15,SCISSORS,ROCK,Player 2,0.0
+AA_11_2,astra,astra,11,True,16,SCISSORS,SCISSORS,Tie,0.5
+AA_11_2,astra,astra,11,True,17,SCISSORS,SCISSORS,Tie,0.5
+AA_11_2,astra,astra,11,True,18,ROCK,ROCK,Tie,0.5
+AA_11_2,astra,astra,11,True,19,ROCK,ROCK,Tie,0.5
+AA_11_2,astra,astra,11,True,20,SCISSORS,SCISSORS,Tie,0.5
+FA_10_2,fable,astra,10,True,1,SCISSORS,PAPER,Player 1,1.0
+FA_10_2,fable,astra,10,True,2,PAPER,ROCK,Player 1,1.0
+FA_10_2,fable,astra,10,True,3,ROCK,PAPER,Player 2,0.0
+FA_10_2,fable,astra,10,True,4,SCISSORS,ROCK,Player 2,0.0
+FA_10_2,fable,astra,10,True,5,SCISSORS,SCISSORS,Tie,0.5
+FA_10_2,fable,astra,10,True,6,SCISSORS,ROCK,Player 2,0.0
+FA_10_2,fable,astra,10,True,7,PAPER,ROCK,Player 1,1.0
+FA_10_2,fable,astra,10,True,8,PAPER,PAPER,Tie,0.5
+FA_10_2,fable,astra,10,True,9,PAPER,SCISSORS,Player 2,0.0
+FA_10_2,fable,astra,10,True,10,SCISSORS,PAPER,Player 1,1.0
+FA_10_2,fable,astra,10,True,11,PAPER,ROCK,Player 1,1.0
+FA_10_2,fable,astra,10,True,12,ROCK,SCISSORS,Player 1,1.0
+FA_10_2,fable,astra,10,True,13,PAPER,ROCK,Player 1,1.0
+FA_10_2,fable,astra,10,True,14,ROCK,PAPER,Player 2,0.0
+FA_10_2,fable,astra,10,True,15,PAPER,ROCK,Player 1,1.0
+FA_10_2,fable,astra,10,True,16,SCISSORS,PAPER,Player 1,1.0
+FA_10_2,fable,astra,10,True,17,PAPER,SCISSORS,Player 2,0.0
+FA_10_2,fable,astra,10,True,18,PAPER,ROCK,Player 1,1.0
+FA_10_2,fable,astra,10,True,19,ROCK,SCISSORS,Player 1,1.0
+FA_10_2,fable,astra,10,True,20,PAPER,SCISSORS,Player 2,0.0
+AF_10_2,astra,fable,10,True,1,PAPER,PAPER,Tie,0.5
+AF_10_2,astra,fable,10,True,2,SCISSORS,ROCK,Player 2,0.0
+AF_10_2,astra,fable,10,True,3,ROCK,SCISSORS,Player 1,1.0
+AF_10_2,astra,fable,10,True,4,SCISSORS,SCISSORS,Tie,0.5
+AF_10_2,astra,fable,10,True,5,ROCK,PAPER,Player 2,0.0
+AF_10_2,astra,fable,10,True,6,PAPER,ROCK,Player 1,1.0
+AF_10_2,astra,fable,10,True,7,ROCK,ROCK,Tie,0.5
+AF_10_2,astra,fable,10,True,8,ROCK,SCISSORS,Player 1,1.0
+AF_10_2,astra,fable,10,True,9,ROCK,PAPER,Player 2,0.0
+AF_10_2,astra,fable,10,True,10,PAPER,PAPER,Tie,0.5
+AF_10_2,astra,fable,10,True,11,PAPER,PAPER,Tie,0.5
+AF_10_2,astra,fable,10,True,12,ROCK,ROCK,Tie,0.5
+AF_10_2,astra,fable,10,True,13,ROCK,PAPER,Player 2,0.0
+AF_10_2,astra,fable,10,True,14,SCISSORS,PAPER,Player 1,1.0
+AF_10_2,astra,fable,10,True,15,SCISSORS,PAPER,Player 1,1.0
+AF_10_2,astra,fable,10,True,16,SCISSORS,ROCK,Player 2,0.0
+AF_10_2,astra,fable,10,True,17,PAPER,SCISSORS,Player 2,0.0
+AF_10_2,astra,fable,10,True,18,SCISSORS,PAPER,Player 1,1.0
+AF_10_2,astra,fable,10,True,19,SCISSORS,ROCK,Player 2,0.0
+AF_10_2,astra,fable,10,True,20,ROCK,ROCK,Tie,0.5
+AA_00_2,astra,astra,00,True,1,PAPER,PAPER,Tie,0.5
+AA_00_2,astra,astra,00,True,2,SCISSORS,SCISSORS,Tie,0.5
+AA_00_2,astra,astra,00,True,3,PAPER,PAPER,Tie,0.5
+AA_00_2,astra,astra,00,True,4,ROCK,ROCK,Tie,0.5
+AA_00_2,astra,astra,00,True,5,SCISSORS,SCISSORS,Tie,0.5
+AA_00_2,astra,astra,00,True,6,SCISSORS,SCISSORS,Tie,0.5
+AA_00_2,astra,astra,00,True,7,ROCK,ROCK,Tie,0.5
+AA_00_2,astra,astra,00,True,8,SCISSORS,ROCK,Player 2,0.0
+AA_00_2,astra,astra,00,True,9,PAPER,SCISSORS,Player 2,0.0
+AA_00_2,astra,astra,00,True,10,ROCK,PAPER,Player 2,0.0
+AA_00_2,astra,astra,00,True,11,PAPER,ROCK,Player 1,1.0
+AA_00_2,astra,astra,00,True,12,ROCK,PAPER,Player 2,0.0
+AA_00_2,astra,astra,00,True,13,PAPER,ROCK,Player 1,1.0
+AA_00_2,astra,astra,00,True,14,SCISSORS,PAPER,Player 1,1.0
+AA_00_2,astra,astra,00,True,15,PAPER,SCISSORS,Player 2,0.0
+AA_00_2,astra,astra,00,True,16,SCISSORS,PAPER,Player 1,1.0
+AA_00_2,astra,astra,00,True,17,ROCK,SCISSORS,Player 1,1.0
+AA_00_2,astra,astra,00,True,18,PAPER,SCISSORS,Player 2,0.0
+AA_00_2,astra,astra,00,True,19,SCISSORS,ROCK,Player 2,0.0
+AA_00_2,astra,astra,00,True,20,PAPER,SCISSORS,Player 2,0.0
+FF_01_2,fable,fable,01,True,1,PAPER,PAPER,Tie,0.5
+FF_01_2,fable,fable,01,True,2,SCISSORS,ROCK,Player 2,0.0
+FF_01_2,fable,fable,01,True,3,PAPER,SCISSORS,Player 2,0.0
+FF_01_2,fable,fable,01,True,4,SCISSORS,ROCK,Player 2,0.0
+FF_01_2,fable,fable,01,True,5,ROCK,SCISSORS,Player 1,1.0
+FF_01_2,fable,fable,01,True,6,PAPER,ROCK,Player 1,1.0
+FF_01_2,fable,fable,01,True,7,ROCK,ROCK,Tie,0.5
+FF_01_2,fable,fable,01,True,8,PAPER,SCISSORS,Player 2,0.0
+FF_01_2,fable,fable,01,True,9,PAPER,PAPER,Tie,0.5
+FF_01_2,fable,fable,01,True,10,PAPER,SCISSORS,Player 2,0.0
+FF_01_2,fable,fable,01,True,11,PAPER,PAPER,Tie,0.5
+FF_01_2,fable,fable,01,True,12,ROCK,SCISSORS,Player 1,1.0
+FF_01_2,fable,fable,01,True,13,SCISSORS,PAPER,Player 1,1.0
+FF_01_2,fable,fable,01,True,14,ROCK,SCISSORS,Player 1,1.0
+FF_01_2,fable,fable,01,True,15,SCISSORS,ROCK,Player 2,0.0
+FF_01_2,fable,fable,01,True,16,ROCK,PAPER,Player 2,0.0
+FF_01_2,fable,fable,01,True,17,ROCK,ROCK,Tie,0.5
+FF_01_2,fable,fable,01,True,18,ROCK,ROCK,Tie,0.5
+FF_01_2,fable,fable,01,True,19,PAPER,PAPER,Tie,0.5
+FF_01_2,fable,fable,01,True,20,ROCK,SCISSORS,Player 1,1.0
+FF_10_2,fable,fable,10,True,1,PAPER,PAPER,Tie,0.5
+FF_10_2,fable,fable,10,True,2,PAPER,SCISSORS,Player 2,0.0
+FF_10_2,fable,fable,10,True,3,SCISSORS,PAPER,Player 1,1.0
+FF_10_2,fable,fable,10,True,4,PAPER,ROCK,Player 1,1.0
+FF_10_2,fable,fable,10,True,5,ROCK,SCISSORS,Player 1,1.0
+FF_10_2,fable,fable,10,True,6,SCISSORS,ROCK,Player 2,0.0
+FF_10_2,fable,fable,10,True,7,ROCK,PAPER,Player 2,0.0
+FF_10_2,fable,fable,10,True,8,PAPER,ROCK,Player 1,1.0
+FF_10_2,fable,fable,10,True,9,ROCK,PAPER,Player 2,0.0
+FF_10_2,fable,fable,10,True,10,SCISSORS,SCISSORS,Tie,0.5
+FF_10_2,fable,fable,10,True,11,SCISSORS,SCISSORS,Tie,0.5
+FF_10_2,fable,fable,10,True,12,SCISSORS,PAPER,Player 1,1.0
+FF_10_2,fable,fable,10,True,13,PAPER,ROCK,Player 1,1.0
+FF_10_2,fable,fable,10,True,14,ROCK,PAPER,Player 2,0.0
+FF_10_2,fable,fable,10,True,15,ROCK,ROCK,Tie,0.5
+FF_10_2,fable,fable,10,True,16,SCISSORS,PAPER,Player 1,1.0
+FF_10_2,fable,fable,10,True,17,PAPER,SCISSORS,Player 2,0.0
+FF_10_2,fable,fable,10,True,18,SCISSORS,PAPER,Player 1,1.0
+FF_10_2,fable,fable,10,True,19,PAPER,SCISSORS,Player 2,0.0
+FF_10_2,fable,fable,10,True,20,SCISSORS,ROCK,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,1,PAPER,PAPER,Tie,0.5
+QQ_11_2,qwen,qwen,11,True,2,ROCK,PAPER,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,3,SCISSORS,ROCK,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,4,ROCK,PAPER,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,5,SCISSORS,ROCK,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,6,SCISSORS,PAPER,Player 1,1.0
+QQ_11_2,qwen,qwen,11,True,7,SCISSORS,ROCK,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,8,PAPER,PAPER,Tie,0.5
+QQ_11_2,qwen,qwen,11,True,9,PAPER,ROCK,Player 1,1.0
+QQ_11_2,qwen,qwen,11,True,10,SCISSORS,ROCK,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,11,SCISSORS,ROCK,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,12,PAPER,ROCK,Player 1,1.0
+QQ_11_2,qwen,qwen,11,True,13,PAPER,SCISSORS,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,14,ROCK,ROCK,Tie,0.5
+QQ_11_2,qwen,qwen,11,True,15,PAPER,PAPER,Tie,0.5
+QQ_11_2,qwen,qwen,11,True,16,PAPER,SCISSORS,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,17,PAPER,SCISSORS,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,18,PAPER,SCISSORS,Player 2,0.0
+QQ_11_2,qwen,qwen,11,True,19,ROCK,SCISSORS,Player 1,1.0
+QQ_11_2,qwen,qwen,11,True,20,ROCK,SCISSORS,Player 1,1.0
+FA_01_2,fable,astra,01,True,1,PAPER,PAPER,Tie,0.5
+FA_01_2,fable,astra,01,True,2,ROCK,SCISSORS,Player 1,1.0
+FA_01_2,fable,astra,01,True,3,PAPER,ROCK,Player 1,1.0
+FA_01_2,fable,astra,01,True,4,SCISSORS,SCISSORS,Tie,0.5
+FA_01_2,fable,astra,01,True,5,PAPER,PAPER,Tie,0.5
+FA_01_2,fable,astra,01,True,6,ROCK,ROCK,Tie,0.5
+FA_01_2,fable,astra,01,True,7,SCISSORS,SCISSORS,Tie,0.5
+FA_01_2,fable,astra,01,True,8,SCISSORS,SCISSORS,Tie,0.5
+FA_01_2,fable,astra,01,True,9,ROCK,ROCK,Tie,0.5
+FA_01_2,fable,astra,01,True,10,ROCK,SCISSORS,Player 1,1.0
+FA_01_2,fable,astra,01,True,11,ROCK,SCISSORS,Player 1,1.0
+FA_01_2,fable,astra,01,True,12,ROCK,PAPER,Player 2,0.0
+FA_01_2,fable,astra,01,True,13,ROCK,ROCK,Tie,0.5
+FA_01_2,fable,astra,01,True,14,SCISSORS,PAPER,Player 1,1.0
+FA_01_2,fable,astra,01,True,15,PAPER,PAPER,Tie,0.5
+FA_01_2,fable,astra,01,True,16,SCISSORS,PAPER,Player 1,1.0
+FA_01_2,fable,astra,01,True,17,PAPER,ROCK,Player 1,1.0
+FA_01_2,fable,astra,01,True,18,ROCK,ROCK,Tie,0.5
+FA_01_2,fable,astra,01,True,19,SCISSORS,PAPER,Player 1,1.0
+FA_01_2,fable,astra,01,True,20,PAPER,SCISSORS,Player 2,0.0
+QF_01_2,qwen,fable,01,True,1,PAPER,PAPER,Tie,0.5
+QF_01_2,qwen,fable,01,True,2,ROCK,ROCK,Tie,0.5
+QF_01_2,qwen,fable,01,True,3,SCISSORS,ROCK,Player 2,0.0
+QF_01_2,qwen,fable,01,True,4,PAPER,SCISSORS,Player 2,0.0
+QF_01_2,qwen,fable,01,True,5,SCISSORS,PAPER,Player 1,1.0
+QF_01_2,qwen,fable,01,True,6,PAPER,ROCK,Player 1,1.0
+QF_01_2,qwen,fable,01,True,7,PAPER,ROCK,Player 1,1.0
+QF_01_2,qwen,fable,01,True,8,PAPER,SCISSORS,Player 2,0.0
+QF_01_2,qwen,fable,01,True,9,SCISSORS,PAPER,Player 1,1.0
+QF_01_2,qwen,fable,01,True,10,PAPER,SCISSORS,Player 2,0.0
+QF_01_2,qwen,fable,01,True,11,SCISSORS,ROCK,Player 2,0.0
+QF_01_2,qwen,fable,01,True,12,PAPER,SCISSORS,Player 2,0.0
+QF_01_2,qwen,fable,01,True,13,SCISSORS,SCISSORS,Tie,0.5
+QF_01_2,qwen,fable,01,True,14,SCISSORS,SCISSORS,Tie,0.5
+QF_01_2,qwen,fable,01,True,15,ROCK,SCISSORS,Player 1,1.0
+QF_01_2,qwen,fable,01,True,16,ROCK,SCISSORS,Player 1,1.0
+QF_01_2,qwen,fable,01,True,17,ROCK,PAPER,Player 2,0.0
+QF_01_2,qwen,fable,01,True,18,PAPER,ROCK,Player 1,1.0
+QF_01_2,qwen,fable,01,True,19,ROCK,SCISSORS,Player 1,1.0
+QF_01_2,qwen,fable,01,True,20,ROCK,PAPER,Player 2,0.0
+AF_00_2,astra,fable,00,True,1,PAPER,PAPER,Tie,0.5
+AF_00_2,astra,fable,00,True,2,SCISSORS,SCISSORS,Tie,0.5
+AF_00_2,astra,fable,00,True,3,PAPER,PAPER,Tie,0.5
+AF_00_2,astra,fable,00,True,4,ROCK,ROCK,Tie,0.5
+AF_00_2,astra,fable,00,True,5,SCISSORS,ROCK,Player 2,0.0
+AF_00_2,astra,fable,00,True,6,PAPER,SCISSORS,Player 2,0.0
+AF_00_2,astra,fable,00,True,7,ROCK,PAPER,Player 2,0.0
+AF_00_2,astra,fable,00,True,8,PAPER,ROCK,Player 1,1.0
+AF_00_2,astra,fable,00,True,9,ROCK,SCISSORS,Player 1,1.0
+AF_00_2,astra,fable,00,True,10,SCISSORS,SCISSORS,Tie,0.5
+AF_00_2,astra,fable,00,True,11,SCISSORS,SCISSORS,Tie,0.5
+AF_00_2,astra,fable,00,True,12,ROCK,SCISSORS,Player 1,1.0
+AF_00_2,astra,fable,00,True,13,ROCK,ROCK,Tie,0.5
+AF_00_2,astra,fable,00,True,14,ROCK,PAPER,Player 2,0.0
+AF_00_2,astra,fable,00,True,15,PAPER,SCISSORS,Player 2,0.0
+AF_00_2,astra,fable,00,True,16,ROCK,PAPER,Player 2,0.0
+AF_00_2,astra,fable,00,True,17,ROCK,SCISSORS,Player 1,1.0
+AF_00_2,astra,fable,00,True,18,ROCK,PAPER,Player 2,0.0
+AF_00_2,astra,fable,00,True,19,ROCK,PAPER,Player 2,0.0
+AF_00_2,astra,fable,00,True,20,SCISSORS,PAPER,Player 1,1.0
+QQ_00_2,qwen,qwen,00,True,1,PAPER,PAPER,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,2,ROCK,SCISSORS,Player 1,1.0
+QQ_00_2,qwen,qwen,00,True,3,PAPER,PAPER,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,4,SCISSORS,ROCK,Player 2,0.0
+QQ_00_2,qwen,qwen,00,True,5,PAPER,SCISSORS,Player 2,0.0
+QQ_00_2,qwen,qwen,00,True,6,ROCK,PAPER,Player 2,0.0
+QQ_00_2,qwen,qwen,00,True,7,SCISSORS,SCISSORS,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,8,SCISSORS,SCISSORS,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,9,PAPER,ROCK,Player 1,1.0
+QQ_00_2,qwen,qwen,00,True,10,ROCK,SCISSORS,Player 1,1.0
+QQ_00_2,qwen,qwen,00,True,11,ROCK,SCISSORS,Player 1,1.0
+QQ_00_2,qwen,qwen,00,True,12,PAPER,PAPER,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,13,ROCK,PAPER,Player 2,0.0
+QQ_00_2,qwen,qwen,00,True,14,PAPER,PAPER,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,15,SCISSORS,PAPER,Player 1,1.0
+QQ_00_2,qwen,qwen,00,True,16,SCISSORS,SCISSORS,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,17,SCISSORS,SCISSORS,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,18,ROCK,ROCK,Tie,0.5
+QQ_00_2,qwen,qwen,00,True,19,ROCK,SCISSORS,Player 1,1.0
+QQ_00_2,qwen,qwen,00,True,20,ROCK,SCISSORS,Player 1,1.0
+QF_00_2,qwen,fable,00,True,1,ROCK,PAPER,Player 2,0.0
+QF_00_2,qwen,fable,00,True,2,SCISSORS,ROCK,Player 2,0.0
+QF_00_2,qwen,fable,00,True,3,PAPER,SCISSORS,Player 2,0.0
+QF_00_2,qwen,fable,00,True,4,SCISSORS,PAPER,Player 1,1.0
+QF_00_2,qwen,fable,00,True,5,PAPER,ROCK,Player 1,1.0
+QF_00_2,qwen,fable,00,True,6,ROCK,SCISSORS,Player 1,1.0
+QF_00_2,qwen,fable,00,True,7,SCISSORS,ROCK,Player 2,0.0
+QF_00_2,qwen,fable,00,True,8,PAPER,SCISSORS,Player 2,0.0
+QF_00_2,qwen,fable,00,True,9,ROCK,PAPER,Player 2,0.0
+QF_00_2,qwen,fable,00,True,10,PAPER,ROCK,Player 1,1.0
+QF_00_2,qwen,fable,00,True,11,ROCK,PAPER,Player 2,0.0
+QF_00_2,qwen,fable,00,True,12,SCISSORS,ROCK,Player 2,0.0
+QF_00_2,qwen,fable,00,True,13,PAPER,SCISSORS,Player 2,0.0
+QF_00_2,qwen,fable,00,True,14,ROCK,PAPER,Player 2,0.0
+QF_00_2,qwen,fable,00,True,15,PAPER,ROCK,Player 1,1.0
+QF_00_2,qwen,fable,00,True,16,PAPER,PAPER,Tie,0.5
+QF_00_2,qwen,fable,00,True,17,ROCK,PAPER,Player 2,0.0
+QF_00_2,qwen,fable,00,True,18,SCISSORS,ROCK,Player 2,0.0
+QF_00_2,qwen,fable,00,True,19,ROCK,SCISSORS,Player 1,1.0
+QF_00_2,qwen,fable,00,True,20,SCISSORS,ROCK,Player 2,0.0

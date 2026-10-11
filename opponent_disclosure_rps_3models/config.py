@@ -6,7 +6,7 @@ from itertools import product
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-PROTOCOL = "RPSDisclosure3M_v1"
+PROTOCOL = "RPSDisclosure3M_v1_pilot2"   # two-game-per-cell amendment (handoff 2026-10-10)
 MASTER_SEED = 20261012
 ANALYSIS_SEED = 20261013
 PKG = Path(__file__).resolve().parent
@@ -26,15 +26,15 @@ MAX_TOKENS = 4000
 PAIRINGS: List[Tuple[str, str]] = [(a, b) for a, b in product(ORDER, ORDER)]       # 9 ordered (P1, P2)
 CONDITIONS: Dict[str, Tuple[bool, bool]] = {"00": (False, False), "10": (True, False), "01": (False, True), "11": (True, True)}
 COND_ORDER = ("00", "10", "01", "11")
-REPLICATES = 8
+REPLICATES = 2
 N_ROUNDS = 20
-N_GAMES = len(PAIRINGS) * len(CONDITIONS) * REPLICATES            # 288
-N_CALLS = N_GAMES * N_ROUNDS * 2                                   # 11,520
+N_GAMES = len(PAIRINGS) * len(CONDITIONS) * REPLICATES            # 72
+N_CALLS = N_GAMES * N_ROUNDS * 2                                   # 2,880
 MOVES = ("ROCK", "PAPER", "SCISSORS")
 BEATS = {"ROCK": "SCISSORS", "SCISSORS": "PAPER", "PAPER": "ROCK"}
 BEATEN_BY = {v: k for k, v in BEATS.items()}
 
-BUDGET_CAP_USD = 200.0          # hard cumulative max for this experiment incl. smoke and retries
+BUDGET_CAP_USD = 60.0           # proposed hard cap for the 2-game cohort incl. smoke and retries (below the $200 RPS cap)
 MAX_TRANSIENT_RETRIES = 3
 REQUEST_TIMEOUT_S = 240
 GAME_CONCURRENCY = 16           # bounded parallelism -> at most 32 calls in flight

@@ -1,2 +1,3 @@
 - 2026-10-09 08:40:44 PLAN: manifest (288 games, schedule abac2381ccd0), config, snapshots, cost estimate written; not approved
 - 2026-10-09 08:40:52 VALIDATE: Result: PASS
+- 2026-10-10 15:04:32 SUPERSEDED: never approved or executed (0 calls, $0). Replaced by the prospective two-game-per-cell cohort rps3m-p2-20261010 (protocol RPSDisclosure3M_v1_pilot2, handoff 2026-10-10). Package code changed after this freeze, so this manifest can no longer be launched.

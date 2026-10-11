@@ -1,0 +1,188 @@
+{
+ "game": "RPS",
+ "n_games_used": 72,
+ "n_interrupted_included": 1,
+ "n_games_total": 72,
+ "rows": [
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "D",
+   "estimate": 0.011458333333333343,
+   "ci_lo": -0.030208333333333337,
+   "ci_hi": 0.05208333333333335,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "D[astra]",
+   "estimate": -0.021875000000000006,
+   "ci_lo": -0.08437499999999998,
+   "ci_hi": 0.03750000000000002,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "S[astra]",
+   "estimate": 0.05625000000000002,
+   "ci_lo": 0.025000000000000022,
+   "ci_hi": 0.0875,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "O[astra]",
+   "estimate": 0.07812500000000003,
+   "ci_lo": 0.028124999999999997,
+   "ci_hi": 0.13125,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "D[fable]",
+   "estimate": 0.09687500000000002,
+   "ci_lo": 0.046875,
+   "ci_hi": 0.15000000000000002,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "S[fable]",
+   "estimate": 0.04375000000000001,
+   "ci_lo": 0.012500000000000011,
+   "ci_hi": 0.07500000000000001,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "O[fable]",
+   "estimate": -0.053125000000000006,
+   "ci_lo": -0.084375,
+   "ci_hi": -0.02187499999999999,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "D[qwen]",
+   "estimate": -0.04062499999999998,
+   "ci_lo": -0.1375,
+   "ci_hi": 0.056249999999999994,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "S[qwen]",
+   "estimate": 0.024999999999999994,
+   "ci_lo": -0.06250000000000003,
+   "ci_hi": 0.11249999999999999,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "handoff_D_complete_games",
+   "contrast": "O[qwen]",
+   "estimate": 0.06562499999999998,
+   "ci_lo": 0.028124999999999983,
+   "ci_hi": 0.10624999999999994,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "D",
+   "estimate": 0.011458333333333343,
+   "ci_lo": -0.02708333333333333,
+   "ci_hi": 0.05208333333333334,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "D[astra]",
+   "estimate": -0.021875000000000006,
+   "ci_lo": -0.08437499999999998,
+   "ci_hi": 0.037500000000000006,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "S[astra]",
+   "estimate": 0.05625000000000002,
+   "ci_lo": 0.025000000000000022,
+   "ci_hi": 0.0875,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "O[astra]",
+   "estimate": 0.07812500000000003,
+   "ci_lo": 0.02500000000000001,
+   "ci_hi": 0.13125,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "D[fable]",
+   "estimate": 0.09166666666666667,
+   "ci_lo": 0.03854166666666667,
+   "ci_hi": 0.14479166666666665,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "S[fable]",
+   "estimate": 0.04375000000000001,
+   "ci_lo": 0.012500000000000011,
+   "ci_hi": 0.07500000000000001,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "O[fable]",
+   "estimate": -0.04791666666666666,
+   "ci_lo": -0.07916666666666668,
+   "ci_hi": -0.01666666666666665,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "D[qwen]",
+   "estimate": -0.03541666666666664,
+   "ci_lo": -0.12604166666666666,
+   "ci_hi": 0.05937499999999998,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "S[qwen]",
+   "estimate": 0.024999999999999994,
+   "ci_lo": -0.06250000000000003,
+   "ci_hi": 0.11249999999999999,
+   "undefined_boot_frac": 0.0
+  },
+  {
+   "game": "RPS",
+   "analysis": "partial_games_handoff_D",
+   "contrast": "O[qwen]",
+   "estimate": 0.06041666666666663,
+   "ci_lo": 0.020833333333333315,
+   "ci_hi": 0.09999999999999995,
+   "undefined_boot_frac": 0.0
+  }
+ ]
+}

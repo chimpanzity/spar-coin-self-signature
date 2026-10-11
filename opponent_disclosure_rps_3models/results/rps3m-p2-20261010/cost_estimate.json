@@ -1,0 +1,39 @@
+{
+ "per_model": {
+  "astra": {
+   "prior_player_calls": 480,
+   "mean_usd": 0.005099625,
+   "p95_usd": 0.00848,
+   "max_usd": 0.0144,
+   "planned_calls": 960,
+   "expected_usd": 4.89564,
+   "pessimistic_usd": 8.1408
+  },
+  "fable": {
+   "prior_player_calls": 480,
+   "mean_usd": 0.014904291666666666,
+   "p95_usd": 0.02403,
+   "max_usd": 0.04303,
+   "planned_calls": 960,
+   "expected_usd": 14.308119999999999,
+   "pessimistic_usd": 23.0688
+  },
+  "qwen": {
+   "prior_player_calls": 480,
+   "mean_usd": 0.0022755721875,
+   "p95_usd": 0.00414035,
+   "max_usd": 0.009055475,
+   "planned_calls": 960,
+   "expected_usd": 2.1845493,
+   "pessimistic_usd": 3.974736
+  }
+ },
+ "expected_total_usd": 21.3883093,
+ "pessimistic_total_usd": 35.184336,
+ "retry_allowance_usd": 1.05553008,
+ "smoke_usd": 1.7885149999999999,
+ "max_inflight_reservation_usd": 7.680000000000001,
+ "pessimistic_with_retries_and_smoke_usd": 38.02838108,
+ "cap_usd": 60.0,
+ "basis": "per-call costs of all completed player calls in the three Blind Twin RPS runs (same endpoints/settings, similar prompt length)"
+}

@@ -1,0 +1,6 @@
+slot_id,model,status,reason,text_tail
+player:FQ_00_1:r13:p2,qwen,completed,final_line_not_exact_move,"e times (rounds 10, 11, 12). The transition data after ROCK shows: ROCK (×2), SCISSORS (×1), PAPER (×1), making continuation the most probable next move.
+
+Since I've been heavily biased toward SCISSORS recently (6 of 12 rounds), I should avoid that and counter the most likely ROCK choice.
+
+**PAPER**"

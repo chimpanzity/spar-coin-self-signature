@@ -6,6 +6,7 @@ key is read at call time and never written anywhere.
 """
 from __future__ import annotations
 
+import http.client
 import json
 import os
 import random
@@ -196,7 +197,7 @@ class OpenRouterTransport:
             if e.code == 429 or e.code >= 500:
                 raise TransientError(f"HTTP {e.code}: {raw[:500]}")
             return {"_http_status": e.code, "_error_body": raw[:4000], "_nontransient": True}
-        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, http.client.HTTPException) as e:
             raise TransientError(f"{type(e).__name__}: {e}")
         try:
             obj = json.loads(raw)

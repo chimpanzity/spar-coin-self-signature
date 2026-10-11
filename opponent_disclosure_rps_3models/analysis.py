@@ -249,7 +249,7 @@ def write_report(rd, games, calls, V, counts, planned, ct, ci, brows, hrows, rs)
     scost = sum(float(json.loads(l).get("cost_usd") or 0) for l in sp.read_text().splitlines() if l.strip()) if sp.exists() else 0.0
     prov = Counter((r["model"], r.get("returned_provider")) for r in calls if r["status"] == "completed")
     L = ["# RPS opponent identity disclosure: three-model factorial pilot", "",
-         f"Run `{rd.name}`. Protocol {C.PROTOCOL}. Exploratory pilot (8 games per cell); unit of analysis = complete 20-round game.", "",
+         f"Run `{rd.name}`. Protocol {C.PROTOCOL}. Exploratory pilot ({C.REPLICATES} games per cell); unit of analysis = complete 20-round game.", "",
          "## Completion, cost and endpoint fidelity", "",
          f"- Games complete: {sum(1 for g in games if g['status'] == 'complete')} / {len(games)} planned ({C.N_GAMES}).",
          f"- Player calls recorded: {len(calls)} (planned {C.N_CALLS}); valid: {sum(1 for r in calls if (r.get('parse') or {}).get('valid'))}.",
@@ -295,7 +295,7 @@ def write_report(rd, games, calls, V, counts, planned, ct, ci, brows, hrows, rs)
                 L.append(f"| {m} | {inf} | " + " | ".join(fmt(_mean([h[b] for h in xs]), 1) for b in BASELINES) + " |")
     L += ["", "## Independent rescore", "", f"`rescore.py` recomputed V and D from `rounds.csv` without the game-result routine: {json.dumps(rs)}", "",
           "## Interpretation boundaries", "",
-          "- Exploratory: 8 games per cell; intervals reflect game-to-game variation within cells; no multiplicity correction across 36 cells.",
+          f"- Exploratory: {C.REPLICATES} games per cell; intervals reflect game-to-game variation within cells; no multiplicity correction across 36 cells.",
           "- Disclosure is always truthful. A self-specific effect is functional use of self-related information, not privileged introspection; model-name priors and skill differences remain alternatives.",
           "- 'Same model' means another independently queried instance with the same name and settings.", ""]
     (rd / "REPORT.md").write_text("\n".join(L) + "\n")

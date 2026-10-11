@@ -1,0 +1,17 @@
+- 2026-10-10 15:04:32 PLAN: manifest (72 games, schedule af8e594317b1), config, snapshots, cost estimate written; not approved
+- 2026-10-10 15:04:34 VALIDATE: Result: PASS
+- 2026-10-10 16:19:17 RUN start, cap $60
+- 2026-10-10 16:19:17 games: 72 scheduled, 16 concurrent (spent so far $0.00, cap $60)
+- 2026-10-10 16:20:16 LIVE START FAILED before any request (0 calls, $0): KeyError in live price lookup (plan snapshot format not read by Runner). Fixed (snapshot_prices); re-freezing with the same schedule; Chris's approval stands for this cohort and cap.
+- 2026-10-10 16:20:16 PLAN: manifest (72 games, schedule af8e594317b1), config, snapshots, cost estimate written; not approved
+- 2026-10-10 16:20:19 VALIDATE: Result: PASS
+- 2026-10-10 16:20:29 RUN start, cap $60
+- 2026-10-10 16:20:29 games: 72 scheduled, 16 concurrent (spent so far $0.00, cap $60)
+- 2026-10-10 16:25:40   11/72 games done; last FQ_00_1 interrupted invalid response at round 13: {'p2': 'final_line_not_exact_move'}; spent $6.51
+- 2026-10-10 16:28:45   24/72 games done; last QF_11_1 complete ; spent $10.05
+- 2026-10-10 16:35:50   48/72 games done; last AQ_01_2 complete ; spent $17.68
+- 2026-10-10 16:44:27   72/72 games done; last QF_00_2 complete ; spent $22.32
+- 2026-10-10 16:44:27 RUN complete: REPORT.md written
+- 2026-10-10 19:54:03 MAKEUP start (RPS rps3m-p2-20261010): 1 targets; spent incl. make-ups $22.32, cap $60
+- 2026-10-10 19:58:02   MAKEUP FQ_00_1_MU1: complete 20 rounds  (spent $22.61)
+- 2026-10-10 19:58:02 MAKEUP end (RPS rps3m-p2-20261010): 1/1 targets filled; attempts 1; spent $22.61

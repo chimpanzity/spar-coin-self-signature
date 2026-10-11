@@ -134,6 +134,19 @@ def progress(rd: Path, msg: str) -> None:
     print(line, end="", flush=True)
 
 
+def snapshot_prices(snap: Dict[str, Any]) -> Dict[str, Dict[str, float]]:
+    """Per-token prices for the pinned provider of each model, from the plan-time endpoint snapshot
+    ({"endpoints": {slug: [{"tag", "pricing"}, ...]}}) or a fetch_prices()-style {slug: {prompt, completion}} dict."""
+    if "endpoints" not in snap:
+        return {k: v for k, v in snap.items() if k != "fetched_utc"}
+    out = {}
+    for m in C.MODELS.values():
+        ep = [e for e in snap["endpoints"][m["slug"]] if e["tag"] == m["provider"]]
+        assert len(ep) == 1, f"pinned endpoint {m['provider']} not unique in snapshot for {m['slug']}"
+        out[m["slug"]] = {"prompt": float(ep[0]["pricing"]["prompt"]), "completion": float(ep[0]["pricing"]["completion"])}
+    return out
+
+
 class Runner:
     def __init__(self, rd: Path, live: bool, log_name: str = "calls.jsonl", transport=None):
         self.rd = rd
@@ -146,7 +159,7 @@ class Runner:
         if live:
             if not snap.exists():
                 snap.write_text(json.dumps({"fetched_utc": utc_now(), **fetch_prices([m["slug"] for m in C.MODELS.values()])}, indent=1))
-            prices = {k: v for k, v in json.loads(snap.read_text()).items() if k != "fetched_utc"}
+            prices = snapshot_prices(json.loads(snap.read_text()))
         else:
             prices = {m["slug"]: {"prompt": 1e-5, "completion": 5e-5} for m in C.MODELS.values()}
         self.log = CallLog(rd / log_name)
