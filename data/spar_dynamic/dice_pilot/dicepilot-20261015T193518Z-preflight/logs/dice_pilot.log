@@ -1,0 +1,12 @@
+[2026-10-15T19:35:18Z] START preflight run_dir=data/spar_dynamic/dice_pilot/dicepilot-20261015T193518Z-preflight
+[2026-10-15T19:35:18Z] prompt consistency: ok
+[2026-10-15T19:35:18Z] capability flags consistent with config
+[2026-10-15T19:35:18Z] budget projection total (worst case): $2.9492 / cap $25.0
+[2026-10-15T19:35:18Z]   astra/R0: supported=False calls=0 per-call-worst=$None subtotal=$0.0
+[2026-10-15T19:35:18Z]   astra/R1: supported=True calls=25 per-call-worst=$0.0552 subtotal=$1.38
+[2026-10-15T19:35:18Z]   fable/R0: supported=True calls=25 per-call-worst=$0.0072 subtotal=$0.18
+[2026-10-15T19:35:18Z]   fable/R1: supported=True calls=25 per-call-worst=$0.0552 subtotal=$1.38
+[2026-10-15T19:35:18Z]   qwen/R0: supported=True calls=25 per-call-worst=$0.0 subtotal=$0.0012
+[2026-10-15T19:35:18Z]   qwen/R1: supported=True calls=25 per-call-worst=$0.0003 subtotal=$0.008
+[2026-10-15T19:35:18Z] manifest built: 125 entries
+[2026-10-15T19:35:18Z] prompts frozen to prompts_frozen.txt

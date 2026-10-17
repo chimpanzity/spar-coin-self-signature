@@ -1,0 +1,8 @@
+[2026-10-16T13:26:43Z] START preflight run_dir=data/spar_dynamic/favorite_animal_crossed/favanimx-20261016T132643Z-preflight
+[2026-10-16T13:26:43Z] prompt consistency: ok
+[2026-10-16T13:26:44Z] budget projection worst case: $6.4184 / cap $10.0 within=True
+[2026-10-16T13:26:44Z]   predictor=astra/R_min: n_calls=40 per-call-worst=$0.079 subtotal=$3.16
+[2026-10-16T13:26:44Z]   predictor=fable/R_min: n_calls=40 per-call-worst=$0.079 subtotal=$3.16
+[2026-10-16T13:26:44Z]   predictor=oss120/R_low: n_calls=40 per-call-worst=$0.00246 subtotal=$0.0984
+[2026-10-16T13:26:44Z] manifest built: 120 entries (expected 120)
+[2026-10-16T13:26:44Z] prompts frozen to prompts_frozen.txt

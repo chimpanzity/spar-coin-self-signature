@@ -1,0 +1,4 @@
+predictor,prior_self_accuracy_mean,prior_self_accuracy_by_position,crossed_mean_other,crossed_per_target,delta_cross_minus_self
+astra,0.0,"{""first"": 0.0, ""last"": 0.0, ""penultimate"": 0.0, ""second"": 0.0}",0.45,"{""fable"": 0.85, ""oss120"": 0.05}",0.45
+fable,1.0,"{""first"": 1.0, ""last"": 1.0, ""penultimate"": 1.0, ""second"": 1.0}",0.0,"{""astra"": null, ""oss120"": 0.0}",-1.0
+oss120,0.3,"{""first"": 0.2, ""last"": 0.0, ""penultimate"": 1.0, ""second"": 0.0}",0.0,"{""astra"": 0.0, ""fable"": 0.0}",-0.3

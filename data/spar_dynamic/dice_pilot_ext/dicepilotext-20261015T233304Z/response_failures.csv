@@ -1,0 +1,4 @@
+model,config,phase2_attempted,ok,decline,prefix_leak,invalid,abandoned,ok_rate,decline_rate,prefix_leak_rate
+oss120,R_low,20,19,1,0,0,0,0.95,0.05,0.0
+oss20,R_low,20,20,0,0,0,0,1.0,0.0,0.0
+sonnet,R_min,20,20,0,0,0,0,1.0,0.0,0.0

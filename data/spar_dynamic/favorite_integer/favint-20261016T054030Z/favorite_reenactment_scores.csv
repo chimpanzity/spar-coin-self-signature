@@ -1,0 +1,4 @@
+model,config,n_phase1_valid,n_phase2b_valid,n_phase2b_attempted,modal_phase1_integer_constructed,mean_positional_agreement,positional_agreement_by_pos,exact_match_any_phase1,pairwise_exact_match_rate,mean_prefix_match_length_vs_modal,prefix_lens_vs_modal,unique_sequences_in_phase2b,phase2b_integers
+astra,R_min,5,5,5,3141592653,1.0,"{""1"": 1.0, ""2"": 1.0, ""5"": 1.0, ""9"": 1.0}",5,1.0,10.0,"[10, 10, 10, 10, 10]",1,"[""3141592653"", ""3141592653"", ""3141592653"", ""3141592653"", ""3141592653""]"
+fable,R_min,5,5,5,3141592653,0.82,"{""1"": 0.8, ""2"": 0.8, ""5"": 1.0, ""9"": 0.8}",5,0.8,10.0,"[10, 10, 10, 10, 10]",1,"[""3141592653"", ""3141592653"", ""3141592653"", ""3141592653"", ""3141592653""]"
+oss120,R_low,5,5,5,1234567890,1.0,"{""1"": 1.0, ""2"": 1.0, ""5"": 1.0, ""9"": 1.0}",5,1.0,10.0,"[10, 10, 10, 10, 10]",1,"[""1234567890"", ""1234567890"", ""1234567890"", ""1234567890"", ""1234567890""]"

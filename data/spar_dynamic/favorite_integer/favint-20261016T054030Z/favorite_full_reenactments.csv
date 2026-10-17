@@ -1,0 +1,16 @@
+trial_id,model,config,replicate,status,integer_str
+phase2b|astra|R_min|full|rep00,astra,R_min,0,ok,3141592653
+phase2b|astra|R_min|full|rep01,astra,R_min,1,ok,3141592653
+phase2b|astra|R_min|full|rep02,astra,R_min,2,ok,3141592653
+phase2b|astra|R_min|full|rep03,astra,R_min,3,ok,3141592653
+phase2b|astra|R_min|full|rep04,astra,R_min,4,ok,3141592653
+phase2b|fable|R_min|full|rep00,fable,R_min,0,ok,3141592653
+phase2b|fable|R_min|full|rep01,fable,R_min,1,ok,3141592653
+phase2b|fable|R_min|full|rep02,fable,R_min,2,ok,3141592653
+phase2b|fable|R_min|full|rep03,fable,R_min,3,ok,3141592653
+phase2b|fable|R_min|full|rep04,fable,R_min,4,ok,3141592653
+phase2b|oss120|R_low|full|rep00,oss120,R_low,0,ok,1234567890
+phase2b|oss120|R_low|full|rep01,oss120,R_low,1,ok,1234567890
+phase2b|oss120|R_low|full|rep02,oss120,R_low,2,ok,1234567890
+phase2b|oss120|R_low|full|rep03,oss120,R_low,3,ok,1234567890
+phase2b|oss120|R_low|full|rep04,oss120,R_low,4,ok,1234567890

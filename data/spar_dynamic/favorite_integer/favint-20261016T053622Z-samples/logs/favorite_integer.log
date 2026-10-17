@@ -1,0 +1,25 @@
+[2026-10-16T05:36:22Z] START samples run_dir=data/spar_dynamic/favorite_integer/favint-20261016T053622Z-samples
+[2026-10-16T05:36:22Z] sample astra/phase1: provider=openai
+[2026-10-16T05:36:24Z]   -> finish='stop' out_tok=8 reas_tok=0 cost=$0.00074 text='3141592653'
+[2026-10-16T05:36:24Z] sample astra/phase2a_pos5: provider=openai
+[2026-10-16T05:36:27Z]   -> finish='stop' out_tok=37 reas_tok=30 cost=$0.00279 text='5'
+[2026-10-16T05:36:27Z] sample astra/phase2a_pos9: provider=openai
+[2026-10-16T05:36:31Z]   -> finish='stop' out_tok=28 reas_tok=21 cost=$0.00234 text='9'
+[2026-10-16T05:36:31Z] sample astra/phase2b: provider=openai
+[2026-10-16T05:36:33Z]   -> finish='stop' out_tok=8 reas_tok=0 cost=$0.00112 text='3141592653'
+[2026-10-16T05:36:33Z] sample fable/phase1: provider=anthropic
+[2026-10-16T05:36:39Z]   -> finish='stop' out_tok=6 reas_tok=0 cost=$0.00084 text='3141592653'
+[2026-10-16T05:36:39Z] sample fable/phase2a_pos5: provider=anthropic
+[2026-10-16T05:36:42Z]   -> finish='stop' out_tok=87 reas_tok=0 cost=$0.00579 text='I can\'t actually know that without producing the number itself—my "favorite" isn'
+[2026-10-16T05:36:42Z] sample fable/phase2a_pos9: provider=anthropic
+[2026-10-16T05:36:45Z]   -> finish='stop' out_tok=3 reas_tok=0 cost=$0.00159 text='8'
+[2026-10-16T05:36:45Z] sample fable/phase2b: provider=anthropic
+[2026-10-16T05:36:47Z]   -> finish='stop' out_tok=6 reas_tok=0 cost=$0.00139 text='3141592653'
+[2026-10-16T05:36:47Z] sample oss120/phase1: provider=DeepInfra
+[2026-10-16T05:36:48Z]   -> finish='stop' out_tok=34 reas_tok=23 cost=$0.00003 text='1234567890'
+[2026-10-16T05:36:48Z] sample oss120/phase2a_pos5: provider=DeepInfra
+[2026-10-16T05:36:53Z]   -> finish='stop' out_tok=137 reas_tok=136 cost=$0.00010 text='5'
+[2026-10-16T05:36:53Z] sample oss120/phase2a_pos9: provider=DeepInfra
+[2026-10-16T05:36:59Z]   -> finish='stop' out_tok=169 reas_tok=137 cost=$0.00012 text='9'
+[2026-10-16T05:36:59Z] sample oss120/phase2b: provider=DeepInfra
+[2026-10-16T05:37:01Z]   -> finish='stop' out_tok=58 reas_tok=43 cost=$0.00005 text='1234567890'

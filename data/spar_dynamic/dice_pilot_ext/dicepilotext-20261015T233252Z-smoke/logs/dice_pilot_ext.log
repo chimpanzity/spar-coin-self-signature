@@ -1,0 +1,7 @@
+[2026-10-15T23:32:52Z] START smoke run_dir=data/spar_dynamic/dice_pilot_ext/dicepilotext-20261015T233252Z-smoke
+[2026-10-15T23:32:52Z] smoke-test oss120 (openai/gpt-oss-120b): reasoning.enabled=False with 32-token budget
+[2026-10-15T23:32:53Z]   oss120: accepted=False  err="Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400,"  pt=0 ct=0
+[2026-10-15T23:32:53Z] smoke-test oss20 (openai/gpt-oss-20b): reasoning.enabled=False with 32-token budget
+[2026-10-15T23:32:53Z]   oss20: accepted=False  err="Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400,"  pt=0 ct=0
+[2026-10-15T23:32:53Z] smoke-test sonnet (anthropic/claude-sonnet-5.5): reasoning.enabled=False with 32-token budget
+[2026-10-15T23:32:53Z]   sonnet: accepted=False  err="Error code: 400 - {'error': {'message': 'Reasoning is mandatory for this endpoint and cannot be disabled.', 'code': 400,"  pt=0 ct=0

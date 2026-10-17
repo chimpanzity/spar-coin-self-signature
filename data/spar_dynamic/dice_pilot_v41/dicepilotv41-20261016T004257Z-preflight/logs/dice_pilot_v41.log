@@ -1,0 +1,11 @@
+[2026-10-16T00:42:57Z] START preflight run_dir=data/spar_dynamic/dice_pilot_v41/dicepilotv41-20261016T004257Z-preflight
+[2026-10-16T00:42:57Z] prompt consistency: ok (Phase 1 + Phase 2A byte-exact with v3.1; Phase 2B/2C quote Phase 1)
+[2026-10-16T00:42:58Z] budget projection worst case: $15.8247 / cap $10.0 within=False
+[2026-10-16T00:42:58Z]   astra/R_min: calls=35 max_tok=4000 per-call-worst=$0.204 subtotal=$7.14
+[2026-10-16T00:42:58Z]   fable/R_min: calls=35 max_tok=4000 per-call-worst=$0.204 subtotal=$7.14
+[2026-10-16T00:42:58Z]   sonnet/R_min: calls=35 max_tok=4000 per-call-worst=$0.0408 subtotal=$1.428
+[2026-10-16T00:42:58Z]   oss120/R_low: calls=35 max_tok=4000 per-call-worst=$0.000695 subtotal=$0.0243
+[2026-10-16T00:42:58Z]   oss20/R_low: calls=35 max_tok=4000 per-call-worst=$0.000367 subtotal=$0.0129
+[2026-10-16T00:42:58Z]   qwen/R_qwen_default: calls=35 max_tok=8000 per-call-worst=$0.002272 subtotal=$0.0795
+[2026-10-16T00:42:58Z] manifest built: 210 entries (expected 210)
+[2026-10-16T00:42:58Z] prompts frozen to prompts_frozen.txt

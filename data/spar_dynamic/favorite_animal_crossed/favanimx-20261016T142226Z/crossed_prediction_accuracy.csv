@@ -1,0 +1,25 @@
+predictor,target,target_favorite,position,true_letter,n_predictions_attempted,n_predictions_valid,soft_accuracy,predictions,modal_prediction
+astra,fable,octopus,first,o,5,5,1.0,"[""o"", ""o"", ""o"", ""o"", ""o""]",o
+astra,fable,octopus,second,c,5,5,0.8,"[""c"", ""a"", ""c"", ""c"", ""c""]",c
+astra,fable,octopus,penultimate,u,5,5,0.8,"[""u"", ""u"", ""u"", ""u"", ""a""]",u
+astra,fable,octopus,last,s,5,5,0.8,"[""t"", ""s"", ""s"", ""s"", ""s""]",s
+astra,oss120,elephant,first,e,5,5,0.0,"[""o"", ""d"", ""o"", ""o"", ""o""]",o
+astra,oss120,elephant,second,l,5,5,0.0,"[""o"", ""o"", ""o"", ""o"", ""c""]",o
+astra,oss120,elephant,penultimate,n,5,5,0.0,"[""u"", ""u"", ""i"", ""u"", ""u""]",u
+astra,oss120,elephant,last,t,5,5,0.2,"[""s"", ""t"", ""s"", ""s"", ""s""]",s
+fable,astra,octopus,first,o,5,0,,[],
+fable,astra,octopus,second,c,5,0,,[],
+fable,astra,octopus,penultimate,u,5,0,,[],
+fable,astra,octopus,last,s,5,0,,[],
+fable,oss120,elephant,first,e,5,4,0.0,"[""o"", ""o"", ""o"", ""o""]",o
+fable,oss120,elephant,second,l,5,0,,[],
+fable,oss120,elephant,penultimate,n,5,0,,[],
+fable,oss120,elephant,last,t,5,1,0.0,"[""s""]",s
+oss120,astra,octopus,first,o,5,5,0.0,"[""d"", ""d"", ""d"", ""d"", ""d""]",d
+oss120,astra,octopus,second,c,5,5,0.0,"[""o"", ""o"", ""o"", ""o"", ""o""]",o
+oss120,astra,octopus,penultimate,u,5,5,0.0,"[""o"", ""o"", ""o"", ""o"", ""o""]",o
+oss120,astra,octopus,last,s,5,5,0.0,"[""g"", ""g"", ""g"", ""g"", ""g""]",g
+oss120,fable,octopus,first,o,5,5,0.0,"[""c"", ""d"", ""d"", ""d"", ""d""]",d
+oss120,fable,octopus,second,c,5,5,0.0,"[""o"", ""o"", ""o"", ""o"", ""o""]",o
+oss120,fable,octopus,penultimate,u,5,5,0.0,"[""o"", ""o"", ""o"", ""o"", ""o""]",o
+oss120,fable,octopus,last,s,5,5,0.0,"[""g"", ""g"", ""g"", ""g"", ""g""]",g

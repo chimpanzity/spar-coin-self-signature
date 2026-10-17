@@ -1,0 +1,121 @@
+trial_id,predictor,target,target_favorite,position,parse_category,classification,candidates_found,target_fav_mentioned_in_reasoning,reasoning_content_classification
+crossed|astra|targetfable|posfirst|rep01,astra,fable,octopus,first,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|possecond|rep04,astra,fable,octopus,second,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|pospenultimate|rep04,astra,fable,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|astra|targetfable|pospenultimate|rep03,astra,fable,octopus,penultimate,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|pospenultimate|rep01,astra,fable,octopus,penultimate,valid,candidate_name_in_reasoning,"[""octopus""]",True,raw
+crossed|astra|targetfable|poslast|rep01,astra,fable,octopus,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|posfirst|rep00,astra,fable,octopus,first,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|posfirst|rep04,astra,fable,octopus,first,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|pospenultimate|rep02,astra,fable,octopus,penultimate,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|possecond|rep02,astra,fable,octopus,second,valid,candidate_name_in_reasoning,"[""that""]",True,raw
+crossed|astra|targetfable|poslast|rep00,astra,fable,octopus,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|possecond|rep01,astra,fable,octopus,second,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|posfirst|rep02,astra,fable,octopus,first,valid,candidate_name_in_reasoning,"[""octopus""]",True,raw
+crossed|astra|targetfable|posfirst|rep03,astra,fable,octopus,first,valid,candidate_name_in_reasoning,[],True,raw
+crossed|astra|targetfable|possecond|rep00,astra,fable,octopus,second,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|pospenultimate|rep00,astra,fable,octopus,penultimate,valid,candidate_name_in_reasoning,[],True,raw
+crossed|astra|targetfable|poslast|rep02,astra,fable,octopus,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|poslast|rep04,astra,fable,octopus,last,valid,candidate_name_in_reasoning,"[""typically""]",True,raw
+crossed|astra|targetfable|poslast|rep03,astra,fable,octopus,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetfable|possecond|rep03,astra,fable,octopus,second,valid,candidate_name_in_reasoning,"[""otter"", ""is""]",True,raw
+crossed|astra|targetoss120|pospenultimate|rep03,astra,oss120,elephant,penultimate,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|posfirst|rep03,astra,oss120,elephant,first,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|pospenultimate|rep02,astra,oss120,elephant,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|astra|targetoss120|possecond|rep04,astra,oss120,elephant,second,valid,candidate_name_in_reasoning,"[""the"", ""dolphin""]",False,raw
+crossed|astra|targetoss120|pospenultimate|rep01,astra,oss120,elephant,penultimate,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|poslast|rep01,astra,oss120,elephant,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|poslast|rep00,astra,oss120,elephant,last,valid,candidate_name_in_reasoning,"[""only"", ""the""]",False,raw
+crossed|astra|targetoss120|pospenultimate|rep00,astra,oss120,elephant,penultimate,valid,candidate_name_in_reasoning,"[""that"", ""dolphin""]",False,raw
+crossed|astra|targetoss120|posfirst|rep00,astra,oss120,elephant,first,valid,no_candidate_observed,[],False,raw
+crossed|astra|targetoss120|posfirst|rep04,astra,oss120,elephant,first,valid,candidate_name_in_reasoning,"[""that""]",False,raw
+crossed|astra|targetoss120|possecond|rep01,astra,oss120,elephant,second,valid,candidate_name_in_reasoning,"[""that""]",False,raw
+crossed|astra|targetoss120|poslast|rep02,astra,oss120,elephant,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|pospenultimate|rep04,astra,oss120,elephant,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|astra|targetoss120|poslast|rep03,astra,oss120,elephant,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|poslast|rep04,astra,oss120,elephant,last,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|posfirst|rep01,astra,oss120,elephant,first,valid,candidate_name_in_reasoning,"[""cat"", ""octopus""]",False,raw
+crossed|astra|targetoss120|possecond|rep03,astra,oss120,elephant,second,valid,candidate_name_in_reasoning,"[""dolphin""]",False,raw
+crossed|astra|targetoss120|possecond|rep02,astra,oss120,elephant,second,valid,reasoning_unavailable,[],False,none
+crossed|astra|targetoss120|posfirst|rep02,astra,oss120,elephant,first,valid,no_candidate_observed,[],False,raw
+crossed|astra|targetoss120|possecond|rep00,astra,oss120,elephant,second,valid,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|possecond|rep02,fable,astra,octopus,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|pospenultimate|rep03,fable,astra,octopus,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|posfirst|rep00,fable,astra,octopus,first,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|possecond|rep03,fable,astra,octopus,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|posfirst|rep04,fable,astra,octopus,first,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|poslast|rep00,fable,astra,octopus,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|posfirst|rep02,fable,astra,octopus,first,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|posfirst|rep01,fable,astra,octopus,first,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|pospenultimate|rep04,fable,astra,octopus,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|posfirst|rep03,fable,astra,octopus,first,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|poslast|rep03,fable,astra,octopus,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|pospenultimate|rep02,fable,astra,octopus,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|poslast|rep04,fable,astra,octopus,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|possecond|rep01,fable,astra,octopus,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|poslast|rep01,fable,astra,octopus,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|pospenultimate|rep00,fable,astra,octopus,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|pospenultimate|rep01,fable,astra,octopus,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|poslast|rep02,fable,astra,octopus,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|possecond|rep00,fable,astra,octopus,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetastra|possecond|rep04,fable,astra,octopus,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|posfirst|rep01,fable,oss120,elephant,first,valid,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|pospenultimate|rep02,fable,oss120,elephant,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|posfirst|rep00,fable,oss120,elephant,first,valid,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|posfirst|rep03,fable,oss120,elephant,first,valid,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|posfirst|rep02,fable,oss120,elephant,first,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|possecond|rep04,fable,oss120,elephant,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|posfirst|rep04,fable,oss120,elephant,first,valid,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|poslast|rep04,fable,oss120,elephant,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|pospenultimate|rep00,fable,oss120,elephant,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|pospenultimate|rep03,fable,oss120,elephant,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|pospenultimate|rep04,fable,oss120,elephant,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|poslast|rep01,fable,oss120,elephant,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|pospenultimate|rep01,fable,oss120,elephant,penultimate,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|possecond|rep03,fable,oss120,elephant,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|poslast|rep02,fable,oss120,elephant,last,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|possecond|rep01,fable,oss120,elephant,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|possecond|rep02,fable,oss120,elephant,second,decline,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|poslast|rep00,fable,oss120,elephant,last,valid,candidate_name_in_reasoning,"[""octopus""]",False,raw
+crossed|fable|targetoss120|poslast|rep03,fable,oss120,elephant,last,prefix_leak,reasoning_unavailable,[],False,none
+crossed|fable|targetoss120|possecond|rep00,fable,oss120,elephant,second,decline,reasoning_unavailable,[],False,none
+crossed|oss120|targetastra|possecond|rep04,oss120,astra,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|possecond|rep01,oss120,astra,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|pospenultimate|rep02,oss120,astra,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|poslast|rep01,oss120,astra,octopus,last,valid,candidate_name_in_reasoning,"[""only"", ""some"", ""dog""]",False,raw
+crossed|oss120|targetastra|posfirst|rep04,oss120,astra,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|posfirst|rep00,oss120,astra,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|posfirst|rep01,oss120,astra,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|possecond|rep02,oss120,astra,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|pospenultimate|rep00,oss120,astra,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|pospenultimate|rep01,oss120,astra,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|possecond|rep00,oss120,astra,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|pospenultimate|rep04,oss120,astra,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|posfirst|rep02,oss120,astra,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|poslast|rep03,oss120,astra,octopus,last,valid,candidate_name_in_reasoning,"[""only"", ""some""]",False,raw
+crossed|oss120|targetastra|poslast|rep02,oss120,astra,octopus,last,valid,candidate_name_in_reasoning,"[""only"", ""some"", ""dog""]",False,raw
+crossed|oss120|targetastra|poslast|rep04,oss120,astra,octopus,last,valid,candidate_name_in_reasoning,"[""only"", ""some""]",False,raw
+crossed|oss120|targetastra|posfirst|rep03,oss120,astra,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|possecond|rep03,oss120,astra,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetastra|pospenultimate|rep03,oss120,astra,octopus,penultimate,valid,candidate_name_in_reasoning,"[""dog""]",False,raw
+crossed|oss120|targetastra|poslast|rep00,oss120,astra,octopus,last,valid,candidate_name_in_reasoning,"[""only"", ""some""]",False,raw
+crossed|oss120|targetfable|possecond|rep00,oss120,fable,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|possecond|rep03,oss120,fable,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|poslast|rep01,oss120,fable,octopus,last,valid,candidate_name_in_reasoning,"[""with""]",False,raw
+crossed|oss120|targetfable|posfirst|rep01,oss120,fable,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|posfirst|rep04,oss120,fable,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|posfirst|rep03,oss120,fable,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|poslast|rep02,oss120,fable,octopus,last,valid,candidate_name_in_reasoning,"[""with""]",False,raw
+crossed|oss120|targetfable|posfirst|rep02,oss120,fable,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|possecond|rep02,oss120,fable,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|pospenultimate|rep02,oss120,fable,octopus,penultimate,valid,candidate_name_in_reasoning,"[""dog""]",False,raw
+crossed|oss120|targetfable|poslast|rep04,oss120,fable,octopus,last,valid,candidate_name_in_reasoning,"[""with"", ""the""]",False,raw
+crossed|oss120|targetfable|poslast|rep03,oss120,fable,octopus,last,valid,candidate_name_in_reasoning,"[""with""]",False,raw
+crossed|oss120|targetfable|poslast|rep00,oss120,fable,octopus,last,valid,candidate_name_in_reasoning,"[""with"", ""the""]",False,raw
+crossed|oss120|targetfable|pospenultimate|rep03,oss120,fable,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|possecond|rep04,oss120,fable,octopus,second,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|pospenultimate|rep01,oss120,fable,octopus,penultimate,valid,candidate_name_in_reasoning,"[""dog""]",False,raw
+crossed|oss120|targetfable|pospenultimate|rep00,oss120,fable,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|posfirst|rep00,oss120,fable,octopus,first,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|pospenultimate|rep04,oss120,fable,octopus,penultimate,valid,no_candidate_observed,[],False,raw
+crossed|oss120|targetfable|possecond|rep01,oss120,fable,octopus,second,valid,no_candidate_observed,[],False,raw

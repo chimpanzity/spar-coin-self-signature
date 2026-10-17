@@ -1,0 +1,39 @@
+PHASE 1:
+Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.
+
+PHASE 2 (position 1 = 'first'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the first integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the first integer.
+
+PHASE 2 (position 2 = 'second'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the second integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the second integer.
+
+PHASE 2 (position 5 = 'fifth'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the fifth integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the fifth integer.
+
+PHASE 2 (position 9 = 'ninth'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the ninth integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the ninth integer.
+

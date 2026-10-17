@@ -1,0 +1,35 @@
+{
+  "budget_cap_usd": 10.0,
+  "rows": [
+    {
+      "config": "R_min",
+      "max_tokens": 1500,
+      "n_calls": 40,
+      "pairs_as_predictor": 2,
+      "per_call_usd_worst_case": 0.079,
+      "predictor_model": "astra",
+      "subtotal_usd_worst_case": 3.16
+    },
+    {
+      "config": "R_min",
+      "max_tokens": 1500,
+      "n_calls": 40,
+      "pairs_as_predictor": 2,
+      "per_call_usd_worst_case": 0.079,
+      "predictor_model": "fable",
+      "subtotal_usd_worst_case": 3.16
+    },
+    {
+      "config": "R_low",
+      "max_tokens": 4000,
+      "n_calls": 40,
+      "pairs_as_predictor": 2,
+      "per_call_usd_worst_case": 0.00246,
+      "predictor_model": "oss120",
+      "subtotal_usd_worst_case": 0.0984
+    }
+  ],
+  "total_calls_planned": 120,
+  "total_usd_worst_case": 6.4184,
+  "within_cap": true
+}

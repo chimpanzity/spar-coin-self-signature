@@ -1,0 +1,188 @@
+{
+  "catalog": {
+    "fetched_utc": "2026-10-16T05:40:30Z",
+    "missing": [],
+    "models": {
+      "anthropic/claude-fable-5.1": {
+        "context_length": 1000000,
+        "id": "anthropic/claude-fable-5.1",
+        "pricing": {
+          "completion": 5e-05,
+          "internal_reasoning": 0.0,
+          "prompt": 1e-05
+        },
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ]
+      },
+      "openai/gpt-6-astra": {
+        "context_length": 1050000,
+        "id": "openai/gpt-6-astra",
+        "pricing": {
+          "completion": 5e-05,
+          "internal_reasoning": 0.0,
+          "prompt": 1e-05
+        },
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ]
+      },
+      "openai/gpt-oss-120b": {
+        "context_length": 131072,
+        "id": "openai/gpt-oss-120b",
+        "pricing": {
+          "completion": 6e-07,
+          "internal_reasoning": 0.0,
+          "prompt": 1.5e-07
+        },
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "reasoning_effort",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ]
+      }
+    }
+  },
+  "verdict": {
+    "fetched_utc": "2026-10-16T05:40:30Z",
+    "issues": [],
+    "ok": true,
+    "per_model": {
+      "astra": {
+        "context_length": 1050000,
+        "label": "astra",
+        "max_tokens": 1500,
+        "preferred_provider": "openai",
+        "pricing_completion_per_mtok": 50.0,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 10.0,
+        "reasoning_config_label": "R_min",
+        "reasoning_effort_requested": "minimal",
+        "slug": "openai/gpt-6-astra",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": false,
+        "supports_temperature_live": false,
+        "temperature_flag_matches": true
+      },
+      "fable": {
+        "context_length": 1000000,
+        "label": "fable",
+        "max_tokens": 1500,
+        "preferred_provider": "anthropic",
+        "pricing_completion_per_mtok": 50.0,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 10.0,
+        "reasoning_config_label": "R_min",
+        "reasoning_effort_requested": "minimal",
+        "slug": "anthropic/claude-fable-5.1",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": false,
+        "supports_temperature_live": false,
+        "temperature_flag_matches": true
+      },
+      "oss120": {
+        "context_length": 131072,
+        "label": "oss120",
+        "max_tokens": 4000,
+        "preferred_provider": "DeepInfra",
+        "pricing_completion_per_mtok": 0.6,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 0.15,
+        "reasoning_config_label": "R_low",
+        "reasoning_effort_requested": "low",
+        "slug": "openai/gpt-oss-120b",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "reasoning_effort",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": true,
+        "supports_temperature_live": true,
+        "temperature_flag_matches": true
+      }
+    }
+  }
+}

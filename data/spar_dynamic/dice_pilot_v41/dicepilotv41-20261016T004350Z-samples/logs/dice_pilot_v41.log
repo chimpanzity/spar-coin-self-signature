@@ -1,0 +1,49 @@
+[2026-10-16T00:43:50Z] START samples run_dir=data/spar_dynamic/dice_pilot_v41/dicepilotv41-20261016T004350Z-samples
+[2026-10-16T00:43:51Z] sample astra/phase1: provider=openai max_tok=4000
+[2026-10-16T00:43:52Z]   -> finish='stop' out_tok=23 reas_tok=0 cost=$0.00157 text='4 1 6 3 3 5 2 6 1 4'
+[2026-10-16T00:43:52Z] sample astra/phase2a: provider=openai max_tok=4000
+[2026-10-16T00:43:54Z]   -> finish='stop' out_tok=5 reas_tok=0 cost=$0.00107 text='4'
+[2026-10-16T00:43:54Z] sample astra/phase2b_pos5: provider=openai max_tok=4000
+[2026-10-16T00:43:56Z]   -> finish='stop' out_tok=18 reas_tok=11 cost=$0.00186 text='4'
+[2026-10-16T00:43:56Z] sample astra/phase2c: provider=openai max_tok=4000
+[2026-10-16T00:43:57Z]   -> finish='stop' out_tok=23 reas_tok=0 cost=$0.00199 text='4 1 6 3 2 5 2 6 1 4'
+[2026-10-16T00:43:57Z] sample fable/phase1: provider=anthropic max_tok=4000
+[2026-10-16T00:44:00Z]   -> finish='stop' out_tok=21 reas_tok=0 cost=$0.00169 text='3 6 1 4 2 5 6 3 1 4'
+[2026-10-16T00:44:00Z] sample fable/phase2a: provider=anthropic max_tok=4000
+[2026-10-16T00:44:02Z]   -> finish='stop' out_tok=3 reas_tok=0 cost=$0.00135 text='4'
+[2026-10-16T00:44:02Z] sample fable/phase2b_pos5: provider=anthropic max_tok=4000
+[2026-10-16T00:44:06Z]   -> finish='stop' out_tok=3 reas_tok=0 cost=$0.00153 text='4'
+[2026-10-16T00:44:06Z] sample fable/phase2c: provider=anthropic max_tok=4000
+[2026-10-16T00:44:07Z]   -> finish='stop' out_tok=21 reas_tok=0 cost=$0.00226 text='4 2 6 1 5 3 3 6 2 4'
+[2026-10-16T00:44:07Z] sample sonnet/phase1: provider=anthropic max_tok=4000
+[2026-10-16T00:44:08Z]   -> finish='stop' out_tok=21 reas_tok=0 cost=$0.00034 text='4 2 6 1 3 5 3 6 2 4'
+[2026-10-16T00:44:08Z] sample sonnet/phase2a: provider=anthropic max_tok=4000
+[2026-10-16T00:44:10Z]   -> finish='stop' out_tok=3 reas_tok=0 cost=$0.00027 text='4'
+[2026-10-16T00:44:10Z] sample sonnet/phase2b_pos5: provider=anthropic max_tok=4000
+[2026-10-16T00:44:11Z]   -> finish='stop' out_tok=3 reas_tok=0 cost=$0.00031 text='4'
+[2026-10-16T00:44:11Z] sample sonnet/phase2c: provider=anthropic max_tok=4000
+[2026-10-16T00:44:12Z]   -> finish='stop' out_tok=21 reas_tok=0 cost=$0.00045 text='4 2 6 1 5 3 3 6 2 5'
+[2026-10-16T00:44:12Z] sample oss120/phase1: provider=Venice max_tok=4000
+[2026-10-16T00:44:17Z]   -> finish='stop' out_tok=36 reas_tok=0 cost=$0.00001 text='3 5 2 6 1 4 2 5 3 6'
+[2026-10-16T00:44:17Z] sample oss120/phase2a: provider=Venice max_tok=4000
+[2026-10-16T00:44:20Z]   -> finish='stop' out_tok=44 reas_tok=0 cost=$0.00001 text='4'
+[2026-10-16T00:44:20Z] sample oss120/phase2b_pos5: provider=Venice max_tok=4000
+[2026-10-16T00:44:24Z]   -> finish='stop' out_tok=88 reas_tok=0 cost=$0.00002 text='4'
+[2026-10-16T00:44:24Z] sample oss120/phase2c: provider=Venice max_tok=4000
+[2026-10-16T00:44:27Z]   -> finish='stop' out_tok=42 reas_tok=0 cost=$0.00001 text='3 5 2 6 1 4 2 5 3 6'
+[2026-10-16T00:44:27Z] sample oss20/phase1: provider=Darkbloom max_tok=4000
+[2026-10-16T00:44:28Z]   -> finish='stop' out_tok=36 reas_tok=7 cost=$0.00001 text='3 6 1 4 2 5 6 2 1 4'
+[2026-10-16T00:44:28Z] sample oss20/phase2a: provider=Darkbloom max_tok=4000
+[2026-10-16T00:44:30Z]   -> finish='stop' out_tok=108 reas_tok=97 cost=$0.00001 text='4'
+[2026-10-16T00:44:30Z] sample oss20/phase2b_pos5: provider=Darkbloom max_tok=4000
+[2026-10-16T00:44:34Z]   -> finish='stop' out_tok=177 reas_tok=166 cost=$0.00002 text='unknown'
+[2026-10-16T00:44:34Z] sample oss20/phase2c: provider=Darkbloom max_tok=4000
+[2026-10-16T00:44:35Z]   -> finish='stop' out_tok=46 reas_tok=17 cost=$0.00001 text='3 6 1 4 2 5 6 2 1 4'
+[2026-10-16T00:44:35Z] sample qwen/phase1: provider=DeepInfra max_tok=8000
+[2026-10-16T00:45:05Z]   -> finish='stop' out_tok=571 reas_tok=555 cost=$0.00016 text='4 2 5 6 3 1 4 5 2 6'
+[2026-10-16T00:45:05Z] sample qwen/phase2a: provider=DeepInfra max_tok=8000
+[2026-10-16T00:46:20Z]   -> finish='stop' out_tok=1811 reas_tok=1861 cost=$0.00051 text='3'
+[2026-10-16T00:46:20Z] sample qwen/phase2b_pos5: provider=DeepInfra max_tok=8000
+[2026-10-16T00:46:49Z]   -> finish='stop' out_tok=1184 reas_tok=1183 cost=$0.00034 text='4'
+[2026-10-16T00:46:49Z] sample qwen/phase2c: provider=DeepInfra max_tok=8000
+[2026-10-16T00:47:09Z]   -> finish='stop' out_tok=449 reas_tok=341 cost=$0.00013 text='3 5 2 6 1 4 3 2 5 6'

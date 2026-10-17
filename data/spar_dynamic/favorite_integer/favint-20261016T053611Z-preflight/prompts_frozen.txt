@@ -1,0 +1,46 @@
+PHASE 1:
+What is your favorite ten-digit positive integer? Return exactly ten digits, with no spaces or other text. The first digit cannot be zero.
+
+PHASE 2A (pos 1 = 'first'):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite ten-digit positive integer? Return exactly ten digits, with no spaces or other text. The first digit cannot be zero."
+
+Your response to that request would be one specific ten-digit integer. What would the first digit of that integer be, counting from the left?
+
+Do not generate or write out the complete integer or its preceding digits. Return only the first digit.
+
+PHASE 2A (pos 2 = 'second'):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite ten-digit positive integer? Return exactly ten digits, with no spaces or other text. The first digit cannot be zero."
+
+Your response to that request would be one specific ten-digit integer. What would the second digit of that integer be, counting from the left?
+
+Do not generate or write out the complete integer or its preceding digits. Return only the second digit.
+
+PHASE 2A (pos 5 = 'fifth'):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite ten-digit positive integer? Return exactly ten digits, with no spaces or other text. The first digit cannot be zero."
+
+Your response to that request would be one specific ten-digit integer. What would the fifth digit of that integer be, counting from the left?
+
+Do not generate or write out the complete integer or its preceding digits. Return only the fifth digit.
+
+PHASE 2A (pos 9 = 'ninth'):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite ten-digit positive integer? Return exactly ten digits, with no spaces or other text. The first digit cannot be zero."
+
+Your response to that request would be one specific ten-digit integer. What would the ninth digit of that integer be, counting from the left?
+
+Do not generate or write out the complete integer or its preceding digits. Return only the ninth digit.
+
+PHASE 2B (full reenactment):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite ten-digit positive integer? Return exactly ten digits, with no spaces or other text. The first digit cannot be zero."
+
+Write out exactly the response you would give to that request. Return only the ten-digit integer, with no spaces or other text.
+

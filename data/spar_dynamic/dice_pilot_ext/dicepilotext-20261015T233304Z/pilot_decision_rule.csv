@@ -1,0 +1,4 @@
+model,config,criterion1_predictive_advantage,criterion1_qualifying_position,criterion1_margin,criterion2_no_observed_prefix_in_final,criterion2_reasoning_prefix_review_pending,criterion3_position_sensitivity,all_three_met,phase2_predictions_by_position
+oss120,R_low,True,5,0.0333,True,19,True,True,"{""1"": [4, 4, 4, 4, 4], ""2"": [4, 3, 4, 4, 4], ""5"": [3, 4, 1, 4], ""9"": [4, 4, 4, 4, 4]}"
+oss20,R_low,False,,,True,20,True,False,"{""1"": [4, 3, 3, 4, 3], ""2"": [4, 4, 4, 4, 4], ""5"": [4, 4, 4, 4, 4], ""9"": [4, 4, 4, 4, 4]}"
+sonnet,R_min,False,,,True,20,False,False,"{""1"": [4, 4, 4, 4, 4], ""2"": [4, 4, 4, 4, 4], ""5"": [4, 4, 4, 4, 4], ""9"": [4, 4, 4, 4, 4]}"

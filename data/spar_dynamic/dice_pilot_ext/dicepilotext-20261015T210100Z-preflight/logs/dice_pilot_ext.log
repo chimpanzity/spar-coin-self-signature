@@ -1,0 +1,8 @@
+[2026-10-15T21:01:00Z] START preflight run_dir=data/spar_dynamic/dice_pilot_ext/dicepilotext-20261015T210100Z-preflight
+[2026-10-15T21:01:00Z] prompt consistency: ok (byte-exact with DICE_PILOT_v3.1)
+[2026-10-15T21:01:01Z] budget projection worst case: $0.2953 / cap $10.0 within=True
+[2026-10-15T21:01:01Z]   oss120/R_low: supported=True calls=25 per-call-worst=$0.000674 subtotal=$0.0169
+[2026-10-15T21:01:01Z]   oss20/R_low: supported=True calls=25 per-call-worst=$9.9e-05 subtotal=$0.0025
+[2026-10-15T21:01:01Z]   sonnet/R_min: supported=True calls=25 per-call-worst=$0.01104 subtotal=$0.276
+[2026-10-15T21:01:01Z] manifest built: 75 entries
+[2026-10-15T21:01:01Z] prompts frozen to prompts_frozen.txt

@@ -1,0 +1,181 @@
+[2026-10-15T19:37:46Z] START run run_dir=data/spar_dynamic/dice_pilot/dicepilot-20261015T193746Z
+[2026-10-15T19:37:47Z] budget projection worst case: $3.1292 / cap $25.0 within=True
+[2026-10-15T19:37:47Z] START manifest_size=150  prior_outcomes=0  spent=$0.0000  cap=$25.00
+[2026-10-15T19:37:47Z] === astra/R0 Phase 1 (5 calls) ===
+[2026-10-15T19:37:54Z]   phase1|astra|R0|rep00 status=ok cost=$0.0016
+[2026-10-15T19:38:00Z]   phase1|astra|R0|rep01 status=ok cost=$0.0016
+[2026-10-15T19:38:05Z]   phase1|astra|R0|rep02 status=ok cost=$0.0016
+[2026-10-15T19:38:11Z]   phase1|astra|R0|rep03 status=ok cost=$0.0016
+[2026-10-15T19:38:20Z]   phase1|astra|R0|rep04 status=ok cost=$0.0016
+[2026-10-15T19:38:20Z] === astra/R0 Phase 2 (20 calls) ===
+[2026-10-15T19:38:24Z]   phase2|astra|R0|pos5|rep04 status=ok val=4 cost=$0.0011
+[2026-10-15T19:38:35Z]   phase2|astra|R0|pos9|rep04 status=ok val=4 cost=$0.0011
+[2026-10-15T19:38:39Z]   phase2|astra|R0|pos2|rep00 status=ok val=4 cost=$0.0011
+[2026-10-15T19:38:49Z]   phase2|astra|R0|pos9|rep02 status=ok val=4 cost=$0.0011
+[2026-10-15T19:38:53Z]   phase2|astra|R0|pos1|rep04 status=ok val=4 cost=$0.0011
+[2026-10-15T19:38:57Z]   phase2|astra|R0|pos5|rep02 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:02Z]   phase2|astra|R0|pos9|rep01 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:08Z]   phase2|astra|R0|pos5|rep00 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:13Z]   phase2|astra|R0|pos1|rep02 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:21Z]   phase2|astra|R0|pos9|rep03 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:24Z]   phase2|astra|R0|pos2|rep04 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:26Z]   phase2|astra|R0|pos2|rep03 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:29Z]   phase2|astra|R0|pos5|rep01 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:35Z]   phase2|astra|R0|pos1|rep00 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:40Z]   phase2|astra|R0|pos5|rep03 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:43Z]   phase2|astra|R0|pos2|rep02 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:48Z]   phase2|astra|R0|pos9|rep00 status=ok val=4 cost=$0.0011
+[2026-10-15T19:39:53Z]   phase2|astra|R0|pos1|rep01 status=ok val=4 cost=$0.0011
+[2026-10-15T19:40:04Z]   phase2|astra|R0|pos2|rep01 status=ok val=4 cost=$0.0011
+[2026-10-15T19:40:08Z]   phase2|astra|R0|pos1|rep03 status=ok val=4 cost=$0.0011
+[2026-10-15T19:40:08Z] === astra/R1 Phase 1 (5 calls) ===
+[2026-10-15T19:40:09Z]   phase1|astra|R1|rep00 status=ok cost=$0.0016
+[2026-10-15T19:40:11Z]   phase1|astra|R1|rep01 status=ok cost=$0.0016
+[2026-10-15T19:40:13Z]   phase1|astra|R1|rep02 status=ok cost=$0.0016
+[2026-10-15T19:40:16Z]   phase1|astra|R1|rep03 status=ok cost=$0.0016
+[2026-10-15T19:40:17Z]   phase1|astra|R1|rep04 status=ok cost=$0.0016
+[2026-10-15T19:40:17Z] === astra/R1 Phase 2 (20 calls) ===
+[2026-10-15T19:40:20Z]   phase2|astra|R1|pos2|rep02 status=ok val=4 cost=$0.0011
+[2026-10-15T19:40:31Z]   phase2|astra|R1|pos5|rep01 status=ok val=4 cost=$0.0020
+[2026-10-15T19:40:41Z]   phase2|astra|R1|pos5|rep03 status=ok val=4 cost=$0.0018
+[2026-10-15T19:40:47Z]   phase2|astra|R1|pos9|rep04 status=ok val=4 cost=$0.0019
+[2026-10-15T19:40:53Z]   phase2|astra|R1|pos5|rep04 status=ok val=4 cost=$0.0019
+[2026-10-15T19:41:00Z]   phase2|astra|R1|pos9|rep02 status=ok val=4 cost=$0.0023
+[2026-10-15T19:41:06Z]   phase2|astra|R1|pos1|rep01 status=ok val=4 cost=$0.0011
+[2026-10-15T19:41:10Z]   phase2|astra|R1|pos2|rep00 status=ok val=4 cost=$0.0019
+[2026-10-15T19:41:21Z]   phase2|astra|R1|pos1|rep02 status=ok val=4 cost=$0.0020
+[2026-10-15T19:41:25Z]   phase2|astra|R1|pos2|rep01 status=ok val=4 cost=$0.0020
+[2026-10-15T19:41:31Z]   phase2|astra|R1|pos2|rep03 status=ok val=4 cost=$0.0017
+[2026-10-15T19:41:40Z]   phase2|astra|R1|pos1|rep04 status=ok val=4 cost=$0.0011
+[2026-10-15T19:41:55Z]   phase2|astra|R1|pos5|rep02 status=ok val=4 cost=$0.0018
+[2026-10-15T19:42:07Z]   phase2|astra|R1|pos5|rep00 status=ok val=4 cost=$0.0011
+[2026-10-15T19:42:11Z]   phase2|astra|R1|pos2|rep04 status=ok val=4 cost=$0.0020
+[2026-10-15T19:42:19Z]   phase2|astra|R1|pos1|rep03 status=ok val=4 cost=$0.0011
+[2026-10-15T19:42:27Z]   phase2|astra|R1|pos1|rep00 status=ok val=4 cost=$0.0023
+[2026-10-15T19:42:30Z]   phase2|astra|R1|pos9|rep03 status=ok val=4 cost=$0.0022
+[2026-10-15T19:42:33Z]   phase2|astra|R1|pos9|rep01 status=ok val=4 cost=$0.0018
+[2026-10-15T19:42:36Z]   phase2|astra|R1|pos9|rep00 status=ok val=4 cost=$0.0018
+[2026-10-15T19:42:36Z] === fable/R0 Phase 1 (5 calls) ===
+[2026-10-15T19:42:42Z]   phase1|fable|R0|rep00 status=abandoned cost=$0.0000
+[2026-10-15T19:42:49Z]   phase1|fable|R0|rep01 status=abandoned cost=$0.0000
+[2026-10-15T19:42:56Z]   phase1|fable|R0|rep02 status=abandoned cost=$0.0000
+[2026-10-15T19:43:03Z]   phase1|fable|R0|rep03 status=abandoned cost=$0.0000
+[2026-10-15T19:44:12Z] START run run_dir=data/spar_dynamic/dice_pilot/dicepilot-20261015T193746Z
+[2026-10-15T19:44:12Z] budget projection worst case: $3.1292 / cap $25.0 within=True
+[2026-10-15T19:44:12Z] START manifest_size=150  prior_outcomes=54  spent=$0.0718  cap=$25.00
+[2026-10-15T19:44:12Z] === astra/R0 Phase 1 (5 calls) ===
+[2026-10-15T19:44:12Z] === astra/R0 Phase 2 (20 calls) ===
+[2026-10-15T19:44:12Z] === astra/R1 Phase 1 (5 calls) ===
+[2026-10-15T19:44:12Z] === astra/R1 Phase 2 (20 calls) ===
+[2026-10-15T19:44:12Z] === fable/R0 Phase 1 (5 calls) ===
+[2026-10-15T19:44:14Z]   phase1|fable|R0|rep00 status=ok cost=$0.0017
+[2026-10-15T19:44:15Z]   phase1|fable|R0|rep01 status=ok cost=$0.0017
+[2026-10-15T19:44:17Z]   phase1|fable|R0|rep02 status=ok cost=$0.0017
+[2026-10-15T19:44:19Z]   phase1|fable|R0|rep03 status=ok cost=$0.0017
+[2026-10-15T19:44:21Z]   phase1|fable|R0|rep04 status=ok cost=$0.0017
+[2026-10-15T19:44:21Z] === fable/R0 Phase 2 (20 calls) ===
+[2026-10-15T19:44:22Z]   phase2|fable|R0|pos5|rep04 status=ok val=3 cost=$0.0014
+[2026-10-15T19:44:25Z]   phase2|fable|R0|pos1|rep02 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:26Z]   phase2|fable|R0|pos5|rep01 status=ok val=3 cost=$0.0014
+[2026-10-15T19:44:29Z]   phase2|fable|R0|pos1|rep01 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:31Z]   phase2|fable|R0|pos5|rep00 status=ok val=3 cost=$0.0014
+[2026-10-15T19:44:36Z]   phase2|fable|R0|pos9|rep00 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:38Z]   phase2|fable|R0|pos2|rep04 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:40Z]   phase2|fable|R0|pos2|rep01 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:44Z]   phase2|fable|R0|pos9|rep03 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:46Z]   phase2|fable|R0|pos5|rep02 status=ok val=3 cost=$0.0014
+[2026-10-15T19:44:49Z]   phase2|fable|R0|pos1|rep04 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:51Z]   phase2|fable|R0|pos1|rep00 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:53Z]   phase2|fable|R0|pos5|rep03 status=ok val=3 cost=$0.0014
+[2026-10-15T19:44:54Z]   phase2|fable|R0|pos2|rep00 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:56Z]   phase2|fable|R0|pos2|rep02 status=ok val=4 cost=$0.0014
+[2026-10-15T19:44:59Z]   phase2|fable|R0|pos9|rep01 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:02Z]   phase2|fable|R0|pos9|rep04 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:05Z]   phase2|fable|R0|pos1|rep03 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:09Z]   phase2|fable|R0|pos9|rep02 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:10Z]   phase2|fable|R0|pos2|rep03 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:10Z] === fable/R1 Phase 1 (5 calls) ===
+[2026-10-15T19:45:12Z]   phase1|fable|R1|rep00 status=ok cost=$0.0017
+[2026-10-15T19:45:14Z]   phase1|fable|R1|rep01 status=ok cost=$0.0017
+[2026-10-15T19:45:16Z]   phase1|fable|R1|rep02 status=ok cost=$0.0017
+[2026-10-15T19:45:18Z]   phase1|fable|R1|rep03 status=ok cost=$0.0017
+[2026-10-15T19:45:19Z]   phase1|fable|R1|rep04 status=ok cost=$0.0017
+[2026-10-15T19:45:19Z] === fable/R1 Phase 2 (20 calls) ===
+[2026-10-15T19:45:22Z]   phase2|fable|R1|pos5|rep00 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:27Z]   phase2|fable|R1|pos9|rep02 status=ok val=4 cost=$0.0060
+[2026-10-15T19:45:30Z]   phase2|fable|R1|pos1|rep00 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:32Z]   phase2|fable|R1|pos1|rep04 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:34Z]   phase2|fable|R1|pos2|rep01 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:37Z]   phase2|fable|R1|pos1|rep01 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:42Z]   phase2|fable|R1|pos9|rep04 status=ok val=4 cost=$0.0062
+[2026-10-15T19:45:45Z]   phase2|fable|R1|pos2|rep00 status=ok val=4 cost=$0.0050
+[2026-10-15T19:45:48Z]   phase2|fable|R1|pos1|rep02 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:51Z]   phase2|fable|R1|pos2|rep02 status=ok val=5 cost=$0.0054
+[2026-10-15T19:45:55Z]   phase2|fable|R1|pos5|rep02 status=ok val=4 cost=$0.0065
+[2026-10-15T19:45:57Z]   phase2|fable|R1|pos5|rep01 status=ok val=4 cost=$0.0014
+[2026-10-15T19:45:59Z]   phase2|fable|R1|pos1|rep03 status=ok val=4 cost=$0.0014
+[2026-10-15T19:46:01Z]   phase2|fable|R1|pos5|rep03 status=ok val=4 cost=$0.0014
+[2026-10-15T19:46:05Z]   phase2|fable|R1|pos2|rep03 status=ok val=4 cost=$0.0053
+[2026-10-15T19:46:08Z]   phase2|fable|R1|pos9|rep00 status=ok val=4 cost=$0.0014
+[2026-10-15T19:46:12Z]   phase2|fable|R1|pos9|rep01 status=ok val=4 cost=$0.0014
+[2026-10-15T19:46:16Z]   phase2|fable|R1|pos5|rep04 status=ok val=4 cost=$0.0049
+[2026-10-15T19:46:21Z]   phase2|fable|R1|pos9|rep03 status=ok val=4 cost=$0.0049
+[2026-10-15T19:46:25Z]   phase2|fable|R1|pos2|rep04 status=ok val=5 cost=$0.0047
+[2026-10-15T19:46:25Z] === qwen/R0 Phase 1 (5 calls) ===
+[2026-10-15T19:46:47Z]   phase1|qwen|R0|rep00 status=ok cost=$0.0001
+[2026-10-15T19:47:13Z]   phase1|qwen|R0|rep01 status=ok cost=$0.0001
+[2026-10-15T19:47:46Z]   phase1|qwen|R0|rep02 status=ok cost=$0.0002
+[2026-10-15T19:49:17Z]   phase1|qwen|R0|rep03 status=ok cost=$0.0006
+[2026-10-15T19:49:53Z]   phase1|qwen|R0|rep04 status=ok cost=$0.0002
+[2026-10-15T19:49:53Z] === qwen/R0 Phase 2 (20 calls) ===
+[2026-10-15T19:50:40Z]   phase2|qwen|R0|pos5|rep00 status=ok val=4 cost=$0.0003
+[2026-10-15T19:52:17Z]   phase2|qwen|R0|pos5|rep04 status=invalid val=None cost=$0.0006
+[2026-10-15T19:53:51Z]   phase2|qwen|R0|pos2|rep04 status=invalid val=None cost=$0.0006
+[2026-10-15T19:55:12Z]   phase2|qwen|R0|pos5|rep01 status=invalid val=None cost=$0.0006
+[2026-10-15T19:55:47Z]   phase2|qwen|R0|pos2|rep01 status=ok val=5 cost=$0.0003
+[2026-10-15T19:57:02Z]   phase2|qwen|R0|pos2|rep03 status=invalid val=None cost=$0.0006
+[2026-10-15T19:58:17Z]   phase2|qwen|R0|pos5|rep03 status=invalid val=None cost=$0.0006
+[2026-10-15T19:59:20Z]   phase2|qwen|R0|pos5|rep02 status=ok val=4 cost=$0.0006
+[2026-10-15T20:00:01Z]   phase2|qwen|R0|pos1|rep01 status=ok val=4 cost=$0.0003
+[2026-10-15T20:01:17Z]   phase2|qwen|R0|pos9|rep04 status=invalid val=None cost=$0.0006
+[2026-10-15T20:01:18Z]   phase2|qwen|R0|pos9|rep01 status=ok val=5 cost=$0.0000
+[2026-10-15T20:01:19Z]   phase2|qwen|R0|pos9|rep03 status=ok val=5 cost=$0.0000
+[2026-10-15T20:01:19Z]   phase2|qwen|R0|pos9|rep02 status=ok val=5 cost=$0.0000
+[2026-10-15T20:02:38Z]   phase2|qwen|R0|pos2|rep00 status=invalid val=None cost=$0.0006
+[2026-10-15T20:02:39Z]   phase2|qwen|R0|pos1|rep02 status=ok val=3 cost=$0.0000
+[2026-10-15T20:02:39Z]   phase2|qwen|R0|pos9|rep00 status=ok val=5 cost=$0.0000
+[2026-10-15T20:02:40Z]   phase2|qwen|R0|pos1|rep04 status=ok val=5 cost=$0.0000
+[2026-10-15T20:02:41Z]   phase2|qwen|R0|pos1|rep00 status=ok val=3 cost=$0.0000
+[2026-10-15T20:03:48Z]   phase2|qwen|R0|pos2|rep02 status=invalid val=None cost=$0.0006
+[2026-10-15T20:03:48Z]   phase2|qwen|R0|pos1|rep03 status=ok val=3 cost=$0.0000
+[2026-10-15T20:03:48Z] === qwen/R1 Phase 1 (5 calls) ===
+[2026-10-15T20:04:08Z]   phase1|qwen|R1|rep00 status=ok cost=$0.0002
+[2026-10-15T20:04:34Z]   phase1|qwen|R1|rep01 status=ok cost=$0.0002
+[2026-10-15T20:05:08Z]   phase1|qwen|R1|rep02 status=ok cost=$0.0004
+[2026-10-15T20:07:04Z]   phase1|qwen|R1|rep03 status=ok cost=$0.0002
+[2026-10-15T20:07:47Z]   phase1|qwen|R1|rep04 status=ok cost=$0.0003
+[2026-10-15T20:07:47Z] === qwen/R1 Phase 2 (20 calls) ===
+[2026-10-15T20:09:54Z]   phase2|qwen|R1|pos1|rep04 status=invalid val=None cost=$0.0006
+[2026-10-15T20:11:20Z]   phase2|qwen|R1|pos9|rep04 status=ok val=4 cost=$0.0003
+[2026-10-15T20:14:11Z]   phase2|qwen|R1|pos1|rep03 status=invalid val=None cost=$0.0006
+[2026-10-15T20:14:52Z]   phase2|qwen|R1|pos2|rep03 status=ok val=3 cost=$0.0003
+[2026-10-15T20:19:50Z]   phase2|qwen|R1|pos1|rep01 status=invalid val=None cost=$0.0006
+[2026-10-15T20:22:08Z]   phase2|qwen|R1|pos1|rep02 status=invalid val=None cost=$0.0006
+[2026-10-15T20:22:28Z]   phase2|qwen|R1|pos9|rep03 status=ok val=4 cost=$0.0003
+[2026-10-15T20:23:29Z]   phase2|qwen|R1|pos5|rep00 status=invalid val=None cost=$0.0006
+[2026-10-15T20:24:33Z]   phase2|qwen|R1|pos5|rep01 status=invalid val=None cost=$0.0006
+[2026-10-15T20:24:58Z]   phase2|qwen|R1|pos9|rep02 status=ok val=4 cost=$0.0003
+[2026-10-15T20:25:44Z]   phase2|qwen|R1|pos5|rep02 status=invalid val=None cost=$0.0006
+[2026-10-15T20:27:15Z]   phase2|qwen|R1|pos2|rep01 status=ok val=3 cost=$0.0008
+[2026-10-15T20:29:57Z]   phase2|qwen|R1|pos9|rep00 status=ok val=4 cost=$0.0003
+[2026-10-15T20:33:53Z]   phase2|qwen|R1|pos2|rep02 status=invalid val=None cost=$0.0006
+[2026-10-15T20:44:56Z]   phase2|qwen|R1|pos1|rep00 status=invalid val=None cost=$0.0006
+[2026-10-15T20:46:22Z]   phase2|qwen|R1|pos9|rep01 status=ok val=4 cost=$0.0003
+[2026-10-15T20:48:47Z]   phase2|qwen|R1|pos2|rep00 status=invalid val=None cost=$0.0006
+[2026-10-15T20:49:34Z]   phase2|qwen|R1|pos5|rep03 status=invalid val=None cost=$0.0006
+[2026-10-15T20:50:05Z]   phase2|qwen|R1|pos2|rep04 status=ok val=4 cost=$0.0004
+[2026-10-15T20:50:50Z]   phase2|qwen|R1|pos5|rep04 status=invalid val=None cost=$0.0006
+[2026-10-15T20:50:50Z] COMPLETE spent=$0.1987  outcomes=150  skipped=[]
+[2026-10-15T20:50:50Z] ORCHESTRATOR RETURN: None  spent=$0.1987
+[2026-10-15T20:51:10Z] ANALYZE run_dir=/Users/christophermartin/Py_Projects/spar-coin-self-signature/data/spar_dynamic/dice_pilot/dicepilot-20261015T193746Z
+[2026-10-15T20:51:10Z] wrote phase1_stability, pooled_digit_baseline, prediction_accuracy, reasoning_comparison, response_failures, pilot_decision_rule

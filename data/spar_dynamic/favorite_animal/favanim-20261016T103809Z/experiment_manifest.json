@@ -1,0 +1,727 @@
+{
+  "entries": [
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase1|astra|R_min|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase1|astra|R_min|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase1|astra|R_min|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase1|astra|R_min|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase1|astra|R_min|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|astra|R_min|possecond|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|astra|R_min|full|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|astra|R_min|possecond|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|astra|R_min|poslast|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|astra|R_min|pospenultimate|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|astra|R_min|poslast|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|astra|R_min|poslast|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|astra|R_min|full|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|astra|R_min|posfirst|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|astra|R_min|full|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|astra|R_min|full|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|astra|R_min|possecond|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|astra|R_min|possecond|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|astra|R_min|pospenultimate|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|astra|R_min|posfirst|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|astra|R_min|posfirst|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|astra|R_min|posfirst|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|astra|R_min|poslast|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|astra|R_min|pospenultimate|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|astra|R_min|possecond|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|astra|R_min|posfirst|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|astra|R_min|full|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|astra|R_min|poslast|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|astra|R_min|pospenultimate|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|astra|R_min|pospenultimate|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase1|fable|R_min|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase1|fable|R_min|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase1|fable|R_min|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase1|fable|R_min|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase1|fable|R_min|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|fable|R_min|poslast|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|fable|R_min|possecond|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|fable|R_min|posfirst|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|fable|R_min|pospenultimate|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|fable|R_min|possecond|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|fable|R_min|full|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|fable|R_min|posfirst|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|fable|R_min|possecond|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|fable|R_min|poslast|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|fable|R_min|full|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|fable|R_min|full|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|fable|R_min|pospenultimate|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|fable|R_min|posfirst|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|fable|R_min|posfirst|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|fable|R_min|poslast|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|fable|R_min|poslast|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|fable|R_min|possecond|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|fable|R_min|full|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|fable|R_min|pospenultimate|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|fable|R_min|pospenultimate|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|fable|R_min|full|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|fable|R_min|pospenultimate|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|fable|R_min|posfirst|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|fable|R_min|possecond|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|fable|R_min|poslast|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase1|oss120|R_low|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase1|oss120|R_low|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase1|oss120|R_low|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase1|oss120|R_low|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase1|oss120|R_low|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2a|oss120|R_low|possecond|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2a|oss120|R_low|poslast|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2a|oss120|R_low|possecond|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss120|R_low|full|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2a|oss120|R_low|possecond|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2a|oss120|R_low|pospenultimate|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss120|R_low|full|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2a|oss120|R_low|posfirst|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2a|oss120|R_low|possecond|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2a|oss120|R_low|posfirst|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2a|oss120|R_low|posfirst|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2a|oss120|R_low|pospenultimate|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2a|oss120|R_low|poslast|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2a|oss120|R_low|pospenultimate|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2a|oss120|R_low|poslast|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2a|oss120|R_low|pospenultimate|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2a|oss120|R_low|poslast|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss120|R_low|full|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss120|R_low|full|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2a|oss120|R_low|posfirst|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "first",
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2a|oss120|R_low|posfirst|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "last",
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2a|oss120|R_low|poslast|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "penultimate",
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2a|oss120|R_low|pospenultimate|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": "second",
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2a|oss120|R_low|possecond|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss120|R_low|full|rep04"
+    }
+  ],
+  "n_entries": 90,
+  "scheduling_seed": 2026101602,
+  "spec_version": "FAVORITE_ANIMAL_v1.0"
+}

@@ -1,0 +1,180 @@
+{
+  "caps": {
+    "fetched_utc": "2026-10-15T19:37:41Z",
+    "missing": [],
+    "models": {
+      "anthropic/claude-fable-5.1": {
+        "context_length": 1000000,
+        "id": "anthropic/claude-fable-5.1",
+        "pricing": {
+          "completion": 5e-05,
+          "internal_reasoning": 0.0,
+          "prompt": 1e-05
+        },
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ]
+      },
+      "openai/gpt-6-astra": {
+        "context_length": 1050000,
+        "id": "openai/gpt-6-astra",
+        "pricing": {
+          "completion": 5e-05,
+          "internal_reasoning": 0.0,
+          "prompt": 1e-05
+        },
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ]
+      },
+      "qwen/qwen3-32b": {
+        "context_length": 131072,
+        "id": "qwen/qwen3-32b",
+        "pricing": {
+          "completion": 2.8e-07,
+          "internal_reasoning": 0.0,
+          "prompt": 8e-08
+        },
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ]
+      }
+    }
+  },
+  "verdict": {
+    "fetched_utc": "2026-10-15T19:37:41Z",
+    "issues": [],
+    "ok": true,
+    "per_model": {
+      "astra": {
+        "context_length": 1050000,
+        "label": "astra",
+        "pricing_completion_per_mtok": 50.0,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 10.0,
+        "reasoning_flag_matches": true,
+        "slug": "openai/gpt-6-astra",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "supports_reasoning_config": true,
+        "supports_reasoning_live": true,
+        "supports_temperature_config": false,
+        "supports_temperature_live": false,
+        "temperature_flag_matches": true
+      },
+      "fable": {
+        "context_length": 1000000,
+        "label": "fable",
+        "pricing_completion_per_mtok": 50.0,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 10.0,
+        "reasoning_flag_matches": true,
+        "slug": "anthropic/claude-fable-5.1",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "supports_reasoning_config": true,
+        "supports_reasoning_live": true,
+        "supports_temperature_config": false,
+        "supports_temperature_live": false,
+        "temperature_flag_matches": true
+      },
+      "qwen": {
+        "context_length": 131072,
+        "label": "qwen",
+        "pricing_completion_per_mtok": 0.28,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 0.08,
+        "reasoning_flag_matches": true,
+        "slug": "qwen/qwen3-32b",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ],
+        "supports_reasoning_config": true,
+        "supports_reasoning_live": true,
+        "supports_temperature_config": true,
+        "supports_temperature_live": true,
+        "temperature_flag_matches": true
+      }
+    }
+  }
+}

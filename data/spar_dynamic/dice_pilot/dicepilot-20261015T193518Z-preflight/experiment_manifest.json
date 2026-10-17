@@ -1,0 +1,1007 @@
+{
+  "entries": [
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase1|astra|R1|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase1|astra|R1|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase1|astra|R1|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase1|astra|R1|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase1|astra|R1|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|astra|R1|pos5|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|astra|R1|pos9|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|astra|R1|pos2|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|astra|R1|pos9|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|astra|R1|pos1|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|astra|R1|pos5|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|astra|R1|pos9|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|astra|R1|pos5|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|astra|R1|pos1|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|astra|R1|pos9|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|astra|R1|pos2|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|astra|R1|pos2|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|astra|R1|pos5|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|astra|R1|pos1|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|astra|R1|pos5|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|astra|R1|pos2|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|astra|R1|pos9|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|astra|R1|pos1|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|astra|R1|pos2|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|astra|R1|pos1|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase1|fable|R0|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase1|fable|R0|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase1|fable|R0|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase1|fable|R0|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase1|fable|R0|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R0|pos2|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R0|pos5|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R0|pos5|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R0|pos9|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R0|pos5|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R0|pos9|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R0|pos1|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R0|pos2|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R0|pos1|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R0|pos2|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R0|pos2|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R0|pos1|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R0|pos5|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R0|pos5|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R0|pos2|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R0|pos1|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R0|pos1|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R0|pos9|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R0|pos9|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R0|pos9|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase1|fable|R1|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase1|fable|R1|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase1|fable|R1|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase1|fable|R1|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase1|fable|R1|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R1|pos5|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R1|pos1|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R1|pos5|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R1|pos1|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R1|pos5|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R1|pos9|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R1|pos2|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R1|pos2|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R1|pos9|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R1|pos5|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R1|pos1|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R1|pos1|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R1|pos5|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|fable|R1|pos2|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R1|pos2|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|fable|R1|pos9|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|fable|R1|pos9|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R1|pos1|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|fable|R1|pos9|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|fable|R1|pos2|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase1|qwen|R0|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase1|qwen|R0|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase1|qwen|R0|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase1|qwen|R0|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase1|qwen|R0|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R0|pos5|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R0|pos9|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R0|pos1|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R0|pos1|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R0|pos2|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R0|pos1|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R0|pos9|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R0|pos2|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R0|pos1|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R0|pos2|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R0|pos5|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R0|pos5|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R0|pos1|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R0|pos5|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R0|pos2|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R0|pos9|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R0|pos9|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R0|pos5|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R0",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R0|pos9|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R0",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R0|pos2|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase1|qwen|R1|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase1|qwen|R1|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase1|qwen|R1|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase1|qwen|R1|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase1|qwen|R1|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R1|pos5|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R1|pos5|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R1|pos2|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R1|pos5|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R1|pos2|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R1|pos2|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R1|pos5|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R1|pos5|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R1|pos1|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R1|pos9|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 1,
+      "trial_id": "phase2|qwen|R1|pos9|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R1|pos9|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R1|pos9|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R1|pos2|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R1|pos1|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R1|pos9|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 4,
+      "trial_id": "phase2|qwen|R1|pos1|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 0,
+      "trial_id": "phase2|qwen|R1|pos1|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config": "R1",
+      "replicate": 2,
+      "trial_id": "phase2|qwen|R1|pos2|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config": "R1",
+      "replicate": 3,
+      "trial_id": "phase2|qwen|R1|pos1|rep03"
+    }
+  ],
+  "n_entries": 125,
+  "scheduling_seed": 2026101501,
+  "spec_version": "DICE_PILOT_v3.1"
+}

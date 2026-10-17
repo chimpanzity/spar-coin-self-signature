@@ -1,0 +1,4169 @@
+{
+  "phase1|astra|R0|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      5,
+      2,
+      6,
+      1
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R0|rep00"
+  },
+  "phase1|astra|R0|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      3,
+      5,
+      2,
+      6,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R0|rep01"
+  },
+  "phase1|astra|R0|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      2,
+      5,
+      3,
+      3,
+      6,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R0|rep02"
+  },
+  "phase1|astra|R0|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      3,
+      5,
+      2,
+      6,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R0|rep03"
+  },
+  "phase1|astra|R0|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      3,
+      5,
+      2,
+      6,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R0|rep04"
+  },
+  "phase1|astra|R1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      5,
+      2,
+      6,
+      1
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R1|rep00"
+  },
+  "phase1|astra|R1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      3,
+      6,
+      1,
+      4,
+      2,
+      5,
+      5,
+      1,
+      6,
+      3
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R1|rep01"
+  },
+  "phase1|astra|R1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      3,
+      5,
+      2,
+      6,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R1|rep02"
+  },
+  "phase1|astra|R1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      2,
+      6,
+      4,
+      1
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R1|rep03"
+  },
+  "phase1|astra|R1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00157,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      3,
+      5,
+      2,
+      6,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00157,
+    "trial_id": "phase1|astra|R1|rep04"
+  },
+  "phase1|fable|R0|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      3,
+      6,
+      1,
+      4,
+      2,
+      5,
+      6,
+      3,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R0|rep00"
+  },
+  "phase1|fable|R0|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      3,
+      6,
+      1,
+      4,
+      2,
+      5,
+      6,
+      2,
+      3,
+      1
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R0|rep01"
+  },
+  "phase1|fable|R0|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      3,
+      6,
+      1,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R0|rep02"
+  },
+  "phase1|fable|R0|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      4,
+      2,
+      6,
+      1,
+      5,
+      3,
+      3,
+      6,
+      2,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R0|rep03"
+  },
+  "phase1|fable|R0|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      3,
+      6,
+      1,
+      4,
+      2,
+      5,
+      6,
+      2,
+      3,
+      1
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R0|rep04"
+  },
+  "phase1|fable|R1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      1,
+      6,
+      4,
+      2
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R1|rep00"
+  },
+  "phase1|fable|R1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      1,
+      6,
+      4,
+      2
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R1|rep01"
+  },
+  "phase1|fable|R1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      5,
+      1,
+      3,
+      6
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R1|rep02"
+  },
+  "phase1|fable|R1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      1,
+      6,
+      4,
+      2
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R1|rep03"
+  },
+  "phase1|fable|R1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00169,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_values": [
+      4,
+      1,
+      6,
+      3,
+      2,
+      5,
+      5,
+      1,
+      3,
+      6
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00169,
+    "trial_id": "phase1|fable|R1|rep04"
+  },
+  "phase1|qwen|R0|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00014208000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 494,
+        "parse_category": "valid",
+        "reasoning_tokens": 482
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      4,
+      2,
+      5,
+      3,
+      6,
+      1,
+      4,
+      3,
+      2,
+      6
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.000142,
+    "trial_id": "phase1|qwen|R0|rep00"
+  },
+  "phase1|qwen|R0|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00014516000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 505,
+        "parse_category": "valid",
+        "reasoning_tokens": 499
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      4,
+      2,
+      5,
+      6,
+      3,
+      1,
+      4,
+      2,
+      6,
+      3
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000145,
+    "trial_id": "phase1|qwen|R0|rep01"
+  },
+  "phase1|qwen|R0|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00024792,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 872,
+        "parse_category": "valid",
+        "reasoning_tokens": 794
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      4,
+      2,
+      6,
+      1,
+      3,
+      5,
+      2,
+      4,
+      6,
+      3
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.000248,
+    "trial_id": "phase1|qwen|R0|rep02"
+  },
+  "phase1|qwen|R0|rep03": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029048,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 941
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00027844,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 981,
+        "parse_category": "valid",
+        "reasoning_tokens": 852
+      }
+    ],
+    "first_response_category": "invalid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      4,
+      2,
+      5,
+      6,
+      3,
+      1,
+      2,
+      4,
+      5,
+      3
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.000569,
+    "trial_id": "phase1|qwen|R0|rep03"
+  },
+  "phase1|qwen|R0|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00023896000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 840,
+        "parse_category": "valid",
+        "reasoning_tokens": 772
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      4,
+      2,
+      6,
+      1,
+      3,
+      5,
+      2,
+      4,
+      1,
+      6
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.000239,
+    "trial_id": "phase1|qwen|R0|rep04"
+  },
+  "phase1|qwen|R1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00015944,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 556,
+        "parse_category": "valid",
+        "reasoning_tokens": 528
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      5,
+      3,
+      1,
+      6,
+      2,
+      4,
+      3,
+      5,
+      1,
+      6
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.000159,
+    "trial_id": "phase1|qwen|R1|rep00"
+  },
+  "phase1|qwen|R1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00023392,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 822,
+        "parse_category": "valid",
+        "reasoning_tokens": 800
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      3,
+      5,
+      2,
+      6,
+      1,
+      4,
+      3,
+      2,
+      5,
+      6
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000234,
+    "trial_id": "phase1|qwen|R1|rep01"
+  },
+  "phase1|qwen|R1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00042452,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 1503,
+        "parse_category": "valid",
+        "reasoning_tokens": 1483
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      3,
+      6,
+      1,
+      4,
+      2,
+      5,
+      3,
+      2,
+      6,
+      4
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.000425,
+    "trial_id": "phase1|qwen|R1|rep02"
+  },
+  "phase1|qwen|R1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00020472,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 718,
+        "parse_category": "valid",
+        "reasoning_tokens": 714
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      3,
+      5,
+      2,
+      6,
+      1,
+      4,
+      3,
+      5,
+      2,
+      6
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.000205,
+    "trial_id": "phase1|qwen|R1|rep03"
+  },
+  "phase1|qwen|R1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0002888,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 1018,
+        "parse_category": "valid",
+        "reasoning_tokens": 877
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "qwen",
+    "parsed_values": [
+      5,
+      3,
+      6,
+      1,
+      4,
+      2,
+      5,
+      6,
+      3,
+      1
+    ],
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.000289,
+    "trial_id": "phase1|qwen|R1|rep04"
+  },
+  "phase2|astra|R0|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos1|rep00"
+  },
+  "phase2|astra|R0|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos1|rep01"
+  },
+  "phase2|astra|R0|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos1|rep02"
+  },
+  "phase2|astra|R0|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos1|rep03"
+  },
+  "phase2|astra|R0|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos1|rep04"
+  },
+  "phase2|astra|R0|pos2|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos2|rep00"
+  },
+  "phase2|astra|R0|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos2|rep01"
+  },
+  "phase2|astra|R0|pos2|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos2|rep02"
+  },
+  "phase2|astra|R0|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos2|rep03"
+  },
+  "phase2|astra|R0|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos2|rep04"
+  },
+  "phase2|astra|R0|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos5|rep00"
+  },
+  "phase2|astra|R0|pos5|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos5|rep01"
+  },
+  "phase2|astra|R0|pos5|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos5|rep02"
+  },
+  "phase2|astra|R0|pos5|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos5|rep03"
+  },
+  "phase2|astra|R0|pos5|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos5|rep04"
+  },
+  "phase2|astra|R0|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos9|rep00"
+  },
+  "phase2|astra|R0|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos9|rep01"
+  },
+  "phase2|astra|R0|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos9|rep02"
+  },
+  "phase2|astra|R0|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos9|rep03"
+  },
+  "phase2|astra|R0|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R0|pos9|rep04"
+  },
+  "phase2|astra|R1|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00232,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 30,
+        "parse_category": "valid",
+        "reasoning_tokens": 23
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00232,
+    "trial_id": "phase2|astra|R1|pos1|rep00"
+  },
+  "phase2|astra|R1|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R1|pos1|rep01"
+  },
+  "phase2|astra|R1|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00202,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 24,
+        "parse_category": "valid",
+        "reasoning_tokens": 17
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00202,
+    "trial_id": "phase2|astra|R1|pos1|rep02"
+  },
+  "phase2|astra|R1|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R1|pos1|rep03"
+  },
+  "phase2|astra|R1|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R1|pos1|rep04"
+  },
+  "phase2|astra|R1|pos2|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0018700000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 14
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00187,
+    "trial_id": "phase2|astra|R1|pos2|rep00"
+  },
+  "phase2|astra|R1|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00197,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 16
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00197,
+    "trial_id": "phase2|astra|R1|pos2|rep01"
+  },
+  "phase2|astra|R1|pos2|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R1|pos2|rep02"
+  },
+  "phase2|astra|R1|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00167,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00167,
+    "trial_id": "phase2|astra|R1|pos2|rep03"
+  },
+  "phase2|astra|R1|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00197,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 16
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00197,
+    "trial_id": "phase2|astra|R1|pos2|rep04"
+  },
+  "phase2|astra|R1|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0010700000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00107,
+    "trial_id": "phase2|astra|R1|pos5|rep00"
+  },
+  "phase2|astra|R1|pos5|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00202,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 24,
+        "parse_category": "valid",
+        "reasoning_tokens": 17
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00202,
+    "trial_id": "phase2|astra|R1|pos5|rep01"
+  },
+  "phase2|astra|R1|pos5|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00177,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 12
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00177,
+    "trial_id": "phase2|astra|R1|pos5|rep02"
+  },
+  "phase2|astra|R1|pos5|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00177,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 12
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00177,
+    "trial_id": "phase2|astra|R1|pos5|rep03"
+  },
+  "phase2|astra|R1|pos5|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0019200000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 22,
+        "parse_category": "valid",
+        "reasoning_tokens": 15
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00192,
+    "trial_id": "phase2|astra|R1|pos5|rep04"
+  },
+  "phase2|astra|R1|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00177,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 12
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00177,
+    "trial_id": "phase2|astra|R1|pos9|rep00"
+  },
+  "phase2|astra|R1|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00182,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 20,
+        "parse_category": "valid",
+        "reasoning_tokens": 13
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00182,
+    "trial_id": "phase2|astra|R1|pos9|rep01"
+  },
+  "phase2|astra|R1|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0022700000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 29,
+        "parse_category": "valid",
+        "reasoning_tokens": 22
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00227,
+    "trial_id": "phase2|astra|R1|pos9|rep02"
+  },
+  "phase2|astra|R1|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00222,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 28,
+        "parse_category": "valid",
+        "reasoning_tokens": 21
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00222,
+    "trial_id": "phase2|astra|R1|pos9|rep03"
+  },
+  "phase2|astra|R1|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0019200000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 22,
+        "parse_category": "valid",
+        "reasoning_tokens": 15
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00192,
+    "trial_id": "phase2|astra|R1|pos9|rep04"
+  },
+  "phase2|fable|R0|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos1|rep00"
+  },
+  "phase2|fable|R0|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos1|rep01"
+  },
+  "phase2|fable|R0|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos1|rep02"
+  },
+  "phase2|fable|R0|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos1|rep03"
+  },
+  "phase2|fable|R0|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos1|rep04"
+  },
+  "phase2|fable|R0|pos2|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos2|rep00"
+  },
+  "phase2|fable|R0|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos2|rep01"
+  },
+  "phase2|fable|R0|pos2|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos2|rep02"
+  },
+  "phase2|fable|R0|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos2|rep03"
+  },
+  "phase2|fable|R0|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R0|pos2|rep04"
+  },
+  "phase2|fable|R0|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos5|rep00"
+  },
+  "phase2|fable|R0|pos5|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos5|rep01"
+  },
+  "phase2|fable|R0|pos5|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos5|rep02"
+  },
+  "phase2|fable|R0|pos5|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos5|rep03"
+  },
+  "phase2|fable|R0|pos5|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos5|rep04"
+  },
+  "phase2|fable|R0|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos9|rep00"
+  },
+  "phase2|fable|R0|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos9|rep01"
+  },
+  "phase2|fable|R0|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos9|rep02"
+  },
+  "phase2|fable|R0|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos9|rep03"
+  },
+  "phase2|fable|R0|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R0|pos9|rep04"
+  },
+  "phase2|fable|R1|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R1|pos1|rep00"
+  },
+  "phase2|fable|R1|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R1|pos1|rep01"
+  },
+  "phase2|fable|R1|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R1|pos1|rep02"
+  },
+  "phase2|fable|R1|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R1|pos1|rep03"
+  },
+  "phase2|fable|R1|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R1|pos1|rep04"
+  },
+  "phase2|fable|R1|pos2|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.005050000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 77,
+        "parse_category": "valid",
+        "reasoning_tokens": 74
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00505,
+    "trial_id": "phase2|fable|R1|pos2|rep00"
+  },
+  "phase2|fable|R1|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00135,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00135,
+    "trial_id": "phase2|fable|R1|pos2|rep01"
+  },
+  "phase2|fable|R1|pos2|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0054,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 84,
+        "parse_category": "valid",
+        "reasoning_tokens": 81
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.0054,
+    "trial_id": "phase2|fable|R1|pos2|rep02"
+  },
+  "phase2|fable|R1|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0052499999999999995,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 81,
+        "parse_category": "valid",
+        "reasoning_tokens": 78
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00525,
+    "trial_id": "phase2|fable|R1|pos2|rep03"
+  },
+  "phase2|fable|R1|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.004750000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 71,
+        "parse_category": "valid",
+        "reasoning_tokens": 68
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00475,
+    "trial_id": "phase2|fable|R1|pos2|rep04"
+  },
+  "phase2|fable|R1|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R1|pos5|rep00"
+  },
+  "phase2|fable|R1|pos5|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R1|pos5|rep01"
+  },
+  "phase2|fable|R1|pos5|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00649,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 105,
+        "parse_category": "valid",
+        "reasoning_tokens": 102
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00649,
+    "trial_id": "phase2|fable|R1|pos5|rep02"
+  },
+  "phase2|fable|R1|pos5|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R1|pos5|rep03"
+  },
+  "phase2|fable|R1|pos5|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00489,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 73,
+        "parse_category": "valid",
+        "reasoning_tokens": 70
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00489,
+    "trial_id": "phase2|fable|R1|pos5|rep04"
+  },
+  "phase2|fable|R1|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R1|pos9|rep00"
+  },
+  "phase2|fable|R1|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00139,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2|fable|R1|pos9|rep01"
+  },
+  "phase2|fable|R1|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00604,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 96,
+        "parse_category": "valid",
+        "reasoning_tokens": 93
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00604,
+    "trial_id": "phase2|fable|R1|pos9|rep02"
+  },
+  "phase2|fable|R1|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00489,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 73,
+        "parse_category": "valid",
+        "reasoning_tokens": 70
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00489,
+    "trial_id": "phase2|fable|R1|pos9|rep03"
+  },
+  "phase2|fable|R1|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00624,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 100,
+        "parse_category": "valid",
+        "reasoning_tokens": 97
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00624,
+    "trial_id": "phase2|fable|R1|pos9|rep04"
+  },
+  "phase2|qwen|R0|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.76e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 2,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 8e-06,
+    "trial_id": "phase2|qwen|R0|pos1|rep00"
+  },
+  "phase2|qwen|R0|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00027603999999999997,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 961,
+        "parse_category": "valid",
+        "reasoning_tokens": 975
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000276,
+    "trial_id": "phase2|qwen|R0|pos1|rep01"
+  },
+  "phase2|qwen|R0|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.76e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 2,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 8e-06,
+    "trial_id": "phase2|qwen|R0|pos1|rep02"
+  },
+  "phase2|qwen|R0|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.76e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 2,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 8e-06,
+    "trial_id": "phase2|qwen|R0|pos1|rep03"
+  },
+  "phase2|qwen|R0|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.48e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 1,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 7e-06,
+    "trial_id": "phase2|qwen|R0|pos1|rep04"
+  },
+  "phase2|qwen|R0|pos2|rep00": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1141
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1106
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos2|rep00"
+  },
+  "phase2|qwen|R0|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00025,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 868,
+        "parse_category": "valid",
+        "reasoning_tokens": 921
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00025,
+    "trial_id": "phase2|qwen|R0|pos2|rep01"
+  },
+  "phase2|qwen|R0|pos2|rep02": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1020
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 957
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos2|rep02"
+  },
+  "phase2|qwen|R0|pos2|rep03": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1076
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1097
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos2|rep03"
+  },
+  "phase2|qwen|R0|pos2|rep04": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1143
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1137
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos2|rep04"
+  },
+  "phase2|qwen|R0|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0002668,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 928,
+        "parse_category": "valid",
+        "reasoning_tokens": 983
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.000267,
+    "trial_id": "phase2|qwen|R0|pos5|rep00"
+  },
+  "phase2|qwen|R0|pos5|rep01": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1150
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 996
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos5|rep01"
+  },
+  "phase2|qwen|R0|pos5|rep02": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1152
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00027351999999999997,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 952,
+        "parse_category": "valid",
+        "reasoning_tokens": 1007
+      }
+    ],
+    "first_response_category": "invalid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.000567,
+    "trial_id": "phase2|qwen|R0|pos5|rep02"
+  },
+  "phase2|qwen|R0|pos5|rep03": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1133
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1085
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos5|rep03"
+  },
+  "phase2|qwen|R0|pos5|rep04": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1168
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1078
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos5|rep04"
+  },
+  "phase2|qwen|R0|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.76e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 2,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 8e-06,
+    "trial_id": "phase2|qwen|R0|pos9|rep00"
+  },
+  "phase2|qwen|R0|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.76e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 2,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 8e-06,
+    "trial_id": "phase2|qwen|R0|pos9|rep01"
+  },
+  "phase2|qwen|R0|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.76e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 2,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 8e-06,
+    "trial_id": "phase2|qwen|R0|pos9|rep02"
+  },
+  "phase2|qwen|R0|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.76e-06,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 2,
+        "parse_category": "valid",
+        "reasoning_tokens": 0
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 5,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 8e-06,
+    "trial_id": "phase2|qwen|R0|pos9|rep03"
+  },
+  "phase2|qwen|R0|pos9|rep04": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1120
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1161
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R0",
+    "replicate": 4,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R0|pos9|rep04"
+  },
+  "phase2|qwen|R1|pos1|rep00": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos1|rep00"
+  },
+  "phase2|qwen|R1|pos1|rep01": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos1|rep01"
+  },
+  "phase2|qwen|R1|pos1|rep02": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos1|rep02"
+  },
+  "phase2|qwen|R1|pos1|rep03": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos1|rep03"
+  },
+  "phase2|qwen|R1|pos1|rep04": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 953
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 1,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos1|rep04"
+  },
+  "phase2|qwen|R1|pos2|rep00": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1019
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1094
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos2|rep00"
+  },
+  "phase2|qwen|R1|pos2|rep01": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1119
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00047448000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 1670,
+        "parse_category": "valid",
+        "reasoning_tokens": 1668
+      }
+    ],
+    "first_response_category": "invalid",
+    "model": "qwen",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000768,
+    "trial_id": "phase2|qwen|R1|pos2|rep01"
+  },
+  "phase2|qwen|R1|pos2|rep02": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1144
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1129
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos2|rep02"
+  },
+  "phase2|qwen|R1|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 1011,
+        "parse_category": "valid",
+        "reasoning_tokens": 1102
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 3,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00029,
+    "trial_id": "phase2|qwen|R1|pos2|rep03"
+  },
+  "phase2|qwen|R1|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00038292,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 1343,
+        "parse_category": "valid",
+        "reasoning_tokens": 1341
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 2,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.000383,
+    "trial_id": "phase2|qwen|R1|pos2|rep04"
+  },
+  "phase2|qwen|R1|pos5|rep00": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1031
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos5|rep00"
+  },
+  "phase2|qwen|R1|pos5|rep01": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029368,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1071
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos5|rep01"
+  },
+  "phase2|qwen|R1|pos5|rep02": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos5|rep02"
+  },
+  "phase2|qwen|R1|pos5|rep03": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos5|rep03"
+  },
+  "phase2|qwen|R1|pos5|rep04": {
+    "attempts": 2,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      },
+      {
+        "attempt_number": 2,
+        "cost_usd": 0.00029360000000000003,
+        "error": "",
+        "finish_reason": "length",
+        "output_tokens": 1024,
+        "parse_category": "invalid",
+        "reasoning_tokens": 1135
+      }
+    ],
+    "first_response_category": "invalid",
+    "missing_reason": "empty",
+    "model": "qwen",
+    "phase": "phase2",
+    "position": 5,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "invalid",
+    "total_cost_usd": 0.000587,
+    "trial_id": "phase2|qwen|R1|pos5|rep04"
+  },
+  "phase2|qwen|R1|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00025944000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 902,
+        "parse_category": "valid",
+        "reasoning_tokens": 943
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.000259,
+    "trial_id": "phase2|qwen|R1|pos9|rep00"
+  },
+  "phase2|qwen|R1|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00025944000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 902,
+        "parse_category": "valid",
+        "reasoning_tokens": 943
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000259,
+    "trial_id": "phase2|qwen|R1|pos9|rep01"
+  },
+  "phase2|qwen|R1|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00025944000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 902,
+        "parse_category": "valid",
+        "reasoning_tokens": 943
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.000259,
+    "trial_id": "phase2|qwen|R1|pos9|rep02"
+  },
+  "phase2|qwen|R1|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00025944000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 902,
+        "parse_category": "valid",
+        "reasoning_tokens": 943
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.000259,
+    "trial_id": "phase2|qwen|R1|pos9|rep03"
+  },
+  "phase2|qwen|R1|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00025944000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 902,
+        "parse_category": "valid",
+        "reasoning_tokens": 943
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "qwen",
+    "parsed_value": 4,
+    "phase": "phase2",
+    "position": 9,
+    "reasoning_config": "R1",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.000259,
+    "trial_id": "phase2|qwen|R1|pos9|rep04"
+  }
+}

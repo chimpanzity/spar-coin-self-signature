@@ -1,0 +1,103 @@
+[2026-10-16T10:38:09Z] START run run_dir=data/spar_dynamic/favorite_animal/favanim-20261016T103809Z
+[2026-10-16T10:38:09Z] budget projection worst case: $4.8138 / cap $10.0 within=True
+[2026-10-16T10:38:09Z] START favorite_animal manifest_size=90  prior_outcomes=0  spent=$0.0000  cap=$10.00
+[2026-10-16T10:38:09Z] === astra/R_min Phase 1 (5 calls, max_tokens=1500, provider=openai) ===
+[2026-10-16T10:38:12Z]   phase1|astra|R_min|rep00 status=ok cost=$0.0006
+[2026-10-16T10:38:16Z]   phase1|astra|R_min|rep01 status=ok cost=$0.0006
+[2026-10-16T10:38:18Z]   phase1|astra|R_min|rep02 status=ok cost=$0.0006
+[2026-10-16T10:38:20Z]   phase1|astra|R_min|rep03 status=ok cost=$0.0006
+[2026-10-16T10:38:22Z]   phase1|astra|R_min|rep04 status=ok cost=$0.0006
+[2026-10-16T10:38:22Z] === astra/R_min Phase 2 interleaved (25 calls) ===
+[2026-10-16T10:38:24Z]   phase2a|astra|R_min|possecond|rep04 status=ok val='a' cost=$0.0016
+[2026-10-16T10:38:26Z]   phase2b|astra|R_min|full|rep04 status=ok val='octopus' cost=$0.0010
+[2026-10-16T10:38:30Z]   phase2a|astra|R_min|possecond|rep00 status=ok val='a' cost=$0.0016
+[2026-10-16T10:38:32Z]   phase2a|astra|R_min|poslast|rep00 status=ok val='t' cost=$0.0016
+[2026-10-16T10:38:34Z]   phase2a|astra|R_min|pospenultimate|rep00 status=ok val='a' cost=$0.0018
+[2026-10-16T10:38:36Z]   phase2a|astra|R_min|poslast|rep04 status=ok val='t' cost=$0.0016
+[2026-10-16T10:38:39Z]   phase2a|astra|R_min|poslast|rep02 status=ok val='t' cost=$0.0016
+[2026-10-16T10:38:40Z]   phase2b|astra|R_min|full|rep03 status=ok val='octopus' cost=$0.0010
+[2026-10-16T10:38:42Z]   phase2a|astra|R_min|posfirst|rep02 status=ok val='d' cost=$0.0010
+[2026-10-16T10:38:43Z]   phase2b|astra|R_min|full|rep01 status=ok val='octopus' cost=$0.0010
+[2026-10-16T10:38:44Z]   phase2b|astra|R_min|full|rep00 status=ok val='octopus' cost=$0.0010
+[2026-10-16T10:38:47Z]   phase2a|astra|R_min|possecond|rep02 status=ok val='a' cost=$0.0016
+[2026-10-16T10:38:49Z]   phase2a|astra|R_min|possecond|rep03 status=ok val='a' cost=$0.0016
+[2026-10-16T10:38:50Z]   phase2a|astra|R_min|pospenultimate|rep04 status=ok val='a' cost=$0.0016
+[2026-10-16T10:38:52Z]   phase2a|astra|R_min|posfirst|rep00 status=ok val='d' cost=$0.0017
+[2026-10-16T10:38:56Z]   phase2a|astra|R_min|posfirst|rep01 status=ok val='d' cost=$0.0017
+[2026-10-16T10:38:58Z]   phase2a|astra|R_min|posfirst|rep03 status=ok val='d' cost=$0.0018
+[2026-10-16T10:39:00Z]   phase2a|astra|R_min|poslast|rep01 status=ok val='t' cost=$0.0017
+[2026-10-16T10:39:01Z]   phase2a|astra|R_min|pospenultimate|rep02 status=ok val='a' cost=$0.0018
+[2026-10-16T10:39:03Z]   phase2a|astra|R_min|possecond|rep01 status=ok val='a' cost=$0.0016
+[2026-10-16T10:39:06Z]   phase2a|astra|R_min|posfirst|rep04 status=ok val='d' cost=$0.0016
+[2026-10-16T10:39:08Z]   phase2b|astra|R_min|full|rep02 status=ok val='octopus' cost=$0.0010
+[2026-10-16T10:39:10Z]   phase2a|astra|R_min|poslast|rep03 status=ok val='t' cost=$0.0017
+[2026-10-16T10:39:11Z]   phase2a|astra|R_min|pospenultimate|rep03 status=ok val='a' cost=$0.0016
+[2026-10-16T10:39:14Z]   phase2a|astra|R_min|pospenultimate|rep01 status=ok val='i' cost=$0.0022
+[2026-10-16T10:39:14Z] === fable/R_min Phase 1 (5 calls, max_tokens=1500, provider=anthropic) ===
+[2026-10-16T10:39:17Z]   phase1|fable|R_min|rep00 status=ok cost=$0.0007
+[2026-10-16T10:39:20Z]   phase1|fable|R_min|rep01 status=ok cost=$0.0007
+[2026-10-16T10:39:23Z]   phase1|fable|R_min|rep02 status=ok cost=$0.0007
+[2026-10-16T10:39:26Z]   phase1|fable|R_min|rep03 status=ok cost=$0.0007
+[2026-10-16T10:39:29Z]   phase1|fable|R_min|rep04 status=ok cost=$0.0007
+[2026-10-16T10:39:29Z] === fable/R_min Phase 2 interleaved (25 calls) ===
+[2026-10-16T10:39:31Z]   phase2a|fable|R_min|poslast|rep04 status=ok val='s' cost=$0.0011
+[2026-10-16T10:39:33Z]   phase2a|fable|R_min|possecond|rep02 status=ok val='c' cost=$0.0011
+[2026-10-16T10:39:36Z]   phase2a|fable|R_min|posfirst|rep00 status=ok val='o' cost=$0.0011
+[2026-10-16T10:39:41Z]   phase2a|fable|R_min|pospenultimate|rep00 status=ok val='u' cost=$0.0055
+[2026-10-16T10:39:44Z]   phase2a|fable|R_min|possecond|rep01 status=ok val='c' cost=$0.0011
+[2026-10-16T10:39:47Z]   phase2b|fable|R_min|full|rep03 status=ok val='octopus' cost=$0.0012
+[2026-10-16T10:39:51Z]   phase2a|fable|R_min|posfirst|rep02 status=ok val='o' cost=$0.0011
+[2026-10-16T10:39:54Z]   phase2a|fable|R_min|possecond|rep00 status=ok val='c' cost=$0.0011
+[2026-10-16T10:39:55Z]   phase2a|fable|R_min|poslast|rep03 status=ok val='s' cost=$0.0011
+[2026-10-16T10:39:58Z]   phase2b|fable|R_min|full|rep04 status=ok val='octopus' cost=$0.0012
+[2026-10-16T10:40:01Z]   phase2b|fable|R_min|full|rep02 status=ok val='octopus' cost=$0.0012
+[2026-10-16T10:40:06Z]   phase2a|fable|R_min|pospenultimate|rep03 status=ok val='u' cost=$0.0037
+[2026-10-16T10:40:09Z]   phase2a|fable|R_min|posfirst|rep01 status=ok val='o' cost=$0.0011
+[2026-10-16T10:40:12Z]   phase2a|fable|R_min|posfirst|rep04 status=ok val='o' cost=$0.0011
+[2026-10-16T10:40:14Z]   phase2a|fable|R_min|poslast|rep00 status=ok val='s' cost=$0.0011
+[2026-10-16T10:40:15Z]   phase2a|fable|R_min|poslast|rep01 status=ok val='s' cost=$0.0011
+[2026-10-16T10:40:18Z]   phase2a|fable|R_min|possecond|rep04 status=ok val='c' cost=$0.0011
+[2026-10-16T10:40:21Z]   phase2b|fable|R_min|full|rep00 status=ok val='octopus' cost=$0.0012
+[2026-10-16T10:40:26Z]   phase2a|fable|R_min|pospenultimate|rep02 status=ok val='u' cost=$0.0038
+[2026-10-16T10:40:30Z]   phase2a|fable|R_min|pospenultimate|rep01 status=ok val='u' cost=$0.0038
+[2026-10-16T10:40:33Z]   phase2b|fable|R_min|full|rep01 status=ok val='octopus' cost=$0.0012
+[2026-10-16T10:40:37Z]   phase2a|fable|R_min|pospenultimate|rep04 status=ok val='u' cost=$0.0036
+[2026-10-16T10:40:40Z]   phase2a|fable|R_min|posfirst|rep03 status=ok val='o' cost=$0.0011
+[2026-10-16T10:40:43Z]   phase2a|fable|R_min|possecond|rep03 status=ok val='c' cost=$0.0011
+[2026-10-16T10:40:44Z]   phase2a|fable|R_min|poslast|rep02 status=ok val='s' cost=$0.0011
+[2026-10-16T10:40:44Z] === oss120/R_low Phase 1 (5 calls, max_tokens=4000, provider=DeepInfra) ===
+[2026-10-16T10:40:45Z]   phase1|oss120|R_low|rep00 status=ok cost=$0.0000
+[2026-10-16T10:40:45Z]   phase1|oss120|R_low|rep01 status=ok cost=$0.0000
+[2026-10-16T10:40:46Z]   phase1|oss120|R_low|rep02 status=ok cost=$0.0000
+[2026-10-16T10:40:46Z]   phase1|oss120|R_low|rep03 status=ok cost=$0.0000
+[2026-10-16T10:40:48Z]   phase1|oss120|R_low|rep04 status=ok cost=$0.0000
+[2026-10-16T10:40:48Z] === oss120/R_low Phase 2 interleaved (25 calls) ===
+[2026-10-16T10:40:49Z]   phase2a|oss120|R_low|possecond|rep03 status=ok val='o' cost=$0.0000
+[2026-10-16T10:40:51Z]   phase2a|oss120|R_low|poslast|rep04 status=ok val='g' cost=$0.0001
+[2026-10-16T10:40:52Z]   phase2a|oss120|R_low|possecond|rep04 status=ok val='o' cost=$0.0001
+[2026-10-16T10:40:53Z]   phase2b|oss120|R_low|full|rep01 status=ok val='elephant' cost=$0.0000
+[2026-10-16T10:40:56Z]   phase2a|oss120|R_low|possecond|rep02 status=ok val='o' cost=$0.0001
+[2026-10-16T10:40:57Z]   phase2a|oss120|R_low|pospenultimate|rep04 status=ok val='n' cost=$0.0001
+[2026-10-16T10:40:58Z]   phase2b|oss120|R_low|full|rep02 status=ok val='elephant' cost=$0.0000
+[2026-10-16T10:41:00Z]   phase2a|oss120|R_low|posfirst|rep02 status=ok val='d' cost=$0.0001
+[2026-10-16T11:15:48Z]   phase2a|oss120|R_low|possecond|rep00 status=ok val='o' cost=$0.0001
+[2026-10-16T12:09:01Z]   phase2a|oss120|R_low|posfirst|rep00 status=ok val='d' cost=$0.0001
+[2026-10-16T12:09:04Z]   phase2a|oss120|R_low|posfirst|rep03 status=ok val='d' cost=$0.0001
+[2026-10-16T12:09:05Z]   phase2a|oss120|R_low|pospenultimate|rep02 status=ok val='n' cost=$0.0001
+[2026-10-16T12:09:07Z]   phase2a|oss120|R_low|poslast|rep00 status=ok val='g' cost=$0.0001
+[2026-10-16T12:09:09Z]   phase2a|oss120|R_low|pospenultimate|rep01 status=ok val='n' cost=$0.0001
+[2026-10-16T12:09:10Z]   phase2a|oss120|R_low|poslast|rep01 status=ok val='g' cost=$0.0001
+[2026-10-16T12:09:12Z]   phase2a|oss120|R_low|pospenultimate|rep00 status=ok val='n' cost=$0.0001
+[2026-10-16T12:09:14Z]   phase2a|oss120|R_low|poslast|rep03 status=ok val='g' cost=$0.0001
+[2026-10-16T12:09:15Z]   phase2b|oss120|R_low|full|rep00 status=ok val='elephant' cost=$0.0000
+[2026-10-16T12:09:17Z]   phase2b|oss120|R_low|full|rep03 status=ok val='elephant' cost=$0.0000
+[2026-10-16T12:09:19Z]   phase2a|oss120|R_low|posfirst|rep04 status=ok val='d' cost=$0.0001
+[2026-10-16T12:09:21Z]   phase2a|oss120|R_low|posfirst|rep01 status=ok val='e' cost=$0.0001
+[2026-10-16T12:09:23Z]   phase2a|oss120|R_low|poslast|rep02 status=ok val='g' cost=$0.0001
+[2026-10-16T12:09:25Z]   phase2a|oss120|R_low|pospenultimate|rep03 status=ok val='n' cost=$0.0001
+[2026-10-16T12:09:27Z]   phase2a|oss120|R_low|possecond|rep01 status=ok val='o' cost=$0.0000
+[2026-10-16T12:25:17Z]   phase2b|oss120|R_low|full|rep04 status=ok val='elephant' cost=$0.0000
+[2026-10-16T12:25:17Z] COMPLETE spent=$0.0889 outcomes=90 skipped=[]
+[2026-10-16T12:25:17Z] ORCHESTRATOR RETURN: None  spent=$0.0889
+[2026-10-16T12:29:53Z] ANALYZE run_dir=data/spar_dynamic/favorite_animal/favanim-20261016T103809Z
+[2026-10-16T12:29:53Z] wrote 7 analysis CSVs + raw dumps

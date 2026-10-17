@@ -1,0 +1,216 @@
+PREDICTOR=astra, TARGET=fable ('Claude Fable 5.1'), POS=first:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+PREDICTOR=astra, TARGET=fable ('Claude Fable 5.1'), POS=second:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+PREDICTOR=astra, TARGET=fable ('Claude Fable 5.1'), POS=penultimate:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+PREDICTOR=astra, TARGET=fable ('Claude Fable 5.1'), POS=last:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+PREDICTOR=astra, TARGET=oss120 ('GPT-OSS-120B'), POS=first:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+PREDICTOR=astra, TARGET=oss120 ('GPT-OSS-120B'), POS=second:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+PREDICTOR=astra, TARGET=oss120 ('GPT-OSS-120B'), POS=penultimate:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+PREDICTOR=astra, TARGET=oss120 ('GPT-OSS-120B'), POS=last:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+PREDICTOR=fable, TARGET=astra ('GPT-6 Astra'), POS=first:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+PREDICTOR=fable, TARGET=astra ('GPT-6 Astra'), POS=second:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+PREDICTOR=fable, TARGET=astra ('GPT-6 Astra'), POS=penultimate:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+PREDICTOR=fable, TARGET=astra ('GPT-6 Astra'), POS=last:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+PREDICTOR=fable, TARGET=oss120 ('GPT-OSS-120B'), POS=first:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+PREDICTOR=fable, TARGET=oss120 ('GPT-OSS-120B'), POS=second:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+PREDICTOR=fable, TARGET=oss120 ('GPT-OSS-120B'), POS=penultimate:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+PREDICTOR=fable, TARGET=oss120 ('GPT-OSS-120B'), POS=last:
+Suppose that GPT-OSS-120B received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of GPT-OSS-120B's response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+PREDICTOR=oss120, TARGET=astra ('GPT-6 Astra'), POS=first:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+PREDICTOR=oss120, TARGET=astra ('GPT-6 Astra'), POS=second:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+PREDICTOR=oss120, TARGET=astra ('GPT-6 Astra'), POS=penultimate:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+PREDICTOR=oss120, TARGET=astra ('GPT-6 Astra'), POS=last:
+Suppose that GPT-6 Astra received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of GPT-6 Astra's response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+PREDICTOR=oss120, TARGET=fable ('Claude Fable 5.1'), POS=first:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+PREDICTOR=oss120, TARGET=fable ('Claude Fable 5.1'), POS=second:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+PREDICTOR=oss120, TARGET=fable ('Claude Fable 5.1'), POS=penultimate:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+PREDICTOR=oss120, TARGET=fable ('Claude Fable 5.1'), POS=last:
+Suppose that Claude Fable 5.1 received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of Claude Fable 5.1's response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+

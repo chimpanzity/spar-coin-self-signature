@@ -1,0 +1,2312 @@
+{
+  "phase1|astra|R_min|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0006000000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.0006,
+    "trial_id": "phase1|astra|R_min|rep00"
+  },
+  "phase1|astra|R_min|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0006000000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.0006,
+    "trial_id": "phase1|astra|R_min|rep01"
+  },
+  "phase1|astra|R_min|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0006000000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.0006,
+    "trial_id": "phase1|astra|R_min|rep02"
+  },
+  "phase1|astra|R_min|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0006000000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.0006,
+    "trial_id": "phase1|astra|R_min|rep03"
+  },
+  "phase1|astra|R_min|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0006000000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.0006,
+    "trial_id": "phase1|astra|R_min|rep04"
+  },
+  "phase1|fable|R_min|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0007100000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00071,
+    "trial_id": "phase1|fable|R_min|rep00"
+  },
+  "phase1|fable|R_min|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0007100000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00071,
+    "trial_id": "phase1|fable|R_min|rep01"
+  },
+  "phase1|fable|R_min|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0007100000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00071,
+    "trial_id": "phase1|fable|R_min|rep02"
+  },
+  "phase1|fable|R_min|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0007100000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00071,
+    "trial_id": "phase1|fable|R_min|rep03"
+  },
+  "phase1|fable|R_min|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0007100000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00071,
+    "trial_id": "phase1|fable|R_min|rep04"
+  },
+  "phase1|oss120|R_low|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 2.31e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 8,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 2.3e-05,
+    "trial_id": "phase1|oss120|R_low|rep00"
+  },
+  "phase1|oss120|R_low|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 2.43e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 2.4e-05,
+    "trial_id": "phase1|oss120|R_low|rep01"
+  },
+  "phase1|oss120|R_low|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 2.31e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 8,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 2.3e-05,
+    "trial_id": "phase1|oss120|R_low|rep02"
+  },
+  "phase1|oss120|R_low|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 2.31e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 8,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 2.3e-05,
+    "trial_id": "phase1|oss120|R_low|rep03"
+  },
+  "phase1|oss120|R_low|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 2.31e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 8,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 2.3e-05,
+    "trial_id": "phase1|oss120|R_low|rep04"
+  },
+  "phase2a|astra|R_min|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00166,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 12,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00166,
+    "trial_id": "phase2a|astra|R_min|posfirst|rep00"
+  },
+  "phase2a|astra|R_min|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00166,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 12,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00166,
+    "trial_id": "phase2a|astra|R_min|posfirst|rep01"
+  },
+  "phase2a|astra|R_min|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00096,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00096,
+    "trial_id": "phase2a|astra|R_min|posfirst|rep02"
+  },
+  "phase2a|astra|R_min|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0017600000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 14,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00176,
+    "trial_id": "phase2a|astra|R_min|posfirst|rep03"
+  },
+  "phase2a|astra|R_min|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00161,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 18,
+        "parse_category": "valid",
+        "reasoning_tokens": 11,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00161,
+    "trial_id": "phase2a|astra|R_min|posfirst|rep04"
+  },
+  "phase2a|astra|R_min|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00161,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 18,
+        "parse_category": "valid",
+        "reasoning_tokens": 11,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "t",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00161,
+    "trial_id": "phase2a|astra|R_min|poslast|rep00"
+  },
+  "phase2a|astra|R_min|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00166,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 12,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "t",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00166,
+    "trial_id": "phase2a|astra|R_min|poslast|rep01"
+  },
+  "phase2a|astra|R_min|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "t",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00156,
+    "trial_id": "phase2a|astra|R_min|poslast|rep02"
+  },
+  "phase2a|astra|R_min|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00166,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 19,
+        "parse_category": "valid",
+        "reasoning_tokens": 12,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "t",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00166,
+    "trial_id": "phase2a|astra|R_min|poslast|rep03"
+  },
+  "phase2a|astra|R_min|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "t",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00156,
+    "trial_id": "phase2a|astra|R_min|poslast|rep04"
+  },
+  "phase2a|astra|R_min|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00183,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 22,
+        "parse_category": "valid",
+        "reasoning_tokens": 15,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00183,
+    "trial_id": "phase2a|astra|R_min|pospenultimate|rep00"
+  },
+  "phase2a|astra|R_min|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00223,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 30,
+        "parse_category": "valid",
+        "reasoning_tokens": 23,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "i",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00223,
+    "trial_id": "phase2a|astra|R_min|pospenultimate|rep01"
+  },
+  "phase2a|astra|R_min|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0017800000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 14,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00178,
+    "trial_id": "phase2a|astra|R_min|pospenultimate|rep02"
+  },
+  "phase2a|astra|R_min|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0016300000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 18,
+        "parse_category": "valid",
+        "reasoning_tokens": 11,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00163,
+    "trial_id": "phase2a|astra|R_min|pospenultimate|rep03"
+  },
+  "phase2a|astra|R_min|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015800000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00158,
+    "trial_id": "phase2a|astra|R_min|pospenultimate|rep04"
+  },
+  "phase2a|astra|R_min|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00156,
+    "trial_id": "phase2a|astra|R_min|possecond|rep00"
+  },
+  "phase2a|astra|R_min|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00161,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 18,
+        "parse_category": "valid",
+        "reasoning_tokens": 11,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00161,
+    "trial_id": "phase2a|astra|R_min|possecond|rep01"
+  },
+  "phase2a|astra|R_min|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00156,
+    "trial_id": "phase2a|astra|R_min|possecond|rep02"
+  },
+  "phase2a|astra|R_min|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00156,
+    "trial_id": "phase2a|astra|R_min|possecond|rep03"
+  },
+  "phase2a|astra|R_min|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 17,
+        "parse_category": "valid",
+        "reasoning_tokens": 10,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_letter": "a",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00156,
+    "trial_id": "phase2a|astra|R_min|possecond|rep04"
+  },
+  "phase2a|fable|R_min|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|posfirst|rep00"
+  },
+  "phase2a|fable|R_min|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|posfirst|rep01"
+  },
+  "phase2a|fable|R_min|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|posfirst|rep02"
+  },
+  "phase2a|fable|R_min|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|posfirst|rep03"
+  },
+  "phase2a|fable|R_min|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|posfirst|rep04"
+  },
+  "phase2a|fable|R_min|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "s",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|poslast|rep00"
+  },
+  "phase2a|fable|R_min|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "s",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|poslast|rep01"
+  },
+  "phase2a|fable|R_min|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "s",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|poslast|rep02"
+  },
+  "phase2a|fable|R_min|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "s",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|poslast|rep03"
+  },
+  "phase2a|fable|R_min|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "s",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|poslast|rep04"
+  },
+  "phase2a|fable|R_min|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00547,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 89,
+        "parse_category": "valid",
+        "reasoning_tokens": 86,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "u",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00547,
+    "trial_id": "phase2a|fable|R_min|pospenultimate|rep00"
+  },
+  "phase2a|fable|R_min|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00382,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 56,
+        "parse_category": "valid",
+        "reasoning_tokens": 53,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "u",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00382,
+    "trial_id": "phase2a|fable|R_min|pospenultimate|rep01"
+  },
+  "phase2a|fable|R_min|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00382,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 56,
+        "parse_category": "valid",
+        "reasoning_tokens": 53,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "u",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00382,
+    "trial_id": "phase2a|fable|R_min|pospenultimate|rep02"
+  },
+  "phase2a|fable|R_min|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00367,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 53,
+        "parse_category": "valid",
+        "reasoning_tokens": 50,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "u",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00367,
+    "trial_id": "phase2a|fable|R_min|pospenultimate|rep03"
+  },
+  "phase2a|fable|R_min|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0035700000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 51,
+        "parse_category": "valid",
+        "reasoning_tokens": 48,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "u",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00357,
+    "trial_id": "phase2a|fable|R_min|pospenultimate|rep04"
+  },
+  "phase2a|fable|R_min|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "c",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|possecond|rep00"
+  },
+  "phase2a|fable|R_min|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "c",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|possecond|rep01"
+  },
+  "phase2a|fable|R_min|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "c",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|possecond|rep02"
+  },
+  "phase2a|fable|R_min|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "c",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|possecond|rep03"
+  },
+  "phase2a|fable|R_min|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00111,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_letter": "c",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00111,
+    "trial_id": "phase2a|fable|R_min|possecond|rep04"
+  },
+  "phase2a|oss120|R_low|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 8.625e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 114,
+        "parse_category": "valid",
+        "reasoning_tokens": 120,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 8.6e-05,
+    "trial_id": "phase2a|oss120|R_low|posfirst|rep00"
+  },
+  "phase2a|oss120|R_low|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.305e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 92,
+        "parse_category": "valid",
+        "reasoning_tokens": 90,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "e",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 7.3e-05,
+    "trial_id": "phase2a|oss120|R_low|posfirst|rep01"
+  },
+  "phase2a|oss120|R_low|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.185e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 90,
+        "parse_category": "valid",
+        "reasoning_tokens": 90,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 7.2e-05,
+    "trial_id": "phase2a|oss120|R_low|posfirst|rep02"
+  },
+  "phase2a|oss120|R_low|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 8.625e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 114,
+        "parse_category": "valid",
+        "reasoning_tokens": 120,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 8.6e-05,
+    "trial_id": "phase2a|oss120|R_low|posfirst|rep03"
+  },
+  "phase2a|oss120|R_low|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 8.444999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 111,
+        "parse_category": "valid",
+        "reasoning_tokens": 114,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "d",
+    "phase": "phase2a",
+    "position": "first",
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 8.4e-05,
+    "trial_id": "phase2a|oss120|R_low|posfirst|rep04"
+  },
+  "phase2a|oss120|R_low|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.4449999999999995e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 61,
+        "parse_category": "valid",
+        "reasoning_tokens": 52,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "g",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 5.4e-05,
+    "trial_id": "phase2a|oss120|R_low|poslast|rep00"
+  },
+  "phase2a|oss120|R_low|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.685e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 65,
+        "parse_category": "valid",
+        "reasoning_tokens": 57,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "g",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 5.7e-05,
+    "trial_id": "phase2a|oss120|R_low|poslast|rep01"
+  },
+  "phase2a|oss120|R_low|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.685e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 65,
+        "parse_category": "valid",
+        "reasoning_tokens": 57,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "g",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 5.7e-05,
+    "trial_id": "phase2a|oss120|R_low|poslast|rep02"
+  },
+  "phase2a|oss120|R_low|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.485e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 95,
+        "parse_category": "valid",
+        "reasoning_tokens": 95,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "g",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 7.5e-05,
+    "trial_id": "phase2a|oss120|R_low|poslast|rep03"
+  },
+  "phase2a|oss120|R_low|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.685e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 65,
+        "parse_category": "valid",
+        "reasoning_tokens": 57,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "g",
+    "phase": "phase2a",
+    "position": "last",
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 5.7e-05,
+    "trial_id": "phase2a|oss120|R_low|poslast|rep04"
+  },
+  "phase2a|oss120|R_low|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.855e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 84,
+        "parse_category": "valid",
+        "reasoning_tokens": 69,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "n",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 6.9e-05,
+    "trial_id": "phase2a|oss120|R_low|pospenultimate|rep00"
+  },
+  "phase2a|oss120|R_low|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.395e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 93,
+        "parse_category": "valid",
+        "reasoning_tokens": 83,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "n",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 7.4e-05,
+    "trial_id": "phase2a|oss120|R_low|pospenultimate|rep01"
+  },
+  "phase2a|oss120|R_low|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.335e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 92,
+        "parse_category": "valid",
+        "reasoning_tokens": 82,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "n",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 7.3e-05,
+    "trial_id": "phase2a|oss120|R_low|pospenultimate|rep02"
+  },
+  "phase2a|oss120|R_low|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.395e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 93,
+        "parse_category": "valid",
+        "reasoning_tokens": 83,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "n",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 7.4e-05,
+    "trial_id": "phase2a|oss120|R_low|pospenultimate|rep03"
+  },
+  "phase2a|oss120|R_low|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.335e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 92,
+        "parse_category": "valid",
+        "reasoning_tokens": 82,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "n",
+    "phase": "phase2a",
+    "position": "penultimate",
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 7.3e-05,
+    "trial_id": "phase2a|oss120|R_low|pospenultimate|rep04"
+  },
+  "phase2a|oss120|R_low|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.025e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 54,
+        "parse_category": "valid",
+        "reasoning_tokens": 47,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 5e-05,
+    "trial_id": "phase2a|oss120|R_low|possecond|rep00"
+  },
+  "phase2a|oss120|R_low|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.905e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 52,
+        "parse_category": "valid",
+        "reasoning_tokens": 42,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 4.9e-05,
+    "trial_id": "phase2a|oss120|R_low|possecond|rep01"
+  },
+  "phase2a|oss120|R_low|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 9.825e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 134,
+        "parse_category": "valid",
+        "reasoning_tokens": 137,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 9.8e-05,
+    "trial_id": "phase2a|oss120|R_low|possecond|rep02"
+  },
+  "phase2a|oss120|R_low|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.785e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 50,
+        "parse_category": "valid",
+        "reasoning_tokens": 39,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 4.8e-05,
+    "trial_id": "phase2a|oss120|R_low|possecond|rep03"
+  },
+  "phase2a|oss120|R_low|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.205e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 57,
+        "parse_category": "valid",
+        "reasoning_tokens": 50,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_letter": "o",
+    "phase": "phase2a",
+    "position": "second",
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 5.2e-05,
+    "trial_id": "phase2a|oss120|R_low|possecond|rep04"
+  },
+  "phase2b|astra|R_min|full|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00098,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00098,
+    "trial_id": "phase2b|astra|R_min|full|rep00"
+  },
+  "phase2b|astra|R_min|full|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00098,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00098,
+    "trial_id": "phase2b|astra|R_min|full|rep01"
+  },
+  "phase2b|astra|R_min|full|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00098,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00098,
+    "trial_id": "phase2b|astra|R_min|full|rep02"
+  },
+  "phase2b|astra|R_min|full|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00098,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00098,
+    "trial_id": "phase2b|astra|R_min|full|rep03"
+  },
+  "phase2b|astra|R_min|full|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00098,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00098,
+    "trial_id": "phase2b|astra|R_min|full|rep04"
+  },
+  "phase2b|fable|R_min|full|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0012400000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00124,
+    "trial_id": "phase2b|fable|R_min|full|rep00"
+  },
+  "phase2b|fable|R_min|full|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0012400000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00124,
+    "trial_id": "phase2b|fable|R_min|full|rep01"
+  },
+  "phase2b|fable|R_min|full|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0012400000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00124,
+    "trial_id": "phase2b|fable|R_min|full|rep02"
+  },
+  "phase2b|fable|R_min|full|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0012400000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00124,
+    "trial_id": "phase2b|fable|R_min|full|rep03"
+  },
+  "phase2b|fable|R_min|full|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0012400000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_normalized_name": "octopus",
+    "parsed_scoring_string": "octopus",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00124,
+    "trial_id": "phase2b|fable|R_min|full|rep04"
+  },
+  "phase2b|oss120|R_low|full|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.4399999999999995e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 45,
+        "parse_category": "valid",
+        "reasoning_tokens": 36,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 4.4e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep00"
+  },
+  "phase2b|oss120|R_low|full|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.5999999999999994e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 31,
+        "parse_category": "valid",
+        "reasoning_tokens": 17,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 3.6e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep01"
+  },
+  "phase2b|oss120|R_low|full|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.5999999999999994e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 31,
+        "parse_category": "valid",
+        "reasoning_tokens": 17,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 3.6e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep02"
+  },
+  "phase2b|oss120|R_low|full|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.4399999999999995e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 45,
+        "parse_category": "valid",
+        "reasoning_tokens": 36,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 4.4e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep03"
+  },
+  "phase2b|oss120|R_low|full|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.5999999999999994e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 31,
+        "parse_category": "valid",
+        "reasoning_tokens": 17,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_normalized_name": "elephant",
+    "parsed_scoring_string": "elephant",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 3.6e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep04"
+  }
+}

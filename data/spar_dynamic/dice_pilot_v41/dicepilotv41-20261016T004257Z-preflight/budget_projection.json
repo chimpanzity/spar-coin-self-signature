@@ -1,0 +1,61 @@
+{
+  "budget_cap_usd": 10.0,
+  "rows": [
+    {
+      "config": "R_min",
+      "max_tokens": 4000,
+      "model": "astra",
+      "n_calls": 35,
+      "per_call_usd_worst_case": 0.204,
+      "subtotal_usd_worst_case": 7.14,
+      "supported": true
+    },
+    {
+      "config": "R_min",
+      "max_tokens": 4000,
+      "model": "fable",
+      "n_calls": 35,
+      "per_call_usd_worst_case": 0.204,
+      "subtotal_usd_worst_case": 7.14,
+      "supported": true
+    },
+    {
+      "config": "R_min",
+      "max_tokens": 4000,
+      "model": "sonnet",
+      "n_calls": 35,
+      "per_call_usd_worst_case": 0.0408,
+      "subtotal_usd_worst_case": 1.428,
+      "supported": true
+    },
+    {
+      "config": "R_low",
+      "max_tokens": 4000,
+      "model": "oss120",
+      "n_calls": 35,
+      "per_call_usd_worst_case": 0.000695,
+      "subtotal_usd_worst_case": 0.0243,
+      "supported": true
+    },
+    {
+      "config": "R_low",
+      "max_tokens": 4000,
+      "model": "oss20",
+      "n_calls": 35,
+      "per_call_usd_worst_case": 0.000367,
+      "subtotal_usd_worst_case": 0.0129,
+      "supported": true
+    },
+    {
+      "config": "R_qwen_default",
+      "max_tokens": 8000,
+      "model": "qwen",
+      "n_calls": 35,
+      "per_call_usd_worst_case": 0.002272,
+      "subtotal_usd_worst_case": 0.0795,
+      "supported": true
+    }
+  ],
+  "total_usd_worst_case": 15.8247,
+  "within_cap": false
+}

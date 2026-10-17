@@ -1,0 +1,2291 @@
+{
+  "phase1|astra|R_min|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00074,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00074,
+    "trial_id": "phase1|astra|R_min|rep00"
+  },
+  "phase1|astra|R_min|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00074,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00074,
+    "trial_id": "phase1|astra|R_min|rep01"
+  },
+  "phase1|astra|R_min|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00074,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00074,
+    "trial_id": "phase1|astra|R_min|rep02"
+  },
+  "phase1|astra|R_min|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00074,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00074,
+    "trial_id": "phase1|astra|R_min|rep03"
+  },
+  "phase1|astra|R_min|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00074,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00074,
+    "trial_id": "phase1|astra|R_min|rep04"
+  },
+  "phase1|fable|R_min|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00084,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00084,
+    "trial_id": "phase1|fable|R_min|rep00"
+  },
+  "phase1|fable|R_min|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00084,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00084,
+    "trial_id": "phase1|fable|R_min|rep01"
+  },
+  "phase1|fable|R_min|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00084,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00084,
+    "trial_id": "phase1|fable|R_min|rep02"
+  },
+  "phase1|fable|R_min|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00084,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00084,
+    "trial_id": "phase1|fable|R_min|rep03"
+  },
+  "phase1|fable|R_min|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00084,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00084,
+    "trial_id": "phase1|fable|R_min|rep04"
+  },
+  "phase1|oss120|R_low|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.21e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 33,
+        "parse_category": "valid",
+        "reasoning_tokens": 21,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 3.2e-05,
+    "trial_id": "phase1|oss120|R_low|rep00"
+  },
+  "phase1|oss120|R_low|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.35e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 52,
+        "parse_category": "valid",
+        "reasoning_tokens": 38,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 4.4e-05,
+    "trial_id": "phase1|oss120|R_low|rep01"
+  },
+  "phase1|oss120|R_low|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.35e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 52,
+        "parse_category": "valid",
+        "reasoning_tokens": 38,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 4.4e-05,
+    "trial_id": "phase1|oss120|R_low|rep02"
+  },
+  "phase1|oss120|R_low|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.59e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 56,
+        "parse_category": "valid",
+        "reasoning_tokens": 40,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 4.6e-05,
+    "trial_id": "phase1|oss120|R_low|rep03"
+  },
+  "phase1|oss120|R_low|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.17e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 49,
+        "parse_category": "valid",
+        "reasoning_tokens": 36,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase1",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 4.2e-05,
+    "trial_id": "phase1|oss120|R_low|rep04"
+  },
+  "phase2a|astra|R_min|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00119,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00119,
+    "trial_id": "phase2a|astra|R_min|pos1|rep00"
+  },
+  "phase2a|astra|R_min|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00119,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00119,
+    "trial_id": "phase2a|astra|R_min|pos1|rep01"
+  },
+  "phase2a|astra|R_min|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00119,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00119,
+    "trial_id": "phase2a|astra|R_min|pos1|rep02"
+  },
+  "phase2a|astra|R_min|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00119,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00119,
+    "trial_id": "phase2a|astra|R_min|pos1|rep03"
+  },
+  "phase2a|astra|R_min|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00119,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 5,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00119,
+    "trial_id": "phase2a|astra|R_min|pos1|rep04"
+  },
+  "phase2a|astra|R_min|pos2|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00289,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 39,
+        "parse_category": "valid",
+        "reasoning_tokens": 32,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00289,
+    "trial_id": "phase2a|astra|R_min|pos2|rep00"
+  },
+  "phase2a|astra|R_min|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00254,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 32,
+        "parse_category": "valid",
+        "reasoning_tokens": 25,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00254,
+    "trial_id": "phase2a|astra|R_min|pos2|rep01"
+  },
+  "phase2a|astra|R_min|pos2|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0024400000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 30,
+        "parse_category": "valid",
+        "reasoning_tokens": 23,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00244,
+    "trial_id": "phase2a|astra|R_min|pos2|rep02"
+  },
+  "phase2a|astra|R_min|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00254,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 32,
+        "parse_category": "valid",
+        "reasoning_tokens": 25,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00254,
+    "trial_id": "phase2a|astra|R_min|pos2|rep03"
+  },
+  "phase2a|astra|R_min|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00289,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 39,
+        "parse_category": "valid",
+        "reasoning_tokens": 32,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00289,
+    "trial_id": "phase2a|astra|R_min|pos2|rep04"
+  },
+  "phase2a|astra|R_min|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00279,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 37,
+        "parse_category": "valid",
+        "reasoning_tokens": 30,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00279,
+    "trial_id": "phase2a|astra|R_min|pos5|rep00"
+  },
+  "phase2a|astra|R_min|pos5|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0021400000000000004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 24,
+        "parse_category": "valid",
+        "reasoning_tokens": 17,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00214,
+    "trial_id": "phase2a|astra|R_min|pos5|rep01"
+  },
+  "phase2a|astra|R_min|pos5|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0019900000000000004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 14,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00199,
+    "trial_id": "phase2a|astra|R_min|pos5|rep02"
+  },
+  "phase2a|astra|R_min|pos5|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0027400000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 36,
+        "parse_category": "valid",
+        "reasoning_tokens": 29,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00274,
+    "trial_id": "phase2a|astra|R_min|pos5|rep03"
+  },
+  "phase2a|astra|R_min|pos5|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0022400000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 26,
+        "parse_category": "valid",
+        "reasoning_tokens": 19,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00224,
+    "trial_id": "phase2a|astra|R_min|pos5|rep04"
+  },
+  "phase2a|astra|R_min|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00204,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 22,
+        "parse_category": "valid",
+        "reasoning_tokens": 15,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00204,
+    "trial_id": "phase2a|astra|R_min|pos9|rep00"
+  },
+  "phase2a|astra|R_min|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00249,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 31,
+        "parse_category": "valid",
+        "reasoning_tokens": 24,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00249,
+    "trial_id": "phase2a|astra|R_min|pos9|rep01"
+  },
+  "phase2a|astra|R_min|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00209,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 23,
+        "parse_category": "valid",
+        "reasoning_tokens": 16,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00209,
+    "trial_id": "phase2a|astra|R_min|pos9|rep02"
+  },
+  "phase2a|astra|R_min|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00264,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 34,
+        "parse_category": "valid",
+        "reasoning_tokens": 27,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 8,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00264,
+    "trial_id": "phase2a|astra|R_min|pos9|rep03"
+  },
+  "phase2a|astra|R_min|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00254,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 32,
+        "parse_category": "valid",
+        "reasoning_tokens": 25,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "astra",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00254,
+    "trial_id": "phase2a|astra|R_min|pos9|rep04"
+  },
+  "phase2a|fable|R_min|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015500000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 3,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00155,
+    "trial_id": "phase2a|fable|R_min|pos1|rep00"
+  },
+  "phase2a|fable|R_min|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015500000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00155,
+    "trial_id": "phase2a|fable|R_min|pos1|rep01"
+  },
+  "phase2a|fable|R_min|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015500000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00155,
+    "trial_id": "phase2a|fable|R_min|pos1|rep02"
+  },
+  "phase2a|fable|R_min|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015500000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00155,
+    "trial_id": "phase2a|fable|R_min|pos1|rep03"
+  },
+  "phase2a|fable|R_min|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015500000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00155,
+    "trial_id": "phase2a|fable|R_min|pos1|rep04"
+  },
+  "phase2a|fable|R_min|pos2|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00485,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 69,
+        "parse_category": "prefix_leak",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "extracted_digits": [
+      3,
+      1,
+      4,
+      1,
+      5,
+      9,
+      2,
+      6,
+      5,
+      3
+    ],
+    "first_response_category": "prefix_leak",
+    "model": "fable",
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "prefix_leak",
+    "total_cost_usd": 0.00485,
+    "trial_id": "phase2a|fable|R_min|pos2|rep00"
+  },
+  "phase2a|fable|R_min|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015500000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00155,
+    "trial_id": "phase2a|fable|R_min|pos2|rep01"
+  },
+  "phase2a|fable|R_min|pos2|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.012400000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 220,
+        "parse_category": "valid",
+        "reasoning_tokens": 217,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.0124,
+    "trial_id": "phase2a|fable|R_min|pos2|rep02"
+  },
+  "phase2a|fable|R_min|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0015500000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00155,
+    "trial_id": "phase2a|fable|R_min|pos2|rep03"
+  },
+  "phase2a|fable|R_min|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.011300000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 198,
+        "parse_category": "valid",
+        "reasoning_tokens": 195,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.0113,
+    "trial_id": "phase2a|fable|R_min|pos2|rep04"
+  },
+  "phase2a|fable|R_min|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00159,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00159,
+    "trial_id": "phase2a|fable|R_min|pos5|rep00"
+  },
+  "phase2a|fable|R_min|pos5|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00159,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00159,
+    "trial_id": "phase2a|fable|R_min|pos5|rep01"
+  },
+  "phase2a|fable|R_min|pos5|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00159,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00159,
+    "trial_id": "phase2a|fable|R_min|pos5|rep02"
+  },
+  "phase2a|fable|R_min|pos5|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00159,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00159,
+    "trial_id": "phase2a|fable|R_min|pos5|rep03"
+  },
+  "phase2a|fable|R_min|pos5|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00799,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 131,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "model": "fable",
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "decline",
+    "total_cost_usd": 0.00799,
+    "trial_id": "phase2a|fable|R_min|pos5|rep04"
+  },
+  "phase2a|fable|R_min|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00834,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 138,
+        "parse_category": "valid",
+        "reasoning_tokens": 135,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00834,
+    "trial_id": "phase2a|fable|R_min|pos9|rep00"
+  },
+  "phase2a|fable|R_min|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0039900000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 51,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "model": "fable",
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "decline",
+    "total_cost_usd": 0.00399,
+    "trial_id": "phase2a|fable|R_min|pos9|rep01"
+  },
+  "phase2a|fable|R_min|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00159,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00159,
+    "trial_id": "phase2a|fable|R_min|pos9|rep02"
+  },
+  "phase2a|fable|R_min|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00159,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 7,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00159,
+    "trial_id": "phase2a|fable|R_min|pos9|rep03"
+  },
+  "phase2a|fable|R_min|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00949,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 161,
+        "parse_category": "valid",
+        "reasoning_tokens": 158,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "fable",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00949,
+    "trial_id": "phase2a|fable|R_min|pos9|rep04"
+  },
+  "phase2a|oss120|R_low|pos1|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 8.01e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 98,
+        "parse_category": "valid",
+        "reasoning_tokens": 107,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 8e-05,
+    "trial_id": "phase2a|oss120|R_low|pos1|rep00"
+  },
+  "phase2a|oss120|R_low|pos1|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001113,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 150,
+        "parse_category": "valid",
+        "reasoning_tokens": 154,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000111,
+    "trial_id": "phase2a|oss120|R_low|pos1|rep01"
+  },
+  "phase2a|oss120|R_low|pos1|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 9.27e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 119,
+        "parse_category": "valid",
+        "reasoning_tokens": 114,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 9.3e-05,
+    "trial_id": "phase2a|oss120|R_low|pos1|rep02"
+  },
+  "phase2a|oss120|R_low|pos1|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 8.01e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 98,
+        "parse_category": "valid",
+        "reasoning_tokens": 107,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 8e-05,
+    "trial_id": "phase2a|oss120|R_low|pos1|rep03"
+  },
+  "phase2a|oss120|R_low|pos1|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 9.33e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 120,
+        "parse_category": "valid",
+        "reasoning_tokens": 116,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 1,
+    "phase": "phase2a",
+    "position": 1,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 9.3e-05,
+    "trial_id": "phase2a|oss120|R_low|pos1|rep04"
+  },
+  "phase2a|oss120|R_low|pos2|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001467,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 209,
+        "parse_category": "valid",
+        "reasoning_tokens": 223,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 0,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.000147,
+    "trial_id": "phase2a|oss120|R_low|pos2|rep00"
+  },
+  "phase2a|oss120|R_low|pos2|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001503,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 215,
+        "parse_category": "valid",
+        "reasoning_tokens": 231,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 0,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00015,
+    "trial_id": "phase2a|oss120|R_low|pos2|rep01"
+  },
+  "phase2a|oss120|R_low|pos2|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001317,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 184,
+        "parse_category": "valid",
+        "reasoning_tokens": 198,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 2,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.000132,
+    "trial_id": "phase2a|oss120|R_low|pos2|rep02"
+  },
+  "phase2a|oss120|R_low|pos2|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001503,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 215,
+        "parse_category": "valid",
+        "reasoning_tokens": 231,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 0,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00015,
+    "trial_id": "phase2a|oss120|R_low|pos2|rep03"
+  },
+  "phase2a|oss120|R_low|pos2|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 8.79e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 111,
+        "parse_category": "valid",
+        "reasoning_tokens": 102,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 2,
+    "phase": "phase2a",
+    "position": 2,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 8.8e-05,
+    "trial_id": "phase2a|oss120|R_low|pos2|rep04"
+  },
+  "phase2a|oss120|R_low|pos5|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 9.99e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 131,
+        "parse_category": "valid",
+        "reasoning_tokens": 128,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.0001,
+    "trial_id": "phase2a|oss120|R_low|pos5|rep00"
+  },
+  "phase2a|oss120|R_low|pos5|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001059,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 141,
+        "parse_category": "valid",
+        "reasoning_tokens": 139,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000106,
+    "trial_id": "phase2a|oss120|R_low|pos5|rep01"
+  },
+  "phase2a|oss120|R_low|pos5|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 9.39e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 121,
+        "parse_category": "valid",
+        "reasoning_tokens": 118,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 9.4e-05,
+    "trial_id": "phase2a|oss120|R_low|pos5|rep02"
+  },
+  "phase2a|oss120|R_low|pos5|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001035,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 137,
+        "parse_category": "valid",
+        "reasoning_tokens": 136,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.000103,
+    "trial_id": "phase2a|oss120|R_low|pos5|rep03"
+  },
+  "phase2a|oss120|R_low|pos5|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001155,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 157,
+        "parse_category": "valid",
+        "reasoning_tokens": 166,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 5,
+    "phase": "phase2a",
+    "position": 5,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.000116,
+    "trial_id": "phase2a|oss120|R_low|pos5|rep04"
+  },
+  "phase2a|oss120|R_low|pos9|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00013649999999999998,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 192,
+        "parse_category": "valid",
+        "reasoning_tokens": 165,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 9,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.000136,
+    "trial_id": "phase2a|oss120|R_low|pos9|rep00"
+  },
+  "phase2a|oss120|R_low|pos9|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001293,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 180,
+        "parse_category": "valid",
+        "reasoning_tokens": 146,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 9,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.000129,
+    "trial_id": "phase2a|oss120|R_low|pos9|rep01"
+  },
+  "phase2a|oss120|R_low|pos9|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001293,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 180,
+        "parse_category": "valid",
+        "reasoning_tokens": 146,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 9,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.000129,
+    "trial_id": "phase2a|oss120|R_low|pos9|rep02"
+  },
+  "phase2a|oss120|R_low|pos9|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0001293,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 180,
+        "parse_category": "valid",
+        "reasoning_tokens": 146,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 9,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.000129,
+    "trial_id": "phase2a|oss120|R_low|pos9|rep03"
+  },
+  "phase2a|oss120|R_low|pos9|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00012629999999999998,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 175,
+        "parse_category": "valid",
+        "reasoning_tokens": 146,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "model": "oss120",
+    "parsed_digit": 9,
+    "phase": "phase2a",
+    "position": 9,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.000126,
+    "trial_id": "phase2a|oss120|R_low|pos9|rep04"
+  },
+  "phase2b|astra|R_min|full|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0011200000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00112,
+    "trial_id": "phase2b|astra|R_min|full|rep00"
+  },
+  "phase2b|astra|R_min|full|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0011200000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00112,
+    "trial_id": "phase2b|astra|R_min|full|rep01"
+  },
+  "phase2b|astra|R_min|full|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0011200000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00112,
+    "trial_id": "phase2b|astra|R_min|full|rep02"
+  },
+  "phase2b|astra|R_min|full|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0011200000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00112,
+    "trial_id": "phase2b|astra|R_min|full|rep03"
+  },
+  "phase2b|astra|R_min|full|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0011200000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 8,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "astra",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00112,
+    "trial_id": "phase2b|astra|R_min|full|rep04"
+  },
+  "phase2b|fable|R_min|full|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0013900000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2b|fable|R_min|full|rep00"
+  },
+  "phase2b|fable|R_min|full|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0013900000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2b|fable|R_min|full|rep01"
+  },
+  "phase2b|fable|R_min|full|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0013900000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2b|fable|R_min|full|rep02"
+  },
+  "phase2b|fable|R_min|full|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0013900000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2b|fable|R_min|full|rep03"
+  },
+  "phase2b|fable|R_min|full|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0013900000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 6,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "fable",
+    "parsed_integer_str": "3141592653",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_min",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 0.00139,
+    "trial_id": "phase2b|fable|R_min|full|rep04"
+  },
+  "phase2b|oss120|R_low|full|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.2799999999999996e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 58,
+        "parse_category": "valid",
+        "reasoning_tokens": 42,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 0,
+    "status": "ok",
+    "total_cost_usd": 5.3e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep00"
+  },
+  "phase2b|oss120|R_low|full|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.46e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 61,
+        "parse_category": "valid",
+        "reasoning_tokens": 47,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 1,
+    "status": "ok",
+    "total_cost_usd": 5.5e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep01"
+  },
+  "phase2b|oss120|R_low|full|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.18e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 73,
+        "parse_category": "valid",
+        "reasoning_tokens": 59,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 2,
+    "status": "ok",
+    "total_cost_usd": 6.2e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep02"
+  },
+  "phase2b|oss120|R_low|full|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.34e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 59,
+        "parse_category": "valid",
+        "reasoning_tokens": 46,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 3,
+    "status": "ok",
+    "total_cost_usd": 5.3e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep03"
+  },
+  "phase2b|oss120|R_low|full|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.34e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 59,
+        "parse_category": "valid",
+        "reasoning_tokens": 44,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "had_trailing_punct": false,
+    "model": "oss120",
+    "parsed_integer_str": "1234567890",
+    "phase": "phase2b",
+    "position": null,
+    "reasoning_config": "R_low",
+    "replicate": 4,
+    "status": "ok",
+    "total_cost_usd": 5.3e-05,
+    "trial_id": "phase2b|oss120|R_low|full|rep04"
+  }
+}

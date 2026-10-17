@@ -1,0 +1,25 @@
+[2026-10-16T10:32:36Z] START samples run_dir=data/spar_dynamic/favorite_animal/favanim-20261016T103236Z-samples
+[2026-10-16T10:32:37Z] sample astra/phase1: provider=openai
+[2026-10-16T10:32:42Z]   -> finish='stop' out_tok=6 reas_tok=0 cost=$0.00060 text='Octopus'
+[2026-10-16T10:32:42Z] sample astra/phase2a_penultimate: provider=openai
+[2026-10-16T10:32:44Z]   -> finish='stop' out_tok=19 reas_tok=12 cost=$0.00168 text='a'
+[2026-10-16T10:32:44Z] sample astra/phase2a_last: provider=openai
+[2026-10-16T10:32:46Z]   -> finish='stop' out_tok=16 reas_tok=9 cost=$0.00151 text='t'
+[2026-10-16T10:32:46Z] sample astra/phase2b: provider=openai
+[2026-10-16T10:32:47Z]   -> finish='stop' out_tok=6 reas_tok=0 cost=$0.00098 text='Octopus'
+[2026-10-16T10:32:47Z] sample fable/phase1: provider=anthropic
+[2026-10-16T10:32:51Z]   -> finish='stop' out_tok=6 reas_tok=0 cost=$0.00071 text='Octopus'
+[2026-10-16T10:32:51Z] sample fable/phase2a_penultimate: provider=anthropic
+[2026-10-16T10:32:55Z]   -> finish='stop' out_tok=57 reas_tok=54 cost=$0.00387 text='u'
+[2026-10-16T10:32:55Z] sample fable/phase2a_last: provider=anthropic
+[2026-10-16T10:32:57Z]   -> finish='stop' out_tok=3 reas_tok=0 cost=$0.00111 text='s'
+[2026-10-16T10:32:57Z] sample fable/phase2b: provider=anthropic
+[2026-10-16T10:33:00Z]   -> finish='stop' out_tok=6 reas_tok=0 cost=$0.00124 text='Octopus'
+[2026-10-16T10:33:00Z] sample oss120/phase1: provider=DeepInfra
+[2026-10-16T10:33:01Z]   -> finish='stop' out_tok=19 reas_tok=8 cost=$0.00002 text='Elephant'
+[2026-10-16T10:33:01Z] sample oss120/phase2a_penultimate: provider=DeepInfra
+[2026-10-16T10:33:04Z]   -> finish='stop' out_tok=93 reas_tok=83 cost=$0.00007 text='n'
+[2026-10-16T10:33:04Z] sample oss120/phase2a_last: provider=DeepInfra
+[2026-10-16T10:33:06Z]   -> finish='stop' out_tok=61 reas_tok=52 cost=$0.00005 text='g'
+[2026-10-16T10:33:06Z] sample oss120/phase2b: provider=DeepInfra
+[2026-10-16T10:33:07Z]   -> finish='stop' out_tok=31 reas_tok=17 cost=$0.00004 text='Elephant'

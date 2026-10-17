@@ -1,0 +1,7 @@
+model,config,phase2_attempted,ok,decline,prefix_leak,invalid,abandoned,ok_rate,decline_rate,prefix_leak_rate
+astra,R0,20,20,0,0,0,0,1.0,0.0,0.0
+astra,R1,20,20,0,0,0,0,1.0,0.0,0.0
+fable,R0,20,20,0,0,0,0,1.0,0.0,0.0
+fable,R1,20,20,0,0,0,0,1.0,0.0,0.0
+qwen,R0,20,12,0,0,8,0,0.6,0.0,0.0
+qwen,R1,20,8,0,0,12,0,0.4,0.0,0.0

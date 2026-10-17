@@ -1,0 +1,1687 @@
+{
+  "entries": [
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase1|astra|R_min|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase1|astra|R_min|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase1|astra|R_min|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase1|astra|R_min|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase1|astra|R_min|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|astra|R_min|pos5|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|astra|R_min|pos2|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|astra|R_min|pos2|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|astra|R_min|pos5|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|astra|R_min|pos2|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2c|astra|R_min|full|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|astra|R_min|pos9|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|astra|R_min|pos2|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|astra|R_min|pos1|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2c|astra|R_min|full|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|astra|R_min|pos5|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|astra|R_min|pos1|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2c|astra|R_min|full|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|astra|R_min|pos2|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|astra|R_min|pos9|rep02"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|astra|R_min|pos5|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2c|astra|R_min|full|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2c|astra|R_min|full|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|astra|R_min|pos9|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|astra|R_min|pos5|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|astra|R_min|pos2|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|astra|R_min|pos9|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|astra|R_min|pos9|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|astra|R_min|pos2|rep01"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|astra|R_min|pos2|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|astra|R_min|pos1|rep04"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|astra|R_min|pos2|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|astra|R_min|pos2|rep00"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|astra|R_min|pos1|rep03"
+    },
+    {
+      "model_label": "astra",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|astra|R_min|pos1|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase1|fable|R_min|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase1|fable|R_min|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase1|fable|R_min|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase1|fable|R_min|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase1|fable|R_min|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|fable|R_min|pos2|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|fable|R_min|pos2|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2c|fable|R_min|full|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2c|fable|R_min|full|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|fable|R_min|pos1|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|fable|R_min|pos9|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|fable|R_min|pos9|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|fable|R_min|pos1|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2c|fable|R_min|full|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|fable|R_min|pos1|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|fable|R_min|pos2|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|fable|R_min|pos5|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|fable|R_min|pos5|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|fable|R_min|pos5|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|fable|R_min|pos9|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2c|fable|R_min|full|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|fable|R_min|pos2|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|fable|R_min|pos5|rep02"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|fable|R_min|pos1|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|fable|R_min|pos9|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|fable|R_min|pos2|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|fable|R_min|pos9|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|fable|R_min|pos1|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|fable|R_min|pos2|rep00"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|fable|R_min|pos2|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2c|fable|R_min|full|rep04"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|fable|R_min|pos2|rep01"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|fable|R_min|pos5|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|fable|R_min|pos2|rep03"
+    },
+    {
+      "model_label": "fable",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|fable|R_min|pos2|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase1|sonnet|R_min|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase1|sonnet|R_min|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase1|sonnet|R_min|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase1|sonnet|R_min|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase1|sonnet|R_min|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2c|sonnet|R_min|full|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2a|sonnet|R_min|pos2|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|sonnet|R_min|pos9|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|sonnet|R_min|pos5|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|sonnet|R_min|pos9|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|sonnet|R_min|pos9|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|sonnet|R_min|pos9|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|sonnet|R_min|pos5|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2a|sonnet|R_min|pos2|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|sonnet|R_min|pos5|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|sonnet|R_min|pos5|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2a|sonnet|R_min|pos2|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|sonnet|R_min|pos5|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|sonnet|R_min|pos2|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|sonnet|R_min|pos1|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|sonnet|R_min|pos9|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2b|sonnet|R_min|pos1|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2c|sonnet|R_min|full|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|sonnet|R_min|pos2|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2b|sonnet|R_min|pos2|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2a|sonnet|R_min|pos2|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2b|sonnet|R_min|pos1|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2c|sonnet|R_min|full|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2a|sonnet|R_min|pos2|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2c|sonnet|R_min|full|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|sonnet|R_min|pos2|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|sonnet|R_min|pos1|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2b|sonnet|R_min|pos2|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2c|sonnet|R_min|full|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2b|sonnet|R_min|pos1|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase1|oss120|R_low|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase1|oss120|R_low|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase1|oss120|R_low|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase1|oss120|R_low|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase1|oss120|R_low|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss120|R_low|pos2|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2c|oss120|R_low|full|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2a|oss120|R_low|pos2|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss120|R_low|pos5|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss120|R_low|pos1|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss120|R_low|pos9|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss120|R_low|pos1|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2c|oss120|R_low|full|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2a|oss120|R_low|pos2|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss120|R_low|pos5|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss120|R_low|pos5|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss120|R_low|pos1|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2c|oss120|R_low|full|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2a|oss120|R_low|pos2|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss120|R_low|pos9|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss120|R_low|pos9|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss120|R_low|pos1|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2c|oss120|R_low|full|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss120|R_low|pos2|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss120|R_low|pos5|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss120|R_low|pos2|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss120|R_low|pos5|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2a|oss120|R_low|pos2|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss120|R_low|pos9|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss120|R_low|pos1|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2a|oss120|R_low|pos2|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss120|R_low|pos9|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2c|oss120|R_low|full|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss120|R_low|pos2|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss120|R_low|pos2|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase1|oss20|R_low|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase1|oss20|R_low|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase1|oss20|R_low|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase1|oss20|R_low|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase1|oss20|R_low|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss20|R_low|pos9|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss20|R_low|pos2|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss20|R_low|pos2|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss20|R_low|pos9|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss20|R_low|pos1|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2c|oss20|R_low|full|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss20|R_low|pos1|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2a|oss20|R_low|pos2|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss20|R_low|pos9|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss20|R_low|pos1|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss20|R_low|pos5|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss20|R_low|pos1|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss20|R_low|pos5|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2a|oss20|R_low|pos2|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2c|oss20|R_low|full|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2c|oss20|R_low|full|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss20|R_low|pos9|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss20|R_low|pos1|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2a|oss20|R_low|pos2|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss20|R_low|pos5|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss20|R_low|pos2|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2a|oss20|R_low|pos2|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2b|oss20|R_low|pos5|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2b|oss20|R_low|pos9|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2c|oss20|R_low|full|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2b|oss20|R_low|pos2|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2b|oss20|R_low|pos5|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2b|oss20|R_low|pos2|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2a|oss20|R_low|pos2|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2c|oss20|R_low|full|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 0,
+      "trial_id": "phase1|qwen|R_qwen_default|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 1,
+      "trial_id": "phase1|qwen|R_qwen_default|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 2,
+      "trial_id": "phase1|qwen|R_qwen_default|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 3,
+      "trial_id": "phase1|qwen|R_qwen_default|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 4,
+      "trial_id": "phase1|qwen|R_qwen_default|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 3,
+      "trial_id": "phase2a|qwen|R_qwen_default|pos2|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 2,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos9|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 1,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos1|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 0,
+      "trial_id": "phase2c|qwen|R_qwen_default|full|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 4,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos2|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 1,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos2|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 4,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos9|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 1,
+      "trial_id": "phase2c|qwen|R_qwen_default|full|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 4,
+      "trial_id": "phase2a|qwen|R_qwen_default|pos2|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 0,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos2|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 0,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos9|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 0,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos1|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 4,
+      "trial_id": "phase2c|qwen|R_qwen_default|full|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 1,
+      "trial_id": "phase2a|qwen|R_qwen_default|pos2|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 2,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos2|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 0,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos5|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 3,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos1|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 3,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos5|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 1,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos9|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 2,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos5|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 3,
+      "trial_id": "phase2c|qwen|R_qwen_default|full|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 2,
+      "trial_id": "phase2a|qwen|R_qwen_default|pos2|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 9,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 3,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos9|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2a",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 0,
+      "trial_id": "phase2a|qwen|R_qwen_default|pos2|rep00"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 2,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos1|rep02"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 4,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos5|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 1,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 4,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos1|rep04"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 5,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 1,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos5|rep01"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2b",
+      "position": 2,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 3,
+      "trial_id": "phase2b|qwen|R_qwen_default|pos2|rep03"
+    },
+    {
+      "model_label": "qwen",
+      "phase": "phase2c",
+      "position": null,
+      "reasoning_config_label": "R_qwen_default",
+      "replicate": 2,
+      "trial_id": "phase2c|qwen|R_qwen_default|full|rep02"
+    }
+  ],
+  "n_entries": 210,
+  "scheduling_seed": 2026101503,
+  "spec_version": "DICE_PILOT_v4.1"
+}

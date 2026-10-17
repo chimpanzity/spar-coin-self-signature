@@ -1,0 +1,469 @@
+{
+  "catalog": {
+    "fetched_utc": "2026-10-16T04:42:30Z",
+    "missing": [],
+    "models": {
+      "anthropic/claude-fable-5.1": {
+        "context_length": 1000000,
+        "id": "anthropic/claude-fable-5.1",
+        "pricing": {
+          "completion": 5e-05,
+          "internal_reasoning": 0.0,
+          "prompt": 1e-05
+        },
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ]
+      },
+      "anthropic/claude-sonnet-5.5": {
+        "context_length": 1000000,
+        "id": "anthropic/claude-sonnet-5.5",
+        "pricing": {
+          "completion": 1e-05,
+          "internal_reasoning": 0.0,
+          "prompt": 2e-06
+        },
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ]
+      },
+      "openai/gpt-6-astra": {
+        "context_length": 1050000,
+        "id": "openai/gpt-6-astra",
+        "pricing": {
+          "completion": 5e-05,
+          "internal_reasoning": 0.0,
+          "prompt": 1e-05
+        },
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ]
+      },
+      "openai/gpt-oss-120b": {
+        "context_length": 131072,
+        "id": "openai/gpt-oss-120b",
+        "pricing": {
+          "completion": 6e-07,
+          "internal_reasoning": 0.0,
+          "prompt": 1.5e-07
+        },
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "reasoning_effort",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ]
+      },
+      "openai/gpt-oss-20b": {
+        "context_length": 131072,
+        "id": "openai/gpt-oss-20b",
+        "pricing": {
+          "completion": 9e-08,
+          "internal_reasoning": 0.0,
+          "prompt": 1.8e-08
+        },
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "reasoning_effort",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ]
+      },
+      "qwen/qwen3-32b": {
+        "context_length": 131072,
+        "id": "qwen/qwen3-32b",
+        "pricing": {
+          "completion": 2.8e-07,
+          "internal_reasoning": 0.0,
+          "prompt": 8e-08
+        },
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ]
+      }
+    }
+  },
+  "providers": {
+    "astra": {
+      "all_providers": [
+        "openai"
+      ],
+      "configured_pin": "openai",
+      "resolved_provider": "openai",
+      "slug": "openai/gpt-6-astra",
+      "source": "config"
+    },
+    "fable": {
+      "all_providers": [
+        "anthropic"
+      ],
+      "configured_pin": "anthropic",
+      "resolved_provider": "anthropic",
+      "slug": "anthropic/claude-fable-5.1",
+      "source": "config"
+    },
+    "oss120": {
+      "all_providers": [
+        "DeepInfra"
+      ],
+      "configured_pin": "DeepInfra",
+      "resolved_provider": "DeepInfra",
+      "slug": "openai/gpt-oss-120b",
+      "source": "config"
+    },
+    "oss20": {
+      "all_providers": [
+        "DekaLLM"
+      ],
+      "configured_pin": "DekaLLM",
+      "resolved_provider": "DekaLLM",
+      "slug": "openai/gpt-oss-20b",
+      "source": "config"
+    },
+    "qwen": {
+      "all_providers": [
+        "DeepInfra"
+      ],
+      "configured_pin": "DeepInfra",
+      "resolved_provider": "DeepInfra",
+      "slug": "qwen/qwen3-32b",
+      "source": "config"
+    },
+    "sonnet": {
+      "all_providers": [
+        "anthropic"
+      ],
+      "configured_pin": "anthropic",
+      "resolved_provider": "anthropic",
+      "slug": "anthropic/claude-sonnet-5.5",
+      "source": "config"
+    }
+  },
+  "verdict": {
+    "fetched_utc": "2026-10-16T04:42:30Z",
+    "issues": [],
+    "ok": true,
+    "per_model": {
+      "astra": {
+        "all_providers": [
+          "openai"
+        ],
+        "context_length": 1050000,
+        "label": "astra",
+        "max_tokens": 1500,
+        "pricing_completion_per_mtok": 50.0,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 10.0,
+        "provider_source": "config",
+        "quantization": null,
+        "reasoning_config_label": "R_min",
+        "reasoning_effort_requested": "minimal",
+        "reasoning_enabled_false": false,
+        "resolved_provider": "openai",
+        "slug": "openai/gpt-6-astra",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": false,
+        "supports_temperature_live": false,
+        "temperature_flag_matches": true
+      },
+      "fable": {
+        "all_providers": [
+          "anthropic"
+        ],
+        "context_length": 1000000,
+        "label": "fable",
+        "max_tokens": 1500,
+        "pricing_completion_per_mtok": 50.0,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 10.0,
+        "provider_source": "config",
+        "quantization": null,
+        "reasoning_config_label": "R_min",
+        "reasoning_effort_requested": "minimal",
+        "reasoning_enabled_false": false,
+        "resolved_provider": "anthropic",
+        "slug": "anthropic/claude-fable-5.1",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": false,
+        "supports_temperature_live": false,
+        "temperature_flag_matches": true
+      },
+      "oss120": {
+        "all_providers": [
+          "DeepInfra"
+        ],
+        "context_length": 131072,
+        "label": "oss120",
+        "max_tokens": 4000,
+        "pricing_completion_per_mtok": 0.6,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 0.15,
+        "provider_source": "config",
+        "quantization": null,
+        "reasoning_config_label": "R_low",
+        "reasoning_effort_requested": "low",
+        "reasoning_enabled_false": false,
+        "resolved_provider": "DeepInfra",
+        "slug": "openai/gpt-oss-120b",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "reasoning_effort",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": true,
+        "supports_temperature_live": true,
+        "temperature_flag_matches": true
+      },
+      "oss20": {
+        "all_providers": [
+          "DekaLLM"
+        ],
+        "context_length": 131072,
+        "label": "oss20",
+        "max_tokens": 4000,
+        "pricing_completion_per_mtok": 0.09,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 0.018,
+        "provider_source": "config",
+        "quantization": null,
+        "reasoning_config_label": "R_low",
+        "reasoning_effort_requested": "low",
+        "reasoning_enabled_false": false,
+        "resolved_provider": "DekaLLM",
+        "slug": "openai/gpt-oss-20b",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "reasoning_effort",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": true,
+        "supports_temperature_live": true,
+        "temperature_flag_matches": true
+      },
+      "qwen": {
+        "all_providers": [
+          "DeepInfra"
+        ],
+        "context_length": 131072,
+        "label": "qwen",
+        "max_tokens": 8000,
+        "pricing_completion_per_mtok": 0.28,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 0.08,
+        "provider_source": "config",
+        "quantization": null,
+        "reasoning_config_label": "R_qwen_default",
+        "reasoning_effort_requested": null,
+        "reasoning_enabled_false": true,
+        "resolved_provider": "DeepInfra",
+        "slug": "qwen/qwen3-32b",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_a",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": true,
+        "supports_temperature_live": true,
+        "temperature_flag_matches": true
+      },
+      "sonnet": {
+        "all_providers": [
+          "anthropic"
+        ],
+        "context_length": 1000000,
+        "label": "sonnet",
+        "max_tokens": 1500,
+        "pricing_completion_per_mtok": 10.0,
+        "pricing_internal_reasoning_per_mtok": 0.0,
+        "pricing_prompt_per_mtok": 2.0,
+        "provider_source": "config",
+        "quantization": null,
+        "reasoning_config_label": "R_min",
+        "reasoning_effort_requested": "minimal",
+        "reasoning_enabled_false": false,
+        "resolved_provider": "anthropic",
+        "slug": "anthropic/claude-sonnet-5.5",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "stop",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "supports_reasoning_live": true,
+        "supports_temperature_config": false,
+        "supports_temperature_live": false,
+        "temperature_flag_matches": true
+      }
+    }
+  }
+}

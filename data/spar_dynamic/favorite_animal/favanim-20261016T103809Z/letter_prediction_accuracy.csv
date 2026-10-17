@@ -1,0 +1,13 @@
+model,config,position,n_phase1_valid,n_phase2a_valid,n_phase2a_total_attempted,phase2a_category_counts,phase1_position_distribution,uniform_reference,soft_accuracy,positional_mode_letter,positional_mode_frequency,independent_sample_agreement,phase2a_predictions,phase2a_modal_prediction
+astra,R_min,first,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""o"": 1.0}",0.0385,0.0,o,1.0,1.0,"[""d"", ""d"", ""d"", ""d"", ""d""]",d
+astra,R_min,second,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""c"": 1.0}",0.0385,0.0,c,1.0,1.0,"[""a"", ""a"", ""a"", ""a"", ""a""]",a
+astra,R_min,penultimate,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""u"": 1.0}",0.0385,0.0,u,1.0,1.0,"[""a"", ""i"", ""a"", ""a"", ""a""]",a
+astra,R_min,last,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""s"": 1.0}",0.0385,0.0,s,1.0,1.0,"[""t"", ""t"", ""t"", ""t"", ""t""]",t
+fable,R_min,first,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""o"": 1.0}",0.0385,1.0,o,1.0,1.0,"[""o"", ""o"", ""o"", ""o"", ""o""]",o
+fable,R_min,second,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""c"": 1.0}",0.0385,1.0,c,1.0,1.0,"[""c"", ""c"", ""c"", ""c"", ""c""]",c
+fable,R_min,penultimate,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""u"": 1.0}",0.0385,1.0,u,1.0,1.0,"[""u"", ""u"", ""u"", ""u"", ""u""]",u
+fable,R_min,last,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""s"": 1.0}",0.0385,1.0,s,1.0,1.0,"[""s"", ""s"", ""s"", ""s"", ""s""]",s
+oss120,R_low,first,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""e"": 1.0}",0.0385,0.2,e,1.0,1.0,"[""d"", ""e"", ""d"", ""d"", ""d""]",d
+oss120,R_low,second,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""l"": 1.0}",0.0385,0.0,l,1.0,1.0,"[""o"", ""o"", ""o"", ""o"", ""o""]",o
+oss120,R_low,penultimate,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""n"": 1.0}",0.0385,1.0,n,1.0,1.0,"[""n"", ""n"", ""n"", ""n"", ""n""]",n
+oss120,R_low,last,5,5,5,"{""abandoned"": 0, ""decline"": 0, ""invalid"": 0, ""ok"": 5, ""prefix_leak"": 0, ""truncated"": 0}","{""t"": 1.0}",0.0385,0.0,t,1.0,1.0,"[""g"", ""g"", ""g"", ""g"", ""g""]",g

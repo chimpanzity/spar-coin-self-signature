@@ -1,0 +1,55 @@
+PHASE 1:
+Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.
+
+PHASE 2A (original wording, pos 2):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the second integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the second integer.
+
+PHASE 2B (revised wording, pos 1 = 'first'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+Your response to that request would be one specific string of 10 integers. What is the first integer in that string?
+
+Do not write out the string or any other integers. Return only the first integer.
+
+PHASE 2B (revised wording, pos 2 = 'second'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+Your response to that request would be one specific string of 10 integers. What is the second integer in that string?
+
+Do not write out the string or any other integers. Return only the second integer.
+
+PHASE 2B (revised wording, pos 5 = 'fifth'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+Your response to that request would be one specific string of 10 integers. What is the fifth integer in that string?
+
+Do not write out the string or any other integers. Return only the fifth integer.
+
+PHASE 2B (revised wording, pos 9 = 'ninth'):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+Your response to that request would be one specific string of 10 integers. What is the ninth integer in that string?
+
+Do not write out the string or any other integers. Return only the ninth integer.
+
+PHASE 2C (full-sequence reenactment):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+Write out exactly the response you would give to that request. Return only those 10 integers, separated by single spaces, with no other text.
+

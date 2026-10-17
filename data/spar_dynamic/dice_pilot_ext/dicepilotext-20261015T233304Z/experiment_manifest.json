@@ -1,0 +1,607 @@
+{
+  "entries": [
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase1|oss120|R_low|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase1|oss120|R_low|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase1|oss120|R_low|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase1|oss120|R_low|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase1|oss120|R_low|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss120|R_low|pos9|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss120|R_low|pos1|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss120|R_low|pos1|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss120|R_low|pos9|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss120|R_low|pos2|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss120|R_low|pos2|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss120|R_low|pos5|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss120|R_low|pos9|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss120|R_low|pos2|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss120|R_low|pos1|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss120|R_low|pos5|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss120|R_low|pos1|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss120|R_low|pos1|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss120|R_low|pos5|rep00"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss120|R_low|pos9|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss120|R_low|pos2|rep02"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss120|R_low|pos5|rep01"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss120|R_low|pos2|rep03"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss120|R_low|pos5|rep04"
+    },
+    {
+      "model_label": "oss120",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss120|R_low|pos9|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase1|oss20|R_low|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase1|oss20|R_low|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase1|oss20|R_low|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase1|oss20|R_low|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase1|oss20|R_low|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss20|R_low|pos1|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss20|R_low|pos1|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss20|R_low|pos2|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss20|R_low|pos2|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss20|R_low|pos9|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss20|R_low|pos5|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss20|R_low|pos5|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss20|R_low|pos2|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss20|R_low|pos2|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss20|R_low|pos9|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 0,
+      "trial_id": "phase2|oss20|R_low|pos9|rep00"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss20|R_low|pos1|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss20|R_low|pos5|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss20|R_low|pos2|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss20|R_low|pos5|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 1,
+      "trial_id": "phase2|oss20|R_low|pos9|rep01"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 2,
+      "trial_id": "phase2|oss20|R_low|pos1|rep02"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss20|R_low|pos5|rep03"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_low",
+      "replicate": 4,
+      "trial_id": "phase2|oss20|R_low|pos1|rep04"
+    },
+    {
+      "model_label": "oss20",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_low",
+      "replicate": 3,
+      "trial_id": "phase2|oss20|R_low|pos9|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase1|sonnet|R_min|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase1|sonnet|R_min|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase1|sonnet|R_min|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase1|sonnet|R_min|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase1",
+      "position": null,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase1|sonnet|R_min|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2|sonnet|R_min|pos9|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2|sonnet|R_min|pos2|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2|sonnet|R_min|pos5|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2|sonnet|R_min|pos1|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2|sonnet|R_min|pos2|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2|sonnet|R_min|pos2|rep00"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2|sonnet|R_min|pos9|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2|sonnet|R_min|pos9|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 4,
+      "trial_id": "phase2|sonnet|R_min|pos5|rep04"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2|sonnet|R_min|pos5|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2|sonnet|R_min|pos5|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2|sonnet|R_min|pos2|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 5,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2|sonnet|R_min|pos5|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2|sonnet|R_min|pos1|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2|sonnet|R_min|pos9|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 2,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2|sonnet|R_min|pos2|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 2,
+      "trial_id": "phase2|sonnet|R_min|pos1|rep02"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 1,
+      "trial_id": "phase2|sonnet|R_min|pos1|rep01"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 9,
+      "reasoning_config_label": "R_min",
+      "replicate": 3,
+      "trial_id": "phase2|sonnet|R_min|pos9|rep03"
+    },
+    {
+      "model_label": "sonnet",
+      "phase": "phase2",
+      "position": 1,
+      "reasoning_config_label": "R_min",
+      "replicate": 0,
+      "trial_id": "phase2|sonnet|R_min|pos1|rep00"
+    }
+  ],
+  "n_entries": 75,
+  "scheduling_seed": 2026101502,
+  "spec_version": "DICE_PILOT_EXT_v1.0"
+}

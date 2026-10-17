@@ -1,0 +1,7 @@
+predictor,target,attempted,ok,decline,prefix_leak,invalid,truncated,abandoned,ok_rate,decline_rate
+astra,fable,20,20,0,0,0,0,0,1.0,0.0
+astra,oss120,20,20,0,0,0,0,0,1.0,0.0
+fable,astra,20,0,20,0,0,0,0,0.0,1.0
+fable,oss120,20,5,14,1,0,0,0,0.25,0.7
+oss120,astra,20,20,0,0,0,0,0,1.0,0.0
+oss120,fable,20,20,0,0,0,0,0,1.0,0.0

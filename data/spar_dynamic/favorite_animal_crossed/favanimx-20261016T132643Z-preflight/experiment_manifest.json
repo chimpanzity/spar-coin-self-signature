@@ -1,0 +1,977 @@
+{
+  "entries": [
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|posfirst|rep01"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|possecond|rep04"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|pospenultimate|rep04"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|pospenultimate|rep03"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|pospenultimate|rep01"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|poslast|rep01"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|posfirst|rep00"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|posfirst|rep04"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|pospenultimate|rep02"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|possecond|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|poslast|rep00"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|possecond|rep01"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|posfirst|rep02"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|posfirst|rep03"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|possecond|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|pospenultimate|rep00"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|poslast|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|poslast|rep04"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|poslast|rep03"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|astra|targetfable|possecond|rep03"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|pospenultimate|rep03"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|posfirst|rep03"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|pospenultimate|rep02"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|possecond|rep04"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|pospenultimate|rep01"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|poslast|rep01"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|poslast|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|pospenultimate|rep00"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|posfirst|rep00"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|posfirst|rep04"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|possecond|rep01"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|poslast|rep02"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|pospenultimate|rep04"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|poslast|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "astra",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|poslast|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|posfirst|rep01"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|possecond|rep03"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|possecond|rep02"
+    },
+    {
+      "position": "first",
+      "predictor_model": "astra",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|posfirst|rep02"
+    },
+    {
+      "position": "second",
+      "predictor_model": "astra",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|astra|targetoss120|possecond|rep00"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|possecond|rep02"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|pospenultimate|rep03"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|posfirst|rep00"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|possecond|rep03"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|posfirst|rep04"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|poslast|rep00"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|posfirst|rep02"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|posfirst|rep01"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|pospenultimate|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|posfirst|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|poslast|rep03"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|pospenultimate|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|poslast|rep04"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|possecond|rep01"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|poslast|rep01"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|pospenultimate|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|pospenultimate|rep01"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|poslast|rep02"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|possecond|rep00"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|fable|targetastra|possecond|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|posfirst|rep01"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|pospenultimate|rep02"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|posfirst|rep00"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|posfirst|rep03"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|posfirst|rep02"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|possecond|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|posfirst|rep04"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|poslast|rep04"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|pospenultimate|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|pospenultimate|rep03"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 4,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|pospenultimate|rep04"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|poslast|rep01"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|pospenultimate|rep01"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|possecond|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|poslast|rep02"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 1,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|possecond|rep01"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 2,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|possecond|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|poslast|rep00"
+    },
+    {
+      "position": "last",
+      "predictor_model": "fable",
+      "replicate": 3,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|poslast|rep03"
+    },
+    {
+      "position": "second",
+      "predictor_model": "fable",
+      "replicate": 0,
+      "target_model": "oss120",
+      "target_name": "GPT-OSS-120B",
+      "trial_id": "crossed|fable|targetoss120|possecond|rep00"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|possecond|rep04"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|possecond|rep01"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|pospenultimate|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|poslast|rep01"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|posfirst|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|posfirst|rep00"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|posfirst|rep01"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|possecond|rep02"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|pospenultimate|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|pospenultimate|rep01"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|possecond|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|pospenultimate|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|posfirst|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|poslast|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|poslast|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|poslast|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|posfirst|rep03"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|possecond|rep03"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|pospenultimate|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "astra",
+      "target_name": "GPT-6 Astra",
+      "trial_id": "crossed|oss120|targetastra|poslast|rep00"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|possecond|rep00"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|possecond|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|poslast|rep01"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|posfirst|rep01"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|posfirst|rep04"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|posfirst|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|poslast|rep02"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|posfirst|rep02"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|possecond|rep02"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 2,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|pospenultimate|rep02"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|poslast|rep04"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|poslast|rep03"
+    },
+    {
+      "position": "last",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|poslast|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 3,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|pospenultimate|rep03"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|possecond|rep04"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|pospenultimate|rep01"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|pospenultimate|rep00"
+    },
+    {
+      "position": "first",
+      "predictor_model": "oss120",
+      "replicate": 0,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|posfirst|rep00"
+    },
+    {
+      "position": "penultimate",
+      "predictor_model": "oss120",
+      "replicate": 4,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|pospenultimate|rep04"
+    },
+    {
+      "position": "second",
+      "predictor_model": "oss120",
+      "replicate": 1,
+      "target_model": "fable",
+      "target_name": "Claude Fable 5.1",
+      "trial_id": "crossed|oss120|targetfable|possecond|rep01"
+    }
+  ],
+  "n_entries": 120,
+  "prior_canonical_favorite": {
+    "astra": "octopus",
+    "fable": "octopus",
+    "oss120": "elephant"
+  },
+  "scheduling_seed": 2026101603,
+  "spec_version": "FAVORITE_ANIMAL_CROSSED_v1.0",
+  "target_named": {
+    "astra": "GPT-6 Astra",
+    "fable": "Claude Fable 5.1",
+    "oss120": "GPT-OSS-120B"
+  }
+}

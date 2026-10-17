@@ -1,0 +1,13 @@
+[2026-10-16T13:28:41Z] START samples run_dir=data/spar_dynamic/favorite_animal_crossed/favanimx-20261016T132841Z-samples
+[2026-10-16T13:28:42Z] sample predictor=astra target=fable (Claude Fable 5.1)
+[2026-10-16T13:28:45Z]   -> text='t'  cost=$0.00225
+[2026-10-16T13:28:45Z] sample predictor=astra target=oss120 (GPT-OSS-120B)
+[2026-10-16T13:28:49Z]   -> text='s'  cost=$0.00388
+[2026-10-16T13:28:49Z] sample predictor=fable target=astra (GPT-6 Astra)
+[2026-10-16T13:28:53Z]   -> text="I can't know what a hypothetical future model would answer, "  cost=$0.00279
+[2026-10-16T13:28:53Z] sample predictor=fable target=oss120 (GPT-OSS-120B)
+[2026-10-16T13:28:58Z]   -> text="I can't know for certain what GPT-OSS-120B would output, but"  cost=$0.00316
+[2026-10-16T13:28:58Z] sample predictor=oss120 target=astra (GPT-6 Astra)
+[2026-10-16T13:56:34Z]   -> text='g'  cost=$0.00007
+[2026-10-16T13:56:34Z] sample predictor=oss120 target=fable (Claude Fable 5.1)
+[2026-10-16T13:56:37Z]   -> text='g'  cost=$0.00006

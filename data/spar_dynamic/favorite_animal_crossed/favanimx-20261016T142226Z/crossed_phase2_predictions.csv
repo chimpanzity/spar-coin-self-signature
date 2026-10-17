@@ -1,0 +1,121 @@
+trial_id,predictor,target,target_name,position,replicate,status,letter
+crossed|astra|targetfable|posfirst|rep00,astra,fable,Claude Fable 5.1,first,0,ok,o
+crossed|astra|targetfable|posfirst|rep01,astra,fable,Claude Fable 5.1,first,1,ok,o
+crossed|astra|targetfable|posfirst|rep02,astra,fable,Claude Fable 5.1,first,2,ok,o
+crossed|astra|targetfable|posfirst|rep03,astra,fable,Claude Fable 5.1,first,3,ok,o
+crossed|astra|targetfable|posfirst|rep04,astra,fable,Claude Fable 5.1,first,4,ok,o
+crossed|astra|targetfable|poslast|rep00,astra,fable,Claude Fable 5.1,last,0,ok,t
+crossed|astra|targetfable|poslast|rep01,astra,fable,Claude Fable 5.1,last,1,ok,s
+crossed|astra|targetfable|poslast|rep02,astra,fable,Claude Fable 5.1,last,2,ok,s
+crossed|astra|targetfable|poslast|rep03,astra,fable,Claude Fable 5.1,last,3,ok,s
+crossed|astra|targetfable|poslast|rep04,astra,fable,Claude Fable 5.1,last,4,ok,s
+crossed|astra|targetfable|pospenultimate|rep00,astra,fable,Claude Fable 5.1,penultimate,0,ok,u
+crossed|astra|targetfable|pospenultimate|rep01,astra,fable,Claude Fable 5.1,penultimate,1,ok,u
+crossed|astra|targetfable|pospenultimate|rep02,astra,fable,Claude Fable 5.1,penultimate,2,ok,u
+crossed|astra|targetfable|pospenultimate|rep03,astra,fable,Claude Fable 5.1,penultimate,3,ok,u
+crossed|astra|targetfable|pospenultimate|rep04,astra,fable,Claude Fable 5.1,penultimate,4,ok,a
+crossed|astra|targetfable|possecond|rep00,astra,fable,Claude Fable 5.1,second,0,ok,c
+crossed|astra|targetfable|possecond|rep01,astra,fable,Claude Fable 5.1,second,1,ok,a
+crossed|astra|targetfable|possecond|rep02,astra,fable,Claude Fable 5.1,second,2,ok,c
+crossed|astra|targetfable|possecond|rep03,astra,fable,Claude Fable 5.1,second,3,ok,c
+crossed|astra|targetfable|possecond|rep04,astra,fable,Claude Fable 5.1,second,4,ok,c
+crossed|astra|targetoss120|posfirst|rep00,astra,oss120,GPT-OSS-120B,first,0,ok,o
+crossed|astra|targetoss120|posfirst|rep01,astra,oss120,GPT-OSS-120B,first,1,ok,d
+crossed|astra|targetoss120|posfirst|rep02,astra,oss120,GPT-OSS-120B,first,2,ok,o
+crossed|astra|targetoss120|posfirst|rep03,astra,oss120,GPT-OSS-120B,first,3,ok,o
+crossed|astra|targetoss120|posfirst|rep04,astra,oss120,GPT-OSS-120B,first,4,ok,o
+crossed|astra|targetoss120|poslast|rep00,astra,oss120,GPT-OSS-120B,last,0,ok,s
+crossed|astra|targetoss120|poslast|rep01,astra,oss120,GPT-OSS-120B,last,1,ok,t
+crossed|astra|targetoss120|poslast|rep02,astra,oss120,GPT-OSS-120B,last,2,ok,s
+crossed|astra|targetoss120|poslast|rep03,astra,oss120,GPT-OSS-120B,last,3,ok,s
+crossed|astra|targetoss120|poslast|rep04,astra,oss120,GPT-OSS-120B,last,4,ok,s
+crossed|astra|targetoss120|pospenultimate|rep00,astra,oss120,GPT-OSS-120B,penultimate,0,ok,u
+crossed|astra|targetoss120|pospenultimate|rep01,astra,oss120,GPT-OSS-120B,penultimate,1,ok,u
+crossed|astra|targetoss120|pospenultimate|rep02,astra,oss120,GPT-OSS-120B,penultimate,2,ok,i
+crossed|astra|targetoss120|pospenultimate|rep03,astra,oss120,GPT-OSS-120B,penultimate,3,ok,u
+crossed|astra|targetoss120|pospenultimate|rep04,astra,oss120,GPT-OSS-120B,penultimate,4,ok,u
+crossed|astra|targetoss120|possecond|rep00,astra,oss120,GPT-OSS-120B,second,0,ok,o
+crossed|astra|targetoss120|possecond|rep01,astra,oss120,GPT-OSS-120B,second,1,ok,o
+crossed|astra|targetoss120|possecond|rep02,astra,oss120,GPT-OSS-120B,second,2,ok,o
+crossed|astra|targetoss120|possecond|rep03,astra,oss120,GPT-OSS-120B,second,3,ok,o
+crossed|astra|targetoss120|possecond|rep04,astra,oss120,GPT-OSS-120B,second,4,ok,c
+crossed|fable|targetastra|posfirst|rep00,fable,astra,GPT-6 Astra,first,0,decline,
+crossed|fable|targetastra|posfirst|rep01,fable,astra,GPT-6 Astra,first,1,decline,
+crossed|fable|targetastra|posfirst|rep02,fable,astra,GPT-6 Astra,first,2,decline,
+crossed|fable|targetastra|posfirst|rep03,fable,astra,GPT-6 Astra,first,3,decline,
+crossed|fable|targetastra|posfirst|rep04,fable,astra,GPT-6 Astra,first,4,decline,
+crossed|fable|targetastra|poslast|rep00,fable,astra,GPT-6 Astra,last,0,decline,
+crossed|fable|targetastra|poslast|rep01,fable,astra,GPT-6 Astra,last,1,decline,
+crossed|fable|targetastra|poslast|rep02,fable,astra,GPT-6 Astra,last,2,decline,
+crossed|fable|targetastra|poslast|rep03,fable,astra,GPT-6 Astra,last,3,decline,
+crossed|fable|targetastra|poslast|rep04,fable,astra,GPT-6 Astra,last,4,decline,
+crossed|fable|targetastra|pospenultimate|rep00,fable,astra,GPT-6 Astra,penultimate,0,decline,
+crossed|fable|targetastra|pospenultimate|rep01,fable,astra,GPT-6 Astra,penultimate,1,decline,
+crossed|fable|targetastra|pospenultimate|rep02,fable,astra,GPT-6 Astra,penultimate,2,decline,
+crossed|fable|targetastra|pospenultimate|rep03,fable,astra,GPT-6 Astra,penultimate,3,decline,
+crossed|fable|targetastra|pospenultimate|rep04,fable,astra,GPT-6 Astra,penultimate,4,decline,
+crossed|fable|targetastra|possecond|rep00,fable,astra,GPT-6 Astra,second,0,decline,
+crossed|fable|targetastra|possecond|rep01,fable,astra,GPT-6 Astra,second,1,decline,
+crossed|fable|targetastra|possecond|rep02,fable,astra,GPT-6 Astra,second,2,decline,
+crossed|fable|targetastra|possecond|rep03,fable,astra,GPT-6 Astra,second,3,decline,
+crossed|fable|targetastra|possecond|rep04,fable,astra,GPT-6 Astra,second,4,decline,
+crossed|fable|targetoss120|posfirst|rep00,fable,oss120,GPT-OSS-120B,first,0,ok,o
+crossed|fable|targetoss120|posfirst|rep01,fable,oss120,GPT-OSS-120B,first,1,ok,o
+crossed|fable|targetoss120|posfirst|rep02,fable,oss120,GPT-OSS-120B,first,2,decline,
+crossed|fable|targetoss120|posfirst|rep03,fable,oss120,GPT-OSS-120B,first,3,ok,o
+crossed|fable|targetoss120|posfirst|rep04,fable,oss120,GPT-OSS-120B,first,4,ok,o
+crossed|fable|targetoss120|poslast|rep00,fable,oss120,GPT-OSS-120B,last,0,ok,s
+crossed|fable|targetoss120|poslast|rep01,fable,oss120,GPT-OSS-120B,last,1,decline,
+crossed|fable|targetoss120|poslast|rep02,fable,oss120,GPT-OSS-120B,last,2,decline,
+crossed|fable|targetoss120|poslast|rep03,fable,oss120,GPT-OSS-120B,last,3,prefix_leak,
+crossed|fable|targetoss120|poslast|rep04,fable,oss120,GPT-OSS-120B,last,4,decline,
+crossed|fable|targetoss120|pospenultimate|rep00,fable,oss120,GPT-OSS-120B,penultimate,0,decline,
+crossed|fable|targetoss120|pospenultimate|rep01,fable,oss120,GPT-OSS-120B,penultimate,1,decline,
+crossed|fable|targetoss120|pospenultimate|rep02,fable,oss120,GPT-OSS-120B,penultimate,2,decline,
+crossed|fable|targetoss120|pospenultimate|rep03,fable,oss120,GPT-OSS-120B,penultimate,3,decline,
+crossed|fable|targetoss120|pospenultimate|rep04,fable,oss120,GPT-OSS-120B,penultimate,4,decline,
+crossed|fable|targetoss120|possecond|rep00,fable,oss120,GPT-OSS-120B,second,0,decline,
+crossed|fable|targetoss120|possecond|rep01,fable,oss120,GPT-OSS-120B,second,1,decline,
+crossed|fable|targetoss120|possecond|rep02,fable,oss120,GPT-OSS-120B,second,2,decline,
+crossed|fable|targetoss120|possecond|rep03,fable,oss120,GPT-OSS-120B,second,3,decline,
+crossed|fable|targetoss120|possecond|rep04,fable,oss120,GPT-OSS-120B,second,4,decline,
+crossed|oss120|targetastra|posfirst|rep00,oss120,astra,GPT-6 Astra,first,0,ok,d
+crossed|oss120|targetastra|posfirst|rep01,oss120,astra,GPT-6 Astra,first,1,ok,d
+crossed|oss120|targetastra|posfirst|rep02,oss120,astra,GPT-6 Astra,first,2,ok,d
+crossed|oss120|targetastra|posfirst|rep03,oss120,astra,GPT-6 Astra,first,3,ok,d
+crossed|oss120|targetastra|posfirst|rep04,oss120,astra,GPT-6 Astra,first,4,ok,d
+crossed|oss120|targetastra|poslast|rep00,oss120,astra,GPT-6 Astra,last,0,ok,g
+crossed|oss120|targetastra|poslast|rep01,oss120,astra,GPT-6 Astra,last,1,ok,g
+crossed|oss120|targetastra|poslast|rep02,oss120,astra,GPT-6 Astra,last,2,ok,g
+crossed|oss120|targetastra|poslast|rep03,oss120,astra,GPT-6 Astra,last,3,ok,g
+crossed|oss120|targetastra|poslast|rep04,oss120,astra,GPT-6 Astra,last,4,ok,g
+crossed|oss120|targetastra|pospenultimate|rep00,oss120,astra,GPT-6 Astra,penultimate,0,ok,o
+crossed|oss120|targetastra|pospenultimate|rep01,oss120,astra,GPT-6 Astra,penultimate,1,ok,o
+crossed|oss120|targetastra|pospenultimate|rep02,oss120,astra,GPT-6 Astra,penultimate,2,ok,o
+crossed|oss120|targetastra|pospenultimate|rep03,oss120,astra,GPT-6 Astra,penultimate,3,ok,o
+crossed|oss120|targetastra|pospenultimate|rep04,oss120,astra,GPT-6 Astra,penultimate,4,ok,o
+crossed|oss120|targetastra|possecond|rep00,oss120,astra,GPT-6 Astra,second,0,ok,o
+crossed|oss120|targetastra|possecond|rep01,oss120,astra,GPT-6 Astra,second,1,ok,o
+crossed|oss120|targetastra|possecond|rep02,oss120,astra,GPT-6 Astra,second,2,ok,o
+crossed|oss120|targetastra|possecond|rep03,oss120,astra,GPT-6 Astra,second,3,ok,o
+crossed|oss120|targetastra|possecond|rep04,oss120,astra,GPT-6 Astra,second,4,ok,o
+crossed|oss120|targetfable|posfirst|rep00,oss120,fable,Claude Fable 5.1,first,0,ok,c
+crossed|oss120|targetfable|posfirst|rep01,oss120,fable,Claude Fable 5.1,first,1,ok,d
+crossed|oss120|targetfable|posfirst|rep02,oss120,fable,Claude Fable 5.1,first,2,ok,d
+crossed|oss120|targetfable|posfirst|rep03,oss120,fable,Claude Fable 5.1,first,3,ok,d
+crossed|oss120|targetfable|posfirst|rep04,oss120,fable,Claude Fable 5.1,first,4,ok,d
+crossed|oss120|targetfable|poslast|rep00,oss120,fable,Claude Fable 5.1,last,0,ok,g
+crossed|oss120|targetfable|poslast|rep01,oss120,fable,Claude Fable 5.1,last,1,ok,g
+crossed|oss120|targetfable|poslast|rep02,oss120,fable,Claude Fable 5.1,last,2,ok,g
+crossed|oss120|targetfable|poslast|rep03,oss120,fable,Claude Fable 5.1,last,3,ok,g
+crossed|oss120|targetfable|poslast|rep04,oss120,fable,Claude Fable 5.1,last,4,ok,g
+crossed|oss120|targetfable|pospenultimate|rep00,oss120,fable,Claude Fable 5.1,penultimate,0,ok,o
+crossed|oss120|targetfable|pospenultimate|rep01,oss120,fable,Claude Fable 5.1,penultimate,1,ok,o
+crossed|oss120|targetfable|pospenultimate|rep02,oss120,fable,Claude Fable 5.1,penultimate,2,ok,o
+crossed|oss120|targetfable|pospenultimate|rep03,oss120,fable,Claude Fable 5.1,penultimate,3,ok,o
+crossed|oss120|targetfable|pospenultimate|rep04,oss120,fable,Claude Fable 5.1,penultimate,4,ok,o
+crossed|oss120|targetfable|possecond|rep00,oss120,fable,Claude Fable 5.1,second,0,ok,o
+crossed|oss120|targetfable|possecond|rep01,oss120,fable,Claude Fable 5.1,second,1,ok,o
+crossed|oss120|targetfable|possecond|rep02,oss120,fable,Claude Fable 5.1,second,2,ok,o
+crossed|oss120|targetfable|possecond|rep03,oss120,fable,Claude Fable 5.1,second,3,ok,o
+crossed|oss120|targetfable|possecond|rep04,oss120,fable,Claude Fable 5.1,second,4,ok,o

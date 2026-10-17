@@ -1,0 +1,16 @@
+trial_id,model,config,replicate,normalized_name,scoring_string
+phase1|astra|R_min|rep00,astra,R_min,0,octopus,octopus
+phase1|astra|R_min|rep01,astra,R_min,1,octopus,octopus
+phase1|astra|R_min|rep02,astra,R_min,2,octopus,octopus
+phase1|astra|R_min|rep03,astra,R_min,3,octopus,octopus
+phase1|astra|R_min|rep04,astra,R_min,4,octopus,octopus
+phase1|fable|R_min|rep00,fable,R_min,0,octopus,octopus
+phase1|fable|R_min|rep01,fable,R_min,1,octopus,octopus
+phase1|fable|R_min|rep02,fable,R_min,2,octopus,octopus
+phase1|fable|R_min|rep03,fable,R_min,3,octopus,octopus
+phase1|fable|R_min|rep04,fable,R_min,4,octopus,octopus
+phase1|oss120|R_low|rep00,oss120,R_low,0,elephant,elephant
+phase1|oss120|R_low|rep01,oss120,R_low,1,elephant,elephant
+phase1|oss120|R_low|rep02,oss120,R_low,2,elephant,elephant
+phase1|oss120|R_low|rep03,oss120,R_low,3,elephant,elephant
+phase1|oss120|R_low|rep04,oss120,R_low,4,elephant,elephant

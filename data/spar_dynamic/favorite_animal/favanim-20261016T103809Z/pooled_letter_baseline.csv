@@ -1,0 +1,4 @@
+model,config,pooled_mode_letter,pooled_mode_frequency,n_pooled_letters,pooled_distribution_top10,baseline_soft_accuracy_by_position
+astra,R_min,o,0.2857,35,"{""c"": 5, ""o"": 10, ""p"": 5, ""s"": 5, ""t"": 5, ""u"": 5}","{""first"": 1.0, ""last"": 0.0, ""penultimate"": 0.0, ""second"": 0.0}"
+fable,R_min,o,0.2857,35,"{""c"": 5, ""o"": 10, ""p"": 5, ""s"": 5, ""t"": 5, ""u"": 5}","{""first"": 1.0, ""last"": 0.0, ""penultimate"": 0.0, ""second"": 0.0}"
+oss120,R_low,e,0.25,40,"{""a"": 5, ""e"": 10, ""h"": 5, ""l"": 5, ""n"": 5, ""p"": 5, ""t"": 5}","{""first"": 1.0, ""last"": 0.0, ""penultimate"": 0.0, ""second"": 0.0}"

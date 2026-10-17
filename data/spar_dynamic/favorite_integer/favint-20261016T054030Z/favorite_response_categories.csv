@@ -1,0 +1,10 @@
+model,config,phase,attempted,ok,decline,prefix_leak,invalid,truncated,abandoned,ok_rate,decline_rate
+astra,R_min,phase1,5,5,0,0,0,0,0,1.0,0.0
+astra,R_min,phase2a,20,20,0,0,0,0,0,1.0,0.0
+astra,R_min,phase2b,5,5,0,0,0,0,0,1.0,0.0
+fable,R_min,phase1,5,5,0,0,0,0,0,1.0,0.0
+fable,R_min,phase2a,20,17,2,1,0,0,0,0.85,0.1
+fable,R_min,phase2b,5,5,0,0,0,0,0,1.0,0.0
+oss120,R_low,phase1,5,5,0,0,0,0,0,1.0,0.0
+oss120,R_low,phase2a,20,20,0,0,0,0,0,1.0,0.0
+oss120,R_low,phase2b,5,5,0,0,0,0,0,1.0,0.0

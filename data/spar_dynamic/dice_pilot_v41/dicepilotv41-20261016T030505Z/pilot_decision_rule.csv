@@ -1,0 +1,7 @@
+model,config,A1_revised_beats_original_at_pos2,A2_moves_away_from_constant,A3_not_missingness_driven,A_construal_evidence,C1_predictive_advantage_pos5or9,C1_qualifying_position,C1_margin,C2_modal_differs_across_positions,C3_no_observed_final_prefix,C3_reasoning_prefix_review_pending,C4_not_trivial_position,C_candidate_followup,B_dissociation_components
+astra,R_min,False,False,True,False,False,,,False,True,True,False,False,"[[5, 0.32, 0.0, 0.32], [9, 0.8, 0.0, 0.8]]"
+fable,R_min,False,False,True,False,False,,,False,True,True,False,False,"[[5, 0.44, 0.0, 0.44], [9, 0.2, 0.16, 0.04]]"
+sonnet,R_min,False,False,True,False,False,,,False,True,True,False,False,"[[5, 0.32, 0.08, 0.24], [9, 0.48, 0.0, 0.48]]"
+oss120,R_low,False,False,False,False,False,,,True,True,True,False,False,[]
+oss20,R_low,False,False,False,False,False,,,True,True,True,False,False,"[[5, 1.0, 0.0, 1.0]]"
+qwen,R_qwen_default,True,True,True,True,True,5,0.32,True,True,True,True,True,"[[5, 0.2, 0.52, -0.32], [9, 0.04, 0.0, 0.04]]"

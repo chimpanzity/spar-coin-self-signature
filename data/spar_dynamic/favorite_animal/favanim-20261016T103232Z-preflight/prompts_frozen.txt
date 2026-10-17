@@ -1,0 +1,46 @@
+PHASE 1:
+What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text.
+
+PHASE 2A (first):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+PHASE 2A (second):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+PHASE 2A (penultimate):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+PHASE 2A (last):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+PHASE 2B (full reenactment):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+Write out exactly the response you would give to that request. Return only the animal's name, with no explanation or additional text.
+

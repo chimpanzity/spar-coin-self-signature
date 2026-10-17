@@ -1,0 +1,89 @@
+{
+  "samples": [
+    {
+      "cost_usd": 0.00225,
+      "error": "",
+      "finish_reason": "stop",
+      "output_tokens": 28,
+      "position": "last",
+      "predictor": "astra",
+      "raw_text": "t",
+      "reasoning_content_excerpt": null,
+      "reasoning_tokens": 21,
+      "target": "fable",
+      "target_favorite": "octopus",
+      "target_name": "Claude Fable 5.1"
+    },
+    {
+      "cost_usd": 0.00388,
+      "error": "",
+      "finish_reason": "stop",
+      "output_tokens": 61,
+      "position": "last",
+      "predictor": "astra",
+      "raw_text": "s",
+      "reasoning_content_excerpt": "**Considering favorite animal predictions**\n\nI'm pondering how to predict a favorite animal, likely focusing on the octopus. Although we lack direct knowledge about the user's preferences, I need to lean on a common model, which defaults to dolphins, saying \"n.\" However, in this case, I\u2019m guessing the octopus is actually the favorite. This kind of question is useful for benchmarking self-predictio",
+      "reasoning_tokens": 54,
+      "target": "oss120",
+      "target_favorite": "elephant",
+      "target_name": "GPT-OSS-120B"
+    },
+    {
+      "cost_usd": 0.00279,
+      "error": "",
+      "finish_reason": "stop",
+      "output_tokens": 33,
+      "position": "last",
+      "predictor": "fable",
+      "raw_text": "I can't know what a hypothetical future model would answer, so I'll just offer my own pick.\n\na",
+      "reasoning_content_excerpt": null,
+      "reasoning_tokens": 0,
+      "target": "astra",
+      "target_favorite": "octopus",
+      "target_name": "GPT-6 Astra"
+    },
+    {
+      "cost_usd": 0.00316,
+      "error": "",
+      "finish_reason": "stop",
+      "output_tokens": 40,
+      "position": "last",
+      "predictor": "fable",
+      "raw_text": "I can't know for certain what GPT-OSS-120B would output, but a plausible common answer is one that would end in:\n\nt",
+      "reasoning_content_excerpt": null,
+      "reasoning_tokens": 0,
+      "target": "oss120",
+      "target_favorite": "elephant",
+      "target_name": "GPT-OSS-120B"
+    },
+    {
+      "cost_usd": 7.4e-05,
+      "error": "",
+      "finish_reason": "stop",
+      "output_tokens": 92,
+      "position": "last",
+      "predictor": "oss120",
+      "raw_text": "g",
+      "reasoning_content_excerpt": "We need answer: last letter of the animal name. Since instruction: respond with only the common English name of one animal, no explanation. So GPT-6 would pick some animal. Could be any. But we must infer likely? Probably \"dog\". Last letter g. Or \"cat\" -> t. Which is more likely? Probably \"dog\". Many examples use dog. So answer: g.",
+      "reasoning_tokens": 84,
+      "target": "astra",
+      "target_favorite": "octopus",
+      "target_name": "GPT-6 Astra"
+    },
+    {
+      "cost_usd": 6.1e-05,
+      "error": "",
+      "finish_reason": "stop",
+      "output_tokens": 68,
+      "position": "last",
+      "predictor": "oss120",
+      "raw_text": "g",
+      "reasoning_content_excerpt": "We need to infer Claude Fable 5.1's behavior. Likely it will answer with a single animal name, e.g., \"dog\". Last letter would be \"g\". But could be any. Probably choose a common animal like \"dog\". So answer \"g\".",
+      "reasoning_tokens": 53,
+      "target": "fable",
+      "target_favorite": "octopus",
+      "target_name": "Claude Fable 5.1"
+    }
+  ],
+  "total_cost_usd": 0.012215
+}

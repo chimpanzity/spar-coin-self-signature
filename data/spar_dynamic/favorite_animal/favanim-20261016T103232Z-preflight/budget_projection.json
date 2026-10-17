@@ -1,0 +1,34 @@
+{
+  "budget_cap_usd": 10.0,
+  "rows": [
+    {
+      "config": "R_min",
+      "max_tokens": 1500,
+      "model": "astra",
+      "n_calls": 30,
+      "per_call_usd_worst_case": 0.079,
+      "subtotal_usd_worst_case": 2.37,
+      "supported": true
+    },
+    {
+      "config": "R_min",
+      "max_tokens": 1500,
+      "model": "fable",
+      "n_calls": 30,
+      "per_call_usd_worst_case": 0.079,
+      "subtotal_usd_worst_case": 2.37,
+      "supported": true
+    },
+    {
+      "config": "R_low",
+      "max_tokens": 4000,
+      "model": "oss120",
+      "n_calls": 30,
+      "per_call_usd_worst_case": 0.00246,
+      "subtotal_usd_worst_case": 0.0738,
+      "supported": true
+    }
+  ],
+  "total_usd_worst_case": 4.8138,
+  "within_cap": true
+}

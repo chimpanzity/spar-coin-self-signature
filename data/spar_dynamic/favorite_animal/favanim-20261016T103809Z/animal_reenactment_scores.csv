@@ -1,0 +1,4 @@
+model,config,n_phase1_valid,n_phase2b_valid,n_phase2b_attempted,phase1_modal_name,mean_positional_agreement_by_pos,exact_name_match_any_phase1,pairwise_exact_match_rate,agreement_with_phase1_modal_name,unique_reenacted_names,phase2b_names
+astra,R_min,5,5,5,octopus,"{""first"": 1.0, ""last"": 1.0, ""penultimate"": 1.0, ""second"": 1.0}",5,1.0,1.0,1,"[""octopus"", ""octopus"", ""octopus"", ""octopus"", ""octopus""]"
+fable,R_min,5,5,5,octopus,"{""first"": 1.0, ""last"": 1.0, ""penultimate"": 1.0, ""second"": 1.0}",5,1.0,1.0,1,"[""octopus"", ""octopus"", ""octopus"", ""octopus"", ""octopus""]"
+oss120,R_low,5,5,5,elephant,"{""first"": 1.0, ""last"": 1.0, ""penultimate"": 1.0, ""second"": 1.0}",5,1.0,1.0,1,"[""elephant"", ""elephant"", ""elephant"", ""elephant"", ""elephant""]"

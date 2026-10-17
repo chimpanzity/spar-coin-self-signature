@@ -1,0 +1,13 @@
+model,position,R0_available,R1_available,R0_soft_accuracy,R1_soft_accuracy,R1_minus_R0,R0_pooled_digit_baseline,R1_pooled_digit_baseline,R0_minus_baseline,R1_minus_baseline
+astra,1,True,True,1.0,0.8,-0.2,0.0,0.0,1.0,0.8
+astra,2,True,True,0.0,0.0,0.0,1.0,0.8,-1.0,-0.8
+astra,5,True,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+astra,9,True,True,0.0,0.2,0.2,0.8,0.4,-0.8,-0.2
+fable,1,True,True,0.4,1.0,0.6,0.6,0.0,-0.2,1.0
+fable,2,True,True,0.0,0.0,0.0,0.0,1.0,0.0,-1.0
+fable,5,True,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fable,9,True,True,0.0,0.6,0.6,0.4,0.0,-0.4,0.6
+qwen,1,True,True,0.2,,,0.0,0.6,0.2,
+qwen,2,True,True,0.0,0.2667,0.2667,1.0,0.4,-1.0,-0.1333
+qwen,5,True,True,0.0,,,0.0,0.0,0.0,
+qwen,9,True,True,0.2,0.0,-0.2,0.2,0.2,0.0,-0.2

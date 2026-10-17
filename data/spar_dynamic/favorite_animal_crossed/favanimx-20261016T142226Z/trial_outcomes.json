@@ -1,0 +1,2988 @@
+{
+  "crossed|astra|targetfable|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00215,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 26,
+        "parse_category": "valid",
+        "reasoning_tokens": 19,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00215,
+    "trial_id": "crossed|astra|targetfable|posfirst|rep00"
+  },
+  "crossed|astra|targetfable|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00235,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 30,
+        "parse_category": "valid",
+        "reasoning_tokens": 23,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00235,
+    "trial_id": "crossed|astra|targetfable|posfirst|rep01"
+  },
+  "crossed|astra|targetfable|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0022500000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 28,
+        "parse_category": "valid",
+        "reasoning_tokens": 21,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00225,
+    "trial_id": "crossed|astra|targetfable|posfirst|rep02"
+  },
+  "crossed|astra|targetfable|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0022,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 27,
+        "parse_category": "valid",
+        "reasoning_tokens": 20,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0022,
+    "trial_id": "crossed|astra|targetfable|posfirst|rep03"
+  },
+  "crossed|astra|targetfable|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0026,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 35,
+        "parse_category": "valid",
+        "reasoning_tokens": 28,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0026,
+    "trial_id": "crossed|astra|targetfable|posfirst|rep04"
+  },
+  "crossed|astra|targetfable|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0019000000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 14,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "t",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0019,
+    "trial_id": "crossed|astra|targetfable|poslast|rep00"
+  },
+  "crossed|astra|targetfable|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0026,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 35,
+        "parse_category": "valid",
+        "reasoning_tokens": 28,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0026,
+    "trial_id": "crossed|astra|targetfable|poslast|rep01"
+  },
+  "crossed|astra|targetfable|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0026,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 35,
+        "parse_category": "valid",
+        "reasoning_tokens": 28,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0026,
+    "trial_id": "crossed|astra|targetfable|poslast|rep02"
+  },
+  "crossed|astra|targetfable|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0032,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 47,
+        "parse_category": "valid",
+        "reasoning_tokens": 40,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0032,
+    "trial_id": "crossed|astra|targetfable|poslast|rep03"
+  },
+  "crossed|astra|targetfable|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00245,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 32,
+        "parse_category": "valid",
+        "reasoning_tokens": 25,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00245,
+    "trial_id": "crossed|astra|targetfable|poslast|rep04"
+  },
+  "crossed|astra|targetfable|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00442,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 71,
+        "parse_category": "valid",
+        "reasoning_tokens": 64,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00442,
+    "trial_id": "crossed|astra|targetfable|pospenultimate|rep00"
+  },
+  "crossed|astra|targetfable|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00317,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 46,
+        "parse_category": "valid",
+        "reasoning_tokens": 39,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00317,
+    "trial_id": "crossed|astra|targetfable|pospenultimate|rep01"
+  },
+  "crossed|astra|targetfable|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0029700000000000004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 42,
+        "parse_category": "valid",
+        "reasoning_tokens": 35,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00297,
+    "trial_id": "crossed|astra|targetfable|pospenultimate|rep02"
+  },
+  "crossed|astra|targetfable|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00602,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 103,
+        "parse_category": "valid",
+        "reasoning_tokens": 96,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00602,
+    "trial_id": "crossed|astra|targetfable|pospenultimate|rep03"
+  },
+  "crossed|astra|targetfable|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00252,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 33,
+        "parse_category": "valid",
+        "reasoning_tokens": 26,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "a",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00252,
+    "trial_id": "crossed|astra|targetfable|pospenultimate|rep04"
+  },
+  "crossed|astra|targetfable|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.006050000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 104,
+        "parse_category": "valid",
+        "reasoning_tokens": 97,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "c",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00605,
+    "trial_id": "crossed|astra|targetfable|possecond|rep00"
+  },
+  "crossed|astra|targetfable|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0019000000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 21,
+        "parse_category": "valid",
+        "reasoning_tokens": 14,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "a",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0019,
+    "trial_id": "crossed|astra|targetfable|possecond|rep01"
+  },
+  "crossed|astra|targetfable|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00405,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 64,
+        "parse_category": "valid",
+        "reasoning_tokens": 57,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "c",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00405,
+    "trial_id": "crossed|astra|targetfable|possecond|rep02"
+  },
+  "crossed|astra|targetfable|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.004750000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 78,
+        "parse_category": "valid",
+        "reasoning_tokens": 71,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "c",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.00475,
+    "trial_id": "crossed|astra|targetfable|possecond|rep03"
+  },
+  "crossed|astra|targetfable|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0038,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 59,
+        "parse_category": "valid",
+        "reasoning_tokens": 52,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "c",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 0.0038,
+    "trial_id": "crossed|astra|targetfable|possecond|rep04"
+  },
+  "crossed|astra|targetoss120|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00398,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 63,
+        "parse_category": "valid",
+        "reasoning_tokens": 56,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00398,
+    "trial_id": "crossed|astra|targetoss120|posfirst|rep00"
+  },
+  "crossed|astra|targetoss120|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00333,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 50,
+        "parse_category": "valid",
+        "reasoning_tokens": 43,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00333,
+    "trial_id": "crossed|astra|targetoss120|posfirst|rep01"
+  },
+  "crossed|astra|targetoss120|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00268,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 37,
+        "parse_category": "valid",
+        "reasoning_tokens": 30,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00268,
+    "trial_id": "crossed|astra|targetoss120|posfirst|rep02"
+  },
+  "crossed|astra|targetoss120|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0027800000000000004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 39,
+        "parse_category": "valid",
+        "reasoning_tokens": 32,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00278,
+    "trial_id": "crossed|astra|targetoss120|posfirst|rep03"
+  },
+  "crossed|astra|targetoss120|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00248,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 33,
+        "parse_category": "valid",
+        "reasoning_tokens": 26,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00248,
+    "trial_id": "crossed|astra|targetoss120|posfirst|rep04"
+  },
+  "crossed|astra|targetoss120|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00378,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 59,
+        "parse_category": "valid",
+        "reasoning_tokens": 52,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00378,
+    "trial_id": "crossed|astra|targetoss120|poslast|rep00"
+  },
+  "crossed|astra|targetoss120|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0037300000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 58,
+        "parse_category": "valid",
+        "reasoning_tokens": 51,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "t",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00373,
+    "trial_id": "crossed|astra|targetoss120|poslast|rep01"
+  },
+  "crossed|astra|targetoss120|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00333,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 50,
+        "parse_category": "valid",
+        "reasoning_tokens": 43,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00333,
+    "trial_id": "crossed|astra|targetoss120|poslast|rep02"
+  },
+  "crossed|astra|targetoss120|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.005030000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 84,
+        "parse_category": "valid",
+        "reasoning_tokens": 77,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00503,
+    "trial_id": "crossed|astra|targetoss120|poslast|rep03"
+  },
+  "crossed|astra|targetoss120|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00238,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 31,
+        "parse_category": "valid",
+        "reasoning_tokens": 24,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00238,
+    "trial_id": "crossed|astra|targetoss120|poslast|rep04"
+  },
+  "crossed|astra|targetoss120|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 63,
+        "parse_category": "valid",
+        "reasoning_tokens": 56,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.004,
+    "trial_id": "crossed|astra|targetoss120|pospenultimate|rep00"
+  },
+  "crossed|astra|targetoss120|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00425,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 68,
+        "parse_category": "valid",
+        "reasoning_tokens": 61,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00425,
+    "trial_id": "crossed|astra|targetoss120|pospenultimate|rep01"
+  },
+  "crossed|astra|targetoss120|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0032500000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 48,
+        "parse_category": "valid",
+        "reasoning_tokens": 41,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "i",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00325,
+    "trial_id": "crossed|astra|targetoss120|pospenultimate|rep02"
+  },
+  "crossed|astra|targetoss120|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00335,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 50,
+        "parse_category": "valid",
+        "reasoning_tokens": 43,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00335,
+    "trial_id": "crossed|astra|targetoss120|pospenultimate|rep03"
+  },
+  "crossed|astra|targetoss120|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00435,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 70,
+        "parse_category": "valid",
+        "reasoning_tokens": 63,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "u",
+    "position": "penultimate",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00435,
+    "trial_id": "crossed|astra|targetoss120|pospenultimate|rep04"
+  },
+  "crossed|astra|targetoss120|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00393,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 62,
+        "parse_category": "valid",
+        "reasoning_tokens": 55,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00393,
+    "trial_id": "crossed|astra|targetoss120|possecond|rep00"
+  },
+  "crossed|astra|targetoss120|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.004730000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 78,
+        "parse_category": "valid",
+        "reasoning_tokens": 71,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00473,
+    "trial_id": "crossed|astra|targetoss120|possecond|rep01"
+  },
+  "crossed|astra|targetoss120|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0021300000000000004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 26,
+        "parse_category": "valid",
+        "reasoning_tokens": 19,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00213,
+    "trial_id": "crossed|astra|targetoss120|possecond|rep02"
+  },
+  "crossed|astra|targetoss120|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0046300000000000004,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 76,
+        "parse_category": "valid",
+        "reasoning_tokens": 69,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00463,
+    "trial_id": "crossed|astra|targetoss120|possecond|rep03"
+  },
+  "crossed|astra|targetoss120|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0030800000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 45,
+        "parse_category": "valid",
+        "reasoning_tokens": 38,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "c",
+    "position": "second",
+    "predictor_model": "astra",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00308,
+    "trial_id": "crossed|astra|targetoss120|possecond|rep04"
+  },
+  "crossed|fable|targetastra|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.004690000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 71,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00469,
+    "trial_id": "crossed|fable|targetastra|posfirst|rep00"
+  },
+  "crossed|fable|targetastra|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.006390000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 105,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00639,
+    "trial_id": "crossed|fable|targetastra|posfirst|rep01"
+  },
+  "crossed|fable|targetastra|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.007540000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 128,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00754,
+    "trial_id": "crossed|fable|targetastra|posfirst|rep02"
+  },
+  "crossed|fable|targetastra|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00519,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 81,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00519,
+    "trial_id": "crossed|fable|targetastra|posfirst|rep03"
+  },
+  "crossed|fable|targetastra|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.007690000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 131,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00769,
+    "trial_id": "crossed|fable|targetastra|posfirst|rep04"
+  },
+  "crossed|fable|targetastra|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.005090000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 79,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00509,
+    "trial_id": "crossed|fable|targetastra|poslast|rep00"
+  },
+  "crossed|fable|targetastra|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.005640000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 90,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00564,
+    "trial_id": "crossed|fable|targetastra|poslast|rep01"
+  },
+  "crossed|fable|targetastra|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.005790000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 93,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00579,
+    "trial_id": "crossed|fable|targetastra|poslast|rep02"
+  },
+  "crossed|fable|targetastra|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00459,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 69,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00459,
+    "trial_id": "crossed|fable|targetastra|poslast|rep03"
+  },
+  "crossed|fable|targetastra|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0038400000000000005,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 54,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00384,
+    "trial_id": "crossed|fable|targetastra|poslast|rep04"
+  },
+  "crossed|fable|targetastra|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0035,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 46,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.0035,
+    "trial_id": "crossed|fable|targetastra|pospenultimate|rep00"
+  },
+  "crossed|fable|targetastra|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0046,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 68,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.0046,
+    "trial_id": "crossed|fable|targetastra|pospenultimate|rep01"
+  },
+  "crossed|fable|targetastra|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00435,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 63,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00435,
+    "trial_id": "crossed|fable|targetastra|pospenultimate|rep02"
+  },
+  "crossed|fable|targetastra|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00595,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 95,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00595,
+    "trial_id": "crossed|fable|targetastra|pospenultimate|rep03"
+  },
+  "crossed|fable|targetastra|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0051,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 78,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.0051,
+    "trial_id": "crossed|fable|targetastra|pospenultimate|rep04"
+  },
+  "crossed|fable|targetastra|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.007190000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 121,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00719,
+    "trial_id": "crossed|fable|targetastra|possecond|rep00"
+  },
+  "crossed|fable|targetastra|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.006190000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 101,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00619,
+    "trial_id": "crossed|fable|targetastra|possecond|rep01"
+  },
+  "crossed|fable|targetastra|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.006540000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 108,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00654,
+    "trial_id": "crossed|fable|targetastra|possecond|rep02"
+  },
+  "crossed|fable|targetastra|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.007090000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 119,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00709,
+    "trial_id": "crossed|fable|targetastra|possecond|rep03"
+  },
+  "crossed|fable|targetastra|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00379,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 53,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "decline",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 0.00379,
+    "trial_id": "crossed|fable|targetastra|possecond|rep04"
+  },
+  "crossed|fable|targetoss120|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00131,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00131,
+    "trial_id": "crossed|fable|targetoss120|posfirst|rep00"
+  },
+  "crossed|fable|targetoss120|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00131,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00131,
+    "trial_id": "crossed|fable|targetoss120|posfirst|rep01"
+  },
+  "crossed|fable|targetoss120|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00426,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 62,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00426,
+    "trial_id": "crossed|fable|targetoss120|posfirst|rep02"
+  },
+  "crossed|fable|targetoss120|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00131,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00131,
+    "trial_id": "crossed|fable|targetoss120|posfirst|rep03"
+  },
+  "crossed|fable|targetoss120|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00131,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 3,
+        "parse_category": "valid",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "first",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00131,
+    "trial_id": "crossed|fable|targetoss120|posfirst|rep04"
+  },
+  "crossed|fable|targetoss120|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0069099999999999995,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 115,
+        "parse_category": "valid",
+        "reasoning_tokens": 112,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "s",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00691,
+    "trial_id": "crossed|fable|targetoss120|poslast|rep00"
+  },
+  "crossed|fable|targetoss120|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00401,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 57,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00401,
+    "trial_id": "crossed|fable|targetoss120|poslast|rep01"
+  },
+  "crossed|fable|targetoss120|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00461,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 69,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00461,
+    "trial_id": "crossed|fable|targetoss120|poslast|rep02"
+  },
+  "crossed|fable|targetoss120|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00206,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 18,
+        "parse_category": "prefix_leak",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "extracted_letters": [
+      "l",
+      "i",
+      "k",
+      "e",
+      "l",
+      "y",
+      "a",
+      "n",
+      "s",
+      "w",
+      "e",
+      "r",
+      "o",
+      "c",
+      "t",
+      "o",
+      "p",
+      "u",
+      "s"
+    ],
+    "first_response_category": "prefix_leak",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "prefix_leak",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00206,
+    "trial_id": "crossed|fable|targetoss120|poslast|rep03"
+  },
+  "crossed|fable|targetoss120|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00361,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 49,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "last",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00361,
+    "trial_id": "crossed|fable|targetoss120|poslast|rep04"
+  },
+  "crossed|fable|targetoss120|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.007420000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 124,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00742,
+    "trial_id": "crossed|fable|targetoss120|pospenultimate|rep00"
+  },
+  "crossed|fable|targetoss120|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.005770000000000001,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 91,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00577,
+    "trial_id": "crossed|fable|targetoss120|pospenultimate|rep01"
+  },
+  "crossed|fable|targetoss120|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00367,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 49,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00367,
+    "trial_id": "crossed|fable|targetoss120|pospenultimate|rep02"
+  },
+  "crossed|fable|targetoss120|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00367,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 49,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00367,
+    "trial_id": "crossed|fable|targetoss120|pospenultimate|rep03"
+  },
+  "crossed|fable|targetoss120|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00412,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 58,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "penultimate",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00412,
+    "trial_id": "crossed|fable|targetoss120|pospenultimate|rep04"
+  },
+  "crossed|fable|targetoss120|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0037600000000000003,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 52,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 0,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00376,
+    "trial_id": "crossed|fable|targetoss120|possecond|rep00"
+  },
+  "crossed|fable|targetoss120|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0035600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 48,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 1,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00356,
+    "trial_id": "crossed|fable|targetoss120|possecond|rep01"
+  },
+  "crossed|fable|targetoss120|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00436,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 64,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 2,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00436,
+    "trial_id": "crossed|fable|targetoss120|possecond|rep02"
+  },
+  "crossed|fable|targetoss120|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.0035600000000000002,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 48,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 3,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00356,
+    "trial_id": "crossed|fable|targetoss120|possecond|rep03"
+  },
+  "crossed|fable|targetoss120|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 0.00381,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 53,
+        "parse_category": "decline",
+        "reasoning_tokens": 0,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "decline",
+    "position": "second",
+    "predictor_model": "fable",
+    "replicate": 4,
+    "status": "decline",
+    "target_model": "oss120",
+    "target_name": "GPT-OSS-120B",
+    "total_cost_usd": 0.00381,
+    "trial_id": "crossed|fable|targetoss120|possecond|rep04"
+  },
+  "crossed|oss120|targetastra|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.8249999999999995e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 32,
+        "parse_category": "valid",
+        "reasoning_tokens": 23,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 3.8e-05,
+    "trial_id": "crossed|oss120|targetastra|posfirst|rep00"
+  },
+  "crossed|oss120|targetastra|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.8849999999999996e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 33,
+        "parse_category": "valid",
+        "reasoning_tokens": 24,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 3.9e-05,
+    "trial_id": "crossed|oss120|targetastra|posfirst|rep01"
+  },
+  "crossed|oss120|targetastra|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.8849999999999996e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 33,
+        "parse_category": "valid",
+        "reasoning_tokens": 24,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 3.9e-05,
+    "trial_id": "crossed|oss120|targetastra|posfirst|rep02"
+  },
+  "crossed|oss120|targetastra|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.645e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 29,
+        "parse_category": "valid",
+        "reasoning_tokens": 20,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 3.6e-05,
+    "trial_id": "crossed|oss120|targetastra|posfirst|rep03"
+  },
+  "crossed|oss120|targetastra|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 3.705e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 30,
+        "parse_category": "valid",
+        "reasoning_tokens": 22,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 3.7e-05,
+    "trial_id": "crossed|oss120|targetastra|posfirst|rep04"
+  },
+  "crossed|oss120|targetastra|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.425e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 92,
+        "parse_category": "valid",
+        "reasoning_tokens": 84,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 7.4e-05,
+    "trial_id": "crossed|oss120|targetastra|poslast|rep00"
+  },
+  "crossed|oss120|targetastra|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.604999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 95,
+        "parse_category": "valid",
+        "reasoning_tokens": 91,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 7.6e-05,
+    "trial_id": "crossed|oss120|targetastra|poslast|rep01"
+  },
+  "crossed|oss120|targetastra|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.604999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 95,
+        "parse_category": "valid",
+        "reasoning_tokens": 91,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 7.6e-05,
+    "trial_id": "crossed|oss120|targetastra|poslast|rep02"
+  },
+  "crossed|oss120|targetastra|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.425e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 92,
+        "parse_category": "valid",
+        "reasoning_tokens": 84,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 7.4e-05,
+    "trial_id": "crossed|oss120|targetastra|poslast|rep03"
+  },
+  "crossed|oss120|targetastra|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.125e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 87,
+        "parse_category": "valid",
+        "reasoning_tokens": 80,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 7.1e-05,
+    "trial_id": "crossed|oss120|targetastra|poslast|rep04"
+  },
+  "crossed|oss120|targetastra|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.015e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 68,
+        "parse_category": "valid",
+        "reasoning_tokens": 59,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 6e-05,
+    "trial_id": "crossed|oss120|targetastra|pospenultimate|rep00"
+  },
+  "crossed|oss120|targetastra|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.355e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 57,
+        "parse_category": "valid",
+        "reasoning_tokens": 46,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 5.4e-05,
+    "trial_id": "crossed|oss120|targetastra|pospenultimate|rep01"
+  },
+  "crossed|oss120|targetastra|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.015e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 68,
+        "parse_category": "valid",
+        "reasoning_tokens": 59,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 6e-05,
+    "trial_id": "crossed|oss120|targetastra|pospenultimate|rep02"
+  },
+  "crossed|oss120|targetastra|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.235e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 55,
+        "parse_category": "valid",
+        "reasoning_tokens": 45,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 5.2e-05,
+    "trial_id": "crossed|oss120|targetastra|pospenultimate|rep03"
+  },
+  "crossed|oss120|targetastra|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.015e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 68,
+        "parse_category": "valid",
+        "reasoning_tokens": 59,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 6e-05,
+    "trial_id": "crossed|oss120|targetastra|pospenultimate|rep04"
+  },
+  "crossed|oss120|targetastra|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.125e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 37,
+        "parse_category": "valid",
+        "reasoning_tokens": 27,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 4.1e-05,
+    "trial_id": "crossed|oss120|targetastra|possecond|rep00"
+  },
+  "crossed|oss120|targetastra|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.125e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 37,
+        "parse_category": "valid",
+        "reasoning_tokens": 27,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 4.1e-05,
+    "trial_id": "crossed|oss120|targetastra|possecond|rep01"
+  },
+  "crossed|oss120|targetastra|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.125e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 37,
+        "parse_category": "valid",
+        "reasoning_tokens": 27,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 4.1e-05,
+    "trial_id": "crossed|oss120|targetastra|possecond|rep02"
+  },
+  "crossed|oss120|targetastra|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.125e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 37,
+        "parse_category": "valid",
+        "reasoning_tokens": 27,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 4.1e-05,
+    "trial_id": "crossed|oss120|targetastra|possecond|rep03"
+  },
+  "crossed|oss120|targetastra|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.125e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 37,
+        "parse_category": "valid",
+        "reasoning_tokens": 27,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "astra",
+    "target_name": "GPT-6 Astra",
+    "total_cost_usd": 4.1e-05,
+    "trial_id": "crossed|oss120|targetastra|possecond|rep04"
+  },
+  "crossed|oss120|targetfable|posfirst|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.654999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 61,
+        "parse_category": "valid",
+        "reasoning_tokens": 52,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "c",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 5.7e-05,
+    "trial_id": "crossed|oss120|targetfable|posfirst|rep00"
+  },
+  "crossed|oss120|targetfable|posfirst|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.515e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 42,
+        "parse_category": "valid",
+        "reasoning_tokens": 32,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 4.5e-05,
+    "trial_id": "crossed|oss120|targetfable|posfirst|rep01"
+  },
+  "crossed|oss120|targetfable|posfirst|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.515e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 42,
+        "parse_category": "valid",
+        "reasoning_tokens": 32,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 4.5e-05,
+    "trial_id": "crossed|oss120|targetfable|posfirst|rep02"
+  },
+  "crossed|oss120|targetfable|posfirst|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.8349999999999995e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 64,
+        "parse_category": "valid",
+        "reasoning_tokens": 59,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 5.8e-05,
+    "trial_id": "crossed|oss120|targetfable|posfirst|rep03"
+  },
+  "crossed|oss120|targetfable|posfirst|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 4.815e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 47,
+        "parse_category": "valid",
+        "reasoning_tokens": 34,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "d",
+    "position": "first",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 4.8e-05,
+    "trial_id": "crossed|oss120|targetfable|posfirst|rep04"
+  },
+  "crossed|oss120|targetfable|poslast|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.975e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 83,
+        "parse_category": "valid",
+        "reasoning_tokens": 69,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 7e-05,
+    "trial_id": "crossed|oss120|targetfable|poslast|rep00"
+  },
+  "crossed|oss120|targetfable|poslast|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.075e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 68,
+        "parse_category": "valid",
+        "reasoning_tokens": 53,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.1e-05,
+    "trial_id": "crossed|oss120|targetfable|poslast|rep01"
+  },
+  "crossed|oss120|targetfable|poslast|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 5.1149999999999996e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 52,
+        "parse_category": "valid",
+        "reasoning_tokens": 38,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 5.1e-05,
+    "trial_id": "crossed|oss120|targetfable|poslast|rep02"
+  },
+  "crossed|oss120|targetfable|poslast|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.075e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 68,
+        "parse_category": "valid",
+        "reasoning_tokens": 53,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.1e-05,
+    "trial_id": "crossed|oss120|targetfable|poslast|rep03"
+  },
+  "crossed|oss120|targetfable|poslast|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.975e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 83,
+        "parse_category": "valid",
+        "reasoning_tokens": 69,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "g",
+    "position": "last",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 7e-05,
+    "trial_id": "crossed|oss120|targetfable|poslast|rep04"
+  },
+  "crossed|oss120|targetfable|pospenultimate|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.045e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 67,
+        "parse_category": "valid",
+        "reasoning_tokens": 50,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6e-05,
+    "trial_id": "crossed|oss120|targetfable|pospenultimate|rep00"
+  },
+  "crossed|oss120|targetfable|pospenultimate|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.644999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 77,
+        "parse_category": "valid",
+        "reasoning_tokens": 73,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.6e-05,
+    "trial_id": "crossed|oss120|targetfable|pospenultimate|rep01"
+  },
+  "crossed|oss120|targetfable|pospenultimate|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.644999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 77,
+        "parse_category": "valid",
+        "reasoning_tokens": 73,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.6e-05,
+    "trial_id": "crossed|oss120|targetfable|pospenultimate|rep02"
+  },
+  "crossed|oss120|targetfable|pospenultimate|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.045e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 67,
+        "parse_category": "valid",
+        "reasoning_tokens": 50,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6e-05,
+    "trial_id": "crossed|oss120|targetfable|pospenultimate|rep03"
+  },
+  "crossed|oss120|targetfable|pospenultimate|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 7.005e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 83,
+        "parse_category": "valid",
+        "reasoning_tokens": 72,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "penultimate",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 7e-05,
+    "trial_id": "crossed|oss120|targetfable|pospenultimate|rep04"
+  },
+  "crossed|oss120|targetfable|possecond|rep00": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.434999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 74,
+        "parse_category": "valid",
+        "reasoning_tokens": 65,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 0,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.4e-05,
+    "trial_id": "crossed|oss120|targetfable|possecond|rep00"
+  },
+  "crossed|oss120|targetfable|possecond|rep01": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.434999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 74,
+        "parse_category": "valid",
+        "reasoning_tokens": 64,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 1,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.4e-05,
+    "trial_id": "crossed|oss120|targetfable|possecond|rep01"
+  },
+  "crossed|oss120|targetfable|possecond|rep02": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.434999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 74,
+        "parse_category": "valid",
+        "reasoning_tokens": 65,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 2,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.4e-05,
+    "trial_id": "crossed|oss120|targetfable|possecond|rep02"
+  },
+  "crossed|oss120|targetfable|possecond|rep03": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.434999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 74,
+        "parse_category": "valid",
+        "reasoning_tokens": 64,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 3,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.4e-05,
+    "trial_id": "crossed|oss120|targetfable|possecond|rep03"
+  },
+  "crossed|oss120|targetfable|possecond|rep04": {
+    "attempts": 1,
+    "attempts_meta": [
+      {
+        "attempt_number": 1,
+        "cost_usd": 6.434999999999999e-05,
+        "error": "",
+        "finish_reason": "stop",
+        "output_tokens": 74,
+        "parse_category": "valid",
+        "reasoning_tokens": 65,
+        "truncated": false
+      }
+    ],
+    "first_response_category": "valid",
+    "parsed_letter": "o",
+    "position": "second",
+    "predictor_model": "oss120",
+    "replicate": 4,
+    "status": "ok",
+    "target_model": "fable",
+    "target_name": "Claude Fable 5.1",
+    "total_cost_usd": 6.4e-05,
+    "trial_id": "crossed|oss120|targetfable|possecond|rep04"
+  }
+}

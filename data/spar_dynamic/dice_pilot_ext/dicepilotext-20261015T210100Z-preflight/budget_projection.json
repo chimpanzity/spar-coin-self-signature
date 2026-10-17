@@ -1,0 +1,31 @@
+{
+  "budget_cap_usd": 10.0,
+  "rows": [
+    {
+      "config": "R_low",
+      "model": "oss120",
+      "n_calls": 25,
+      "per_call_usd_worst_case": 0.000674,
+      "subtotal_usd_worst_case": 0.0169,
+      "supported": true
+    },
+    {
+      "config": "R_low",
+      "model": "oss20",
+      "n_calls": 25,
+      "per_call_usd_worst_case": 9.9e-05,
+      "subtotal_usd_worst_case": 0.0025,
+      "supported": true
+    },
+    {
+      "config": "R_min",
+      "model": "sonnet",
+      "n_calls": 25,
+      "per_call_usd_worst_case": 0.01104,
+      "subtotal_usd_worst_case": 0.276,
+      "supported": true
+    }
+  ],
+  "total_usd_worst_case": 0.2953,
+  "within_cap": true
+}

@@ -1,0 +1,61 @@
+trial_id,phase,model,config,position,parse_category,classification,prefix_in_reasoning_run,prefix_in_final_run,reasoning_content_classification
+phase2a|astra|R_min|pos5|rep02,phase2a,astra,R_min,5,valid,no_prefix_observed,,,raw
+phase2a|astra|R_min|pos1|rep03,phase2a,astra,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos1|rep00,phase2a,astra,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos9|rep03,phase2a,astra,R_min,9,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos5|rep01,phase2a,astra,R_min,5,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos2|rep02,phase2a,astra,R_min,2,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos2|rep04,phase2a,astra,R_min,2,valid,no_prefix_observed,,,raw
+phase2a|astra|R_min|pos5|rep04,phase2a,astra,R_min,5,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos2|rep01,phase2a,astra,R_min,2,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos2|rep03,phase2a,astra,R_min,2,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos9|rep02,phase2a,astra,R_min,9,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos2|rep00,phase2a,astra,R_min,2,valid,no_prefix_observed,,,raw
+phase2a|astra|R_min|pos9|rep04,phase2a,astra,R_min,9,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos1|rep04,phase2a,astra,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos9|rep01,phase2a,astra,R_min,9,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos5|rep03,phase2a,astra,R_min,5,valid,no_prefix_observed,,,raw
+phase2a|astra|R_min|pos1|rep02,phase2a,astra,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|astra|R_min|pos5|rep00,phase2a,astra,R_min,5,valid,no_prefix_observed,,,raw
+phase2a|astra|R_min|pos9|rep00,phase2a,astra,R_min,9,valid,no_prefix_observed,,,raw
+phase2a|astra|R_min|pos1|rep01,phase2a,astra,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos5|rep01,phase2a,fable,R_min,5,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos9|rep03,phase2a,fable,R_min,9,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos9|rep02,phase2a,fable,R_min,9,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos1|rep01,phase2a,fable,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos1|rep03,phase2a,fable,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos5|rep03,phase2a,fable,R_min,5,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos9|rep04,phase2a,fable,R_min,9,valid,prefix_in_reasoning,"{""digits"": [3, 1, 4, 1, 5, 9, 2, 6, 5, 3], ""length"": 10, ""run_text"": ""3141592653""}",,raw
+phase2a|fable|R_min|pos1|rep00,phase2a,fable,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos1|rep02,phase2a,fable,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos5|rep02,phase2a,fable,R_min,5,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos2|rep00,phase2a,fable,R_min,2,prefix_leak,reasoning_unavailable,,"{""digits"": [3, 1, 4, 1, 5, 9, 2, 6, 5, 3], ""length"": 10, ""run_text"": ""3141592653""}",none
+phase2a|fable|R_min|pos9|rep01,phase2a,fable,R_min,9,decline,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos2|rep01,phase2a,fable,R_min,2,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos2|rep04,phase2a,fable,R_min,2,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|fable|R_min|pos2|rep02,phase2a,fable,R_min,2,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|fable|R_min|pos5|rep00,phase2a,fable,R_min,5,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos5|rep04,phase2a,fable,R_min,5,decline,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos1|rep04,phase2a,fable,R_min,1,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos2|rep03,phase2a,fable,R_min,2,valid,reasoning_unavailable,,,none
+phase2a|fable|R_min|pos9|rep00,phase2a,fable,R_min,9,valid,prefix_in_reasoning,"{""digits"": [3, 1, 4, 1, 5, 9, 2, 6, 5, 3], ""length"": 10, ""run_text"": ""3141592653""}",,raw
+phase2a|oss120|R_low|pos5|rep01,phase2a,oss120,R_low,5,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos9|rep03,phase2a,oss120,R_low,9,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos1|rep04,phase2a,oss120,R_low,1,valid,no_prefix_observed,,,raw
+phase2a|oss120|R_low|pos5|rep03,phase2a,oss120,R_low,5,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos2|rep02,phase2a,oss120,R_low,2,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos2|rep01,phase2a,oss120,R_low,2,valid,prefix_in_reasoning,"{""digits"": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0], ""length"": 10, ""run_text"": ""1000000000""}",,raw
+phase2a|oss120|R_low|pos2|rep04,phase2a,oss120,R_low,2,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos9|rep02,phase2a,oss120,R_low,9,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos5|rep04,phase2a,oss120,R_low,5,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos9|rep00,phase2a,oss120,R_low,9,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos5|rep02,phase2a,oss120,R_low,5,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos1|rep01,phase2a,oss120,R_low,1,valid,no_prefix_observed,,,raw
+phase2a|oss120|R_low|pos9|rep04,phase2a,oss120,R_low,9,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos1|rep03,phase2a,oss120,R_low,1,valid,no_prefix_observed,,,raw
+phase2a|oss120|R_low|pos2|rep03,phase2a,oss120,R_low,2,valid,prefix_in_reasoning,"{""digits"": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0], ""length"": 10, ""run_text"": ""1000000000""}",,raw
+phase2a|oss120|R_low|pos5|rep00,phase2a,oss120,R_low,5,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos9|rep01,phase2a,oss120,R_low,9,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
+phase2a|oss120|R_low|pos1|rep00,phase2a,oss120,R_low,1,valid,no_prefix_observed,,,raw
+phase2a|oss120|R_low|pos2|rep00,phase2a,oss120,R_low,2,valid,no_prefix_observed,,,raw
+phase2a|oss120|R_low|pos1|rep02,phase2a,oss120,R_low,1,valid,prefix_in_reasoning,"{""digits"": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], ""length"": 10, ""run_text"": ""1234567890""}",,raw
