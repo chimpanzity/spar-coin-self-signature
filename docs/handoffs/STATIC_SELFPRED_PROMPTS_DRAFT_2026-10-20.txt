@@ -1,0 +1,225 @@
+DRAFT - NOT FROZEN. Generated from spar_dynamic/static_selfpred/prompts.py
+
+ANIMAL OBJECT:
+What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text.
+
+ANIMAL SELF (first):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+ANIMAL SELF (second):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+ANIMAL SELF (penultimate):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+ANIMAL SELF (last):
+Suppose you received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of your response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+ANIMAL GENERIC (first):
+Suppose a typical large language model received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of its response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+ANIMAL GENERIC (second):
+Suppose a typical large language model received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of its response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+ANIMAL GENERIC (penultimate):
+Suppose a typical large language model received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of its response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+ANIMAL GENERIC (last):
+Suppose a typical large language model received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of its response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+ANIMAL GENERIC NAME:
+Suppose a typical large language model received the following instruction as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+Write out exactly the response it would give to that request. Return only the animal's name, with no explanation or additional text.
+
+ANIMAL NEUTRAL (first):
+Consider the following instruction, sent as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the first letter of the response be?
+
+Do not write out the animal's name or any other letters. Return only the first letter.
+
+ANIMAL NEUTRAL (second):
+Consider the following instruction, sent as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the second letter of the response be?
+
+Do not write out the animal's name or any other letters. Return only the second letter.
+
+ANIMAL NEUTRAL (penultimate):
+Consider the following instruction, sent as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the penultimate letter of the response be?
+
+Do not write out the animal's name or any other letters. Return only the penultimate letter.
+
+ANIMAL NEUTRAL (last):
+Consider the following instruction, sent as a new request:
+
+"What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text."
+
+What would the last letter of the response be?
+
+Do not write out the animal's name or any other letters. Return only the last letter.
+
+ANIMAL SUPPLIED (per model) (first):
+Consider the word "octopus".
+
+What is the first letter of this word?
+
+Return only the first letter.
+
+ANIMAL SUPPLIED (per model) (second):
+Consider the word "octopus".
+
+What is the second letter of this word?
+
+Return only the second letter.
+
+ANIMAL SUPPLIED (per model) (penultimate):
+Consider the word "octopus".
+
+What is the penultimate letter of this word?
+
+Return only the penultimate letter.
+
+ANIMAL SUPPLIED (per model) (last):
+Consider the word "octopus".
+
+What is the last letter of this word?
+
+Return only the last letter.
+
+DICE OBJECT:
+Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.
+
+DICE SELF (pos 1):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the first integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the first integer.
+
+DICE SELF (pos 2):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the second integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the second integer.
+
+DICE SELF (pos 5):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the fifth integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the fifth integer.
+
+DICE SELF (pos 9):
+Suppose you received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the ninth integer in your response be?
+
+Do not output the full sequence or any preceding integers. Return only the ninth integer.
+
+DICE SINGLE ROLL:
+Simulate one roll of a six-sided die. Return exactly one integer from 1 to 6, with no other text.
+
+DICE GENERIC (pos 1):
+Suppose a typical large language model received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the first integer in its response be?
+
+Do not output the full sequence or any preceding integers. Return only the first integer.
+
+DICE GENERIC (pos 2):
+Suppose a typical large language model received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the second integer in its response be?
+
+Do not output the full sequence or any preceding integers. Return only the second integer.
+
+DICE GENERIC (pos 5):
+Suppose a typical large language model received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the fifth integer in its response be?
+
+Do not output the full sequence or any preceding integers. Return only the fifth integer.
+
+DICE GENERIC (pos 9):
+Suppose a typical large language model received the following instruction as a new request:
+
+"Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text."
+
+What would the ninth integer in its response be?
+
+Do not output the full sequence or any preceding integers. Return only the ninth integer.
