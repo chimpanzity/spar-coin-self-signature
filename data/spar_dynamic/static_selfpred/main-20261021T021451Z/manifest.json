@@ -1,0 +1,158 @@
+{
+  "spec": "STATIC_SELFPRED_v1.0",
+  "started_utc": "20261021T021451Z",
+  "git_head": "92df284a4297ae609b29245a749118966bdbd414",
+  "prompts_sha256": "3123dff9fac52df48a86a2025ac5f4b2ea8ad6595999fee62e2aa9bc4a1f69df",
+  "order_seed": 20261021,
+  "model_configs": [
+    {
+      "label": "astra",
+      "config": "R_min",
+      "slug": "openai/gpt-6-astra",
+      "provider": "openai",
+      "max_tokens": 1500,
+      "temperature": null,
+      "reasoning": {
+        "effort": "minimal"
+      },
+      "price": [
+        6e-05,
+        0.0003
+      ]
+    },
+    {
+      "label": "fable",
+      "config": "R_min",
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "max_tokens": 1500,
+      "temperature": null,
+      "reasoning": {
+        "effort": "minimal"
+      },
+      "price": [
+        1e-05,
+        5e-05
+      ]
+    },
+    {
+      "config": "R_off",
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "max_tokens": 32768,
+      "temperature": 0.0,
+      "reasoning": {
+        "enabled": false
+      },
+      "price": [
+        1.4e-07,
+        5.7e-07
+      ],
+      "label": "qwen"
+    },
+    {
+      "config": "R_high",
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "max_tokens": 32768,
+      "temperature": 0.0,
+      "reasoning": {
+        "effort": "high"
+      },
+      "price": [
+        1.4e-07,
+        5.7e-07
+      ],
+      "label": "qwen"
+    }
+  ],
+  "concurrency": {
+    "astra|R_min": 6,
+    "fable|R_min": 6,
+    "qwen|R_off": 8,
+    "qwen|R_high": 12
+  },
+  "cells": {
+    "animal_object": [
+      [
+        null
+      ],
+      100
+    ],
+    "animal_self": [
+      [
+        "first",
+        "second",
+        "penultimate",
+        "last"
+      ],
+      100
+    ],
+    "animal_generic": [
+      [
+        "first",
+        "second",
+        "penultimate",
+        "last"
+      ],
+      100
+    ],
+    "animal_generic_name": [
+      [
+        null
+      ],
+      100
+    ],
+    "animal_neutral": [
+      [
+        "first",
+        "second",
+        "penultimate",
+        "last"
+      ],
+      100
+    ],
+    "animal_supplied": [
+      [
+        "first",
+        "second",
+        "penultimate",
+        "last"
+      ],
+      20
+    ],
+    "dice_object": [
+      [
+        null
+      ],
+      100
+    ],
+    "dice_self": [
+      [
+        1,
+        2,
+        5,
+        9
+      ],
+      100
+    ],
+    "dice_single_roll": [
+      [
+        null
+      ],
+      100
+    ],
+    "dice_generic": [
+      [
+        1,
+        2,
+        5,
+        9
+      ],
+      100
+    ]
+  },
+  "planned_calls": 9920,
+  "cost_cap_usd": 25.0,
+  "tools": "none sent; responses checked for tool calls"
+}
