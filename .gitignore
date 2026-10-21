@@ -15,10 +15,9 @@ dist/
 # never commit the per-run zip packages (regenerable from each run)
 *.zip
 
-# Phase 2 scratch runs
-data/spar_dynamic/phase2/_fake_*/
+# Scratch runs from fake transports (paths after the 2026-10-21 reorganisation)
+new_runs/**/_fake*/
+track2_game_theory/**/_fake*/
 
-# Blind Twin scratch runs
-blind_twin/results/_fake*/
-blind_twin_rps/results/_fake*/
-opponent_disclosure/results/_fake*/
+# Local runs of pilot-era code that fit no experiment folder (see src/repo_paths.py)
+new_runs/

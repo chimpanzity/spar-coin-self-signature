@@ -23,7 +23,8 @@ from spar_dynamic.full_corpus_exp1.analysis import (
 
 def _canonical_corpus_rows():
     """Load the real corpus (history_conditioned only). Required for schedule tests."""
-    corpus_csv = os.path.join(ROOT, "corpus", "trajectories.csv")
+    import repo_paths
+    corpus_csv = str(repo_paths.legacy("corpus/trajectories.csv"))
     rows = []
     with open(corpus_csv, "r", encoding="utf-8") as f:
         for r in csv.DictReader(f):

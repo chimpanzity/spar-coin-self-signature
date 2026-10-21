@@ -1,160 +1,95 @@
-# SPAR: Behavioural Self-Signatures in LLMs
+# SPAR: self-modelling in language models
 
-*SPAR Fall 2026 project, mentor Christopher Ackerman. Last updated 2026-10-11.*
+Do language models know their own behaviour? This repository holds every experiment run for the SPAR project, from September 21 to October 21, 2026. The work runs in two parallel, complementary tracks:
 
-> **Reviewing this project (human or LLM)?** Start with [`REVIEW_GUIDE.md`](REVIEW_GUIDE.md). It gives a reading order
-> with raw-text links, a claim-to-evidence map, the canonical runs and known caveats.
+| Track | Question | Folder |
+|---|---|---|
+| **1. Static self-prediction and self-modelling** (focus of the mid-term report) | Can a model recognise or predict its own outputs (coin-flip sequences, dice rolls, favourite answers) better than another model's, and is any success knowledge of *itself*? | [`track1_self_prediction/`](track1_self_prediction/) |
+| **2. Game theory** | Does knowing that another player is *the same model* change how a model reads or plays against it? | [`track2_game_theory/`](track2_game_theory/) |
 
-**The question.** Do LLMs leave a recognisable behavioural signature, and does a model have any privileged access to
-its own signature, compared with other models or a simple statistical classifier? The design is adapted from Loula et
-al.'s point-light self-recognition paradigm: strip behaviour down to a minimal trace, then ask who produced it.
+Each track has a README that tells its story in order. Each experiment has its own dated folder holding its data, results and reports, with a README covering what was run, the questions, the results, the open questions and what came next.
 
-The project has two parts:
+## Main findings so far
 
-1. **Coin flips (2026-09-21 to 10-08).** Models simulate fair coin flips. Can a model pick out its own sequences, or
-   predict their statistics, better than other models can?
-2. **Strategic games (2026-10-09 to 10-11).** Models play rock-paper-scissors (RPS) and matching pennies (MP).
-   - Does knowing the opponent is "another instance of you" change how a model plays? (Study 1, Experiment 1)
-   - Can a model predict its own model's moves better than other models can? (Blind Twin, Experiment 2)
+1. **Models have behavioural signatures but do not show self-specific knowledge of them.** Their coin-flip statistics and favourite answers identify them, yet across attribution (track 1, 02–11), forecasting (12–13) and hypothetical self-prediction (14–20), no model reliably does better about itself than about "a language model" in general.
+2. **Apparent self-knowledge turns out to be knowledge of procedures, defaults or framing.**
+   - Fable's strongest track 1 results are explained by the stated generation procedure (track 1, 10) and by a default answer it shares with "a typical model" (track 1, 20).
+   - Its strongest track 2 result, becoming unpredictable when told it faces itself, is matched by telling it the opponent is a *different* language model (track 2, 11).
+3. **Models can reproduce their outputs but not predict their properties.** They replay sequences they would generate, but single-position questions fall back on defaults (track 1, 16–20).
 
-## Bottom line
+## Timeline (both tracks)
 
-- **No evidence of privileged self-access in either part.** Every identity effect we found is better explained by
-  what a model believes about how LLMs (or particular named models) behave. A model applies those beliefs to itself
-  the same way it applies them to others.
-- **Fable shows a real self-prediction effect.** Told that a player is Fable, the Fable judge predicts that player
-  better. Told the player is Qwen, it predicts worse.
-  - The effect appears in both games and replicates across runs.
-  - It lives in Fable's games against *other* models, not in Fable-vs-Fable games.
-  - It matches a known habit: in RPS, Fable often switches to the move its previous move beats, and a true label nudges
-    the Fable judge toward predicting that.
-  - A history-only classifier trained on tens of Fable's games does as well. The point estimate is about 25-30
-    games, but the plausible range runs from about 12 to more than 47. So this looks like self-*knowledge* of a
-    model's habits, not privileged access.
-- **The judges are noisy.** Re-asking an identical prompt reproduces only about 80% of predictions. Effects of about
-  5 points per cell are within that noise, which matters for every pilot here.
-
-## Part 2: strategic games (2026-10-09 to 10-11)
-
-Models: GPT-6 Astra (`openai/gpt-6-astra`), Claude Fable 5.1 (`anthropic/claude-fable-5.1`) and Qwen3.8 27B
-(`qwen/qwen3.8-27b`), via OpenRouter with pinned providers. Astra and Fable do not support temperature, so all runs
-use default sampling with low hidden reasoning.
-
-| study | design | headline | where |
+| Date | Track | Experiment | Key result |
 |---|---|---|---|
-| Blind Twin v1 and v2 (MP) | Astra/Fable play 12 games; both judge every round under TRUE / FALSE / ANONYMOUS identity labels | v1 S = −2.2 [−8.5, +3.5]; v2 (revised prompts) S = +4.2 [+0.4, +8.5] | [`blind_twin/`](blind_twin/) |
-| Blind Twin RPS (3 runs) | Same design in RPS: Astra-Fable, Qwen-Fable, Qwen-Astra | S = −2.7, +5.7, +4.4; the false-label cost S_false is positive in all three runs | [`blind_twin_rps/`](blind_twin_rps/) |
-| Opponent disclosure pilot (MP) | Astra vs Astra, 2×2 telling the Matcher/Mismatcher "your opponent is another Astra", 32 games | Telling the Matcher raised its win rate +5.0 pp [+0.6, +9.7]; no response mentions self | [`opponent_disclosure/`](opponent_disclosure/) |
-| **Study 1, Exp. 1: RPS** | 3 models × 9 ordered pairings × 4 disclosure conditions × 2 games; primary D = self-specific disclosure benefit | **D_RPS = +0.011 [−0.027, +0.052]**. Fable's own D is +0.11, but it does not replicate in MP | [`opponent_disclosure_rps_3models/`](opponent_disclosure_rps_3models/) |
-| **Study 1, Exp. 1: MP** | Same design, Matcher = Player 1 | **D_MP = −0.060 [−0.100, −0.023]**, driven by Qwen. 18 games lost to Qwen bold-formatted answers were replaced with make-ups; Qwen's failure rate doubles when told its opponent | [`opponent_disclosure_mp_3models/`](opponent_disclosure_mp_3models/) |
-| **Exp. 2: Blind Twin on Exp. 1 logs** | 3 judges × 3 labels on the 36 games where neither player was told (6,480 calls) | S_RPS = +1.8 [−0.7, +4.4], S_MP = +1.5 [−1.0, +4.2]; Fable-on-Fable TRUE > ANON > FALSE in both games | [`blind_twin_exp1/`](blind_twin_exp1/) |
-| Exp. 2 self-self pilot | Self-self games, 00 vs 11, judge told what the players knew | Δ self-specific RPS −4.8 [−9.6, 0.0], MP 0.0: no support for "informed twins are easier for a twin to read" | [`blind_twin_selfself/`](blind_twin_selfself/) |
-| Judge test-retest | Byte-identical prompts re-judged | 80% of predictions reproduce (Fable 88%, Astra 85%, Qwen 67%); a 40-item cell moves ~5 pp, T = TRUE − ANON ~7 pp | [`blind_twin_selfself/results/btss-retest-20261011/`](blind_twin_selfself/results/btss-retest-20261011/) |
-| PACA believed-self pilot | PACA forecasting task vs Proteus or an IID coin; one sentence says the landings come from "another instance of your model" vs "a different language model"; Fable and Astra, 1 × 200-trial session per cell | No consistent accuracy effect; the frame shifts history dependence in opposite directions for Fable (more expected switching) and Astra (less); one session per cell, so a candidate effect only. Qwen not run (≈30k reasoning tokens per forecast) | [`paca_believed_self/`](paca_believed_self/) |
-| Post-hoc analyses (offline) | Strategy measures; self-advantage by opponent; round-1 robustness; observation-equivalence calibration | No self-specific strategy change; a general RPS disclosure effect (players counter a *named* opponent ~5.5 pp more); Fable's self-advantage is in cross-model games | [`post_hoc/`](post_hoc/) |
+| Sep 21 | 1 | [01 Preregistered SAME/DIFFERENT harness](track1_self_prediction/01_2026-09-21_preregistered_harness/) | Built and dry-run only |
+| Sep 29 | 1 | [02 Pilot 1: source signatures](track1_self_prediction/02_2026-09-29_pilot1_source_signature/) | Signatures exist; no self advantage |
+| Sep 29 | 1 | [03 Pilot 2: SELF vs OTHER](track1_self_prediction/03_2026-09-29_pilot2_self_vs_other/) | Models almost never answer SELF |
+| Sep 29 | 1 | [04 Pilot 3: provenance](track1_self_prediction/04_2026-09-29_pilot3_provenance/) | No self-specific provenance effect |
+| Sep 29 | 1 | [05 Pilot 4: Astra follow-up](track1_self_prediction/05_2026-09-29_pilot4_astra_followup/) | Did not replicate |
+| Sep 30 | 1 | [06 Stimulus corpus](track1_self_prediction/06_2026-09-30_stimulus_corpus/) | 180 sequences of 100 flips; 3 models × 3 generation methods |
+| Oct 1 | 1 | [07 FCE1](track1_self_prediction/07_2026-10-01_fce1_history_conditioned/) | No self advantage |
+| Oct 1 | 1 | [08 FCE2](track1_self_prediction/08_2026-10-01_fce2_batch_and_independent/) | Self advantage only for Fable under independent calls |
+| Oct 1 | 1 | [09 A/B task validation](track1_self_prediction/09_2026-10-01_ab_task_validation/) | Answer format works |
+| Oct 1 | 1 | [10 Story swap](track1_self_prediction/10_2026-10-01_story_swap/) | Fable's "self-recognition" follows the stated procedure |
+| Oct 1 | 1 | [11 Phenotype prediction](track1_self_prediction/11_2026-10-01_phenotype_prediction/) | Same forecast for every target |
+| Oct 7 | 1 | [12 Phase 2 (Qwen)](track1_self_prediction/12_2026-10-07_phase2_qwen/) | Judges default to 0.5 |
+| Oct 8 | 1 | [13 Phase 2 (MiMo)](track1_self_prediction/13_2026-10-08_phase2_mimo/) | Same floor; coin-flip line parked |
+| Oct 9 | 2 | [01 Blind Twin v1 (MP)](track2_game_theory/01_2026-10-09_blind_twin_v1_mp/) | Parser failure |
+| Oct 9 | 2 | [02 Blind Twin v2 (MP)](track2_game_theory/02_2026-10-09_blind_twin_v2_mp/) | Small self-label effect |
+| Oct 9 | 2 | [03 Blind Twin RPS](track2_game_theory/03_2026-10-09_blind_twin_rps/) | True label beats false in every run; Fable-driven |
+| Oct 9 | 2 | [04 Opponent disclosure pilot](track2_game_theory/04_2026-10-09_opponent_disclosure_pilot/) | Told Matcher +5 pp |
+| Oct 10 | 2 | [05 Study 1 Exp. 1: disclosure, 3 models](track2_game_theory/05_2026-10-10_study1_exp1_disclosure/) | No overall self-specific effect |
+| Oct 10 | 2 | [06 Exp. 2: Blind Twin judges](track2_game_theory/06_2026-10-10_exp2_blind_twin_judges/) | Small, Fable-driven label effects |
+| Oct 11 | 2 | [07 Self-self judges + retest](track2_game_theory/07_2026-10-11_selfself_judges_and_retest/) | No twin advantage; 80% judge reproducibility |
+| Oct 11 | 2 | [08 Post-hoc analyses](track2_game_theory/08_2026-10-11_post_hoc_analyses/) | Fable's label effect ≈ 24–32 games of observation |
+| Oct 11 | 2 | [09 PACA believed-self](track2_game_theory/09_2026-10-11_paca_believed_self/) | No consistent framing effect |
+| Oct 15 | 1 | [14 Dice v3.1](track1_self_prediction/14_2026-10-15_dice_v31/) | Predictions collapse to a default |
+| Oct 15 | 1 | [15 Dice: more models](track1_self_prediction/15_2026-10-15_dice_model_extension/) | No model passes |
+| Oct 16 | 1 | [16 Dice v4.1](track1_self_prediction/16_2026-10-16_dice_v41/) | Can replay sequences, cannot predict positions |
+| Oct 16 | 1 | [17 Favourite integer](track1_self_prediction/17_2026-10-16_favorite_integer/) | Famous strings (π) |
+| Oct 16 | 1 | [18 Favourite animal](track1_self_prediction/18_2026-10-16_favorite_animal/) | Fable 20/20 letters, Astra 0/20 |
+| Oct 16 | 1 | [19 Favourite animal, crossed](track1_self_prediction/19_2026-10-16_favorite_animal_crossed/) | Astra predicts Fable's letters, not its own |
+| Oct 20–21 | 1 | [20 Static self-prediction replication](track1_self_prediction/20_2026-10-20_static_selfpred_replication/) | No self-over-generic advantage (9,920 calls) |
+| Oct 20–21 | 2 | [10 Paint-and-circle self-play](track2_game_theory/10_2026-10-20_paint_circle_selfplay/) | Told "self", Fable became unpredictable |
+| Oct 21 | 2 | [11 Fable specificity](track2_game_theory/11_2026-10-21_paint_circle_fable_specificity/) | Not specific to "self" |
+| Oct 21 | 2 | [12 Fable perspective-taking](track2_game_theory/12_2026-10-21_paint_circle_fable_perspective/) | Guidance works under both labels |
 
-Full write-up for Study 1 Experiment 1 (design, completion, amendments, make-up protocol, budget):
-[`docs/study1/`](docs/study1/), starting with [`STUDY1_EXPERIMENT1_REPORT.md`](docs/study1/STUDY1_EXPERIMENT1_REPORT.md).
+The two tracks also connect directly:
+- **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
+- **Oct 15:** the Oct 9–11 games led back to simpler self-prediction tests (track 1, 14).
+- **Oct 20–21:** the paint-and-circle self-play (track 2, 10) ran alongside the static replication (track 1, 20).
 
-**Notable behaviour across the 144 Experiment 1 games:**
+## Repository layout
 
-- **RPS opening:** every model opens PAPER, so 44 of 72 round 1s tie.
-- **MP opening:** the Matcher opens STAR and the Mismatcher TRIANGLE, so the Mismatcher wins round 1 in 60 of 72 games.
-  Both players are reasoning one step about the obvious opening.
-- **Astra is near-deterministic early:** six of eight Astra-Astra MP games share their first five rounds across all
-  four disclosure conditions.
-- **Fable is the strongest RPS player** (payoff 0.527), despite an exploitable downward-switching habit.
-- **MP is a fair game:** all payoffs are 0.49-0.51.
+| Path | Contents |
+|---|---|
+| `track1_self_prediction/` | 20 dated experiment folders: data, results, reports, README each |
+| `track2_game_theory/` | 12 dated experiment folders |
+| `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
+| `tests/` | Test suite (`python -m pytest`) |
+| `docs/` | Cross-cutting documents. `reports/` holds combined write-ups. Also preregistration, weekly handoffs, references, the research synthesis, `REORGANISATION_2026-10-21.md`, `PATH_MAP.md`, and `archive/` (earlier README, review guide, llms.txt) |
+| `exports/` | Flat CSV upload packs for analysis elsewhere |
 
-**What we can defend:**
-- the null for self-specific disclosure effects (Experiment 1);
-- Fable's label-dependent self-prediction (Experiment 2), together with the classifier calibration that bounds it;
-- the judge-noise floor;
-- Qwen's disclosure-dependent formatting failures.
+The repository was reorganised into this layout on 2026-10-21, and no data changed. Older reports refer to the previous paths; see [`docs/PATH_MAP.md`](docs/PATH_MAP.md) and [`docs/REORGANISATION_2026-10-21.md`](docs/REORGANISATION_2026-10-21.md). The pre-reorganisation state is git tag `pre-reorg-2026-10-21`.
 
-**What we cannot claim:**
-- privileged introspection;
-- confirmatory effect sizes, because these are 2-games-per-cell pilots;
-- generalisation beyond three models and two games.
-
-## Part 1: coin flips (2026-09-21 to 10-08)
-
-Models: Astra, Fable and MiMo (`xiaomi/mimo-v2.6-pro`). The setup is a frozen corpus of 180 sequences of 100 flips:
-3 models × 3 generation procedures × 20. Full write-up: [`docs/COIN_FLIP_STUDY.md`](docs/COIN_FLIP_STUDY.md).
-
-- **Signatures are real but procedure-driven.** A centroid classifier on p(H) alone identifies the source model 97%
-  of the time. Under independent calls, Fable produces 98.7% heads.
-- **No own-model advantage (FCE1/FCE2):** the mean self-advantage S is about 0.
-- **Attribution follows the story, not the trace.** Changing only the stated generation procedure flips Fable's SELF
-  answer on 85% of identical items.
-- **Judges forecast the same statistics for every model, themselves included.** What looks like a self-model is a
-  task-level belief about LLMs.
-- **Phase 2 (20-flip strings, completion and same/different):** no self-specific advantage. Most judges answer 0.5
-  almost every time, and external observers beat all judges.
-
-## Repository map
-
-```
-README.md, REVIEW_GUIDE.md, llms.txt   start here
-docs/
-  COIN_FLIP_STUDY.md                   Part 1 full write-up (moved from the old README)
-  study1/                              Study 1 Exp. 1: report, status, budget/approvals, make-up protocol and log
-  handoffs/                            session handoff notes (Part 1 and Phase 2)
-  preregistration/, references.md
-corpus/, pilots/, data/spar_dynamic/   Part 1 stimulus corpus, archived pilots, raw run data
-spar_dynamic/                          Part 1 code (also the shared OpenRouter client, spar_dynamic/phase2/client.py)
-blind_twin/, blind_twin_rps/           Blind Twin pilots (players + judges), results/<run>/
-opponent_disclosure/                   Astra-Astra MP disclosure pilot
-opponent_disclosure_rps_3models/       Study 1 Exp. 1, RPS (run rps3m-p2-20261010; with_makeups/ = amended analysis)
-opponent_disclosure_mp_3models/        Study 1 Exp. 1, MP  (run mp3m-p2-20261010; with_makeups/ = amended analysis)
-blind_twin_exp1/                       Exp. 2: Blind Twin on Exp. 1 logs (run btx1-20261010)
-blind_twin_selfself/                   Exp. 2 extension: self-self 00 vs 11 (btss-20261011) and test-retest
-experiment1_makeup.py                  make-up game driver (rules in docs/study1/EXPERIMENT1_MAKEUP_GAMES.md)
-experiment1_derived.py                 handoff-definition D and partial-game sensitivity
-blind_twin_retest.py                   judge test-retest driver
-experiment1_post_hoc_strategy.py       post-hoc strategy measures      -> post_hoc/experiment1_strategy_measures/
-experiment2_observation_equivalence.py classifier calibration of judges -> post_hoc/experiment2_observation_equivalence/
-post_hoc/experiment2_by_opponent/      self-advantage by opponent; round-1 robustness
-paca_believed_self/                    PACA believed-self generator pilot (own task/, code/, data/, tests/; PACA files vendored)
-tests/                                 unit + fake-transport tests for every package (pytest)
-```
-
-Every study package follows the same conventions:
-- `config.py` holds the frozen prompts, models and caps; `protocol.md` holds the design decisions.
-- A run folder contains `manifest.json` (or `frozen_manifest.json`), `APPROVAL.md`, `PROGRESS.md`, raw `calls.jsonl`,
-  `REPORT.md` and `checksums.sha256`.
-- Live calls are impossible unless `APPROVAL.md` contains `LIVE RUN APPROVED BY CHRIS: yes`.
-- Raw call logs are never edited. Amendments go in new files or folders.
-
-## Running things
+## Running the code
 
 ```bash
-pip install -r requirements.txt
-python -m pytest -q                                          # all tests, no network
-python -m opponent_disclosure_mp_3models analyze --run mp3m-p2-20261010    # re-analyse from raw logs
-python -m blind_twin_exp1 analyze --run btx1-20261010
-python experiment1_makeup.py mp --combine-only               # rebuild the amended (make-up) dataset
-python experiment1_derived.py                                # handoff-definition D + partial-game sensitivity
+python -m venv .venv && .venv/Scripts/pip install -r requirements.txt pytest   # Windows paths shown
+export PYTHONPATH=src           # PowerShell: $env:PYTHONPATH = "src"
+python -m pytest                 # full test suite
 ```
 
-Live runs need `OPENROUTER_API_KEY` and an approved run folder (`plan` → `validate` → approval → `run --live`).
-On a laptop, keep the machine awake (`caffeinate -i`); idle sleep stalled one overnight run.
+Live runs call models through OpenRouter and need `OPENROUTER_API_KEY` in `.env` at the repository root (git-ignored). Each experiment README gives the exact commands for that experiment.
 
-## Cost
+## Models
 
-| | spend |
-|---|---:|
-| Part 1: pilots, corpus, FCE experiments, Phase 2 | ~$55 |
-| Blind Twin pilots (MP v1/v2, three RPS runs) | $54.94 |
-| Opponent disclosure pilot | $7.05 |
-| Study 1 Exp. 1 (RPS $22.61, MP $27.36, incl. make-ups) | $49.97 |
-| Exp. 2 Blind Twin on logs / self-self pilot / test-retest | $33.06 / $23.40 / $5.77 |
-| PACA believed-self pilot (Fable, Astra; incl. preflight) | $22.44 |
-| **Total** | **~$251** |
+| Name used here | Model |
+|---|---|
+| Astra | `openai/gpt-6-astra` |
+| Fable | `anthropic/claude-fable-5.1` |
+| Qwen | `qwen/qwen3.8-27b` in the Sep 29 pilots and the Oct 9–11 games; `qwen/qwen3-8b` in Phase 2 (Oct 7); `qwen/qwen3-32b` from Oct 15 (SiliconFlow from Oct 20) |
+| MiMo | MiMo-v2.6-pro (Sep 30–Oct 8) |
+| Others | GPT-OSS-120B/20B and Sonnet 5.5 in the Oct 15–16 dice pilots |
 
-## Related work
-
-Martin, C. F. (2026). *Dodging Proteus: Prescribing unexploitable play made language models more exploitable in a
-closed-loop matching pennies assay.* Preprint, not peer reviewed.
-[doi:10.5281/zenodo.21781962](https://doi.org/10.5281/zenodo.21781962) ·
-[code](https://github.com/chimpanzity/dodging-proteus). Key references with notes: [`docs/references.md`](docs/references.md).
+Settings and costs are in each experiment's README.

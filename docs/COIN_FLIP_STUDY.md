@@ -5,7 +5,7 @@ This page preserves the full write-up of the coin-flip strand of the project, mo
 ## Summary (as of 2026-10-08)
 
 > **Evaluating this project (human or LLM)?** Start with
-> [`REVIEW_GUIDE.md`](../REVIEW_GUIDE.md): reading order with raw-text links,
+> [`REVIEW_GUIDE.md`](archive/REVIEW_GUIDE_2026-10-11.md): reading order with raw-text links,
 > a claim-to-evidence map, which runs are canonical, and known caveats.
 
 **Question.** Ask an LLM to simulate fair coin flips. Can it recognize its own
@@ -21,14 +21,14 @@ happen to match its own behavior; Astra's do not.
 
 | # | study | what it showed |
 |---|---|---|
-| 1–4 | [Pilots](../pilots/) (50 flips) | Source phenotypes exist (classifier 70% batch / 93% online); no selective own-model advantage; SELF/OTHER attribution is poor |
-| 5 | [SPAR Stimulus Corpus](../corpus/) | 180 frozen trajectories (3 models × 3 procedures × 20 × 100 flips) with a 10/10 dev/holdout split. The procedure changes the phenotype sharply: Fable under independent calls gives 98.7% H |
+| 1–4 | [Pilots](../track1_self_prediction/) (50 flips) | Source phenotypes exist (classifier 70% batch / 93% online); no selective own-model advantage; SELF/OTHER attribution is poor |
+| 5 | [SPAR Stimulus Corpus](../track1_self_prediction/06_2026-09-30_stimulus_corpus/corpus/) | 180 frozen trajectories (3 models × 3 procedures × 20 × 100 flips) with a 10/10 dev/holdout split. The procedure changes the phenotype sharply: Fable under independent calls gives 98.7% H |
 | FCE1 | Producer vs. observer identification, history-conditioned | Holdout mean self-advantage S = +0.008, essentially zero. A centroid classifier on p(H) alone reaches 96.7% |
 | FCE2 | Same design on batch / independent calls | S = −0.008 (batch), +0.100 (indep); the indep result comes almost entirely from Fable |
 | — | Task validation (objective A/B questions) | Astra and Fable answer 100% correctly with balanced A/B use, so their A-bias in source attribution is specific to that task, not a broken format |
 | — | Story swap (same stimuli, three stories) | Changing only the stated procedure flips Fable's SELF answer on 85% of identical items. **Attribution follows the story, not the trace** |
 | — | Phenotype prediction, p(H) and switch rate | Judges forecast the statistics before seeing any sequence and predict the **same values for every target model**. What looks like a self-model is a procedure-level task model |
-| P2 | Phase 2 pilot (v7.1): 20-flip strings, completion with source named vs withheld, anonymous same/different, small named arm; two runs ([Qwen3-8B](handoffs/PHASE2_PILOT_RESULTS_2026-10-08.md), [MiMo](handoffs/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md)) | No self-specific advantage. Completion H4 ≈ 0 and inside the ±0.02 margin in both runs; anonymous R unresolved (MiMo run); named arm unresolved. **Most judges answer 0.5 almost every time** (Astra and MiMo 100% on completion), and Fable labels nearly every sequence as its own. External observers beat all judges |
+| P2 | Phase 2 pilot (v7.1): 20-flip strings, completion with source named vs withheld, anonymous same/different, small named arm; two runs ([Qwen3-8B](../track1_self_prediction/12_2026-10-07_phase2_qwen/PHASE2_PILOT_RESULTS_2026-10-08.md), [MiMo](../track1_self_prediction/13_2026-10-08_phase2_mimo/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md)) | No self-specific advantage. Completion H4 ≈ 0 and inside the ±0.02 margin in both runs; anonymous R unresolved (MiMo run); named arm unresolved. **Most judges answer 0.5 almost every time** (Astra and MiMo 100% on completion), and Fable labels nearly every sequence as its own. External observers beat all judges |
 
 **What we can defend:** the within-stimulus story-swap effect; the
 procedure-belief finding from phenotype prediction; the task-specificity of
@@ -38,12 +38,12 @@ broad generalization from only three models.
 
 **Read more:**
 - 📓 [Weekly handoff notes, 2026-09-29 → 10-03](handoffs/HANDOFF_SPAR_WEEK_2026-09-29_to_2026-10-03.md): the full narrative, with designs, numbers, bugs fixed, costs, limitations and next steps
-- [FCE1/FCE2 cross-method report](../data/spar_dynamic/FCE1_FCE2_CROSS_METHOD_REPORT.md)
-- [Phenotype baselines report](../data/spar_dynamic/PHENOTYPE_BASELINES_REPORT.md)
-- [Corpus source report](../corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
+- [FCE1/FCE2 cross-method report](../track1_self_prediction/08_2026-10-01_fce2_batch_and_independent/FCE1_FCE2_CROSS_METHOD_REPORT.md)
+- [Phenotype baselines report](../track1_self_prediction/11_2026-10-01_phenotype_prediction/PHENOTYPE_BASELINES_REPORT.md)
+- [Corpus source report](../track1_self_prediction/06_2026-09-30_stimulus_corpus/corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
 - [Original preregistration (v1.0, 2026-09-21)](preregistration/preregistration_v1.0_2026-09-21.md) and [build notes](preregistration/build_notes_2026-09-21_rev4.md)
 - [All handoff notes](handoffs/)
-- Phase 2: [Qwen run results](handoffs/PHASE2_PILOT_RESULTS_2026-10-08.md), [MiMo run results](handoffs/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md); code in [`spar_dynamic/phase2/`](../spar_dynamic/phase2/); full run outputs in [`data/spar_dynamic/phase2/`](../data/spar_dynamic/phase2/)
+- Phase 2: [Qwen run results](../track1_self_prediction/12_2026-10-07_phase2_qwen/PHASE2_PILOT_RESULTS_2026-10-08.md), [MiMo run results](../track1_self_prediction/13_2026-10-08_phase2_mimo/PHASE2_MIMO_RUN_RESULTS_2026-10-08.md); code in [`spar_dynamic/phase2/`](../src/spar_dynamic/phase2/); full run outputs in [`data/spar_dynamic/phase2/`](../track1_self_prediction/)
 - [Key references, with notes on how each relates to this project](references.md) (Loula 2005; Couchman 2012; Kaneko & Tomonaga 2011; Van Koevering & Kleinberg 2024)
 
 **Related work.** Martin, C. F. (2026). *Dodging Proteus: Prescribing
@@ -107,7 +107,7 @@ impoverished behavioral trace.
 ## The canonical stimulus corpus (`corpus/`)
 
 All work in this repository builds on this corpus. The four earlier
-pilots are archived in [`pilots/`](../pilots/) for provenance.
+pilots are archived in [`pilots/`](../track1_self_prediction/) for provenance.
 
 The corpus is the reference stimulus bank for every future analysis in this
 repository. It contains:
@@ -150,7 +150,7 @@ most reliably model-identifying trajectories: a simple nearest-centroid
 classifier reaches 90.0% source-model accuracy at 100 flips
 (chance = 33.3%), up from 68.3% at 20 flips.
 
-See [`corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md`](../corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
+See [`corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md`](../track1_self_prediction/06_2026-09-30_stimulus_corpus/corpus/THREE_ARCHITECTURE_SOURCE_REPORT.md)
 for the full analysis.
 
 ### Corpus layout
@@ -168,11 +168,11 @@ corpus/
 ```
 
 The raw source run (every API attempt including retries and failures) lives
-at [`data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/`](../data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/).
+at [`data/spar_dynamic/spar-stimulus-corpus-20260930T012044Z/`](../track1_self_prediction/06_2026-09-30_stimulus_corpus/spar-stimulus-corpus-20260930T012044Z/).
 The corpus is regenerable from that source via
 `python -m spar_dynamic.compile_corpus --run-id spar-stimulus-corpus-20260930T012044Z`.
 
-## Prior pilots (see [`pilots/`](../pilots/))
+## Prior pilots (see [`pilots/`](../track1_self_prediction/))
 
 Four pilots (Sept 2026) established the setup that led to the corpus:
 
