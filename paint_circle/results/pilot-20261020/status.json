@@ -1,0 +1,9 @@
+{
+  "spent_usd": 5.5506,
+  "status": {
+    "qwen-qwen__A-none__B-none__s0": "complete",
+    "astra-astra__A-none__B-none__s0": "complete",
+    "fable-fable__A-none__B-none__s0": "complete"
+  },
+  "note": "qwen session failed at round 40 (abbreviated \"T\" answer at temperature 0), then resumed to 200 rounds after the parser accepted T/S final lines; spent_usd covers the first process only, pilot total is 5.56"
+}

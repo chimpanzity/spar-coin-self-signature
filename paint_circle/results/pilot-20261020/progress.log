@@ -1,0 +1,7 @@
+2026-10-20T22:40:56 start: 3 sessions, spent so far $0.00 of cap $15.00
+2026-10-20T22:41:46 qwen-qwen__A-none__B-none__s0: round 40 failed to parse after 4 attempts
+2026-10-20T22:41:46 qwen-qwen__A-none__B-none__s0: failed (batch spent $0.26)
+2026-10-20T22:42:59 start: 1 sessions, spent so far $0.73 of cap $15.00
+2026-10-20T22:49:32 qwen-qwen__A-none__B-none__s0: complete (batch spent $0.74)
+2026-10-20T22:54:23 astra-astra__A-none__B-none__s0: complete (batch spent $5.42)
+2026-10-20T22:54:53 fable-fable__A-none__B-none__s0: complete (batch spent $5.55)

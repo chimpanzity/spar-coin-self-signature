@@ -1,0 +1,14 @@
+{
+  "spent_usd": 97.7536,
+  "status": {
+    "astra-astra__A-agent__B-none__s1": "complete",
+    "astra-astra__A-salmon__B-none__s1": "complete",
+    "astra-astra__A-agent__B-none__s2": "complete",
+    "astra-astra__A-salmon__B-none__s2": "complete",
+    "astra-astra__A-agent__B-none__s3": "complete",
+    "fable-fable__A-none__B-self__s1": "complete",
+    "fable-fable__A-none__B-self__s2": "complete",
+    "fable-fable__A-self__B-self__s1": "complete",
+    "fable-fable__A-self__B-self__s2": "complete"
+  }
+}

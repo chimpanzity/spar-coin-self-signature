@@ -1,0 +1,8 @@
+{
+  "spent_usd": 0.0712,
+  "status": {
+    "qwen-qwen__A-agent__B-none__s7": "complete",
+    "qwen-qwen__A-none__B-none__s7": "complete",
+    "qwen-qwen__A-salmon__B-none__s7": "failed"
+  }
+}

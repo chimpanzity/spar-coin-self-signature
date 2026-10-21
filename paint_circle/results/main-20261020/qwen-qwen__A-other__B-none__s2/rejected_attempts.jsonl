@@ -1,0 +1,1 @@
+{"round": 172, "seat": "B", "attempt": 1, "ok": true, "text": "T S T", "finish_reason": "stop", "tool_calls": false, "provider": "SiliconFlow", "served_model": "qwen/qwen3-32b", "generation_id": "gen-1792551593-F5zUNkgCWIofWprHUpH5", "prompt_tokens": 260, "completion_tokens": 3, "reasoning_tokens": 0, "cost_usd": 3.811e-05, "latency_ms": 1219, "transport_attempts": 1}

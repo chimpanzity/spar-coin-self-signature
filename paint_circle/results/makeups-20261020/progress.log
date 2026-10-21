@@ -1,0 +1,5 @@
+2026-10-20T23:36:16 start: 3 sessions, spent so far $0.00 of cap $1.00
+2026-10-20T23:40:30 qwen-qwen__A-agent__B-none__s7: complete (batch spent $0.04)
+2026-10-20T23:42:06 qwen-qwen__A-none__B-none__s7: complete (batch spent $0.04)
+2026-10-21T00:06:04 qwen-qwen__A-salmon__B-none__s7: round 159 failed to parse after 10 attempts
+2026-10-21T00:06:04 qwen-qwen__A-salmon__B-none__s7: failed (batch spent $0.07)

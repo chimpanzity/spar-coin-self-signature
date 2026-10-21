@@ -1,0 +1,78 @@
+{
+  "prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 200,
+  "cost_cap_usd": 1.0,
+  "models": {
+    "astra": {
+      "slug": "openai/gpt-6-astra",
+      "provider": "openai",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    },
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    },
+    "qwen": {
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "reasoning": {
+        "enabled": false
+      },
+      "temperature": 0.0,
+      "max_tokens": 4000
+    }
+  },
+  "system_prompts": {
+    "A|None": "Place yellow paint on the shape where you think the blue circle will land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|agent": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|self": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is another instance of yourself, the same language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|other": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a different language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|salmon": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a dead salmon.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|program": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a random computer program.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "B|None": "Place the blue circle on the shape that will not receive yellow paint.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "B|agent": "Place the blue circle on the shape that will not receive yellow paint.\n\nAnother decision-maker decides which shape receives the yellow paint.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "B|self": "Place the blue circle on the shape that will not receive yellow paint.\n\nAnother decision-maker decides which shape receives the yellow paint. The other decision-maker is another instance of yourself, the same language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "B|other": "Place the blue circle on the shape that will not receive yellow paint.\n\nAnother decision-maker decides which shape receives the yellow paint. The other decision-maker is a different language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "B|salmon": "Place the blue circle on the shape that will not receive yellow paint.\n\nAnother decision-maker decides which shape receives the yellow paint. The other decision-maker is a dead salmon.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "B|program": "Place the blue circle on the shape that will not receive yellow paint.\n\nAnother decision-maker decides which shape receives the yellow paint. The other decision-maker is a random computer program.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line."
+  },
+  "sessions": [
+    {
+      "session_id": "qwen-qwen__A-none__B-none__s7",
+      "model_A": "qwen",
+      "model_B": "qwen",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "qwen-qwen__A-salmon__B-none__s7",
+      "model_A": "qwen",
+      "model_B": "qwen",
+      "disclosure_A": "salmon",
+      "disclosure_B": null,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "qwen-qwen__A-agent__B-none__s7",
+      "model_A": "qwen",
+      "model_B": "qwen",
+      "disclosure_A": "agent",
+      "disclosure_B": null,
+      "window": 50,
+      "rounds": 200
+    }
+  ]
+}
