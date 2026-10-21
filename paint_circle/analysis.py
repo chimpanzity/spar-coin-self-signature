@@ -189,14 +189,16 @@ def self_reference_rate(texts: List[str]) -> float:
 
 def session_rows(s: Dict) -> List[Dict]:
     out = []
+    # Guided seat-A cells (perspective-taking) are labelled e.g. "self+sim".
+    a_label = (s["disclosure_A"] or "none") + ("+sim" if s.get("guidance_A") else "")
     for seat, own, opp, matcher, model, disc, texts in (
-            ("A", s["paint"], s["circle"], True, s["model_A"], s["disclosure_A"], s["texts_A"]),
+            ("A", s["paint"], s["circle"], True, s["model_A"], a_label, s["texts_A"]),
             ("B", s["circle"], s["paint"], False, s["model_B"], s["disclosure_B"], s["texts_B"])):
         out.append(dict(batch=s["batch"], session_id=s["session_id"], seat=seat, model=model,
                         opponent=s["model_B"] if seat == "A" else s["model_A"],
                         disclosure=disc or "none",
-                        opp_disclosure=(s["disclosure_B"] if seat == "A" else s["disclosure_A"]) or "none",
-                        cell=f"{s['model_A']}-{s['model_B']}|A-{s['disclosure_A'] or 'none'}|B-{s['disclosure_B'] or 'none'}",
+                        opp_disclosure=(s["disclosure_B"] or "none") if seat == "A" else a_label,
+                        cell=f"{s['model_A']}-{s['model_B']}|A-{a_label}|B-{s['disclosure_B'] or 'none'}",
                         rounds=len(s["paint"]), cost=s["cost"] / 2, self_ref=self_reference_rate(texts),
                         **seat_measures(own, opp, matcher, s["window"])))
     return out

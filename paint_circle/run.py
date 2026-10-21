@@ -126,7 +126,7 @@ class Batch:
                 r = json.loads(line)
                 paint += r["paint"]
                 circle += r["circle"]
-        sys_a = game.system_prompt("A", s["disclosure_A"])
+        sys_a = game.system_prompt("A", s["disclosure_A"], s.get("guidance_A", False))
         sys_b = game.system_prompt("B", s["disclosure_B"])
         with cf.ThreadPoolExecutor(2) as ex:
             while len(paint) < s["rounds"]:

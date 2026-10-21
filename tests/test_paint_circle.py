@@ -137,3 +137,49 @@ def test_exploitation_indices():
     rand_opp = "".join(rng.choice("TS") for _ in range(200))
     ex3 = analysis.exploitation(noisy, rand_opp, matcher=True, window=50)
     assert ex3["bench"] < analysis.EFFICIENCY_MIN_BENCH and ex3["eff"] != ex3["eff"]   # NaN
+
+
+# ------------------------------------------------- perspective-taking (2026-10-21) --
+HANDOFF_SELF_SIM = """Place yellow paint on the shape where you think the blue circle will land.
+
+Another decision-maker decides where the blue circle lands. The other decision-maker is another instance of yourself, the same language model.
+
+The other decision-maker is instructed: "Place the blue circle on the shape that will not receive yellow paint." Before choosing your shape, consider what you would choose if you were in the other decision-maker's position, following that instruction and using the available history. Use that prediction to choose the shape where you expect the blue circle to land.
+
+Available actions:
+TRIANGLE
+STAR
+
+You may briefly think through your choice. End your response with the chosen action on its own line."""
+
+HANDOFF_B = """Place the blue circle on the shape that will not receive yellow paint.
+
+Available actions:
+TRIANGLE
+STAR
+
+You may briefly think through your choice. End your response with the chosen action on its own line."""
+
+
+def test_guided_prompts_match_handoff_byte_for_byte():
+    assert game.system_prompt("A", "self", guidance=True) == HANDOFF_SELF_SIM
+    assert game.system_prompt("A", "other", guidance=True) == HANDOFF_SELF_SIM.replace(
+        "another instance of yourself, the same language model.", "a different language model.")
+    assert game.system_prompt("B", None) == HANDOFF_B
+
+
+def test_guided_cells_differ_only_by_identity_phrase():
+    s, o = game.system_prompt("A", "self", True).split("\n\n"), game.system_prompt("A", "other", True).split("\n\n")
+    assert [i for i in range(len(s)) if s[i] != o[i]] == [1]
+    assert s[2] == o[2] == game.GUIDANCE_A
+    # plain prompts are unchanged by the patch
+    assert game.system_prompt("A", "self") == game.system_prompt("A", "self", False)
+    assert game.GUIDANCE_A not in game.system_prompt("A", "self")
+
+
+def test_guidance_only_for_disclosed_seat_a():
+    import pytest
+    with pytest.raises(AssertionError):
+        game.system_prompt("B", "self", guidance=True)
+    with pytest.raises(AssertionError):
+        game.system_prompt("A", None, guidance=True)

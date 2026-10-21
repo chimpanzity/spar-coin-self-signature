@@ -43,14 +43,28 @@ IDENTITY = {
 }
 DISCLOSURES = (None, "agent") + tuple(IDENTITY)
 
+# Perspective-taking guidance for seat A (handoff 2026-10-21,
+# "Fable perspective-taking"; version paint_circle-fable-perspective-v1.0).
+# Inserted after the disclosure paragraph; identical in every guided cell.
+GUIDANCE_VERSION = "paint_circle-fable-perspective-v1.0"
+GUIDANCE_A = (
+    "The other decision-maker is instructed: \"Place the blue circle on the shape that will not receive "
+    "yellow paint.\" Before choosing your shape, consider what you would choose if you were in the other "
+    "decision-maker's position, following that instruction and using the available history. Use that "
+    "prediction to choose the shape where you expect the blue circle to land."
+)
 
-def system_prompt(seat: str, disclosure: Optional[str]) -> str:
+
+def system_prompt(seat: str, disclosure: Optional[str], guidance: bool = False) -> str:
     assert seat in INSTRUCTION and disclosure in DISCLOSURES
+    assert not guidance or (seat == "A" and disclosure is not None), "guidance is defined for a disclosed seat A only"
     parts = [INSTRUCTION[seat]]
     if disclosure == "agent":
         parts.append(EXISTENCE[seat])
     elif disclosure is not None:
         parts.append(f"{EXISTENCE[seat]} {IDENTITY[disclosure]}")
+    if guidance:
+        parts.append(GUIDANCE_A)
     parts.append(TAIL)
     return "\n\n".join(parts)
 
