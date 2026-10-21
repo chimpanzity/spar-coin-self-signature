@@ -40,6 +40,7 @@ One row per game. A places yellow paint and wins if the circle lands on it. B pl
 | Column | Meaning |
 |---|---|
 | A_told, B_told | what that player was told about the other decision-maker (below) |
+| A_perspective_guidance | "yes" only in batch fable-perspective-20261021: A was also told B's instruction and asked to consider what it would choose in B's position |
 | status | only "complete" games (200 rounds) are analysed |
 
 What a player could be told:

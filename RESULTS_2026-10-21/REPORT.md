@@ -1,8 +1,8 @@
 # SPAR results: static self-prediction and paint-and-circle self-play
 
 **Date:** 2026-10-21. Data collected 2026-10-20/21.
-**Implements:** *SPAR Research Handoff: Static Self-Prediction and Strategic Self-Play* (2026-10-20), Parts I and II, compressed from the week plan into one run, plus a prespecified Fable follow-up (Part III).
-**Spend:** $186.51 in total.
+**Implements:** *SPAR Research Handoff: Static Self-Prediction and Strategic Self-Play* (2026-10-20), Parts I and II, compressed from the week plan into one run, plus a prespecified Fable follow-up (Part III) and a Fable perspective-taking feasibility run (Part IV).
+**Spend:** $224.33 in total.
 
 | Part | Spend | Budget |
 |---|---|---|
@@ -10,10 +10,12 @@
 | Qwen parse check | $0.22 | within the original $125 limit |
 | Self-play | $103.39 | within the original $125 limit |
 | Fable follow-up | $68.02 | separate budget, capped at $80 |
+| Fable perspective-taking | $37.82 | separate budget, capped at $45 |
 
 **Status:** All planned cells collected.
 - Parts I and II are exploratory, with no correction across the many contrasts; self-play cells have 2–7 sessions each.
 - Part III is prespecified, with 6 sessions per cell.
+- Part IV is a feasibility run with 2 games per cell; descriptive only.
 
 ---
 
@@ -34,6 +36,8 @@ A prespecified follow-up ran 17 more Fable–Fable games (Part III below, $68.02
 - **Self vs "different model":** −.038, Holm p = .19 (not significant).
 
 The shift tracks the opponent being described as *a language model*, not as itself.
+
+**Update 2, Part IV (feasibility, 2 games per cell).** Asking Fable to consider what it would do in B's position made its play essentially unpredictable (PI ≈ .01) and stopped it chasing B's last move. This happened equally under the self and other labels, so it is not self-specific.
 
 ## Summary
 
@@ -327,6 +331,59 @@ These were added as alternatives to realized EI, computed offline for every seat
 **Conditional exploitation** does not differ between conditions (all |Δ| ≤ .07, p > .18).
 
 For Fable, the disclosure effect is entirely on the protection side (PI). The exploitation side does not change.
+
+## Part IV. Fable perspective-taking guidance (feasibility, 2 games per cell)
+
+### Design
+
+Implements the handoff *SPAR: Fable perspective-taking guidance in paint-and-circle self-play* (2026-10-21) at feasibility size, approved by Chris: 2 games per cell, all four cells collected fresh, $45 cap.
+
+| Item | Detail |
+|---|---|
+| Batch | `paint_circle/results/fable-perspective-20261021` |
+| Version | `paint_circle-fable-perspective-v1.0`, commit `b6f7d87` |
+| Pairing | Fable vs Fable throughout; "other" is a false label |
+| Manipulation | seat A only; B's prompt is byte-identical to the baseline |
+| Cells | 2×2: identity label (self / other) × perspective-taking guidance (yes / no) |
+
+The guided prompts match the handoff byte for byte (checked by tests):
+- They add B's instruction.
+- They add: "Before choosing your shape, consider what you would choose if you were in the other decision-maker's position, following that instruction and using the available history. Use that prediction to choose the shape where you expect the blue circle to land."
+
+The guided cells therefore also reveal B's objective. A guidance effect cannot be separated from that task disclosure.
+
+### Result (seat A, mean of 2 games; descriptive)
+
+| A told | Guidance | Win | PI | Shadow replay win | Exploitation gap | Opponent lag-1 | Tokens per answer | $ per game |
+|---|---|---|---|---|---|---|---|---|
+| self | yes | .545 | .006 | .535 | +.010 | −0.22 | 238 | 5.39 |
+| other | yes | .528 | .008 | .502 | +.025 | −0.07 | 227 | 5.36 |
+| self | no | .508 | .036 | .500 | +.007 | +0.81 | 129 | 4.15 |
+| other | no | .530 | .055 | .561 | −.031 | +0.98 | 113 | 4.01 |
+| self, earlier cohort (Part III) | no | .478 | .050 | .525 | −.048 | +0.88 | 127 | 4.14 |
+| other, earlier cohort (Part III) | no | .505 | .088 | .535 | −.030 | +1.13 | 111 | 4.00 |
+
+**Contrasts** (session-bootstrap 95% intervals, 4,000 resamples):
+
+| Contrast | Win | PI | Exploitation gap |
+|---|---|---|---|
+| self_sim − other_sim | +.017 [−.030, +.065] | −.002 [−.021, +.017] | −.016 [−.077, +.045] |
+| (self_sim − self_plain) − (other_sim − other_plain) | +.040 [−.010, +.087] | +.017 [−.043, +.077] | −.054 [−.115, +.007] |
+
+### Interpretation
+
+- **Guidance changes Fable's strategy under both labels.**
+  - Its play becomes essentially unpredictable to the shadow: PI ≈ .01, against .04–.06 without guidance.
+  - It stops chasing B's last circle placement: the opponent lag-1 coefficient moves from about +0.9 to about 0.
+  - Its answers roughly double in length.
+- **The identity label adds nothing under guidance.** Self and other are indistinguishable on every measure.
+- **Wins may rise a few points with guidance,** but not distinguishably from zero at this size.
+- **By the handoff's decision tree,** this is the "both guided cells change" outcome: a general effect of perspective-taking and task disclosure, not self-specific simulation.
+- **Reproducibility:** the fresh plain games reproduce the Part III plain values (PI .04–.06 vs .05–.09).
+
+**Cost:** $37.82 for 8 games; guided games are about $5.40, plain about $4.10. Analysis: `paint_circle/fable_perspective.py`, output in `.../fable-perspective-20261021/analysis/`.
+
+**If this is pursued further,** the next informative cells are those the handoff lists: task-disclosure without guidance, a neutral strategic instruction of matched length, and a real cross-model opponent.
 
 ## Limitations
 

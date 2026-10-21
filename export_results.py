@@ -22,7 +22,8 @@ import zipfile
 OUT = os.path.join("RESULTS_2026-10-21", "upload_pack")
 STATIC_RUNS = ["data/spar_dynamic/static_selfpred/main-20261021T021451Z",
                "data/spar_dynamic/static_selfpred/parsecheck-qwen-20261021T000345Z"]
-SELFPLAY_BATCHES = ["pilot-20261020", "main-20261020", "makeups-20261020", "fable-specificity-20261021"]
+SELFPLAY_BATCHES = ["pilot-20261020", "main-20261020", "makeups-20261020", "fable-specificity-20261021",
+                    "fable-perspective-20261021"]
 
 
 def export_static(path):
@@ -43,7 +44,7 @@ def export_static(path):
 
 
 def export_selfplay(rounds_path, resp_path, games_path):
-    base_cols = ["batch", "game_id", "model_A", "model_B", "A_told", "B_told", "round",
+    base_cols = ["batch", "game_id", "model_A", "model_B", "A_told", "B_told", "A_perspective_guidance", "round",
                  "A_paint", "B_circle", "A_wins"]
     n_rounds = n_games = 0
     with open(rounds_path, "w", encoding="utf-8", newline="") as fr, \
@@ -52,7 +53,7 @@ def export_selfplay(rounds_path, resp_path, games_path):
         wr, wx, wg = csv.writer(fr), csv.writer(fx), csv.writer(fg)
         wr.writerow(base_cols)
         wx.writerow(base_cols + ["response_A", "response_B"])
-        wg.writerow(["batch", "game_id", "model_A", "model_B", "A_told", "B_told", "rounds_played",
+        wg.writerow(["batch", "game_id", "model_A", "model_B", "A_told", "B_told", "A_perspective_guidance", "rounds_played",
                      "status", "A_win_rate", "cost_usd"])
         for b in SELFPLAY_BATCHES:
             bdir = os.path.join("paint_circle", "results", b)
@@ -61,7 +62,8 @@ def export_selfplay(rounds_path, resp_path, games_path):
                 p = os.path.join(bdir, s["session_id"], "rounds.jsonl")
                 rs = [json.loads(l) for l in open(p, encoding="utf-8")] if os.path.exists(p) else []
                 meta = [b, s["session_id"], s["model_A"], s["model_B"],
-                        s["disclosure_A"] or "nothing", s["disclosure_B"] or "nothing"]
+                        s["disclosure_A"] or "nothing", s["disclosure_B"] or "nothing",
+                        "yes" if s.get("guidance_A") else "no"]
                 for r in rs:
                     row = meta + [r["round"], r["paint"], r["circle"], int(r["a_wins"])]
                     wr.writerow(row)
@@ -118,6 +120,7 @@ One row per game. A places yellow paint and wins if the circle lands on it. B pl
 | Column | Meaning |
 |---|---|
 | A_told, B_told | what that player was told about the other decision-maker (below) |
+| A_perspective_guidance | "yes" only in batch fable-perspective-20261021: A was also told B's instruction and asked to consider what it would choose in B's position |
 | status | only "complete" games (200 rounds) are analysed |
 
 What a player could be told:

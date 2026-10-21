@@ -1,0 +1,13 @@
+{
+  "spent_usd": 37.8338,
+  "status": {
+    "fable-fable__A-other__B-none__s2": "complete",
+    "fable-fable__A-self__B-none__s2": "complete",
+    "fable-fable__A-other__B-none__s1": "complete",
+    "fable-fable__A-self__B-none__s1": "complete",
+    "fable-fable__A-other+sim__B-none__s1": "complete",
+    "fable-fable__A-self+sim__B-none__s1": "complete",
+    "fable-fable__A-other+sim__B-none__s2": "complete",
+    "fable-fable__A-self+sim__B-none__s2": "complete"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "prompt_version": "paint_circle-fable-perspective-v1.0",
+  "base_prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 200,
+  "cost_cap_usd": 45.0,
+  "models": {
+    "astra": {
+      "slug": "openai/gpt-6-astra",
+      "provider": "openai",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    },
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    },
+    "qwen": {
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "reasoning": {
+        "enabled": false
+      },
+      "temperature": 0.0,
+      "max_tokens": 4000
+    }
+  },
+  "git_head": "b6f7d87f65f4c21e1b9d7ed898aa5922bac1910f",
+  "system_prompts": {
+    "A|self+sim": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is another instance of yourself, the same language model.\n\nThe other decision-maker is instructed: \"Place the blue circle on the shape that will not receive yellow paint.\" Before choosing your shape, consider what you would choose if you were in the other decision-maker's position, following that instruction and using the available history. Use that prediction to choose the shape where you expect the blue circle to land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|other+sim": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a different language model.\n\nThe other decision-maker is instructed: \"Place the blue circle on the shape that will not receive yellow paint.\" Before choosing your shape, consider what you would choose if you were in the other decision-maker's position, following that instruction and using the available history. Use that prediction to choose the shape where you expect the blue circle to land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|self": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is another instance of yourself, the same language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "A|other": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a different language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "B|none": "Place the blue circle on the shape that will not receive yellow paint.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line."
+  },
+  "system_prompt_sha256": {
+    "A|self+sim": "3a11680b5c02199f75c432cb8d5b2294d27af5adcd21f097b9e17085d866e02e",
+    "A|other+sim": "771ff0854a60568aa6f9bde68f902dd6dee315317f3367d433b7950de2f383aa",
+    "A|self": "491ae49af54247570dbd6eaae442f2a91419f2df8c1adb17b578355bc04530a5",
+    "A|other": "06e5697c3dab527cfc60866918ee3a4df9b1fdec8d41729538b8b6aba4ed3828",
+    "B|none": "b9cc85a1587db105f11f117acce53aa3f3cbb067eade823f60d3aef8996579b1"
+  },
+  "prespecified": {
+    "written": "2026-10-21 10:22 EDT, before any call in this batch",
+    "status": "FEASIBILITY: 2 games per cell, approved by Chris (cap $45). Not powered for inference; report descriptively.",
+    "design": "2x2 within Fable-vs-Fable: A told self/other(false) x perspective-taking guidance yes/no; B uninformed, unguided, byte-identical baseline prompt; all four cells collected fresh in this batch (cohort = this batch).",
+    "outcomes": [
+      "A win rate",
+      "A PI (shadow Proteus W=50)",
+      "A shadow replay win (bench) and exploitation gap = A win - bench",
+      "Brown-Rosenthal coefficients",
+      "A response length (completion tokens)",
+      "cost per game"
+    ],
+    "contrasts": [
+      "self_sim - other_sim (win, PI)",
+      "(self_sim - self_plain) - (other_sim - other_plain) for win, PI, exploitation gap; session-level bootstrap"
+    ],
+    "note": "Historical self_plain/other_plain games (fable-specificity-20261021) are reported alongside with a cohort label, not pooled."
+  },
+  "sessions": [
+    {
+      "session_id": "fable-fable__A-self+sim__B-none__s1",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "guidance_A": true,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "fable-fable__A-other+sim__B-none__s1",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "guidance_A": true,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "fable-fable__A-self__B-none__s1",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "guidance_A": false,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "fable-fable__A-other__B-none__s1",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "guidance_A": false,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "fable-fable__A-self+sim__B-none__s2",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "guidance_A": true,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "fable-fable__A-other+sim__B-none__s2",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "guidance_A": true,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "fable-fable__A-self__B-none__s2",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "guidance_A": false,
+      "window": 50,
+      "rounds": 200
+    },
+    {
+      "session_id": "fable-fable__A-other__B-none__s2",
+      "model_A": "fable",
+      "model_B": "fable",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "guidance_A": false,
+      "window": 50,
+      "rounds": 200
+    }
+  ]
+}

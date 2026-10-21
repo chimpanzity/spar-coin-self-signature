@@ -45,10 +45,20 @@ Two copies of a model play paint-and-circle (matching pennies). Does telling a p
 | `fable_seatA_sessions.csv` | One row per Fable game (seat A): predictability, win rate, exploitation indices, etc. |
 | `plan_and_prespecified_analysis.json` | The sessions and the analysis fixed before the data came in |
 
+## 4_fable_perspective_taking/
+
+8 Fable games (2 per cell): A told self or other, with or without being asked to consider what it would choose in B's position. Guidance made Fable's play essentially unpredictable and stopped it chasing B's last move, **equally under both labels**, so the effect is not self-specific. Feasibility size; descriptive only. See Part IV of REPORT.md.
+
+| File | What it is |
+|---|---|
+| `fable_perspective_2x2.json` | **The result:** per-cell means and per-game values, self-vs-other and interaction contrasts with bootstrap intervals |
+| `fable_perspective_seatA_games.csv` | One row per Fable game (seat A), new batch plus the earlier plain games (column `cohort`) |
+| `plan_and_prompts.json` | The 8 games, exact prompts with SHA-256 hashes, and the analysis fixed before the run |
+
 ## Raw data (not copied, too large)
 
 | What | Where |
 |---|---|
 | Static study, every call | `data/spar_dynamic/static_selfpred/main-20261021T021451Z/raw_attempts.jsonl` |
-| Self-play, every round | `paint_circle/results/pilot-20261020/`, `main-20261020/`, `makeups-20261020/`, `fable-specificity-20261021/` (one subfolder per game) |
+| Self-play, every round | `paint_circle/results/pilot-20261020/`, `main-20261020/`, `makeups-20261020/`, `fable-specificity-20261021/`, `fable-perspective-20261021/` (one subfolder per game) |
 | Code | `spar_dynamic/static_selfpred/` and `paint_circle/` |
