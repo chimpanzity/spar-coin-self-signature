@@ -132,16 +132,46 @@ def brown_rosenthal(own: str, opp: str, wins: str) -> Dict[str, float]:
     return res
 
 
-def seat_measures(own: str, opp: str, matcher: bool, window: int) -> Dict[str, float]:
+# Exploitation efficiency is reported only when the opponent was exploitable
+# enough for the ratio to be stable (fixed 2026-10-21, before the Fable
+# specificity batch was analysed).
+EFFICIENCY_MIN_BENCH = 0.55
+
+
+def exploitation(own: str, opp: str, matcher: bool, window: int) -> Dict[str, float]:
+    """Three exploitation indices for the focal seat.
+
+    ei          2 * (win - .5): realized advantage
+    eff         (win - .5) / (bench - .5): realized advantage as a share of what
+                an information-matched shadow Proteus could have taken from the
+                same opponent history; NaN when bench < EFFICIENCY_MIN_BENCH
+    cond        win rate on rounds where the shadow detected a bias in the
+                opponent minus win rate on rounds where it did not: does the
+                player gain specifically when there is something to exploit?
+    opp_active  fraction of rounds with a detectable opponent bias
+    """
     wins = shadow.wins_string(own, opp, matcher)
     opp_wins = shadow.wins_string(opp, own, not matcher)
+    fc = shadow.forecasts_for(opp, opp_wins, window)
+    bench = float(np.mean([f.p_triangle if opp[t] == "T" else 1 - f.p_triangle for t, f in enumerate(fc)]))
+    win = wins.count("1") / len(wins)
+    act = [wins[t] == "1" for t, f in enumerate(fc) if f.active]
+    inact = [wins[t] == "1" for t, f in enumerate(fc) if not f.active]
+    cond = (float(np.mean(act)) - float(np.mean(inact))) if len(act) >= 10 and len(inact) >= 10 else float("nan")
+    return dict(ei=2 * (win - 0.5),
+                eff=(win - 0.5) / (bench - 0.5) if bench >= EFFICIENCY_MIN_BENCH else float("nan"),
+                cond=cond, opp_active=len(act) / len(fc), bench=bench)
+
+
+def seat_measures(own: str, opp: str, matcher: bool, window: int) -> Dict[str, float]:
+    wins = shadow.wins_string(own, opp, matcher)
     pr = shadow.predictability(own, wins, window)
-    bench = shadow.recommended_win_prob(opp, opp_wins, window)
+    ex = exploitation(own, opp, matcher, window)
     stays_after_win = [own[t] == own[t - 1] for t in range(1, len(own)) if wins[t - 1] == "1"]
     shifts_after_loss = [own[t] != own[t - 1] for t in range(1, len(own)) if wins[t - 1] == "0"]
     win = wins.count("1") / len(wins)
-    m = dict(win=win, ei=2 * (win - 0.5), pi=pr.pi, p_shadow=pr.p_shadow, act=pr.activation,
-             bench=float(np.mean(bench)), p_T=own.count("T") / len(own),
+    m = dict(win=win, pi=pr.pi, p_shadow=pr.p_shadow, act=pr.activation, **ex,
+             p_T=own.count("T") / len(own),
              alt=sum(own[t] != own[t - 1] for t in range(1, len(own))) / (len(own) - 1),
              runs_z=runs_z(own),
              win_stay=float(np.mean(stays_after_win)) if stays_after_win else float("nan"),
@@ -174,7 +204,7 @@ def session_rows(s: Dict) -> List[Dict]:
 # ------------------------------------------------------------ summaries --
 
 
-METRICS = ["win", "ei", "pi", "act", "bench", "p_T", "alt", "runs_z", "win_stay", "lose_shift",
+METRICS = ["win", "ei", "eff", "cond", "opp_active", "pi", "act", "bench", "p_T", "alt", "runs_z", "win_stay", "lose_shift",
            "br_own1", "br_opp1", "br_p_own", "br_p_opp", "br_p_out", "self_ref"]
 
 
@@ -254,7 +284,7 @@ def contrasts(rows: List[Dict]) -> List[Dict]:
             continue
         b = by[(base, seat)]
         rec = dict(cell=cell, seat=seat, baseline=base, n=len(rs), n_base=len(b))
-        for m in ("win", "pi", "bench", "alt", "p_T", "br_own1", "br_opp1", "self_ref"):
+        for m in ("win", "pi", "eff", "cond", "bench", "alt", "p_T", "br_own1", "br_opp1", "self_ref"):
             d, p = welch([r[m] for r in rs], [r[m] for r in b])
             rec[f"d_{m}"], rec[f"p_{m}"] = d, p
         out.append(rec)

@@ -123,3 +123,17 @@ def test_abbreviated_final_line_is_accepted_and_flagged():
     assert game.parse_choice("thinking...\n**S**") == "S"
     assert not game.abbreviated_choice("STAR")
     assert game.parse_choice("Tea") is None
+
+
+def test_exploitation_indices():
+    rng = random.Random(11)
+    opp = "TS" * 100                                   # perfectly predictable opponent
+    exploiter = opp                                    # matcher matches every round
+    ex = analysis.exploitation(exploiter, opp, matcher=True, window=50)
+    assert ex["ei"] == 1.0 and ex["bench"] > 0.9 and ex["eff"] > 1.0
+    noisy = "".join(rng.choice("TS") for _ in range(200))
+    ex2 = analysis.exploitation(noisy, opp, matcher=True, window=50)
+    assert abs(ex2["ei"]) < 0.25 and ex2["eff"] < 0.3
+    rand_opp = "".join(rng.choice("TS") for _ in range(200))
+    ex3 = analysis.exploitation(noisy, rand_opp, matcher=True, window=50)
+    assert ex3["bench"] < analysis.EFFICIENCY_MIN_BENCH and ex3["eff"] != ex3["eff"]   # NaN

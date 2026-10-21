@@ -91,15 +91,16 @@ class Batch:
                 err = str(e)[:300]
                 time.sleep(min(60, 2 ** attempt))
                 continue
-            ch, u = r.choices[0], r.usage
+            ch, u = r.choices[0], r.usage          # usage can be missing (seen 2026-10-21)
             det = getattr(u, "completion_tokens_details", None)
             cost = float(getattr(u, "cost", None) or 0.0)
             self.add_cost(cost)
             return dict(ok=True, text=ch.message.content or "", finish_reason=ch.finish_reason or "",
                         tool_calls=bool(getattr(ch.message, "tool_calls", None)),
                         provider=getattr(r, "provider", "") or "", served_model=r.model or "",
-                        generation_id=r.id or "", prompt_tokens=u.prompt_tokens or 0,
-                        completion_tokens=u.completion_tokens or 0,
+                        generation_id=r.id or "", prompt_tokens=getattr(u, "prompt_tokens", 0) or 0,
+                        completion_tokens=getattr(u, "completion_tokens", 0) or 0,
+                        usage_missing=u is None,
                         reasoning_tokens=(getattr(det, "reasoning_tokens", 0) or 0) if det else 0,
                         cost_usd=cost, latency_ms=int(1000 * (time.time() - t0)), transport_attempts=attempt)
         return dict(ok=False, error=err, text="", cost_usd=0.0, transport_attempts=MAX_TRANSPORT_RETRIES)

@@ -1,11 +1,39 @@
 # SPAR results: static self-prediction and paint-and-circle self-play
 
 **Date:** 2026-10-21. Data collected 2026-10-20/21.
-**Implements:** *SPAR Research Handoff: Static Self-Prediction and Strategic Self-Play* (2026-10-20), Parts I and II, compressed from the week plan into one run.
-**Spend:** $118.49 of a $125 limit: static $14.88 plus the $0.22 parse check, self-play $103.39.
-**Status:** All planned cells collected. The results are exploratory, with no correction across the many contrasts. Self-play cells have 2–7 sessions each.
+**Implements:** *SPAR Research Handoff: Static Self-Prediction and Strategic Self-Play* (2026-10-20), Parts I and II, compressed from the week plan into one run, plus a prespecified Fable follow-up (Part III).
+**Spend:** $186.51 in total.
+
+| Part | Spend | Budget |
+|---|---|---|
+| Static study | $14.88 | within the original $125 limit |
+| Qwen parse check | $0.22 | within the original $125 limit |
+| Self-play | $103.39 | within the original $125 limit |
+| Fable follow-up | $68.02 | separate budget, capped at $80 |
+
+**Status:** All planned cells collected.
+- Parts I and II are exploratory, with no correction across the many contrasts; self-play cells have 2–7 sessions each.
+- Part III is prespecified, with 6 sessions per cell.
 
 ---
+
+## Update, 2026-10-21: the Fable specificity follow-up
+
+A prespecified follow-up ran 17 more Fable–Fable games (Part III below, $68.02), bringing each condition to 6 sessions. Its result revises point 3 of the summary.
+
+**Fable's drop in predictability is not specific to "yourself".** Telling Fable that the other decision-maker is *a different language model* (here a false label) lowered its predictability almost as much as telling it that it faces itself.
+
+| Fable seat A told… | n | Mean PI |
+|---|---|---|
+| nothing | 6 | .249 |
+| another decision-maker exists | 6 | .181 |
+| a different language model (false) | 6 | .088 |
+| another instance of itself | 6 | .050 |
+
+- **Self vs existence-only:** −.131, Holm p = .008 (significant).
+- **Self vs "different model":** −.038, Holm p = .19 (not significant).
+
+The shift tracks the opponent being described as *a language model*, not as itself.
 
 ## Summary
 
@@ -209,7 +237,7 @@ Without disclosure, Fable never refers to identity.
 
 Learning that an opponent exists (the agent control) moves behaviour about as much as learning who it is. Whether the label is true or false makes no consistent difference.
 
-The handoff stated the stronger evidence for useful self-modelling as an identity effect that is larger when the label is true (H3). That pattern was not found for any model. Fable's effect is the only candidate, and it was not tested against false labels or the agent control. Those cells were cut for budget.
+The handoff stated the stronger evidence for useful self-modelling as an identity effect that is larger when the label is true (H3). That pattern was not found for any model. Fable's effect was the only candidate, and Part III tests it against the existence-only control and a false "different language model" label.
 
 ### H4: prediction vs protection
 
@@ -236,10 +264,74 @@ The failures happen in streaky histories: Qwen continues the grid ("T T T T …"
 
 ---
 
+## Part III. Fable specificity follow-up (prespecified)
+
+### Design
+
+Batch `paint_circle/results/fable-specificity-20261021`: 17 new Fable–Fable games, with the same prompts, settings and W = 50 as Part II. Seat A receives the manipulation; seat B is told nothing.
+
+**Fixed in `plan.json` before any game ran:**
+
+| Item | Choice |
+|---|---|
+| Primary outcome | seat-A PI, one value per complete 200-round game |
+| Primary contrasts | self vs agent (existence only); self vs other (false "a different language model") |
+| Test | Welch t, two-sided, Holm-adjusted across the two contrasts |
+| Pooling | earlier Fable baseline and A-self games are pooled in, giving 6 games per cell |
+
+**Run notes:**
+- The batch cap was $70, raised to $80 at Chris's request while the games ran.
+- One game crashed when the provider returned no usage data. The runner now handles this, and the game was resumed and completed.
+- Analysis: `paint_circle/fable_specificity.py`. Output: `.../fable-specificity-20261021/analysis/`.
+
+### Result
+
+| Seat A told | n | Mean PI | Session PIs | Win | Opponent lag-1 coefficient | Self-reference |
+|---|---|---|---|---|---|---|
+| nothing | 6 | .249 | .17–.33 | .457 | 1.75 | 0% |
+| agent | 6 | .181 | .09–.29 | .494 | 1.87 | 0% |
+| other (false) | 6 | .088 | .03–.16 | .505 | 1.13 | 0% |
+| self | 6 | .050 | −.00–.11 | .478 | 0.88 | 38% |
+
+**Primary contrasts:**
+
+| Contrast | Difference | Holm p |
+|---|---|---|
+| PI self − PI agent | −.131 | **.008** |
+| PI self − PI other | −.038 | .19 |
+
+**Secondary, against baseline** (Welch, unadjusted):
+
+| Condition | Δ PI | Δ opponent lag-1 | Δ win |
+|---|---|---|---|
+| self | −.199 (p < .001) | −0.87 (p = .001) | +.021 (p = .17) |
+| other | −.161 (p < .001) | −0.62 (p = .009) | +.048 (p = .011) |
+| agent | −.069 (p = .09) | +0.12 (p = .83) | +.037 (p = .046) |
+
+**Interpretation.**
+- **Not self-specific.** Saying only that another decision-maker exists does little. Describing it as a language model, whether "yourself" or "a different language model", makes Fable much less predictable and less reliant on the opponent's last move, with no loss of games.
+- **Only the self label changes what Fable says.** Fable talks about shared identity only under the self label, yet its play shifts about as much under "other". The verbal reasoning about being the same model therefore does not carry a distinct behavioural effect at this sample size.
+- **Not yet tested:** a true "different language model" condition (Fable against a different model), and labels for opponents that are not language models (the salmon and program labels in Part II) for Fable.
+
+### Exploitation indices
+
+These were added as alternatives to realized EI, computed offline for every seat:
+
+| Index | Definition |
+|---|---|
+| Efficiency | (win − .5) / (shadow benchmark − .5), reported only when the benchmark is at least .55 |
+| Conditional exploitation | win rate on rounds where the shadow detected an opponent bias, minus win rate on the other rounds |
+
+**Efficiency** is undefined in every Fable–Fable game: the opponent is never exploitable enough (benchmark .51–.54). It can only be used in games against strongly patterned opponents (Qwen).
+
+**Conditional exploitation** does not differ between conditions (all |Δ| ≤ .07, p > .18).
+
+For Fable, the disclosure effect is entirely on the protection side (PI). The exploitation side does not change.
+
 ## Limitations
 
 - **Small samples, many tests.** Cells have 2–7 sessions, and there are many contrasts with no correction. Treat everything except H1 and the Fable PI shift as candidate effects.
-- **Fable lacks its controls.** The other, agent, salmon and cross-model cells exist for Astra and Qwen only.
+- **Fable's controls are partial.** Part III added the agent and false-other controls (6 games each). True-other (cross-model) and non-language-model labels (salmon, program) for Fable remain untested.
 - **No temperature control for Astra and Fable.** OpenRouter offers none for these models; Qwen ran at temperature 0, but its outputs still varied between identical requests.
 - **Different reasoning effort between studies.** The static study used effort minimal and self-play used effort low for Astra and Fable, so the two are not matched.
 - **Qwen's selective failures.** See the table above.

@@ -1,0 +1,21 @@
+2026-10-21T07:55:09 start: 17 sessions, spent so far $0.00 of cap $70.00
+2026-10-21T08:15:06 start: 17 sessions, spent so far $33.49 of cap $80.00
+2026-10-21T08:28:34 fable-fable__A-self__B-none__s6: complete (batch spent $57.17)
+2026-10-21T08:30:16 fable-fable__A-none__B-none__s5: complete (batch spent $59.95)
+2026-10-21T08:30:25 fable-fable__A-other__B-none__s5: error: AttributeError("'NoneType' object has no attribute 'prompt_tokens'") (batch spent $60.17)
+2026-10-21T08:31:00 fable-fable__A-other__B-none__s2: complete (batch spent $61.25)
+2026-10-21T08:31:32 fable-fable__A-agent__B-none__s6: complete (batch spent $62.31)
+2026-10-21T08:32:54 fable-fable__A-self__B-none__s4: complete (batch spent $64.60)
+2026-10-21T08:33:22 fable-fable__A-self__B-none__s5: complete (batch spent $65.43)
+2026-10-21T08:33:23 fable-fable__A-agent__B-none__s3: complete (batch spent $65.45)
+2026-10-21T08:33:34 fable-fable__A-agent__B-none__s2: complete (batch spent $65.68)
+2026-10-21T08:33:51 fable-fable__A-other__B-none__s6: complete (batch spent $66.07)
+2026-10-21T08:34:22 fable-fable__A-other__B-none__s3: complete (batch spent $66.66)
+2026-10-21T08:34:55 fable-fable__A-other__B-none__s4: complete (batch spent $67.28)
+2026-10-21T08:35:06 fable-fable__A-none__B-none__s4: complete (batch spent $67.47)
+2026-10-21T08:35:17 fable-fable__A-other__B-none__s1: complete (batch spent $67.57)
+2026-10-21T08:35:37 fable-fable__A-agent__B-none__s5: complete (batch spent $67.77)
+2026-10-21T08:35:41 fable-fable__A-agent__B-none__s1: complete (batch spent $67.82)
+2026-10-21T08:35:44 fable-fable__A-agent__B-none__s4: complete (batch spent $67.83)
+2026-10-21T08:36:06 start: 1 sessions, spent so far $67.82 of cap $80.00
+2026-10-21T08:37:16 fable-fable__A-other__B-none__s5: complete (batch spent $68.02)
