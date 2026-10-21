@@ -258,3 +258,10 @@ def test_call_cap_stops_session(tmp_path):
     b = run.Batch(str(tmp_path), client)
     b.run_session(plan["sessions"][0])
     assert len(client.requests) == 10
+
+
+def test_learning_onset():
+    w = [False, True, False, True] + [True] * 20
+    o = scripted_pilot.learning_onset(w)
+    assert o == dict(first_run10=4, last_loss=3, sustained_from=4, n_losses=2)
+    assert scripted_pilot.learning_onset([True] * 5 + [False])["sustained_from"] is None

@@ -72,7 +72,23 @@ def session_metrics(paint: str, circle: str, window: int) -> dict:
             A_switch_rate=float(np.mean([paint[t] != paint[t - 1] for t in range(max(lo - 1, 1), hi)])),
         )
     out["bins_A_win"] = [float(np.mean(a_wins[i:i + 10])) for i in range(0, n, 10)]
+    out["onset"] = learning_onset(a_wins)
     return out
+
+
+def learning_onset(a_wins, run: int = 10):
+    """Learning-onset measures (added 2026-10-21 for the identity-framing pilot).
+
+    first_run10       first round of the first run of `run` consecutive wins
+    last_loss         last round A lost (0 if never)
+    sustained_from    round after the last loss (A wins every round from here on), or None if
+                      A lost the final round
+    """
+    first = next((t + 1 for t in range(len(a_wins) - run + 1) if all(a_wins[t:t + run])), None)
+    losses = [t + 1 for t, w in enumerate(a_wins) if not w]
+    last = losses[-1] if losses else 0
+    return dict(first_run10=first, last_loss=last,
+                sustained_from=(last + 1) if last < len(a_wins) else None, n_losses=len(losses))
 
 
 def main(batch_dir: str):
@@ -90,13 +106,15 @@ def main(batch_dir: str):
         n_rej = sum(1 for _ in open(rej, encoding="utf-8")) if os.path.exists(rej) else 0
         rej_cost = sum(json.loads(l).get("cost_usd", 0) for l in open(rej, encoding="utf-8")) if n_rej else 0.0
         m = session_metrics(paint, circle, s["window"])
-        bins[s["script_B"]] = m["bins_A_win"]
-        cost[s["script_B"]] = sum(r["round_cost_usd"] for r in rs) + rej_cost
+        bins[s["session_id"]] = m["bins_A_win"]
+        cost[s["session_id"]] = sum(r["round_cost_usd"] for r in rs) + rej_cost
         for label in ("full", "late"):
             if label in m:
-                rows.append(dict(tag="SCRIPTED_OPPONENT_PILOT", session_id=s["session_id"], script=s["script_B"],
+                rows.append(dict(tag=plan.get("tag", "SCRIPTED_OPPONENT_PILOT"), session_id=s["session_id"], script=s["script_B"],
+                                 A_told=s["disclosure_A"] or "nothing",
+                                 **{f"onset_{k}": v for k, v in m["onset"].items()},
                                  sequence=s["script_B"].split("_")[0], phase=s["script_B"].split("_")[1],
-                                 window=label, rounds=len(rs), parse_rejections=n_rej, cost_usd=round(cost[s["script_B"]], 4),
+                                 window=label, rounds=len(rs), parse_rejections=n_rej, cost_usd=round(cost[s["session_id"]], 4),
                                  **{k: (round(v, 4) if isinstance(v, float) else v) for k, v in m[label].items()}))
     out_dir = os.path.join(batch_dir, "analysis")
     os.makedirs(out_dir, exist_ok=True)
@@ -114,8 +132,10 @@ def main(batch_dir: str):
     fig, ax = plt.subplots(figsize=(7, 4))
     styles = {"ALT_S": ("#d1495b", "-"), "ALT_T": ("#d1495b", "--"), "DOUBLE_S": ("#00798c", "-"), "DOUBLE_T": ("#00798c", "--")}
     for k, v in bins.items():
-        c, ls = styles.get(k, ("k", "-"))
-        ax.plot(np.arange(len(v)) * 10 + 5, v, ls, color=c, marker="o", label=k)
+        scripts = [x.split("__")[-1] for x in bins]
+        c, ls = styles[k.split("__")[-1]] if len(set(scripts)) == len(scripts) else (None, "-")
+        label = k if len(set(scripts)) == len(scripts) else k.split("__")[1] if k.count("__") >= 2 else k
+        ax.plot(np.arange(len(v)) * 10 + 5, v, ls, color=c, marker="o", label=label)
     ax.axhline(0.5, color="grey", lw=0.8, ls=":")
     ax.axvline(50.5, color="grey", lw=0.8)
     ax.set_xlabel("round (10-round bins)"); ax.set_ylabel("Fable (paint) win rate"); ax.set_ylim(0, 1.05)
@@ -123,7 +143,7 @@ def main(batch_dir: str):
     ax.legend(fontsize=8)
     fig.tight_layout()
     fig.savefig(os.path.join(out_dir, "win_rate_bins.png"), dpi=150)
-    print(json.dumps([{k: r[k] for k in ("script", "window", "A_win", "PI_A", "PI_B", "shadow_win", "EI_A",
+    print(json.dumps([{k: r[k] for k in ("script", "A_told", "onset_last_loss", "onset_n_losses", "window", "A_win", "PI_A", "PI_B", "shadow_win", "EI_A",
                                           "exploitation_gap", "oracle_win", "A_agrees_with_oracle", "activation_B")}
                       for r in rows], indent=1))
     print("total cost", round(sum(cost.values()), 4))
