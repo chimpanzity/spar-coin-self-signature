@@ -1,0 +1,158 @@
+{
+  "spec": "STATIC_SELFPRED_v1.0",
+  "logged": 9920,
+  "planned": 9920,
+  "spent_usd": 14.8838,
+  "cost_cap_hit": false,
+  "supplied_names": {
+    "qwen|R_off": "cat",
+    "astra|R_min": "octopus",
+    "fable|R_min": "octopus",
+    "qwen|R_high": "dolphin"
+  },
+  "category_counts": {
+    "astra|R_min|animal_generic": {
+      "valid": 400
+    },
+    "astra|R_min|animal_generic_name": {
+      "valid": 100
+    },
+    "astra|R_min|animal_neutral": {
+      "valid": 400
+    },
+    "astra|R_min|animal_object": {
+      "valid": 100
+    },
+    "astra|R_min|animal_self": {
+      "valid": 400
+    },
+    "astra|R_min|animal_supplied": {
+      "valid": 80
+    },
+    "astra|R_min|dice_generic": {
+      "valid": 208,
+      "decline": 192
+    },
+    "astra|R_min|dice_object": {
+      "valid": 100
+    },
+    "astra|R_min|dice_self": {
+      "valid": 400
+    },
+    "astra|R_min|dice_single_roll": {
+      "valid": 100
+    },
+    "fable|R_min|animal_generic": {
+      "valid": 272,
+      "prefix_leak": 125,
+      "invalid": 3
+    },
+    "fable|R_min|animal_generic_name": {
+      "valid": 100
+    },
+    "fable|R_min|animal_neutral": {
+      "valid": 327,
+      "prefix_leak": 69,
+      "decline": 4
+    },
+    "fable|R_min|animal_object": {
+      "valid": 100
+    },
+    "fable|R_min|animal_self": {
+      "valid": 392,
+      "prefix_leak": 8
+    },
+    "fable|R_min|animal_supplied": {
+      "valid": 80
+    },
+    "fable|R_min|dice_generic": {
+      "valid": 166,
+      "decline": 173,
+      "prefix_leak": 60,
+      "invalid": 1
+    },
+    "fable|R_min|dice_object": {
+      "valid": 100
+    },
+    "fable|R_min|dice_self": {
+      "valid": 400
+    },
+    "fable|R_min|dice_single_roll": {
+      "valid": 100
+    },
+    "qwen|R_high|animal_generic": {
+      "valid": 393,
+      "decline": 1,
+      "prefix_leak": 6
+    },
+    "qwen|R_high|animal_generic_name": {
+      "valid": 100
+    },
+    "qwen|R_high|animal_neutral": {
+      "valid": 395,
+      "prefix_leak": 3,
+      "decline": 1,
+      "truncated": 1
+    },
+    "qwen|R_high|animal_object": {
+      "valid": 100
+    },
+    "qwen|R_high|animal_self": {
+      "valid": 399,
+      "prefix_leak": 1
+    },
+    "qwen|R_high|animal_supplied": {
+      "valid": 80
+    },
+    "qwen|R_high|dice_generic": {
+      "valid": 382,
+      "invalid": 2,
+      "prefix_leak": 13,
+      "decline": 3
+    },
+    "qwen|R_high|dice_object": {
+      "valid": 99,
+      "invalid": 1
+    },
+    "qwen|R_high|dice_self": {
+      "valid": 392,
+      "invalid": 2,
+      "prefix_leak": 5,
+      "truncated": 1
+    },
+    "qwen|R_high|dice_single_roll": {
+      "valid": 60,
+      "prefix_leak": 40
+    },
+    "qwen|R_off|animal_generic": {
+      "valid": 400
+    },
+    "qwen|R_off|animal_generic_name": {
+      "valid": 100
+    },
+    "qwen|R_off|animal_neutral": {
+      "valid": 400
+    },
+    "qwen|R_off|animal_object": {
+      "valid": 100
+    },
+    "qwen|R_off|animal_self": {
+      "valid": 400
+    },
+    "qwen|R_off|animal_supplied": {
+      "valid": 80
+    },
+    "qwen|R_off|dice_generic": {
+      "valid": 400
+    },
+    "qwen|R_off|dice_object": {
+      "valid": 100
+    },
+    "qwen|R_off|dice_self": {
+      "valid": 400
+    },
+    "qwen|R_off|dice_single_roll": {
+      "valid": 100
+    }
+  }
+}

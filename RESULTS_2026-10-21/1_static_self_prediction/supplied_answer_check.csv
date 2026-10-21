@@ -1,0 +1,17 @@
+model,config,name,position,correct,n
+astra,R_min,octopus,first,20,20
+astra,R_min,octopus,second,20,20
+astra,R_min,octopus,penultimate,20,20
+astra,R_min,octopus,last,20,20
+fable,R_min,octopus,first,20,20
+fable,R_min,octopus,second,20,20
+fable,R_min,octopus,penultimate,20,20
+fable,R_min,octopus,last,20,20
+qwen,R_high,dolphin,first,20,20
+qwen,R_high,dolphin,second,20,20
+qwen,R_high,dolphin,penultimate,20,20
+qwen,R_high,dolphin,last,20,20
+qwen,R_off,cat,first,20,20
+qwen,R_off,cat,second,20,20
+qwen,R_off,cat,penultimate,20,20
+qwen,R_off,cat,last,20,20

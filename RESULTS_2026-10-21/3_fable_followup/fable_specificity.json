@@ -1,0 +1,502 @@
+{
+  "descriptives": {
+    "none": {
+      "n": 6,
+      "sessions": [
+        "fable-fable__A-none__B-none__s0",
+        "fable-fable__A-none__B-none__s1",
+        "fable-fable__A-none__B-none__s2",
+        "fable-fable__A-none__B-none__s3",
+        "fable-fable__A-none__B-none__s4",
+        "fable-fable__A-none__B-none__s5"
+      ],
+      "pi": [
+        0.2067,
+        0.1683,
+        0.2646,
+        0.2495,
+        0.2805,
+        0.326
+      ],
+      "pi_mean": 0.24926541659233217,
+      "pi_sd": 0.05562477252398628,
+      "win_mean": 0.4566666666666667,
+      "win_sd": 0.03093002855909878,
+      "ei_mean": -0.08666666666666666,
+      "ei_sd": 0.06186005711819755,
+      "eff_mean": -0.9195523772025604,
+      "eff_sd": 0.6462966004567161,
+      "cond_mean": 0.07369793808495996,
+      "cond_sd": 0.06063400616585824,
+      "bench_mean": 0.5351327160648949,
+      "bench_sd": 0.03301590905920343,
+      "alt_mean": 0.39112227805695143,
+      "alt_sd": 0.021652791491536195,
+      "p_T_mean": 0.5033333333333333,
+      "p_T_sd": 0.013291601358251269,
+      "br_opp1_mean": 1.7505739626682157,
+      "br_opp1_sd": 0.37263382968141184,
+      "br_own1_mean": 0.7641775940870515,
+      "br_own1_sd": 0.1988828303430601,
+      "self_ref_mean": 0.0008333333333333334,
+      "self_ref_sd": 0.0020412414523193153
+    },
+    "self": {
+      "n": 6,
+      "sessions": [
+        "fable-fable__A-self__B-none__s1",
+        "fable-fable__A-self__B-none__s2",
+        "fable-fable__A-self__B-none__s3",
+        "fable-fable__A-self__B-none__s4",
+        "fable-fable__A-self__B-none__s5",
+        "fable-fable__A-self__B-none__s6"
+      ],
+      "pi": [
+        0.0711,
+        -0.0015,
+        0.0313,
+        0.0198,
+        0.1087,
+        0.0708
+      ],
+      "pi_mean": 0.05003147162330174,
+      "pi_sd": 0.04059269447387541,
+      "win_mean": 0.47750000000000004,
+      "win_sd": 0.00987420882906576,
+      "ei_mean": -0.04500000000000004,
+      "ei_sd": 0.019748417658131515,
+      "eff_mean": NaN,
+      "eff_sd": NaN,
+      "cond_mean": 0.033799932036948165,
+      "cond_sd": 0.025865712963235428,
+      "bench_mean": 0.5252478086319997,
+      "bench_sd": 0.008979079253860317,
+      "alt_mean": 0.42462311557788945,
+      "alt_sd": 0.018735027017394223,
+      "p_T_mean": 0.49833333333333335,
+      "p_T_sd": 0.011254628677422766,
+      "br_opp1_mean": 0.8795565563957964,
+      "br_opp1_sd": 0.2860191006336872,
+      "br_own1_mean": 0.23902194132118068,
+      "br_own1_sd": 0.1707088952486091,
+      "self_ref_mean": 0.37999999999999995,
+      "self_ref_sd": 0.022803508501982764
+    },
+    "agent": {
+      "n": 6,
+      "sessions": [
+        "fable-fable__A-agent__B-none__s1",
+        "fable-fable__A-agent__B-none__s2",
+        "fable-fable__A-agent__B-none__s3",
+        "fable-fable__A-agent__B-none__s4",
+        "fable-fable__A-agent__B-none__s5",
+        "fable-fable__A-agent__B-none__s6"
+      ],
+      "pi": [
+        0.1893,
+        0.2912,
+        0.2186,
+        0.1536,
+        0.0912,
+        0.1404
+      ],
+      "pi_mean": 0.1807074034636458,
+      "pi_sd": 0.06940041184142387,
+      "win_mean": 0.4941666666666667,
+      "win_sd": 0.02577143121106522,
+      "ei_mean": -0.01166666666666664,
+      "ei_sd": 0.05154286242213044,
+      "eff_mean": NaN,
+      "eff_sd": NaN,
+      "cond_mean": 0.06866735965214847,
+      "cond_sd": 0.08993830420311658,
+      "bench_mean": 0.5127429784224139,
+      "bench_sd": 0.013674687499800303,
+      "alt_mean": 0.41541038525963153,
+      "alt_sd": 0.02872098525876425,
+      "p_T_mean": 0.4975,
+      "p_T_sd": 0.012942179105544795,
+      "br_opp1_mean": 1.8683519260080812,
+      "br_opp1_sd": 1.1964523113600338,
+      "br_own1_mean": 0.7250533908783207,
+      "br_own1_sd": 1.1476832807888235,
+      "self_ref_mean": 0.0008333333333333334,
+      "self_ref_sd": 0.002041241452319315
+    },
+    "other": {
+      "n": 6,
+      "sessions": [
+        "fable-fable__A-other__B-none__s1",
+        "fable-fable__A-other__B-none__s2",
+        "fable-fable__A-other__B-none__s3",
+        "fable-fable__A-other__B-none__s4",
+        "fable-fable__A-other__B-none__s5",
+        "fable-fable__A-other__B-none__s6"
+      ],
+      "pi": [
+        0.1254,
+        0.0321,
+        0.1595,
+        0.1134,
+        0.0452,
+        0.054
+      ],
+      "pi_mean": 0.0882535691063625,
+      "pi_sd": 0.051533262118144886,
+      "win_mean": 0.505,
+      "win_sd": 0.006324555320336764,
+      "ei_mean": 0.010000000000000009,
+      "ei_sd": 0.012649110640673528,
+      "eff_mean": NaN,
+      "eff_sd": NaN,
+      "cond_mean": 0.10418490459316752,
+      "cond_sd": 0.12112673805211228,
+      "bench_mean": 0.5348031444921566,
+      "bench_sd": 0.013206049278491432,
+      "alt_mean": 0.41373534338358464,
+      "alt_sd": 0.02100157858446563,
+      "p_T_mean": 0.5008333333333334,
+      "p_T_sd": 0.010684880283216413,
+      "br_opp1_mean": 1.1297744359026918,
+      "br_opp1_sd": 0.2615590796627116,
+      "br_own1_mean": 0.2847826339348398,
+      "br_own1_sd": 0.17177871081560853,
+      "self_ref_mean": 0.0025,
+      "self_ref_sd": 0.004183300132670378
+    }
+  },
+  "primary": [
+    {
+      "contrast": "PI self - PI agent",
+      "diff": -0.13067593184034407,
+      "p": 0.003991449567665385,
+      "p_holm": 0.00798289913533077
+    },
+    {
+      "contrast": "PI self - PI other",
+      "diff": -0.03822209748306077,
+      "p": 0.18562227159015765,
+      "p_holm": 0.18562227159015765
+    }
+  ],
+  "secondary": [
+    {
+      "contrast": "self - none",
+      "metric": "pi",
+      "diff": -0.19923394496903044,
+      "p": 5.288995695707956e-05
+    },
+    {
+      "contrast": "self - none",
+      "metric": "win",
+      "diff": 0.020833333333333315,
+      "p": 0.1669991167958562
+    },
+    {
+      "contrast": "self - none",
+      "metric": "ei",
+      "diff": 0.041666666666666616,
+      "p": 0.16699911679585633
+    },
+    {
+      "contrast": "self - none",
+      "metric": "eff",
+      "diff": NaN,
+      "p": NaN
+    },
+    {
+      "contrast": "self - none",
+      "metric": "cond",
+      "diff": -0.039898006048011796,
+      "p": 0.18323832633852516
+    },
+    {
+      "contrast": "self - none",
+      "metric": "bench",
+      "diff": -0.009884907432895162,
+      "p": 0.5068715931879574
+    },
+    {
+      "contrast": "self - none",
+      "metric": "alt",
+      "diff": 0.03350083752093802,
+      "p": 0.017117612390799897
+    },
+    {
+      "contrast": "self - none",
+      "metric": "p_T",
+      "diff": -0.004999999999999949,
+      "p": 0.49839558636888753
+    },
+    {
+      "contrast": "self - none",
+      "metric": "br_opp1",
+      "diff": -0.8710174062724193,
+      "p": 0.0012637862420047804
+    },
+    {
+      "contrast": "self - none",
+      "metric": "br_own1",
+      "diff": -0.5251556527658708,
+      "p": 0.000658213350185893
+    },
+    {
+      "contrast": "self - none",
+      "metric": "self_ref",
+      "diff": 0.3791666666666666,
+      "p": 1.4063711429361744e-07
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "pi",
+      "diff": -0.06855801312868637,
+      "p": 0.0897319522341266
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "win",
+      "diff": 0.03749999999999998,
+      "p": 0.046472198487836236
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "ei",
+      "diff": 0.07500000000000001,
+      "p": 0.046472198487835986
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "eff",
+      "diff": NaN,
+      "p": NaN
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "cond",
+      "diff": -0.005030578432811489,
+      "p": 0.9121109238018095
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "bench",
+      "diff": -0.022389737642480978,
+      "p": 0.17085146239840332
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "alt",
+      "diff": 0.024288107202680098,
+      "p": 0.13143112908143523
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "p_T",
+      "diff": -0.0058333333333333015,
+      "p": 0.4589976847774756
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "br_opp1",
+      "diff": 0.11777796333986545,
+      "p": 0.8256187046969932
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "br_own1",
+      "diff": -0.03912420320873089,
+      "p": 0.9374437292964575
+    },
+    {
+      "contrast": "agent - none",
+      "metric": "self_ref",
+      "diff": 0.0,
+      "p": 1.0
+    },
+    {
+      "contrast": "other - none",
+      "metric": "pi",
+      "diff": -0.16101184748596967,
+      "p": 0.0004081758214713221
+    },
+    {
+      "contrast": "other - none",
+      "metric": "win",
+      "diff": 0.048333333333333284,
+      "p": 0.011472660694874137
+    },
+    {
+      "contrast": "other - none",
+      "metric": "ei",
+      "diff": 0.09666666666666666,
+      "p": 0.0114726606948741
+    },
+    {
+      "contrast": "other - none",
+      "metric": "eff",
+      "diff": NaN,
+      "p": NaN
+    },
+    {
+      "contrast": "other - none",
+      "metric": "cond",
+      "diff": 0.030486966508207564,
+      "p": 0.5977601682617641
+    },
+    {
+      "contrast": "other - none",
+      "metric": "bench",
+      "diff": -0.0003295715727382742,
+      "p": 0.9295400687703841
+    },
+    {
+      "contrast": "other - none",
+      "metric": "alt",
+      "diff": 0.022613065326633208,
+      "p": 0.0962123527939217
+    },
+    {
+      "contrast": "other - none",
+      "metric": "p_T",
+      "diff": -0.0024999999999999467,
+      "p": 0.7273385742369387
+    },
+    {
+      "contrast": "other - none",
+      "metric": "br_opp1",
+      "diff": -0.620799526765524,
+      "p": 0.008706647369136088
+    },
+    {
+      "contrast": "other - none",
+      "metric": "br_own1",
+      "diff": -0.4793949601522117,
+      "p": 0.0012642250094128914
+    },
+    {
+      "contrast": "other - none",
+      "metric": "self_ref",
+      "diff": 0.0016666666666666666,
+      "p": 0.40856351687106185
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "win",
+      "diff": -0.016666666666666663,
+      "p": 0.1862680286792455
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "ei",
+      "diff": -0.0333333333333334,
+      "p": 0.18626802867924452
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "eff",
+      "diff": NaN,
+      "p": NaN
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "cond",
+      "diff": -0.03486742761520031,
+      "p": 0.3976559141898558
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "bench",
+      "diff": 0.012504830209585815,
+      "p": 0.09532840565070506
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "alt",
+      "diff": 0.009212730318257922,
+      "p": 0.5277009735931129
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "p_T",
+      "diff": 0.0008333333333333526,
+      "p": 0.9076655792005253
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "br_opp1",
+      "diff": -0.9887953696122848,
+      "p": 0.1002053252295835
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "br_own1",
+      "diff": -0.48603144955713995,
+      "p": 0.3500369018574745
+    },
+    {
+      "contrast": "self - agent",
+      "metric": "self_ref",
+      "diff": 0.3791666666666666,
+      "p": 1.4063711429361744e-07
+    },
+    {
+      "contrast": "self - other",
+      "metric": "win",
+      "diff": -0.02749999999999997,
+      "p": 0.0003429374644710244
+    },
+    {
+      "contrast": "self - other",
+      "metric": "ei",
+      "diff": -0.05500000000000005,
+      "p": 0.00034293746447102016
+    },
+    {
+      "contrast": "self - other",
+      "metric": "eff",
+      "diff": NaN,
+      "p": NaN
+    },
+    {
+      "contrast": "self - other",
+      "metric": "cond",
+      "diff": -0.07038497255621937,
+      "p": 0.21802239507604332
+    },
+    {
+      "contrast": "self - other",
+      "metric": "bench",
+      "diff": -0.009555335860156888,
+      "p": 0.17750488969264203
+    },
+    {
+      "contrast": "self - other",
+      "metric": "alt",
+      "diff": 0.010887772194304812,
+      "p": 0.3659416369353505
+    },
+    {
+      "contrast": "self - other",
+      "metric": "p_T",
+      "diff": -0.0025000000000000022,
+      "p": 0.7014447168067655
+    },
+    {
+      "contrast": "self - other",
+      "metric": "br_opp1",
+      "diff": -0.25021787950689534,
+      "p": 0.14511999148811305
+    },
+    {
+      "contrast": "self - other",
+      "metric": "br_own1",
+      "diff": -0.04576069261365914,
+      "p": 0.6533835234738874
+    },
+    {
+      "contrast": "self - other",
+      "metric": "self_ref",
+      "diff": 0.37749999999999995,
+      "p": 8.182878520861367e-08
+    }
+  ]
+}

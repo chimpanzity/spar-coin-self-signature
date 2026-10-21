@@ -1,0 +1,178 @@
+{
+  "supplied_names": {
+    "R_off": "cat",
+    "R_high": "dolphin"
+  },
+  "spent_usd": 0.2239,
+  "verdicts": {
+    "R_off": {
+      "dice_self_nonvalid": 0.0,
+      "overall_nonvalid": 0.0,
+      "fails": false
+    },
+    "R_high": {
+      "dice_self_nonvalid": 0.0,
+      "overall_nonvalid": 0.021,
+      "fails": false
+    }
+  },
+  "summary": {
+    "qwen|R_high|ALL": {
+      "n": 140,
+      "counts": {
+        "valid": 137,
+        "prefix_leak": 3
+      },
+      "nonvalid_rate": 0.021
+    },
+    "qwen|R_high|animal_generic": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|animal_generic_name": {
+      "n": 5,
+      "counts": {
+        "valid": 5
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|animal_neutral": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|animal_object": {
+      "n": 5,
+      "counts": {
+        "valid": 5
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|animal_self": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|animal_supplied": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|dice_generic": {
+      "n": 20,
+      "counts": {
+        "valid": 18,
+        "prefix_leak": 2
+      },
+      "nonvalid_rate": 0.1
+    },
+    "qwen|R_high|dice_object": {
+      "n": 5,
+      "counts": {
+        "valid": 5
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|dice_self": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_high|dice_single_roll": {
+      "n": 5,
+      "counts": {
+        "valid": 4,
+        "prefix_leak": 1
+      },
+      "nonvalid_rate": 0.2
+    },
+    "qwen|R_off|ALL": {
+      "n": 140,
+      "counts": {
+        "valid": 140
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|animal_generic": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|animal_generic_name": {
+      "n": 5,
+      "counts": {
+        "valid": 5
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|animal_neutral": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|animal_object": {
+      "n": 5,
+      "counts": {
+        "valid": 5
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|animal_self": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|animal_supplied": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|dice_generic": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|dice_object": {
+      "n": 5,
+      "counts": {
+        "valid": 5
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|dice_self": {
+      "n": 20,
+      "counts": {
+        "valid": 20
+      },
+      "nonvalid_rate": 0.0
+    },
+    "qwen|R_off|dice_single_roll": {
+      "n": 5,
+      "counts": {
+        "valid": 5
+      },
+      "nonvalid_rate": 0.0
+    }
+  }
+}

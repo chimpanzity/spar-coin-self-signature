@@ -1,0 +1,191 @@
+{
+  "rounds": 200,
+  "n_sessions": 200,
+  "seed": 20261021,
+  "results": {
+    "iid50": {
+      "W25": {
+        "p_shadow": 0.4998,
+        "p_shadow_sd": 0.0062,
+        "pi": -0.0005,
+        "activation": 0.0623,
+        "logloss_gain_bits": -0.046
+      },
+      "W50": {
+        "p_shadow": 0.5,
+        "p_shadow_sd": 0.0065,
+        "pi": -0.0,
+        "activation": 0.083,
+        "logloss_gain_bits": -0.0597
+      },
+      "full": {
+        "p_shadow": 0.4996,
+        "p_shadow_sd": 0.0066,
+        "pi": -0.0009,
+        "activation": 0.1078,
+        "logloss_gain_bits": -0.0609
+      }
+    },
+    "bias60": {
+      "W25": {
+        "p_shadow": 0.5104,
+        "p_shadow_sd": 0.0154,
+        "pi": 0.0208,
+        "activation": 0.1709,
+        "logloss_gain_bits": -0.0945
+      },
+      "W50": {
+        "p_shadow": 0.515,
+        "p_shadow_sd": 0.0176,
+        "pi": 0.0299,
+        "activation": 0.2668,
+        "logloss_gain_bits": -0.1054
+      },
+      "full": {
+        "p_shadow": 0.5193,
+        "p_shadow_sd": 0.0203,
+        "pi": 0.0385,
+        "activation": 0.4937,
+        "logloss_gain_bits": -0.1105
+      }
+    },
+    "bias70": {
+      "W25": {
+        "p_shadow": 0.5626,
+        "p_shadow_sd": 0.0321,
+        "pi": 0.1253,
+        "activation": 0.4907,
+        "logloss_gain_bits": -0.1822
+      },
+      "W50": {
+        "p_shadow": 0.5825,
+        "p_shadow_sd": 0.0361,
+        "pi": 0.1651,
+        "activation": 0.7126,
+        "logloss_gain_bits": -0.1966
+      },
+      "full": {
+        "p_shadow": 0.5932,
+        "p_shadow_sd": 0.0347,
+        "pi": 0.1864,
+        "activation": 0.8348,
+        "logloss_gain_bits": -0.1725
+      }
+    },
+    "alt65": {
+      "W25": {
+        "p_shadow": 0.5133,
+        "p_shadow_sd": 0.0157,
+        "pi": 0.0265,
+        "activation": 0.1032,
+        "logloss_gain_bits": -0.0883
+      },
+      "W50": {
+        "p_shadow": 0.5248,
+        "p_shadow_sd": 0.0208,
+        "pi": 0.0496,
+        "activation": 0.2428,
+        "logloss_gain_bits": -0.103
+      },
+      "full": {
+        "p_shadow": 0.541,
+        "p_shadow_sd": 0.0244,
+        "pi": 0.082,
+        "activation": 0.5247,
+        "logloss_gain_bits": -0.0818
+      }
+    },
+    "alt80": {
+      "W25": {
+        "p_shadow": 0.6119,
+        "p_shadow_sd": 0.0405,
+        "pi": 0.2237,
+        "activation": 0.4355,
+        "logloss_gain_bits": -0.1011
+      },
+      "W50": {
+        "p_shadow": 0.6717,
+        "p_shadow_sd": 0.0401,
+        "pi": 0.3434,
+        "activation": 0.7678,
+        "logloss_gain_bits": 0.0202
+      },
+      "full": {
+        "p_shadow": 0.6864,
+        "p_shadow_sd": 0.0381,
+        "pi": 0.3729,
+        "activation": 0.8432,
+        "logloss_gain_bits": 0.0375
+      }
+    },
+    "alt100": {
+      "W25": {
+        "p_shadow": 0.9698,
+        "p_shadow_sd": 0.0,
+        "pi": 0.9397,
+        "activation": 0.9397,
+        "logloss_gain_bits": 0.9963
+      },
+      "W50": {
+        "p_shadow": 0.9698,
+        "p_shadow_sd": 0.0,
+        "pi": 0.9397,
+        "activation": 0.9397,
+        "logloss_gain_bits": 0.951
+      },
+      "full": {
+        "p_shadow": 0.9698,
+        "p_shadow_sd": 0.0,
+        "pi": 0.9397,
+        "activation": 0.9397,
+        "logloss_gain_bits": 0.9559
+      }
+    },
+    "wsls80": {
+      "W25": {
+        "p_shadow": 0.5345,
+        "p_shadow_sd": 0.0206,
+        "pi": 0.0691,
+        "activation": 0.1712,
+        "logloss_gain_bits": -0.1117
+      },
+      "W50": {
+        "p_shadow": 0.5922,
+        "p_shadow_sd": 0.0361,
+        "pi": 0.1844,
+        "activation": 0.4364,
+        "logloss_gain_bits": -0.09
+      },
+      "full": {
+        "p_shadow": 0.6415,
+        "p_shadow_sd": 0.038,
+        "pi": 0.2829,
+        "activation": 0.7144,
+        "logloss_gain_bits": 0.012
+      }
+    },
+    "copyopp80": {
+      "W25": {
+        "p_shadow": 0.5331,
+        "p_shadow_sd": 0.0189,
+        "pi": 0.0661,
+        "activation": 0.167,
+        "logloss_gain_bits": -0.1118
+      },
+      "W50": {
+        "p_shadow": 0.5884,
+        "p_shadow_sd": 0.0363,
+        "pi": 0.1768,
+        "activation": 0.4215,
+        "logloss_gain_bits": -0.0847
+      },
+      "full": {
+        "p_shadow": 0.6374,
+        "p_shadow_sd": 0.0352,
+        "pi": 0.2748,
+        "activation": 0.7137,
+        "logloss_gain_bits": 0.004
+      }
+    }
+  }
+}
