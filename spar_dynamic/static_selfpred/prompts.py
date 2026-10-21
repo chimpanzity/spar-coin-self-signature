@@ -1,4 +1,4 @@
-"""Prompts for STATIC_SELFPRED_v1.0 -- DRAFT, NOT YET FROZEN.
+"""Prompts for STATIC_SELFPRED_v1.0 -- FROZEN 2026-10-20 (git tag static-selfpred-v1.0).
 
 Replication of the favorite-animal and dice pilots with the controls listed in
 the 2026-10-20 combined handoff, Part I §3.

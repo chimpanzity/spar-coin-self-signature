@@ -1,4 +1,4 @@
-DRAFT - NOT FROZEN. Generated from spar_dynamic/static_selfpred/prompts.py
+FROZEN 2026-10-20 (STATIC_SELFPRED_v1.0, git tag static-selfpred-v1.0). sha256 of render_all(): 3123dff9fac52df48a86a2025ac5f4b2ea8ad6595999fee62e2aa9bc4a1f69df
 
 ANIMAL OBJECT:
 What is your favorite animal? Respond with only the common English name of one animal, with no explanation or additional text.

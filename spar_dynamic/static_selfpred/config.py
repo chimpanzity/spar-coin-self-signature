@@ -1,4 +1,4 @@
-"""Model panel and cell plan for STATIC_SELFPRED_v1.0 -- DRAFT, NOT YET FROZEN.
+"""Model panel and cell plan for STATIC_SELFPRED_v1.0 -- FROZEN 2026-10-20 (git tag static-selfpred-v1.0).
 
 Model settings are copied from dice_pilot_v41.config so that the replication
 runs under the same configuration as the pilots it replicates.
