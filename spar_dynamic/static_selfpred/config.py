@@ -4,11 +4,12 @@ Model settings are copied from dice_pilot_v41.config so that the replication
 runs under the same configuration as the pilots it replicates.
 
 Decided 2026-10-20:
-  * Open-weight model: Qwen3-32B, with reasoning disabled (R_qwen_default).
-    Gate: Qwen parsed 20/20 under the v4.1 dice wording with this config, but
-    20/40 were invalid under the v3.1 wording (used here) with the R0/R1
-    configs. A parse check on the exact frozen prompts must pass before the
-    main run.
+  * Open-weight model: Qwen3-32B, run twice: reasoning off (R_off) and
+    reasoning effort high (R_high), both at temperature 0 on SiliconFlow
+    with max_tokens=32768 and no tools. Settings are parse_check.CONFIGS
+    ["qwen"]. They passed the parse check on these exact prompts
+    (parsecheck-qwen-20261021T000345Z: 140/140 and 137/140 usable). DeepInfra
+    was dropped because it ignores reasoning.enabled=false.
   * Dice positions stay at the pilots' {1, 2, 5, 9}; the handoff suggested
     {2, 6, 7, 10}.
   * The neutral-phrasing control is included.
@@ -22,9 +23,13 @@ from typing import Dict, Tuple
 
 from spar_dynamic.dice_pilot_v41.config import MODELS_BY_LABEL as _V41_MODELS
 from spar_dynamic.static_selfpred import prompts
+from spar_dynamic.static_selfpred.parse_check import CONFIGS as _PARSE_CHECK_CONFIGS
 
 PANEL: Tuple[str, ...] = ("astra", "fable", "qwen")
-MODELS = tuple(_V41_MODELS[label] for label in PANEL)
+# Astra and Fable as in the pilots; Qwen as parse-checked (two configs).
+MODELS = tuple(_V41_MODELS[label] for label in ("astra", "fable"))
+QWEN_CONFIGS = tuple(_PARSE_CHECK_CONFIGS["qwen"])
+N_MODEL_CONFIGS = len(MODELS) + len(QWEN_CONFIGS)
 
 # Calls per (model, cell, position). Not a power calculation; handoff §3.
 N_MAIN = 100
@@ -58,4 +63,4 @@ def calls_per_model() -> int:
 
 
 def total_calls() -> int:
-    return calls_per_model() * len(PANEL)
+    return calls_per_model() * N_MODEL_CONFIGS

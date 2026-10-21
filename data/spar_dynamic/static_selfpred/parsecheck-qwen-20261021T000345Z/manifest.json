@@ -1,0 +1,42 @@
+{
+  "spec": "STATIC_SELFPRED_v1.0 parse check",
+  "started_utc": "20261021T000345Z",
+  "model": "qwen",
+  "configs": [
+    {
+      "config": "R_off",
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "max_tokens": 32768,
+      "temperature": 0.0,
+      "reasoning": {
+        "enabled": false
+      },
+      "price": [
+        1.4e-07,
+        5.7e-07
+      ],
+      "label": "qwen"
+    },
+    {
+      "config": "R_high",
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "max_tokens": 32768,
+      "temperature": 0.0,
+      "reasoning": {
+        "effort": "high"
+      },
+      "price": [
+        1.4e-07,
+        5.7e-07
+      ],
+      "label": "qwen"
+    }
+  ],
+  "n_per_prompt": 5,
+  "fail_threshold": 0.4,
+  "rule": "A configuration FAILS if its non-valid rate (invalid + decline +\n  prefix_leak + truncated + transport_error + tool_use) is >= 40% on the\n  dice_self cell (the cell where Qwen was 50% invalid in the v3.1 pilot) or\n  >= 40% across all cells.\n  If every Qwen configuration fails, the open-weight model switches to\n  OSS-120, which then gets the same check.",
+  "tools": "no tools/tool_choice sent; responses checked for tool calls",
+  "cost_cap_usd": 5.0
+}

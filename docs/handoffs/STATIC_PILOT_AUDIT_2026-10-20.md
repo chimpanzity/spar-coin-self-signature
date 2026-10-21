@@ -63,6 +63,12 @@ Separate calls are therefore not guaranteed to give independent draws from a bro
 
 Astra, Fable and Sonnet parsed 100% under both wordings. For the open-weight model, the parse-compliance gate in the handoff has to be checked against the exact frozen wording, not carried over from an earlier pilot.
 
+### 2.3a The pilots' Qwen "reasoning off" runs were not reasoning-free
+
+The config label `R_qwen_default` reflected the fact that disabling was never verified. Tested on 2026-10-20, Qwen3-32B on DeepInfra (the pilots' provider) produced about 1,200 reasoning tokens per call despite `reasoning.enabled = false`. `effort = "none"` and `chat_template_kwargs.enable_thinking = false` made no difference. SiliconFlow and Tenstorrent returned 0 reasoning tokens with `enabled = false`.
+
+The replication runs Qwen on SiliconFlow at temperature 0, with reasoning off and with reasoning effort high. Both settings passed the parse check on the draft prompts (`data/spar_dynamic/static_selfpred/parsecheck-qwen-20261021T000345Z`): 140/140 and 137/140 usable, no tool calls, no truncation. Of the 3 unusable high-reasoning answers, two said the value can't be determined and one wrote Python code for a die roll as text. The dice parser classes all three as `prefix_leak` because they contain several digits.
+
 ### 2.4 The handoff's dice positions differ from the pilots
 
 The handoff suggests positions 2, 6, 7 and 10. All pilots used 1, 2, 5 and 9. Switching loses comparability with the pilots, and position 1 is the most informative position for separating a default answer from self-prediction (§2.1). The frozen draft keeps 1, 2, 5 and 9. This is an open decision.
