@@ -86,3 +86,40 @@ def test_parse_check_fail_rule():
          "qwen|R_high|dice_self": {"nonvalid_rate": 0.0}, "qwen|R_high|ALL": {"nonvalid_rate": 0.39}}
     v = parse_check.verdicts(s, "qwen")
     assert v["R_off"]["fails"] and not v["R_high"]["fails"]
+
+
+# ---------------------------------------------------------------- analysis --
+from spar_dynamic.static_selfpred import analysis
+
+
+def test_match_and_tvd():
+    p = {"a": 0.5, "b": 0.5}
+    q = {"a": 1.0}
+    assert analysis.match(p, q) == 0.5
+    assert analysis.tvd(p, q) == 0.5
+    assert analysis.tvd(q, q) == 0.0 and analysis.match(q, q) == 1.0
+
+
+def test_mode_reports_ties():
+    assert analysis.mode(["a", "b", "a"]) == "a"
+    assert analysis.mode(["b", "a"]) == "a/b"
+    assert analysis.mode([]) is None
+
+
+def _row(cell, value, position="", category="valid", label="m", config="c"):
+    return dict(model_label=label, config=config, cell=cell, value=value, position=position,
+                category=category, prompt='Consider the word "octopus".')
+
+
+def test_object_property_and_supplied_check():
+    rows = [_row("animal_object", "octopus")] * 3 + [_row("dice_object", "4 1 6 3 2 5 5 2 6 1")] * 2
+    assert analysis.object_property(rows, "m", "c", "animal", "penultimate") == ["u"] * 3
+    assert analysis.object_property(rows, "m", "c", "dice", 2) == ["1", "1"]
+    rows += [_row("animal_self", "u", "penultimate")] * 4 + [_row("animal_generic", "a", "penultimate")] * 4
+    rows += [_row("animal_supplied", "u", "penultimate"), _row("animal_supplied", "x", "penultimate")]
+    res = analysis.analyse(rows)
+    cell = [c for c in res["cells"] if c["task"] == "animal" and c["position"] == "penultimate"][0]
+    assert cell["self"]["match"] == 1.0 and cell["generic"]["match"] == 0.0
+    assert cell["self_minus_generic"]["diff"] == 1.0
+    sup = [s for s in res["supplied"] if s["position"] == "penultimate"][0]
+    assert (sup["name"], sup["correct"], sup["n"]) == ("octopus", 1, 2)
