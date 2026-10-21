@@ -8,7 +8,7 @@ This track started on Oct 9, after track 1's forecasting design hit a floor. Gam
 |---|---|---|
 | A. Observing play | Oct 9–11 | 01–08 |
 | B. Framing a generator as self | Oct 11 | 09 |
-| C. Closed-loop self-play | Oct 20–21 | 10–12 |
+| C. Closed-loop self-play | Oct 20–21 | 10–13 |
 
 Each folder has its own README.
 
@@ -42,6 +42,7 @@ Each folder has its own README.
 | 10 | [`10_2026-10-20_paint_circle_selfplay`](10_2026-10-20_paint_circle_selfplay/) | Two copies of a model play 200-round matching pennies; does being told "the other is another instance of yourself" change play? (102 games; Astra, Fable, Qwen3-32B) | Astra and Fable track the opponent, replicating PACA's outward-attention pattern. Told "self", Fable became much less predictable (PI 0.22 → 0.03). No identity-specific effects for Astra or Qwen. |
 | 11 | [`11_2026-10-21_paint_circle_fable_specificity`](11_2026-10-21_paint_circle_fable_specificity/) | Prespecified: is Fable's drop specific to "yourself"? | **No.** "A different language model" works almost as well (self vs other p = .19); only "another decision-maker exists" falls short (p = .008). |
 | 12 | [`12_2026-10-21_paint_circle_fable_perspective`](12_2026-10-21_paint_circle_fable_perspective/) | Does asking Fable to take the other player's perspective make the self label matter? (feasibility, 2 games per cell) | Guidance makes Fable's play essentially unpredictable under *both* labels; the label adds nothing |
+| 13 | [`13_2026-10-21_paint_circle_scripted_opponent_pilot`](13_2026-10-21_paint_circle_scripted_opponent_pilot/) | Pilot to validate the measures: can Fable exploit a scripted circle player that alternates (S T S T) or double-alternates (S S T T)? | Yes, almost immediately: it lost 2–4 rounds per session, all in the first 7. The shadow Proteus detects both patterns but more slowly, so Fable beats it over the full game. Exploiting made Fable perfectly predictable (PI_A = 1). |
 
 ## What track 2 shows so far
 

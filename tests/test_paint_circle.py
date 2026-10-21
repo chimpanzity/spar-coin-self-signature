@@ -183,3 +183,78 @@ def test_guidance_only_for_disclosed_seat_a():
         game.system_prompt("B", "self", guidance=True)
     with pytest.raises(AssertionError):
         game.system_prompt("A", None, guidance=True)
+
+
+# ------------------------------------------------- scripted-opponent pilot (2026-10-21) --
+from paint_circle import scripted, scripted_pilot
+
+
+def test_scripted_sequences_and_phases():
+    assert "".join(scripted.move("ALT_S", t) for t in range(1, 7)) == "STSTST"
+    assert "".join(scripted.move("ALT_T", t) for t in range(1, 7)) == "TSTSTS"
+    assert "".join(scripted.move("DOUBLE_S", t) for t in range(1, 9)) == "SSTTSSTT"
+    assert "".join(scripted.move("DOUBLE_T", t) for t in range(1, 9)) == "TTSSTTSS"
+
+
+def test_oracle_predicts_every_phase_after_four_moves():
+    for name in scripted.SEQUENCES:
+        seq = "".join(scripted.move(name, t) for t in range(1, 41))
+        for t in range(4, 40):
+            assert scripted.oracle_prediction(seq[:t]) == seq[t], (name, t)
+        assert scripted.oracle_prediction(seq[:3]) is None
+
+
+class _FakeMsg:
+    def __init__(self, text): self.content, self.tool_calls = text, None
+class _FakeChoice:
+    def __init__(self, text): self.message, self.finish_reason = _FakeMsg(text), "stop"
+class _FakeResp:
+    def __init__(self, text):
+        self.choices, self.usage, self.provider, self.model, self.id = [_FakeChoice(text)], None, "fake", "fake", "x"
+class _FakeClient:
+    """Records every request; answers 'think\nTRIANGLE'. Lets tests inspect what A saw."""
+    def __init__(self): self.requests = []; self.chat = self; self.completions = self
+    def create(self, **kw): self.requests.append(kw); return _FakeResp("thinking...\nTRIANGLE")
+
+
+def test_scripted_session_dry_run_no_leakage(tmp_path):
+    import json as _j
+    from paint_circle import run
+    plan = dict(cost_cap_usd=5.0, call_cap=120, sessions=[dict(
+        session_id="s", model_A="fable", model_B="script", disclosure_A=None, disclosure_B=None,
+        script_B="DOUBLE_S", window=50, rounds=100)])
+    (tmp_path / "plan.json").write_text(_j.dumps(plan))
+    client = _FakeClient()
+    b = run.Batch(str(tmp_path), client)
+    status = b.run_session(plan["sessions"][0])
+    assert status == "complete"
+    rows = [_j.loads(l) for l in open(tmp_path / "s" / "rounds.jsonl")]
+    assert len(rows) == 100 and len(client.requests) == 100        # one call per round, A only
+    circle = "".join(r["circle"] for r in rows)
+    assert circle == "".join(scripted.move("DOUBLE_S", t) for t in range(1, 101))
+    assert all(r["paint"] == "T" for r in rows) and [r["a_wins"] for r in rows[:4]] == [False, False, True, True]
+    for t, req in enumerate(client.requests, start=1):
+        user = req["messages"][1]["content"]
+        # A sees exactly the completed rounds: never the current or a future circle
+        assert req["messages"][0]["content"] == game.system_prompt("A", None)
+        grid = [l for l in user.splitlines() if l.startswith("Blue circle: ")]
+        seen = grid[0].split(": ")[1].split() if grid else []
+        assert seen == list(circle[max(0, t - 1 - 50):t - 1])
+    m = scripted_pilot.session_metrics("".join(r["paint"] for r in rows), circle, 50)
+    assert m["late"]["A_win"] == 0.52                              # rounds 51-100 of SSTT start at T,T: 26 of 50 are T
+    assert m["late"]["PI_A"] > 0.9                                 # a constant painter is fully predictable
+    assert m["late"]["shadow_win"] > 0.55 and m["late"]["EI_A"] is not None
+    assert m["full"]["oracle_win"] > 0.9
+
+
+def test_call_cap_stops_session(tmp_path):
+    import json as _j
+    from paint_circle import run
+    plan = dict(cost_cap_usd=5.0, call_cap=10, sessions=[dict(
+        session_id="s", model_A="fable", model_B="script", disclosure_A=None, disclosure_B=None,
+        script_B="ALT_S", window=50, rounds=100)])
+    (tmp_path / "plan.json").write_text(_j.dumps(plan))
+    client = _FakeClient()
+    b = run.Batch(str(tmp_path), client)
+    b.run_session(plan["sessions"][0])
+    assert len(client.requests) == 10

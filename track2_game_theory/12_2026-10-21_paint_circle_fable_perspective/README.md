@@ -6,7 +6,7 @@
 | Run IDs | Batch `fable-perspective-20261021` (with `analysis/`); prompts version `paint_circle-fable-perspective-v1.0` (commit `b6f7d87`) |
 | Game and models | Paint-and-circle, 200 rounds, W = 50. Fable (`anthropic/claude-fable-5.1`, effort low, no temperature) vs Fable throughout |
 | Size and cost | 2×2 design × 2 games = 8 games, all collected fresh; $37.82 (cap $45); about $5.40 per guided game and $4.10 per plain game |
-| Previous / next | [← Fable specificity follow-up](../11_2026-10-21_paint_circle_fable_specificity/) · (latest track-2 run) |
+| Previous / next | [← Fable specificity follow-up](../11_2026-10-21_paint_circle_fable_specificity/) · [Scripted-opponent pilot →](../13_2026-10-21_paint_circle_scripted_opponent_pilot/) |
 
 ## What was done
 

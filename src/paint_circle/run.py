@@ -28,7 +28,7 @@ from typing import Any, Dict, List, Optional
 
 from openai import OpenAI
 
-from paint_circle import game
+from paint_circle import game, scripted
 
 MAX_ATTEMPTS = 4      # raised to 10 via --max-attempts when resuming failed sessions
 MAX_TRANSPORT_RETRIES = 6
@@ -61,6 +61,9 @@ class Batch:
                 for line in open(p, encoding="utf-8"):
                     self.spent += json.loads(line).get("cost_usd", 0.0)
         self.over_budget = threading.Event()
+        # Optional hard limit on model calls (counts every call, including re-requests).
+        self.call_cap = self.plan.get("call_cap")
+        self.calls = 0
 
     def log(self, msg: str):
         with self.lock, open(os.path.join(self.dir, "progress.log"), "a", encoding="utf-8") as f:
@@ -73,6 +76,11 @@ class Batch:
                 self.over_budget.set()
 
     def call(self, model: str, system: str, user: str) -> Dict[str, Any]:
+        with self.lock:
+            if self.call_cap is not None and self.calls >= self.call_cap:
+                self.over_budget.set()
+                return dict(ok=False, error="call cap reached", text="", cost_usd=0.0, transport_attempts=0)
+            self.calls += 1
         cfg = MODELS[model]
         kwargs = dict(model=cfg["slug"], max_tokens=cfg["max_tokens"],
                       messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
@@ -127,7 +135,8 @@ class Batch:
                 paint += r["paint"]
                 circle += r["circle"]
         sys_a = game.system_prompt("A", s["disclosure_A"], s.get("guidance_A", False))
-        sys_b = game.system_prompt("B", s["disclosure_B"])
+        script_b = s.get("script_B")        # scripted circle player: no model, no API calls
+        sys_b = None if script_b else game.system_prompt("B", s["disclosure_B"])
         with cf.ThreadPoolExecutor(2) as ex:
             while len(paint) < s["rounds"]:
                 if self.over_budget.is_set():
@@ -135,9 +144,16 @@ class Batch:
                 t = len(paint) + 1
                 user = game.render_history(paint, circle, s["window"])
                 h = game.history_hash(paint, circle)
-                fa = ex.submit(self.seat_move, sdir, t, "A", s["model_A"], sys_a, user)
-                fb = ex.submit(self.seat_move, sdir, t, "B", s["model_B"], sys_b, user)
-                (pa, ra), (pb, rb) = fa.result(), fb.result()
+                if script_b:
+                    # B's move depends only on the precommitted sequence and t; it is fixed
+                    # before A is called and A never sees it before committing.
+                    pb = scripted.move(script_b, t)
+                    rb = dict(ok=True, scripted=script_b, text="", cost_usd=0.0)
+                    pa, ra = ex.submit(self.seat_move, sdir, t, "A", s["model_A"], sys_a, user).result()
+                else:
+                    fa = ex.submit(self.seat_move, sdir, t, "A", s["model_A"], sys_a, user)
+                    fb = ex.submit(self.seat_move, sdir, t, "B", s["model_B"], sys_b, user)
+                    (pa, ra), (pb, rb) = fa.result(), fb.result()
                 if pa is None or pb is None:
                     self.log(f"{s['session_id']}: round {t} failed to parse after {MAX_ATTEMPTS} attempts")
                     return "failed"

@@ -1,0 +1,89 @@
+{
+  "tag": "SCRIPTED_OPPONENT_PILOT",
+  "prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 100,
+  "cost_cap_usd": 5.0,
+  "call_cap": 400,
+  "models": {
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    }
+  },
+  "git_head": "f453e6dcfdd926c86b8f3fb67b833aeb1ac937fa",
+  "system_prompt_A": "Place yellow paint on the shape where you think the blue circle will land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+  "system_prompt_A_sha256": "6afb6a521baba6c66e03d0d714bf63f3f772239c1412d1ed0682c66622accb55",
+  "scripts": {
+    "ALT_S": "ST",
+    "ALT_T": "TS",
+    "DOUBLE_S": "SSTT",
+    "DOUBLE_T": "TTSS"
+  },
+  "cost_estimate": {
+    "usd": 3.18,
+    "basis": "mean seat-A cost of rounds 1-100 in 6 earlier Fable baseline games ($0.796/session; max $0.849)"
+  },
+  "prespecified": {
+    "written": "2026-10-21 17:44 EDT, before any call in this batch",
+    "status": "Feasibility / measurement-validation pilot, 1 session per sequence x phase; descriptive only, no p-values.",
+    "primary_window": "rounds 51-100 (after the 50-round history window has filled)",
+    "measures": [
+      "A win rate (full, late, 10-round bins)",
+      "PI_B and shadow_win (replay benchmark)",
+      "PI_A",
+      "EI_A = (A_win-.5)/(shadow_win-.5), NA if shadow_win <= .55",
+      "A_advantage, shadow_advantage, exploitation_gap",
+      "periodic oracle win and A-oracle agreement",
+      "B-channel activation, fired accuracy, channel distribution",
+      "parse rejections, cost"
+    ]
+  },
+  "sessions": [
+    {
+      "session_id": "fable-vs-script__ALT_S",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "ALT_S",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__ALT_T",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "ALT_T",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__DOUBLE_S",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "DOUBLE_S",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__DOUBLE_T",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "DOUBLE_T",
+      "window": 50,
+      "rounds": 100
+    }
+  ]
+}

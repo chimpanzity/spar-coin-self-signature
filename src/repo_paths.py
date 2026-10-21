@@ -56,6 +56,7 @@ T2_EXP = {
     "paint_circle":          T2 / "10_2026-10-20_paint_circle_selfplay",
     "fable_specificity":     T2 / "11_2026-10-21_paint_circle_fable_specificity",
     "fable_perspective":     T2 / "12_2026-10-21_paint_circle_fable_perspective",
+    "scripted_opponent":     T2 / "13_2026-10-21_paint_circle_scripted_opponent_pilot",
 }
 EXP = {**T1_EXP, **T2_EXP}
 
