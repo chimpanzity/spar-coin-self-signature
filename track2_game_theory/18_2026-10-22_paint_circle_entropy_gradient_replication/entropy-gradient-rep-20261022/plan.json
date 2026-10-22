@@ -1,0 +1,125 @@
+{
+  "tag": "ENTROPY_GRADIENT_REPLICATION",
+  "prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 100,
+  "cost_cap_usd": 5.0,
+  "call_cap": 450,
+  "max_call_cost_prior_usd": 0.02,
+  "models": {
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    }
+  },
+  "git_head": "0aee3cf57a2e8bf29f7c09c00fd699feab686e79",
+  "system_prompt_A": "Place yellow paint on the shape where you think the blue circle will land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+  "system_prompt_A_sha256": "6afb6a521baba6c66e03d0d714bf63f3f772239c1412d1ed0682c66622accb55",
+  "tests_sha256": "f108986e43f157baeb58c92474afef8128aaf4cdf01bb13ef6bbe1022452382c",
+  "launch_order_seed": 20261023,
+  "launch_order": [
+    "fable-vs-script__NDA_T_e20_2026104320",
+    "fable-vs-script__NDA_S_e10_2026103310",
+    "fable-vs-script__NDA_S_e10_2026104310",
+    "fable-vs-script__NDA_T_e20_2026103320"
+  ],
+  "cost_estimate": {
+    "usd": "~3.1",
+    "basis": "folder 17: $0.79 per session at epsilon .10 and .20"
+  },
+  "prespecified": {
+    "written": "2026-10-22 06:57 EDT, before any call in this batch",
+    "purpose": "Targeted replication recommended by folder 17 and approved by Chris: epsilon .10 and .20 only, starting phase reversed relative to folder 17, two fresh seeds per level.",
+    "question": "Does the folder-17 profile replicate: partial exploitation with phase loss at .10, and abandonment of the pattern for run/frequency heuristics at .20 (Fable win far below the realized oracle; pattern-following ~.5; high follow-last-landing and win-stay)?",
+    "primary_window": "rounds 51-100; rounds 1-100 for learning speed",
+    "measures": "as folder 17 (src/paint_circle/entropy_gradient.py, unchanged)",
+    "analysis": "descriptive: per-session values beside folder 17's sessions; no significance tests (2 new sessions per level)"
+  },
+  "sessions": [
+    {
+      "session_id": "fable-vs-script__NDA_T_e20_2026104320",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_T_e20_2026104320",
+      "script_sha256": "d3d3b47c9edbce0a0dfd499c1e200c55e348abf3a665cd91b41ba624676b0a2a",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.2,
+      "phase": "T",
+      "seed": 2026104320,
+      "replicate": 2,
+      "H2": 0.722,
+      "oracle_expected": 0.8,
+      "realized_flips": 21,
+      "oracle_win_realized": 0.79,
+      "sequence": "TTSSTSSSTTSSTTSSSTSSTSSTTSTSSTSTSTSSSTSSSTSSTTSSTTTSTTSSTSTSTTTSTTSSSTSTTTSSTTTTTTSSTTSSTTSTTTSSSTSS"
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e10_2026103310",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_S_e10_2026103310",
+      "script_sha256": "d4163de1e78865a8692bee54ce7e0716b1da4b411d1c4b4416516f371b5d7a9f",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.1,
+      "phase": "S",
+      "seed": 2026103310,
+      "replicate": 1,
+      "H2": 0.469,
+      "oracle_expected": 0.9,
+      "realized_flips": 14,
+      "oracle_win_realized": 0.86,
+      "sequence": "SSTTSSTTSSTTSSTSSSTTTSTTSSTTSSTTSTTTSSTTSSTSSSTTSSTSSSTTSSTTTSTTTTTTSSTTSSTTSSTTSSTTTSSTSTSTTSSTSSTT"
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e10_2026104310",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_S_e10_2026104310",
+      "script_sha256": "8660280f19772a5f84451acd5096246c0397525e7f39206665e28925f264d3ee",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.1,
+      "phase": "S",
+      "seed": 2026104310,
+      "replicate": 2,
+      "H2": 0.469,
+      "oracle_expected": 0.9,
+      "realized_flips": 13,
+      "oracle_win_realized": 0.87,
+      "sequence": "TSTTSSTTSSTTSSTTSSTTSTTSSTTTSSTTSSTTSSTTTSTTSSTTTSSTSSTTSSTTSSSTSSTTSSSTSSSTSTTTSSTTSSTTSSTSSSTTSTTT"
+    },
+    {
+      "session_id": "fable-vs-script__NDA_T_e20_2026103320",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_T_e20_2026103320",
+      "script_sha256": "625cea72201e612dec98e376913a81f0429bab6a74109a93f8812933f0d030ab",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.2,
+      "phase": "T",
+      "seed": 2026103320,
+      "replicate": 1,
+      "H2": 0.722,
+      "oracle_expected": 0.8,
+      "realized_flips": 22,
+      "oracle_win_realized": 0.78,
+      "sequence": "STSSTTSSSTSSTTSSTTTTTTSSTTSSSSSSTTSTTTSSTTTSTTSSSSTSSTSSTTSSTTTTSTSSTSSSSSSSTTSSTTSTSTTSTTSSTSSSTTSS"
+    }
+  ]
+}

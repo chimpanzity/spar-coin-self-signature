@@ -7,7 +7,7 @@
 | Run ID | `entropy-gradient-20261022` |
 | Game and models | Paint-and-circle matching pennies. A = Fable (`anthropic/claude-fable-5.1`, effort low), with the minimal paint prompt byte-identical to folder 13 (sha256 `6afb6a52…`) and no labels. B = a local script; no model, no API calls. |
 | Size and cost | 5 sessions × 100 rounds = 500 Fable calls, 0 rejected answers, 0 rate-limit retries, $3.81 (caps: $6 and 550 calls) |
-| Previous | [← 16 Deterministic vs random program](../16_2026-10-22_paint_circle_iid_deterministic_program/) · design builds on [13 Scripted-opponent pilot](../13_2026-10-21_paint_circle_scripted_opponent_pilot/) |
+| Previous / next | [← 16 Deterministic vs random program](../16_2026-10-22_paint_circle_iid_deterministic_program/) · [18 Replication at ε = .10 and .20 →](../18_2026-10-22_paint_circle_entropy_gradient_replication/) · design builds on [13 Scripted-opponent pilot](../13_2026-10-21_paint_circle_scripted_opponent_pilot/) |
 
 ## What was done
 
@@ -72,6 +72,7 @@ Primary window rounds 51–100, with rounds 1–100 in brackets. From [`analysis
 **Which ε levels justify replication?**
 - **ε = .10 and .20,** with reversed starting phase and fresh seeds. That is where exploitation collapses (Fable − oracle goes from −.14 to −.24) and where PI_A changes direction.
 - **Status:** recommended only, not run. Per the handoff's stopping rule, any follow-up needs separate approval.
+- **Update:** this replication was approved and run in folder [18](../18_2026-10-22_paint_circle_entropy_gradient_replication/). The ε = .20 abandonment replicated in both new sessions. At ε = .10, the new sessions exploited more fully (EI_oracle .83–.87 vs .59 here).
 
 ## Caveats
 
