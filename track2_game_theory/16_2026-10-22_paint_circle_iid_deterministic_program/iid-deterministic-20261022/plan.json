@@ -1,0 +1,122 @@
+{
+  "tag": "IID_DETERMINISTIC_PROGRAM",
+  "prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 100,
+  "cost_cap_usd": 7.0,
+  "call_cap": 650,
+  "models": {
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    }
+  },
+  "git_head": "0df7cf747d8168a3e07ce013d13c7148964db506",
+  "system_prompts_A": {
+    "deterministic": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a deterministic computer program.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "program": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a random computer program.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line."
+  },
+  "system_prompt_A_sha256": {
+    "deterministic": "b6c60ea76a17bedf05ae840d3f8be8659880649c9942aad2a4b5c726739a2cd2",
+    "program": "06ed29ea01e379bf75aa9e271c68f0618d1f0ff1b616a2ffe7e0fa3ea502e3e9"
+  },
+  "scripts": {
+    "IID_20261021": "STSSSTSSSTTTTTTSSTTSSTTTTTTTSTSTSSTTTSSTTTSTSSTTTSSTTSTSSSTTSSTSTTSTTTTSTTTTSSTSSTSSSTTSTSSTSSTSSSTT",
+    "IID_20261022": "SSTTTTTTTTTTSTTTTTSTTSTSSTTTTSTTTSTTSSTSSTTSTTTSTSTTTTSTSSTTSTSTSTTTTSSTSSTTTSTTTSSSTSSTSSSSSSSSTTTS",
+    "IID_20261023": "SSTSTSTSTSTSSSSSTSTTSSTSTSTSSSSTTSSTTSSSSTSTSTTTTSTTTTTTTSSSTSSSSSTTSTTSSSSTTTSTSTTTSSTSSTTSTSSTTSST"
+  },
+  "cost_estimate": {
+    "usd": "~5",
+    "basis": "experiment 15: $14.75 / 18 sessions = $0.82 per session"
+  },
+  "prespecified": {
+    "written": "2026-10-22 03:07 EDT, before any call in this batch",
+    "question": "Experiment 15 found mindless labels (dead salmon, random computer program) made Fable streakier / more predictable than agent labels. Is that driven by mindlessness or by 'random'? New label: 'a deterministic computer program' (one word changed from the random-program wording), with a same-day re-run of 'random computer program'.",
+    "design": "2 labels x 3 sessions; the same three seeded IID strings as experiment 15 (string k for session k).",
+    "outcomes": [
+      "PI_A",
+      "switch rate",
+      "win-stay / lose-shift",
+      "follows last landing",
+      "P(TRIANGLE)",
+      "mentions of the label",
+      "response length"
+    ],
+    "comparisons": [
+      "deterministic vs random program (same day)",
+      "both vs experiment 15's nothing / agent / salmon cells (historical, labelled as such)"
+    ],
+    "predictions_recorded_before_run": {
+      "if mindlessness drives it": "deterministic ~ random program (both high PI_A, streaky)",
+      "if 'random' drives it": "deterministic lower PI_A than random program, nearer the agent labels or 'nothing'"
+    },
+    "analysis": "descriptive: means and per-string values; no significance tests"
+  },
+  "sessions": [
+    {
+      "session_id": "fable-vs-script__A-deterministic__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "deterministic",
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-program__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "program",
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-deterministic__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "deterministic",
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-program__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "program",
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-deterministic__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "deterministic",
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-program__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "program",
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    }
+  ]
+}

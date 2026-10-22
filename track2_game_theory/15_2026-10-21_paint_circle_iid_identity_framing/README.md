@@ -7,7 +7,7 @@
 | Run ID | `iid-identity-framing-20261021` |
 | Game and models | Paint-and-circle matching pennies. A = Fable (`anthropic/claude-fable-5.1`, effort low). B = a pre-generated random (IID) STAR/TRIANGLE string; no model, no API calls. |
 | Size and cost | 6 conditions × 3 sessions × 100 rounds = 1,800 Fable calls, $14.75 (cap $16). 8 calls hit provider rate limits (HTTP 429) and were retried at no cost; Fable gave no unusable answers. |
-| Previous | [← 14 Identity framing vs scripted pattern](../14_2026-10-21_paint_circle_scripted_identity_framing/) |
+| Previous / next | [← 14 Identity framing vs scripted pattern](../14_2026-10-21_paint_circle_scripted_identity_framing/) · [16 Deterministic vs random program →](../16_2026-10-22_paint_circle_iid_deterministic_program/) |
 
 ## What was done
 
@@ -54,6 +54,8 @@ All 100 rounds, mean of 3 sessions, from [`iid-identity-framing-20261021/analysi
 - **"Self" is not special.** Self (.30) sits between agent (.32) and other (.26) on every measure, consistent with folders 11 and 14.
 - **Unlike against the pattern (folder 14), Fable talks about the label a lot here.** "A different language model" is mentioned in 80% of answers and the dead salmon in 99%. Agent labels lengthen answers by about 25 tokens.
 - **Fable's baseline strategy against noise is streaky and biased.** It shows a strong win-stay (.91), a TRIANGLE preference (.60–.66), and paints where the circle last landed about 65% of the time. Win rates of .52–.55 reflect this luck-matching against these particular strings, not exploitation. The shadow benchmark on the strings is .51.
+
+> **Update (2026-10-22, folder [16](../16_2026-10-22_paint_circle_iid_deterministic_program/)):** a "deterministic computer program" label behaves like the agent labels (PI_A .33), not like "random program". The split below is better described as *expected structure* vs *expected randomness* than agent vs non-agent.
 
 **Interpretation:** when there is no pattern to exploit, what Fable believes about the source changes how it plays. Believing it faces an agent makes it play more like a mixed strategy: less predictable, more shifting. Believing it faces something mindless makes it settle into streaks. This is a belief-about-agency effect, not a self-specific one. It complements folder 14, where a clear pattern overrode every label.
 
