@@ -8,7 +8,7 @@ This track started on Oct 9, after track 1's forecasting design hit a floor. Gam
 |---|---|---|
 | A. Observing play | Oct 9–11 | 01–08 |
 | B. Framing a generator as self | Oct 11 | 09 |
-| C. Closed-loop self-play and scripted opponents | Oct 20–22 | 10–16 |
+| C. Closed-loop self-play and scripted opponents | Oct 20–22 | 10–17 |
 
 Each folder has its own README.
 
@@ -46,6 +46,7 @@ Each folder has its own README.
 | 14 | [`14_2026-10-21_paint_circle_scripted_identity_framing`](14_2026-10-21_paint_circle_scripted_identity_framing/) | Same scripted S S T T opponent in every condition; does telling Fable it is itself, another model, a dead salmon or a random program stop it exploiting the pattern? | No. Fable won 94–96% under every label. The labels add only a few late phase-counting slips, no more for "self" than for "other" or the implausible labels. |
 | 15 | [`15_2026-10-21_paint_circle_iid_identity_framing`](15_2026-10-21_paint_circle_iid_identity_framing/) | The same six labels against a fixed random string (nothing to exploit): do they change Fable's own strategy? | Yes, split by agency. Agent labels (decision-maker, self, other model) make Fable less predictable (PI .26–.32 vs .43); mindless labels (salmon, random program) make it streakier (PI .54–.62). "Self" is not special. |
 | 16 | [`16_2026-10-22_paint_circle_iid_deterministic_program`](16_2026-10-22_paint_circle_iid_deterministic_program/) | Control for 15: does a "deterministic computer program" label act like the mindless labels? | No. It acts like the agent labels (PI .33). Fable hunts for a rule: it says "pattern" in 63% of answers. The real split is expected structure (agent, self, other model, deterministic program) vs randomness (random program, salmon). |
+| 17 | [`17_2026-10-22_paint_circle_entropy_gradient`](17_2026-10-22_paint_circle_entropy_gradient/) | Calibration pilot, no labels: how do Fable's exploitation and own predictability change as noise is added to the S S T T opponent (ε = 0 to .50)? | Fable keeps the pair rule at ε = .10 but loses its place after flips (win .70 vs a possible .84–.89). Between ε = .10 and .20 it abandons the pattern for run/frequency heuristics (win .52 vs .76). The shadow benchmark cannot see the pattern beyond ε = .10. |
 
 ## What track 2 shows so far
 

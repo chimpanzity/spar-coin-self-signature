@@ -7,7 +7,7 @@
 | Run ID | `iid-deterministic-20261022` |
 | Game and models | Paint-and-circle matching pennies. A = Fable (`anthropic/claude-fable-5.1`, effort low). B = the same three seeded random (IID) strings as folder 15; no model, no API calls. |
 | Size and cost | 2 labels × 3 sessions × 100 rounds = 600 Fable calls, $6.70 (cap $7) |
-| Previous | [← 15 Identity framing vs random opponent](../15_2026-10-21_paint_circle_iid_identity_framing/) |
+| Previous / next | [← 15 Identity framing vs random opponent](../15_2026-10-21_paint_circle_iid_identity_framing/) · [17 Entropy-gradient pilot →](../17_2026-10-22_paint_circle_entropy_gradient/) |
 
 ## What was done
 

@@ -57,6 +57,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 21 | 2 | [14 Identity framing vs scripted opponent](track2_game_theory/14_2026-10-21_paint_circle_scripted_identity_framing/) | The pattern beats the framing: no label stops exploitation; residual effects are not self-specific |
 | Oct 21 | 2 | [15 Identity framing vs random opponent](track2_game_theory/15_2026-10-21_paint_circle_iid_identity_framing/) | With nothing to exploit, agent labels make Fable less predictable and mindless labels make it streakier; not self-specific |
 | Oct 22 | 2 | [16 Deterministic vs random program](track2_game_theory/16_2026-10-22_paint_circle_iid_deterministic_program/) | "Deterministic program" acts like the agent labels: what matters is expected structure, not agency |
+| Oct 22 | 2 | [17 Entropy-gradient pilot](track2_game_theory/17_2026-10-22_paint_circle_entropy_gradient/) | Fable exploits a pattern with 10% noise only partly and abandons it at 20%, although 76% wins remained available |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
@@ -68,7 +69,7 @@ The two tracks also connect directly:
 | Path | Contents |
 |---|---|
 | `track1_self_prediction/` | 20 dated experiment folders: data, results, reports, README each |
-| `track2_game_theory/` | 16 dated experiment folders |
+| `track2_game_theory/` | 17 dated experiment folders |
 | `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
 | `tests/` | Test suite (`python -m pytest`) |
 | `docs/` | Cross-cutting documents. `reports/` holds combined write-ups. Also preregistration, weekly handoffs, references, the research synthesis, `REORGANISATION_2026-10-21.md`, `PATH_MAP.md`, and `archive/` (earlier README, review guide, llms.txt) |

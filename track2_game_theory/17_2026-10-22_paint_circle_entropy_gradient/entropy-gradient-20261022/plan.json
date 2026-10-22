@@ -1,0 +1,148 @@
+{
+  "tag": "ENTROPY_GRADIENT_PILOT",
+  "prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 100,
+  "cost_cap_usd": 6.0,
+  "call_cap": 550,
+  "max_call_cost_prior_usd": 0.02,
+  "models": {
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    }
+  },
+  "git_head": "ccaebcc3c6ce9118cf65e6f480d896b561fb6a33",
+  "system_prompt_A": "Place yellow paint on the shape where you think the blue circle will land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+  "system_prompt_A_sha256": "6afb6a521baba6c66e03d0d714bf63f3f772239c1412d1ed0682c66622accb55",
+  "tests_sha256": "f108986e43f157baeb58c92474afef8128aaf4cdf01bb13ef6bbe1022452382c",
+  "launch_order_seed": 20261022,
+  "launch_order": [
+    "fable-vs-script__NDA_T_e10_2026102210",
+    "fable-vs-script__NDA_T_e35_2026102235",
+    "fable-vs-script__NDA_S_e00_2026102200",
+    "fable-vs-script__NDA_S_e50_2026102250",
+    "fable-vs-script__NDA_S_e20_2026102220"
+  ],
+  "cost_estimate": {
+    "usd": "3.0-4.1",
+    "basis": "folder 13: $0.59-0.61 per 100-round session (unlabelled Fable); folder 15: $0.82 when answers were longer"
+  },
+  "caps_note": "$6 total billed spend (stop before any call that could breach it, using the largest single-call cost seen); 550 model calls including re-requests (500 rounds + room for parse retries); rate-limit (429) retries are not billed.",
+  "prespecified": {
+    "written": "2026-10-22 04:20 EDT, before any call in this batch",
+    "status": "Feasibility / calibration pilot: one 100-round session per noise level; descriptive only; no thresholds or significance tests.",
+    "design": "Fable paints (minimal prompt, byte-identical, no labels) against a scripted noisy double-alternation: latent SSTT/TTSS, each round independently flipped with probability epsilon; sequences generated before any call from random.Random(2026102200 + 100*epsilon) and frozen here with checksums. Starting phase alternates S,T,S,T,S across levels (not interpretable as an entropy effect). Sessions launched together in a seeded shuffled order.",
+    "primary_window": "rounds 51-100; rounds 1-100 for learning speed; 10-round bins kept",
+    "measures": [
+      "A_win vs realized oracle and 1-epsilon",
+      "EI_oracle_realized (NA if oracle <= .55), A_minus_oracle",
+      "PI_A, PI_B (shadow W=50), shadow_win, exploitation_gap, EI_shadow (NA if shadow_win <= .55)",
+      "pattern_following, follows last circle, switch rate, P(TRIANGLE), runs z, win-stay/lose-shift, Brown-Rosenthal lag-1",
+      "losses by block (1-20, 21-50, 51-100) and by cause (script flip vs Fable leaving the pattern)"
+    ],
+    "stopping_rule": "run 5 sessions under cap, analyse, report; no automatic follow-up"
+  },
+  "sessions": [
+    {
+      "session_id": "fable-vs-script__NDA_T_e10_2026102210",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_T_e10_2026102210",
+      "script_sha256": "750908b1a60d00dc33b6b2f1ae665c16295fa55a3d2e2ba10515caa04c666939",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.1,
+      "phase": "T",
+      "seed": 2026102210,
+      "H2": 0.469,
+      "oracle_expected": 0.9,
+      "realized_flips": 11,
+      "oracle_win_realized": 0.89,
+      "sequence": "TTSSTTSSSTSSTTSSTTSTTTSSTTSSTTSSTTSSSTSSTTSSTTSSTTSSTSSTTTSSTTSSSSSSTTSSTTSSTTSSTTSTTTSSSTSSTSSTTTSS"
+    },
+    {
+      "session_id": "fable-vs-script__NDA_T_e35_2026102235",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_T_e35_2026102235",
+      "script_sha256": "ca42ce2089580f55c2ac5bb0f72e017ca1372b192edd2ee81bc451e72416fcf9",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.35,
+      "phase": "T",
+      "seed": 2026102235,
+      "H2": 0.934,
+      "oracle_expected": 0.65,
+      "realized_flips": 39,
+      "oracle_win_realized": 0.61,
+      "sequence": "SSTTTTSSSSSSTTSSTTSTSTSSTTSTSTSSSSSTTTSSTTSSSTTTSTTSSSTTTTSSSTTSSTTSTSSTSTSTSTTSTSSTSTTTSTSSTTSSTTTS"
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e00_2026102200",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_S_e00_2026102200",
+      "script_sha256": "9100d0cfec74d85c3b4e29392cfde70528d51d949b6f5d2b3d003a42ab0d0c4a",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.0,
+      "phase": "S",
+      "seed": 2026102200,
+      "H2": 0.0,
+      "oracle_expected": 1.0,
+      "realized_flips": 0,
+      "oracle_win_realized": 1.0,
+      "sequence": "SSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTT"
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e50_2026102250",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_S_e50_2026102250",
+      "script_sha256": "173a68ba93c5217c0eb0678cd8486ebd0902e89685f053850c621f68357daf98",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.5,
+      "phase": "S",
+      "seed": 2026102250,
+      "H2": 1.0,
+      "oracle_expected": 0.5,
+      "realized_flips": 48,
+      "oracle_win_realized": 0.52,
+      "sequence": "SSTSTTTSTSSTSSTTSTTSSSTTSTTTTSSSSTTTTSTSTTTTTTSSSTSSSTSSSTTSTSSTTSTSTSTTTTSSSTSTTSSTSSTSTTTTSSTSSTST"
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e20_2026102220",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_S_e20_2026102220",
+      "script_sha256": "a7712d4ca2e9f3c77e3aa7c22168b4bae4df708e4348fb71f707ff960a1b6f07",
+      "window": 50,
+      "rounds": 100,
+      "epsilon": 0.2,
+      "phase": "S",
+      "seed": 2026102220,
+      "H2": 0.722,
+      "oracle_expected": 0.8,
+      "realized_flips": 24,
+      "oracle_win_realized": 0.76,
+      "sequence": "SSTTTSTTSSTTSSTTSSSSSSTTSSTTTTSTTTSSSSTTSSTSSTTTSSTSSSSTSSTTSSTSSSTTSSTTTSSTTSTTSSTTTTTTSSSSSSTTTTTT"
+    }
+  ]
+}
