@@ -1,0 +1,23 @@
+{
+  "spent_usd": 12.1344,
+  "status": {
+    "fable-vs-script__A-salmon__DOUBLE_S__s1": "complete",
+    "fable-vs-script__A-other__DOUBLE_S__s1": "complete",
+    "fable-vs-script__A-program__DOUBLE_S__s1": "complete",
+    "fable-vs-script__A-none__DOUBLE_T__s2": "complete",
+    "fable-vs-script__A-none__DOUBLE_S__s1": "complete",
+    "fable-vs-script__A-other__DOUBLE_S__s3": "complete",
+    "fable-vs-script__A-salmon__DOUBLE_S__s3": "complete",
+    "fable-vs-script__A-agent__DOUBLE_S__s1": "complete",
+    "fable-vs-script__A-agent__DOUBLE_S__s3": "complete",
+    "fable-vs-script__A-none__DOUBLE_S__s3": "complete",
+    "fable-vs-script__A-self__DOUBLE_T__s2": "complete",
+    "fable-vs-script__A-self__DOUBLE_S__s3": "complete",
+    "fable-vs-script__A-salmon__DOUBLE_T__s2": "complete",
+    "fable-vs-script__A-other__DOUBLE_T__s2": "complete",
+    "fable-vs-script__A-self__DOUBLE_S__s1": "complete",
+    "fable-vs-script__A-program__DOUBLE_S__s3": "complete",
+    "fable-vs-script__A-program__DOUBLE_T__s2": "complete",
+    "fable-vs-script__A-agent__DOUBLE_T__s2": "complete"
+  }
+}

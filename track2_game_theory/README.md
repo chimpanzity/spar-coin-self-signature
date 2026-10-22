@@ -8,7 +8,7 @@ This track started on Oct 9, after track 1's forecasting design hit a floor. Gam
 |---|---|---|
 | A. Observing play | Oct 9–11 | 01–08 |
 | B. Framing a generator as self | Oct 11 | 09 |
-| C. Closed-loop self-play | Oct 20–21 | 10–13 |
+| C. Closed-loop self-play and scripted opponents | Oct 20–21 | 10–14 |
 
 Each folder has its own README.
 
@@ -43,6 +43,7 @@ Each folder has its own README.
 | 11 | [`11_2026-10-21_paint_circle_fable_specificity`](11_2026-10-21_paint_circle_fable_specificity/) | Prespecified: is Fable's drop specific to "yourself"? | **No.** "A different language model" works almost as well (self vs other p = .19); only "another decision-maker exists" falls short (p = .008). |
 | 12 | [`12_2026-10-21_paint_circle_fable_perspective`](12_2026-10-21_paint_circle_fable_perspective/) | Does asking Fable to take the other player's perspective make the self label matter? (feasibility, 2 games per cell) | Guidance makes Fable's play essentially unpredictable under *both* labels; the label adds nothing |
 | 13 | [`13_2026-10-21_paint_circle_scripted_opponent_pilot`](13_2026-10-21_paint_circle_scripted_opponent_pilot/) | Pilot to validate the measures: can Fable exploit a scripted circle player that alternates (S T S T) or double-alternates (S S T T)? | Yes, almost immediately: it lost 2–4 rounds per session, all in the first 7. The shadow Proteus detects both patterns but more slowly, so Fable beats it over the full game. Exploiting made Fable perfectly predictable (PI_A = 1). |
+| 14 | [`14_2026-10-21_paint_circle_scripted_identity_framing`](14_2026-10-21_paint_circle_scripted_identity_framing/) | Same scripted S S T T opponent in every condition; does telling Fable it is itself, another model, a dead salmon or a random program stop it exploiting the pattern? | No. Fable won 94–96% under every label. The labels add only a few late phase-counting slips, no more for "self" than for "other" or the implausible labels. |
 
 ## What track 2 shows so far
 

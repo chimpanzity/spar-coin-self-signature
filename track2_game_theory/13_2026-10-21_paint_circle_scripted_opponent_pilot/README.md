@@ -7,7 +7,7 @@
 | Run ID | `scripted-pilot-20261021` |
 | Game and models | Paint-and-circle matching pennies. A = Fable (`anthropic/claude-fable-5.1`, effort low, unchanged minimal paint prompt). B = a local deterministic script (no model, no API calls). |
 | Size and cost | 4 sessions × 100 rounds = 400 Fable calls, 0 rejected answers, $2.39 (estimate $3.18; caps $5 and 400 calls) |
-| Previous | [← 12 Fable perspective-taking](../12_2026-10-21_paint_circle_fable_perspective/) |
+| Previous / next | [← 12 Fable perspective-taking](../12_2026-10-21_paint_circle_fable_perspective/) · [14 Identity framing vs scripted opponent →](../14_2026-10-21_paint_circle_scripted_identity_framing/) |
 
 ## What was done
 
