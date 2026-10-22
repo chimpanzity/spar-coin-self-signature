@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import datetime as dt
+import hashlib
 import json
 import os
 import threading
@@ -64,6 +65,9 @@ class Batch:
         # Optional hard limit on model calls (counts every call, including re-requests).
         self.call_cap = self.plan.get("call_cap")
         self.calls = 0
+        # Stop before a call that could breach the cost cap (largest single-call cost seen so far,
+        # or the plan's prior estimate before any call has been made).
+        self.max_call_cost = float(self.plan.get("max_call_cost_prior_usd", 0.0))
 
     def log(self, msg: str):
         with self.lock, open(os.path.join(self.dir, "progress.log"), "a", encoding="utf-8") as f:
@@ -80,6 +84,9 @@ class Batch:
             if self.call_cap is not None and self.calls >= self.call_cap:
                 self.over_budget.set()
                 return dict(ok=False, error="call cap reached", text="", cost_usd=0.0, transport_attempts=0)
+            if self.spent + self.max_call_cost > self.cap:
+                self.over_budget.set()
+                return dict(ok=False, error="next call could breach cost cap", text="", cost_usd=0.0, transport_attempts=0)
             self.calls += 1
         cfg = MODELS[model]
         kwargs = dict(model=cfg["slug"], max_tokens=cfg["max_tokens"],
@@ -103,6 +110,8 @@ class Batch:
             det = getattr(u, "completion_tokens_details", None)
             cost = float(getattr(u, "cost", None) or 0.0)
             self.add_cost(cost)
+            with self.lock:
+                self.max_call_cost = max(self.max_call_cost, cost)
             return dict(ok=True, text=ch.message.content or "", finish_reason=ch.finish_reason or "",
                         tool_calls=bool(getattr(ch.message, "tool_calls", None)),
                         provider=getattr(r, "provider", "") or "", served_model=r.model or "",
@@ -136,6 +145,10 @@ class Batch:
                 circle += r["circle"]
         sys_a = game.system_prompt("A", s["disclosure_A"], s.get("guidance_A", False))
         script_b = s.get("script_B")        # scripted circle player: no model, no API calls
+        if script_b and s.get("script_sha256"):
+            seq = "".join(scripted.move(script_b, t) for t in range(1, s["rounds"] + 1))
+            if hashlib.sha256(seq.encode()).hexdigest() != s["script_sha256"]:
+                raise RuntimeError(f"{s['session_id']}: scripted sequence does not match its frozen checksum")
         sys_b = None if script_b else game.system_prompt("B", s["disclosure_B"])
         with cf.ThreadPoolExecutor(2) as ex:
             while len(paint) < s["rounds"]:

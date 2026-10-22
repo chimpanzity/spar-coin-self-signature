@@ -289,3 +289,74 @@ def test_deterministic_label_differs_from_random_only_in_one_word():
     r = game.system_prompt("A", "program")
     d = game.system_prompt("A", "deterministic")
     assert d == r.replace("a random computer program", "a deterministic computer program")
+
+
+# ------------------------------------------------- entropy-gradient pilot (2026-10-22) --
+from paint_circle import entropy_gradient
+
+
+def test_nda_zero_noise_is_exact_pattern_and_half_noise_is_seeded():
+    assert scripted.nda_sequence("S", 0.0, 1) == ("SSTT" * 25)
+    assert scripted.nda_sequence("T", 0.0, 1) == ("TTSS" * 25)
+    a = scripted.nda_sequence("S", 0.5, 2026102250)
+    assert a == scripted.nda_sequence("S", 0.5, 2026102250)              # byte-identical on repeat
+    assert a != scripted.nda_sequence("S", 0.5, 2026102251)              # different seed, different string
+    assert 30 < sum(x != y for x, y in zip(a, "SSTT" * 25)) < 70        # ~half flipped
+    name = "NDA_T_e35_2026102235"
+    assert "".join(scripted.move(name, t) for t in range(1, 101)) == scripted.nda_sequence("T", 0.35, 2026102235)
+
+
+def test_oracle_is_prospective_latent_phase():
+    # The oracle predicts the latent pattern regardless of what B actually plays.
+    latent = scripted.nda_latent("S")
+    noisy = scripted.nda_sequence("S", 0.35, 2026102235)
+    m = entropy_gradient.gradient_metrics(latent, noisy, latent)["full"]
+    assert m["oracle_win_realized"] == m["A_win"] == sum(a == b for a, b in zip(latent, noisy)) / 100
+    assert m["pattern_following"] == 1.0 and m["losses_A_deviation"] == 0
+    assert m["losses_flip_induced"] == m["losses"]                       # every loss is a script flip
+
+
+def test_gradient_metrics_on_synthetic_painters():
+    import random as _r
+    latent = scripted.nda_latent("S")
+    circle = scripted.nda_sequence("S", 0.0, 7)
+    follow = entropy_gradient.gradient_metrics(circle, circle, latent)
+    assert follow["full"]["A_win"] == 1.0 and follow["late"]["PI_A"] > 0.9
+    star = entropy_gradient.gradient_metrics("S" * 100, circle, latent)
+    assert star["full"]["A_win"] == 0.5 and star["late"]["PI_A"] > 0.9 and star["full"]["A_switch_rate"] == 0.0
+    coin = "".join(_r.Random(3).choice("TS") for _ in range(100))
+    c = entropy_gradient.gradient_metrics(coin, circle, latent)["full"]
+    assert abs(c["pattern_following"] - 0.5) < 0.15 and c["losses_flip_induced"] == 0
+
+
+def test_shadow_forecast_uses_only_the_past():
+    a = scripted.nda_sequence("S", 0.2, 11)
+    w = "1" * 100
+    f1 = shadow.forecasts_for(a, w, 50)
+    b = a[:60] + ("T" if a[60] == "S" else "S") + a[61:]                # change round 61 only
+    f2 = shadow.forecasts_for(b, w, 50)
+    assert [x.p_triangle for x in f1[:61]] == [x.p_triangle for x in f2[:61]]
+
+
+def test_script_checksum_mismatch_is_refused(tmp_path):
+    import json as _j, pytest
+    from paint_circle import run
+    plan = dict(cost_cap_usd=1.0, call_cap=5, sessions=[dict(
+        session_id="s", model_A="fable", model_B="script", disclosure_A=None, disclosure_B=None,
+        script_B="NDA_S_e10_2026102210", script_sha256="0" * 64, window=50, rounds=100)])
+    (tmp_path / "plan.json").write_text(_j.dumps(plan))
+    with pytest.raises(RuntimeError):
+        run.Batch(str(tmp_path), _FakeClient()).run_session(plan["sessions"][0])
+
+
+def test_next_call_cost_guard(tmp_path):
+    import json as _j
+    from paint_circle import run
+    plan = dict(cost_cap_usd=0.05, max_call_cost_prior_usd=0.02, call_cap=100, sessions=[dict(
+        session_id="s", model_A="fable", model_B="script", disclosure_A=None, disclosure_B=None,
+        script_B="NDA_S_e00_2026102200", window=50, rounds=10)])
+    (tmp_path / "plan.json").write_text(_j.dumps(plan))
+    b = run.Batch(str(tmp_path), _FakeClient())
+    b.spent = 0.04                                                      # 0.04 + 0.02 > 0.05: must not call
+    assert b.run_session(plan["sessions"][0]) in ("budget_stop", "failed")
+    assert b.calls == 0

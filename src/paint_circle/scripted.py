@@ -28,12 +28,42 @@ def iid_string(seed: int, length: int = IID_LENGTH) -> str:
     return "".join(rng.choice("TS") for _ in range(length))
 
 
+# Noisy double-alternation (added 2026-10-22 for the entropy-gradient pilot):
+# the latent pattern SSTT (or TTSS) with each round's prescribed symbol flipped
+# independently with probability epsilon. The whole sequence is fixed in
+# advance from random.Random(seed); it never depends on A's choices.
+# Script name: NDA_<phase S|T>_e<epsilon x 100, 2 digits>_<seed>.
+NDA_LENGTH = 100
+
+
+def nda_latent(phase: str, length: int = NDA_LENGTH) -> str:
+    base = "SSTT" if phase == "S" else "TTSS"
+    return "".join(base[i % 4] for i in range(length))
+
+
+def nda_sequence(phase: str, epsilon: float, seed: int, length: int = NDA_LENGTH) -> str:
+    rng = random.Random(seed)
+    latent = nda_latent(phase, length)
+    flip = {"S": "T", "T": "S"}
+    return "".join(flip[c] if rng.random() < epsilon else c for c in latent)
+
+
+def nda_parse(script: str):
+    _, phase, e, seed = script.split("_")
+    return phase, int(e[1:]) / 100, int(seed)
+
+
 def move(script: str, round_no: int) -> str:
     """B's placement on 1-based round `round_no`.
 
     Periodic scripts are named in SEQUENCES; IID scripts are named
     "IID_<seed>" and play iid_string(seed) once (no wrap-around).
     """
+    if script.startswith("NDA_"):
+        s = nda_sequence(*nda_parse(script))
+        if round_no > len(s):
+            raise ValueError(f"{script} has only {len(s)} rounds")
+        return s[round_no - 1]
     if script.startswith("IID_"):
         s = iid_string(int(script.split("_", 1)[1]))
         if round_no > len(s):

@@ -60,6 +60,7 @@ T2_EXP = {
     "scripted_identity":     T2 / "14_2026-10-21_paint_circle_scripted_identity_framing",
     "iid_identity":          T2 / "15_2026-10-21_paint_circle_iid_identity_framing",
     "iid_deterministic":     T2 / "16_2026-10-22_paint_circle_iid_deterministic_program",
+    "entropy_gradient":      T2 / "17_2026-10-22_paint_circle_entropy_gradient",
 }
 EXP = {**T1_EXP, **T2_EXP}
 
