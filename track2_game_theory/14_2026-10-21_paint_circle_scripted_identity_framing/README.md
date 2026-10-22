@@ -7,7 +7,7 @@
 | Run ID | `identity-framing-20261021` |
 | Game and models | Paint-and-circle matching pennies. A = Fable (`anthropic/claude-fable-5.1`, effort low). B = a local script playing the double-alternation S S T T … (no model, no API calls). |
 | Size and cost | 6 conditions × 3 sessions × 100 rounds = 1,800 Fable calls, 0 rejected answers, $12.13 (cap $16) |
-| Previous | [← 13 Scripted-opponent pilot](../13_2026-10-21_paint_circle_scripted_opponent_pilot/) |
+| Previous / next | [← 13 Scripted-opponent pilot](../13_2026-10-21_paint_circle_scripted_opponent_pilot/) · [15 Identity framing vs random opponent →](../15_2026-10-21_paint_circle_iid_identity_framing/) |
 
 ## What was done
 

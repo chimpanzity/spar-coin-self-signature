@@ -1,0 +1,23 @@
+{
+  "spent_usd": 14.7478,
+  "status": {
+    "fable-vs-script__A-none__IID_20261022__s2": "complete",
+    "fable-vs-script__A-program__IID_20261023__s3": "complete",
+    "fable-vs-script__A-agent__IID_20261022__s2": "complete",
+    "fable-vs-script__A-self__IID_20261023__s3": "complete",
+    "fable-vs-script__A-salmon__IID_20261022__s2": "complete",
+    "fable-vs-script__A-other__IID_20261021__s1": "complete",
+    "fable-vs-script__A-self__IID_20261022__s2": "complete",
+    "fable-vs-script__A-none__IID_20261021__s1": "complete",
+    "fable-vs-script__A-salmon__IID_20261021__s1": "complete",
+    "fable-vs-script__A-program__IID_20261022__s2": "complete",
+    "fable-vs-script__A-salmon__IID_20261023__s3": "complete",
+    "fable-vs-script__A-self__IID_20261021__s1": "complete",
+    "fable-vs-script__A-program__IID_20261021__s1": "complete",
+    "fable-vs-script__A-agent__IID_20261021__s1": "complete",
+    "fable-vs-script__A-other__IID_20261022__s2": "complete",
+    "fable-vs-script__A-none__IID_20261023__s3": "complete",
+    "fable-vs-script__A-other__IID_20261023__s3": "complete",
+    "fable-vs-script__A-agent__IID_20261023__s3": "complete"
+  }
+}

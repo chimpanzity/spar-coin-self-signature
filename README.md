@@ -55,6 +55,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 21 | 2 | [12 Fable perspective-taking](track2_game_theory/12_2026-10-21_paint_circle_fable_perspective/) | Guidance works under both labels |
 | Oct 21 | 2 | [13 Scripted-opponent pilot](track2_game_theory/13_2026-10-21_paint_circle_scripted_opponent_pilot/) | Fable exploits simple scripted patterns almost immediately; the measures behave as intended |
 | Oct 21 | 2 | [14 Identity framing vs scripted opponent](track2_game_theory/14_2026-10-21_paint_circle_scripted_identity_framing/) | The pattern beats the framing: no label stops exploitation; residual effects are not self-specific |
+| Oct 21 | 2 | [15 Identity framing vs random opponent](track2_game_theory/15_2026-10-21_paint_circle_iid_identity_framing/) | With nothing to exploit, agent labels make Fable less predictable and mindless labels make it streakier; not self-specific |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
@@ -66,7 +67,7 @@ The two tracks also connect directly:
 | Path | Contents |
 |---|---|
 | `track1_self_prediction/` | 20 dated experiment folders: data, results, reports, README each |
-| `track2_game_theory/` | 14 dated experiment folders |
+| `track2_game_theory/` | 15 dated experiment folders |
 | `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
 | `tests/` | Test suite (`python -m pytest`) |
 | `docs/` | Cross-cutting documents. `reports/` holds combined write-ups. Also preregistration, weekly handoffs, references, the research synthesis, `REORGANISATION_2026-10-21.md`, `PATH_MAP.md`, and `archive/` (earlier README, review guide, llms.txt) |

@@ -1,0 +1,249 @@
+{
+  "tag": "IID_IDENTITY_FRAMING",
+  "prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 100,
+  "cost_cap_usd": 16.0,
+  "call_cap": 1900,
+  "models": {
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    }
+  },
+  "git_head": "cdc3fe63048d4bbf1fe79b58d08d7639c48ea8ba",
+  "system_prompts_A": {
+    "none": "Place yellow paint on the shape where you think the blue circle will land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "agent": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "self": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is another instance of yourself, the same language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "other": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a different language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "salmon": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a dead salmon.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "program": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a random computer program.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line."
+  },
+  "system_prompt_A_sha256": {
+    "none": "6afb6a521baba6c66e03d0d714bf63f3f772239c1412d1ed0682c66622accb55",
+    "agent": "dbf6eeeae81830faf41efb65f49921f922cd7900055feb5a983eb565d1d0493b",
+    "self": "491ae49af54247570dbd6eaae442f2a91419f2df8c1adb17b578355bc04530a5",
+    "other": "06e5697c3dab527cfc60866918ee3a4df9b1fdec8d41729538b8b6aba4ed3828",
+    "salmon": "ccf1d797ea91b4f13fc2ff1850d752b4501820491fac1c7fb0e7cd3b08478cbb",
+    "program": "06ed29ea01e379bf75aa9e271c68f0618d1f0ff1b616a2ffe7e0fa3ea502e3e9"
+  },
+  "scripts": {
+    "IID_20261021": "STSSSTSSSTTTTTTSSTTSSTTTTTTTSTSTSSTTTSSTTTSTSSTTTSSTTSTSSSTTSSTSTTSTTTTSTTTTSSTSSTSSSTTSTSSTSSTSSSTT",
+    "IID_20261022": "SSTTTTTTTTTTSTTTTTSTTSTSSTTTTSTTTSTTSSTSSTTSTTTSTSTTTTSTSSTTSTSTSTTTTSSTSSTTTSTTTSSSTSSTSSSSSSSSTTTS",
+    "IID_20261023": "SSTSTSTSTSTSSSSSTSTTSSTSTSTSSSSTTSSTTSSSSTSTSTTTTSTTTTTTTSSSTSSSSSTTSTTSSSSTTTSTSTTTSSTSSTTSTSSTTSST"
+  },
+  "cost_estimate": {
+    "usd": "12-14",
+    "basis": "identity-framing experiment 14: $12.13 for the same 18 x 100-round design"
+  },
+  "prespecified": {
+    "written": "2026-10-21 23:10 EDT, before any call in this batch",
+    "design": "Same as experiment 14 (6 framing conditions x 3 sessions x 100 rounds, Fable paints, identical disclosure wording) but the circle plays a pre-generated IID fair string: 3 seeded strings, string k used for session k in every condition, so every condition faces exactly the same opponent sequences. Identity statements are false (the opponent is a fixed string).",
+    "question": "With nothing to exploit, do identity labels change Fable's own strategy: predictability (PI_A), following the circle's last landing, switching, win-stay/lose-shift, side bias?",
+    "outcomes": [
+      "PI_A (rounds 1-100 and 51-100)",
+      "A follows last circle landing",
+      "A switch rate",
+      "A win-stay / lose-shift",
+      "A P(TRIANGLE)",
+      "A win rate (expected ~.5; a check, not an outcome)",
+      "PI_B / shadow_win on the IID string (check)",
+      "response length; mentions of the stated identity"
+    ],
+    "comparisons": [
+      "each condition vs told-nothing",
+      "self vs other",
+      "self vs agent",
+      "salmon/program as framing controls"
+    ],
+    "analysis": "descriptive: per-condition means and session ranges; no significance tests at this size"
+  },
+  "sessions": [
+    {
+      "session_id": "fable-vs-script__A-none__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-agent__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "agent",
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-self__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-other__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-salmon__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "salmon",
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-program__IID_20261021__s1",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "program",
+      "disclosure_B": null,
+      "script_B": "IID_20261021",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-none__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-agent__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "agent",
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-self__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-other__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-salmon__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "salmon",
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-program__IID_20261022__s2",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "program",
+      "disclosure_B": null,
+      "script_B": "IID_20261022",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-none__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-agent__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "agent",
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-self__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-other__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-salmon__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "salmon",
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    },
+    {
+      "session_id": "fable-vs-script__A-program__IID_20261023__s3",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "program",
+      "disclosure_B": null,
+      "script_B": "IID_20261023",
+      "window": 50,
+      "rounds": 100
+    }
+  ]
+}
