@@ -7,6 +7,7 @@ never shown to A before A commits. No API calls.
 
 from __future__ import annotations
 
+import random
 from typing import Optional
 
 SEQUENCES = {
@@ -17,8 +18,27 @@ SEQUENCES = {
 }
 
 
+# Pre-generated IID strings (added 2026-10-21 for the IID identity-framing
+# experiment): 100 independent fair STAR/TRIANGLE draws from a fixed seed.
+IID_LENGTH = 100
+
+
+def iid_string(seed: int, length: int = IID_LENGTH) -> str:
+    rng = random.Random(seed)
+    return "".join(rng.choice("TS") for _ in range(length))
+
+
 def move(script: str, round_no: int) -> str:
-    """B's placement on 1-based round `round_no`."""
+    """B's placement on 1-based round `round_no`.
+
+    Periodic scripts are named in SEQUENCES; IID scripts are named
+    "IID_<seed>" and play iid_string(seed) once (no wrap-around).
+    """
+    if script.startswith("IID_"):
+        s = iid_string(int(script.split("_", 1)[1]))
+        if round_no > len(s):
+            raise ValueError(f"{script} has only {len(s)} rounds")
+        return s[round_no - 1]
     cycle = SEQUENCES[script]
     return cycle[(round_no - 1) % len(cycle)]
 

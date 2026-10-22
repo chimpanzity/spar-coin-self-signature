@@ -265,3 +265,21 @@ def test_learning_onset():
     o = scripted_pilot.learning_onset(w)
     assert o == dict(first_run10=4, last_loss=3, sustained_from=4, n_losses=2)
     assert scripted_pilot.learning_onset([True] * 5 + [False])["sustained_from"] is None
+
+
+def test_iid_scripts_are_fixed_balanced_enough_and_finite():
+    import pytest
+    a = "".join(scripted.move("IID_20261021", t) for t in range(1, 101))
+    assert a == scripted.iid_string(20261021) and set(a) <= {"T", "S"} and len(a) == 100
+    assert a != scripted.iid_string(20261022)
+    with pytest.raises(ValueError):
+        scripted.move("IID_20261021", 101)
+
+
+def test_strategy_measures_on_simple_painters():
+    circle = scripted.iid_string(5)
+    follower = "T" + circle[:-1]                       # paints where the circle last landed
+    m = scripted_pilot.session_metrics(follower, circle, 50)["late"]
+    assert m["A_follows_last_circle"] == 1.0
+    m = scripted_pilot.session_metrics("T" * 100, circle, 50)["late"]
+    assert m["A_p_triangle"] == 1.0 and m["A_switch_rate"] == 0.0 and m["A_lose_shift"] == 0.0

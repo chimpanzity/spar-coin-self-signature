@@ -70,10 +70,23 @@ def session_metrics(paint: str, circle: str, window: int) -> dict:
             oracle_win=float(np.mean([1.0 if o == b else 0.5 if o is None else 0.0 for o, b, _ in orc])),
             A_agrees_with_oracle=float(np.mean([o == a for o, _, a in orc if o is not None])) if any(o for o, _, _ in orc) else None,
             A_switch_rate=float(np.mean([paint[t] != paint[t - 1] for t in range(max(lo - 1, 1), hi)])),
+            # strategy measures (added 2026-10-21; most useful against a random opponent)
+            A_p_triangle=float(np.mean([c == "T" for c in paint[lo - 1:hi]])),
+            A_follows_last_circle=float(np.mean([paint[t] == circle[t - 1] for t in range(max(lo - 1, 1), hi)])),
+            A_win_stay=_cond_rate(paint, a_wins, lo, hi, after_win=True),
+            A_lose_shift=_cond_rate(paint, a_wins, lo, hi, after_win=False),
+            B_p_triangle=float(np.mean([c == "T" for c in circle[lo - 1:hi]])),
         )
     out["bins_A_win"] = [float(np.mean(a_wins[i:i + 10])) for i in range(0, n, 10)]
     out["onset"] = learning_onset(a_wins)
     return out
+
+
+def _cond_rate(paint, a_wins, lo, hi, after_win: bool):
+    """P(stay | previous win) if after_win else P(shift | previous loss), rounds lo..hi."""
+    xs = [(paint[t] == paint[t - 1]) if after_win else (paint[t] != paint[t - 1])
+          for t in range(max(lo - 1, 1), hi) if a_wins[t - 1] == after_win]
+    return float(np.mean(xs)) if xs else None
 
 
 def learning_onset(a_wins, run: int = 10):
@@ -131,6 +144,13 @@ def main(batch_dir: str):
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots(figsize=(7, 4))
     styles = {"ALT_S": ("#d1495b", "-"), "ALT_T": ("#d1495b", "--"), "DOUBLE_S": ("#00798c", "-"), "DOUBLE_T": ("#00798c", "--")}
+    scripts_all = [x.split("__")[-1] for x in bins]
+    if len(set(scripts_all)) != len(scripts_all) and all(k.count("__") >= 2 for k in bins):
+        # several sessions share a script (framing experiments): one line per condition, averaged
+        grouped = collections.defaultdict(list)
+        for k, v in bins.items():
+            grouped[k.split("__")[1]].append(v)
+        bins = {f"{c}__mean": list(np.mean(vs, axis=0)) for c, vs in grouped.items()}
     for k, v in bins.items():
         scripts = [x.split("__")[-1] for x in bins]
         c, ls = styles[k.split("__")[-1]] if len(set(scripts)) == len(scripts) else (None, "-")
