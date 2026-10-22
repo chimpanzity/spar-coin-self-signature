@@ -283,3 +283,9 @@ def test_strategy_measures_on_simple_painters():
     assert m["A_follows_last_circle"] == 1.0
     m = scripted_pilot.session_metrics("T" * 100, circle, 50)["late"]
     assert m["A_p_triangle"] == 1.0 and m["A_switch_rate"] == 0.0 and m["A_lose_shift"] == 0.0
+
+
+def test_deterministic_label_differs_from_random_only_in_one_word():
+    r = game.system_prompt("A", "program")
+    d = game.system_prompt("A", "deterministic")
+    assert d == r.replace("a random computer program", "a deterministic computer program")

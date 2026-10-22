@@ -40,6 +40,8 @@ IDENTITY = {
     "other": "The other decision-maker is a different language model.",
     "salmon": "The other decision-maker is a dead salmon.",
     "program": "The other decision-maker is a random computer program.",
+    # added 2026-10-22: separates "mindless" from "random" (experiment 16)
+    "deterministic": "The other decision-maker is a deterministic computer program.",
 }
 DISCLOSURES = (None, "agent") + tuple(IDENTITY)
 
