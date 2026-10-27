@@ -29,7 +29,7 @@ from typing import Any, Dict, List, Optional
 
 from openai import OpenAI
 
-from paint_circle import game, scripted
+from paint_circle import game, scripted, shadow
 
 MAX_ATTEMPTS = 4      # raised to 10 via --max-attempts when resuming failed sessions
 MAX_TRANSPORT_RETRIES = 6
@@ -157,6 +157,17 @@ class Batch:
                 t = len(paint) + 1
                 user = game.render_history(paint, circle, s["window"])
                 h = game.history_hash(paint, circle)
+                shadow_rec = None
+                if s.get("prospective_shadow"):
+                    # Prospective shadow Proteus (experiment 19): forecast A's round-t choice from the
+                    # same completed rounds A is shown (last `window`), frozen before A is called.
+                    W = s["window"]
+                    hp, hc = paint[-W:], circle[-W:]
+                    f = shadow.forecast(paint, shadow.wins_string(paint, circle, matcher=True), W)
+                    shadow_rec = dict(p_triangle=f.p_triangle, active=f.active, n_active=f.n_active,
+                                      channel=f.channel, window_rounds=len(hp),
+                                      window_sha=hashlib.sha256(f"{hp}|{hc}".encode()).hexdigest()[:16],
+                                      frozen_at=dt.datetime.now(dt.timezone.utc).isoformat())
                 if script_b:
                     # B's move depends only on the precommitted sequence and t; it is fixed
                     # before A is called and A never sees it before committing.
@@ -175,6 +186,8 @@ class Batch:
                            response_A=ra, response_B=rb,
                            round_cost_usd=ra["cost_usd"] + rb["cost_usd"],
                            timestamp=dt.datetime.now(dt.timezone.utc).isoformat())
+                if shadow_rec is not None:
+                    rec["shadow_forecast_A"] = shadow_rec
                 with open(rpath, "a", encoding="utf-8") as f:
                     f.write(json.dumps(rec) + "\n")
                 paint += pa

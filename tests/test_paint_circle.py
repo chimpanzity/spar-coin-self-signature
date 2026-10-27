@@ -360,3 +360,80 @@ def test_next_call_cost_guard(tmp_path):
     b.spent = 0.04                                                      # 0.04 + 0.02 > 0.05: must not call
     assert b.run_session(plan["sessions"][0]) in ("budget_stop", "failed")
     assert b.calls == 0
+
+
+# ------------------------------------------------- experiment 19: noise x label (2026-10-27) --
+from paint_circle import noise_label
+
+
+def _exp19_plan(tmp_path, labels=("none", "self", "other"), rounds=60, cap=5.0, call_cap=400):
+    import json as _j, hashlib as _h
+    name = "NDA_S_e15_2026102715"
+    seq = "".join(scripted.move(name, t) for t in range(1, rounds + 1))
+    sessions = [dict(session_id=f"s_{lab}", label=lab, model_A="fable", model_B="script",
+                     disclosure_A=None if lab == "none" else lab, disclosure_B=None, script_B=name,
+                     script_sha256=_h.sha256(seq.encode()).hexdigest(), window=50, rounds=rounds,
+                     prospective_shadow=True) for lab in labels]
+    plan = dict(tag="TEST", cost_cap_usd=cap, call_cap=call_cap, sessions=sessions)
+    (tmp_path / "plan.json").write_text(_j.dumps(plan))
+    return plan
+
+
+class _AlternatingClient(_FakeClient):
+    """Answers alternate TRIANGLE/STAR so the painter's history has some structure."""
+    def create(self, **kw):
+        self.requests.append(kw)
+        return _FakeResp("TRIANGLE" if len(self.requests) % 2 else "STAR")
+
+
+def test_exp19_dry_run_same_circle_only_label_differs_forecasts_prospective(tmp_path):
+    import json as _j
+    from paint_circle import run
+    plan = _exp19_plan(tmp_path)
+    client = _AlternatingClient()
+    b = run.Batch(str(tmp_path), client)
+    for s in plan["sessions"]:
+        assert b.run_session(s) == "complete"
+    circles, systems = {}, {}
+    for s in plan["sessions"]:
+        rows = [_j.loads(l) for l in open(tmp_path / s["session_id"] / "rounds.jsonl")]
+        circles[s["label"]] = "".join(r["circle"] for r in rows)
+        paint = "".join(r["paint"] for r in rows)
+        wins = shadow.wins_string(paint, circles[s["label"]], matcher=True)    # A's own win bits
+        for t, r in enumerate(rows):
+            f = r["shadow_forecast_A"]
+            assert f["window_rounds"] == min(t, 50)                            # last 50 completed rounds only
+            off = shadow.forecast(paint[:t], wins[:t], 50)                     # uses rounds < t only
+            assert abs(off.p_triangle - f["p_triangle"]) < 1e-12
+    assert circles["none"] == circles["self"] == circles["other"]              # identical script under all labels
+    reqs = client.requests
+    sys_by_label = {}
+    for s, k in zip(plan["sessions"], range(0, len(reqs), 60)):
+        sys_by_label[s["label"]] = reqs[k]["messages"][0]["content"]
+    base = sys_by_label["none"]
+    for lab in ("self", "other"):
+        parts = sys_by_label[lab].split("\n\n")
+        assert "\n\n".join([parts[0]] + parts[2:]) == base                     # only the disclosure paragraph differs
+        assert parts[1] == f"{game.EXISTENCE['A']} {game.IDENTITY[lab]}"
+
+
+
+def test_exp19_analysis_audits_forecasts(tmp_path):
+    import json as _j
+    from paint_circle import run
+    plan = _exp19_plan(tmp_path, labels=("none", "self"), rounds=100)
+    b = run.Batch(str(tmp_path), _AlternatingClient())
+    for s in plan["sessions"]:
+        b.run_session(s)
+    res = noise_label.main(str(tmp_path))
+    assert res["sessions_complete"] == 2
+    late = [r for r in res["summary"] if r["window"] == "late" and r["label"] == "self"][0]
+    assert late["shadow_activation"] > 0.5 and late["PI_A_prospective"] > 0.5   # alternating painter is predictable
+    # tamper with one logged forecast: the audit must refuse
+    p = tmp_path / "s_self" / "rounds.jsonl"
+    rows = [_j.loads(l) for l in open(p)]
+    rows[70]["shadow_forecast_A"]["p_triangle"] = 0.123
+    p.write_text("\n".join(_j.dumps(r) for r in rows) + "\n")
+    import pytest
+    with pytest.raises(AssertionError):
+        noise_label.main(str(tmp_path))
