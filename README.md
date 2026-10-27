@@ -19,7 +19,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 4. **What a model is told about its opponent matters when the evidence is weak, and the relevant belief is about structure, not self.**
    - Against a scripted opponent with a clear pattern, Fable exploits it almost perfectly under any label (track 2, 13–14).
    - Against a random opponent, labels implying structure make Fable search for rules and play less predictably. Those labels are any agent, itself, another model or a *deterministic* program. Labels implying randomness make it streaky (track 2, 15–16).
-   - At 10% noise, language-model labels reduced how well it exploited the pattern (track 2, 19). "Self" never differed reliably from "a different language model".
+   - At 10% noise, labels slightly reduced how well it exploited the pattern, and any label (itself, another model, a human, a dead salmon) made it less predictable (track 2, 19–20). "Self" never differed reliably from "a different language model": folder 19's apparent gap did not replicate across 5 scripts (track 2, 20).
 5. **Fable can exploit noisy structure but gives it up early.** It still uses an S S T T pattern at 10% noise but abandons it at 20%, where three-quarters of rounds could still be won. This replicated in 3 of 3 sessions (track 2, 17–18).
 
 ## Timeline (both tracks)
@@ -65,12 +65,13 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 22 | 2 | [17 Entropy-gradient pilot](track2_game_theory/17_2026-10-22_paint_circle_entropy_gradient/) | Fable exploits a pattern with 10% noise only partly and abandons it at 20%, although 76% wins remained available |
 | Oct 22 | 2 | [18 Entropy-gradient replication](track2_game_theory/18_2026-10-22_paint_circle_entropy_gradient_replication/) | The break between 10% and 20% noise replicates: mostly exploited at 10%, abandoned at 20% in 3 of 3 sessions |
 | Oct 27 | 2 | [19 Source labels × noise](track2_game_theory/19_2026-10-27_paint_circle_noise_label_predictability/) | At 10% noise, LLM labels reduce exploitation and Fable's own predictability (self most); self vs other not distinguishable yet |
+| Oct 27 | 2 | [20 Replication: 5 scripts × 5 labels](track2_game_theory/20_2026-10-27_paint_circle_noise_label_replication/) | Self vs other does not replicate (median gap 0); any label (incl. human, dead salmon) lowers Fable's predictability to Proteus |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
 - **Oct 15:** the Oct 9–11 games led back to simpler self-prediction tests (track 1, 14).
 - **Oct 20–21:** the paint-and-circle self-play (track 2, 10) ran alongside the static replication (track 1, 20).
-- **Oct 21–27:** track 2 replaced the second player with a script (13–19). That holds the opponent's behaviour fixed and known, so Fable's exploitation, its own predictability, and the effect of what it is told can be measured against a known opportunity.
+- **Oct 21–27:** track 2 replaced the second player with a script (13–20). That holds the opponent's behaviour fixed and known, so Fable's exploitation, its own predictability, and the effect of what it is told can be measured against a known opportunity.
 
 ## Open questions and next steps
 
@@ -86,7 +87,7 @@ The current candidate follow-ups for each track are listed at the end of [`track
 | Path | Contents |
 |---|---|
 | `track1_self_prediction/` | 20 dated experiment folders: data, results, reports, README each |
-| `track2_game_theory/` | 19 dated experiment folders |
+| `track2_game_theory/` | 20 dated experiment folders |
 | `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
 | `tests/` | Test suite (`python -m pytest`) |
 | `docs/` | Cross-cutting documents. `reports/` holds combined write-ups. Also preregistration, weekly handoffs, references, the research synthesis, `REORGANISATION_2026-10-21.md`, `PATH_MAP.md`, and `archive/` (earlier README, review guide, llms.txt) |

@@ -9,7 +9,7 @@ This track started on Oct 9, after track 1's forecasting design hit a floor. Gam
 | A. Observing play | Oct 9–11 | 01–08 |
 | B. Framing a generator as self | Oct 11 | 09 |
 | C. Closed-loop self-play | Oct 20–21 | 10–12 |
-| D. Scripted opponents: exploitation, noise and source beliefs | Oct 21–27 | 13–19 |
+| D. Scripted opponents: exploitation, noise and source beliefs | Oct 21–27 | 13–20 |
 
 Each folder has its own README.
 
@@ -59,19 +59,20 @@ Fable paints against a local script; the circle-placer makes no API calls. The s
 | 17 | [`17_2026-10-22_paint_circle_entropy_gradient`](17_2026-10-22_paint_circle_entropy_gradient/) | Calibration pilot, no labels: how do Fable's exploitation and own predictability change as noise is added to the S S T T opponent (ε = 0 to .50)? | Fable keeps the pair rule at ε = .10 but loses its place after flips (win .70 vs a possible .84–.89). Between ε = .10 and .20 it abandons the pattern for run/frequency heuristics (win .52 vs .76). The shadow benchmark cannot see the pattern beyond ε = .10. |
 | 18 | [`18_2026-10-22_paint_circle_entropy_gradient_replication`](18_2026-10-22_paint_circle_entropy_gradient_replication/) | Replication at ε = .10 and .20 (reversed phase, fresh seeds) | The break replicates: at 20% noise Fable abandons the pattern in all 3 sessions (EI_oracle .15 / .08 / −.27); at 10% it captures most of the available advantage (.59 / .83 / .87). |
 | 19 | [`19_2026-10-27_paint_circle_noise_label_predictability`](19_2026-10-27_paint_circle_noise_label_predictability/) | 3 noise levels × 3 labels (none / self / other LLM), the same script under each label, plus a prospective shadow Proteus forecasting Fable: do labels change exploitation and exploitability? | At ε = .10 any LLM label reduced exploitation, self most (wins .72 / .60 / .52), and predictability moved with it. At ε ≥ .15 Fable is near chance regardless. The self–other gap is within session noise: a replication candidate, not a finding. |
+| 20 | [`20_2026-10-27_paint_circle_noise_label_replication`](20_2026-10-27_paint_circle_noise_label_replication/) | Replication of 19 at ε = .10: 5 new scripts, each replayed under 5 labels (none / self / other LLM / human / dead salmon) | **Self vs other did not replicate** (median gap 0; folder 19's ordering in 1 of 5 scripts). Labels cut winning only slightly (.75–.79 vs .80), mostly on two harder scripts. The consistent effect: any label makes Fable less predictable to Proteus (17 of 20 comparisons with no label), salmon most. |
 
 **Where Phase D leaves us:**
 - **Fable can exploit what it sees.** A clear pattern is exploited almost perfectly, under any label (13, 14).
 - **It is brittle under noise.** It still uses the pattern at 10% noise and abandons it at 20%, although most of the advantage remained available (17, 18).
-- **Beliefs about the source matter when the evidence is weak.** Against a random opponent, labels implying structure (any agent, a deterministic program) make Fable search for rules and play less predictably. Labels implying randomness make it streaky (15, 16). At 10% noise, language-model labels reduced exploitation (19).
-- **No self-specific effect has survived a control.** In every test, "self" behaves like "a different language model".
+- **Beliefs about the source matter when the evidence is weak.** Against a random opponent, labels implying structure (any agent, a deterministic program) make Fable search for rules and play less predictably. Labels implying randomness make it streaky (15, 16). At 10% noise, labels slightly reduced exploitation, mostly on harder scripts. More consistently, any label (self, other model, human, dead salmon) made Fable less predictable to Proteus (19, 20).
+- **No self-specific effect has survived a control.** In every test, "self" behaves like "a different language model". Folder 19's apparent self < other gap did not replicate across 5 scripts (20).
 
 ## What track 2 shows so far
 
-1. **Identity labels change behaviour, but not because the identity is "self".** In every specificity test (05, 08, 11, 12, 14, 15, 16, 19), effects attributed to "self" also appear for other model labels or general framing.
+1. **Identity labels change behaviour, but not because the identity is "self".** In every specificity test (05, 08, 11, 12, 14, 15, 16, 19, 20), effects attributed to "self" also appear for other model labels or general framing.
 2. **Evidence beats framing when the evidence is clear; framing matters when it is not.**
    - Against a clear pattern, no label stops Fable exploiting it (14).
-   - Against a random or noisy opponent, what Fable is told about the source changes its strategy (15, 16, 19). The relevant belief is whether the source has *structure worth modelling*, not whether it is an agent or a copy of itself (16).
+   - Against a random or noisy opponent, what Fable is told about the source changes its strategy (15, 16, 19, 20). The relevant belief is whether the source has *structure worth modelling*, not whether it is an agent or a copy of itself (16).
 3. **Fable has the capacity to exploit structure but gives it up under modest noise.** The sharp break between 10% and 20% noise replicated in 3 of 3 sessions (17, 18).
 4. **Fable is the consistently responsive model, as in track 1.** But it responds to descriptions and framing, not to the opponent actually being Fable.
 5. **The measurements have limits:**
@@ -86,7 +87,8 @@ Track 1 asks whether a model can predict its own outputs in isolation; track 2 a
 
 | Question | Proposed test (not yet run) |
 |---|---|
-| Does any LLM label reliably reduce exploitation at 10% noise, and is "self" different from "other"? | 4–5 sessions per label at ε = .10, fresh sequences, both phases (folder 19) |
+| ~~Does any LLM label reliably reduce exploitation at 10% noise, and is "self" different from "other"?~~ | **Done in folder 20:** self ≈ other; label effects on winning are small and script-dependent |
+| Is "any label lowers predictability" robust under a model-agnostic predictor, and does framing matter more on harder scripts? | Preregistered, ≈ 10–15 script blocks crossing phase with late-window noise, plus a context-tree predictor alongside Proteus (folder 20 synthesis) |
 | Does a "deterministic program" label keep Fable on the rule at 20% noise, where it otherwise gives up? | 2–3 labels × 3 sessions at ε = .20 (connects folders 16 and 17–18) |
 | Do the conclusions hold under a stronger, model-agnostic predictability measure? | Offline re-analysis of logged rounds with a variable-order Markov / context-tree predictor (no API cost) |
 | Does a true cross-model comparison change the self-vs-other picture? | Fable against a different model under a true "different model" label |

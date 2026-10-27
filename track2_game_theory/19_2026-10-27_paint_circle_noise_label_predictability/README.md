@@ -7,7 +7,7 @@
 | Run ID | `noise-label-20261027` |
 | Game and models | Paint-and-circle matching pennies. A = Fable (`anthropic/claude-fable-5.1`, Anthropic provider, effort low, no temperature setting, no tools). B = a scripted noisy double-alternation; no model, no API calls. |
 | Size and cost | 3 noise levels × 3 source labels = 9 sessions × 100 rounds. 900 valid Fable answers, 1 re-request (a provider content-filter stop with an empty answer, round 62, ε = .10 self). $8.03 (caps: $10 and 1,000 calls). All 9 sessions complete. |
-| Previous | [← 18 Entropy-gradient replication](../18_2026-10-22_paint_circle_entropy_gradient_replication/) |
+| Previous / next | [← 18 Entropy-gradient replication](../18_2026-10-22_paint_circle_entropy_gradient_replication/) · [20 Replication: 5 scripts × 5 labels →](../20_2026-10-27_paint_circle_noise_label_replication/) |
 
 ## Question
 
@@ -77,7 +77,7 @@ All metrics for both windows, every round's forecast, and the label contrasts ar
   - The self–other gap (win −.08; EI_oracle .06 vs .28) is within the session-to-session spread seen without labels in folders 17–18 (EI_oracle .59–.87).
   - Folder 11's prespecified test found Fable's self and other labels indistinguishable, and folders 14–16 found label effects that track expected structure, not self.
 - **The more robust-looking result here is that *any* language-model label reduced exploitation at ε = .10**, compared with no label. That fits folder 16: labels that imply structure prompt Fable to reason more about the opponent.
-- **A useful follow-up:** at ε = .10, run 4–5 sessions per label (none / self / other), with fresh sequences and both phases. That would be roughly 12–15 sessions, about $11–14, and would test both the "any label" effect and the self-vs-other gap. Not run; it needs approval.
+- **A useful follow-up:** at ε = .10, run 4–5 sessions per label (none / self / other), with fresh sequences and both phases. That would be roughly 12–15 sessions, about $11–14, and would test both the "any label" effect and the self-vs-other gap. **Run as folder 20** (5 scripts × 5 labels, adding human and salmon): the self-vs-other gap did not replicate.
 
 ## Caveats
 
