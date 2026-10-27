@@ -1,0 +1,14 @@
+{
+  "spent_usd": 8.0271,
+  "status": {
+    "fable-vs-script__NDA_S_e15_2026102715__label-none": "complete",
+    "fable-vs-script__NDA_T_e10_2026102710__label-none": "complete",
+    "fable-vs-script__NDA_T_e20_2026102720__label-none": "complete",
+    "fable-vs-script__NDA_T_e20_2026102720__label-other": "complete",
+    "fable-vs-script__NDA_S_e15_2026102715__label-other": "complete",
+    "fable-vs-script__NDA_T_e10_2026102710__label-other": "complete",
+    "fable-vs-script__NDA_T_e10_2026102710__label-self": "complete",
+    "fable-vs-script__NDA_S_e15_2026102715__label-self": "complete",
+    "fable-vs-script__NDA_T_e20_2026102720__label-self": "complete"
+  }
+}

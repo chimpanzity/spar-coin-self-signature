@@ -59,6 +59,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 22 | 2 | [16 Deterministic vs random program](track2_game_theory/16_2026-10-22_paint_circle_iid_deterministic_program/) | "Deterministic program" acts like the agent labels: what matters is expected structure, not agency |
 | Oct 22 | 2 | [17 Entropy-gradient pilot](track2_game_theory/17_2026-10-22_paint_circle_entropy_gradient/) | Fable exploits a pattern with 10% noise only partly and abandons it at 20%, although 76% wins remained available |
 | Oct 22 | 2 | [18 Entropy-gradient replication](track2_game_theory/18_2026-10-22_paint_circle_entropy_gradient_replication/) | The break between 10% and 20% noise replicates: mostly exploited at 10%, abandoned at 20% in 3 of 3 sessions |
+| Oct 27 | 2 | [19 Source labels × noise](track2_game_theory/19_2026-10-27_paint_circle_noise_label_predictability/) | At 10% noise, LLM labels reduce exploitation and Fable's own predictability (self most); self vs other not distinguishable yet |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
@@ -70,7 +71,7 @@ The two tracks also connect directly:
 | Path | Contents |
 |---|---|
 | `track1_self_prediction/` | 20 dated experiment folders: data, results, reports, README each |
-| `track2_game_theory/` | 18 dated experiment folders |
+| `track2_game_theory/` | 19 dated experiment folders |
 | `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
 | `tests/` | Test suite (`python -m pytest`) |
 | `docs/` | Cross-cutting documents. `reports/` holds combined write-ups. Also preregistration, weekly handoffs, references, the research synthesis, `REORGANISATION_2026-10-21.md`, `PATH_MAP.md`, and `archive/` (earlier README, review guide, llms.txt) |

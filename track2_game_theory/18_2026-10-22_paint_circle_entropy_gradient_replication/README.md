@@ -7,7 +7,7 @@
 | Run ID | `entropy-gradient-rep-20261022` |
 | Game and models | As folder 17. A = Fable (`anthropic/claude-fable-5.1`, effort low), with the minimal paint prompt byte-identical to folders 13 and 17 and no labels. B = a scripted noisy double-alternation; no model, no API calls. |
 | Size and cost | 4 sessions × 100 rounds = 400 Fable calls, 0 rejected answers, $3.14 (caps: $5 and 450 calls) |
-| Previous | [← 17 Entropy-gradient pilot](../17_2026-10-22_paint_circle_entropy_gradient/) |
+| Previous / next | [← 17 Entropy-gradient pilot](../17_2026-10-22_paint_circle_entropy_gradient/) · [19 Source labels × noise →](../19_2026-10-27_paint_circle_noise_label_predictability/) |
 
 ## What was done
 

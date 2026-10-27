@@ -1,0 +1,251 @@
+{
+  "tag": "NOISE_LABEL_PREDICTABILITY_PILOT",
+  "prompt_version": "paint_circle-v1.0",
+  "window": 50,
+  "rounds": 100,
+  "cost_cap_usd": 10.0,
+  "call_cap": 1000,
+  "max_call_cost_prior_usd": 0.02,
+  "models": {
+    "fable": {
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": "anthropic",
+      "reasoning": {
+        "effort": "low"
+      },
+      "temperature": null,
+      "max_tokens": 4000
+    }
+  },
+  "git_head": "13c379a5b66ad2b499d7f14dd4ae80095fc242f8",
+  "system_prompts_A": {
+    "none": "Place yellow paint on the shape where you think the blue circle will land.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "self": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is another instance of yourself, the same language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line.",
+    "other": "Place yellow paint on the shape where you think the blue circle will land.\n\nAnother decision-maker decides where the blue circle lands. The other decision-maker is a different language model.\n\nAvailable actions:\nTRIANGLE\nSTAR\n\nYou may briefly think through your choice. End your response with the chosen action on its own line."
+  },
+  "system_prompt_A_sha256": {
+    "none": "6afb6a521baba6c66e03d0d714bf63f3f772239c1412d1ed0682c66622accb55",
+    "self": "491ae49af54247570dbd6eaae442f2a91419f2df8c1adb17b578355bc04530a5",
+    "other": "06e5697c3dab527cfc60866918ee3a4df9b1fdec8d41729538b8b6aba4ed3828"
+  },
+  "tests_sha256": "940269b94575b71f7a68bf7f7796fca4e3b622c4ce79ad7f8db9677004e60c55",
+  "sequences": {
+    "0.1": {
+      "script": "NDA_T_e10_2026102710",
+      "phase": "T",
+      "seed": 2026102710,
+      "latent": "TTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSS",
+      "sequence": "TTSSTTSSTTSSSTSSTTSSTTSSTTSSSTSSTTSTTTSSTTSSTTSSTTSSTSSSTTTSSTSSTTSSSTSSTTSSTTSSTSSSTTTSTTSTTTSSTTSS",
+      "sha256": "ff83c0ba4f74f23aeacdc0cd4c6247f53c549c72c3275bfbe82beacb83606469",
+      "flips": 10,
+      "oracle_expected": 0.9,
+      "oracle_win_realized": 0.9,
+      "oracle_win_realized_51_100": 0.86
+    },
+    "0.15": {
+      "script": "NDA_S_e15_2026102715",
+      "phase": "S",
+      "seed": 2026102715,
+      "latent": "SSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTT",
+      "sequence": "TSTSSSTSSTTSSSTSSSTTSSTSTSSTSSTTSSTTSSTSSSTTSSTTSTSTSTTTTSTTSSTTSSTTSTTTSSTTSTTTSSTTTSTSSSSTSSTTSSSS",
+      "sha256": "8e1f19693c73fdbfab5a9223f4c9ccef7c9a36f52246464e4228960c5abc928f",
+      "flips": 21,
+      "oracle_expected": 0.85,
+      "oracle_win_realized": 0.79,
+      "oracle_win_realized_51_100": 0.8
+    },
+    "0.2": {
+      "script": "NDA_T_e20_2026102720",
+      "phase": "T",
+      "seed": 2026102720,
+      "latent": "TTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSSTTSS",
+      "sequence": "STSSTTSTTTTSTSSTTSSSTSSSTTSSTTSSTTSSTTSSTTSTSTSSTTSSSTSSTSTSTSSSTSSSTSSSTTSSSSSTTTSSSTSSTTSSTTSTSTST",
+      "sha256": "1ab4bdc2a30f7370484ec47cc52372c69e26c5da32e7cc29749b46cb33653cee",
+      "flips": 22,
+      "oracle_expected": 0.8,
+      "oracle_win_realized": 0.78,
+      "oracle_win_realized_51_100": 0.74
+    }
+  },
+  "launch_order_seed": 20261027,
+  "launch_order": [
+    "fable-vs-script__NDA_T_e20_2026102720__label-other",
+    "fable-vs-script__NDA_T_e20_2026102720__label-self",
+    "fable-vs-script__NDA_S_e15_2026102715__label-none",
+    "fable-vs-script__NDA_S_e15_2026102715__label-self",
+    "fable-vs-script__NDA_S_e15_2026102715__label-other",
+    "fable-vs-script__NDA_T_e10_2026102710__label-self",
+    "fable-vs-script__NDA_T_e20_2026102720__label-none",
+    "fable-vs-script__NDA_T_e10_2026102710__label-none",
+    "fable-vs-script__NDA_T_e10_2026102710__label-other"
+  ],
+  "cost_estimate": {
+    "usd": "7-9",
+    "basis": "folders 17-18: $0.78-0.79 per unlabelled session at epsilon .10/.20; labels add ~10-25 tokens/answer (folders 14-15)"
+  },
+  "prespecified": {
+    "written": "2026-10-27 17:41 EDT, before any call in this batch",
+    "handoff": "GPT_SPAR_Experiment_19_Noise_Label_Proteus_Handoff (2026-10-27)",
+    "design": "3 noise levels x 3 source labels (none / self / other LLM), one 100-round session per cell, Fable only. One frozen noisy double-alternation sequence per noise level, replayed under all three labels; phases alternate T,S,T across levels. Identity statements are cover stories; the opponent is scripted. Prospective shadow Proteus (unchanged nine channels, W=50) forecasts Fable's choice from the same last-50 completed rounds, logged before scoring; it has no effect on play.",
+    "primary_window": "rounds 51-100; rounds 1-100 and 10-round bins supplementary",
+    "outcomes": [
+      "exploitation: A_win, realized oracle, A - oracle, EI_oracle_realized (NA if oracle <= .55), pattern_following",
+      "exploitability: PI_A prospective, mean forecast prob of actual choice, activation, mean log2 loss vs rolling marginal baseline",
+      "secondary: PI_B, P(TRIANGLE), switch rate, runs z, win-stay/lose-shift, follows last circle, Brown-Rosenthal lag-1"
+    ],
+    "contrasts": [
+      "self - other at each noise level (primary)",
+      "self - none and other - none",
+      "noise trend within label",
+      "joint: exploitation vs exploitability"
+    ],
+    "analysis": "descriptive only; one session per cell; no significance tests",
+    "caveat": "labels are the initial intervention; downstream histories diverge with Fable's own choices, so later prompts are not byte-identical across labels"
+  },
+  "sessions": [
+    {
+      "session_id": "fable-vs-script__NDA_T_e20_2026102720__label-other",
+      "label": "other",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "script_B": "NDA_T_e20_2026102720",
+      "script_sha256": "1ab4bdc2a30f7370484ec47cc52372c69e26c5da32e7cc29749b46cb33653cee",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.2,
+      "phase": "T",
+      "seed": 2026102720
+    },
+    {
+      "session_id": "fable-vs-script__NDA_T_e20_2026102720__label-self",
+      "label": "self",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "script_B": "NDA_T_e20_2026102720",
+      "script_sha256": "1ab4bdc2a30f7370484ec47cc52372c69e26c5da32e7cc29749b46cb33653cee",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.2,
+      "phase": "T",
+      "seed": 2026102720
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e15_2026102715__label-none",
+      "label": "none",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_S_e15_2026102715",
+      "script_sha256": "8e1f19693c73fdbfab5a9223f4c9ccef7c9a36f52246464e4228960c5abc928f",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.15,
+      "phase": "S",
+      "seed": 2026102715
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e15_2026102715__label-self",
+      "label": "self",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "script_B": "NDA_S_e15_2026102715",
+      "script_sha256": "8e1f19693c73fdbfab5a9223f4c9ccef7c9a36f52246464e4228960c5abc928f",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.15,
+      "phase": "S",
+      "seed": 2026102715
+    },
+    {
+      "session_id": "fable-vs-script__NDA_S_e15_2026102715__label-other",
+      "label": "other",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "script_B": "NDA_S_e15_2026102715",
+      "script_sha256": "8e1f19693c73fdbfab5a9223f4c9ccef7c9a36f52246464e4228960c5abc928f",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.15,
+      "phase": "S",
+      "seed": 2026102715
+    },
+    {
+      "session_id": "fable-vs-script__NDA_T_e10_2026102710__label-self",
+      "label": "self",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "self",
+      "disclosure_B": null,
+      "script_B": "NDA_T_e10_2026102710",
+      "script_sha256": "ff83c0ba4f74f23aeacdc0cd4c6247f53c549c72c3275bfbe82beacb83606469",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.1,
+      "phase": "T",
+      "seed": 2026102710
+    },
+    {
+      "session_id": "fable-vs-script__NDA_T_e20_2026102720__label-none",
+      "label": "none",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_T_e20_2026102720",
+      "script_sha256": "1ab4bdc2a30f7370484ec47cc52372c69e26c5da32e7cc29749b46cb33653cee",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.2,
+      "phase": "T",
+      "seed": 2026102720
+    },
+    {
+      "session_id": "fable-vs-script__NDA_T_e10_2026102710__label-none",
+      "label": "none",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": null,
+      "disclosure_B": null,
+      "script_B": "NDA_T_e10_2026102710",
+      "script_sha256": "ff83c0ba4f74f23aeacdc0cd4c6247f53c549c72c3275bfbe82beacb83606469",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.1,
+      "phase": "T",
+      "seed": 2026102710
+    },
+    {
+      "session_id": "fable-vs-script__NDA_T_e10_2026102710__label-other",
+      "label": "other",
+      "model_A": "fable",
+      "model_B": "script",
+      "disclosure_A": "other",
+      "disclosure_B": null,
+      "script_B": "NDA_T_e10_2026102710",
+      "script_sha256": "ff83c0ba4f74f23aeacdc0cd4c6247f53c549c72c3275bfbe82beacb83606469",
+      "window": 50,
+      "rounds": 100,
+      "prospective_shadow": true,
+      "epsilon": 0.1,
+      "phase": "T",
+      "seed": 2026102710
+    }
+  ]
+}
