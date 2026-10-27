@@ -1,6 +1,6 @@
 # SPAR: self-modelling in language models
 
-Do language models know their own behaviour? This repository holds every experiment run for the SPAR project, from September 21 to October 21, 2026. The work runs in two parallel, complementary tracks:
+Do language models know their own behaviour? This repository holds every experiment run for the SPAR project, from September 21 to October 27, 2026. The work runs in two parallel, complementary tracks:
 
 | Track | Question | Folder |
 |---|---|---|
@@ -16,6 +16,11 @@ Each track has a README that tells its story in order. Each experiment has its o
    - Fable's strongest track 1 results are explained by the stated generation procedure (track 1, 10) and by a default answer it shares with "a typical model" (track 1, 20).
    - Its strongest track 2 result, becoming unpredictable when told it faces itself, is matched by telling it the opponent is a *different* language model (track 2, 11).
 3. **Models can reproduce their outputs but not predict their properties.** They replay sequences they would generate, but single-position questions fall back on defaults (track 1, 16–20).
+4. **What a model is told about its opponent matters when the evidence is weak, and the relevant belief is about structure, not self.**
+   - Against a scripted opponent with a clear pattern, Fable exploits it almost perfectly under any label (track 2, 13–14).
+   - Against a random opponent, labels implying structure make Fable search for rules and play less predictably. Those labels are any agent, itself, another model or a *deterministic* program. Labels implying randomness make it streaky (track 2, 15–16).
+   - At 10% noise, language-model labels reduced how well it exploited the pattern (track 2, 19). "Self" never differed reliably from "a different language model".
+5. **Fable can exploit noisy structure but gives it up early.** It still uses an S S T T pattern at 10% noise but abandons it at 20%, where three-quarters of rounds could still be won. This replicated in 3 of 3 sessions (track 2, 17–18).
 
 ## Timeline (both tracks)
 
@@ -65,6 +70,16 @@ The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
 - **Oct 15:** the Oct 9–11 games led back to simpler self-prediction tests (track 1, 14).
 - **Oct 20–21:** the paint-and-circle self-play (track 2, 10) ran alongside the static replication (track 1, 20).
+- **Oct 21–27:** track 2 replaced the second player with a script (13–19). That holds the opponent's behaviour fixed and known, so Fable's exploitation, its own predictability, and the effect of what it is told can be measured against a known opportunity.
+
+## Open questions and next steps
+
+The current candidate follow-ups for each track are listed at the end of [`track1_self_prediction/README.md`](track1_self_prediction/README.md) and [`track2_game_theory/README.md`](track2_game_theory/README.md). The most direct ones:
+- **Track 1:** a Binder-style finetuning comparison of self vs cross prediction.
+- **Track 2:**
+  - a replication of the 10%-noise label effect;
+  - a test of whether a "deterministic program" label keeps Fable on a 20%-noisy rule;
+  - an offline check of the predictability results with a stronger, model-agnostic predictor.
 
 ## Repository layout
 
