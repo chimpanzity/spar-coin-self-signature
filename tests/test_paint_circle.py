@@ -437,3 +437,50 @@ def test_exp19_analysis_audits_forecasts(tmp_path):
     import pytest
     with pytest.raises(AssertionError):
         noise_label.main(str(tmp_path))
+
+
+# ------------------------------------------------- experiment 20: 5 scripts x 5 labels (2026-10-27) --
+from paint_circle import noise_label_rep
+
+
+def test_human_disclosure_matches_handoff():
+    assert game.system_prompt("A", "human").split("\n\n")[1] == (
+        "Another decision-maker decides where the blue circle lands. The other decision-maker is a human.")
+    assert game.system_prompt("A", "salmon").split("\n\n")[1] == (
+        "Another decision-maker decides where the blue circle lands. The other decision-maker is a dead salmon.")
+
+
+def test_exp20_blocks_dry_run_and_paired_contrasts(tmp_path):
+    import json as _j, hashlib as _h
+    from paint_circle import run
+    labels = noise_label_rep.LABELS
+    sessions = []
+    for blk, (ph, seed) in enumerate([("T", 11), ("S", 12)], start=1):
+        name = f"NDA_{ph}_e10_{seed}"
+        seq = "".join(scripted.move(name, t) for t in range(1, 101))
+        for lab in labels:
+            sessions.append(dict(session_id=f"b{blk}_{lab}", block=blk, label=lab, model_A="fable", model_B="script",
+                                 disclosure_A=None if lab == "none" else lab, disclosure_B=None, script_B=name,
+                                 script_sha256=_h.sha256(seq.encode()).hexdigest(), window=50, rounds=100,
+                                 prospective_shadow=True))
+    (tmp_path / "plan.json").write_text(_j.dumps(dict(tag="TEST", cost_cap_usd=5.0, call_cap=2000, sessions=sessions)))
+    client = _AlternatingClient()
+    b = run.Batch(str(tmp_path), client)
+    for s in sessions:
+        assert b.run_session(s) == "complete"
+    # identical circle sequence within each block, across all five labels
+    for blk in (1, 2):
+        circles = {"".join(_j.loads(l)["circle"] for l in open(tmp_path / f"b{blk}_{lab}" / "rounds.jsonl")) for lab in labels}
+        assert len(circles) == 1
+    # only the disclosure paragraph differs between label prompts
+    systems = {}
+    for s, k in zip(sessions, range(0, len(client.requests), 100)):
+        systems[s["label"]] = client.requests[k]["messages"][0]["content"]
+    base = systems["none"]
+    for lab in labels[1:]:
+        parts = systems[lab].split("\n\n")
+        assert "\n\n".join([parts[0]] + parts[2:]) == base
+    res = noise_label_rep.main(str(tmp_path))
+    assert res["sessions_complete"] == 10
+    c = [x for x in res["paired_contrasts"] if x["window"] == "late" and x["contrast"] == "self - other" and x["metric"] == "A_win"][0]
+    assert c["n_blocks"] == 2 and len(c["per_block"]) == 2
