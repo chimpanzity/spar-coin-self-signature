@@ -1,0 +1,66 @@
+{
+  "spec": "DICE_LOGPROB_v1.0 main collection (amended serving: open weights on rented GPU)",
+  "approved": "Chris Martin, 2026-10-29 ('yep do the main collection'), after preflight preflight-qwen3-32b-a100 PASSED all gates",
+  "preflight_id": "preflight-qwen3-32b-a100",
+  "design": "15 conditions x 10 fresh-context replicates = 150 generations, seeded shuffled order; matched-prefix scoring of modal G and F histories under G and F instructions (incremental = primary, full_pass = precision-floor estimate)",
+  "model": {
+    "id": "Qwen/Qwen3-32B",
+    "commit": "9216db5781bf21249d130ec9da846c4624c16137",
+    "dtype": "bfloat16 weights and activations; lm_head and logits fp32"
+  },
+  "hardware": {
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "driver": "595.91.07",
+    "provider": "Vast.ai (SPAR team account), North Carolina host, machine 153016 (same as preflight)",
+    "instance_destroyed": true
+  },
+  "software": {
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "transformers": "5.22.0",
+    "python": "3.11.9"
+  },
+  "decoding": {
+    "method": "greedy argmax over full vocabulary, batch 1, no logit processors",
+    "max_new_tokens": 128,
+    "non_thinking": "chat template enable_thinking=False",
+    "system_message": null,
+    "tools": null
+  },
+  "determinism": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "order_seed": 20261029,
+  "n_jobs": 150,
+  "started_utc": "2026-10-29T18:55:56.120999+00:00",
+  "prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+    "S1": "93807652c65e1b0debb407a76dbd5bc37b7e7ba787861370965b048f089f8931",
+    "S2": "f84d68abaf1693d45583b3db6e36f5e73882acac9bb54c2b53fec2d108390d6b",
+    "S3": "33463401ee2cc9cfc407648f5d6408dd3a6ee8ed745cc25486f628913dab6530",
+    "S4": "debc852e1061dff826975a60c13629b8cdf73ade78a006684c8094fedfbb9fe2",
+    "S5": "5e1e09e01c237001488e66259aebe3857c3dddc84d8946c3be0b087b009858d6",
+    "S6": "6e3dc6d2408762311a577c2909758379f6e4ecb3d1766073950f1fe45b642dbd",
+    "S7": "f43b4976309af7de0273363e762333cb5849fcbed726514a3c9b5981e687e7e2",
+    "S8": "88f4d90d4df9c1b72fbdf4ae66ffccf2ba340d7fb917b8817e410f17da0c1cf9",
+    "S9": "619568ca90506a50de2198b90a2b6422ad4355d6631571f3ae0686cec373fe9c",
+    "S10": "28594c940e99b48da6fd08a040e2a950405667780d6db6384de08cb3337900e7",
+    "W1-5": "19be29d044b3e0af9c98ad5e9d1637c7cec098a3faf86d3bdd9ffa1ddaf643b5",
+    "W3-8": "98558d922cbc84daed242ec2199804ce65e287ed00ec4ddd05611e4f1d139c3b",
+    "W5-10": "061df343338cc75158de4d2f12b6ad5472f794b444faeb4de19793d0ca3ab382"
+  },
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "code_sha256": {
+    "prompts.py": "3a674cd427f3707cad752f04c59c713722c485415ef337827da36c1c69974e79",
+    "gpu_runner.py": "fd41a6464e6b43428ae848c7520b5b02ed11343ccb6ed7ae45f898d28447106c",
+    "extract.py": "1cb4f79ecba459a7e0c4e02b5067bd5d13f3c57c7e744066087f9338207c373a",
+    "analysis.py": "b92b2b5b132a3c1dfb10bc2e8376faf6bd2f3b3221b671163a98f49525439b61",
+    "gpu_eval.py": "69ad32d2f4b82298181f74d1210bfb7c891497a41a06d041715a6bcabd5c856e"
+  },
+  "git_head": "5a8c0266df61d3475bf8670e95192ab93cb86cef (code above not yet committed)",
+  "cost_usd": "about 1.60 across preflight and main rentals (Vast credit 221.60 -> 220.00)"
+}

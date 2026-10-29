@@ -1,0 +1,696 @@
+{
+  "gates": {
+    "serving_recorded": true,
+    "non_thinking": true,
+    "valid_numeric_outputs_all_conditions": true,
+    "complete_six_face_vectors_all_positions_G_F": true,
+    "references_repeatable_9_of_10": true,
+    "matched_prefix_scoring_valid": true
+  },
+  "overall": "PASS",
+  "env": {
+    "model_id": "Qwen/Qwen3-32B",
+    "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+    "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_mem_gb": 79.3,
+    "cuda": "12.8",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.22.0",
+    "python": "3.11.9",
+    "driver": "595.91.07",
+    "eos_ids": [
+      151643,
+      151645
+    ],
+    "face_bare_ids": {
+      "1": 16,
+      "2": 17,
+      "3": 18,
+      "4": 19,
+      "5": 20,
+      "6": 21
+    },
+    "face_space_ids": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "deterministic": {
+      "cudnn_deterministic": true,
+      "tf32": false,
+      "use_deterministic_algorithms": "warn_only",
+      "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+    },
+    "load_seconds": 15.5,
+    "mode": "preflight",
+    "order_seed": 20261029,
+    "max_new_tokens": 128,
+    "started_utc": "2026-10-29T18:30:07.724701+00:00",
+    "n_jobs": 33,
+    "job_order": [
+      [
+        "G",
+        7
+      ],
+      [
+        "S10",
+        1
+      ],
+      [
+        "F",
+        6
+      ],
+      [
+        "F",
+        7
+      ],
+      [
+        "F",
+        1
+      ],
+      [
+        "F",
+        3
+      ],
+      [
+        "G",
+        1
+      ],
+      [
+        "G",
+        4
+      ],
+      [
+        "G",
+        2
+      ],
+      [
+        "S8",
+        1
+      ],
+      [
+        "S7",
+        1
+      ],
+      [
+        "F",
+        8
+      ],
+      [
+        "W1-5",
+        1
+      ],
+      [
+        "F",
+        9
+      ],
+      [
+        "S6",
+        1
+      ],
+      [
+        "G",
+        8
+      ],
+      [
+        "S5",
+        1
+      ],
+      [
+        "G",
+        5
+      ],
+      [
+        "F",
+        10
+      ],
+      [
+        "G",
+        9
+      ],
+      [
+        "G",
+        3
+      ],
+      [
+        "F",
+        4
+      ],
+      [
+        "S3",
+        1
+      ],
+      [
+        "W5-10",
+        1
+      ],
+      [
+        "S2",
+        1
+      ],
+      [
+        "S4",
+        1
+      ],
+      [
+        "G",
+        6
+      ],
+      [
+        "G",
+        10
+      ],
+      [
+        "W3-8",
+        1
+      ],
+      [
+        "F",
+        2
+      ],
+      [
+        "S1",
+        1
+      ],
+      [
+        "F",
+        5
+      ],
+      [
+        "S9",
+        1
+      ]
+    ],
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  "responses": [
+    {
+      "trial_id": "G-7",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S10-1",
+      "condition": "S10",
+      "verdict": "valid",
+      "content": "4",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.9999902340552893,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-6",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-7",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-1",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-3",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-1",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-4",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-2",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S8-1",
+      "condition": "S8",
+      "verdict": "valid",
+      "content": "4",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.999990779118457,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S7-1",
+      "condition": "S7",
+      "verdict": "valid",
+      "content": "4",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.9997713842153348,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-8",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "W1-5-1",
+      "condition": "W1-5",
+      "verdict": "valid",
+      "content": "4 2 6 3 5",
+      "n_positions": 5,
+      "comparable": 5,
+      "complete": 5,
+      "ambiguity": 0,
+      "min_face_mass": 0.9980568067456684,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-9",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S6-1",
+      "condition": "S6",
+      "verdict": "valid",
+      "content": "4",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.9999952331390973,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-8",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S5-1",
+      "condition": "S5",
+      "verdict": "valid",
+      "content": "4",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.9999833860502079,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-5",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-10",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-9",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-3",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-4",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S3-1",
+      "condition": "S3",
+      "verdict": "valid",
+      "content": "5",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.999976812097728,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "W5-10-1",
+      "condition": "W5-10",
+      "verdict": "valid",
+      "content": "3 6 2 5 1 4",
+      "n_positions": 6,
+      "comparable": 6,
+      "complete": 6,
+      "ambiguity": 0,
+      "min_face_mass": 0.9982580413253312,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S2-1",
+      "condition": "S2",
+      "verdict": "valid",
+      "content": "4",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.9999871351392672,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S4-1",
+      "condition": "S4",
+      "verdict": "valid",
+      "content": "5",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.9999786277829287,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-6",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "G-10",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.999994639362477,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "W3-8-1",
+      "condition": "W3-8",
+      "verdict": "valid",
+      "content": "4 2 5 3 6 1",
+      "n_positions": 6,
+      "comparable": 6,
+      "complete": 6,
+      "ambiguity": 0,
+      "min_face_mass": 0.9963151289784896,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-2",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S1-1",
+      "condition": "S1",
+      "verdict": "valid",
+      "content": "4",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.9999930248022554,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "F-5",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "n_positions": 10,
+      "comparable": 10,
+      "complete": 10,
+      "ambiguity": 0,
+      "min_face_mass": 0.9978566380683462,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    },
+    {
+      "trial_id": "S9-1",
+      "condition": "S9",
+      "verdict": "valid",
+      "content": "5",
+      "n_positions": 1,
+      "comparable": 1,
+      "complete": 1,
+      "ambiguity": 0,
+      "min_face_mass": 0.99997807783701,
+      "think_suffix": true,
+      "think_in_output": false,
+      "finish": "stop"
+    }
+  ],
+  "reproducibility": {
+    "G": {
+      "n": 10,
+      "modal_sequence": "5 2 6 3 1 4 6 2 5 3",
+      "modal_count": 10,
+      "distinct": 1,
+      "max_abs_logprob_diff_across_identical": 0.0
+    },
+    "F": {
+      "n": 10,
+      "modal_sequence": "3 1 4 6 2 5 3 2 6 4",
+      "modal_count": 10,
+      "distinct": 1,
+      "max_abs_logprob_diff_across_identical": 0.0
+    }
+  },
+  "teacher_forcing_check": {
+    "G|incremental": {
+      "n_positions": 10,
+      "max_abs_diff_nats": 0.0,
+      "max_abs_diff_p6": 0.0,
+      "argmax_agree": true
+    },
+    "G|full_pass": {
+      "n_positions": 10,
+      "max_abs_diff_nats": 0.25973963737487793,
+      "max_abs_diff_p6": 0.033822764816439976,
+      "argmax_agree": true
+    },
+    "F|incremental": {
+      "n_positions": 10,
+      "max_abs_diff_nats": 0.0,
+      "max_abs_diff_p6": 0.0,
+      "argmax_agree": true
+    },
+    "F|full_pass": {
+      "n_positions": 10,
+      "max_abs_diff_nats": 0.40965843200683594,
+      "max_abs_diff_p6": 0.09107393562453042,
+      "argmax_agree": false
+    }
+  }
+}

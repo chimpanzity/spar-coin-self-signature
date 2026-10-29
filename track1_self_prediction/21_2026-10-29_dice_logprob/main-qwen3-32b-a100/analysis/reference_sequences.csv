@@ -1,0 +1,11 @@
+position,G,F,match,G_modal_count,F_modal_count
+1,5,3,False,10,10
+2,2,1,False,10,10
+3,6,4,False,10,10
+4,3,6,False,10,10
+5,1,2,False,10,10
+6,4,5,False,10,10
+7,6,3,False,10,10
+8,2,2,True,10,10
+9,5,6,False,10,10
+10,3,4,False,10,10

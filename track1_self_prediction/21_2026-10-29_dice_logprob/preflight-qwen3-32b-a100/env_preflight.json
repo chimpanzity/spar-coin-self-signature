@@ -1,0 +1,179 @@
+{
+  "model_id": "Qwen/Qwen3-32B",
+  "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.3,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.9",
+  "driver": "595.91.07",
+  "eos_ids": [
+    151643,
+    151645
+  ],
+  "face_bare_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+  },
+  "face_space_ids": {
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null
+  },
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "load_seconds": 15.5,
+  "mode": "preflight",
+  "order_seed": 20261029,
+  "max_new_tokens": 128,
+  "started_utc": "2026-10-29T18:30:07.724701+00:00",
+  "n_jobs": 33,
+  "job_order": [
+    [
+      "G",
+      7
+    ],
+    [
+      "S10",
+      1
+    ],
+    [
+      "F",
+      6
+    ],
+    [
+      "F",
+      7
+    ],
+    [
+      "F",
+      1
+    ],
+    [
+      "F",
+      3
+    ],
+    [
+      "G",
+      1
+    ],
+    [
+      "G",
+      4
+    ],
+    [
+      "G",
+      2
+    ],
+    [
+      "S8",
+      1
+    ],
+    [
+      "S7",
+      1
+    ],
+    [
+      "F",
+      8
+    ],
+    [
+      "W1-5",
+      1
+    ],
+    [
+      "F",
+      9
+    ],
+    [
+      "S6",
+      1
+    ],
+    [
+      "G",
+      8
+    ],
+    [
+      "S5",
+      1
+    ],
+    [
+      "G",
+      5
+    ],
+    [
+      "F",
+      10
+    ],
+    [
+      "G",
+      9
+    ],
+    [
+      "G",
+      3
+    ],
+    [
+      "F",
+      4
+    ],
+    [
+      "S3",
+      1
+    ],
+    [
+      "W5-10",
+      1
+    ],
+    [
+      "S2",
+      1
+    ],
+    [
+      "S4",
+      1
+    ],
+    [
+      "G",
+      6
+    ],
+    [
+      "G",
+      10
+    ],
+    [
+      "W3-8",
+      1
+    ],
+    [
+      "F",
+      2
+    ],
+    [
+      "S1",
+      1
+    ],
+    [
+      "F",
+      5
+    ],
+    [
+      "S9",
+      1
+    ]
+  ],
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+}

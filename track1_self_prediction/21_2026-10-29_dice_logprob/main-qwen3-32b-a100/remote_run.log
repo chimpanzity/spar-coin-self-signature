@@ -1,0 +1,186 @@
+== env
+Thu Oct 29 18:52:34 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:E0:00.0 Off |                    0 |
+| N/A   26C    P0             59W /  400W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Python 3.11.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+torch 2.11.0+cu128 cuda True transformers 5.22.0
+== download 18:54:26
+Fetching 27 files:   0%|          | 0/27 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 27 files:   7%|▋         | 2/27 [00:00<00:01, 16.37it/s]Fetching 27 files:  26%|██▌       | 7/27 [00:14<00:46,  2.33s/it]Fetching 27 files:  30%|██▉       | 8/27 [00:23<01:04,  3.39s/it]Fetching 27 files:  33%|███▎      | 9/27 [00:32<01:24,  4.68s/it]Fetching 27 files:  37%|███▋      | 10/27 [00:33<01:04,  3.82s/it]Fetching 27 files:  41%|████      | 11/27 [00:40<01:12,  4.54s/it]Fetching 27 files:  44%|████▍     | 12/27 [00:43<01:02,  4.20s/it]Fetching 27 files:  48%|████▊     | 13/27 [00:57<01:35,  6.81s/it]Fetching 27 files:  52%|█████▏    | 14/27 [00:58<01:07,  5.20s/it]Fetching 27 files:  63%|██████▎   | 17/27 [00:59<00:25,  2.52s/it]Fetching 27 files:  70%|███████   | 19/27 [00:59<00:13,  1.73s/it]Fetching 27 files:  81%|████████▏ | 22/27 [01:00<00:05,  1.08s/it]Fetching 27 files:  85%|████████▌ | 23/27 [01:04<00:06,  1.59s/it]Fetching 27 files:  89%|████████▉ | 24/27 [01:08<00:05,  1.99s/it]Fetching 27 files:  93%|█████████▎| 25/27 [01:10<00:04,  2.12s/it]Fetching 27 files: 100%|██████████| 27/27 [01:13<00:00,  1.88s/it]Fetching 27 files: 100%|██████████| 27/27 [01:13<00:00,  2.73s/it]
+/root/.cache/huggingface/hub/models--Qwen--Qwen3-32B/snapshots/9216db5781bf21249d130ec9da846c4624c16137
+== main 18:55:40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<01:30,  7.82it/s]Loading weights:   0%|          | 2/707 [00:00<01:52,  6.26it/s]Loading weights:   1%|▏         | 10/707 [00:00<00:22, 30.75it/s]Loading weights:   2%|▏         | 14/707 [00:00<00:20, 33.11it/s]Loading weights:   4%|▍         | 28/707 [00:00<00:10, 62.73it/s]Loading weights:   6%|▌         | 39/707 [00:00<00:09, 72.87it/s]Loading weights:   7%|▋         | 50/707 [00:00<00:08, 78.81it/s]Loading weights:   9%|▊         | 61/707 [00:01<00:07, 83.04it/s]Loading weights:  10%|█         | 72/707 [00:01<00:07, 85.34it/s]Loading weights:  12%|█▏        | 83/707 [00:01<00:07, 87.35it/s]Loading weights:  13%|█▎        | 94/707 [00:01<00:06, 87.77it/s]Loading weights:  15%|█▍        | 105/707 [00:01<00:06, 89.64it/s]Loading weights:  16%|█▋        | 115/707 [00:01<00:06, 87.19it/s]Loading weights:  18%|█▊        | 127/707 [00:01<00:06, 90.61it/s]Loading weights:  20%|█▉        | 138/707 [00:01<00:06, 88.63it/s]Loading weights:  21%|██        | 149/707 [00:01<00:06, 89.48it/s]Loading weights:  23%|██▎       | 160/707 [00:02<00:06, 89.61it/s]Loading weights:  24%|██▍       | 171/707 [00:02<00:05, 90.58it/s]Loading weights:  26%|██▌       | 182/707 [00:02<00:05, 88.95it/s]Loading weights:  27%|██▋       | 193/707 [00:02<00:05, 88.40it/s]Loading weights:  29%|██▉       | 204/707 [00:02<00:05, 89.07it/s]Loading weights:  30%|███       | 214/707 [00:02<00:05, 83.89it/s]Loading weights:  32%|███▏      | 226/707 [00:02<00:05, 87.16it/s]Loading weights:  33%|███▎      | 236/707 [00:02<00:05, 83.15it/s]Loading weights:  35%|███▌      | 248/707 [00:03<00:05, 85.53it/s]Loading weights:  37%|███▋      | 259/707 [00:03<00:05, 87.49it/s]Loading weights:  38%|███▊      | 270/707 [00:03<00:05, 86.74it/s]Loading weights:  40%|███▉      | 280/707 [00:03<00:05, 84.50it/s]Loading weights:  41%|████▏     | 292/707 [00:03<00:04, 90.19it/s]Loading weights:  43%|████▎     | 303/707 [00:03<00:04, 87.13it/s]Loading weights:  44%|████▍     | 314/707 [00:03<00:04, 88.16it/s]Loading weights:  46%|████▌     | 325/707 [00:03<00:04, 87.79it/s]Loading weights:  47%|████▋     | 335/707 [00:04<00:04, 82.47it/s]Loading weights:  49%|████▉     | 346/707 [00:04<00:04, 88.25it/s]Loading weights:  50%|█████     | 357/707 [00:04<00:03, 88.39it/s]Loading weights:  52%|█████▏    | 367/707 [00:04<00:03, 90.79it/s]Loading weights:  53%|█████▎    | 377/707 [00:04<00:03, 92.41it/s]Loading weights:  55%|█████▍    | 387/707 [00:04<00:03, 88.63it/s]Loading weights:  56%|█████▌    | 396/707 [00:04<00:03, 82.23it/s]Loading weights:  57%|█████▋    | 405/707 [00:04<00:03, 81.46it/s]Loading weights:  59%|█████▊    | 414/707 [00:05<00:03, 77.68it/s]Loading weights:  60%|█████▉    | 423/707 [00:05<00:03, 80.59it/s]Loading weights:  61%|██████▏   | 434/707 [00:05<00:03, 83.67it/s]Loading weights:  63%|██████▎   | 444/707 [00:05<00:02, 87.72it/s]Loading weights:  64%|██████▍   | 453/707 [00:05<00:02, 86.89it/s]Loading weights:  65%|██████▌   | 462/707 [00:05<00:03, 80.58it/s]Loading weights:  67%|██████▋   | 471/707 [00:05<00:03, 77.64it/s]Loading weights:  68%|██████▊   | 479/707 [00:05<00:03, 74.13it/s]Loading weights:  69%|██████▉   | 489/707 [00:05<00:02, 80.08it/s]Loading weights:  71%|███████   | 499/707 [00:06<00:02, 74.72it/s]Loading weights:  72%|███████▏  | 512/707 [00:06<00:02, 84.26it/s]Loading weights:  74%|███████▍  | 523/707 [00:06<00:02, 84.40it/s]Loading weights:  75%|███████▌  | 533/707 [00:06<00:02, 82.96it/s]Loading weights:  77%|███████▋  | 542/707 [00:06<00:01, 84.37it/s]Loading weights:  78%|███████▊  | 554/707 [00:06<00:01, 88.75it/s]Loading weights:  80%|███████▉  | 565/707 [00:06<00:01, 93.94it/s]Loading weights:  81%|████████▏ | 575/707 [00:06<00:01, 91.07it/s]Loading weights:  83%|████████▎ | 585/707 [00:07<00:01, 88.50it/s]Loading weights:  84%|████████▍ | 594/707 [00:07<00:01, 64.15it/s]Loading weights:  85%|████████▌ | 603/707 [00:07<00:01, 67.98it/s]Loading weights:  86%|████████▋ | 611/707 [00:07<00:01, 69.80it/s]Loading weights:  88%|████████▊ | 621/707 [00:07<00:01, 76.76it/s]Loading weights:  89%|████████▉ | 632/707 [00:07<00:00, 75.99it/s]Loading weights:  91%|█████████ | 644/707 [00:07<00:00, 80.48it/s]Loading weights:  93%|█████████▎| 655/707 [00:08<00:00, 83.10it/s]Loading weights:  94%|█████████▍| 666/707 [00:08<00:00, 84.69it/s]Loading weights:  96%|█████████▌| 677/707 [00:08<00:00, 87.13it/s]Loading weights:  97%|█████████▋| 688/707 [00:08<00:00, 88.25it/s]Loading weights:  99%|█████████▊| 697/707 [00:08<00:00, 82.17it/s]Loading weights: 100%|██████████| 707/707 [00:08<00:00, 82.57it/s]
+[1/150] F-9: '3 1 4 6 2 5 3 2 6 4' (stop, 2297 ms)
+[2/150] G-8: '5 2 6 3 1 4 6 2 5 3' (stop, 1758 ms)
+[3/150] S10-9: '4' (stop, 187 ms)
+[4/150] W1-5-1: '4 2 6 3 5' (stop, 888 ms)
+[5/150] S8-1: '4' (stop, 183 ms)
+[6/150] S3-6: '5' (stop, 184 ms)
+[7/150] G-4: '5 2 6 3 1 4 6 2 5 3' (stop, 1769 ms)
+[8/150] S9-8: '5' (stop, 185 ms)
+[9/150] S6-5: '4' (stop, 185 ms)
+[10/150] W3-8-2: '4 2 5 3 6 1' (stop, 1073 ms)
+[11/150] S5-2: '4' (stop, 185 ms)
+[12/150] S8-6: '4' (stop, 187 ms)
+[13/150] S6-2: '4' (stop, 185 ms)
+[14/150] S10-5: '4' (stop, 184 ms)
+[15/150] S3-5: '5' (stop, 187 ms)
+[16/150] S1-9: '4' (stop, 185 ms)
+[17/150] S10-1: '4' (stop, 186 ms)
+[18/150] S9-1: '5' (stop, 185 ms)
+[19/150] W3-8-4: '4 2 5 3 6 1' (stop, 1067 ms)
+[20/150] S4-3: '5' (stop, 189 ms)
+[21/150] W5-10-4: '3 6 2 5 1 4' (stop, 1079 ms)
+[22/150] S7-5: '4' (stop, 187 ms)
+[23/150] S3-2: '5' (stop, 186 ms)
+[24/150] S10-3: '4' (stop, 187 ms)
+[25/150] S8-9: '4' (stop, 186 ms)
+[26/150] F-1: '3 1 4 6 2 5 3 2 6 4' (stop, 1779 ms)
+[27/150] S3-10: '5' (stop, 190 ms)
+[28/150] S6-4: '4' (stop, 191 ms)
+[29/150] S1-10: '4' (stop, 188 ms)
+[30/150] F-10: '3 1 4 6 2 5 3 2 6 4' (stop, 1770 ms)
+[31/150] S6-1: '4' (stop, 186 ms)
+[32/150] W1-5-3: '4 2 6 3 5' (stop, 896 ms)
+[33/150] S10-6: '4' (stop, 188 ms)
+[34/150] S8-5: '4' (stop, 189 ms)
+[35/150] G-7: '5 2 6 3 1 4 6 2 5 3' (stop, 1760 ms)
+[36/150] S6-6: '4' (stop, 185 ms)
+[37/150] G-5: '5 2 6 3 1 4 6 2 5 3' (stop, 1760 ms)
+[38/150] W5-10-1: '3 6 2 5 1 4' (stop, 1066 ms)
+[39/150] S1-5: '4' (stop, 185 ms)
+[40/150] S7-8: '4' (stop, 184 ms)
+[41/150] G-3: '5 2 6 3 1 4 6 2 5 3' (stop, 1756 ms)
+[42/150] S1-1: '4' (stop, 187 ms)
+[43/150] S10-10: '4' (stop, 185 ms)
+[44/150] S3-9: '5' (stop, 185 ms)
+[45/150] G-9: '5 2 6 3 1 4 6 2 5 3' (stop, 1752 ms)
+[46/150] W1-5-6: '4 2 6 3 5' (stop, 881 ms)
+[47/150] W3-8-1: '4 2 5 3 6 1' (stop, 1062 ms)
+[48/150] S5-8: '4' (stop, 181 ms)
+[49/150] W5-10-3: '3 6 2 5 1 4' (stop, 1045 ms)
+[50/150] S2-1: '4' (stop, 185 ms)
+[51/150] S2-3: '4' (stop, 185 ms)
+[52/150] S9-6: '5' (stop, 184 ms)
+[53/150] G-10: '5 2 6 3 1 4 6 2 5 3' (stop, 1748 ms)
+[54/150] S4-9: '5' (stop, 182 ms)
+[55/150] S5-4: '4' (stop, 184 ms)
+[56/150] S7-3: '4' (stop, 182 ms)
+[57/150] S2-2: '4' (stop, 184 ms)
+[58/150] S2-9: '4' (stop, 185 ms)
+[59/150] S7-6: '4' (stop, 183 ms)
+[60/150] F-5: '3 1 4 6 2 5 3 2 6 4' (stop, 1754 ms)
+[61/150] S10-2: '4' (stop, 185 ms)
+[62/150] S3-4: '5' (stop, 183 ms)
+[63/150] G-1: '5 2 6 3 1 4 6 2 5 3' (stop, 1746 ms)
+[64/150] S6-9: '4' (stop, 184 ms)
+[65/150] S10-7: '4' (stop, 184 ms)
+[66/150] S8-2: '4' (stop, 185 ms)
+[67/150] S7-9: '4' (stop, 185 ms)
+[68/150] W5-10-5: '3 6 2 5 1 4' (stop, 1063 ms)
+[69/150] S9-5: '5' (stop, 185 ms)
+[70/150] S4-6: '5' (stop, 185 ms)
+[71/150] S8-10: '4' (stop, 183 ms)
+[72/150] S9-2: '5' (stop, 184 ms)
+[73/150] S2-4: '4' (stop, 185 ms)
+[74/150] S3-1: '5' (stop, 184 ms)
+[75/150] S9-3: '5' (stop, 183 ms)
+[76/150] F-2: '3 1 4 6 2 5 3 2 6 4' (stop, 1750 ms)
+[77/150] S5-9: '4' (stop, 186 ms)
+[78/150] S3-8: '5' (stop, 185 ms)
+[79/150] W3-8-5: '4 2 5 3 6 1' (stop, 1072 ms)
+[80/150] W5-10-9: '3 6 2 5 1 4' (stop, 1061 ms)
+[81/150] S7-7: '4' (stop, 184 ms)
+[82/150] W1-5-4: '4 2 6 3 5' (stop, 887 ms)
+[83/150] S9-7: '5' (stop, 185 ms)
+[84/150] S3-3: '5' (stop, 185 ms)
+[85/150] W3-8-6: '4 2 5 3 6 1' (stop, 1084 ms)
+[86/150] S8-8: '4' (stop, 185 ms)
+[87/150] W5-10-7: '3 6 2 5 1 4' (stop, 1069 ms)
+[88/150] S2-7: '4' (stop, 185 ms)
+[89/150] W1-5-8: '4 2 6 3 5' (stop, 892 ms)
+[90/150] W1-5-7: '4 2 6 3 5' (stop, 897 ms)
+[91/150] S8-4: '4' (stop, 183 ms)
+[92/150] W3-8-3: '4 2 5 3 6 1' (stop, 1059 ms)
+[93/150] G-6: '5 2 6 3 1 4 6 2 5 3' (stop, 1749 ms)
+[94/150] S6-7: '4' (stop, 185 ms)
+[95/150] S9-10: '5' (stop, 183 ms)
+[96/150] G-2: '5 2 6 3 1 4 6 2 5 3' (stop, 1752 ms)
+[97/150] S8-7: '4' (stop, 182 ms)
+[98/150] S9-4: '5' (stop, 183 ms)
+[99/150] S4-2: '5' (stop, 190 ms)
+[100/150] S5-1: '4' (stop, 183 ms)
+[101/150] S6-10: '4' (stop, 183 ms)
+[102/150] W5-10-8: '3 6 2 5 1 4' (stop, 1067 ms)
+[103/150] S6-8: '4' (stop, 184 ms)
+[104/150] S4-5: '5' (stop, 184 ms)
+[105/150] W3-8-10: '4 2 5 3 6 1' (stop, 1058 ms)
+[106/150] F-8: '3 1 4 6 2 5 3 2 6 4' (stop, 1750 ms)
+[107/150] F-7: '3 1 4 6 2 5 3 2 6 4' (stop, 1734 ms)
+[108/150] S4-4: '5' (stop, 184 ms)
+[109/150] W3-8-8: '4 2 5 3 6 1' (stop, 992 ms)
+[110/150] W1-5-10: '4 2 6 3 5' (stop, 834 ms)
+[111/150] S7-4: '4' (stop, 176 ms)
+[112/150] S1-8: '4' (stop, 172 ms)
+[113/150] F-4: '3 1 4 6 2 5 3 2 6 4' (stop, 1632 ms)
+[114/150] S2-10: '4' (stop, 169 ms)
+[115/150] S1-4: '4' (stop, 169 ms)
+[116/150] F-3: '3 1 4 6 2 5 3 2 6 4' (stop, 1628 ms)
+[117/150] W5-10-10: '3 6 2 5 1 4' (stop, 986 ms)
+[118/150] F-6: '3 1 4 6 2 5 3 2 6 4' (stop, 1625 ms)
+[119/150] S5-5: '4' (stop, 172 ms)
+[120/150] W3-8-9: '4 2 5 3 6 1' (stop, 986 ms)
+[121/150] W1-5-2: '4 2 6 3 5' (stop, 824 ms)
+[122/150] W1-5-5: '4 2 6 3 5' (stop, 821 ms)
+[123/150] S4-1: '5' (stop, 171 ms)
+[124/150] S4-7: '5' (stop, 171 ms)
+[125/150] S1-6: '4' (stop, 171 ms)
+[126/150] S2-6: '4' (stop, 171 ms)
+[127/150] S7-2: '4' (stop, 171 ms)
+[128/150] S7-1: '4' (stop, 172 ms)
+[129/150] S1-2: '4' (stop, 172 ms)
+[130/150] S5-3: '4' (stop, 171 ms)
+[131/150] S1-7: '4' (stop, 172 ms)
+[132/150] S8-3: '4' (stop, 171 ms)
+[133/150] S5-6: '4' (stop, 171 ms)
+[134/150] S2-5: '4' (stop, 171 ms)
+[135/150] W1-5-9: '4 2 6 3 5' (stop, 834 ms)
+[136/150] S4-10: '5' (stop, 171 ms)
+[137/150] W5-10-2: '3 6 2 5 1 4' (stop, 987 ms)
+[138/150] S2-8: '4' (stop, 180 ms)
+[139/150] S5-7: '4' (stop, 183 ms)
+[140/150] S5-10: '4' (stop, 178 ms)
+[141/150] S1-3: '4' (stop, 192 ms)
+[142/150] S9-9: '5' (stop, 184 ms)
+[143/150] W5-10-6: '3 6 2 5 1 4' (stop, 1037 ms)
+[144/150] S3-7: '5' (stop, 179 ms)
+[145/150] S6-3: '4' (stop, 173 ms)
+[146/150] S10-8: '4' (stop, 174 ms)
+[147/150] S7-10: '4' (stop, 173 ms)
+[148/150] S4-8: '5' (stop, 173 ms)
+[149/150] S10-4: '4' (stop, 173 ms)
+[150/150] W3-8-7: '4 2 5 3 6 1' (stop, 998 ms)
+{"modal": {"G": "5 2 6 3 1 4 6 2 5 3", "F": "3 1 4 6 2 5 3 2 6 4"}, "n_records": 150, "n_matched_prefix": 80}
+== done 18:57:27
