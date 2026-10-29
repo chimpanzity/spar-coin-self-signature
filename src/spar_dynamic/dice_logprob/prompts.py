@@ -56,6 +56,35 @@ def conditions() -> List[Dict]:
     return out
 
 
+# Generic-model control (amendment v1.1, 2026-10-29): N is F with one phrase replaced, nothing else.
+SELF_PHRASE = "another instance of your model"
+GENERIC_PHRASE = "another language model"
+
+
+def prompt_n() -> str:
+    f = prompt_f()
+    assert f.count(SELF_PHRASE) == 1
+    return f.replace(SELF_PHRASE, GENERIC_PHRASE)
+
+
+def control_conditions() -> List[Dict]:
+    """G and F (byte-identical to conditions()) plus the generic-model control N."""
+    base = {c["condition"]: c for c in conditions()}
+    n = dict(condition="N", condition_type="N", positions=list(range(1, 11)), prompt=prompt_n())
+    n["n_expected"] = 10
+    n["prompt_sha256"] = sha256(n["prompt"])
+    return [base["G"], base["F"], n]
+
+
+def render_control_frozen() -> str:
+    parts = ["# DICE_LOGPROB generic-model control (v1.1) frozen prompts\n",
+             f"N is F with `{SELF_PHRASE}` replaced by `{GENERIC_PHRASE}` (the only difference). "
+             "Byte-exact text with SHA-256 of its UTF-8 bytes. One user message, no system message.\n"]
+    for c in control_conditions():
+        parts.append(f"\n## {c['condition']}  (sha256 `{c['prompt_sha256']}`)\n\n```text\n{c['prompt']}\n```\n")
+    return "".join(parts)
+
+
 def sha256(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 

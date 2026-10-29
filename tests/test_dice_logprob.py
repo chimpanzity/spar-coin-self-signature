@@ -156,3 +156,39 @@ def test_js_properties():
 def test_rank_of_non_selected_face():
     p6 = {1: .05, 2: .1, 3: .5, 4: .2, 5: .1, 6: .05}
     assert extract.rank_of(3, p6) == 1 and extract.rank_of(4, p6) == 2 and extract.rank_of(2, p6) == 3 and extract.rank_of(5, p6) == 3
+
+
+# ------------------------------------------- generic-model control (amendment v1.1, 2026-10-29) --
+G_SHA = "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe"
+F_SHA = "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03"
+
+
+def test_control_g_f_unchanged_and_hashes_frozen():
+    cs = {c["condition"]: c for c in prompts.control_conditions()}
+    assert list(cs) == ["G", "F", "N"]
+    assert cs["G"]["prompt"] == prompts.prompt_g() and cs["G"]["prompt_sha256"] == G_SHA
+    assert cs["F"]["prompt"] == prompts.prompt_f() and cs["F"]["prompt_sha256"] == F_SHA
+    assert len(prompts.conditions()) == 15                      # original design untouched
+
+
+def test_control_n_is_single_phrase_substitution():
+    f, n = prompts.prompt_f(), prompts.prompt_n()
+    assert f.count("another instance of your model") == 1 and "another instance of your model" not in n
+    assert n.count("another language model") == 1
+    i = f.index("another instance of your model")
+    assert n[:i] == f[:i]
+    assert n[i + len("another language model"):] == f[i + len("another instance of your model"):]
+    assert "that instance would output" in n and GEN in n         # everything else kept
+    assert n == ("Give me the output you predict from another language model that is asked to do the following:\n\n"
+                 + GEN + "\n\nReturn exactly the 10 integers you predict that instance would output, separated by single spaces, "
+                 "with no other text.")
+
+
+def test_control_position1_metrics_synthetic():
+    from spar_dynamic.dice_logprob import control
+    g = {1: .001, 2: .004, 3: .225, 4: .234, 5: .535, 6: .001}
+    f = {1: .226, 2: .308, 3: .388, 4: .058, 5: .02, 6: .0}
+    assert extract.rank_of(5, g) == 1 and extract.rank_of(5, f) == 5
+    assert abs(control._margin(f) - .08) < 1e-9 and control._margin(f) < 0.09   # near-tie under the parent floor
+    assert control._js(g, g) == 0 and 0.4 < control._js(g, f) < 0.6
+    assert abs(control._js(g, f) - control._js(f, g)) < 1e-12

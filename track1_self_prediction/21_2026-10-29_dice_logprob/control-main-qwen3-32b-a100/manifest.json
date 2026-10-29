@@ -1,0 +1,67 @@
+{
+  "spec": "DICE_LOGPROB generic-model control (amendment v1.1 to DICE_LOGPROB_v1.0)",
+  "handoff": "GPT_SPAR_Dice_Logprob_Generic_Model_Control_Claude_Code_Handoff_v1.1 (2026-10-29)",
+  "approved": "Chris Martin, 2026-10-29: GPU rental approved with an $8 cap ('yep, run it')",
+  "preflight_id": "control-preflight-qwen3-32b-a100",
+  "preflight_outcome": "PASS",
+  "preflight_gates": {
+    "prompt_hashes_frozen": true,
+    "valid_ten_face_outputs": true,
+    "non_thinking": true,
+    "complete_six_face_vectors_all_positions": true,
+    "reproducible_within_condition": true,
+    "G_F_reproduce_experiment_21": true,
+    "teacher_forcing_reproduces_generation": true
+  },
+  "design": "G, F (byte-identical to Experiment 21) and N (F with 'another instance of your model' -> 'another language model'); 10 fresh-context greedy generations each = 30, seeded interleaved order; incremental matched-prefix scoring of every instruction x every modal history (G, F, N); full-pass scoring as the numerical-floor estimate",
+  "prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+    "N": "09afdbeec5d8c4c12bea04a8a922aee462350a50a935b776ef87ca94fc0423f1"
+  },
+  "model": {
+    "id": "Qwen/Qwen3-32B",
+    "commit": "9216db5781bf21249d130ec9da846c4624c16137",
+    "dtype": "bfloat16 weights and activations; lm_head and logits fp32"
+  },
+  "hardware": {
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "driver": "595.91.07",
+    "provider": "Vast.ai (SPAR team account), machine 153016, the same machine as Experiment 21",
+    "instance_destroyed": true
+  },
+  "software": {
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "transformers": "5.22.0",
+    "python": "3.11.9"
+  },
+  "decoding": {
+    "method": "greedy argmax over full vocabulary, batch 1, no logit processors",
+    "max_new_tokens": 128,
+    "non_thinking": "chat template enable_thinking=False",
+    "system_message": null,
+    "tools": null
+  },
+  "determinism": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "order_seed": 20261030,
+  "started_utc": "2026-10-29T19:34:16.839477+00:00",
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "code_sha256": {
+    "prompts.py": "117a7a218f9d1bf3f4e91c30ce80d7ef510c92c60a433ddb41a0b57c792ea143",
+    "gpu_runner.py": "45da8128297d1fd4d5404ebbf79272a47017d0ba4519b3afcc8718a8e662e0f7",
+    "extract.py": "1cb4f79ecba459a7e0c4e02b5067bd5d13f3c57c7e744066087f9338207c373a",
+    "analysis.py": "b92b2b5b132a3c1dfb10bc2e8376faf6bd2f3b3221b671163a98f49525439b61",
+    "control.py": "c4c7ac70ad870cdc69ad058e94504b8e190f21d0619c5e378b32ecefd78cd3c7"
+  },
+  "git_head": "9c191c9fcb814723567dcdaa498059db566f7957 (control code committed with these results)",
+  "cost": {
+    "cap_usd": 8.0,
+    "realized_usd": "about 1.02 (Vast credit 219.87 -> 218.85; rental 19:28-19:36 UTC, preflight and main on one instance)"
+  }
+}

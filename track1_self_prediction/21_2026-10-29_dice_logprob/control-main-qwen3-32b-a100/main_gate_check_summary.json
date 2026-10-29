@@ -1,0 +1,617 @@
+{
+  "gates": {
+    "prompt_hashes_frozen": true,
+    "valid_ten_face_outputs": true,
+    "non_thinking": true,
+    "complete_six_face_vectors_all_positions": true,
+    "reproducible_within_condition": true,
+    "G_F_reproduce_experiment_21": true,
+    "teacher_forcing_reproduces_generation": true
+  },
+  "overall": "PASS",
+  "env": {
+    "model_id": "Qwen/Qwen3-32B",
+    "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+    "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_mem_gb": 79.3,
+    "cuda": "12.8",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.22.0",
+    "python": "3.11.9",
+    "driver": "595.91.07",
+    "eos_ids": [
+      151643,
+      151645
+    ],
+    "face_bare_ids": {
+      "1": 16,
+      "2": 17,
+      "3": 18,
+      "4": 19,
+      "5": 20,
+      "6": 21
+    },
+    "face_space_ids": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "deterministic": {
+      "cudnn_deterministic": true,
+      "tf32": false,
+      "use_deterministic_algorithms": "warn_only",
+      "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+    },
+    "load_seconds": 15.6,
+    "mode": "control_main",
+    "order_seed": 20261030,
+    "prompt_sha256": {
+      "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+      "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+      "N": "09afdbeec5d8c4c12bea04a8a922aee462350a50a935b776ef87ca94fc0423f1"
+    },
+    "max_new_tokens": 128,
+    "started_utc": "2026-10-29T19:34:16.839477+00:00",
+    "n_jobs": 30,
+    "job_order": [
+      [
+        "G",
+        7
+      ],
+      [
+        "N",
+        3
+      ],
+      [
+        "F",
+        6
+      ],
+      [
+        "F",
+        10
+      ],
+      [
+        "N",
+        2
+      ],
+      [
+        "N",
+        9
+      ],
+      [
+        "G",
+        6
+      ],
+      [
+        "F",
+        2
+      ],
+      [
+        "G",
+        5
+      ],
+      [
+        "G",
+        1
+      ],
+      [
+        "N",
+        5
+      ],
+      [
+        "F",
+        3
+      ],
+      [
+        "F",
+        5
+      ],
+      [
+        "N",
+        8
+      ],
+      [
+        "G",
+        3
+      ],
+      [
+        "N",
+        6
+      ],
+      [
+        "G",
+        10
+      ],
+      [
+        "N",
+        7
+      ],
+      [
+        "G",
+        4
+      ],
+      [
+        "N",
+        1
+      ],
+      [
+        "G",
+        9
+      ],
+      [
+        "F",
+        9
+      ],
+      [
+        "F",
+        7
+      ],
+      [
+        "N",
+        4
+      ],
+      [
+        "G",
+        2
+      ],
+      [
+        "F",
+        4
+      ],
+      [
+        "F",
+        1
+      ],
+      [
+        "N",
+        10
+      ],
+      [
+        "G",
+        8
+      ],
+      [
+        "F",
+        8
+      ]
+    ],
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  "responses": [
+    {
+      "trial_id": "G-7",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-3",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-6",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-10",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-2",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-9",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-6",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-2",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-5",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-1",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-5",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-3",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-5",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-8",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-3",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-6",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-10",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-7",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-4",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-1",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-9",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-9",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-7",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-4",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-2",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-4",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-1",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "N-10",
+      "condition": "N",
+      "verdict": "valid",
+      "content": "1 3 5 2 6 4 2 5 1 6",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9947249922859536,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "G-8",
+      "condition": "G",
+      "verdict": "valid",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.999994639362477,
+      "think_ok": true,
+      "hash_ok": true
+    },
+    {
+      "trial_id": "F-8",
+      "condition": "F",
+      "verdict": "valid",
+      "content": "3 1 4 6 2 5 3 2 6 4",
+      "complete": 10,
+      "comparable": 10,
+      "min_mass": 0.9978566380683462,
+      "think_ok": true,
+      "hash_ok": true
+    }
+  ],
+  "reproducibility": {
+    "G": {
+      "n": 10,
+      "distinct": 1,
+      "modal": "5 2 6 3 1 4 6 2 5 3",
+      "modal_count": 10,
+      "max_abs_p6_spread": 0.0
+    },
+    "F": {
+      "n": 10,
+      "distinct": 1,
+      "modal": "3 1 4 6 2 5 3 2 6 4",
+      "modal_count": 10,
+      "max_abs_p6_spread": 0.0
+    },
+    "N": {
+      "n": 10,
+      "distinct": 1,
+      "modal": "1 3 5 2 6 4 2 5 1 6",
+      "modal_count": 10,
+      "max_abs_p6_spread": 0.0
+    }
+  },
+  "compatibility": {
+    "G": {
+      "archived": [
+        5,
+        2,
+        6,
+        3,
+        1,
+        4,
+        6,
+        2,
+        5,
+        3
+      ],
+      "new": [
+        5,
+        2,
+        6,
+        3,
+        1,
+        4,
+        6,
+        2,
+        5,
+        3
+      ],
+      "sequence_identical": true,
+      "max_abs_p6_diff_vs_archived": 0.0
+    },
+    "F": {
+      "archived": [
+        3,
+        1,
+        4,
+        6,
+        2,
+        5,
+        3,
+        2,
+        6,
+        4
+      ],
+      "new": [
+        3,
+        1,
+        4,
+        6,
+        2,
+        5,
+        3,
+        2,
+        6,
+        4
+      ],
+      "sequence_identical": true,
+      "max_abs_p6_diff_vs_archived": 0.0
+    }
+  },
+  "teacher_forcing": {
+    "G": {
+      "n_positions": 10,
+      "max_abs_p6_diff": 0.0
+    },
+    "F": {
+      "n_positions": 10,
+      "max_abs_p6_diff": 0.0
+    },
+    "N": {
+      "n_positions": 10,
+      "max_abs_p6_diff": 0.0
+    }
+  },
+  "precision_floor_p6": 0.14850797671029237,
+  "prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+    "N": "09afdbeec5d8c4c12bea04a8a922aee462350a50a935b776ef87ca94fc0423f1"
+  }
+}

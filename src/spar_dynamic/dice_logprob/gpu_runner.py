@@ -20,6 +20,10 @@ Modes:
   preflight  10 G + 10 F + each S/W condition once (seeded shuffle), then matched-prefix scoring.
   main       --replicates N of all 15 conditions (seeded shuffle), then matched-prefix scoring.
              Requires --execute and --confirm-preflight-id.
+  control_preflight  generic-model control (amendment v1.1): 3 each of G, F, N (seeded shuffle), then
+                     matched-prefix scoring of every instruction x every modal history (G, F, N).
+  control_main       --replicates N each of G, F, N, then the same matched-prefix scoring.
+                     Requires --execute and --confirm-preflight-id.
 
 Usage: python -m spar_dynamic.dice_logprob.gpu_runner preflight --model Qwen/Qwen3-32B --out <dir>
 """
@@ -43,6 +47,8 @@ import torch  # noqa: E402
 from spar_dynamic.dice_logprob import prompts  # noqa: E402
 
 ORDER_SEED = 20261029
+CONTROL_ORDER_SEED = 20261030      # generic-model control (amendment v1.1)
+CONTROL_PREFLIGHT_N = 3
 MAX_NEW_TOKENS = 128
 TOP_N = 20
 FACES = (1, 2, 3, 4, 5, 6)
@@ -183,13 +189,17 @@ def _driver() -> str:
 
 def run(mode: str, model_id: str, out_dir: str, replicates: int, revision: str | None = None):
     os.makedirs(out_dir, exist_ok=True)
-    conds = {c["condition"]: c for c in prompts.conditions()}
+    control = mode.startswith("control_")
+    conds = {c["condition"]: c for c in (prompts.control_conditions() if control else prompts.conditions())}
+    refs = ("G", "F", "N") if control else ("G", "F")
     if mode == "preflight":
         jobs = [("G", i) for i in range(1, 11)] + [("F", i) for i in range(1, 11)] + \
                [(k, 1) for k in conds if k not in ("G", "F")]
+    elif mode == "control_preflight":
+        jobs = [(k, i) for k in refs for i in range(1, CONTROL_PREFLIGHT_N + 1)]
     else:
         jobs = [(k, i) for k in conds for i in range(1, replicates + 1)]
-    random.Random(ORDER_SEED).shuffle(jobs)
+    random.Random(CONTROL_ORDER_SEED if control else ORDER_SEED).shuffle(jobs)
     raw_path = os.path.join(out_dir, "raw_attempts.jsonl")
     done = set()
     if os.path.exists(raw_path):                      # resume: refuse drift, skip completed trials
@@ -199,7 +209,9 @@ def run(mode: str, model_id: str, out_dir: str, replicates: int, revision: str |
             done.add((r["condition"], r["replicate"]))
     t_load = time.time()
     q = Qwen(model_id, revision)
-    env = dict(q.env(), load_seconds=round(time.time() - t_load, 1), mode=mode, order_seed=ORDER_SEED,
+    env = dict(q.env(), load_seconds=round(time.time() - t_load, 1), mode=mode,
+               order_seed=CONTROL_ORDER_SEED if control else ORDER_SEED,
+               prompt_sha256={k: c["prompt_sha256"] for k, c in conds.items()},
                max_new_tokens=MAX_NEW_TOKENS, started_utc=dt.datetime.now(dt.timezone.utc).isoformat(),
                n_jobs=len(jobs), job_order=jobs, chat_template_sha256=sha(q.tok.chat_template or ""))
     with open(os.path.join(out_dir, f"env_{mode}.json"), "w", encoding="utf-8") as f:
@@ -218,15 +230,15 @@ def run(mode: str, model_id: str, out_dir: str, replicates: int, revision: str |
             f.write(json.dumps(rec) + "\n")
         print(f"[{n}/{len(jobs)}] {k}-{i}: {g['raw_choice_content']!r} ({g['finish_reason']}, {g['latency_ms']} ms)", flush=True)
 
-    # matched-prefix scoring on the modal G and F outputs
+    # matched-prefix scoring on the modal outputs (G, F; plus N in the control)
     rows = [json.loads(l) for l in open(raw_path, encoding="utf-8")]
     modal = {}
-    for k in ("G", "F"):
+    for k in refs:
         c = collections.Counter(r["raw_choice_content"] for r in rows if r["condition"] == k)
         modal[k] = c.most_common(1)[0][0]
     mp = []
-    for x in ("G", "F"):
-        for h in ("G", "F"):
+    for x in refs:
+        for h in refs:
             for method in ("incremental", "full_pass"):
                 for s in q.score_prefix(conds[x]["prompt"], modal[h], method):
                     mp.append(dict(instruction=x, history=h, history_sequence=modal[h], **s))
@@ -238,7 +250,7 @@ def run(mode: str, model_id: str, out_dir: str, replicates: int, revision: str |
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["preflight", "main"])
+    ap.add_argument("mode", choices=["preflight", "main", "control_preflight", "control_main"])
     ap.add_argument("--model", default="Qwen/Qwen3-32B")
     ap.add_argument("--revision", default=None)
     ap.add_argument("--out", required=True)
@@ -246,6 +258,6 @@ if __name__ == "__main__":
     ap.add_argument("--execute", action="store_true")
     ap.add_argument("--confirm-preflight-id", default=None)
     a = ap.parse_args()
-    if a.mode == "main" and not (a.execute and a.confirm_preflight_id):
+    if a.mode in ("main", "control_main") and not (a.execute and a.confirm_preflight_id):
         raise SystemExit("main collection needs --execute and --confirm-preflight-id <passed preflight run id>")
     run(a.mode, a.model, a.out, a.replicates, a.revision)

@@ -1,0 +1,282 @@
+{
+  "run": "control-main-qwen3-32b-a100",
+  "env": {
+    "model_id": "Qwen/Qwen3-32B",
+    "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+    "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_mem_gb": 79.3,
+    "cuda": "12.8",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.22.0",
+    "python": "3.11.9",
+    "driver": "595.91.07",
+    "eos_ids": [
+      151643,
+      151645
+    ],
+    "face_bare_ids": {
+      "1": 16,
+      "2": 17,
+      "3": 18,
+      "4": 19,
+      "5": 20,
+      "6": 21
+    },
+    "face_space_ids": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "deterministic": {
+      "cudnn_deterministic": true,
+      "tf32": false,
+      "use_deterministic_algorithms": "warn_only",
+      "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+    },
+    "load_seconds": 15.6,
+    "mode": "control_main",
+    "order_seed": 20261030,
+    "prompt_sha256": {
+      "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+      "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+      "N": "09afdbeec5d8c4c12bea04a8a922aee462350a50a935b776ef87ca94fc0423f1"
+    },
+    "max_new_tokens": 128,
+    "started_utc": "2026-10-29T19:34:16.839477+00:00",
+    "n_jobs": 30,
+    "job_order": [
+      [
+        "G",
+        7
+      ],
+      [
+        "N",
+        3
+      ],
+      [
+        "F",
+        6
+      ],
+      [
+        "F",
+        10
+      ],
+      [
+        "N",
+        2
+      ],
+      [
+        "N",
+        9
+      ],
+      [
+        "G",
+        6
+      ],
+      [
+        "F",
+        2
+      ],
+      [
+        "G",
+        5
+      ],
+      [
+        "G",
+        1
+      ],
+      [
+        "N",
+        5
+      ],
+      [
+        "F",
+        3
+      ],
+      [
+        "F",
+        5
+      ],
+      [
+        "N",
+        8
+      ],
+      [
+        "G",
+        3
+      ],
+      [
+        "N",
+        6
+      ],
+      [
+        "G",
+        10
+      ],
+      [
+        "N",
+        7
+      ],
+      [
+        "G",
+        4
+      ],
+      [
+        "N",
+        1
+      ],
+      [
+        "G",
+        9
+      ],
+      [
+        "F",
+        9
+      ],
+      [
+        "F",
+        7
+      ],
+      [
+        "N",
+        4
+      ],
+      [
+        "G",
+        2
+      ],
+      [
+        "F",
+        4
+      ],
+      [
+        "F",
+        1
+      ],
+      [
+        "N",
+        10
+      ],
+      [
+        "G",
+        8
+      ],
+      [
+        "F",
+        8
+      ]
+    ],
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  "sequences": {
+    "G": [
+      5,
+      2,
+      6,
+      3,
+      1,
+      4,
+      6,
+      2,
+      5,
+      3
+    ],
+    "F": [
+      3,
+      1,
+      4,
+      6,
+      2,
+      5,
+      3,
+      2,
+      6,
+      4
+    ],
+    "N": [
+      1,
+      3,
+      5,
+      2,
+      6,
+      4,
+      2,
+      5,
+      1,
+      6
+    ]
+  },
+  "precision_floor_p6": 0.14850797671029237,
+  "position1": {
+    "distributions": {
+      "G": {
+        "1": 0.0013188675771226928,
+        "2": 0.003924320603345605,
+        "3": 0.22453680398833442,
+        "4": 0.23362120900447692,
+        "5": 0.5349560322145495,
+        "6": 0.001642766612170867
+      },
+      "F": {
+        "1": 0.22569305237078563,
+        "2": 0.30796142936127124,
+        "3": 0.3882215806914742,
+        "4": 0.057512138516589935,
+        "5": 0.020530770722665133,
+        "6": 8.102833721380637e-05
+      },
+      "N": {
+        "1": 0.43433811934264654,
+        "2": 0.1414539451228352,
+        "3": 0.18216753099049773,
+        "4": 0.23045269868314913,
+        "5": 0.011301070624365755,
+        "6": 0.0002866352365055718
+      }
+    },
+    "raw_mass": {
+      "G": 0.999994639362477,
+      "F": 0.9978566380683462,
+      "N": 0.9947249922859536
+    },
+    "JS_F_N": 0.11559673558244754,
+    "JS_G_F": 0.5205587200906974,
+    "JS_G_N": 0.5064612180416673,
+    "self_specific_increment_JS_GF_minus_JS_GN": 0.014097502049030042,
+    "first_faces": {
+      "G": 5,
+      "F": 3,
+      "N": 1
+    }
+  },
+  "matched_prefix": {
+    "by_history": {
+      "G": {
+        "max_JS_F_N_pos2_10": 0.023122420787019378,
+        "F_N_same_top_pos2_10": 8,
+        "F_follows_pos2_10": 9,
+        "N_follows_pos2_10": 8,
+        "G_follows_pos2_10": 9
+      },
+      "F": {
+        "max_JS_F_N_pos2_10": 0.2085889357276849,
+        "F_N_same_top_pos2_10": 9,
+        "F_follows_pos2_10": 9,
+        "N_follows_pos2_10": 9,
+        "G_follows_pos2_10": 5
+      },
+      "N": {
+        "max_JS_F_N_pos2_10": 0.30916267928623015,
+        "F_N_same_top_pos2_10": 7,
+        "F_follows_pos2_10": 7,
+        "N_follows_pos2_10": 9,
+        "G_follows_pos2_10": 7
+      }
+    }
+  },
+  "repeats_note": "identical greedy repeats are reproducibility checks of one deterministic path, not independent samples"
+}

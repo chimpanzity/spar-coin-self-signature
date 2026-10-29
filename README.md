@@ -66,7 +66,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 22 | 2 | [18 Entropy-gradient replication](track2_game_theory/18_2026-10-22_paint_circle_entropy_gradient_replication/) | The break between 10% and 20% noise replicates: mostly exploited at 10%, abandoned at 20% in 3 of 3 sessions |
 | Oct 27 | 2 | [19 Source labels × noise](track2_game_theory/19_2026-10-27_paint_circle_noise_label_predictability/) | At 10% noise, LLM labels reduce exploitation and Fable's own predictability (self most); self vs other not distinguishable yet |
 | Oct 27 | 2 | [20 Replication: 5 scripts × 5 labels](track2_game_theory/20_2026-10-27_paint_circle_noise_label_replication/) | Self vs other does not replicate (median gap 0); any label (incl. human, dead salmon) lowers Fable's predictability to Proteus |
-| Oct 29 | 1 | [21 Dice self-prediction on log-probabilities](track1_self_prediction/21_2026-10-29_dice_logprob/) | Qwen3-32B open weights: self-prediction changes the first roll's distribution (JS 0.52 bits), then continues exactly as direct generation given the same prefix |
+| Oct 29 | 1 | [21 Dice self-prediction on log-probabilities](track1_self_prediction/21_2026-10-29_dice_logprob/) | Qwen3-32B open weights: self-prediction changes the first roll's distribution (JS 0.52 bits), then continues exactly as direct generation given the same prefix. A generic-model control ("another language model") shifts roll 1 just as much: the shift is the prediction wrapper, not *self* |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).

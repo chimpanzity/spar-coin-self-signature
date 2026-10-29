@@ -122,9 +122,23 @@ Run [`main-qwen3-32b-a100/`](main-qwen3-32b-a100/): 15 conditions × 10 replicat
   - F's own top face is a near-tie (3 at .39 vs 2 at .31).
 - **Matched prefix:** given G's history, the F instruction picks G's face at every position from 2 to 10 (JS ≤ 0.09 bits). Most of the later divergence is a cascade from the different opening. Given F's history, the G instruction departs at positions 2, 3, 7 and 8.
 - **Single positions and windows** reconstruct neither reference (6 of 27 reports match G, 3 match F; about 4.5 expected by chance). Different scopes rarely agree on the same position (6 of 52 pairs). Single-position answers are 4 or 5 at every position.
-- **Open question:** whether the opening shift is specific to the self framing. A non-self wrapper control is the obvious next step.
+- **Open question at the time:** whether the opening shift is specific to the self framing. **Answered by the generic-model control below: it is not.**
 
 Figures are in [`main-qwen3-32b-a100/analysis/figures/`](main-qwen3-32b-a100/analysis/figures/).
+
+## Amendment v1.1: generic-model framing control (2026-10-29)
+
+**Question:** is the roll-1 shift specific to "another instance of your model"? N is F with that phrase replaced by "another language model" and nothing else changed. G, F and N ran on the **same A100 machine** with the same model commit and stack.
+- Preflight [`control-preflight-qwen3-32b-a100/`](control-preflight-qwen3-32b-a100/): 3 each, all gates PASS.
+- Main [`control-main-qwen3-32b-a100/`](control-main-qwen3-32b-a100/): 10 each = 30 generations, plus matched-prefix scoring of 3 instructions × 3 histories.
+- Cost: about $1.02 against an $8 cap; the instance was destroyed.
+
+Full write-up: [**`control-main-qwen3-32b-a100/REPORT.md`**](control-main-qwen3-32b-a100/REPORT.md).
+
+- **G and F reproduce Experiment 21 exactly:** same sequences, zero probability difference. N = `1 3 5 2 6 4 2 5 1 6`.
+- **Roll 1: the shift is not self-specific.** JS(G,N) is 0.51 bits vs JS(G,F) 0.52. G's choice, face 5, drops to .011 under N and .021 under F. F and N differ much less from each other (JS 0.12; F picks 3 in a near-tie, N picks 1).
+- **Matched prefix:** given G's history, both F and N continue as G does (8–9 of 9 rolls). F and N diverge only at rolls 2–3 under N's history. From roll 4 on, all three instructions follow whatever history they are given, apart from near-ties and G's instruction departing on F's history.
+- **Reading:** the prediction *wrapper* moves the opening; the self wording adds a smaller, opening-only effect. Neither is evidence of self-knowledge.
 
 ## Re-running
 
