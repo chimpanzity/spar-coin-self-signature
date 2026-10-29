@@ -1,0 +1,50 @@
+{
+  "valid_counts": {
+    "qwen": 50,
+    "mistral": 50
+  },
+  "target": 50,
+  "split_ok": true,
+  "duplicates": {
+    "n_unique_strings": 64,
+    "cross_source_collisions": 1,
+    "within_source_duplicate_groups": {
+      "qwen": 9,
+      "mistral": 7
+    },
+    "unique_per_source": {
+      "qwen": 31,
+      "mistral": 34
+    },
+    "modal_sequence_per_source": {
+      "qwen": [
+        "5 2 6 1 3 4 6 2 5 1",
+        4
+      ],
+      "mistral": [
+        "1 3 5 2 6 4 1 3 2 5",
+        7
+      ]
+    },
+    "holdout_counts": {
+      "qwen": 20,
+      "mistral": 20
+    },
+    "dev_counts": {
+      "qwen": 30,
+      "mistral": 30
+    }
+  },
+  "overall": "PASS",
+  "reason": null,
+  "attempts": {
+    "qwen": 50,
+    "mistral": 53
+  },
+  "invalid_reasons": {
+    "qwen": {},
+    "mistral": {
+      "format": 3
+    }
+  }
+}

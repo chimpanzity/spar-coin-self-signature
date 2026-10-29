@@ -43,6 +43,7 @@ T1_EXP = {
     "favorite_animal_crossed": T1 / "19_2026-10-16_favorite_animal_crossed",
     "static_selfpred":       T1 / "20_2026-10-20_static_selfpred_replication",
     "dice_logprob":          T1 / "21_2026-10-29_dice_logprob",
+    "dice_recognition":      T1 / "22_2026-10-29_loula_dice_recognition_pilot",
 }
 T2_EXP = {
     "blind_twin_v1":         T2 / "01_2026-10-09_blind_twin_v1_mp",

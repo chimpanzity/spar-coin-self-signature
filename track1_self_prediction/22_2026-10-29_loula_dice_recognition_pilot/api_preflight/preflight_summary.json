@@ -1,0 +1,149 @@
+{
+  "gates": {
+    "qwen_provider_pinned": true,
+    "qwen_no_thinking": true,
+    "qwen_reasoning_tokens_reported_zero": true,
+    "qwen_generation_valid_3_of_4": true,
+    "qwen_judgment_strict_AB_2_of_2": true,
+    "mistral_provider_pinned": true,
+    "mistral_no_thinking": true,
+    "mistral_generation_valid_3_of_4": true,
+    "mistral_judgment_strict_AB_2_of_2": true
+  },
+  "overall": "PASS",
+  "spent_usd": 0.00017059999999999997,
+  "responses": [
+    {
+      "model": "qwen",
+      "check": "generation_1",
+      "content": "5 2 6 3 1 4 3 6 2 5",
+      "valid": true,
+      "served_provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 1.783e-05,
+      "error": null
+    },
+    {
+      "model": "qwen",
+      "check": "generation_2",
+      "content": "4 6 2 5 3 1 6 4 2 5",
+      "valid": true,
+      "served_provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 1.783e-05,
+      "error": null
+    },
+    {
+      "model": "qwen",
+      "check": "generation_3",
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "valid": true,
+      "served_provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 1.783e-05,
+      "error": null
+    },
+    {
+      "model": "qwen",
+      "check": "generation_4",
+      "content": "5 2 6 3 4 1 6 2 5 3",
+      "valid": true,
+      "served_provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 1.783e-05,
+      "error": null
+    },
+    {
+      "model": "qwen",
+      "check": "judgment_self",
+      "content": "A",
+      "valid": true,
+      "served_provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 2.325e-05,
+      "error": null
+    },
+    {
+      "model": "qwen",
+      "check": "judgment_named_qwen",
+      "content": "A",
+      "valid": true,
+      "served_provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 2.353e-05,
+      "error": null
+    },
+    {
+      "model": "mistral",
+      "check": "generation_1",
+      "content": "5 2 6 1 3 4 6 2 5 1",
+      "valid": true,
+      "served_provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 7.075e-06,
+      "error": null
+    },
+    {
+      "model": "mistral",
+      "check": "generation_2",
+      "content": "3 1 5 6 2 4 6 1 3 2",
+      "valid": true,
+      "served_provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 7.075e-06,
+      "error": null
+    },
+    {
+      "model": "mistral",
+      "check": "generation_3",
+      "content": "4 2 6 1 5 3 6 2 4 1",
+      "valid": true,
+      "served_provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 7.075e-06,
+      "error": null
+    },
+    {
+      "model": "mistral",
+      "check": "generation_4",
+      "content": "3 1 6 2 4 5 6 1 3 2",
+      "valid": true,
+      "served_provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 7.075e-06,
+      "error": null
+    },
+    {
+      "model": "mistral",
+      "check": "judgment_self",
+      "content": "A",
+      "valid": true,
+      "served_provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 1.1875e-05,
+      "error": null
+    },
+    {
+      "model": "mistral",
+      "check": "judgment_named_mistral",
+      "content": "A",
+      "valid": true,
+      "served_provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "finish": "stop",
+      "cost": 1.2325e-05,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,885 @@
+{
+  "point": {
+    "qwen|self": 0.5,
+    "qwen|named_qwen": 0.5,
+    "qwen|named_mistral": 0.5,
+    "mistral|self": 0.5,
+    "mistral|named_qwen": 0.5,
+    "mistral|named_mistral": 0.525,
+    "own_model_advantage_named": 0.012500000000000011,
+    "qwen_self_minus_named_own": 0.0,
+    "mistral_self_minus_named_own": -0.025000000000000022,
+    "classifier_pair_accuracy": 0.775
+  },
+  "ci95_pair_bootstrap": {
+    "qwen|self": [
+      0.5,
+      0.5
+    ],
+    "qwen|named_qwen": [
+      0.5,
+      0.5
+    ],
+    "qwen|named_mistral": [
+      0.5,
+      0.5
+    ],
+    "mistral|self": [
+      0.5,
+      0.5
+    ],
+    "mistral|named_qwen": [
+      0.5,
+      0.5
+    ],
+    "mistral|named_mistral": [
+      0.45,
+      0.6
+    ],
+    "own_model_advantage_named": [
+      -0.024999999999999994,
+      0.04999999999999999
+    ],
+    "qwen_self_minus_named_own": [
+      0.0,
+      0.0
+    ],
+    "mistral_self_minus_named_own": [
+      -0.09999999999999998,
+      0.04999999999999999
+    ],
+    "classifier_pair_accuracy": [
+      0.6,
+      0.925
+    ]
+  },
+  "per_cell": {
+    "qwen|self": {
+      "n_calls": 40,
+      "n_valid": 40,
+      "A_rate": 1.0,
+      "orientation_consistency": 0.0,
+      "raw_accuracy_all_presentations": 0.5,
+      "confusion_truth_by_choice": {
+        "truth_A_chose_A": 20,
+        "truth_A_chose_B": 0,
+        "truth_B_chose_A": 20,
+        "truth_B_chose_B": 0
+      }
+    },
+    "qwen|named_qwen": {
+      "n_calls": 40,
+      "n_valid": 40,
+      "A_rate": 1.0,
+      "orientation_consistency": 0.0,
+      "raw_accuracy_all_presentations": 0.5,
+      "confusion_truth_by_choice": {
+        "truth_A_chose_A": 20,
+        "truth_A_chose_B": 0,
+        "truth_B_chose_A": 20,
+        "truth_B_chose_B": 0
+      }
+    },
+    "qwen|named_mistral": {
+      "n_calls": 40,
+      "n_valid": 40,
+      "A_rate": 0.0,
+      "orientation_consistency": 0.0,
+      "raw_accuracy_all_presentations": 0.5,
+      "confusion_truth_by_choice": {
+        "truth_A_chose_A": 0,
+        "truth_A_chose_B": 20,
+        "truth_B_chose_A": 0,
+        "truth_B_chose_B": 20
+      }
+    },
+    "mistral|self": {
+      "n_calls": 40,
+      "n_valid": 40,
+      "A_rate": 1.0,
+      "orientation_consistency": 0.0,
+      "raw_accuracy_all_presentations": 0.5,
+      "confusion_truth_by_choice": {
+        "truth_A_chose_A": 20,
+        "truth_A_chose_B": 0,
+        "truth_B_chose_A": 20,
+        "truth_B_chose_B": 0
+      }
+    },
+    "mistral|named_qwen": {
+      "n_calls": 40,
+      "n_valid": 40,
+      "A_rate": 1.0,
+      "orientation_consistency": 0.0,
+      "raw_accuracy_all_presentations": 0.5,
+      "confusion_truth_by_choice": {
+        "truth_A_chose_A": 20,
+        "truth_A_chose_B": 0,
+        "truth_B_chose_A": 20,
+        "truth_B_chose_B": 0
+      }
+    },
+    "mistral|named_mistral": {
+      "n_calls": 40,
+      "n_valid": 40,
+      "A_rate": 0.875,
+      "orientation_consistency": 0.15,
+      "raw_accuracy_all_presentations": 0.525,
+      "confusion_truth_by_choice": {
+        "truth_A_chose_A": 18,
+        "truth_A_chose_B": 2,
+        "truth_B_chose_A": 17,
+        "truth_B_chose_B": 3
+      }
+    }
+  },
+  "pair_table": {
+    "qwen|named_mistral|P02": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P12": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P14": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P05": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P13": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P05": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|self|P06": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P07": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P04": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P14": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P04": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P03": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P18": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P08": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|self|P03": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P06": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P16": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P09": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P12": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P08": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P01": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P03": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P20": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P15": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P01": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P13": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P11": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P04": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P05": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P01": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P02": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P11": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|self|P12": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P13": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|self|P18": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P18": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P10": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P10": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P09": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_mistral|P07": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|self|P07": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P16": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_qwen|P17": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P15": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_mistral|P20": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|self|P15": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P19": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P19": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P09": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P16": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|self|P20": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|named_mistral|P06": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_mistral|P10": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_mistral|P17": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_mistral|P14": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "qwen|named_qwen|P02": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P19": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P08": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P17": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "qwen|self|P11": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P10": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P17": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P13": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P16": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P14": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P15": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P09": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P07": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P16": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P09": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P19": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P08": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P13": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P01": {
+      "acc": 1.0,
+      "n_valid": 2,
+      "consistent": true,
+      "n_A": 1
+    },
+    "mistral|self|P14": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P10": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P14": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P07": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P16": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P01": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P01": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P03": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P08": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P18": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P12": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P15": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P17": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P19": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 0
+    },
+    "mistral|named_mistral|P12": {
+      "acc": 0.0,
+      "n_valid": 2,
+      "consistent": true,
+      "n_A": 1
+    },
+    "mistral|named_mistral|P06": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P05": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P05": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P03": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P12": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P15": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P06": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P18": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P18": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P02": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P06": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P20": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P11": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P17": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P09": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P19": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P02": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P05": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P07": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P08": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P10": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P04": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P02": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P04": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_qwen|P20": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P11": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P13": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P03": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|self|P20": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P04": {
+      "acc": 0.5,
+      "n_valid": 2,
+      "consistent": false,
+      "n_A": 2
+    },
+    "mistral|named_mistral|P11": {
+      "acc": 1.0,
+      "n_valid": 2,
+      "consistent": true,
+      "n_A": 1
+    }
+  },
+  "classifier_heldout": {
+    "auc": 0.7225,
+    "pair_accuracy": 0.775,
+    "per_pair": {
+      "P01": 1.0,
+      "P02": 1.0,
+      "P03": 1.0,
+      "P04": 1.0,
+      "P05": 1.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 1.0,
+      "P09": 1.0,
+      "P10": 0.5,
+      "P11": 0.5,
+      "P12": 1.0,
+      "P13": 1.0,
+      "P14": 1.0,
+      "P15": 1.0,
+      "P16": 1.0,
+      "P17": 0.0,
+      "P18": 1.0,
+      "P19": 0.5,
+      "P20": 1.0
+    }
+  },
+  "spent_usd": 0.00572848
+}

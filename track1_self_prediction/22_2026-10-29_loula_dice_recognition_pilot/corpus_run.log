@@ -1,0 +1,153 @@
+[1] qwen#34: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 1}; spent $0.0002)
+[2] mistral#20: '3 1 5 6 2 4 1 3 6 2' valid=True (valid {'qwen': 1, 'mistral': 1}; spent $0.0002)
+[3] mistral#53: '4 2 6 1 3 5 2 4 6 1' valid=True (valid {'qwen': 1, 'mistral': 2}; spent $0.0002)
+[4] mistral#56: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 1, 'mistral': 3}; spent $0.0002)
+[5] qwen#5: '4 2 6 1 3 5 2 5 3 6' valid=True (valid {'qwen': 2, 'mistral': 3}; spent $0.0002)
+[6] qwen#59: '4 2 6 1 3 5 2 4 6 3' valid=True (valid {'qwen': 3, 'mistral': 3}; spent $0.0002)
+[7] mistral#45: '5 2 1 6 3 4 2 5 1 3' valid=True (valid {'qwen': 3, 'mistral': 4}; spent $0.0003)
+[8] qwen#10: '3 6 2 5 1 4 6 3 2 5' valid=True (valid {'qwen': 4, 'mistral': 4}; spent $0.0003)
+[9] qwen#57: '5 3 1 6 2 4 3 5 1 6' valid=True (valid {'qwen': 5, 'mistral': 4}; spent $0.0003)
+[10] mistral#23: '3 5 1 6 2 4 3 1 5 6' valid=True (valid {'qwen': 5, 'mistral': 5}; spent $0.0003)
+[11] qwen#54: '5 3 6 1 4 2 2 6 3 1' valid=True (valid {'qwen': 6, 'mistral': 5}; spent $0.0003)
+[12] qwen#74: '5 2 6 3 1 4 6 2 3 5' valid=True (valid {'qwen': 7, 'mistral': 5}; spent $0.0003)
+[13] mistral#30: '5 3 1 6 4 2 5 3 6 1' valid=True (valid {'qwen': 7, 'mistral': 6}; spent $0.0003)
+[14] mistral#8: '5 2 6 1 3 4 6 2 5 3' valid=True (valid {'qwen': 7, 'mistral': 7}; spent $0.0003)
+[15] mistral#16: '3 5 1 6 2 4 3 6 1 5' valid=True (valid {'qwen': 7, 'mistral': 8}; spent $0.0004)
+[16] mistral#12: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 7, 'mistral': 9}; spent $0.0004)
+[17] mistral#57: '5 1 3 6 2 4 1 5 2 6' valid=True (valid {'qwen': 7, 'mistral': 10}; spent $0.0004)
+[18] qwen#61: '5 2 6 1 3 4 2 5 6 1' valid=True (valid {'qwen': 8, 'mistral': 10}; spent $0.0004)
+[19] mistral#1: '1 3 5 2 6 4 1 3 2 5' valid=True (valid {'qwen': 8, 'mistral': 11}; spent $0.0004)
+[20] mistral#47: '4 2 6 1 5 3 6 2 4 1' valid=True (valid {'qwen': 8, 'mistral': 12}; spent $0.0004)
+[21] mistral#3: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 8, 'mistral': 13}; spent $0.0004)
+[22] qwen#1: '3 6 2 5 1 4 3 2 6 5' valid=True (valid {'qwen': 9, 'mistral': 13}; spent $0.0004)
+[23] qwen#16: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 10, 'mistral': 13}; spent $0.0004)
+[24] mistral#29: '4 1 6 3 2 5 6 1 4 3' valid=True (valid {'qwen': 10, 'mistral': 14}; spent $0.0004)
+[25] qwen#20: '5 3 1 6 2 4 3 5 6 1' valid=True (valid {'qwen': 11, 'mistral': 14}; spent $0.0005)
+[26] mistral#19: '3 1 5 4 6 2 3 5 1 4' valid=True (valid {'qwen': 11, 'mistral': 15}; spent $0.0005)
+[27] qwen#19: '5 2 6 3 4 1 2 5 3 6' valid=True (valid {'qwen': 12, 'mistral': 15}; spent $0.0005)
+[28] mistral#24: '3 5 1 6 2 4 3 1 5 6' valid=True (valid {'qwen': 12, 'mistral': 16}; spent $0.0005)
+[29] qwen#7: '5 2 6 3 1 4 3 6 2 5' valid=True (valid {'qwen': 13, 'mistral': 16}; spent $0.0005)
+[30] mistral#15: '1 3 6 2 4 5 1 3 6 2' valid=True (valid {'qwen': 13, 'mistral': 17}; spent $0.0005)
+[31] qwen#65: '3 6 2 5 1 4 3 2 5 6' valid=True (valid {'qwen': 14, 'mistral': 17}; spent $0.0005)
+[32] mistral#71: '1 3 5 2 6 4 1 3 2 5' valid=True (valid {'qwen': 14, 'mistral': 18}; spent $0.0005)
+[33] qwen#55: '5 2 6 3 1 4 3 6 2 5' valid=True (valid {'qwen': 15, 'mistral': 18}; spent $0.0006)
+[34] qwen#24: '3 5 2 6 1 4 2 5 3 6' valid=True (valid {'qwen': 16, 'mistral': 18}; spent $0.0006)
+[35] mistral#63: '6 2 4 1 3 5 6 2 1 4' valid=True (valid {'qwen': 16, 'mistral': 19}; spent $0.0006)
+[36] mistral#54: '4 2 6 1 3 5 2 4 6 1' valid=True (valid {'qwen': 16, 'mistral': 20}; spent $0.0006)
+[37] qwen#39: '3 5 1 6 2 4 3 5 6 1' valid=True (valid {'qwen': 17, 'mistral': 20}; spent $0.0006)
+[38] mistral#18: '3 1 5 6 2 4 3 1 5 6' valid=True (valid {'qwen': 17, 'mistral': 21}; spent $0.0006)
+[39] mistral#74: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 17, 'mistral': 22}; spent $0.0006)
+[40] mistral#70: '3 2 5 1 6 4 3 5 2 6' valid=True (valid {'qwen': 17, 'mistral': 23}; spent $0.0006)
+[41] mistral#67: 'Here is your sequence of 10 simulated die rolls:\n\n5 2 6 1 4 3 5 6 2 1' valid=False (valid {'qwen': 17, 'mistral': 23}; spent $0.0006)
+[42] mistral#58: '1 3 5 2 6 4 1 3 2 5' valid=True (valid {'qwen': 17, 'mistral': 24}; spent $0.0007)
+[43] qwen#44: '3 6 2 5 1 4 2 5 6 3' valid=True (valid {'qwen': 18, 'mistral': 24}; spent $0.0007)
+[44] qwen#22: '3 6 1 4 2 5 2 5 3 1' valid=True (valid {'qwen': 19, 'mistral': 24}; spent $0.0007)
+[45] qwen#49: '5 3 1 6 2 4 3 5 6 1' valid=True (valid {'qwen': 20, 'mistral': 24}; spent $0.0007)
+[46] qwen#42: '4 2 6 1 3 5 2 5 3 6' valid=True (valid {'qwen': 21, 'mistral': 24}; spent $0.0007)
+[47] mistral#38: '3 1 5 2 6 4 1 3 5 2' valid=True (valid {'qwen': 21, 'mistral': 25}; spent $0.0007)
+[48] qwen#50: '5 2 6 3 1 4 6 2 5 3' valid=True (valid {'qwen': 22, 'mistral': 25}; spent $0.0007)
+[49] mistral#21: '4 2 6 1 5 3 6 2 4 1' valid=True (valid {'qwen': 22, 'mistral': 26}; spent $0.0008)
+[50] mistral#35: '3 1 5 6 2 4 1 3 6 2' valid=True (valid {'qwen': 22, 'mistral': 27}; spent $0.0008)
+[51] mistral#7: '5 2 3 6 1 4 6 2 5 3' valid=True (valid {'qwen': 22, 'mistral': 28}; spent $0.0008)
+[52] qwen#63: '3 6 1 4 2 5 2 3 1 6' valid=True (valid {'qwen': 23, 'mistral': 28}; spent $0.0008)
+[53] qwen#6: '5 2 6 3 1 4 6 2 5 3' valid=True (valid {'qwen': 24, 'mistral': 28}; spent $0.0008)
+[54] mistral#33: '3 1 6 2 4 5 3 1 6 2' valid=True (valid {'qwen': 24, 'mistral': 29}; spent $0.0008)
+[55] mistral#72: '1 3 5 2 6 4 1 3 5 2' valid=True (valid {'qwen': 24, 'mistral': 30}; spent $0.0008)
+[56] mistral#49: '1 3 5 2 6 4 1 3 2 5' valid=True (valid {'qwen': 24, 'mistral': 31}; spent $0.0008)
+[57] mistral#14: '4 1 6 2 5 3 6 1 4 2' valid=True (valid {'qwen': 24, 'mistral': 32}; spent $0.0008)
+[58] qwen#45: '3 6 2 5 1 4 2 6 3 5' valid=True (valid {'qwen': 25, 'mistral': 32}; spent $0.0009)
+[59] qwen#72: '5 2 6 3 1 4 3 6 2 5' valid=True (valid {'qwen': 26, 'mistral': 32}; spent $0.0009)
+[60] qwen#8: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 27, 'mistral': 32}; spent $0.0009)
+[61] qwen#15: '5 3 1 6 2 4 3 5 1 6' valid=True (valid {'qwen': 28, 'mistral': 32}; spent $0.0009)
+[62] mistral#51: '1 3 5 2 6 4 1 3 2 5' valid=True (valid {'qwen': 28, 'mistral': 33}; spent $0.0009)
+[63] mistral#42: '2 5 1 6 3 4 2 5 1 6' valid=True (valid {'qwen': 28, 'mistral': 34}; spent $0.0009)
+[64] mistral#17: '4 2 6 3 1 5 6 2 4 3' valid=True (valid {'qwen': 28, 'mistral': 35}; spent $0.0009)
+[65] qwen#53: '5 3 1 6 2 4 3 5 6 1' valid=True (valid {'qwen': 29, 'mistral': 35}; spent $0.0009)
+[66] qwen#47: '5 2 6 3 1 4 2 6 5 3' valid=True (valid {'qwen': 30, 'mistral': 35}; spent $0.0010)
+[67] qwen#29: '5 3 1 6 2 4 3 6 4 1' valid=True (valid {'qwen': 31, 'mistral': 35}; spent $0.0010)
+[68] qwen#13: '3 5 2 6 1 4 5 3 2 6' valid=True (valid {'qwen': 32, 'mistral': 35}; spent $0.0010)
+[69] mistral#22: '4 1 6 3 2 5 6 1 4 3' valid=True (valid {'qwen': 32, 'mistral': 36}; spent $0.0010)
+[70] qwen#60: '3 5 1 6 2 4 3 6 2 5' valid=True (valid {'qwen': 33, 'mistral': 36}; spent $0.0010)
+[71] qwen#70: '5 2 6 1 4 3 6 2 5 1' valid=True (valid {'qwen': 34, 'mistral': 36}; spent $0.0010)
+[72] mistral#28: '4 2 6 1 3 5 2 4 6 1' valid=True (valid {'qwen': 34, 'mistral': 37}; spent $0.0010)
+[73] mistral#59: '5 2 1 6 3 4 6 2 5 1' valid=True (valid {'qwen': 34, 'mistral': 38}; spent $0.0011)
+[74] mistral#62: '2 5 1 3 6 4 2 5 1 6' valid=True (valid {'qwen': 34, 'mistral': 39}; spent $0.0011)
+[75] qwen#18: '3 5 1 6 2 4 3 6 1 4' valid=True (valid {'qwen': 35, 'mistral': 39}; spent $0.0011)
+[76] mistral#25: '3 1 6 2 4 5 1 3 6 2' valid=True (valid {'qwen': 35, 'mistral': 40}; spent $0.0011)
+[77] mistral#2: '2 5 1 6 3 4 2 5 1 3' valid=True (valid {'qwen': 35, 'mistral': 41}; spent $0.0011)
+[78] mistral#27: '3 1 5 6 2 4 3 6 1 2' valid=True (valid {'qwen': 35, 'mistral': 42}; spent $0.0011)
+[79] mistral#13: '4 1 6 3 5 6 2 4 1 3' valid=True (valid {'qwen': 35, 'mistral': 43}; spent $0.0011)
+[80] qwen#30: '3 6 2 5 1 4 2 6 3 5' valid=True (valid {'qwen': 36, 'mistral': 43}; spent $0.0011)
+[81] mistral#39: '1 3 5 2 6 4 1 3 2 5' valid=True (valid {'qwen': 36, 'mistral': 44}; spent $0.0011)
+[82] qwen#67: '5 2 6 3 1 4 6 2 5 3' valid=True (valid {'qwen': 37, 'mistral': 44}; spent $0.0012)
+[83] qwen#73: '4 2 6 3 1 5 2 5 3 6' valid=True (valid {'qwen': 38, 'mistral': 44}; spent $0.0012)
+[84] qwen#17: '3 6 1 4 2 5 2 5 3 1' valid=True (valid {'qwen': 39, 'mistral': 44}; spent $0.0012)
+[85] qwen#71: '5 2 6 3 1 4 6 2 3 5' valid=True (valid {'qwen': 40, 'mistral': 44}; spent $0.0012)
+[86] qwen#38: '4 2 6 3 5 1 2 5 3 6' valid=True (valid {'qwen': 41, 'mistral': 44}; spent $0.0012)
+[87] mistral#9: '3 1 5 2 6 4 1 3 5 2' valid=True (valid {'qwen': 41, 'mistral': 45}; spent $0.0012)
+[88] mistral#41: '5 3 1 6 2 4 6 1 3 2' valid=True (valid {'qwen': 41, 'mistral': 46}; spent $0.0012)
+[89] qwen#4: '5 2 6 1 3 4 6 2 5 1' valid=True (valid {'qwen': 42, 'mistral': 46}; spent $0.0013)
+[90] qwen#3: '4 1 6 3 2 5 6 4 3 1' valid=True (valid {'qwen': 43, 'mistral': 46}; spent $0.0013)
+[91] qwen#41: '5 2 6 3 1 4 6 2 5 3' valid=True (valid {'qwen': 44, 'mistral': 46}; spent $0.0013)
+[92] mistral#68: '4 1 6 3 5 2 6 4 1 3' valid=True (valid {'qwen': 44, 'mistral': 47}; spent $0.0013)
+[93] mistral#64: '1 4 3 6 2 5 1 3 6 2' valid=True (valid {'qwen': 44, 'mistral': 48}; spent $0.0013)
+[94] mistral#44: '1 3 5 2 6 4 1 3 2 5' valid=True (valid {'qwen': 44, 'mistral': 49}; spent $0.0013)
+[95] qwen#28: '5 3 1 6 2 4 3 5 1 6' valid=True (valid {'qwen': 45, 'mistral': 49}; spent $0.0013)
+[96] mistral#75: 'Here is your sequence of 10 simulated six-sided die rolls:\n\n3 1 5 6 2 4 1 3 6 2' valid=False (valid {'qwen': 45, 'mistral': 49}; spent $0.0013)
+[97] mistral#69: 'Here is your sequence of 10 simulated die rolls:\n\n1 4 6 2 3 5 1 3 6 2' valid=False (valid {'qwen': 45, 'mistral': 49}; spent $0.0013)
+[98] mistral#46: '6 3 1 5 2 4 6 1 3 2' valid=True (valid {'qwen': 45, 'mistral': 50}; spent $0.0014)
+[99] qwen#58: '5 2 6 3 1 4 3 6 2 5' valid=True (valid {'qwen': 46, 'mistral': 50}; spent $0.0014)
+[100] qwen#12: '4 2 6 1 3 5 2 5 3 6' valid=True (valid {'qwen': 47, 'mistral': 50}; spent $0.0014)
+[102] qwen#11: '5 2 6 1 3 4 6 2 1 5' valid=True (valid {'qwen': 48, 'mistral': 50}; spent $0.0014)
+[103] qwen#36: '4 1 6 3 5 2 2 5 3 6' valid=True (valid {'qwen': 49, 'mistral': 50}; spent $0.0014)
+[104] qwen#9: '5 2 6 3 4 1 2 5 3 6' valid=True (valid {'qwen': 50, 'mistral': 50}; spent $0.0014)
+{
+ "valid_counts": {
+  "qwen": 50,
+  "mistral": 50
+ },
+ "target": 50,
+ "split_ok": true,
+ "duplicates": {
+  "n_unique_strings": 64,
+  "cross_source_collisions": 1,
+  "within_source_duplicate_groups": {
+   "qwen": 9,
+   "mistral": 7
+  },
+  "unique_per_source": {
+   "qwen": 31,
+   "mistral": 34
+  },
+  "modal_sequence_per_source": {
+   "qwen": [
+    "5 2 6 1 3 4 6 2 5 1",
+    4
+   ],
+   "mistral": [
+    "1 3 5 2 6 4 1 3 2 5",
+    7
+   ]
+  },
+  "holdout_counts": {
+   "qwen": 20,
+   "mistral": 20
+  },
+  "dev_counts": {
+   "qwen": 30,
+   "mistral": 30
+  }
+ },
+ "overall": "PASS",
+ "reason": null,
+ "attempts": {
+  "qwen": 50,
+  "mistral": 53
+ },
+ "invalid_reasons": {
+  "qwen": {},
+  "mistral": {
+   "format": 3
+  }
+ }
+}

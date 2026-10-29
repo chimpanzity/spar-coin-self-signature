@@ -1,0 +1,7 @@
+judge,condition,pair_averaged_accuracy,ci95,n_calls,n_valid,A_rate,orientation_consistency,raw_accuracy_all_presentations,confusion_truth_by_choice
+qwen,self,0.5,"[0.5, 0.5]",40,40,1.0,0.0,0.5,"{""truth_A_chose_A"": 20, ""truth_A_chose_B"": 0, ""truth_B_chose_A"": 20, ""truth_B_chose_B"": 0}"
+qwen,named_qwen,0.5,"[0.5, 0.5]",40,40,1.0,0.0,0.5,"{""truth_A_chose_A"": 20, ""truth_A_chose_B"": 0, ""truth_B_chose_A"": 20, ""truth_B_chose_B"": 0}"
+qwen,named_mistral,0.5,"[0.5, 0.5]",40,40,0.0,0.0,0.5,"{""truth_A_chose_A"": 0, ""truth_A_chose_B"": 20, ""truth_B_chose_A"": 0, ""truth_B_chose_B"": 20}"
+mistral,self,0.5,"[0.5, 0.5]",40,40,1.0,0.0,0.5,"{""truth_A_chose_A"": 20, ""truth_A_chose_B"": 0, ""truth_B_chose_A"": 20, ""truth_B_chose_B"": 0}"
+mistral,named_qwen,0.5,"[0.5, 0.5]",40,40,1.0,0.0,0.5,"{""truth_A_chose_A"": 20, ""truth_A_chose_B"": 0, ""truth_B_chose_A"": 20, ""truth_B_chose_B"": 0}"
+mistral,named_mistral,0.525,"[0.45, 0.6]",40,40,0.875,0.15,0.525,"{""truth_A_chose_A"": 18, ""truth_A_chose_B"": 2, ""truth_B_chose_A"": 17, ""truth_B_chose_B"": 3}"

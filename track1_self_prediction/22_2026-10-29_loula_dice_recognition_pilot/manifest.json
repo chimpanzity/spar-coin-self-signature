@@ -1,0 +1,270 @@
+{
+  "tag": "LOULA_DICE_RECOGNITION_PILOT_v1.0",
+  "created_utc": "2026-10-29T21:03:58.742783+00:00",
+  "git_head": "5ed50747988db41d82766f4fa91d0f7bc557631a",
+  "models": {
+    "qwen": {
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "reasoning": {
+        "enabled": false
+      },
+      "price_per_token": [
+        1.4e-07,
+        5.7e-07
+      ],
+      "display": "Qwen3-32B"
+    },
+    "mistral": {
+      "slug": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider": "DeepInfra",
+      "reasoning": null,
+      "price_per_token": [
+        7.5e-08,
+        2e-07
+      ],
+      "display": "Mistral Small 3.2 24B"
+    }
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "max_tokens": 64
+  },
+  "judgment": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 8
+  },
+  "request_examples": {
+    "qwen": {
+      "model": "qwen/qwen3-32b",
+      "temperature": 0.7,
+      "top_p": 1.0,
+      "max_tokens": 64,
+      "extra_body": {
+        "provider": {
+          "order": [
+            "SiliconFlow"
+          ],
+          "only": [
+            "SiliconFlow"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    "mistral": {
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "temperature": 0.7,
+      "top_p": 1.0,
+      "max_tokens": 64,
+      "extra_body": {
+        "provider": {
+          "order": [
+            "DeepInfra"
+          ],
+          "only": [
+            "DeepInfra"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        }
+      }
+    }
+  },
+  "corpus": {
+    "n_valid_per_model": 50,
+    "max_attempts_per_model": 75,
+    "n_dev": 30,
+    "n_holdout": 20,
+    "split_rule": "identical strings form one group. Groups containing both sources (cross-source\ncollisions) are nondiagnostic and go to development. The remaining groups are shuffled (SPLIT_SEED) and added\nwhole to the holdout for their source while they fit, until each source has exactly 20 holdout sequences.\nIf exactly 20 per source cannot be reached, STOP (no silent change)."
+  },
+  "gates": {
+    "auc_gate": 0.65,
+    "cv_folds": 5,
+    "n_permutations": 1000,
+    "classifier_features": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "switch_frac",
+      "max_run",
+      "n_distinct"
+    ]
+  },
+  "seeds": {
+    "gen_order": 2026102901,
+    "split": 2026102902,
+    "pair": 2026102903,
+    "trial_order": 2026102904,
+    "permutation": 2026102905,
+    "bootstrap": 2026102906
+  },
+  "cost_cap_usd": 5.0,
+  "prompt_sha256": {
+    "generation": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "j_self": "fc6d1ae86d2e055de0b505d58afbdcc64a4f7ca3997588e05f4ac95e42f41b56",
+    "j_named": "4fece38d1bd99965ea484edf770d6526f88ba06f3bcb9aa363a2d4771587f06d"
+  },
+  "planned_generation_schedule": [
+    "qwen#34",
+    "mistral#20",
+    "mistral#53",
+    "mistral#56",
+    "qwen#5",
+    "qwen#59",
+    "mistral#45",
+    "qwen#10",
+    "qwen#57",
+    "mistral#23",
+    "qwen#54",
+    "qwen#74",
+    "mistral#30",
+    "mistral#8",
+    "mistral#16",
+    "mistral#12",
+    "mistral#57",
+    "qwen#61",
+    "mistral#1",
+    "mistral#47",
+    "mistral#3",
+    "qwen#1",
+    "qwen#16",
+    "mistral#29",
+    "qwen#20",
+    "mistral#19",
+    "qwen#19",
+    "mistral#24",
+    "qwen#7",
+    "mistral#15",
+    "qwen#65",
+    "mistral#71",
+    "qwen#55",
+    "qwen#24",
+    "mistral#63",
+    "mistral#54",
+    "qwen#39",
+    "mistral#18",
+    "mistral#74",
+    "mistral#70",
+    "mistral#67",
+    "mistral#58",
+    "qwen#44",
+    "qwen#22",
+    "qwen#49",
+    "qwen#42",
+    "mistral#38",
+    "qwen#50",
+    "mistral#21",
+    "mistral#35",
+    "mistral#7",
+    "qwen#63",
+    "qwen#6",
+    "mistral#33",
+    "mistral#72",
+    "mistral#49",
+    "mistral#14",
+    "qwen#45",
+    "qwen#72",
+    "qwen#8",
+    "qwen#15",
+    "mistral#51",
+    "mistral#42",
+    "mistral#17",
+    "qwen#53",
+    "qwen#47",
+    "qwen#29",
+    "qwen#13",
+    "mistral#22",
+    "qwen#60",
+    "qwen#70",
+    "mistral#28",
+    "mistral#59",
+    "mistral#62",
+    "qwen#18",
+    "mistral#25",
+    "mistral#2",
+    "mistral#27",
+    "mistral#13",
+    "qwen#30",
+    "mistral#39",
+    "qwen#67",
+    "qwen#73",
+    "qwen#17",
+    "qwen#71",
+    "qwen#38",
+    "mistral#9",
+    "mistral#41",
+    "qwen#4",
+    "qwen#3",
+    "qwen#41",
+    "mistral#68",
+    "mistral#64",
+    "mistral#44",
+    "qwen#28",
+    "mistral#75",
+    "mistral#69",
+    "mistral#46",
+    "qwen#58",
+    "qwen#12",
+    "mistral#55",
+    "qwen#11",
+    "qwen#36",
+    "qwen#9",
+    "mistral#5",
+    "mistral#4",
+    "qwen#52",
+    "mistral#61",
+    "mistral#66",
+    "qwen#40",
+    "qwen#56",
+    "qwen#43",
+    "qwen#2",
+    "mistral#65",
+    "qwen#64",
+    "mistral#26",
+    "qwen#27",
+    "qwen#32",
+    "mistral#73",
+    "mistral#60",
+    "mistral#11",
+    "qwen#33",
+    "qwen#14",
+    "qwen#51",
+    "mistral#40",
+    "mistral#32",
+    "qwen#68",
+    "mistral#10",
+    "qwen#23",
+    "qwen#48",
+    "qwen#66",
+    "qwen#37",
+    "qwen#26",
+    "mistral#50",
+    "mistral#43",
+    "mistral#48",
+    "mistral#52",
+    "qwen#35",
+    "qwen#62",
+    "qwen#25",
+    "mistral#37",
+    "qwen#75",
+    "mistral#34",
+    "qwen#21",
+    "mistral#31",
+    "qwen#31",
+    "qwen#69",
+    "mistral#6",
+    "mistral#36",
+    "qwen#46"
+  ],
+  "planned_judgment_calls": 240
+}
