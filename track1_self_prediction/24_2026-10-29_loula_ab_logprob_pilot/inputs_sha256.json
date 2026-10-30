@@ -1,0 +1,34 @@
+{
+  "calibration_items": {
+    "path": "track1_self_prediction/23_2026-10-29_loula_recognition_redesign/calibration/items.csv",
+    "sha256": "e43e3a592900f32a0b96787520898007ef3946c1704aaaeeb48500528f19a63d"
+  },
+  "exp23_protocol": {
+    "path": "track1_self_prediction/23_2026-10-29_loula_recognition_redesign/PROTOCOL_FROZEN.md",
+    "sha256": "2607f39041462198e29ec4aa0cdcdc225aea43faa79f3f4e3c3766ddf13b6810"
+  },
+  "exp23_raw_attempts": {
+    "path": "track1_self_prediction/23_2026-10-29_loula_recognition_redesign/calibration/raw_attempts.jsonl",
+    "sha256": "2e6f6721205759c38af5fbd8e24f8a73a764a1c972e36c96eb9f1633fdc71520"
+  },
+  "exp23_responses": {
+    "path": "track1_self_prediction/23_2026-10-29_loula_recognition_redesign/calibration/responses.csv",
+    "sha256": "009e19b6bea55faef71db539a405422f08b0983cf43c06a5db17fbc3d68e68b6"
+  },
+  "exp23_gate_table": {
+    "path": "track1_self_prediction/23_2026-10-29_loula_recognition_redesign/calibration/gate_table.csv",
+    "sha256": "578d0d265bf8b31e3a9b4e975aa7b9754d90dec9a12b15b3a090334f70e261e4"
+  },
+  "recognition_pairs": {
+    "path": "track1_self_prediction/22_2026-10-29_loula_dice_recognition_pilot/judgments/pairs.csv",
+    "sha256": "ede11df7d813c49c5c724f80374ec01d7a0fd14d06854da97b8626d7d464ae9a"
+  },
+  "exp22_responses": {
+    "path": "track1_self_prediction/22_2026-10-29_loula_dice_recognition_pilot/judgments/responses.csv",
+    "sha256": "e20be2a3885822cb848f8802bafa155b9545644f5a7339a4ce9c8daa3931fa80"
+  },
+  "classifier_gate": {
+    "path": "track1_self_prediction/22_2026-10-29_loula_dice_recognition_pilot/corpus/classifier_gate.json",
+    "sha256": "993e107010b23a148cf2da22adf75dfd00aa543cd6d7b8f11a6a6954d05d4604"
+  }
+}

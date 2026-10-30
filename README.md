@@ -69,6 +69,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 29 | 1 | [21 Dice self-prediction on log-probabilities](track1_self_prediction/21_2026-10-29_dice_logprob/) | Qwen3-32B open weights: self-prediction changes the first roll's distribution (JS 0.52 bits), then continues exactly as direct generation given the same prefix. A generic-model control ("another language model") shifts roll 1 just as much: the shift is the prediction wrapper, not *self* |
 | Oct 29 | 1 | [22 Loula-style dice self-recognition pilot](track1_self_prediction/22_2026-10-29_loula_dice_recognition_pilot/) | Qwen3-32B and Mistral Small 3.2 sequences are distinguishable (classifier AUC 0.76), but both judges answer A/B by position or name order, not content: 0.50 everywhere, no own-model advantage |
 | Oct 29 | 1 | [23 Recognition redesign: calibration gate](track1_self_prediction/23_2026-10-29_loula_recognition_redesign/) | Before retesting self-recognition, checked whether the judges read the sequences: neither Qwen3-32B nor Mistral passes the reading/rule calibration in either answer format (bare answers default to "A"), so the study stopped as prespecified |
+| Oct 30 | 1 | [24 Open-weight A/B probability scoring](track1_self_prediction/24_2026-10-29_loula_ab_logprob_pilot/) | **Incomplete, failed.** Read P(A) vs P(B) from Qwen3-32B open weights in both orders: the bias-corrected score picks the correct sample on all 36 reading checks, but the "A" bias still wins in one order on 16 of them, so the order-robustness gate fails and recognition was not tested |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
@@ -89,7 +90,7 @@ The current candidate follow-ups for each track are listed at the end of [`track
 
 | Path | Contents |
 |---|---|
-| `track1_self_prediction/` | 23 dated experiment folders: data, results, reports, README each |
+| `track1_self_prediction/` | 24 dated experiment folders: data, results, reports, README each |
 | `track2_game_theory/` | 20 dated experiment folders |
 | `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
 | `tests/` | Test suite (`python -m pytest`) |

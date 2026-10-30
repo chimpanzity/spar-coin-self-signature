@@ -1,0 +1,73 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<02:48,  4.20it/s]Loading weights:   0%|          | 2/707 [00:00<03:18,  3.56it/s]Loading weights:   1%|▏         | 10/707 [00:00<00:34, 20.34it/s]Loading weights:   2%|▏         | 15/707 [00:00<00:26, 26.10it/s]Loading weights:   4%|▍         | 27/707 [00:00<00:14, 46.68it/s]Loading weights:   5%|▍         | 33/707 [00:01<00:15, 44.46it/s]Loading weights:   7%|▋         | 47/707 [00:01<00:10, 65.84it/s]Loading weights:   8%|▊         | 56/707 [00:01<00:09, 65.11it/s]Loading weights:   9%|▉         | 64/707 [00:01<00:09, 66.66it/s]Loading weights:  10%|█         | 72/707 [00:01<00:10, 60.47it/s]Loading weights:  12%|█▏        | 82/707 [00:01<00:09, 63.50it/s]Loading weights:  13%|█▎        | 89/707 [00:01<00:09, 64.73it/s]Loading weights:  14%|█▎        | 96/707 [00:02<00:11, 55.07it/s]Loading weights:  14%|█▍        | 102/707 [00:02<00:10, 55.96it/s]Loading weights:  15%|█▌        | 108/707 [00:02<00:10, 54.78it/s]Loading weights:  16%|█▋        | 115/707 [00:02<00:10, 53.82it/s]Loading weights:  18%|█▊        | 124/707 [00:02<00:09, 58.42it/s]Loading weights:  19%|█▊        | 131/707 [00:02<00:09, 60.26it/s]Loading weights:  20%|█▉        | 138/707 [00:02<00:10, 56.03it/s]Loading weights:  21%|██        | 148/707 [00:02<00:08, 62.19it/s]Loading weights:  22%|██▏       | 158/707 [00:02<00:07, 70.34it/s]Loading weights:  23%|██▎       | 166/707 [00:03<00:09, 58.33it/s]Loading weights:  25%|██▌       | 180/707 [00:03<00:08, 64.71it/s]Loading weights:  27%|██▋       | 192/707 [00:03<00:06, 74.15it/s]Loading weights:  28%|██▊       | 201/707 [00:03<00:06, 76.44it/s]Loading weights:  30%|██▉       | 209/707 [00:03<00:06, 76.75it/s]Loading weights:  31%|███       | 217/707 [00:03<00:07, 68.05it/s]Loading weights:  32%|███▏      | 225/707 [00:04<00:08, 59.18it/s]Loading weights:  33%|███▎      | 236/707 [00:04<00:06, 67.97it/s]Loading weights:  35%|███▍      | 244/707 [00:04<00:08, 54.98it/s]Loading weights:  36%|███▌      | 252/707 [00:04<00:07, 58.11it/s]Loading weights:  38%|███▊      | 268/707 [00:04<00:05, 78.66it/s]Loading weights:  39%|███▉      | 277/707 [00:04<00:05, 78.09it/s]Loading weights:  40%|████      | 286/707 [00:04<00:05, 73.31it/s]Loading weights:  42%|████▏     | 294/707 [00:05<00:06, 67.80it/s]Loading weights:  43%|████▎     | 302/707 [00:05<00:05, 68.55it/s]Loading weights:  44%|████▍     | 312/707 [00:05<00:05, 71.96it/s]Loading weights:  45%|████▌     | 320/707 [00:05<00:07, 54.21it/s]Loading weights:  47%|████▋     | 335/707 [00:05<00:05, 70.50it/s]Loading weights:  49%|████▉     | 345/707 [00:05<00:05, 72.32it/s]Loading weights:  50%|████▉     | 353/707 [00:05<00:05, 63.68it/s]Loading weights:  51%|█████     | 362/707 [00:06<00:05, 67.90it/s]Loading weights:  52%|█████▏    | 370/707 [00:06<00:05, 61.42it/s]Loading weights:  54%|█████▎    | 379/707 [00:06<00:05, 63.98it/s]Loading weights:  55%|█████▍    | 386/707 [00:06<00:06, 49.53it/s]Loading weights:  57%|█████▋    | 401/707 [00:06<00:04, 66.39it/s]Loading weights:  58%|█████▊    | 409/707 [00:06<00:04, 63.96it/s]Loading weights:  59%|█████▉    | 417/707 [00:06<00:04, 65.40it/s]Loading weights:  60%|█████▉    | 424/707 [00:07<00:04, 57.48it/s]Loading weights:  61%|██████    | 431/707 [00:07<00:05, 54.89it/s]Loading weights:  63%|██████▎   | 444/707 [00:07<00:04, 65.42it/s]Loading weights:  64%|██████▍   | 451/707 [00:07<00:04, 61.63it/s]Loading weights:  65%|██████▍   | 458/707 [00:07<00:04, 56.38it/s]Loading weights:  66%|██████▌   | 467/707 [00:07<00:04, 59.73it/s]Loading weights:  67%|██████▋   | 474/707 [00:07<00:04, 57.62it/s]Loading weights:  68%|██████▊   | 483/707 [00:08<00:03, 64.97it/s]Loading weights:  69%|██████▉   | 490/707 [00:08<00:03, 57.43it/s]Loading weights:  71%|███████   | 500/707 [00:08<00:03, 63.21it/s]Loading weights:  72%|███████▏  | 510/707 [00:08<00:02, 67.79it/s]Loading weights:  73%|███████▎  | 517/707 [00:08<00:02, 63.50it/s]Loading weights:  74%|███████▍  | 524/707 [00:08<00:03, 59.08it/s]Loading weights:  75%|███████▌  | 533/707 [00:08<00:02, 62.70it/s]Loading weights:  77%|███████▋  | 541/707 [00:09<00:03, 50.27it/s]Loading weights:  79%|███████▊  | 555/707 [00:09<00:02, 64.14it/s]Loading weights:  79%|███████▉  | 562/707 [00:09<00:02, 62.52it/s]Loading weights:  81%|████████  | 571/707 [00:09<00:02, 66.83it/s]Loading weights:  82%|████████▏ | 578/707 [00:09<00:02, 61.88it/s]Loading weights:  83%|████████▎ | 588/707 [00:09<00:02, 58.81it/s]Loading weights:  84%|████████▍ | 595/707 [00:09<00:02, 54.82it/s]Loading weights:  86%|████████▌ | 609/707 [00:10<00:01, 68.77it/s]Loading weights:  87%|████████▋ | 617/707 [00:10<00:01, 65.37it/s]Loading weights:  88%|████████▊ | 624/707 [00:10<00:01, 59.13it/s]Loading weights:  89%|████████▉ | 631/707 [00:10<00:01, 60.31it/s]Loading weights:  90%|█████████ | 638/707 [00:10<00:01, 59.68it/s]Loading weights:  91%|█████████ | 645/707 [00:10<00:01, 52.12it/s]Loading weights:  93%|█████████▎| 654/707 [00:10<00:01, 50.02it/s]Loading weights:  94%|█████████▍| 665/707 [00:11<00:00, 57.30it/s]Loading weights:  95%|█████████▌| 673/707 [00:11<00:00, 57.84it/s]Loading weights:  96%|█████████▌| 680/707 [00:11<00:00, 60.38it/s]Loading weights:  97%|█████████▋| 687/707 [00:11<00:00, 57.23it/s]Loading weights:  98%|█████████▊| 696/707 [00:11<00:00, 59.16it/s]Loading weights:  99%|█████████▉| 703/707 [00:11<00:00, 57.16it/s]Loading weights: 100%|██████████| 707/707 [00:11<00:00, 60.01it/s]
+[1/72] cal|MORE_SIXES-07|XB: d=+2.8666 mass=0.9853 argmax='A'
+[2/72] cal|MORE_SIXES-08|XA: d=+14.0790 mass=0.9949 argmax='A'
+[3/72] cal|GEN_RULE-02|XA: d=+8.6949 mass=0.9981 argmax='A'
+[4/72] cal|GEN_RULE-09|XB: d=-9.0712 mass=0.9851 argmax='B'
+[5/72] cal|GEN_RULE-05|XA: d=+10.3736 mass=0.9989 argmax='A'
+[6/72] cal|GEN_RULE-01|XA: d=+11.7711 mass=0.9984 argmax='A'
+[7/72] cal|MORE_SIXES-07|XA: d=+6.8040 mass=0.9933 argmax='A'
+[8/72] cal|MORE_REPEATS-12|XA: d=+1.6489 mass=0.9052 argmax='A'
+[9/72] cal|GEN_RULE-04|XA: d=+9.3567 mass=0.9975 argmax='A'
+[10/72] cal|MORE_REPEATS-07|XA: d=+1.2763 mass=0.8873 argmax='A'
+[11/72] cal|MORE_SIXES-09|XA: d=+10.4327 mass=0.9954 argmax='A'
+[12/72] cal|MORE_REPEATS-05|XA: d=+1.3914 mass=0.8780 argmax='A'
+[13/72] cal|GEN_RULE-01|XB: d=-4.5958 mass=0.9873 argmax='B'
+[14/72] cal|MORE_SIXES-09|XB: d=+0.1554 mass=0.9480 argmax='A'
+[15/72] cal|MORE_REPEATS-02|XB: d=-0.2661 mass=0.8664 argmax='B'
+[16/72] cal|MORE_REPEATS-09|XB: d=+0.1814 mass=0.8861 argmax='A'
+[17/72] cal|MORE_REPEATS-11|XB: d=+0.7638 mass=0.9153 argmax='A'
+[18/72] cal|MORE_SIXES-04|XB: d=-0.1971 mass=0.9490 argmax='B'
+[19/72] cal|MORE_REPEATS-09|XA: d=+1.6646 mass=0.9066 argmax='A'
+[20/72] cal|GEN_RULE-02|XB: d=-4.0603 mass=0.9818 argmax='B'
+[21/72] cal|GEN_RULE-06|XA: d=+8.1117 mass=0.9950 argmax='A'
+[22/72] cal|MORE_REPEATS-06|XB: d=-0.3599 mass=0.8015 argmax='B'
+[23/72] cal|GEN_RULE-10|XB: d=-1.8084 mass=0.9876 argmax='B'
+[24/72] cal|MORE_SIXES-04|XA: d=+8.9731 mass=0.9974 argmax='A'
+[25/72] cal|GEN_RULE-03|XB: d=-0.8367 mass=0.9791 argmax='B'
+[26/72] cal|MORE_REPEATS-07|XB: d=-0.2153 mass=0.8646 argmax='B'
+[27/72] cal|MORE_SIXES-05|XA: d=+13.2617 mass=0.9977 argmax='A'
+[28/72] cal|MORE_SIXES-12|XB: d=+0.7446 mass=0.9675 argmax='A'
+[29/72] cal|MORE_REPEATS-11|XA: d=+1.6578 mass=0.9244 argmax='A'
+[30/72] cal|MORE_SIXES-02|XA: d=+12.2722 mass=0.9964 argmax='A'
+[31/72] cal|MORE_REPEATS-08|XB: d=+0.0054 mass=0.8617 argmax='A'
+[32/72] cal|MORE_REPEATS-03|XB: d=-0.3209 mass=0.8140 argmax='B'
+[33/72] cal|MORE_SIXES-01|XA: d=+5.1042 mass=0.9924 argmax='A'
+[34/72] cal|MORE_REPEATS-08|XA: d=+1.0183 mass=0.9037 argmax='A'
+[35/72] cal|GEN_RULE-11|XA: d=+10.4689 mass=0.9981 argmax='A'
+[36/72] cal|MORE_REPEATS-01|XA: d=+2.2124 mass=0.9317 argmax='A'
+[37/72] cal|MORE_SIXES-10|XB: d=+2.9890 mass=0.9679 argmax='A'
+[38/72] cal|GEN_RULE-08|XB: d=-1.6838 mass=0.9883 argmax='B'
+[39/72] cal|MORE_SIXES-06|XB: d=+2.9552 mass=0.9793 argmax='A'
+[40/72] cal|MORE_REPEATS-04|XB: d=+0.6739 mass=0.8591 argmax='A'
+[41/72] cal|MORE_REPEATS-01|XB: d=-0.1173 mass=0.8107 argmax='B'
+[42/72] cal|GEN_RULE-08|XA: d=+11.4518 mass=0.9990 argmax='A'
+[43/72] cal|MORE_REPEATS-04|XA: d=+0.8418 mass=0.8766 argmax='A'
+[44/72] cal|MORE_SIXES-02|XB: d=-6.7630 mass=0.9612 argmax='B'
+[45/72] cal|GEN_RULE-04|XB: d=-3.3548 mass=0.9688 argmax='B'
+[46/72] cal|MORE_SIXES-11|XA: d=+8.0149 mass=0.9971 argmax='A'
+[47/72] cal|GEN_RULE-07|XA: d=+11.1528 mass=0.9989 argmax='A'
+[48/72] cal|GEN_RULE-09|XA: d=+10.0703 mass=0.9970 argmax='A'
+[49/72] cal|GEN_RULE-12|XA: d=+9.9311 mass=0.9988 argmax='A'
+[50/72] cal|MORE_REPEATS-12|XB: d=-0.0426 mass=0.8343 argmax='B'
+[51/72] cal|MORE_SIXES-12|XA: d=+7.4071 mass=0.9958 argmax='A'
+[52/72] cal|MORE_REPEATS-10|XB: d=+0.4980 mass=0.8546 argmax='A'
+[53/72] cal|GEN_RULE-05|XB: d=-4.6794 mass=0.9791 argmax='B'
+[54/72] cal|GEN_RULE-07|XB: d=-10.1453 mass=0.9891 argmax='B'
+[55/72] cal|MORE_SIXES-01|XB: d=+2.6370 mass=0.9827 argmax='A'
+[56/72] cal|MORE_SIXES-03|XB: d=+1.0430 mass=0.9309 argmax='A'
+[57/72] cal|MORE_SIXES-06|XA: d=+5.4787 mass=0.9946 argmax='A'
+[58/72] cal|GEN_RULE-06|XB: d=-4.3256 mass=0.9797 argmax='B'
+[59/72] cal|GEN_RULE-12|XB: d=-3.9546 mass=0.9899 argmax='B'
+[60/72] cal|MORE_SIXES-05|XB: d=-10.9581 mass=0.9882 argmax='B'
+[61/72] cal|MORE_REPEATS-02|XA: d=+1.4479 mass=0.9013 argmax='A'
+[62/72] cal|MORE_SIXES-10|XA: d=+10.2802 mass=0.9955 argmax='A'
+[63/72] cal|MORE_SIXES-11|XB: d=+0.3321 mass=0.9829 argmax='A'
+[64/72] cal|MORE_SIXES-08|XB: d=-10.0033 mass=0.9783 argmax='B'
+[65/72] cal|MORE_REPEATS-06|XA: d=+1.9383 mass=0.9254 argmax='A'
+[66/72] cal|MORE_REPEATS-05|XB: d=-0.0433 mass=0.8398 argmax='B'
+[67/72] cal|GEN_RULE-10|XA: d=+11.2270 mass=0.9987 argmax='A'
+[68/72] cal|MORE_SIXES-03|XA: d=+9.4882 mass=0.9940 argmax='A'
+[69/72] cal|GEN_RULE-03|XA: d=+9.8623 mass=0.9990 argmax='A'
+[70/72] cal|MORE_REPEATS-10|XA: d=+0.6364 mass=0.8500 argmax='A'
+[71/72] cal|MORE_REPEATS-03|XA: d=+1.9557 mass=0.9168 argmax='A'
+[72/72] cal|GEN_RULE-11|XB: d=+0.9201 mass=0.9885 argmax='A'
