@@ -1,0 +1,67 @@
+[
+ {
+  "trial_id": "pre|MORE_SIXES-01|X|pos",
+  "stage": "preflight",
+  "unit_id": "MORE_SIXES-01",
+  "kind": "MORE_SIXES",
+  "role": "X",
+  "polarity": "pos",
+  "sequence": "5 1 3 6 1 2 4 4 6 6",
+  "X": "5 1 3 6 1 2 4 4 6 6",
+  "Y": "3 2 2 6 2 5 5 2 6 5",
+  "prompt": "Here is a sequence of 10 die rolls:\n5 1 3 6 1 2 4 4 6 6\n\nDoes this sequence contain more 6s than a fair die would typically produce in 10 rolls?\nReply with exactly one word: Yes or No.",
+  "prompt_sha256": "5090fe4b1d95ee8796d71ddd512b38ba8a8565139ed972cf85892e11a2afbf24"
+ },
+ {
+  "trial_id": "pre|MORE_SIXES-01|Y|pos",
+  "stage": "preflight",
+  "unit_id": "MORE_SIXES-01",
+  "kind": "MORE_SIXES",
+  "role": "Y",
+  "polarity": "pos",
+  "sequence": "3 2 2 6 2 5 5 2 6 5",
+  "X": "5 1 3 6 1 2 4 4 6 6",
+  "Y": "3 2 2 6 2 5 5 2 6 5",
+  "prompt": "Here is a sequence of 10 die rolls:\n3 2 2 6 2 5 5 2 6 5\n\nDoes this sequence contain more 6s than a fair die would typically produce in 10 rolls?\nReply with exactly one word: Yes or No.",
+  "prompt_sha256": "4a181ee26d78057472ee417f5c3241251a1d50d2f478c170d374f45113b8b3e7"
+ },
+ {
+  "trial_id": "pre|MORE_REPEATS-01|X|pos",
+  "stage": "preflight",
+  "unit_id": "MORE_REPEATS-01",
+  "kind": "MORE_REPEATS",
+  "role": "X",
+  "polarity": "pos",
+  "sequence": "2 2 4 4 5 5 6 6 2 3",
+  "X": "2 2 4 4 5 5 6 6 2 3",
+  "Y": "3 3 5 4 2 1 5 3 4 3",
+  "prompt": "Here is a sequence of 10 die rolls:\n2 2 4 4 5 5 6 6 2 3\n\nDoes this sequence contain more adjacent repeats, that is, places where a number is immediately followed by the same number, than a fair die would typically produce in 10 rolls?\nReply with exactly one word: Yes or No.",
+  "prompt_sha256": "2635cbc26178d6f6fd48a3aae1235cbc19d760dac7f5335855ecdab2024244fa"
+ },
+ {
+  "trial_id": "pre|MORE_REPEATS-01|Y|pos",
+  "stage": "preflight",
+  "unit_id": "MORE_REPEATS-01",
+  "kind": "MORE_REPEATS",
+  "role": "Y",
+  "polarity": "pos",
+  "sequence": "3 3 5 4 2 1 5 3 4 3",
+  "X": "2 2 4 4 5 5 6 6 2 3",
+  "Y": "3 3 5 4 2 1 5 3 4 3",
+  "prompt": "Here is a sequence of 10 die rolls:\n3 3 5 4 2 1 5 3 4 3\n\nDoes this sequence contain more adjacent repeats, that is, places where a number is immediately followed by the same number, than a fair die would typically produce in 10 rolls?\nReply with exactly one word: Yes or No.",
+  "prompt_sha256": "a7e6d71e99a36fc9f4fd725b69e21e0e8c974a88d81789cebb2b7641d5238d7d"
+ },
+ {
+  "trial_id": "pre|GENERIC",
+  "stage": "preflight",
+  "unit_id": "GENERIC",
+  "kind": "GENERIC",
+  "role": "X",
+  "polarity": "pos",
+  "sequence": "",
+  "X": "",
+  "Y": "",
+  "prompt": "Is 2 + 2 equal to 4?\nReply with exactly one word: Yes or No.",
+  "prompt_sha256": "29db2f3bfcec5336698a64afb17e75b1bc329a98d6594bf3827d721a6a4f8b31"
+ }
+]

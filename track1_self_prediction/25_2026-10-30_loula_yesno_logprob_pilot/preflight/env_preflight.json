@@ -1,0 +1,86 @@
+{
+  "model_id": "Qwen/Qwen3-32B",
+  "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.2,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.9",
+  "driver": "580.178.04",
+  "eos_ids": [
+    151643,
+    151645
+  ],
+  "face_bare_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+  },
+  "face_space_ids": {
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null
+  },
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "load_seconds": 21.8,
+  "mode": "preflight",
+  "tag": "LOULA_DICE_YESNO_LOGPROB_v3.0",
+  "expected_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "revision_match": true,
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "label_tokens": {
+    "Yes": {
+      "id": 9454,
+      "bytes": [
+        89,
+        101,
+        115
+      ],
+      "space_id": 7414
+    },
+    "No": {
+      "id": 2753,
+      "bytes": [
+        78,
+        111
+      ],
+      "space_id": 2308
+    }
+  },
+  "user_prefix_ids": [
+    151644,
+    872,
+    198
+  ],
+  "primary_method": "prefill",
+  "trials_file_sha256": "5bcf0b0ce87caad79faef1d254974fba4c4ccdc973fdd27fd82d13950c3e1e00",
+  "n_trials": 5,
+  "resumed_completed": 0,
+  "gate_file": null,
+  "epsilon": null,
+  "started_utc": "2026-10-30T18:38:44.233930+00:00",
+  "template_checks": {
+    "ends_with_empty_think": true,
+    "has_system_turn": false,
+    "n_user_turns": 1,
+    "label_appends_single_token": {
+      "Yes": true,
+      "No": true
+    },
+    "assistant_prefix_tail": "|im_start|>assistant\n<think>\n\n</think>\n\n"
+  },
+  "finished_utc": "2026-10-30T18:39:21.255737+00:00"
+}

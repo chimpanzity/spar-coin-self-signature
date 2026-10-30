@@ -46,6 +46,7 @@ T1_EXP = {
     "dice_recognition":      T1 / "22_2026-10-29_loula_dice_recognition_pilot",
     "dice_recognition_v2":   T1 / "23_2026-10-29_loula_recognition_redesign",
     "dice_recognition_logprob": T1 / "24_2026-10-29_loula_ab_logprob_pilot",
+    "dice_recognition_yesno": T1 / "25_2026-10-30_loula_yesno_logprob_pilot",
 }
 T2_EXP = {
     "blind_twin_v1":         T2 / "01_2026-10-09_blind_twin_v1_mp",

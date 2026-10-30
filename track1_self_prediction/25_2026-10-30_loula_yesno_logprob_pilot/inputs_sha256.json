@@ -1,0 +1,30 @@
+{
+  "recognition_pairs": {
+    "path": "track1_self_prediction/22_2026-10-29_loula_dice_recognition_pilot/judgments/pairs.csv",
+    "sha256": "ede11df7d813c49c5c724f80374ec01d7a0fd14d06854da97b8626d7d464ae9a"
+  },
+  "heldout": {
+    "path": "track1_self_prediction/22_2026-10-29_loula_dice_recognition_pilot/corpus/heldout.csv",
+    "sha256": "6cd890ab1383c3e57081021f899bea2940e19cfa442cdd02535ad9c745378d30"
+  },
+  "classifier_gate": {
+    "path": "track1_self_prediction/22_2026-10-29_loula_dice_recognition_pilot/corpus/classifier_gate.json",
+    "sha256": "993e107010b23a148cf2da22adf75dfd00aa543cd6d7b8f11a6a6954d05d4604"
+  },
+  "exp23_items": {
+    "path": "track1_self_prediction/23_2026-10-29_loula_recognition_redesign/calibration/items.csv",
+    "sha256": "e43e3a592900f32a0b96787520898007ef3946c1704aaaeeb48500528f19a63d"
+  },
+  "exp24_calibration_gate": {
+    "path": "track1_self_prediction/24_2026-10-29_loula_ab_logprob_pilot/calibration/calibration_gate.json",
+    "sha256": "0920534ebd9502174a06f38349d28c7a85bee8d678cfd84f00dd38ac7595a9b1"
+  },
+  "exp24_paired_scores": {
+    "path": "track1_self_prediction/24_2026-10-29_loula_ab_logprob_pilot/calibration/paired_scores.csv",
+    "sha256": "b09c5950531340657992101d5eeabb7bd0200a9be1cefba6c0e8327a03d16cc5"
+  },
+  "calibration_items": {
+    "path": "track1_self_prediction/25_2026-10-30_loula_yesno_logprob_pilot/calibration/items.csv",
+    "sha256": "66000a2a7a672fce4d7ec2bbb00d0bb0ce6f0bec0339a94d7e7f63c71a77bb7f"
+  }
+}

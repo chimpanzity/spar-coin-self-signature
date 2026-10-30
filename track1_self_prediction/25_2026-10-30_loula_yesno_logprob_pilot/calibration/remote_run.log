@@ -1,0 +1,145 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 2/707 [00:00<01:30,  7.80it/s]Loading weights:   1%|▏         | 9/707 [00:00<00:23, 29.25it/s]Loading weights:   2%|▏         | 17/707 [00:00<00:16, 41.17it/s]Loading weights:   4%|▍         | 27/707 [00:00<00:12, 54.50it/s]Loading weights:   5%|▌         | 37/707 [00:00<00:10, 61.64it/s]Loading weights:   6%|▌         | 44/707 [00:00<00:10, 60.90it/s]Loading weights:   7%|▋         | 51/707 [00:01<00:12, 53.24it/s]Loading weights:   8%|▊         | 60/707 [00:01<00:12, 53.84it/s]Loading weights:   9%|▉         | 66/707 [00:01<00:11, 53.54it/s]Loading weights:  10%|█         | 72/707 [00:01<00:13, 48.03it/s]Loading weights:  12%|█▏        | 82/707 [00:01<00:11, 55.29it/s]Loading weights:  13%|█▎        | 92/707 [00:01<00:10, 57.27it/s]Loading weights:  14%|█▍        | 98/707 [00:01<00:12, 50.34it/s]Loading weights:  15%|█▍        | 104/707 [00:02<00:11, 50.62it/s]Loading weights:  16%|█▌        | 114/707 [00:02<00:10, 57.69it/s]Loading weights:  17%|█▋        | 120/707 [00:02<00:10, 54.35it/s]Loading weights:  18%|█▊        | 126/707 [00:02<00:10, 55.29it/s]Loading weights:  19%|█▉        | 136/707 [00:02<00:09, 61.03it/s]Loading weights:  20%|██        | 143/707 [00:02<00:09, 57.80it/s]Loading weights:  21%|██        | 149/707 [00:02<00:12, 45.40it/s]Loading weights:  22%|██▏       | 159/707 [00:03<00:10, 53.93it/s]Loading weights:  24%|██▍       | 169/707 [00:03<00:09, 56.05it/s]Loading weights:  25%|██▌       | 180/707 [00:03<00:08, 65.07it/s]Loading weights:  26%|██▋       | 187/707 [00:03<00:08, 62.95it/s]Loading weights:  27%|██▋       | 194/707 [00:03<00:09, 51.90it/s]Loading weights:  29%|██▊       | 203/707 [00:03<00:08, 58.75it/s]Loading weights:  30%|██▉       | 212/707 [00:03<00:07, 62.02it/s]Loading weights:  31%|███       | 219/707 [00:04<00:07, 61.38it/s]Loading weights:  32%|███▏      | 226/707 [00:04<00:08, 57.62it/s]Loading weights:  33%|███▎      | 235/707 [00:04<00:08, 55.74it/s]Loading weights:  34%|███▍      | 243/707 [00:04<00:07, 61.24it/s]Loading weights:  35%|███▌      | 250/707 [00:04<00:07, 57.57it/s]Loading weights:  36%|███▋      | 258/707 [00:04<00:07, 58.80it/s]Loading weights:  38%|███▊      | 268/707 [00:04<00:06, 62.97it/s]Loading weights:  39%|███▉      | 275/707 [00:04<00:06, 62.07it/s]Loading weights:  40%|███▉      | 282/707 [00:05<00:08, 48.42it/s]Loading weights:  41%|████      | 290/707 [00:05<00:07, 53.73it/s]Loading weights:  42%|████▏     | 300/707 [00:05<00:06, 62.07it/s]Loading weights:  44%|████▎     | 308/707 [00:05<00:06, 64.55it/s]Loading weights:  45%|████▍     | 315/707 [00:05<00:06, 60.24it/s]Loading weights:  46%|████▌     | 323/707 [00:05<00:05, 64.91it/s]Loading weights:  47%|████▋     | 330/707 [00:05<00:06, 58.10it/s]Loading weights:  48%|████▊     | 337/707 [00:06<00:06, 55.53it/s]Loading weights:  49%|████▉     | 346/707 [00:06<00:05, 61.56it/s]Loading weights:  50%|█████     | 356/707 [00:06<00:05, 68.88it/s]Loading weights:  51%|█████▏    | 364/707 [00:06<00:04, 69.15it/s]Loading weights:  53%|█████▎    | 372/707 [00:06<00:06, 55.75it/s]Loading weights:  54%|█████▎    | 379/707 [00:06<00:05, 55.82it/s]Loading weights:  55%|█████▌    | 389/707 [00:06<00:05, 60.86it/s]Loading weights:  56%|█████▌    | 396/707 [00:07<00:05, 59.86it/s]Loading weights:  57%|█████▋    | 403/707 [00:07<00:05, 55.93it/s]Loading weights:  58%|█████▊    | 411/707 [00:07<00:04, 59.59it/s]Loading weights:  59%|█████▉    | 418/707 [00:07<00:05, 52.98it/s]Loading weights:  60%|█████▉    | 424/707 [00:07<00:05, 49.72it/s]Loading weights:  61%|██████▏   | 434/707 [00:07<00:04, 56.98it/s]Loading weights:  63%|██████▎   | 444/707 [00:07<00:04, 61.99it/s]Loading weights:  64%|██████▍   | 451/707 [00:07<00:04, 59.35it/s]Loading weights:  65%|██████▍   | 458/707 [00:08<00:05, 48.74it/s]Loading weights:  66%|██████▌   | 467/707 [00:08<00:04, 54.25it/s]Loading weights:  67%|██████▋   | 477/707 [00:08<00:03, 61.99it/s]Loading weights:  68%|██████▊   | 484/707 [00:08<00:03, 60.89it/s]Loading weights:  69%|██████▉   | 491/707 [00:08<00:03, 57.87it/s]Loading weights:  71%|███████   | 500/707 [00:08<00:03, 56.26it/s]Loading weights:  72%|███████▏  | 509/707 [00:09<00:03, 53.78it/s]Loading weights:  74%|███████▎  | 521/707 [00:09<00:02, 65.41it/s]Loading weights:  75%|███████▍  | 529/707 [00:09<00:02, 67.11it/s]Loading weights:  76%|███████▌  | 537/707 [00:09<00:02, 65.59it/s]Loading weights:  77%|███████▋  | 544/707 [00:09<00:02, 58.05it/s]Loading weights:  78%|███████▊  | 553/707 [00:09<00:02, 60.49it/s]Loading weights:  79%|███████▉  | 560/707 [00:09<00:02, 61.85it/s]Loading weights:  80%|████████  | 567/707 [00:09<00:02, 62.16it/s]Loading weights:  81%|████████▏ | 576/707 [00:10<00:02, 65.18it/s]Loading weights:  83%|████████▎ | 587/707 [00:10<00:01, 67.09it/s]Loading weights:  84%|████████▍ | 594/707 [00:10<00:01, 56.74it/s]Loading weights:  85%|████████▍ | 600/707 [00:10<00:02, 50.07it/s]Loading weights:  86%|████████▋ | 610/707 [00:10<00:01, 56.39it/s]Loading weights:  88%|████████▊ | 620/707 [00:10<00:01, 61.23it/s]Loading weights:  89%|████████▊ | 627/707 [00:10<00:01, 60.24it/s]Loading weights:  90%|████████▉ | 634/707 [00:11<00:01, 47.82it/s]Loading weights:  91%|█████████ | 643/707 [00:11<00:01, 54.06it/s]Loading weights:  92%|█████████▏| 653/707 [00:11<00:00, 60.50it/s]Loading weights:  93%|█████████▎| 660/707 [00:11<00:00, 57.55it/s]Loading weights:  94%|█████████▍| 667/707 [00:11<00:00, 53.26it/s]Loading weights:  95%|█████████▌| 675/707 [00:11<00:00, 59.12it/s]Loading weights:  96%|█████████▋| 682/707 [00:11<00:00, 53.63it/s]Loading weights:  97%|█████████▋| 688/707 [00:12<00:00, 43.25it/s]Loading weights:  99%|█████████▊| 697/707 [00:12<00:00, 52.51it/s]Loading weights:  99%|█████████▉| 703/707 [00:12<00:00, 47.74it/s]Loading weights: 100%|██████████| 707/707 [00:12<00:00, 56.69it/s]
+[1/144] cal|MORE_REPEATS-12|X|neg: z=+1.1622 mass=0.9963 argmax='Yes'
+[2/144] cal|GEN_RULE-10|Y|pos: z=-2.2623 mass=0.9956 argmax='No'
+[3/144] cal|GEN_RULE-12|Y|neg: z=+1.9844 mass=0.9969 argmax='Yes'
+[4/144] cal|MORE_REPEATS-05|X|pos: z=-0.5649 mass=0.9957 argmax='No'
+[5/144] cal|MORE_SIXES-06|Y|neg: z=+0.8883 mass=0.9984 argmax='Yes'
+[6/144] cal|MORE_REPEATS-12|X|pos: z=+2.4539 mass=0.9966 argmax='Yes'
+[7/144] cal|MORE_SIXES-02|Y|pos: z=-6.2755 mass=0.9999 argmax='No'
+[8/144] cal|MORE_REPEATS-05|X|neg: z=+0.5533 mass=0.9985 argmax='Yes'
+[9/144] cal|GEN_RULE-08|X|pos: z=+2.8537 mass=0.9998 argmax='Yes'
+[10/144] cal|MORE_REPEATS-11|Y|pos: z=-1.4790 mass=0.9959 argmax='No'
+[11/144] cal|GEN_RULE-01|Y|neg: z=+1.8233 mass=0.9966 argmax='Yes'
+[12/144] cal|GEN_RULE-03|Y|neg: z=+2.3748 mass=0.9969 argmax='Yes'
+[13/144] cal|MORE_SIXES-01|X|neg: z=-2.4915 mass=0.9988 argmax='No'
+[14/144] cal|MORE_SIXES-10|X|pos: z=+0.6677 mass=0.9963 argmax='Yes'
+[15/144] cal|MORE_REPEATS-05|Y|pos: z=-2.0796 mass=0.9968 argmax='No'
+[16/144] cal|GEN_RULE-12|Y|pos: z=-2.3205 mass=0.9977 argmax='No'
+[17/144] cal|GEN_RULE-07|Y|neg: z=+2.5463 mass=0.9968 argmax='Yes'
+[18/144] cal|MORE_REPEATS-04|Y|neg: z=+1.1338 mass=0.9982 argmax='Yes'
+[19/144] cal|MORE_SIXES-04|Y|neg: z=+0.8690 mass=0.9987 argmax='Yes'
+[20/144] cal|MORE_REPEATS-07|Y|pos: z=+1.2650 mass=0.9966 argmax='Yes'
+[21/144] cal|MORE_SIXES-04|Y|pos: z=-3.7097 mass=0.9983 argmax='No'
+[22/144] cal|MORE_REPEATS-10|Y|pos: z=+0.8240 mass=0.9948 argmax='Yes'
+[23/144] cal|GEN_RULE-10|X|pos: z=+3.6399 mass=0.9999 argmax='Yes'
+[24/144] cal|MORE_SIXES-12|Y|pos: z=-7.2625 mass=0.9999 argmax='No'
+[25/144] cal|MORE_SIXES-05|X|pos: z=-0.6354 mass=0.9987 argmax='No'
+[26/144] cal|MORE_REPEATS-09|Y|neg: z=+0.5906 mass=0.9975 argmax='Yes'
+[27/144] cal|MORE_REPEATS-02|Y|pos: z=-0.3295 mass=0.9974 argmax='No'
+[28/144] cal|GEN_RULE-09|X|pos: z=+9.1099 mass=1.0000 argmax='Yes'
+[29/144] cal|MORE_SIXES-01|Y|neg: z=-0.5120 mass=0.9981 argmax='No'
+[30/144] cal|GEN_RULE-02|Y|pos: z=-0.8033 mass=0.9978 argmax='No'
+[31/144] cal|GEN_RULE-04|X|neg: z=+1.5270 mass=0.9991 argmax='Yes'
+[32/144] cal|MORE_SIXES-05|Y|neg: z=+1.9902 mass=0.9991 argmax='Yes'
+[33/144] cal|GEN_RULE-02|X|neg: z=+0.5669 mass=0.9994 argmax='Yes'
+[34/144] cal|GEN_RULE-09|Y|neg: z=+2.1192 mass=0.9968 argmax='Yes'
+[35/144] cal|MORE_SIXES-08|X|pos: z=+0.0243 mass=0.9975 argmax='Yes'
+[36/144] cal|GEN_RULE-08|X|neg: z=+2.6166 mass=0.9996 argmax='Yes'
+[37/144] cal|MORE_SIXES-08|Y|pos: z=-2.9380 mass=0.9984 argmax='No'
+[38/144] cal|MORE_SIXES-12|Y|neg: z=+3.5796 mass=0.9998 argmax='Yes'
+[39/144] cal|MORE_REPEATS-06|Y|neg: z=+0.6689 mass=0.9981 argmax='Yes'
+[40/144] cal|MORE_REPEATS-07|X|neg: z=+0.7985 mass=0.9973 argmax='Yes'
+[41/144] cal|MORE_REPEATS-08|Y|neg: z=+0.5487 mass=0.9975 argmax='Yes'
+[42/144] cal|MORE_SIXES-04|X|neg: z=-0.9843 mass=0.9982 argmax='No'
+[43/144] cal|MORE_SIXES-03|X|neg: z=+1.5792 mass=0.9972 argmax='Yes'
+[44/144] cal|GEN_RULE-06|X|neg: z=+2.9069 mass=0.9999 argmax='Yes'
+[45/144] cal|GEN_RULE-09|X|neg: z=+1.9348 mass=0.9998 argmax='Yes'
+[46/144] cal|MORE_REPEATS-02|Y|neg: z=+0.7383 mass=0.9975 argmax='Yes'
+[47/144] cal|GEN_RULE-07|X|neg: z=+2.6486 mass=0.9986 argmax='Yes'
+[48/144] cal|GEN_RULE-11|X|pos: z=+2.6736 mass=0.9999 argmax='Yes'
+[49/144] cal|GEN_RULE-07|Y|pos: z=+1.0792 mass=0.9991 argmax='Yes'
+[50/144] cal|MORE_SIXES-07|X|neg: z=+0.9576 mass=0.9989 argmax='Yes'
+[51/144] cal|GEN_RULE-03|X|pos: z=+9.0331 mass=1.0000 argmax='Yes'
+[52/144] cal|GEN_RULE-10|Y|neg: z=+2.0598 mass=0.9960 argmax='Yes'
+[53/144] cal|MORE_REPEATS-01|Y|neg: z=+0.4356 mass=0.9968 argmax='Yes'
+[54/144] cal|GEN_RULE-01|X|neg: z=+1.3629 mass=0.9993 argmax='Yes'
+[55/144] cal|MORE_SIXES-03|Y|neg: z=+3.0552 mass=0.9999 argmax='Yes'
+[56/144] cal|GEN_RULE-09|Y|pos: z=-1.8198 mass=0.9989 argmax='No'
+[57/144] cal|MORE_SIXES-02|Y|neg: z=+3.8479 mass=0.9999 argmax='Yes'
+[58/144] cal|GEN_RULE-01|X|pos: z=+4.5366 mass=0.9999 argmax='Yes'
+[59/144] cal|GEN_RULE-03|Y|pos: z=+0.6213 mass=0.9961 argmax='Yes'
+[60/144] cal|GEN_RULE-05|X|pos: z=+6.9273 mass=0.9999 argmax='Yes'
+[61/144] cal|MORE_SIXES-12|X|neg: z=+1.9415 mass=0.9987 argmax='Yes'
+[62/144] cal|GEN_RULE-12|X|pos: z=+4.2920 mass=0.9998 argmax='Yes'
+[63/144] cal|MORE_REPEATS-09|X|neg: z=+0.3145 mass=0.9980 argmax='Yes'
+[64/144] cal|MORE_REPEATS-10|Y|neg: z=+0.7010 mass=0.9957 argmax='Yes'
+[65/144] cal|MORE_REPEATS-01|Y|pos: z=-3.6874 mass=0.9974 argmax='No'
+[66/144] cal|MORE_SIXES-11|Y|pos: z=+0.4001 mass=0.9981 argmax='Yes'
+[67/144] cal|GEN_RULE-04|Y|neg: z=+2.1138 mass=0.9979 argmax='Yes'
+[68/144] cal|MORE_SIXES-12|X|pos: z=-3.2107 mass=0.9986 argmax='No'
+[69/144] cal|GEN_RULE-08|Y|pos: z=-1.9491 mass=0.9978 argmax='No'
+[70/144] cal|MORE_SIXES-02|X|pos: z=+1.8731 mass=0.9969 argmax='Yes'
+[71/144] cal|MORE_SIXES-03|X|pos: z=-3.4823 mass=0.9978 argmax='No'
+[72/144] cal|MORE_REPEATS-10|X|pos: z=+1.9580 mass=0.9945 argmax='Yes'
+[73/144] cal|MORE_SIXES-11|Y|neg: z=-1.2813 mass=0.9988 argmax='No'
+[74/144] cal|MORE_REPEATS-11|X|pos: z=-1.7308 mass=0.9968 argmax='No'
+[75/144] cal|GEN_RULE-11|X|neg: z=+2.1193 mass=0.9996 argmax='Yes'
+[76/144] cal|MORE_REPEATS-11|X|neg: z=+0.5472 mass=0.9969 argmax='Yes'
+[77/144] cal|GEN_RULE-02|X|pos: z=+4.0719 mass=1.0000 argmax='Yes'
+[78/144] cal|MORE_REPEATS-06|X|pos: z=+2.2361 mass=0.9966 argmax='Yes'
+[79/144] cal|MORE_REPEATS-01|X|pos: z=-1.5844 mass=0.9974 argmax='No'
+[80/144] cal|GEN_RULE-10|X|neg: z=+1.6342 mass=0.9989 argmax='Yes'
+[81/144] cal|GEN_RULE-04|Y|pos: z=-0.5092 mass=0.9990 argmax='No'
+[82/144] cal|MORE_SIXES-10|X|neg: z=-0.1552 mass=0.9979 argmax='No'
+[83/144] cal|MORE_REPEATS-06|Y|pos: z=-4.0647 mass=0.9983 argmax='No'
+[84/144] cal|MORE_SIXES-03|Y|pos: z=-9.1288 mass=0.9999 argmax='No'
+[85/144] cal|MORE_REPEATS-04|X|neg: z=+0.7378 mass=0.9976 argmax='Yes'
+[86/144] cal|MORE_SIXES-11|X|pos: z=+2.7510 mass=0.9967 argmax='Yes'
+[87/144] cal|MORE_REPEATS-09|Y|pos: z=-1.8016 mass=0.9951 argmax='No'
+[88/144] cal|MORE_SIXES-08|Y|neg: z=+1.8889 mass=0.9979 argmax='Yes'
+[89/144] cal|MORE_REPEATS-08|X|neg: z=+0.7885 mass=0.9986 argmax='Yes'
+[90/144] cal|GEN_RULE-04|X|pos: z=+4.1324 mass=0.9999 argmax='Yes'
+[91/144] cal|MORE_SIXES-09|X|neg: z=+1.5800 mass=0.9981 argmax='Yes'
+[92/144] cal|GEN_RULE-03|X|neg: z=+2.6739 mass=0.9998 argmax='Yes'
+[93/144] cal|MORE_REPEATS-04|Y|pos: z=+1.6377 mass=0.9968 argmax='Yes'
+[94/144] cal|MORE_SIXES-11|X|neg: z=-2.0813 mass=0.9980 argmax='No'
+[95/144] cal|MORE_SIXES-06|Y|pos: z=-2.4648 mass=0.9981 argmax='No'
+[96/144] cal|GEN_RULE-12|X|neg: z=+2.1537 mass=0.9988 argmax='Yes'
+[97/144] cal|MORE_REPEATS-03|Y|pos: z=-1.6186 mass=0.9973 argmax='No'
+[98/144] cal|GEN_RULE-11|Y|pos: z=-2.9310 mass=0.9963 argmax='No'
+[99/144] cal|MORE_REPEATS-11|Y|neg: z=+0.3681 mass=0.9962 argmax='Yes'
+[100/144] cal|GEN_RULE-11|Y|neg: z=+1.9760 mass=0.9942 argmax='Yes'
+[101/144] cal|MORE_SIXES-09|Y|neg: z=+4.2848 mass=0.9999 argmax='Yes'
+[102/144] cal|MORE_SIXES-09|Y|pos: z=-6.4721 mass=0.9999 argmax='No'
+[103/144] cal|GEN_RULE-06|X|pos: z=+6.2402 mass=1.0000 argmax='Yes'
+[104/144] cal|GEN_RULE-05|Y|neg: z=+2.6486 mass=0.9959 argmax='Yes'
+[105/144] cal|MORE_SIXES-07|Y|pos: z=-8.3570 mass=0.9999 argmax='No'
+[106/144] cal|MORE_SIXES-07|Y|neg: z=+4.2370 mass=0.9998 argmax='Yes'
+[107/144] cal|MORE_SIXES-01|Y|pos: z=+0.2606 mass=0.9972 argmax='Yes'
+[108/144] cal|MORE_REPEATS-06|X|neg: z=+0.9305 mass=0.9969 argmax='Yes'
+[109/144] cal|MORE_SIXES-06|X|pos: z=+0.4934 mass=0.9977 argmax='Yes'
+[110/144] cal|GEN_RULE-05|Y|pos: z=-2.2125 mass=0.9976 argmax='No'
+[111/144] cal|MORE_REPEATS-09|X|pos: z=-0.2781 mass=0.9952 argmax='No'
+[112/144] cal|MORE_SIXES-10|Y|neg: z=+2.9808 mass=0.9999 argmax='Yes'
+[113/144] cal|GEN_RULE-05|X|neg: z=+2.0935 mass=0.9994 argmax='Yes'
+[114/144] cal|MORE_SIXES-09|X|pos: z=-3.1907 mass=0.9979 argmax='No'
+[115/144] cal|MORE_SIXES-05|Y|pos: z=-2.0918 mass=0.9985 argmax='No'
+[116/144] cal|MORE_REPEATS-12|Y|neg: z=+0.7123 mass=0.9965 argmax='Yes'
+[117/144] cal|MORE_REPEATS-07|X|pos: z=+1.0350 mass=0.9966 argmax='Yes'
+[118/144] cal|MORE_REPEATS-03|X|neg: z=+0.9255 mass=0.9976 argmax='Yes'
+[119/144] cal|MORE_REPEATS-03|X|pos: z=+1.1509 mass=0.9949 argmax='Yes'
+[120/144] cal|MORE_SIXES-02|X|neg: z=-1.2695 mass=0.9988 argmax='No'
+[121/144] cal|MORE_SIXES-07|X|pos: z=-3.2067 mass=0.9994 argmax='No'
+[122/144] cal|MORE_REPEATS-07|Y|neg: z=+1.0815 mass=0.9965 argmax='Yes'
+[123/144] cal|MORE_REPEATS-10|X|neg: z=+0.8583 mass=0.9966 argmax='Yes'
+[124/144] cal|MORE_SIXES-05|X|neg: z=-1.0155 mass=0.9992 argmax='No'
+[125/144] cal|MORE_REPEATS-04|X|pos: z=+1.3768 mass=0.9972 argmax='Yes'
+[126/144] cal|MORE_REPEATS-02|X|pos: z=+2.1602 mass=0.9953 argmax='Yes'
+[127/144] cal|MORE_REPEATS-01|X|neg: z=+0.6036 mass=0.9979 argmax='Yes'
+[128/144] cal|MORE_REPEATS-08|Y|pos: z=+2.7959 mass=0.9972 argmax='Yes'
+[129/144] cal|GEN_RULE-08|Y|neg: z=+2.1413 mass=0.9974 argmax='Yes'
+[130/144] cal|MORE_REPEATS-08|X|pos: z=+1.1648 mass=0.9969 argmax='Yes'
+[131/144] cal|GEN_RULE-06|Y|pos: z=-1.1165 mass=0.9983 argmax='No'
+[132/144] cal|GEN_RULE-07|X|pos: z=+5.7015 mass=0.9998 argmax='Yes'
+[133/144] cal|GEN_RULE-01|Y|pos: z=-1.9760 mass=0.9976 argmax='No'
+[134/144] cal|MORE_REPEATS-05|Y|neg: z=+0.8258 mass=0.9979 argmax='Yes'
+[135/144] cal|MORE_REPEATS-03|Y|neg: z=+0.6236 mass=0.9970 argmax='Yes'
+[136/144] cal|MORE_SIXES-01|X|pos: z=+2.4857 mass=0.9986 argmax='Yes'
+[137/144] cal|MORE_REPEATS-12|Y|pos: z=+0.3932 mass=0.9951 argmax='Yes'
+[138/144] cal|GEN_RULE-02|Y|neg: z=+2.1360 mass=0.9962 argmax='Yes'
+[139/144] cal|MORE_SIXES-04|X|pos: z=-0.1285 mass=0.9975 argmax='No'
+[140/144] cal|GEN_RULE-06|Y|neg: z=+2.7162 mass=0.9983 argmax='Yes'
+[141/144] cal|MORE_SIXES-10|Y|pos: z=-7.9675 mass=1.0000 argmax='No'
+[142/144] cal|MORE_SIXES-08|X|neg: z=-0.4059 mass=0.9984 argmax='No'
+[143/144] cal|MORE_SIXES-06|X|neg: z=-1.0275 mass=0.9988 argmax='No'
+[144/144] cal|MORE_REPEATS-02|X|neg: z=+0.7167 mass=0.9967 argmax='Yes'

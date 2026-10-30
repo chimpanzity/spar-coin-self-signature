@@ -1,0 +1,43 @@
+{
+  "stage": "calibration",
+  "epsilon": 0.096588134765625,
+  "total_correct": 32,
+  "both_polarities_correct": 20,
+  "per_task": {
+    "MORE_SIXES": {
+      "n": 12,
+      "correct": 12,
+      "wrong": 0,
+      "indeterminate": 0,
+      "both_polarities_correct": 12,
+      "min_correct": 9,
+      "pass": true
+    },
+    "MORE_REPEATS": {
+      "n": 12,
+      "correct": 8,
+      "wrong": 2,
+      "indeterminate": 2,
+      "both_polarities_correct": 2,
+      "min_correct": 8,
+      "pass": true
+    },
+    "GEN_RULE": {
+      "n": 12,
+      "correct": 12,
+      "wrong": 0,
+      "indeterminate": 0,
+      "both_polarities_correct": 6,
+      "min_correct": 10,
+      "pass": true
+    }
+  },
+  "criteria": {
+    "S > eps in >= 29/36": true,
+    "MORE_SIXES >= 9/12": true,
+    "MORE_REPEATS >= 8/12": true,
+    "GEN_RULE >= 10/12": true,
+    "both polarities correct in >= 24/36": false
+  },
+  "overall": "FAIL"
+}
