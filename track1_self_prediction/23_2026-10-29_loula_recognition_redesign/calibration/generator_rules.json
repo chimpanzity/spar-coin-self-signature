@@ -1,0 +1,18 @@
+{
+  "R": {
+    "repeat_probability": 0.7,
+    "otherwise": "uniform over the 5 other faces",
+    "first": "uniform"
+  },
+  "S": {
+    "repeat_probability": 0.05,
+    "otherwise": "uniform over the 5 other faces",
+    "first": "uniform"
+  },
+  "length_range": [
+    10,
+    20
+  ],
+  "seed": 2026102911,
+  "doc": "Stage A synthetic calibration items (handoff section 4). Deterministic under SEEDS['calibration_items'].\n\nMORE_SIXES: two uniform 10-roll sequences whose counts of 6 differ by 1-3, neither with more than five 6s.\nMORE_REPEATS: two 10-roll Markov sequences (repeat probability drawn per sequence from U(0.1, 0.5)) whose\n    adjacent-repeat counts differ by 1-3, longest run at most 4 (no caricatures).\nGEN_RULE: one sequence from Generator R (repeat previous face with p=0.70, otherwise a uniform different face)\n    and one from Generator S (p=0.05); same length L ~ U{10..20} within a pair. Kept only if R shows at least one\n    switch (an exception), and R has strictly more adjacent repeats than S, so the provenance answer is also the\n    content answer.\nEach item stores sequence X (the correct one: more 6s / more repeats / from R) and Y. Duplicates are rejected.\n"
+}

@@ -1,0 +1,171 @@
+{
+  "tag": "LOULA_DICE_RECOGNITION_v2.0",
+  "created_utc": "2026-10-30T01:49:15.881112+00:00",
+  "git_head": "1340e787847ddfea9bf17c7270c6e4483c0c9de3",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "models": {
+    "qwen": {
+      "slug": "qwen/qwen3-32b",
+      "provider": "SiliconFlow",
+      "reasoning": {
+        "enabled": false
+      },
+      "price_per_token": [
+        1.4e-07,
+        5.7e-07
+      ],
+      "display": "Qwen3-32B"
+    },
+    "mistral": {
+      "slug": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider": "DeepInfra",
+      "reasoning": null,
+      "price_per_token": [
+        7.5e-08,
+        2e-07
+      ],
+      "display": "Mistral Small 3.2 24B"
+    }
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "max_tokens": 64
+  },
+  "judgment": {
+    "bare": {
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 8
+    },
+    "brief": {
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 160
+    }
+  },
+  "template_sha256": {
+    "GEN": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "ANSWER_bare": "6c325bd1d6359b7264b210fec748a82ec04ab3d0ff2bb138856600fb9e10c64b",
+    "ANSWER_brief": "a6a512c183adec5ad788b41e32ddc39776498dcdb8b1330e0ee8099083f9a3d8",
+    "AUTH": "42956ec4607eaa79610930c0d7b56cbe3875b8aa5af6ecb355e57543f4cd24af",
+    "TYP": "d1311e07d5bc69ff8a6c639cf3fadeb4f883ad3e0a28956800bf140d6131cf73",
+    "NAMED": "82e49de00923ee7a308d198a33edc6f28a414fe8f50d66528afe89d795283f17",
+    "EXPOSURE": "79d41bff287f2e00127f6b4364235805a800da276ec27f0baa69e5b70fbe56a1",
+    "CAL_MORE_SIXES": "52b9e24e8b94ad9a1df6137f5e7a265f80f2d5d88c95092a37604fc6b7e54133",
+    "CAL_MORE_REPEATS": "6ca51d69a13f328dea075891f1f389c1c24f42448bff025d37d1228134f1a459",
+    "CAL_GEN_RULE": "49e1045104e7024896205b926f3226743f7ba57883f7c2e723d6e20d86404197"
+  },
+  "inputs": {
+    "exp22_pairs": "..\\22_2026-10-29_loula_dice_recognition_pilot\\judgments\\pairs.csv",
+    "exp22_classifier": "..\\22_2026-10-29_loula_dice_recognition_pilot\\corpus\\classifier_gate.json"
+  },
+  "caps": {
+    "cost_usd": 5.0,
+    "attempts_per_source": 160
+  },
+  "seeds": {
+    "calibration_items": 2026102911,
+    "calibration_order": 2026102912,
+    "screen_order": 2026102913,
+    "gen_schedule": 2026102914,
+    "partition": 2026102915,
+    "dose_order": 2026102916,
+    "named_order": 2026102917,
+    "exposure_select": 2026102918,
+    "exposure_order": 2026102919,
+    "live_order": 2026102920,
+    "bootstrap": 2026102921
+  },
+  "cost_estimate": {
+    "api_preflight": {
+      "max_calls": 12,
+      "expected_usd": 0.0006,
+      "worst_case_usd": 0.0013
+    },
+    "calibration": {
+      "max_calls": 288,
+      "expected_usd": 0.012,
+      "worst_case_usd": 0.0184
+    },
+    "elicitation_screen": {
+      "max_calls": 320,
+      "expected_usd": 0.0209,
+      "worst_case_usd": 0.028
+    },
+    "corpus_v2": {
+      "max_calls": 320,
+      "expected_usd": 0.0061,
+      "worst_case_usd": 0.0141
+    },
+    "dose": {
+      "max_calls": 480,
+      "expected_usd": 0.0371,
+      "worst_case_usd": 0.0645
+    },
+    "named": {
+      "max_calls": 320,
+      "expected_usd": 0.0191,
+      "worst_case_usd": 0.0373
+    },
+    "exposure_D1": {
+      "max_calls": 160,
+      "expected_usd": 0.0155,
+      "worst_case_usd": 0.0246
+    },
+    "live_D2": {
+      "max_calls": 128,
+      "expected_usd": 0.0114,
+      "worst_case_usd": 0.0194
+    },
+    "total": {
+      "max_calls": 2028,
+      "expected_usd": 0.1227,
+      "worst_case_usd": 0.2076
+    },
+    "note": "Upper-bound prices = the dearer model's listed input/output price per token; the call cap guard uses $0.002/call. Real spend comes from OpenRouter usage.cost."
+  },
+  "cost_ledger": "cost_ledger.json",
+  "request_examples": {
+    "qwen": {
+      "model": "qwen/qwen3-32b",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 160,
+      "extra_body": {
+        "provider": {
+          "order": [
+            "SiliconFlow"
+          ],
+          "only": [
+            "SiliconFlow"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    "mistral": {
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 160,
+      "extra_body": {
+        "provider": {
+          "order": [
+            "DeepInfra"
+          ],
+          "only": [
+            "DeepInfra"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        }
+      }
+    }
+  }
+}

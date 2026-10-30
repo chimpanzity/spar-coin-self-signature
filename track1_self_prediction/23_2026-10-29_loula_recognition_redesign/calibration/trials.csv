@@ -1,0 +1,289 @@
+trial_id,stage,judge,fmt,task,item_id,orientation,A_content,B_content,correct,dispatch_index
+cal|qwen|brief|MORE_REPEATS-07|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-07,XA,3 2 5 3 3 3 1 4 3 1,4 5 1 3 2 1 1 6 3 4,A,1
+cal|qwen|brief|MORE_SIXES-12|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-12,XA,5 1 4 5 6 5 2 6 4 3,5 6 3 1 3 3 5 5 3 1,A,2
+cal|qwen|brief|GEN_RULE-04|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-04,XB,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,B,3
+cal|qwen|bare|MORE_SIXES-01|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-01,XA,5 5 6 6 3 3 3 1 6 2,1 5 1 2 6 1 6 1 2 4,A,4
+cal|qwen|bare|MORE_SIXES-04|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-04,XB,5 4 1 4 5 3 6 3 5 4,6 5 3 6 1 4 1 6 5 4,B,5
+cal|qwen|brief|MORE_SIXES-07|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-07,XB,5 3 3 4 6 5 6 2 3 3,6 3 4 5 6 6 1 3 1 1,B,6
+cal|mistral|brief|MORE_SIXES-04|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-04,XA,6 5 3 6 1 4 1 6 5 4,5 4 1 4 5 3 6 3 5 4,A,7
+cal|mistral|bare|MORE_SIXES-11|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-11,XA,6 1 3 4 1 4 6 1 3 6,6 5 3 3 2 5 1 1 4 5,A,8
+cal|mistral|bare|MORE_REPEATS-12|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-12,XB,6 1 1 2 2 3 6 3 6 5,5 2 4 4 5 5 4 4 2 4,B,9
+cal|mistral|bare|GEN_RULE-06|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-06,XB,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,B,10
+cal|mistral|brief|MORE_REPEATS-09|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-09,XB,2 6 4 4 3 5 2 6 4 2,5 5 5 6 4 1 1 1 2 1,B,11
+cal|mistral|bare|MORE_REPEATS-11|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-11,XA,6 6 6 5 4 6 6 6 6 3,2 2 6 2 2 3 4 2 1 2,A,12
+cal|qwen|brief|MORE_SIXES-06|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-06,XA,4 5 5 6 6 1 5 6 3 5,2 6 5 5 5 1 6 2 3 2,A,13
+cal|mistral|bare|MORE_SIXES-05|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-05,XA,3 4 6 3 1 3 1 3 6 3,3 5 1 3 3 5 2 1 5 2,A,14
+cal|mistral|brief|MORE_REPEATS-05|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-05,XB,3 5 5 1 3 2 5 5 6 2,5 5 6 6 5 6 6 6 6 1,B,15
+cal|mistral|bare|MORE_REPEATS-09|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-09,XA,5 5 5 6 4 1 1 1 2 1,2 6 4 4 3 5 2 6 4 2,A,16
+cal|qwen|brief|MORE_REPEATS-10|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-10,XA,3 2 1 1 1 2 5 3 3 2,1 2 6 1 2 3 1 1 2 6,A,17
+cal|qwen|brief|GEN_RULE-02|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-02,XA,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,A,18
+cal|mistral|bare|GEN_RULE-11|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-11,XA,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,A,19
+cal|mistral|brief|GEN_RULE-05|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-05,XB,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,B,20
+cal|qwen|bare|MORE_SIXES-02|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-02,XB,1 2 4 1 3 5 2 1 3 5,1 5 4 2 4 1 6 5 4 4,B,21
+cal|qwen|brief|MORE_REPEATS-12|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-12,XA,5 2 4 4 5 5 4 4 2 4,6 1 1 2 2 3 6 3 6 5,A,22
+cal|mistral|bare|MORE_SIXES-03|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-03,XA,2 1 3 6 6 2 5 4 6 2,5 3 6 1 3 3 5 2 1 5,A,23
+cal|mistral|bare|GEN_RULE-07|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-07,XB,4 5 1 2 6 3 2 3 4 1 5,3 3 3 3 5 5 5 5 5 4 5,B,24
+cal|qwen|bare|MORE_SIXES-11|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-11,XB,6 5 3 3 2 5 1 1 4 5,6 1 3 4 1 4 6 1 3 6,B,25
+cal|qwen|brief|GEN_RULE-08|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-08,XA,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,A,26
+cal|qwen|bare|MORE_REPEATS-12|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-12,XB,6 1 1 2 2 3 6 3 6 5,5 2 4 4 5 5 4 4 2 4,B,27
+cal|mistral|brief|MORE_SIXES-12|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-12,XB,5 6 3 1 3 3 5 5 3 1,5 1 4 5 6 5 2 6 4 3,B,28
+cal|mistral|bare|MORE_REPEATS-11|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-11,XB,2 2 6 2 2 3 4 2 1 2,6 6 6 5 4 6 6 6 6 3,B,29
+cal|mistral|bare|MORE_SIXES-10|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-10,XA,1 3 6 6 2 5 4 2 5 2,3 5 5 2 4 4 2 6 5 3,A,30
+cal|qwen|brief|MORE_REPEATS-02|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-02,XA,1 6 3 6 6 6 1 3 5 4,3 3 5 6 1 6 4 3 4 5,A,31
+cal|qwen|bare|MORE_REPEATS-03|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-03,XB,3 4 2 4 3 4 2 2 3 1,2 1 6 6 2 5 3 3 3 3,B,32
+cal|qwen|brief|GEN_RULE-12|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-12,XA,4 4 2 2 2 2 2 2 1 1 1 1 1 1,6 4 5 1 5 2 4 1 6 4 1 6 2 5,A,33
+cal|qwen|bare|GEN_RULE-07|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-07,XA,3 3 3 3 5 5 5 5 5 4 5,4 5 1 2 6 3 2 3 4 1 5,A,34
+cal|qwen|brief|GEN_RULE-07|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-07,XA,3 3 3 3 5 5 5 5 5 4 5,4 5 1 2 6 3 2 3 4 1 5,A,35
+cal|mistral|bare|MORE_REPEATS-08|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-08,XB,5 3 6 4 2 5 6 5 6 3,4 2 4 6 6 6 2 4 4 1,B,36
+cal|mistral|bare|MORE_REPEATS-03|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-03,XA,2 1 6 6 2 5 3 3 3 3,3 4 2 4 3 4 2 2 3 1,A,37
+cal|mistral|brief|MORE_SIXES-10|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-10,XB,3 5 5 2 4 4 2 6 5 3,1 3 6 6 2 5 4 2 5 2,B,38
+cal|qwen|brief|MORE_SIXES-03|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-03,XB,5 3 6 1 3 3 5 2 1 5,2 1 3 6 6 2 5 4 6 2,B,39
+cal|qwen|brief|GEN_RULE-06|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-06,XA,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,A,40
+cal|mistral|brief|GEN_RULE-09|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-09,XA,5 5 5 6 2 2 4 4 4 4 1 5 5 5,6 4 6 5 4 6 4 6 3 1 6 5 2 3,A,41
+cal|qwen|bare|MORE_REPEATS-11|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-11,XB,2 2 6 2 2 3 4 2 1 2,6 6 6 5 4 6 6 6 6 3,B,42
+cal|mistral|brief|MORE_SIXES-01|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-01,XA,5 5 6 6 3 3 3 1 6 2,1 5 1 2 6 1 6 1 2 4,A,43
+cal|mistral|bare|MORE_SIXES-06|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-06,XA,4 5 5 6 6 1 5 6 3 5,2 6 5 5 5 1 6 2 3 2,A,44
+cal|qwen|brief|GEN_RULE-05|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-05,XA,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,A,45
+cal|qwen|bare|GEN_RULE-09|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-09,XB,6 4 6 5 4 6 4 6 3 1 6 5 2 3,5 5 5 6 2 2 4 4 4 4 1 5 5 5,B,46
+cal|mistral|brief|GEN_RULE-10|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-10,XB,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,B,47
+cal|mistral|brief|MORE_REPEATS-06|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-06,XB,4 3 2 1 6 4 4 1 2 2,2 2 2 6 1 6 3 6 6 6,B,48
+cal|mistral|brief|GEN_RULE-10|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-10,XA,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,A,49
+cal|qwen|brief|MORE_SIXES-02|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-02,XB,1 2 4 1 3 5 2 1 3 5,1 5 4 2 4 1 6 5 4 4,B,50
+cal|qwen|brief|GEN_RULE-05|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-05,XB,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,B,51
+cal|qwen|bare|GEN_RULE-06|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-06,XB,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,B,52
+cal|qwen|bare|GEN_RULE-10|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-10,XB,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,B,53
+cal|mistral|brief|MORE_REPEATS-12|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-12,XA,5 2 4 4 5 5 4 4 2 4,6 1 1 2 2 3 6 3 6 5,A,54
+cal|qwen|bare|MORE_SIXES-10|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-10,XB,3 5 5 2 4 4 2 6 5 3,1 3 6 6 2 5 4 2 5 2,B,55
+cal|qwen|brief|MORE_SIXES-08|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-08,XA,6 1 3 2 1 3 2 4 3 3,3 3 5 1 4 3 3 5 4 4,A,56
+cal|qwen|brief|MORE_REPEATS-04|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-04,XA,5 1 4 5 5 3 3 5 2 4,1 6 5 6 4 2 3 2 4 3,A,57
+cal|mistral|brief|MORE_SIXES-07|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-07,XA,6 3 4 5 6 6 1 3 1 1,5 3 3 4 6 5 6 2 3 3,A,58
+cal|mistral|brief|MORE_SIXES-05|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-05,XA,3 4 6 3 1 3 1 3 6 3,3 5 1 3 3 5 2 1 5 2,A,59
+cal|mistral|brief|MORE_SIXES-08|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-08,XB,3 3 5 1 4 3 3 5 4 4,6 1 3 2 1 3 2 4 3 3,B,60
+cal|mistral|bare|GEN_RULE-02|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-02,XB,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,B,61
+cal|qwen|bare|MORE_REPEATS-01|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-01,XB,4 3 6 2 1 3 5 5 5 2,6 6 6 5 1 1 6 6 5 4,B,62
+cal|mistral|bare|MORE_REPEATS-04|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-04,XA,5 1 4 5 5 3 3 5 2 4,1 6 5 6 4 2 3 2 4 3,A,63
+cal|qwen|brief|MORE_REPEATS-09|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-09,XA,5 5 5 6 4 1 1 1 2 1,2 6 4 4 3 5 2 6 4 2,A,64
+cal|mistral|bare|MORE_SIXES-12|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-12,XB,5 6 3 1 3 3 5 5 3 1,5 1 4 5 6 5 2 6 4 3,B,65
+cal|qwen|brief|GEN_RULE-04|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-04,XA,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,A,66
+cal|mistral|bare|MORE_SIXES-09|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-09,XB,1 1 4 3 6 3 4 2 2 1,3 3 6 6 3 1 4 5 3 6,B,67
+cal|qwen|bare|MORE_REPEATS-10|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-10,XB,1 2 6 1 2 3 1 1 2 6,3 2 1 1 1 2 5 3 3 2,B,68
+cal|qwen|brief|MORE_REPEATS-01|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-01,XA,6 6 6 5 1 1 6 6 5 4,4 3 6 2 1 3 5 5 5 2,A,69
+cal|mistral|bare|MORE_REPEATS-10|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-10,XB,1 2 6 1 2 3 1 1 2 6,3 2 1 1 1 2 5 3 3 2,B,70
+cal|qwen|bare|GEN_RULE-03|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-03,XA,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,A,71
+cal|qwen|brief|MORE_REPEATS-05|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-05,XA,5 5 6 6 5 6 6 6 6 1,3 5 5 1 3 2 5 5 6 2,A,72
+cal|qwen|brief|MORE_REPEATS-08|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-08,XA,4 2 4 6 6 6 2 4 4 1,5 3 6 4 2 5 6 5 6 3,A,73
+cal|mistral|bare|MORE_SIXES-02|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-02,XA,1 5 4 2 4 1 6 5 4 4,1 2 4 1 3 5 2 1 3 5,A,74
+cal|mistral|bare|MORE_SIXES-05|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-05,XB,3 5 1 3 3 5 2 1 5 2,3 4 6 3 1 3 1 3 6 3,B,75
+cal|qwen|bare|GEN_RULE-09|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-09,XA,5 5 5 6 2 2 4 4 4 4 1 5 5 5,6 4 6 5 4 6 4 6 3 1 6 5 2 3,A,76
+cal|qwen|bare|MORE_REPEATS-08|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-08,XB,5 3 6 4 2 5 6 5 6 3,4 2 4 6 6 6 2 4 4 1,B,77
+cal|qwen|brief|MORE_REPEATS-08|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-08,XB,5 3 6 4 2 5 6 5 6 3,4 2 4 6 6 6 2 4 4 1,B,78
+cal|mistral|brief|MORE_REPEATS-07|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-07,XB,4 5 1 3 2 1 1 6 3 4,3 2 5 3 3 3 1 4 3 1,B,79
+cal|qwen|bare|GEN_RULE-05|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-05,XB,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,B,80
+cal|mistral|brief|MORE_REPEATS-03|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-03,XB,3 4 2 4 3 4 2 2 3 1,2 1 6 6 2 5 3 3 3 3,B,81
+cal|qwen|brief|GEN_RULE-01|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-01,XA,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,A,82
+cal|mistral|brief|GEN_RULE-11|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-11,XB,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,B,83
+cal|qwen|bare|GEN_RULE-08|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-08,XA,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,A,84
+cal|mistral|bare|MORE_SIXES-10|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-10,XB,3 5 5 2 4 4 2 6 5 3,1 3 6 6 2 5 4 2 5 2,B,85
+cal|qwen|bare|MORE_SIXES-08|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-08,XA,6 1 3 2 1 3 2 4 3 3,3 3 5 1 4 3 3 5 4 4,A,86
+cal|mistral|brief|MORE_SIXES-03|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-03,XB,5 3 6 1 3 3 5 2 1 5,2 1 3 6 6 2 5 4 6 2,B,87
+cal|qwen|brief|MORE_REPEATS-11|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-11,XA,6 6 6 5 4 6 6 6 6 3,2 2 6 2 2 3 4 2 1 2,A,88
+cal|qwen|bare|GEN_RULE-01|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-01,XB,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,B,89
+cal|mistral|brief|GEN_RULE-04|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-04,XA,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,A,90
+cal|mistral|brief|MORE_REPEATS-10|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-10,XB,1 2 6 1 2 3 1 1 2 6,3 2 1 1 1 2 5 3 3 2,B,91
+cal|mistral|bare|MORE_REPEATS-01|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-01,XA,6 6 6 5 1 1 6 6 5 4,4 3 6 2 1 3 5 5 5 2,A,92
+cal|mistral|bare|MORE_SIXES-11|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-11,XB,6 5 3 3 2 5 1 1 4 5,6 1 3 4 1 4 6 1 3 6,B,93
+cal|mistral|bare|MORE_REPEATS-03|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-03,XB,3 4 2 4 3 4 2 2 3 1,2 1 6 6 2 5 3 3 3 3,B,94
+cal|qwen|bare|GEN_RULE-10|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-10,XA,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,A,95
+cal|mistral|brief|MORE_REPEATS-09|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-09,XA,5 5 5 6 4 1 1 1 2 1,2 6 4 4 3 5 2 6 4 2,A,96
+cal|qwen|bare|GEN_RULE-11|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-11,XB,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,B,97
+cal|qwen|brief|MORE_REPEATS-09|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-09,XB,2 6 4 4 3 5 2 6 4 2,5 5 5 6 4 1 1 1 2 1,B,98
+cal|mistral|bare|MORE_REPEATS-05|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-05,XB,3 5 5 1 3 2 5 5 6 2,5 5 6 6 5 6 6 6 6 1,B,99
+cal|qwen|brief|MORE_REPEATS-05|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-05,XB,3 5 5 1 3 2 5 5 6 2,5 5 6 6 5 6 6 6 6 1,B,100
+cal|mistral|brief|GEN_RULE-09|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-09,XB,6 4 6 5 4 6 4 6 3 1 6 5 2 3,5 5 5 6 2 2 4 4 4 4 1 5 5 5,B,101
+cal|qwen|brief|GEN_RULE-10|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-10,XA,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,A,102
+cal|qwen|brief|GEN_RULE-12|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-12,XB,6 4 5 1 5 2 4 1 6 4 1 6 2 5,4 4 2 2 2 2 2 2 1 1 1 1 1 1,B,103
+cal|mistral|brief|MORE_SIXES-02|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-02,XB,1 2 4 1 3 5 2 1 3 5,1 5 4 2 4 1 6 5 4 4,B,104
+cal|qwen|bare|GEN_RULE-02|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-02,XA,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,A,105
+cal|qwen|bare|MORE_REPEATS-01|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-01,XA,6 6 6 5 1 1 6 6 5 4,4 3 6 2 1 3 5 5 5 2,A,106
+cal|mistral|brief|GEN_RULE-03|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-03,XB,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,B,107
+cal|mistral|bare|MORE_REPEATS-07|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-07,XB,4 5 1 3 2 1 1 6 3 4,3 2 5 3 3 3 1 4 3 1,B,108
+cal|mistral|bare|MORE_SIXES-08|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-08,XA,6 1 3 2 1 3 2 4 3 3,3 3 5 1 4 3 3 5 4 4,A,109
+cal|mistral|bare|GEN_RULE-10|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-10,XB,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,B,110
+cal|qwen|bare|GEN_RULE-04|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-04,XA,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,A,111
+cal|mistral|brief|GEN_RULE-01|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-01,XB,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,B,112
+cal|mistral|bare|GEN_RULE-08|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-08,XA,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,A,113
+cal|mistral|bare|GEN_RULE-12|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-12,XB,6 4 5 1 5 2 4 1 6 4 1 6 2 5,4 4 2 2 2 2 2 2 1 1 1 1 1 1,B,114
+cal|mistral|brief|MORE_SIXES-10|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-10,XA,1 3 6 6 2 5 4 2 5 2,3 5 5 2 4 4 2 6 5 3,A,115
+cal|qwen|brief|GEN_RULE-11|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-11,XB,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,B,116
+cal|mistral|bare|MORE_REPEATS-02|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-02,XB,3 3 5 6 1 6 4 3 4 5,1 6 3 6 6 6 1 3 5 4,B,117
+cal|mistral|bare|MORE_SIXES-08|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-08,XB,3 3 5 1 4 3 3 5 4 4,6 1 3 2 1 3 2 4 3 3,B,118
+cal|qwen|brief|MORE_REPEATS-12|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-12,XB,6 1 1 2 2 3 6 3 6 5,5 2 4 4 5 5 4 4 2 4,B,119
+cal|qwen|brief|GEN_RULE-09|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-09,XB,6 4 6 5 4 6 4 6 3 1 6 5 2 3,5 5 5 6 2 2 4 4 4 4 1 5 5 5,B,120
+cal|qwen|brief|MORE_REPEATS-03|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-03,XA,2 1 6 6 2 5 3 3 3 3,3 4 2 4 3 4 2 2 3 1,A,121
+cal|mistral|brief|MORE_REPEATS-11|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-11,XA,6 6 6 5 4 6 6 6 6 3,2 2 6 2 2 3 4 2 1 2,A,122
+cal|qwen|bare|MORE_SIXES-07|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-07,XB,5 3 3 4 6 5 6 2 3 3,6 3 4 5 6 6 1 3 1 1,B,123
+cal|qwen|bare|MORE_SIXES-09|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-09,XB,1 1 4 3 6 3 4 2 2 1,3 3 6 6 3 1 4 5 3 6,B,124
+cal|qwen|brief|MORE_REPEATS-07|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-07,XB,4 5 1 3 2 1 1 6 3 4,3 2 5 3 3 3 1 4 3 1,B,125
+cal|mistral|brief|MORE_REPEATS-04|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-04,XB,1 6 5 6 4 2 3 2 4 3,5 1 4 5 5 3 3 5 2 4,B,126
+cal|qwen|brief|MORE_SIXES-11|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-11,XA,6 1 3 4 1 4 6 1 3 6,6 5 3 3 2 5 1 1 4 5,A,127
+cal|mistral|bare|MORE_REPEATS-07|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-07,XA,3 2 5 3 3 3 1 4 3 1,4 5 1 3 2 1 1 6 3 4,A,128
+cal|qwen|brief|GEN_RULE-07|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-07,XB,4 5 1 2 6 3 2 3 4 1 5,3 3 3 3 5 5 5 5 5 4 5,B,129
+cal|qwen|brief|MORE_SIXES-12|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-12,XB,5 6 3 1 3 3 5 5 3 1,5 1 4 5 6 5 2 6 4 3,B,130
+cal|mistral|bare|GEN_RULE-04|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-04,XA,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,A,131
+cal|mistral|brief|GEN_RULE-08|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-08,XB,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,B,132
+cal|qwen|brief|GEN_RULE-06|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-06,XB,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,B,133
+cal|qwen|bare|GEN_RULE-03|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-03,XB,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,B,134
+cal|mistral|bare|GEN_RULE-04|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-04,XB,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,B,135
+cal|mistral|bare|GEN_RULE-01|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-01,XA,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,A,136
+cal|mistral|brief|GEN_RULE-02|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-02,XB,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,B,137
+cal|qwen|brief|MORE_SIXES-01|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-01,XA,5 5 6 6 3 3 3 1 6 2,1 5 1 2 6 1 6 1 2 4,A,138
+cal|qwen|brief|MORE_REPEATS-06|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-06,XB,4 3 2 1 6 4 4 1 2 2,2 2 2 6 1 6 3 6 6 6,B,139
+cal|mistral|bare|MORE_REPEATS-10|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-10,XA,3 2 1 1 1 2 5 3 3 2,1 2 6 1 2 3 1 1 2 6,A,140
+cal|qwen|brief|MORE_REPEATS-02|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-02,XB,3 3 5 6 1 6 4 3 4 5,1 6 3 6 6 6 1 3 5 4,B,141
+cal|mistral|bare|GEN_RULE-12|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-12,XA,4 4 2 2 2 2 2 2 1 1 1 1 1 1,6 4 5 1 5 2 4 1 6 4 1 6 2 5,A,142
+cal|qwen|brief|GEN_RULE-01|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-01,XB,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,B,143
+cal|mistral|bare|MORE_SIXES-07|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-07,XA,6 3 4 5 6 6 1 3 1 1,5 3 3 4 6 5 6 2 3 3,A,144
+cal|qwen|bare|MORE_REPEATS-04|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-04,XA,5 1 4 5 5 3 3 5 2 4,1 6 5 6 4 2 3 2 4 3,A,145
+cal|qwen|bare|GEN_RULE-08|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-08,XB,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,B,146
+cal|qwen|brief|GEN_RULE-02|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-02,XB,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,B,147
+cal|mistral|brief|GEN_RULE-07|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-07,XB,4 5 1 2 6 3 2 3 4 1 5,3 3 3 3 5 5 5 5 5 4 5,B,148
+cal|qwen|bare|GEN_RULE-02|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-02,XB,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,B,149
+cal|mistral|brief|MORE_REPEATS-02|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-02,XA,1 6 3 6 6 6 1 3 5 4,3 3 5 6 1 6 4 3 4 5,A,150
+cal|qwen|brief|MORE_SIXES-09|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-09,XA,3 3 6 6 3 1 4 5 3 6,1 1 4 3 6 3 4 2 2 1,A,151
+cal|mistral|brief|GEN_RULE-07|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-07,XA,3 3 3 3 5 5 5 5 5 4 5,4 5 1 2 6 3 2 3 4 1 5,A,152
+cal|qwen|bare|GEN_RULE-06|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-06,XA,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,A,153
+cal|qwen|brief|MORE_SIXES-11|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-11,XB,6 5 3 3 2 5 1 1 4 5,6 1 3 4 1 4 6 1 3 6,B,154
+cal|qwen|brief|MORE_REPEATS-10|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-10,XB,1 2 6 1 2 3 1 1 2 6,3 2 1 1 1 2 5 3 3 2,B,155
+cal|qwen|bare|MORE_REPEATS-10|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-10,XA,3 2 1 1 1 2 5 3 3 2,1 2 6 1 2 3 1 1 2 6,A,156
+cal|mistral|brief|GEN_RULE-12|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-12,XA,4 4 2 2 2 2 2 2 1 1 1 1 1 1,6 4 5 1 5 2 4 1 6 4 1 6 2 5,A,157
+cal|qwen|brief|MORE_REPEATS-03|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-03,XB,3 4 2 4 3 4 2 2 3 1,2 1 6 6 2 5 3 3 3 3,B,158
+cal|mistral|brief|MORE_REPEATS-01|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-01,XA,6 6 6 5 1 1 6 6 5 4,4 3 6 2 1 3 5 5 5 2,A,159
+cal|qwen|bare|GEN_RULE-12|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-12,XA,4 4 2 2 2 2 2 2 1 1 1 1 1 1,6 4 5 1 5 2 4 1 6 4 1 6 2 5,A,160
+cal|mistral|bare|GEN_RULE-09|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-09,XA,5 5 5 6 2 2 4 4 4 4 1 5 5 5,6 4 6 5 4 6 4 6 3 1 6 5 2 3,A,161
+cal|mistral|brief|GEN_RULE-11|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-11,XA,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,A,162
+cal|mistral|brief|GEN_RULE-12|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-12,XB,6 4 5 1 5 2 4 1 6 4 1 6 2 5,4 4 2 2 2 2 2 2 1 1 1 1 1 1,B,163
+cal|mistral|bare|MORE_REPEATS-01|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-01,XB,4 3 6 2 1 3 5 5 5 2,6 6 6 5 1 1 6 6 5 4,B,164
+cal|qwen|bare|MORE_SIXES-12|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-12,XB,5 6 3 1 3 3 5 5 3 1,5 1 4 5 6 5 2 6 4 3,B,165
+cal|mistral|brief|MORE_SIXES-11|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-11,XA,6 1 3 4 1 4 6 1 3 6,6 5 3 3 2 5 1 1 4 5,A,166
+cal|qwen|brief|MORE_SIXES-04|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-04,XB,5 4 1 4 5 3 6 3 5 4,6 5 3 6 1 4 1 6 5 4,B,167
+cal|qwen|bare|GEN_RULE-07|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-07,XB,4 5 1 2 6 3 2 3 4 1 5,3 3 3 3 5 5 5 5 5 4 5,B,168
+cal|mistral|bare|MORE_REPEATS-02|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-02,XA,1 6 3 6 6 6 1 3 5 4,3 3 5 6 1 6 4 3 4 5,A,169
+cal|qwen|brief|MORE_SIXES-10|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-10,XA,1 3 6 6 2 5 4 2 5 2,3 5 5 2 4 4 2 6 5 3,A,170
+cal|qwen|bare|MORE_SIXES-05|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-05,XB,3 5 1 3 3 5 2 1 5 2,3 4 6 3 1 3 1 3 6 3,B,171
+cal|mistral|bare|GEN_RULE-09|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-09,XB,6 4 6 5 4 6 4 6 3 1 6 5 2 3,5 5 5 6 2 2 4 4 4 4 1 5 5 5,B,172
+cal|mistral|brief|MORE_REPEATS-11|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-11,XB,2 2 6 2 2 3 4 2 1 2,6 6 6 5 4 6 6 6 6 3,B,173
+cal|mistral|bare|GEN_RULE-06|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-06,XA,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,A,174
+cal|mistral|bare|MORE_SIXES-01|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-01,XB,1 5 1 2 6 1 6 1 2 4,5 5 6 6 3 3 3 1 6 2,B,175
+cal|qwen|bare|GEN_RULE-04|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-04,XB,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,B,176
+cal|qwen|bare|MORE_REPEATS-04|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-04,XB,1 6 5 6 4 2 3 2 4 3,5 1 4 5 5 3 3 5 2 4,B,177
+cal|mistral|bare|GEN_RULE-05|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-05,XB,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,B,178
+cal|mistral|bare|MORE_REPEATS-04|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-04,XB,1 6 5 6 4 2 3 2 4 3,5 1 4 5 5 3 3 5 2 4,B,179
+cal|mistral|brief|MORE_SIXES-06|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-06,XA,4 5 5 6 6 1 5 6 3 5,2 6 5 5 5 1 6 2 3 2,A,180
+cal|mistral|brief|MORE_REPEATS-05|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-05,XA,5 5 6 6 5 6 6 6 6 1,3 5 5 1 3 2 5 5 6 2,A,181
+cal|mistral|bare|MORE_SIXES-01|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-01,XA,5 5 6 6 3 3 3 1 6 2,1 5 1 2 6 1 6 1 2 4,A,182
+cal|qwen|brief|GEN_RULE-09|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-09,XA,5 5 5 6 2 2 4 4 4 4 1 5 5 5,6 4 6 5 4 6 4 6 3 1 6 5 2 3,A,183
+cal|mistral|brief|MORE_SIXES-04|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-04,XB,5 4 1 4 5 3 6 3 5 4,6 5 3 6 1 4 1 6 5 4,B,184
+cal|mistral|brief|GEN_RULE-05|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-05,XA,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,A,185
+cal|mistral|bare|MORE_SIXES-04|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-04,XA,6 5 3 6 1 4 1 6 5 4,5 4 1 4 5 3 6 3 5 4,A,186
+cal|qwen|brief|MORE_SIXES-08|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-08,XB,3 3 5 1 4 3 3 5 4 4,6 1 3 2 1 3 2 4 3 3,B,187
+cal|mistral|bare|MORE_SIXES-03|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-03,XB,5 3 6 1 3 3 5 2 1 5,2 1 3 6 6 2 5 4 6 2,B,188
+cal|mistral|brief|MORE_REPEATS-06|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-06,XA,2 2 2 6 1 6 3 6 6 6,4 3 2 1 6 4 4 1 2 2,A,189
+cal|mistral|brief|MORE_REPEATS-10|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-10,XA,3 2 1 1 1 2 5 3 3 2,1 2 6 1 2 3 1 1 2 6,A,190
+cal|mistral|bare|GEN_RULE-03|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-03,XB,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,B,191
+cal|mistral|brief|GEN_RULE-06|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-06,XB,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,B,192
+cal|mistral|brief|MORE_SIXES-07|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-07,XB,5 3 3 4 6 5 6 2 3 3,6 3 4 5 6 6 1 3 1 1,B,193
+cal|qwen|bare|GEN_RULE-12|XB,calibration,qwen,bare,GEN_RULE,GEN_RULE-12,XB,6 4 5 1 5 2 4 1 6 4 1 6 2 5,4 4 2 2 2 2 2 2 1 1 1 1 1 1,B,194
+cal|qwen|bare|MORE_SIXES-07|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-07,XA,6 3 4 5 6 6 1 3 1 1,5 3 3 4 6 5 6 2 3 3,A,195
+cal|qwen|bare|MORE_REPEATS-07|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-07,XB,4 5 1 3 2 1 1 6 3 4,3 2 5 3 3 3 1 4 3 1,B,196
+cal|mistral|bare|GEN_RULE-08|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-08,XB,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,B,197
+cal|qwen|bare|MORE_SIXES-11|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-11,XA,6 1 3 4 1 4 6 1 3 6,6 5 3 3 2 5 1 1 4 5,A,198
+cal|mistral|bare|MORE_REPEATS-08|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-08,XA,4 2 4 6 6 6 2 4 4 1,5 3 6 4 2 5 6 5 6 3,A,199
+cal|mistral|bare|MORE_SIXES-06|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-06,XB,2 6 5 5 5 1 6 2 3 2,4 5 5 6 6 1 5 6 3 5,B,200
+cal|mistral|bare|GEN_RULE-01|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-01,XB,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,B,201
+cal|mistral|bare|MORE_REPEATS-06|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-06,XB,4 3 2 1 6 4 4 1 2 2,2 2 2 6 1 6 3 6 6 6,B,202
+cal|qwen|bare|MORE_SIXES-04|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-04,XA,6 5 3 6 1 4 1 6 5 4,5 4 1 4 5 3 6 3 5 4,A,203
+cal|mistral|brief|MORE_SIXES-02|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-02,XA,1 5 4 2 4 1 6 5 4 4,1 2 4 1 3 5 2 1 3 5,A,204
+cal|mistral|brief|GEN_RULE-06|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-06,XA,4 4 2 2 2 2 2 2 2 4 4 6 5 5 5 5 4,4 1 3 6 1 4 6 2 1 4 6 2 4 6 2 3 2,A,205
+cal|mistral|brief|MORE_SIXES-08|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-08,XA,6 1 3 2 1 3 2 4 3 3,3 3 5 1 4 3 3 5 4 4,A,206
+cal|qwen|brief|MORE_REPEATS-01|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-01,XB,4 3 6 2 1 3 5 5 5 2,6 6 6 5 1 1 6 6 5 4,B,207
+cal|mistral|brief|MORE_SIXES-03|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-03,XA,2 1 3 6 6 2 5 4 6 2,5 3 6 1 3 3 5 2 1 5,A,208
+cal|qwen|bare|MORE_REPEATS-03|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-03,XA,2 1 6 6 2 5 3 3 3 3,3 4 2 4 3 4 2 2 3 1,A,209
+cal|mistral|brief|MORE_SIXES-06|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-06,XB,2 6 5 5 5 1 6 2 3 2,4 5 5 6 6 1 5 6 3 5,B,210
+cal|qwen|bare|MORE_REPEATS-06|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-06,XB,4 3 2 1 6 4 4 1 2 2,2 2 2 6 1 6 3 6 6 6,B,211
+cal|qwen|bare|MORE_REPEATS-05|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-05,XB,3 5 5 1 3 2 5 5 6 2,5 5 6 6 5 6 6 6 6 1,B,212
+cal|mistral|bare|GEN_RULE-05|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-05,XA,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,A,213
+cal|qwen|bare|MORE_REPEATS-02|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-02,XB,3 3 5 6 1 6 4 3 4 5,1 6 3 6 6 6 1 3 5 4,B,214
+cal|qwen|brief|MORE_SIXES-04|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-04,XA,6 5 3 6 1 4 1 6 5 4,5 4 1 4 5 3 6 3 5 4,A,215
+cal|mistral|brief|MORE_REPEATS-03|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-03,XA,2 1 6 6 2 5 3 3 3 3,3 4 2 4 3 4 2 2 3 1,A,216
+cal|qwen|brief|MORE_SIXES-06|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-06,XB,2 6 5 5 5 1 6 2 3 2,4 5 5 6 6 1 5 6 3 5,B,217
+cal|qwen|brief|GEN_RULE-11|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-11,XA,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,A,218
+cal|mistral|brief|MORE_SIXES-12|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-12,XA,5 1 4 5 6 5 2 6 4 3,5 6 3 1 3 3 5 5 3 1,A,219
+cal|mistral|bare|MORE_SIXES-02|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-02,XB,1 2 4 1 3 5 2 1 3 5,1 5 4 2 4 1 6 5 4 4,B,220
+cal|qwen|bare|MORE_REPEATS-12|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-12,XA,5 2 4 4 5 5 4 4 2 4,6 1 1 2 2 3 6 3 6 5,A,221
+cal|qwen|bare|GEN_RULE-11|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-11,XA,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,A,222
+cal|mistral|bare|GEN_RULE-07|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-07,XA,3 3 3 3 5 5 5 5 5 4 5,4 5 1 2 6 3 2 3 4 1 5,A,223
+cal|qwen|bare|MORE_SIXES-09|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-09,XA,3 3 6 6 3 1 4 5 3 6,1 1 4 3 6 3 4 2 2 1,A,224
+cal|mistral|bare|MORE_REPEATS-05|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-05,XA,5 5 6 6 5 6 6 6 6 1,3 5 5 1 3 2 5 5 6 2,A,225
+cal|qwen|bare|MORE_REPEATS-05|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-05,XA,5 5 6 6 5 6 6 6 6 1,3 5 5 1 3 2 5 5 6 2,A,226
+cal|mistral|brief|GEN_RULE-08|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-08,XA,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,A,227
+cal|mistral|brief|MORE_REPEATS-04|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-04,XA,5 1 4 5 5 3 3 5 2 4,1 6 5 6 4 2 3 2 4 3,A,228
+cal|qwen|brief|MORE_REPEATS-11|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-11,XB,2 2 6 2 2 3 4 2 1 2,6 6 6 5 4 6 6 6 6 3,B,229
+cal|mistral|brief|MORE_SIXES-09|XA,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-09,XA,3 3 6 6 3 1 4 5 3 6,1 1 4 3 6 3 4 2 2 1,A,230
+cal|qwen|brief|MORE_SIXES-07|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-07,XA,6 3 4 5 6 6 1 3 1 1,5 3 3 4 6 5 6 2 3 3,A,231
+cal|mistral|bare|MORE_REPEATS-09|XB,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-09,XB,2 6 4 4 3 5 2 6 4 2,5 5 5 6 4 1 1 1 2 1,B,232
+cal|mistral|brief|MORE_SIXES-01|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-01,XB,1 5 1 2 6 1 6 1 2 4,5 5 6 6 3 3 3 1 6 2,B,233
+cal|mistral|bare|GEN_RULE-03|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-03,XA,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,A,234
+cal|qwen|bare|MORE_SIXES-03|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-03,XA,2 1 3 6 6 2 5 4 6 2,5 3 6 1 3 3 5 2 1 5,A,235
+cal|mistral|brief|MORE_REPEATS-08|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-08,XB,5 3 6 4 2 5 6 5 6 3,4 2 4 6 6 6 2 4 4 1,B,236
+cal|mistral|bare|MORE_SIXES-09|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-09,XA,3 3 6 6 3 1 4 5 3 6,1 1 4 3 6 3 4 2 2 1,A,237
+cal|mistral|bare|MORE_REPEATS-12|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-12,XA,5 2 4 4 5 5 4 4 2 4,6 1 1 2 2 3 6 3 6 5,A,238
+cal|mistral|brief|MORE_SIXES-09|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-09,XB,1 1 4 3 6 3 4 2 2 1,3 3 6 6 3 1 4 5 3 6,B,239
+cal|mistral|brief|MORE_REPEATS-01|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-01,XB,4 3 6 2 1 3 5 5 5 2,6 6 6 5 1 1 6 6 5 4,B,240
+cal|qwen|brief|MORE_SIXES-03|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-03,XA,2 1 3 6 6 2 5 4 6 2,5 3 6 1 3 3 5 2 1 5,A,241
+cal|qwen|brief|MORE_REPEATS-04|XB,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-04,XB,1 6 5 6 4 2 3 2 4 3,5 1 4 5 5 3 3 5 2 4,B,242
+cal|qwen|bare|GEN_RULE-05|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-05,XA,6 6 6 6 6 5 5 5 5 4 5 5 4 3 3 3 3 3,5 3 1 4 3 5 1 3 2 5 6 4 1 2 5 4 3 5,A,243
+cal|qwen|bare|MORE_SIXES-01|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-01,XB,1 5 1 2 6 1 6 1 2 4,5 5 6 6 3 3 3 1 6 2,B,244
+cal|mistral|brief|MORE_REPEATS-08|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-08,XA,4 2 4 6 6 6 2 4 4 1,5 3 6 4 2 5 6 5 6 3,A,245
+cal|qwen|brief|MORE_SIXES-09|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-09,XB,1 1 4 3 6 3 4 2 2 1,3 3 6 6 3 1 4 5 3 6,B,246
+cal|qwen|bare|MORE_SIXES-02|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-02,XA,1 5 4 2 4 1 6 5 4 4,1 2 4 1 3 5 2 1 3 5,A,247
+cal|qwen|bare|MORE_SIXES-06|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-06,XA,4 5 5 6 6 1 5 6 3 5,2 6 5 5 5 1 6 2 3 2,A,248
+cal|mistral|bare|GEN_RULE-11|XB,calibration,mistral,bare,GEN_RULE,GEN_RULE-11,XB,3 6 3 5 1 5 3 4 5 5 4 3 3 6 5 2 3,5 4 6 6 5 5 5 3 3 3 3 3 3 3 3 3 3,B,249
+cal|qwen|bare|MORE_SIXES-05|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-05,XA,3 4 6 3 1 3 1 3 6 3,3 5 1 3 3 5 2 1 5 2,A,250
+cal|qwen|brief|MORE_SIXES-02|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-02,XA,1 5 4 2 4 1 6 5 4 4,1 2 4 1 3 5 2 1 3 5,A,251
+cal|mistral|brief|MORE_REPEATS-02|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-02,XB,3 3 5 6 1 6 4 3 4 5,1 6 3 6 6 6 1 3 5 4,B,252
+cal|qwen|bare|MORE_REPEATS-09|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-09,XA,5 5 5 6 4 1 1 1 2 1,2 6 4 4 3 5 2 6 4 2,A,253
+cal|qwen|bare|MORE_REPEATS-09|XB,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-09,XB,2 6 4 4 3 5 2 6 4 2,5 5 5 6 4 1 1 1 2 1,B,254
+cal|qwen|bare|MORE_SIXES-12|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-12,XA,5 1 4 5 6 5 2 6 4 3,5 6 3 1 3 3 5 5 3 1,A,255
+cal|mistral|brief|GEN_RULE-03|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-03,XA,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,A,256
+cal|mistral|brief|MORE_REPEATS-12|XB,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-12,XB,6 1 1 2 2 3 6 3 6 5,5 2 4 4 5 5 4 4 2 4,B,257
+cal|qwen|bare|MORE_REPEATS-06|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-06,XA,2 2 2 6 1 6 3 6 6 6,4 3 2 1 6 4 4 1 2 2,A,258
+cal|mistral|bare|MORE_REPEATS-06|XA,calibration,mistral,bare,MORE_REPEATS,MORE_REPEATS-06,XA,2 2 2 6 1 6 3 6 6 6,4 3 2 1 6 4 4 1 2 2,A,259
+cal|qwen|brief|MORE_REPEATS-06|XA,calibration,qwen,brief,MORE_REPEATS,MORE_REPEATS-06,XA,2 2 2 6 1 6 3 6 6 6,4 3 2 1 6 4 4 1 2 2,A,260
+cal|mistral|brief|MORE_SIXES-11|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-11,XB,6 5 3 3 2 5 1 1 4 5,6 1 3 4 1 4 6 1 3 6,B,261
+cal|qwen|bare|MORE_REPEATS-02|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-02,XA,1 6 3 6 6 6 1 3 5 4,3 3 5 6 1 6 4 3 4 5,A,262
+cal|mistral|brief|GEN_RULE-02|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-02,XA,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,A,263
+cal|qwen|bare|MORE_REPEATS-07|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-07,XA,3 2 5 3 3 3 1 4 3 1,4 5 1 3 2 1 1 6 3 4,A,264
+cal|mistral|brief|MORE_SIXES-05|XB,calibration,mistral,brief,MORE_SIXES,MORE_SIXES-05,XB,3 5 1 3 3 5 2 1 5 2,3 4 6 3 1 3 1 3 6 3,B,265
+cal|qwen|brief|MORE_SIXES-01|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-01,XB,1 5 1 2 6 1 6 1 2 4,5 5 6 6 3 3 3 1 6 2,B,266
+cal|qwen|brief|MORE_SIXES-10|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-10,XB,3 5 5 2 4 4 2 6 5 3,1 3 6 6 2 5 4 2 5 2,B,267
+cal|qwen|brief|GEN_RULE-03|XA,calibration,qwen,brief,GEN_RULE,GEN_RULE-03,XA,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,A,268
+cal|mistral|bare|MORE_SIXES-07|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-07,XB,5 3 3 4 6 5 6 2 3 3,6 3 4 5 6 6 1 3 1 1,B,269
+cal|mistral|bare|MORE_SIXES-12|XA,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-12,XA,5 1 4 5 6 5 2 6 4 3,5 6 3 1 3 3 5 5 3 1,A,270
+cal|qwen|bare|MORE_REPEATS-11|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-11,XA,6 6 6 5 4 6 6 6 6 3,2 2 6 2 2 3 4 2 1 2,A,271
+cal|qwen|brief|GEN_RULE-08|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-08,XB,6 2 3 5 5 1 2 5 4 6 3 1 3 6 5 4 4 3 5,3 3 2 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3,B,272
+cal|mistral|brief|MORE_REPEATS-07|XA,calibration,mistral,brief,MORE_REPEATS,MORE_REPEATS-07,XA,3 2 5 3 3 3 1 4 3 1,4 5 1 3 2 1 1 6 3 4,A,273
+cal|mistral|brief|GEN_RULE-01|XA,calibration,mistral,brief,GEN_RULE,GEN_RULE-01,XA,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,A,274
+cal|qwen|bare|MORE_SIXES-10|XA,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-10,XA,1 3 6 6 2 5 4 2 5 2,3 5 5 2 4 4 2 6 5 3,A,275
+cal|mistral|bare|MORE_SIXES-04|XB,calibration,mistral,bare,MORE_SIXES,MORE_SIXES-04,XB,5 4 1 4 5 3 6 3 5 4,6 5 3 6 1 4 1 6 5 4,B,276
+cal|mistral|bare|GEN_RULE-02|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-02,XA,3 2 5 5 5 5 5 5 5 5 5 5 5 3 3 6 6 6 6 1,4 1 2 1 6 5 3 6 2 4 2 5 4 1 6 2 3 1 5 1,A,277
+cal|qwen|brief|GEN_RULE-03|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-03,XB,3 6 3 6 5 4 6 4 2 6 2 4 3 2 3 2 1 6,4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6,B,278
+cal|qwen|bare|MORE_SIXES-08|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-08,XB,3 3 5 1 4 3 3 5 4 4,6 1 3 2 1 3 2 4 3 3,B,279
+cal|qwen|brief|MORE_SIXES-05|XB,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-05,XB,3 5 1 3 3 5 2 1 5 2,3 4 6 3 1 3 1 3 6 3,B,280
+cal|qwen|bare|MORE_SIXES-03|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-03,XB,5 3 6 1 3 3 5 2 1 5,2 1 3 6 6 2 5 4 6 2,B,281
+cal|qwen|brief|GEN_RULE-10|XB,calibration,qwen,brief,GEN_RULE,GEN_RULE-10,XB,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,B,282
+cal|qwen|bare|GEN_RULE-01|XA,calibration,qwen,bare,GEN_RULE,GEN_RULE-01,XA,1 1 6 6 1 1 1 1 4 4 1 1 1 1 1 1 6,2 6 4 5 6 5 2 1 2 1 6 4 6 1 5 1 6,A,283
+cal|mistral|brief|GEN_RULE-04|XB,calibration,mistral,brief,GEN_RULE,GEN_RULE-04,XB,5 1 5 1 4 3 3 2 5 2 6 5 1 6 1 4 1 5 6,1 2 2 2 3 3 3 3 6 6 6 6 6 6 6 6 6 6 5,B,284
+cal|qwen|brief|MORE_SIXES-05|XA,calibration,qwen,brief,MORE_SIXES,MORE_SIXES-05,XA,3 4 6 3 1 3 1 3 6 3,3 5 1 3 3 5 2 1 5 2,A,285
+cal|qwen|bare|MORE_REPEATS-08|XA,calibration,qwen,bare,MORE_REPEATS,MORE_REPEATS-08,XA,4 2 4 6 6 6 2 4 4 1,5 3 6 4 2 5 6 5 6 3,A,286
+cal|mistral|bare|GEN_RULE-10|XA,calibration,mistral,bare,GEN_RULE,GEN_RULE-10,XA,5 5 6 6 6 4 4 4 1 1 1 1 1 1 1 1 1 1 1,5 3 5 4 1 1 5 3 2 3 1 3 2 6 3 5 4 3 3,A,287
+cal|qwen|bare|MORE_SIXES-06|XB,calibration,qwen,bare,MORE_SIXES,MORE_SIXES-06,XB,2 6 5 5 5 1 6 2 3 2,4 5 5 6 6 1 5 6 3 5,B,288

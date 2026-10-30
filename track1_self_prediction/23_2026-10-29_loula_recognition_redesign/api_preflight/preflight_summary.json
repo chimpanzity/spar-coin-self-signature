@@ -1,0 +1,156 @@
+{
+  "infrastructure_gates": {
+    "qwen_provider_pinned": true,
+    "qwen_no_thinking": true,
+    "qwen_reasoning_tokens_reported_zero": true,
+    "qwen_generation_valid": true,
+    "qwen_multiturn_ok": true,
+    "mistral_provider_pinned": true,
+    "mistral_no_thinking": true,
+    "mistral_generation_valid": true,
+    "mistral_multiturn_ok": true
+  },
+  "overall": "PASS",
+  "content_check_both_orders_correct": {
+    "qwen_bare": [
+      true,
+      true
+    ],
+    "qwen_brief": [
+      true,
+      true
+    ],
+    "mistral_bare": [
+      true,
+      true
+    ],
+    "mistral_brief": [
+      true,
+      true
+    ]
+  },
+  "note": "Infrastructure gates are binding. Parse validity and the two-order content check are reported here and enforced per judge x format in Stage A.",
+  "spent_usd": 0.00019715500000000002,
+  "responses": {
+    "qwen_generation": {
+      "content": "5 2 6 3 1 4 6 2 5 3",
+      "choice": null,
+      "correct": null,
+      "is_correct": null,
+      "finish": "stop",
+      "provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "cost": 1.783e-05
+    },
+    "qwen_judge_bare_XA": {
+      "content": "A",
+      "choice": "A",
+      "correct": "A",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "cost": 1.163e-05
+    },
+    "qwen_judge_bare_XB": {
+      "content": "B",
+      "choice": "B",
+      "correct": "B",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "cost": 1.163e-05
+    },
+    "qwen_judge_brief_XA": {
+      "content": "Sample A contains more 6s than Sample B. In Sample A, the number 6 appears five times, while in Sample B, the number 6 does not appear at all.  \nANSWER: A",
+      "choice": "A",
+      "correct": "A",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "cost": 3.935e-05
+    },
+    "qwen_judge_brief_XB": {
+      "content": "Sample B contains more 6s than Sample A. A quick count shows that Sample A has no 6s, while Sample B has five 6s.\n\nANSWER: B",
+      "choice": "B",
+      "correct": "B",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "cost": 3.593e-05
+    },
+    "qwen_multiturn_bare_XA": {
+      "content": "A",
+      "choice": "A",
+      "correct": "A",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "SiliconFlow",
+      "reasoning_tokens": 0,
+      "cost": 2.101e-05
+    },
+    "mistral_generation": {
+      "content": "5 2 6 1 3 4 6 2 5 3",
+      "choice": null,
+      "correct": null,
+      "is_correct": null,
+      "finish": "stop",
+      "provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "cost": 7.075e-06
+    },
+    "mistral_judge_bare_XA": {
+      "content": "A",
+      "choice": "A",
+      "correct": "A",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "cost": 5.65e-06
+    },
+    "mistral_judge_bare_XB": {
+      "content": "B",
+      "choice": "B",
+      "correct": "B",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "cost": 5.65e-06
+    },
+    "mistral_judge_brief_XA": {
+      "content": "Sample A contains the number 6 five times, while Sample B does not contain any 6s. This is evident by counting the occurrences of 6 in each sample.\n\nANSWER: A",
+      "choice": "A",
+      "correct": "A",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "cost": 1.5625e-05
+    },
+    "mistral_judge_brief_XB": {
+      "content": "Sample B contains the digit 6 five times, while Sample A does not contain any 6s. This is evident by counting the occurrences of 6 in each sample.\n\nANSWER: B",
+      "choice": "B",
+      "correct": "B",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "cost": 1.5625e-05
+    },
+    "mistral_multiturn_bare_XA": {
+      "content": "A",
+      "choice": "A",
+      "correct": "A",
+      "is_correct": true,
+      "finish": "stop",
+      "provider": "DeepInfra",
+      "reasoning_tokens": 0,
+      "cost": 1.015e-05
+    }
+  }
+}

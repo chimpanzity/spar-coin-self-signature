@@ -1,0 +1,207 @@
+{
+  "tag": "LOULA_DICE_RECOGNITION_v2.0",
+  "stages": {
+    "A": {
+      "gate": {
+        "mistral|bare": {
+          "judge": "mistral",
+          "fmt": "bare",
+          "n_calls": 72,
+          "n_valid": 70,
+          "validity": 0.9722222222222222,
+          "MORE_SIXES": {
+            "correct": 20,
+            "of": 24,
+            "consistent_pairs": 8,
+            "of_pairs": 12,
+            "A_rate": 0.6666666666666666,
+            "pass_": false
+          },
+          "MORE_REPEATS": {
+            "correct": 11,
+            "of": 24,
+            "consistent_pairs": 0,
+            "of_pairs": 12,
+            "A_rate": 1.0,
+            "pass_": false
+          },
+          "GEN_RULE": {
+            "correct": 24,
+            "of": 24,
+            "consistent_pairs": 12,
+            "of_pairs": 12,
+            "A_rate": 0.5,
+            "pass_": true
+          },
+          "PASS": false
+        },
+        "mistral|brief": {
+          "judge": "mistral",
+          "fmt": "brief",
+          "n_calls": 72,
+          "n_valid": 71,
+          "validity": 0.9861111111111112,
+          "MORE_SIXES": {
+            "correct": 21,
+            "of": 24,
+            "consistent_pairs": 9,
+            "of_pairs": 12,
+            "A_rate": 0.6086956521739131,
+            "pass_": false
+          },
+          "MORE_REPEATS": {
+            "correct": 19,
+            "of": 24,
+            "consistent_pairs": 7,
+            "of_pairs": 12,
+            "A_rate": 0.7083333333333334,
+            "pass_": false
+          },
+          "GEN_RULE": {
+            "correct": 23,
+            "of": 24,
+            "consistent_pairs": 11,
+            "of_pairs": 12,
+            "A_rate": 0.5416666666666666,
+            "pass_": true
+          },
+          "PASS": false
+        },
+        "qwen|bare": {
+          "judge": "qwen",
+          "fmt": "bare",
+          "n_calls": 72,
+          "n_valid": 72,
+          "validity": 1.0,
+          "MORE_SIXES": {
+            "correct": 16,
+            "of": 24,
+            "consistent_pairs": 4,
+            "of_pairs": 12,
+            "A_rate": 0.8333333333333334,
+            "pass_": false
+          },
+          "MORE_REPEATS": {
+            "correct": 12,
+            "of": 24,
+            "consistent_pairs": 0,
+            "of_pairs": 12,
+            "A_rate": 1.0,
+            "pass_": false
+          },
+          "GEN_RULE": {
+            "correct": 19,
+            "of": 24,
+            "consistent_pairs": 7,
+            "of_pairs": 12,
+            "A_rate": 0.7083333333333334,
+            "pass_": false
+          },
+          "PASS": false
+        },
+        "qwen|brief": {
+          "judge": "qwen",
+          "fmt": "brief",
+          "n_calls": 72,
+          "n_valid": 71,
+          "validity": 0.9861111111111112,
+          "MORE_SIXES": {
+            "correct": 23,
+            "of": 24,
+            "consistent_pairs": 11,
+            "of_pairs": 12,
+            "A_rate": 0.5217391304347826,
+            "pass_": true
+          },
+          "MORE_REPEATS": {
+            "correct": 19,
+            "of": 24,
+            "consistent_pairs": 9,
+            "of_pairs": 12,
+            "A_rate": 0.5416666666666666,
+            "pass_": false
+          },
+          "GEN_RULE": {
+            "correct": 24,
+            "of": 24,
+            "consistent_pairs": 12,
+            "of_pairs": 12,
+            "A_rate": 0.5,
+            "pass_": true
+          },
+          "PASS": false
+        }
+      },
+      "brief_evidence": {
+        "qwen|MORE_SIXES": {
+          "n": 24,
+          "cites_feature": 1.0,
+          "count_claims": {
+            "verified": 18,
+            "contradicted": 6
+          }
+        },
+        "qwen|MORE_REPEATS": {
+          "n": 24,
+          "cites_feature": 1.0,
+          "count_claims": {
+            "contradicted": 13,
+            "unverifiable": 10,
+            "verified": 1
+          }
+        },
+        "qwen|GEN_RULE": {
+          "n": 24,
+          "cites_feature": 1.0,
+          "count_claims": {
+            "unverifiable": 24
+          }
+        },
+        "mistral|MORE_SIXES": {
+          "n": 24,
+          "cites_feature": 1.0,
+          "count_claims": {
+            "contradicted": 12,
+            "verified": 8,
+            "unverifiable": 4
+          }
+        },
+        "mistral|MORE_REPEATS": {
+          "n": 24,
+          "cites_feature": 1.0,
+          "count_claims": {
+            "unverifiable": 22,
+            "verified": 1,
+            "contradicted": 1
+          }
+        },
+        "mistral|GEN_RULE": {
+          "n": 24,
+          "cites_feature": 1.0,
+          "count_claims": {
+            "unverifiable": 24
+          }
+        }
+      }
+    },
+    "B": "NOT_RUN",
+    "C": "NOT_RUN",
+    "D": "NOT_RUN"
+  },
+  "spend": {
+    "spent_usd": 0.00739808,
+    "calls": 300,
+    "cap_usd": 5.0,
+    "by_stage": {
+      "api_preflight": {
+        "usd": 0.00019715500000000002,
+        "calls": 12
+      },
+      "calibration": {
+        "usd": 0.007200920000000003,
+        "calls": 288
+      }
+    },
+    "updated_utc": "2026-10-30T01:51:26.296976+00:00"
+  }
+}

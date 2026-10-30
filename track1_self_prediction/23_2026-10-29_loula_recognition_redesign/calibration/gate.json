@@ -1,0 +1,141 @@
+{
+  "gate": {
+    "mistral|bare": {
+      "judge": "mistral",
+      "fmt": "bare",
+      "n_calls": 72,
+      "n_valid": 70,
+      "validity": 0.9722222222222222,
+      "MORE_SIXES": {
+        "correct": 20,
+        "of": 24,
+        "consistent_pairs": 8,
+        "of_pairs": 12,
+        "A_rate": 0.6666666666666666,
+        "pass_": false
+      },
+      "MORE_REPEATS": {
+        "correct": 11,
+        "of": 24,
+        "consistent_pairs": 0,
+        "of_pairs": 12,
+        "A_rate": 1.0,
+        "pass_": false
+      },
+      "GEN_RULE": {
+        "correct": 24,
+        "of": 24,
+        "consistent_pairs": 12,
+        "of_pairs": 12,
+        "A_rate": 0.5,
+        "pass_": true
+      },
+      "PASS": false
+    },
+    "mistral|brief": {
+      "judge": "mistral",
+      "fmt": "brief",
+      "n_calls": 72,
+      "n_valid": 71,
+      "validity": 0.9861111111111112,
+      "MORE_SIXES": {
+        "correct": 21,
+        "of": 24,
+        "consistent_pairs": 9,
+        "of_pairs": 12,
+        "A_rate": 0.6086956521739131,
+        "pass_": false
+      },
+      "MORE_REPEATS": {
+        "correct": 19,
+        "of": 24,
+        "consistent_pairs": 7,
+        "of_pairs": 12,
+        "A_rate": 0.7083333333333334,
+        "pass_": false
+      },
+      "GEN_RULE": {
+        "correct": 23,
+        "of": 24,
+        "consistent_pairs": 11,
+        "of_pairs": 12,
+        "A_rate": 0.5416666666666666,
+        "pass_": true
+      },
+      "PASS": false
+    },
+    "qwen|bare": {
+      "judge": "qwen",
+      "fmt": "bare",
+      "n_calls": 72,
+      "n_valid": 72,
+      "validity": 1.0,
+      "MORE_SIXES": {
+        "correct": 16,
+        "of": 24,
+        "consistent_pairs": 4,
+        "of_pairs": 12,
+        "A_rate": 0.8333333333333334,
+        "pass_": false
+      },
+      "MORE_REPEATS": {
+        "correct": 12,
+        "of": 24,
+        "consistent_pairs": 0,
+        "of_pairs": 12,
+        "A_rate": 1.0,
+        "pass_": false
+      },
+      "GEN_RULE": {
+        "correct": 19,
+        "of": 24,
+        "consistent_pairs": 7,
+        "of_pairs": 12,
+        "A_rate": 0.7083333333333334,
+        "pass_": false
+      },
+      "PASS": false
+    },
+    "qwen|brief": {
+      "judge": "qwen",
+      "fmt": "brief",
+      "n_calls": 72,
+      "n_valid": 71,
+      "validity": 0.9861111111111112,
+      "MORE_SIXES": {
+        "correct": 23,
+        "of": 24,
+        "consistent_pairs": 11,
+        "of_pairs": 12,
+        "A_rate": 0.5217391304347826,
+        "pass_": true
+      },
+      "MORE_REPEATS": {
+        "correct": 19,
+        "of": 24,
+        "consistent_pairs": 9,
+        "of_pairs": 12,
+        "A_rate": 0.5416666666666666,
+        "pass_": false
+      },
+      "GEN_RULE": {
+        "correct": 24,
+        "of": 24,
+        "consistent_pairs": 12,
+        "of_pairs": 12,
+        "A_rate": 0.5,
+        "pass_": true
+      },
+      "PASS": false
+    }
+  },
+  "passing_formats": {
+    "qwen": [],
+    "mistral": []
+  },
+  "overall": "FAIL",
+  "excluded_judges": [
+    "qwen",
+    "mistral"
+  ]
+}

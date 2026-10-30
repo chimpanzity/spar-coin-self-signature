@@ -1,0 +1,6 @@
+{
+  "primary_format": {},
+  "rule": "brief if it passed Stage A, else bare if it passed, else excluded",
+  "frozen_utc": "2026-10-30T01:51:26.312945+00:00",
+  "frozen_before": "Stage B and Stage C stimuli"
+}
