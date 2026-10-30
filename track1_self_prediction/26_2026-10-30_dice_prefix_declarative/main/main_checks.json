@@ -1,0 +1,77 @@
+{
+  "overall": "PASS",
+  "gates": {
+    "serving": {
+      "status": "PASS",
+      "detail": {
+        "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+        "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "rendered_G": "5c5bb4193ac7634b82765c91ef75399166b97edadea66924d56396d4355cc185",
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "torch": "2.11.0+cu128",
+        "transformers": "5.22.0",
+        "cuda": "12.8"
+      }
+    },
+    "non_thinking": {
+      "status": "PASS",
+      "detail": "every rendered prompt ends with the empty think block; no system turn; no think text in outputs"
+    },
+    "face_tokens": {
+      "status": "PASS",
+      "detail": {
+        "face_bare_ids": {
+          "1": 16,
+          "2": 17,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 21
+        },
+        "separator_id": 220,
+        "note": "each digit is one bare token, separated by one space token"
+      }
+    },
+    "face_logprobs": {
+      "status": "PASS",
+      "detail": {
+        "n_steps": 216,
+        "min_six_face_mass": 0.997079
+      }
+    },
+    "scorer_matches_generation": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_logprob_diff": 0.0,
+        "tol": 0.0001
+      }
+    },
+    "reference_reproduction": {
+      "status": "PASS",
+      "detail": {
+        "sequences_identical": true,
+        "n_G_F_runs": 0,
+        "max_abs_dp_vs_archive": 0.0,
+        "tol": 0.01
+      }
+    },
+    "complete": {
+      "status": "PASS",
+      "detail": {
+        "n_records": 36,
+        "n_teacher_forced": 108,
+        "expected": 36
+      }
+    }
+  },
+  "numerics": {
+    "delta_incremental_vs_full_pass": 0.09107393562453042,
+    "n_compared": 66,
+    "near_tie_floor": 0.09107393562453042,
+    "archived_floor": 0.09
+  },
+  "repeat_spread": {
+    "max_dp_teacher_forced": 0.0,
+    "conditions_with_varying_free_output": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "tag": "SPAR_DICE_PREFIX_DECLARATIVE_v1.0",
+  "design_source": "GPT_SPAR_Qwen_Dice_Partial_History_Declarative_Knowledge_Logprob_Handoff_v1.0.md (2026-10-30)",
+  "status": "complete: preflight PASS, main checks PASS, pilot collected and analysed",
+  "protocol_sha256": "f507317910c62971e53388a75c1eeeba22b8fa77eff151cc73fd8a7e42916cc9",
+  "serving": {
+    "model_id": "Qwen/Qwen3-32B",
+    "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+    "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "cuda": "12.8",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.22.0",
+    "python": "3.11.9",
+    "driver": "580.173.02",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "face_bare_ids": {
+      "1": 16,
+      "2": 17,
+      "3": 18,
+      "4": 19,
+      "5": 20,
+      "6": 21
+    }
+  },
+  "numerics": {
+    "delta_incremental_vs_full_pass": 0.09107393562453042,
+    "n_compared": 66,
+    "near_tie_floor": 0.09107393562453042,
+    "archived_floor": 0.09
+  },
+  "execution": {
+    "rental": {
+      "provider": "vast.ai",
+      "instance": 58450081,
+      "offer": 49067608,
+      "gpu": "A100-SXM4-80GB",
+      "location": "Texas, US",
+      "rate_usd_h": 1.086,
+      "created_utc": "2026-10-30T20:50:44Z",
+      "destroyed_utc": "2026-10-30T20:57:58Z",
+      "minutes": 7.2,
+      "approx_cost_usd": 0.13,
+      "cap_usd": 10.0
+    },
+    "stages": {
+      "preflight": {
+        "started": "2026-10-30T20:54:33.902327+00:00",
+        "finished": "2026-10-30T20:55:12.332980+00:00",
+        "result": "PASS (9/9 gates)",
+        "run_id": "preflight"
+      },
+      "main": {
+        "started": "2026-10-30T20:56:14.397258+00:00",
+        "finished": "2026-10-30T20:57:29.759351+00:00",
+        "result": "36/36 records, main checks PASS",
+        "command": "gpu main --execute --confirm-preflight-id preflight --gate preflight_gates.json"
+      }
+    }
+  },
+  "openrouter_calls": 0,
+  "post_freeze_code_changes": {
+    "files": [
+      "__main__.py",
+      "figures.py"
+    ],
+    "note": "__main__.py: the freeze command's idempotence check was fixed before any GPU call. figures.py: layout only (label placement, legend position, x-range), partly after the first render of the real figures; no data, metric or gate changed. gpu.py, config.py, prompts.py and analysis.py match their frozen hashes; prompts and gates are unchanged."
+  }
+}

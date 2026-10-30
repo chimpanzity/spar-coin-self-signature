@@ -1,0 +1,32 @@
+{
+  "tag": "SPAR_DICE_PREFIX_DECLARATIVE_v1.0",
+  "prompt_sha256": {
+    "H0": "4c7ec36a1d2c1ebf01a01d274c686e260bc496f684b42b4486b02f6021b40c4d",
+    "N0": "eab8ada0bdd62458091aab6abcada435c6bad98f5b95e8ed5638c44318081868",
+    "S0": "2931d3cc0eb559e4ab5f64a4e8518926e94adb0224c97e7fae3c5770bd286c98",
+    "O0": "c34835eace48fd4c48c957dbd43e627e04e9928e040d89787566aff77723b866",
+    "H3": "4133469cedd17165063bd7438518f1e6f0bddfba6438ae90d7b5774a631c5a7d",
+    "N3": "7fe41998e43947e174e4684dfba4359988f2102c38e5c0695028b23c4b42802c",
+    "S3": "92f01bf89d774c5297c727d0f44a8701eceaa58aee74b6245ef0b196e5429f87",
+    "O3": "8bc2e3edafda8ddf6dbbfdf95077404ea23b4f4c1abd81d58fdb7fd982193d88",
+    "H6": "06bfcaa45fcf282417599a2ab33fe9e5469607acb7d824eaf1c49d72af720400",
+    "N6": "2ae14bad8de8bfae797a6fa77c44c24ad16f16c846339653ef6927b0ff38df61",
+    "S6": "e88f4bcaaaf6d5e31fe320e493402cd553df400f9aff431ca841da4c181948df",
+    "O6": "f5ad3231ba3218d813506e0bdf39ada1ff5427bc4bd34c21a1ff8d52178fe7bc"
+  },
+  "files": {
+    "__init__.py": "7848cfc3063bc2f71651a720a5bfc8a7f09461e9e6f3fa022df296736f81023a",
+    "__main__.py": "0c3dc21269df667559ce818d26be498d025d51b168fc1f55b5cd6954e0974a63",
+    "analysis.py": "3044b455ed391b5d389915b28c932b816d128ec30b3e134b2f04649e630808aa",
+    "config.py": "933ce41a15d3158787e0be786fe56599713e1c8a69a7a6ae445a0afbe08cb0c8",
+    "figures.py": "0ba6c45feaf346c927f630e9c203c233e4851b2b2ef1c37f13429530a067504f",
+    "gpu.py": "558ef48d87ae9882552212070468e9b0034a58d5fffffe069dd1fb12d1b8bc86",
+    "prompts.py": "0b852ea1059c1bae1d3a9017688515cd6e2491b5dabc8107018613557abe34e8",
+    "21_2026-10-29_dice_logprob/main-qwen3-32b-a100/raw_attempts.jsonl": "1c71f1b13cb88eb64559ff95c73bf9d40027451d091cb6776fa9274a3c681d91",
+    "21_2026-10-29_dice_logprob/main-qwen3-32b-a100/matched_prefix.jsonl": "eaa71d4a53599ca3909b7a79a576674696a3fa7b59ab932cdf9c8d2b6a2e29bd",
+    "22_2026-10-29_loula_dice_recognition_pilot/corpus/development.csv": "25ef7ae3ea5a036202004af5e21bd9557837736355c330fc0c79154ccfe94fde",
+    "22_2026-10-29_loula_dice_recognition_pilot/corpus/heldout.csv": "6cd890ab1383c3e57081021f899bea2940e19cfa442cdd02535ad9c745378d30",
+    "PROTOCOL_FROZEN.md": "f507317910c62971e53388a75c1eeeba22b8fa77eff151cc73fd8a7e42916cc9",
+    "prompts_frozen.md": "a44d94568399cdffc0b4be78543daca1e6ba9a51b1ddc6cc42aa7b70055c5960"
+  }
+}

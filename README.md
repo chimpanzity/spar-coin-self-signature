@@ -71,6 +71,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 29 | 1 | [23 Recognition redesign: calibration gate](track1_self_prediction/23_2026-10-29_loula_recognition_redesign/) | Before retesting self-recognition, checked whether the judges read the sequences: neither Qwen3-32B nor Mistral passes the reading/rule calibration in either answer format (bare answers default to "A"), so the study stopped as prespecified |
 | Oct 30 | 1 | [24 Open-weight A/B probability scoring](track1_self_prediction/24_2026-10-29_loula_ab_logprob_pilot/) | **Incomplete, failed.** Read P(A) vs P(B) from Qwen3-32B open weights in both orders: the bias-corrected score picks the correct sample on all 36 reading checks, but the "A" bias still wins in one order on 16 of them, so the order-robustness gate fails and recognition was not tested |
 | Oct 30 | 1 | [25 Single-sample Yes/No scoring](track1_self_prediction/25_2026-10-30_loula_yesno_logprob_pilot/) | **Incomplete, failed.** Show one dice sequence per prompt and ask Yes/No both ways, so there is no A/B label to prefer: the label bias disappears (6s correct both ways on 12/12), but the reversed questions about repeats and generators barely respond to content, so the gate fails again at 20/36 and recognition was not tested |
+| Oct 30 | 1 | [26 Partial history and declarative descriptions](track1_self_prediction/26_2026-10-30_dice_prefix_declarative/) | Follow-up to 21 on Qwen3-32B open weights: revealing "5 2 6" makes every prediction arm reproduce G's next three rolls; a true sentence about G's pattern raises P(true roll) but also shifts an uninformative control, and attributing it to "your own model" does no better than "an unspecified model" |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
@@ -91,7 +92,7 @@ The current candidate follow-ups for each track are listed at the end of [`track
 
 | Path | Contents |
 |---|---|
-| `track1_self_prediction/` | 25 dated experiment folders: data, results, reports, README each |
+| `track1_self_prediction/` | 26 dated experiment folders: data, results, reports, README each |
 | `track2_game_theory/` | 20 dated experiment folders |
 | `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
 | `tests/` | Test suite (`python -m pytest`) |
