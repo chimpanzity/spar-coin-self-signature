@@ -1,0 +1,197 @@
+{
+  "key": "qwen",
+  "model_id": "Qwen/Qwen3-32B",
+  "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.2,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.13",
+  "driver": "580.173.02",
+  "eos_ids": [
+    151643,
+    151645
+  ],
+  "face_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+  },
+  "max_memory_allocated_gb": 66.82,
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "serving": "Experiment 21 Qwen class",
+  "stage": "preflight",
+  "started_utc": "2026-10-31T00:42:34.494331+00:00",
+  "job_order": [
+    [
+      "F",
+      3
+    ],
+    [
+      "F",
+      2
+    ],
+    [
+      "G",
+      3
+    ],
+    [
+      "x26_N0",
+      1
+    ],
+    [
+      "Fanon",
+      1
+    ],
+    [
+      "F",
+      1
+    ],
+    [
+      "x26_O6",
+      1
+    ],
+    [
+      "x26_H0",
+      1
+    ],
+    [
+      "x26_N6",
+      1
+    ],
+    [
+      "x26_S3",
+      1
+    ],
+    [
+      "x26_S0",
+      1
+    ],
+    [
+      "x26_O3",
+      1
+    ],
+    [
+      "x26_N3",
+      1
+    ],
+    [
+      "x26_S6",
+      1
+    ],
+    [
+      "x26_H6",
+      1
+    ],
+    [
+      "G",
+      2
+    ],
+    [
+      "G",
+      1
+    ],
+    [
+      "x26_H3",
+      1
+    ],
+    [
+      "x26_O0",
+      1
+    ]
+  ],
+  "prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+    "Fanon": "09afdbeec5d8c4c12bea04a8a922aee462350a50a935b776ef87ca94fc0423f1",
+    "x26_H0": "4c7ec36a1d2c1ebf01a01d274c686e260bc496f684b42b4486b02f6021b40c4d",
+    "x26_N0": "eab8ada0bdd62458091aab6abcada435c6bad98f5b95e8ed5638c44318081868",
+    "x26_S0": "2931d3cc0eb559e4ab5f64a4e8518926e94adb0224c97e7fae3c5770bd286c98",
+    "x26_O0": "c34835eace48fd4c48c957dbd43e627e04e9928e040d89787566aff77723b866",
+    "x26_H3": "4133469cedd17165063bd7438518f1e6f0bddfba6438ae90d7b5774a631c5a7d",
+    "x26_N3": "7fe41998e43947e174e4684dfba4359988f2102c38e5c0695028b23c4b42802c",
+    "x26_S3": "92f01bf89d774c5297c727d0f44a8701eceaa58aee74b6245ef0b196e5429f87",
+    "x26_O3": "8bc2e3edafda8ddf6dbbfdf95077404ea23b4f4c1abd81d58fdb7fd982193d88",
+    "x26_H6": "06bfcaa45fcf282417599a2ab33fe9e5469607acb7d824eaf1c49d72af720400",
+    "x26_N6": "2ae14bad8de8bfae797a6fa77c44c24ad16f16c846339653ef6927b0ff38df61",
+    "x26_S6": "e88f4bcaaaf6d5e31fe320e493402cd553df400f9aff431ca841da4c181948df",
+    "x26_O6": "f5ad3231ba3218d813506e0bdf39ada1ff5427bc4bd34c21a1ff8d52178fe7bc"
+  },
+  "rendered_sha256": {
+    "G": "5c5bb4193ac7634b82765c91ef75399166b97edadea66924d56396d4355cc185",
+    "F": "1e267d578a5e85b31bf10761307b50df6e6a4e429b5255bc3d5cfbf2e449aca1",
+    "Fanon": "3272c2cc803c0cf2854f8bdb2f8c1d34aa0102ccca78dd1290cd976a47463755",
+    "x26_H0": "545b450f00c934753d352135f295a4a9ccd64637a71e4a1e2c042c9d22bae567",
+    "x26_N0": "ce766d9e9c2109c58a5b7122bc2a5150eb3acfa6a3b295084907a66cd73579b5",
+    "x26_S0": "42bfa8d874af23113248e7577e7a694938fdfd40357034c61e7fb0c1885d5019",
+    "x26_O0": "fbcb41d49070609e86416bea60601dc7c984ddda5c194dc55e47306d211b3b09",
+    "x26_H3": "6f5ffb5b19398650314085f99334c281f91cbf102562913834c94fdd1de859e4",
+    "x26_N3": "73c7864d5b2d7643844cf45f15f111b52de8d9839477ecc3930a8a89e816a192",
+    "x26_S3": "88d5df90ecc87c9d3d04c082d65a796936a05a18763aa6d2790b2bddeb017781",
+    "x26_O3": "307b247e61f8f97113012c34fd21a4eb07c0991dba79a2d59d623aad5d904cb5",
+    "x26_H6": "d90552e4619d7bc8addbcf205e2eba53d32198e0f63187e0d199f6e8e6ceee00",
+    "x26_N6": "5747fd8fab98e0bcf2808db8e734a169a6cfc29d030c0e9601e003bea9f31f6b",
+    "x26_S6": "36052fe912e399ffc13ea9f803956a4e2074301f8f1382ba4a09db852304a410",
+    "x26_O6": "f650e2ad56ca5f682178124b8cc11fda71f1ccf7ee61fa3285d6340a213ec540"
+  },
+  "rendered_G": "<|im_start|>user\nGenerate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "g10_history_ids": [
+    20,
+    220,
+    17,
+    220,
+    21,
+    220,
+    18,
+    220,
+    16,
+    220,
+    19,
+    220,
+    21,
+    220,
+    17,
+    220,
+    20,
+    220,
+    18
+  ],
+  "face_single_tokens": {
+    "1": [
+      16
+    ],
+    "2": [
+      17
+    ],
+    "3": [
+      18
+    ],
+    "4": [
+      19
+    ],
+    "5": [
+      20
+    ],
+    "6": [
+      21
+    ]
+  },
+  "finished_utc": "2026-10-31T00:44:09.710481+00:00",
+  "sec_per_job_mean": 2.6735714890740137,
+  "sec_per_crossed_trial": [
+    1.9551384449005127,
+    1.9780404567718506,
+    1.371870994567871
+  ]
+}

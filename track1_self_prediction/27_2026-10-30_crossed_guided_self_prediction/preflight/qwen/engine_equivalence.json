@@ -1,0 +1,20 @@
+[
+  {
+    "prompt": "G",
+    "content_equal": true,
+    "max_abs_face_logprob_diff": 0.0
+  },
+  {
+    "prompt": "G|G score",
+    "max_abs_face_logprob_diff": 0.0
+  },
+  {
+    "prompt": "F",
+    "content_equal": true,
+    "max_abs_face_logprob_diff": 0.0
+  },
+  {
+    "prompt": "F|G score",
+    "max_abs_face_logprob_diff": 0.0
+  }
+]

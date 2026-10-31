@@ -143,9 +143,22 @@ def preflight_gates(model: str, d: Path | None = None) -> dict:
     g["face_tokens"] = _gate(tok_ok, dict(face_ids=env["face_ids"], separator_id=h[1] if len(h) > 1 else None))
     steps = [s["face_logprobs"] for r in raw for s in r["digit_steps"]] + [s["face_logprobs"] for r in raw for s in r.get("teacher_forced", [])] \
         + [s["face_logprobs"] for s in mp]
-    masses = [six(s)[1] for s in steps]
-    g["face_logprobs"] = _gate(all(math.isfinite(v) for s in steps for v in _lp(s)) and min(masses) >= C.MIN_FACE_MASS,
-                               dict(n_steps=len(steps), min_six_face_mass=min(masses)))
+    g["face_logprobs_finite"] = _gate(all(math.isfinite(v) for s in steps for v in _lp(s)), dict(n_steps=len(steps)))
+    # amendment v1.1: mass is gated on direct-generation (G prompt) steps only; prediction-prompt mass is reported
+    gsteps = [s["face_logprobs"] for r in raw if r["condition"] in ("G", "feasibility") for s in r["digit_steps"]] + \
+        [s["face_logprobs"] for s in mp if s["instruction"] == "G"]
+    gm = min(six(s)[1] for s in gsteps)
+    g["face_mass_direct_generation"] = _gate(gm >= C.MIN_FACE_MASS, dict(n_steps=len(gsteps), min_six_face_mass=gm, amendment="v1.1"))
+    pred_mass = {}
+    for r in raw:
+        if r["condition"] not in ("G", "feasibility"):
+            ms = [six(s["face_logprobs"])[1] for s in r["digit_steps"] + r.get("teacher_forced", [])]
+            if ms:
+                pred_mass[r["condition"]] = min(ms)
+    for s in mp:
+        if s["instruction"] != "G" and s["method"] == "incremental":
+            k = f"mp_{s['instruction']}|{s['history']}"
+            pred_mass[k] = min(pred_mass.get(k, 1.0), six(s["face_logprobs"])[1])
     sd = max(scorer_diff(r) for r in raw if r["content"].strip())
     g["scorer_matches_generation"] = _gate(sd <= C.SCORER_TOL_LOGP, dict(max_abs_logprob_diff=sd, tol=C.SCORER_TOL_LOGP))
     det = {}
@@ -184,7 +197,7 @@ def preflight_gates(model: str, d: Path | None = None) -> dict:
                 feasibility_valid=sum(bool(VALID10.fullmatch(r["content"])) for r in raw if r["condition"] == "feasibility"),
                 crossed_format_check={r["condition"]: r["content"] for r in raw if r["condition"].startswith("crossed_")},
                 sec_per_crossed_trial=env.get("sec_per_crossed_trial"), max_memory_allocated_gb=env.get("max_memory_allocated_gb"),
-                floor=max(fl))
+                floor=max(fl), prediction_prompt_min_mass_reported_not_gated=pred_mass)
     return dict(tag=C.TAG, model=model, models=[model], gates=g, info=info,
                 overall="PASS" if all(v["status"] == "PASS" for v in g.values()) else "FAIL")
 
@@ -286,6 +299,8 @@ def main_checks(data: dict) -> dict:
                                                                                        n_mass_below_0_5=sum(m < C.MIN_FACE_MASS for m in masses)))
     sd = max((scorer_diff(r) for r in R.values() if r.get("own_rescored") and r["content"].strip()), default=0.0)
     g["scorer_matches_generation"] = _gate(sd <= C.SCORER_TOL_LOGP, dict(max_abs_logprob_diff=sd))
+    gm = min(six(v)[1] for (m, i, ins, meth, j), v in pol.items() if ins == "G")
+    g["policy_G_face_mass"] = _gate(gm >= C.MIN_FACE_MASS, dict(min_six_face_mass=gm, amendment="v1.1"))
     pol_ok = all((m, i, ins, "incremental", j) in pol for m in C.MODELS for i in items for ins in ("G", "F", "Fanon") for j in range(1, 11))
     g["policy_complete"] = _gate(pol_ok, dict(items=len(items)))
     # oracle check: G scored on the generator's own sampled sequence equals the sampling-time distribution
@@ -315,6 +330,7 @@ def tidy(data: dict) -> list:
         r = R[k]
         it = items[t["item_id"]]
         free = parse_n(r["content"], len(t["positions"]))
+        trial_mass_ok = min(six(s["face_logprobs"])[1] for s in r["teacher_forced"]) >= C.MIN_FACE_MASS
         for i, s in enumerate(r["teacher_forced"]):
             j = t["positions"][i]
             p, mass = six(s["face_logprobs"])
@@ -326,7 +342,7 @@ def tidy(data: dict) -> list:
                              item_id=t["item_id"], sequence=P.seq_str(it["sequence"]), cond=t["cond"], suite=t["suite"], framing=t["framing"],
                              evidence=t["evidence"], arm=t["arm"], position=j, window_index=i + 1, true_face=truth,
                              **{f"p{f}": p[f - 1] for f in FACES}, **{f"q{f}": q[f - 1] for f in FACES}, **{f"n{f}": nat[f - 1] for f in FACES},
-                             six_face_mass=mass, js=js_bits(p, q), tv=tv(p, q), kl=kl_bits(q, p), H_target=entropy_bits(q),
+                             six_face_mass=mass, trial_mass_ok=trial_mass_ok, js=js_bits(p, q), tv=tv(p, q), kl=kl_bits(q, p), H_target=entropy_bits(q),
                              js_tempered=js_bits(p, qt), js_native=js_bits(nat, q), kl_native=kl_bits(q, nat), js_pred_vs_native=js_bits(p, nat),
                              p_true=p[truth - 1], log2_p_true=math.log2(p[truth - 1]), q_p_true=q[truth - 1], rank_true=rank_of(p, truth),
                              top_is_true=p.index(max(p)) + 1 == truth, top_is_target_top=p.index(max(p)) == q.index(max(q)),
@@ -362,8 +378,9 @@ def _mean(xs):
 def self_advantage(vals: dict) -> callable:
     """vals: (predictor, item) -> metric where LOWER is closer. Returns stat(sample) -> dict of the 2x2 contrasts."""
     def stat(s):
-        sq = _mean([vals[("mistral", i)] - vals[("qwen", i)] for i in s["qwen"]])        # on Qwen targets: Mistral - Qwen
-        sm = _mean([vals[("qwen", i)] - vals[("mistral", i)] for i in s["mistral"]])     # on Mistral targets: Qwen - Mistral
+        both = lambda i: ("qwen", i) in vals and ("mistral", i) in vals                   # always true except in E1s/E3s
+        sq = _mean([vals[("mistral", i)] - vals[("qwen", i)] for i in s["qwen"] if both(i)])     # on Qwen targets: Mistral - Qwen
+        sm = _mean([vals[("qwen", i)] - vals[("mistral", i)] for i in s["mistral"] if both(i)])  # on Mistral targets: Qwen - Mistral
         return dict(self_adv_qwen_targets=sq, self_adv_mistral_targets=sm, interaction=(sq + sm) / 2)
     return stat
 
@@ -379,7 +396,7 @@ def boot_dict(stat, cl) -> dict:
             draws[k].append(v)
     out = {}
     for k, v in est.items():
-        d = sorted(draws[k])
+        d = sorted(x for x in draws[k] if not math.isnan(x))
         out[k] = dict(est=v, lo=d[int(0.025 * len(d))], hi=d[int(0.975 * len(d)) - 1])
     return out
 
@@ -442,7 +459,36 @@ def estimands(rows: list, items: dict) -> dict:
         res[f"E5_{name}_selfadv_js"] = boot_dict(self_advantage(item_means(rows, "js", **filt)), cl)
     # E6: tempered-target sensitivity (target distribution at the sampling temperature)
     res["E6_selfadv_AH_js_tempered"] = boot_dict(self_advantage(item_means(rows, "js_tempered", arm="AH")), cl)
+    # Amendment v1.1 sensitivity: only trials with raw six-face mass >= 0.5 at every scored position
+    res["E1s_selfadv_AH_js_mass_ok"] = boot_dict(self_advantage(item_means(rows, "js", arm="AH", trial_mass_ok=True)), cl)
+    res["E1s_selfadv_allarms_js_mass_ok"] = boot_dict(self_advantage(item_means(rows, "js", trial_mass_ok=True)), cl)
+    for x in ("T", "R"):
+        vx = item_means(rows, "js", framing=x, trial_mass_ok=True)
+        va = item_means(rows, "js", framing="A", trial_mass_ok=True)
+        def did_s(s, vx=vx, va=va):
+            d = {(p, g): _mean([vx[(p, i)] - va[(p, i)] for i in s[g] if (p, i) in vx and (p, i) in va]) for p in C.MODELS for g in C.MODELS}
+            q, m = d[("qwen", "qwen")] - d[("mistral", "qwen")], d[("mistral", "mistral")] - d[("qwen", "mistral")]
+            return dict(DiD_qwen_targets=q, DiD_mistral_targets=m, DiD=(q + m) / 2)
+        res[f"E3s_identity_{x}_minus_A_js_mass_ok"] = boot_dict(did_s, cl)
     return res
+
+
+def mass_by_cell_arm(rows: list) -> list:
+    """Amendment v1.1: raw six-face mass by cell, arm and window position (Tier B), and the share of trials kept by E1s/E3s."""
+    out = []
+    for p in C.MODELS:
+        for g in C.MODELS:
+            for fr in C.FRAMINGS:
+                for ev in C.EVIDENCE:
+                    rs = [r for r in rows if r["tier"] == "B" and r["predictor"] == p and r["generator"] == g and r["arm"] == fr + ev]
+                    first = [r for r in rs if r["window_index"] == 1]
+                    out.append(dict(cell=f"{p}->{g}", arm=fr + ev, n_trials=len(first),
+                                    mean_mass_first=_mean([r["six_face_mass"] for r in first]),
+                                    min_mass_first=min(r["six_face_mass"] for r in first),
+                                    mean_mass_later=_mean([r["six_face_mass"] for r in rs if r["window_index"] > 1]),
+                                    share_trials_mass_ok=_mean([r["trial_mass_ok"] for r in first]),
+                                    share_free_valid=_mean([r["free_valid"] for r in first])))
+    return out
 
 
 def by_condition(rows: list) -> list:

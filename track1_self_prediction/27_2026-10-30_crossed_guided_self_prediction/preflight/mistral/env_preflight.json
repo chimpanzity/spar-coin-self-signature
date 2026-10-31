@@ -1,0 +1,151 @@
+{
+  "key": "mistral",
+  "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.2,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.13",
+  "driver": "580.173.02",
+  "eos_ids": [
+    2
+  ],
+  "face_ids": {
+    "1": 1049,
+    "2": 1050,
+    "3": 1051,
+    "4": 1052,
+    "5": 1053,
+    "6": 1054
+  },
+  "max_memory_allocated_gb": 49.73,
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "mistral_common": "1.13.0",
+  "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1",
+  "tokenizer_version": "v11",
+  "bos_id": 1,
+  "serving": "transformers Mistral3ForConditionalGeneration, text-only input_ids",
+  "stage": "preflight",
+  "started_utc": "2026-10-31T00:44:38.377462+00:00",
+  "job_order": [
+    [
+      "G",
+      2
+    ],
+    [
+      "G",
+      1
+    ],
+    [
+      "F",
+      1
+    ],
+    [
+      "F",
+      2
+    ],
+    [
+      "G",
+      3
+    ],
+    [
+      "Fanon",
+      1
+    ],
+    [
+      "F",
+      3
+    ]
+  ],
+  "prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+    "Fanon": "09afdbeec5d8c4c12bea04a8a922aee462350a50a935b776ef87ca94fc0423f1",
+    "x26_H0": "4c7ec36a1d2c1ebf01a01d274c686e260bc496f684b42b4486b02f6021b40c4d",
+    "x26_N0": "eab8ada0bdd62458091aab6abcada435c6bad98f5b95e8ed5638c44318081868",
+    "x26_S0": "2931d3cc0eb559e4ab5f64a4e8518926e94adb0224c97e7fae3c5770bd286c98",
+    "x26_O0": "c34835eace48fd4c48c957dbd43e627e04e9928e040d89787566aff77723b866",
+    "x26_H3": "4133469cedd17165063bd7438518f1e6f0bddfba6438ae90d7b5774a631c5a7d",
+    "x26_N3": "7fe41998e43947e174e4684dfba4359988f2102c38e5c0695028b23c4b42802c",
+    "x26_S3": "92f01bf89d774c5297c727d0f44a8701eceaa58aee74b6245ef0b196e5429f87",
+    "x26_O3": "8bc2e3edafda8ddf6dbbfdf95077404ea23b4f4c1abd81d58fdb7fd982193d88",
+    "x26_H6": "06bfcaa45fcf282417599a2ab33fe9e5469607acb7d824eaf1c49d72af720400",
+    "x26_N6": "2ae14bad8de8bfae797a6fa77c44c24ad16f16c846339653ef6927b0ff38df61",
+    "x26_S6": "e88f4bcaaaf6d5e31fe320e493402cd553df400f9aff431ca841da4c181948df",
+    "x26_O6": "f5ad3231ba3218d813506e0bdf39ada1ff5427bc4bd34c21a1ff8d52178fe7bc"
+  },
+  "rendered_sha256": {
+    "G": "f94b591da74a9a47a63d1170add9c88e65d0179d47d1e789607cbea70d60eee8",
+    "F": "0a2876cbb73cfe72a7100c20bc91ebebde52eb9a91404b4ec5390ed968c41971",
+    "Fanon": "154c354756d88dcc84d0583eab292cb3179493d488427e5e37d521d224c2c5bd",
+    "x26_H0": "3e439805ab0beab71ab3d0e725284bf6fdb869885e1530c901586128a5865bcd",
+    "x26_N0": "89c4e98649f1f8fb190be8611dde9ef335df1e1e4d2bdc9caeb6da3b15e1d6ea",
+    "x26_S0": "fc61d6c904e98142aa8a4084ea4f9db02ab2239019fb8af8f533d59a2c2c487f",
+    "x26_O0": "02edec3382fb01fbeaa7d695a8983eeed572032a7e2bd109acdc2d3bfc8020a4",
+    "x26_H3": "d59c193a37701b013d71ef5671a6720afcefe745f27c31a68aadb4060406414c",
+    "x26_N3": "ffdea1a08fd579af04a056541c44c1c903d3593d74d894e176d3e98397241a08",
+    "x26_S3": "88cd171aeec70dafa5809f5e7ae0e9d38c1809c6fcf09429cc7625a929905eac",
+    "x26_O3": "f0435c4c39f731fc346410f196e8bed01d9eaa196da85850e7f92cc8c4d192d5",
+    "x26_H6": "9599f4c48a09f04f5ba47630fc7e6b888ef45a56030bddfb819882be793e0e2d",
+    "x26_N6": "76c15f5f0324b61400153a7473d0d6bb7bbe0fdb0660771738fa075bf3f2db46",
+    "x26_S6": "9d91399bcd5a68b13568636c51010696eeffab858689a13c65c47e46b3b0b441",
+    "x26_O6": "426d95f06e650808b8b013d977b81ec8d82d00cc76a9537864d2bbfd116ed33c"
+  },
+  "rendered_G": "<s>[INST]Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.[/INST]",
+  "g10_history_ids": [
+    1053,
+    1032,
+    1050,
+    1032,
+    1054,
+    1032,
+    1051,
+    1032,
+    1049,
+    1032,
+    1052,
+    1032,
+    1054,
+    1032,
+    1050,
+    1032,
+    1053,
+    1032,
+    1051
+  ],
+  "face_single_tokens": {
+    "1": [
+      1049
+    ],
+    "2": [
+      1050
+    ],
+    "3": [
+      1051
+    ],
+    "4": [
+      1052
+    ],
+    "5": [
+      1053
+    ],
+    "6": [
+      1054
+    ]
+  },
+  "finished_utc": "2026-10-31T00:45:38.577982+00:00",
+  "sec_per_job_mean": 4.724462342262268,
+  "sec_per_crossed_trial": [
+    1.0645673274993896,
+    14.181104898452759,
+    14.085403680801392
+  ]
+}

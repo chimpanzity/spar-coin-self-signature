@@ -1,0 +1,18 @@
+# Preflight, mistral (SPAR_CROSSED_GUIDED_SELFPRED_v1.0)
+
+**Overall: PASS**
+
+| Gate | Status | Detail |
+|---|---|---|
+| serving | PASS | `{"model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506", "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43", "gpu": "NVIDIA A100-SXM4-80GB", "torch": "2.11.0+cu128", "transformers": "5.22.0", "cuda": "12.8", "chat_template_sha256": null, "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1", "mistral_common": "1.13.0"}` |
+| template | PASS | `{"rendered_G": "<s>[INST]Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.[/INST]"}` |
+| face_tokens | PASS | `{"face_ids": {"1": 1049, "2": 1050, "3": 1051, "4": 1052, "5": 1053, "6": 1054}, "separator_id": 1032}` |
+| face_logprobs_finite | PASS | `{"n_steps": 238}` |
+| face_mass_direct_generation | PASS | `{"n_steps": 90, "min_six_face_mass": 0.9704016121378366, "amendment": "v1.1"}` |
+| scorer_matches_generation | PASS | `{"max_abs_logprob_diff": 0.0, "tol": 0.0001}` |
+| determinism | PASS | `{"G": {"outputs": ["4 2 6 1 3 5 2 4 6 1"], "max_spread": 0.0}, "F": {"outputs": ["3 1 5 2 6 4 3 1 5 2"], "max_spread": 0.0}}` |
+| greedy_G_valid | PASS | `{"G": "4 2 6 1 3 5 2 4 6 1", "F": "3 1 5 2 6 4 3 1 5 2"}` |
+| numerical_floor | PASS | `{"max_abs_dp_incremental_vs_full_pass": 0.01941250511196707, "n": 79, "stop_above": 0.25}` |
+
+Information (not gated): `{"feasibility": ["4 1 6 3 2 5 1 4 6 2", "3 1 5 6 2 4 3 1 6 2", "1 3 5 2 6 4 1 3 2 6", "1 3 5 2 6 4 1 3 5 2"], "feasibility_valid": 4, "crossed_format_check": {"crossed_AH_k3": "3 1 5", "crossed_TD_m3": "Given the first three integers of the response are 4 2 6 and the earlier response was 3 1 5 6 2 4 1 3 6 2, we can infer that the model tends to generate sequences with some randomness but may have certain patterns or biases.\n\nSince the earlier response is not the one we're predicting, and we only know the first three integers of the current response (4 2 6), we cannot definitively determine the next three integers (positions 7 through 9) without additional information or a clear pattern.\n\nHowever, if we assume the model might continue", "crossed_RI_k8": "Given the sequence so far: 4 2 6 1 3 5 2 4\n\nTo predict the next two numbers (positions 9 and 10), we can observe the pattern of the sequence:\n\n1. The sequence alternates between even and odd numbers:\n   - Position 1: 4 (even)\n   - Position 2: 2 (even) \u2192 breaks the pattern, but let's see further.\n   - Position 3: 6 (even)\n   - Position 4: 1 (odd)\n   - Position 5: 3 (odd)\n   - Position"}, "sec_per_crossed_trial": [1.0645673274993896, 14.181104898452759, 14.085403680801392], "max_memory_allocated_gb": 49.73, "floor": 0.01941250511196707, "prediction_prompt_min_mass_reported_not_gated": {"F": 0.6045997890864474, "Fanon": 0.9998865133879613, "crossed_AH_k3": 0.5558888471362392, "crossed_TD_m3": 0.3348893134261589, "crossed_RI_k8": 0.31048128006883446, "mp_F|G": 0.6045997890864474, "mp_F|F": 0.6045997890864474, "mp_Fanon|G": 0.42954306500098544}}`
+

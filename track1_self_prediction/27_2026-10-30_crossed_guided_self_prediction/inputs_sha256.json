@@ -14,5 +14,16 @@
     "track1_self_prediction/26_2026-10-30_dice_prefix_declarative/main/teacher_forced.jsonl": "fe3ce1d96cb61734fed21581386f4bc487d0d1b26e9aa20bd7f26e34bd6498b9",
     "PROTOCOL_FROZEN.md": "ef70efeb1254211ecb30ad42890f8de1f4b45fbc6e60499c4eafd5a38a3adf51",
     "prompts_frozen.md": "205f0087d63259b6afcd498d3137c6d2788987a9bb32db741569b5c9b9157b65"
+  },
+  "amendments": {
+    "v1.1": {
+      "file": "AMENDMENT_v1.1.md",
+      "sha256": "8e4d5f5a1ff66d82f6f75f904376ab8faec11e95709f483ae45028d1714173c0",
+      "approved_utc": "2026-10-31T00:52:34+00:00",
+      "changed_code": {
+        "src/spar_dynamic/dice_crossed_guidance/analysis.py": "264942fd61cf7eb5ece87a1a6a60aa2d6787515192822a1990c4edf7a710d746",
+        "src/spar_dynamic/dice_crossed_guidance/__main__.py": "03e94cc34599886b72da45ada73e0ec908f4572a44fcfb6525c718ae3abe05c3"
+      }
+    }
   }
 }

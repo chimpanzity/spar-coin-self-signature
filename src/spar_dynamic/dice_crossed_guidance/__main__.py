@@ -221,6 +221,7 @@ def analyse():
     _csv(C.ANALYSIS / "by_condition.csv", A.by_condition(rows))
     _csv(C.ANALYSIS / "by_arm.csv", A.by_arm(rows))
     _csv(C.ANALYSIS / "tier_a.csv", A.tier_a(rows))
+    _csv(C.ANALYSIS / "mass_by_cell_arm.csv", A.mass_by_cell_arm(rows))
     est = A.estimands(rows, data["items"])
     rq1 = A.rq1_tables()
     _csv(C.ANALYSIS / "rq1_G_vs_F.csv", rq1)
