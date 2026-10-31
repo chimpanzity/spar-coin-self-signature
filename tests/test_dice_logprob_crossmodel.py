@@ -315,7 +315,8 @@ def test_prose_outputs_fail_format_gate_but_are_never_scored_as_faces(tmp_path):
     pre.mkdir()
     gpu.preflight(FakeEngine("mistral", prose={"S3", "W3-7"}), str(pre))
     res = Gt.preflight_gates("mistral", pre)
-    assert res["gates"]["format_all_conditions"]["status"] == "FAIL"
+    rep = res["info"]["format_all_conditions_reported"]                     # amendment v1.1: reported, not gated
+    assert rep["all_valid"] is False and set(rep["invalid"]) == {"S3", "W3-7"} and "format_all_conditions" not in res["gates"]
     assert res["gates"]["format_references"]["status"] == "PASS"
     raw = read_jsonl(pre / "raw_attempts.jsonl")
     s3 = next(r for r in raw if r["condition"] == "S3")

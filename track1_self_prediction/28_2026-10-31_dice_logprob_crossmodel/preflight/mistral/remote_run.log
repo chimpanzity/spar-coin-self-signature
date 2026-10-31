@@ -1,0 +1,24 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/585 [00:00<?, ?it/s]Loading weights:   0%|          | 2/585 [00:00<00:53, 10.85it/s]Loading weights:   1%|          | 6/585 [00:00<00:25, 23.15it/s]Loading weights:   3%|▎         | 15/585 [00:00<00:13, 43.30it/s]Loading weights:   4%|▍         | 24/585 [00:00<00:10, 51.22it/s]Loading weights:   6%|▌         | 33/585 [00:00<00:10, 55.17it/s]Loading weights:   7%|▋         | 41/585 [00:00<00:08, 60.96it/s]Loading weights:   8%|▊         | 49/585 [00:00<00:08, 65.96it/s]Loading weights:  10%|▉         | 56/585 [00:01<00:08, 65.66it/s]Loading weights:  11%|█         | 63/585 [00:01<00:08, 58.76it/s]Loading weights:  12%|█▏        | 70/585 [00:01<00:09, 56.69it/s]Loading weights:  13%|█▎        | 78/585 [00:01<00:09, 56.03it/s]Loading weights:  15%|█▍        | 86/585 [00:01<00:08, 61.66it/s]Loading weights:  16%|█▌        | 93/585 [00:01<00:09, 51.89it/s]Loading weights:  18%|█▊        | 104/585 [00:01<00:08, 58.95it/s]Loading weights:  19%|█▉        | 113/585 [00:01<00:07, 66.08it/s]Loading weights:  21%|██        | 121/585 [00:02<00:06, 69.34it/s]Loading weights:  22%|██▏       | 129/585 [00:02<00:06, 71.32it/s]Loading weights:  23%|██▎       | 137/585 [00:02<00:06, 65.57it/s]Loading weights:  25%|██▍       | 144/585 [00:02<00:07, 60.16it/s]Loading weights:  26%|██▌       | 151/585 [00:02<00:07, 56.42it/s]Loading weights:  27%|██▋       | 158/585 [00:02<00:07, 59.27it/s]Loading weights:  28%|██▊       | 166/585 [00:02<00:06, 64.02it/s]Loading weights:  30%|██▉       | 173/585 [00:02<00:06, 64.29it/s]Loading weights:  31%|███       | 180/585 [00:03<00:06, 58.59it/s]Loading weights:  32%|███▏      | 187/585 [00:03<00:07, 55.41it/s]Loading weights:  33%|███▎      | 195/585 [00:03<00:07, 55.21it/s]Loading weights:  35%|███▍      | 203/585 [00:03<00:06, 60.92it/s]Loading weights:  36%|███▌      | 211/585 [00:03<00:05, 65.09it/s]Loading weights:  37%|███▋      | 218/585 [00:03<00:05, 65.01it/s]Loading weights:  38%|███▊      | 225/585 [00:03<00:06, 59.69it/s]Loading weights:  40%|███▉      | 232/585 [00:03<00:06, 56.46it/s]Loading weights:  41%|████      | 239/585 [00:04<00:05, 59.56it/s]Loading weights:  42%|████▏     | 246/585 [00:04<00:06, 50.27it/s]Loading weights:  44%|████▍     | 258/585 [00:04<00:05, 60.59it/s]Loading weights:  45%|████▌     | 266/585 [00:04<00:04, 64.87it/s]Loading weights:  47%|████▋     | 274/585 [00:04<00:04, 62.89it/s]Loading weights:  49%|████▊     | 284/585 [00:04<00:04, 70.10it/s]Loading weights:  50%|█████     | 293/585 [00:04<00:04, 68.25it/s]Loading weights:  52%|█████▏    | 302/585 [00:05<00:04, 66.40it/s]Loading weights:  53%|█████▎    | 310/585 [00:05<00:03, 69.08it/s]Loading weights:  54%|█████▍    | 318/585 [00:05<00:03, 71.30it/s]Loading weights:  56%|█████▌    | 326/585 [00:05<00:03, 65.18it/s]Loading weights:  57%|█████▋    | 333/585 [00:05<00:04, 60.59it/s]Loading weights:  58%|█████▊    | 340/585 [00:05<00:04, 57.50it/s]Loading weights:  59%|█████▉    | 347/585 [00:05<00:03, 60.12it/s]Loading weights:  61%|██████    | 355/585 [00:05<00:03, 64.13it/s]Loading weights:  63%|██████▎   | 367/585 [00:05<00:02, 78.76it/s]Loading weights:  91%|█████████▏| 534/585 [00:06<00:00, 515.04it/s]Loading weights: 100%|██████████| 585/585 [00:06<00:00, 95.58it/s] 
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+loaded mistral in 11.5 s
+[1/19] F-1: '3 1 5 2 6 4 3 1 5 2' (stop, 1323 ms)
+[2/19] W1-5-1: 'Here is the predicted output for the first 5 integers of the 10 simulated die rolls:\n\n3 1 6 4 2' (stop, 1485 ms)
+[3/19] F-2: '3 1 5 2 6 4 3 1 5 2' (stop, 888 ms)
+[4/19] S7-1: '3' (stop, 103 ms)
+[5/19] S10-1: '3' (stop, 103 ms)
+[6/19] G-3: '4 2 6 1 3 5 2 4 6 1' (stop, 902 ms)
+[7/19] S9-1: '3' (stop, 102 ms)
+[8/19] S3-1: '3' (stop, 103 ms)
+[9/19] F-3: '3 1 5 2 6 4 3 1 5 2' (stop, 891 ms)
+[10/19] S4-1: '4' (stop, 113 ms)
+[11/19] S8-1: '3' (stop, 103 ms)
+[12/19] G-1: '4 2 6 1 3 5 2 4 6 1' (stop, 883 ms)
+[13/19] W3-7-1: 'Here is the predicted output for the sequence of 10 simulated die rolls, followed by the requested subset (positions 3 t' (stop, 2751 ms)
+[14/19] S2-1: '3' (stop, 103 ms)
+[15/19] S6-1: '3' (stop, 103 ms)
+[16/19] W6-10-1: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of a simulated 10-roll sequence of a six-s' (stop, 2129 ms)
+[17/19] S1-1: '3' (stop, 102 ms)
+[18/19] G-2: '4 2 6 1 3 5 2 4 6 1' (stop, 875 ms)
+[19/19] S5-1: '3' (stop, 103 ms)
+{"stage": "preflight", "model": "mistral", "seconds": 45.6}

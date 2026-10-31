@@ -205,7 +205,9 @@ def preflight_gates(model: str, d: Path | None = None) -> dict:
     g["face_logprobs_finite"], g["face_mass_direct_generation"] = _finite_and_mass(raw, mp)
     fm = _formats(raw)
     g["format_references"] = _gate(all(fm[k]["valid"] == fm[k]["n"] for k in ("G", "F")), {k: fm[k] for k in ("G", "F")})
-    g["format_all_conditions"] = _gate(all(v["valid"] == v["n"] for v in fm.values()) and len(fm) == 15, fm)
+    # amendment v1.1: S/W format is reported, not gated (G/F stay gated above)
+    fmt_all = dict(all_valid=all(v["valid"] == v["n"] for v in fm.values()) and len(fm) == 15,
+                   invalid={k: v["outputs"] for k, v in fm.items() if v["valid"] < v["n"]}, amendment="v1.1")
     g["scorer_matches_generation"] = _scorer(raw)
     det = _determinism(raw)
     g["determinism"] = _gate(all(len(v["outputs"]) == 1 and v["max_logprob_spread"] == 0.0 and v["n"] == C.PREFLIGHT_REPEATS
@@ -220,7 +222,7 @@ def preflight_gates(model: str, d: Path | None = None) -> dict:
     g["archival_regression"] = _regression(model, raw, mp)
     sec = env.get("sec_per_job", {})
     proj_min = sum(sec.get(c["condition"], 0) for c in P.conditions()) * C.N_REPLICATES / 60
-    info = dict(sec_per_job=sec, projected_main_generation_minutes=proj_min, matched_seconds=env.get("matched_seconds"),
+    info = dict(format_all_conditions_reported=fmt_all, sec_per_job=sec, projected_main_generation_minutes=proj_min, matched_seconds=env.get("matched_seconds"),
                 vocab_scan_seconds=env.get("vocab_scan_seconds"), floor=max(fl),
                 prediction_prompt_min_mass_reported_not_gated=prediction_mass(raw, mp),
                 max_memory_allocated_gb=env.get("max_memory_allocated_gb"))

@@ -1,0 +1,263 @@
+{
+  "key": "qwen",
+  "model_id": "Qwen/Qwen3-32B",
+  "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.3,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.13",
+  "driver": "595.91.07",
+  "eos_ids": [
+    151643,
+    151645
+  ],
+  "face_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+  },
+  "max_memory_allocated_gb": 66.82,
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "serving": "Experiment 21 Qwen class",
+  "study": "SPAR_DICE_LOGPROB_CROSSMODEL_v2.0",
+  "stage": "preflight",
+  "started_utc": "2026-10-31T16:46:11.056855+00:00",
+  "order_seed": 20261131,
+  "job_order": [
+    [
+      "G",
+      2
+    ],
+    [
+      "W1-5",
+      1
+    ],
+    [
+      "S6",
+      1
+    ],
+    [
+      "W6-10",
+      1
+    ],
+    [
+      "S9",
+      1
+    ],
+    [
+      "W3-7",
+      1
+    ],
+    [
+      "G",
+      1
+    ],
+    [
+      "F",
+      2
+    ],
+    [
+      "S4",
+      1
+    ],
+    [
+      "S2",
+      1
+    ],
+    [
+      "G",
+      3
+    ],
+    [
+      "S7",
+      1
+    ],
+    [
+      "S5",
+      1
+    ],
+    [
+      "S3",
+      1
+    ],
+    [
+      "F",
+      1
+    ],
+    [
+      "F",
+      3
+    ],
+    [
+      "S1",
+      1
+    ],
+    [
+      "S10",
+      1
+    ],
+    [
+      "S8",
+      1
+    ]
+  ],
+  "n_jobs": 19,
+  "prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03",
+    "S1": "93807652c65e1b0debb407a76dbd5bc37b7e7ba787861370965b048f089f8931",
+    "S2": "f84d68abaf1693d45583b3db6e36f5e73882acac9bb54c2b53fec2d108390d6b",
+    "S3": "33463401ee2cc9cfc407648f5d6408dd3a6ee8ed745cc25486f628913dab6530",
+    "S4": "debc852e1061dff826975a60c13629b8cdf73ade78a006684c8094fedfbb9fe2",
+    "S5": "5e1e09e01c237001488e66259aebe3857c3dddc84d8946c3be0b087b009858d6",
+    "S6": "6e3dc6d2408762311a577c2909758379f6e4ecb3d1766073950f1fe45b642dbd",
+    "S7": "f43b4976309af7de0273363e762333cb5849fcbed726514a3c9b5981e687e7e2",
+    "S8": "88f4d90d4df9c1b72fbdf4ae66ffccf2ba340d7fb917b8817e410f17da0c1cf9",
+    "S9": "619568ca90506a50de2198b90a2b6422ad4355d6631571f3ae0686cec373fe9c",
+    "S10": "28594c940e99b48da6fd08a040e2a950405667780d6db6384de08cb3337900e7",
+    "W1-5": "19be29d044b3e0af9c98ad5e9d1637c7cec098a3faf86d3bdd9ffa1ddaf643b5",
+    "W3-7": "53725dc596402ec43c99106e819eee9819b55236e8c499a6d90ace7dae42fd8c",
+    "W6-10": "dcf49443f969363de5ae1b8dd3a4e368547a34175e79e2a18925f1e819cdfbd0"
+  },
+  "rendered_sha256": {
+    "G": "5c5bb4193ac7634b82765c91ef75399166b97edadea66924d56396d4355cc185",
+    "F": "1e267d578a5e85b31bf10761307b50df6e6a4e429b5255bc3d5cfbf2e449aca1",
+    "S1": "3059753921508b9a9852acfbfc36338e0f5eb735aa1c81a83ece0841646522d4",
+    "S2": "394401046af2b46a0938c37a1e4da10bf01cad8c9bc870f5f2989d6d1aae7be7",
+    "S3": "25dcd04420c70e8608bc94906d2ddd2d14a423657676feb0370d6e6c6bd23268",
+    "S4": "171f83b02d6d56a525a8e2de41b027833df97fbf09cd484467b20f9aaeed4c1e",
+    "S5": "c27f350b2ec56d7f36d122c1cf44a5a325bfcf27f3342c55abb6c17b8037a6c1",
+    "S6": "908d64df47fc653d92aac6a00d8707bf1268191b236138f726101fe6c060573c",
+    "S7": "eb3eaccd6f20059133784768a0a7d98307ebeadf88552da0f10cead046dd1623",
+    "S8": "28a479c65c6dc4f3bf3818425437ec255dd6b2d55999df2e9ff767364cd66e52",
+    "S9": "0d609099e35ce63e8b3325b552a6da139c1abc3b74036ed8cdbcc1ebab0a248c",
+    "S10": "788233984ab08a57eb17b2ddf310b73ad43b676098954af64f0622247f47eb45",
+    "W1-5": "c23a12307ddb0749639e053f69b6984405e83ad726dfd289d60fbbd0a2f3bfad",
+    "W3-7": "03a4680ae50c9b0dea64e666b69b350f519fa1c57c84329c279625c0d16a75e9",
+    "W6-10": "1e0435c99cfd7a908947f43e71c1646654d81a123a20dcb6d176f4bff5fb053d"
+  },
+  "rendered_G": "<|im_start|>user\nGenerate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "g10_history_ids": [
+    20,
+    220,
+    17,
+    220,
+    21,
+    220,
+    18,
+    220,
+    16,
+    220,
+    19,
+    220,
+    21,
+    220,
+    17,
+    220,
+    20,
+    220,
+    18
+  ],
+  "face_single_tokens": {
+    "1": [
+      16
+    ],
+    "2": [
+      17
+    ],
+    "3": [
+      18
+    ],
+    "4": [
+      19
+    ],
+    "5": [
+      20
+    ],
+    "6": [
+      21
+    ]
+  },
+  "accelerate": "1.15.0",
+  "huggingface_hub": "2.4.0",
+  "code_sha256": {
+    "dice_logprob_crossmodel/__init__.py": "0be617e5044c63465fca021078a72ace04768539260773c377b579559ba38021",
+    "dice_logprob_crossmodel/__main__.py": "33bb28acd3f185ba89ec2b12e327160a33ef47390f220fddb9666a6f00431143",
+    "dice_logprob_crossmodel/analysis.py": "17d27679f8e8e72a2718768fea3ecb6e078fd4cf1a215a37a7c1f981ee5a2304",
+    "dice_logprob_crossmodel/config.py": "b2e61eae797faf43771cf6f9fca95a59013e92737f56df306bed2a1077794d91",
+    "dice_logprob_crossmodel/figures.py": "dd2024540c7b0db1aaeddc83931cd1dfaf08e4f04976653c67dbbe89a040d8bd",
+    "dice_logprob_crossmodel/gates.py": "2fe385e30f0827b0889ca672c894e1d41b2c8e2ba0647533e0503ba3b5b3e008",
+    "dice_logprob_crossmodel/gpu.py": "33c1ee66d827ab7b1ab8377ccde29376fe11095dccde39d417598ec97b5ee3ca",
+    "dice_logprob_crossmodel/prompts.py": "6ad7132da08c74ba2de08802f21c70342c104719942fa15647f18784f904e54a",
+    "dice_crossed_guidance/models.py": "fe0d03681c9f5c22fc2e85f7ef7e9d77e3270277c6435af080feb770b79f196d",
+    "dice_crossed_guidance/config.py": "ac23d8d178d541ce358443479add0615520b8376ed730ca8b348bec5b2a8ce5a",
+    "dice_logprob/prompts.py": "117a7a218f9d1bf3f4e91c30ce80d7ef510c92c60a433ddb41a0b57c792ea143",
+    "dice_logprob/gpu_runner.py": "45da8128297d1fd4d5404ebbf79272a47017d0ba4519b3afcc8718a8e662e0f7"
+  },
+  "code_commit": "562421f",
+  "hourly_usd": "1.969",
+  "max_new_tokens": 128,
+  "vocab_scan": {
+    "vocab_size": 151669,
+    "face_like": [
+      [
+        16,
+        "1"
+      ],
+      [
+        17,
+        "2"
+      ],
+      [
+        18,
+        "3"
+      ],
+      [
+        19,
+        "4"
+      ],
+      [
+        20,
+        "5"
+      ],
+      [
+        21,
+        "6"
+      ]
+    ],
+    "variant_face_tokens": [],
+    "multi_digit_ascii_tokens": []
+  },
+  "vocab_scan_seconds": 0.5,
+  "finished_utc": "2026-10-31T16:46:55.900756+00:00",
+  "sec_per_job": {
+    "G": 3.677748203277588,
+    "W1-5": 1.811293125152588,
+    "S6": 0.45409154891967773,
+    "W6-10": 1.810312271118164,
+    "S9": 0.45647096633911133,
+    "W3-7": 1.8152234554290771,
+    "F": 3.474021037419637,
+    "S4": 0.447857141494751,
+    "S2": 0.46183228492736816,
+    "S7": 0.45419931411743164,
+    "S5": 0.45598387718200684,
+    "S3": 0.4702436923980713,
+    "S1": 0.4537653923034668,
+    "S10": 0.46038269996643066,
+    "S8": 0.451585054397583
+  },
+  "matched_seconds": 12.9
+}
