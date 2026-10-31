@@ -1,0 +1,35 @@
+{
+  "overall": "PASS",
+  "models": [
+    "qwen",
+    "mistral"
+  ],
+  "trials_sha256": "41dbc9445028d5580dee45e3274b019c74ec7bf7e71c0f11f18ca03520cf92e1",
+  "items_sha256": "9f9765b399d7c5fad488b9f3970617f398d32e8b62de3b07311feaaedc54b802",
+  "corpus_sha256": {
+    "qwen": "f04ef2f63100f6b2ce36ec437fca7d31fd10605852de5d1faf37077d80816d9f",
+    "mistral": "6091ae7531c4f07c8f4e2910d6eb50f8724ec62c83a5e38797f89e30908ea8c5"
+  },
+  "n_trials": 5400,
+  "call_table": {
+    "n_trials": 5400,
+    "per_predictor": {
+      "qwen": 2700,
+      "mistral": 2700
+    },
+    "per_cell": {
+      "qwen->qwen": 1350,
+      "qwen->mistral": 1350,
+      "mistral->qwen": 1350,
+      "mistral->mistral": 1350
+    },
+    "forward_scored_positions": 15300,
+    "est_seconds": {
+      "qwen": 3660.0,
+      "mistral": 2850.0
+    },
+    "est_hours_incl_setup": 2.3083333333333336,
+    "est_cost_usd": 3.693333333333334,
+    "cap_usd": 15.0
+  }
+}

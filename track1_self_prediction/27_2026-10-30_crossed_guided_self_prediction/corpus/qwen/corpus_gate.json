@@ -1,0 +1,56 @@
+{
+  "model": "qwen",
+  "models": [
+    "qwen"
+  ],
+  "gates": {
+    "reference_complete": {
+      "status": "PASS",
+      "detail": {
+        "valid": 8,
+        "drawn": 8
+      }
+    },
+    "target_complete": {
+      "status": "PASS",
+      "detail": {
+        "valid": 24,
+        "drawn": 24
+      }
+    },
+    "scorer_matches_generation": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_logprob_diff": 0.0
+      }
+    },
+    "seeds_unique_and_tabled": {
+      "status": "PASS",
+      "detail": {
+        "n": 32,
+        "first": [
+          27100000,
+          27100001,
+          27100002
+        ]
+      }
+    }
+  },
+  "info": {
+    "duplicate_targets": {
+      "4 2 6 1 3 5 2 4 6 3": 2,
+      "5 2 6 3 1 4 6 2 5 3": 7,
+      "5 3 1 6 2 4 3 5 1 6": 3
+    },
+    "n_unique_targets": 15,
+    "targets_equal_to_a_reference": [
+      "4 2 6 3 1 5 2 4 6 3",
+      "5 2 6 1 3 4 6 2 5 1",
+      "5 2 6 3 1 4 3 6 2 5"
+    ],
+    "floor_sampled": 0.10166176844821395,
+    "six_distinct_first6_targets": 24,
+    "six_distinct_first6_references": 8
+  },
+  "overall": "PASS"
+}

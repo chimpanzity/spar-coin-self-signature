@@ -1,0 +1,21 @@
+{
+  "n_trials": 5400,
+  "per_predictor": {
+    "qwen": 2700,
+    "mistral": 2700
+  },
+  "per_cell": {
+    "qwen->qwen": 1350,
+    "qwen->mistral": 1350,
+    "mistral->qwen": 1350,
+    "mistral->mistral": 1350
+  },
+  "forward_scored_positions": 15300,
+  "est_seconds": {
+    "qwen": 3660.0,
+    "mistral": 2850.0
+  },
+  "est_hours_incl_setup": 2.3083333333333336,
+  "est_cost_usd": 3.693333333333334,
+  "cap_usd": 15.0
+}

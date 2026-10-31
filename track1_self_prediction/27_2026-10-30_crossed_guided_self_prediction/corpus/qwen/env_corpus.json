@@ -1,0 +1,44 @@
+{
+  "key": "qwen",
+  "model_id": "Qwen/Qwen3-32B",
+  "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.2,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.13",
+  "driver": "580.173.02",
+  "eos_ids": [
+    151643,
+    151645
+  ],
+  "face_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+  },
+  "max_memory_allocated_gb": 66.82,
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "serving": "Experiment 21 Qwen class",
+  "stage": "corpus",
+  "started_utc": "2026-10-31T00:46:46.929650+00:00",
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "top_k": null,
+  "reference_drawn": 8,
+  "reference_valid": 8,
+  "target_drawn": 24,
+  "target_valid": 24,
+  "finished_utc": "2026-10-31T00:48:57.379327+00:00"
+}
