@@ -304,11 +304,11 @@ def main_checks(data: dict) -> dict:
     pol_ok = all((m, i, ins, "incremental", j) in pol for m in C.MODELS for i in items for ins in ("G", "F", "Fanon") for j in range(1, 11))
     g["policy_complete"] = _gate(pol_ok, dict(items=len(items)))
     # oracle check: G scored on the generator's own sampled sequence equals the sampling-time distribution
-    corp = {r["content"]: r for m in C.MODELS for r in read_jsonl(C.CORPUS / m / "sampled.jsonl") if r["valid"]}
+    corp = {(m, r["content"]): r for m in C.MODELS for r in read_jsonl(C.CORPUS / m / "sampled.jsonl") if r["valid"]}
     od = []
     for i, it in items.items():
         if it["tier"] == "B":
-            gen = corp[P.seq_str(it["sequence"])]["digit_steps"]
+            gen = corp[(it["generator"], P.seq_str(it["sequence"]))]["digit_steps"]
             od += [max(abs(gen[j - 1]["face_logprobs"][str(f)] - pol[(it["generator"], i, "G", "incremental", j)][str(f)]) for f in FACES) for j in range(1, 11)]
     g["oracle_equals_sampling_distribution"] = _gate(max(od) <= C.SCORER_TOL_LOGP, dict(max_abs_logprob_diff=max(od), n=len(od)))
     floors = {}
@@ -397,7 +397,10 @@ def boot_dict(stat, cl) -> dict:
     out = {}
     for k, v in est.items():
         d = sorted(x for x in draws[k] if not math.isnan(x))
-        out[k] = dict(est=v, lo=d[int(0.025 * len(d))], hi=d[int(0.975 * len(d)) - 1])
+        if math.isnan(v) or not d:                       # not estimable (e.g. no item survives a sensitivity filter): never a zero
+            out[k] = dict(est=None, lo=None, hi=None, n_valid_draws=len(d))
+            continue
+        out[k] = dict(est=v, lo=d[int(0.025 * len(d))], hi=d[int(0.975 * len(d)) - 1], n_valid_draws=len(d))
     return out
 
 

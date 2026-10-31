@@ -1,0 +1,44 @@
+{
+  "key": "mistral",
+  "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.2,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.13",
+  "driver": "580.173.02",
+  "eos_ids": [
+    2
+  ],
+  "face_ids": {
+    "1": 1049,
+    "2": 1050,
+    "3": 1051,
+    "4": 1052,
+    "5": 1053,
+    "6": 1054
+  },
+  "max_memory_allocated_gb": 49.73,
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "mistral_common": "1.13.0",
+  "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1",
+  "tokenizer_version": "v11",
+  "bos_id": 1,
+  "serving": "transformers Mistral3ForConditionalGeneration, text-only input_ids",
+  "stage": "predict",
+  "started_utc": "2026-10-31T00:54:42.900161+00:00",
+  "trials_sha256": "41dbc9445028d5580dee45e3274b019c74ec7bf7e71c0f11f18ca03520cf92e1",
+  "items_sha256": "9f9765b399d7c5fad488b9f3970617f398d32e8b62de3b07311feaaedc54b802",
+  "n_trials": 2700,
+  "resumed_with": 0,
+  "finished_utc": "2026-10-31T05:05:46.429736+00:00",
+  "seconds": 15063.5
+}

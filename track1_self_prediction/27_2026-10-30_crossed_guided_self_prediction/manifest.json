@@ -1,0 +1,180 @@
+{
+ "tag": "SPAR_CROSSED_GUIDED_SELFPRED_v1.0",
+ "amendments": [
+  "v1.1 (AMENDMENT_v1.1.md): six-face mass gated for direct generation, reported for prediction prompts; approved 2026-10-31T00:52:34Z before any Mistral corpus or prediction data"
+ ],
+ "status": "complete: preflight PASS (both models), corpus gate PASS, trials gate PASS, main checks PASS, analysis written",
+ "design_source": "GPT_SPAR_Experiment_27_Crossed_Qwen_Mistral_Guided_Self_Prediction_Claude_Code_Handoff.md",
+ "freeze_commit": "18f865f",
+ "models": {
+  "qwen": {
+   "id": "Qwen/Qwen3-32B",
+   "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+   "serving": "transformers Qwen3ForCausalLM via Experiment 21's Qwen class, chat template with enable_thinking=False, one user message",
+   "face_token_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+   },
+   "eos_ids": [
+    151643,
+    151645
+   ]
+  },
+  "mistral": {
+   "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "revision": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+   "identity_evidence": "OpenRouter's hugging_face_id for mistralai/mistral-small-3.2-24b-instruct (the Experiment 22 model) is this repository",
+   "serving": "transformers Mistral3ForConditionalGeneration, text-only input_ids; tokenised with mistral_common 1.13.0 tekken v11, <s>[INST]prompt[/INST], no system prompt",
+   "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1",
+   "face_token_ids": {
+    "1": 1049,
+    "2": 1050,
+    "3": 1051,
+    "4": 1052,
+    "5": 1053,
+    "6": 1054
+   },
+   "eos_ids": [
+    2
+   ]
+  }
+ },
+ "numerics": {
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "batch": 1,
+  "scoring": "incremental KV-cache teacher forcing (primary); one full forward pass on all Tier A trials, 5% of Tier B trials and every policy row",
+  "deterministic": {
+   "cudnn_deterministic": true,
+   "tf32": false,
+   "use_deterministic_algorithms": "warn_only",
+   "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  }
+ },
+ "sampling": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "method": "softmax(logits/0.7), torch.multinomial with a seeded CUDA generator, one call per target",
+  "seeds": {
+   "feasibility": 27000000,
+   "reference": 27100000,
+   "targets": 27200000,
+   "mistral_offset": 50000
+  },
+  "n_targets_per_generator": 24,
+  "n_reference_per_generator": 8
+ },
+ "hardware": {
+  "provider": "vast.ai",
+  "instance_id": 58471512,
+  "offer_id": 49067605,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "driver": "580.173.02",
+  "location": "Texas, US",
+  "software": {
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "cuda": "12.8",
+   "python": "3.11.13"
+  }
+ },
+ "stages": {
+  "preflight_qwen": "2026-10-31T00:42:34Z to 00:44:10Z",
+  "preflight_mistral": "2026-10-31T00:44:38Z to 00:45:39Z (gate FAIL on prediction-prompt mass; amendment v1.1; re-gated PASS on the same raw data)",
+  "corpus_qwen": "2026-10-31T00:46:47Z to 00:48:57Z",
+  "corpus_mistral": "2026-10-31T00:52:54Z to 00:54:03Z",
+  "predict_mistral": "2026-10-31T00:54:42.900161+00:00 to 2026-10-31T05:05:46.429736+00:00 (15064 s, 2700 trials)",
+  "predict_qwen": "2026-10-31T05:06:17.787711+00:00 to 2026-10-31T06:09:16.590689+00:00 (3779 s, 2700 trials)"
+ },
+ "rental": {
+  "created_utc": "2026-10-31T00:37:15Z",
+  "destroyed_utc": "2026-10-31T06:12:32Z",
+  "confirmed_no_instances_after": "2026-10-31T06:12:40Z",
+  "billed_usd": 12.117,
+  "billed_breakdown": {
+   "gpu": "5.550 h at $1.107/h = 6.142",
+   "disk": "5.550 h at $0.347/h = 1.927",
+   "download": "103.0 GB at $0.039/GB = 4.023",
+   "upload": "0.6 GB at $0.039/GB = 0.025"
+  },
+  "billing_source": "vastai show invoices-v1 --charges, retrieved 2026-10-31T06:14Z; the 0.04 h after the last billing tick may add about $0.06",
+  "cap_usd": 15,
+  "warn_usd": 10,
+  "warn_note": "the $10 warning threshold was crossed; during the run only the GPU rate was tracked, so the warning was not raised at the time"
+ },
+ "inputs": {
+  "trials_sha256": "41dbc9445028d5580dee45e3274b019c74ec7bf7e71c0f11f18ca03520cf92e1",
+  "items_sha256": "9f9765b399d7c5fad488b9f3970617f398d32e8b62de3b07311feaaedc54b802"
+ },
+ "code": {
+  "package": {
+   "src/spar_dynamic/dice_crossed_guidance/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "src/spar_dynamic/dice_crossed_guidance/__main__.py": "03e94cc34599886b72da45ada73e0ec908f4572a44fcfb6525c718ae3abe05c3",
+   "src/spar_dynamic/dice_crossed_guidance/analysis.py": "599ff395f98b9184b8bc005a6fd13ee30c1f7593065d086e4825855a0036eead",
+   "src/spar_dynamic/dice_crossed_guidance/config.py": "ac23d8d178d541ce358443479add0615520b8376ed730ca8b348bec5b2a8ce5a",
+   "src/spar_dynamic/dice_crossed_guidance/figures.py": "34554a9b36f8f67e74b6665a3d3a3caac2c7590e3b434b097261aecb6b0d5286",
+   "src/spar_dynamic/dice_crossed_guidance/gpu.py": "cf0cb1858400fe397200e6861b94bd04e5a540a9d0a35a14bf2e662fe0405b4b",
+   "src/spar_dynamic/dice_crossed_guidance/models.py": "e70e6497061475ecae946a28266a7d5ab74b60e3bc5c777fb4bc56c239485c96",
+   "src/spar_dynamic/dice_crossed_guidance/prompts.py": "471cdf6ff5d1d58d4b40c7f3892f570a126e2031d7239130a2c6bd9e77361639"
+  },
+  "tests": {
+   "tests/test_dice_crossed_guidance.py": "a0d35f8a86179a369e0770b0f47c2d63d5b28cc0ea4d456197177011da15573c"
+  }
+ },
+ "post_freeze_code_changes": [
+  "amendment v1.1 (before data): analysis.py and __main__.py gates split as described in AMENDMENT_v1.1.md",
+  "after data, analysis.py main_checks: the oracle check looked up each target's sampling record by content string across both corpora; Mistral reference 5 and target 13 equal Qwen target 15 ('5 2 6 1 3 4 6 2 5 1'), so it compared Qwen's policy with Mistral's sampling record. Now keyed by (generator, content). Check-only change; it PASSes with max |dlogp| 0",
+  "after data, analysis.py boot_dict: a statistic with no finite estimate (E3s R vs A on Qwen targets: no Mistral->Qwen R trial passes the mass filter) is reported as est/lo/hi null instead of raising IndexError. No estimate changed",
+  "after data, figures.py: fig2 legend moved below the panels and fig5 titles wrapped (layout only)"
+ ],
+ "data_files": {
+  "corpus/mistral/corpus_gate.json": "91c670fd4e2e7aad1de1571a6fa8c973ac2cffb7240342541ca450f58291cabc",
+  "corpus/mistral/env_corpus.json": "962f63eed14e67a005d1f224be9fcbb049077dfb74534993951d384c02f6413f",
+  "corpus/mistral/sampled.jsonl": "6091ae7531c4f07c8f4e2910d6eb50f8724ec62c83a5e38797f89e30908ea8c5",
+  "corpus/qwen/corpus_gate.json": "d7f628207a36a73b583e1ffffee2d055327cc8c45d2588a69a7536d6b8dcd781",
+  "corpus/qwen/env_corpus.json": "2c70268d62f4a768ed60c1b7aac7a85c374e58dfc192092148e6e0bd050ba7b9",
+  "corpus/qwen/sampled.jsonl": "f04ef2f63100f6b2ce36ec437fca7d31fd10605852de5d1faf37077d80816d9f",
+  "main/main_checks.json": "0e63927d7b582585129743f23b0f62930d2c40d03a20b080d58f06438c2fd404",
+  "main/mistral/env_predict_mistral.json": "827efa19829de0d54b79727795d7c542380beea3437f1a51a19b73194379657e",
+  "main/mistral/policy_mistral.jsonl": "de19c2b00562c37e4e86e07da86dd76ed2db48ad69e85a9129a41039a9d360c8",
+  "main/mistral/predictions.jsonl": "10c5c0f08dce9580a36a730081305a240acbd366a806c29cf3b91de7380a9aa8",
+  "main/predict.log": "fc84c49c9bf2302b0826fc47102e577fd9b7b1000889d65dd4e0b99ef8a8b90c",
+  "main/qwen/env_predict_qwen.json": "711135f50dbef90f094daa5d5f5cd2cdfdd1e7ef192ff93826b796caff2965ae",
+  "main/qwen/policy_qwen.jsonl": "f6c85628da31fa5cc86bfec7c62e18e39ef21f6dda6a6ff3e844ea15ebf50591",
+  "main/qwen/predictions.jsonl": "3204b7e576463f19fc835def1b76676a851af8f3223ccb2568474a7a759bcb94",
+  "preflight/mistral/PREFLIGHT_REPORT.md": "cf6afb5133147fb5b06a27bb4268b449db4f1483d9a788e0bc7b4f8208d380cd",
+  "preflight/mistral/env_preflight.json": "8f7519d414226f16cd1da62fffff37587f96f5df74275b1131e43d2de9f49ac7",
+  "preflight/mistral/matched_prefix.jsonl": "9c8bef834a6fe9d59971ea354bd413051eda92ed2130a32f83ae6a9dc1e2948b",
+  "preflight/mistral/preflight_gates.json": "9704cc130b567f078974840351c3e69e3b23beee73c9d9eba293c7549706ef21",
+  "preflight/mistral/raw_attempts.jsonl": "9d3b940a5741c0b446b392d0a6cb38e733aec7e5a020de0645f644fede5fc711",
+  "preflight/qwen/PREFLIGHT_REPORT.md": "454c83519ec8be124f5ed3c9c1c068248cff08376f3fe631f4a03578c84ac7b2",
+  "preflight/qwen/engine_equivalence.json": "d0a985ff82df61a724adb56be76e3edec31c922e663980c84ab7a56d43668545",
+  "preflight/qwen/env_preflight.json": "db6ee00aa79df86f8879ae545faa3726e4db100a26ed887483076586bfdfc6ae",
+  "preflight/qwen/matched_prefix.jsonl": "0be0732ff7ad8c9dafa70dcbd8f929a51293357935726e2857cdad4275ba295f",
+  "preflight/qwen/preflight_gates.json": "ea2dbf0cb67d6889340b6b4553a599fa12d7fc47799eb33aa0ee39b4e79c3a11",
+  "preflight/qwen/raw_attempts.jsonl": "efb4038967422897ad929b7e8ef5f7ef60ae1154a61580f3ad64593cc7a2a785",
+  "trials/call_table.json": "5908bcfd2e7519641518b5b31959b4519358f15f404be006ef1b2f92a5f8334e",
+  "trials/integrity.csv": "51da468df7ff579888df78e848ce2c3c9b57d4afa76961af94e7d7bf8a5c44da",
+  "trials/items.json": "9f9765b399d7c5fad488b9f3970617f398d32e8b62de3b07311feaaedc54b802",
+  "trials/trials.jsonl": "41dbc9445028d5580dee45e3274b019c74ec7bf7e71c0f11f18ca03520cf92e1",
+  "trials/trials_gate.json": "faaf85c498c947500a98daa12104b0e43621b0cf7a4f678214d6ebe27621370c"
+ },
+ "analysis_files": {
+  "analysis/by_arm.csv": "15903cf876e9e4146c3db2bb2110a9c8b4cc98d863e7319cc0263329b5983020",
+  "analysis/by_condition.csv": "9eb597672e22dbc7c028cbf5871d8b37d7807010d2ab4fd27ef928fa584d5891",
+  "analysis/figures/fig1_selfcross_heatmap.png": "fc532eec11b2883ec00f09088d220c7b32276c65611bb6d6ac6cf0cc9629a282",
+  "analysis/figures/fig2_paired_self_vs_cross.png": "9d0a730c1001738fd33c1761559401f1946b0d653faedaa482adee8a316d1dae",
+  "analysis/figures/fig3_contrasts.png": "726a25aec126d6cd14dfe287b6e77c832f42b1253d57c874a764378cdcbe8972",
+  "analysis/figures/fig4_by_condition.png": "e7db0646d58829ee537b0d8b0837e28dad7617c78c455f4e1af478adbd7a6423",
+  "analysis/figures/fig5_tierA_k3_position4.png": "eaefbbc18f70e79336fb78a30b58399156542080a8b8a03d10f4cb9e00fe0281",
+  "analysis/figures/fig6_rq1_first_roll.png": "56d2cebcb67436ca66219f265f3a01a1161b66b310d540e9e57df5d28740dce1",
+  "analysis/mass_by_cell_arm.csv": "42a28e11e83f6d45e9add736ff18eb124e8498bbbf7968f1c4aad4bc6383de08",
+  "analysis/rq1_G_vs_F.csv": "78cd0cf02c1816290e20802e143af197bba2d836bf77c026d326abcd7d13e6bb",
+  "analysis/summary.json": "251316bf08e48ac83871aaa1a1d9b4f541a012dcf01ff0bc9c6cd07865f08246",
+  "analysis/tidy_positions.csv": "bd263c8ac7a0264b69f205de96319e182d4c797ccc903d426f63826514d28868",
+  "analysis/tier_a.csv": "afedea39259a79a5ddf0902a807fd084f66c13dd40c4d24851f6ab39a62fca06"
+ }
+}

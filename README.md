@@ -1,6 +1,6 @@
 # SPAR: self-modelling in language models
 
-Do language models know their own behaviour? This repository holds every experiment run for the SPAR project, from September 21 to October 29, 2026. The work runs in two parallel, complementary tracks:
+Do language models know their own behaviour? This repository holds every experiment run for the SPAR project, from September 21 to October 31, 2026. The work runs in two parallel, complementary tracks:
 
 | Track | Question | Folder |
 |---|---|---|
@@ -15,7 +15,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 2. **Apparent self-knowledge turns out to be knowledge of procedures, defaults or framing.**
    - Fable's strongest track 1 results are explained by the stated generation procedure (track 1, 10) and by a default answer it shares with "a typical model" (track 1, 20).
    - Its strongest track 2 result, becoming unpredictable when told it faces itself, is matched by telling it the opponent is a *different* language model (track 2, 11).
-3. **Models can reproduce their outputs but not predict their properties.** They replay sequences they would generate, but single-position questions fall back on defaults (track 1, 16–20).
+3. **Models can reproduce their outputs but not predict their properties.** They replay sequences they would generate, but single-position questions fall back on defaults (track 1, 16–20). At the level of exact probabilities, a model's plain generation policy matches its own outputs, but any prediction prompt moves it away, and neither Qwen3-32B nor Mistral Small 3.2 predicts its own sampled dice sequences better than the other model does (track 1, 21, 26–27).
 4. **What a model is told about its opponent matters when the evidence is weak, and the relevant belief is about structure, not self.**
    - Against a scripted opponent with a clear pattern, Fable exploits it almost perfectly under any label (track 2, 13–14).
    - Against a random opponent, labels implying structure make Fable search for rules and play less predictably. Those labels are any agent, itself, another model or a *deterministic* program. Labels implying randomness make it streaky (track 2, 15–16).
@@ -72,6 +72,7 @@ Each track has a README that tells its story in order. Each experiment has its o
 | Oct 30 | 1 | [24 Open-weight A/B probability scoring](track1_self_prediction/24_2026-10-29_loula_ab_logprob_pilot/) | **Incomplete, failed.** Read P(A) vs P(B) from Qwen3-32B open weights in both orders: the bias-corrected score picks the correct sample on all 36 reading checks, but the "A" bias still wins in one order on 16 of them, so the order-robustness gate fails and recognition was not tested |
 | Oct 30 | 1 | [25 Single-sample Yes/No scoring](track1_self_prediction/25_2026-10-30_loula_yesno_logprob_pilot/) | **Incomplete, failed.** Show one dice sequence per prompt and ask Yes/No both ways, so there is no A/B label to prefer: the label bias disappears (6s correct both ways on 12/12), but the reversed questions about repeats and generators barely respond to content, so the gate fails again at 20/36 and recognition was not tested |
 | Oct 30 | 1 | [26 Partial history and declarative descriptions](track1_self_prediction/26_2026-10-30_dice_prefix_declarative/) | Follow-up to 21 on Qwen3-32B open weights: revealing "5 2 6" makes every prediction arm reproduce G's next three rolls; a true sentence about G's pattern raises P(true roll) but also shifts an uninformative control, and attributing it to "your own model" does no better than "an unspecified model" |
+| Oct 31 | 1 | [27 Crossed Qwen × Mistral guided self-prediction](track1_self_prediction/27_2026-10-30_crossed_guided_self_prediction/) | Each of Qwen3-32B and Mistral Small 3.2 predicts both models' sampled dice sequences, scored against the target's exact distribution: no self-advantage (interaction −0.006 bits JS [−0.026, 0.011]); plain generation has one, prediction prompts lose it; Mistral also produces 26's `3 1 4`; identity framing helps both predictors alike |
 
 The two tracks also connect directly:
 - **Oct 8–9:** track 1's forecasting floor (13) motivated the move to games (track 2).
@@ -92,7 +93,7 @@ The current candidate follow-ups for each track are listed at the end of [`track
 
 | Path | Contents |
 |---|---|
-| `track1_self_prediction/` | 26 dated experiment folders: data, results, reports, README each |
+| `track1_self_prediction/` | 27 dated experiment folders: data, results, reports, README each |
 | `track2_game_theory/` | 20 dated experiment folders |
 | `src/` | All Python code (packages keep their original names); `src/repo_paths.py` maps old paths to new ones |
 | `tests/` | Test suite (`python -m pytest`) |

@@ -1,0 +1,86 @@
+{
+  "gates": {
+    "complete": {
+      "status": "PASS",
+      "detail": {
+        "trials": 5400,
+        "records": 5400,
+        "missing": 0
+      }
+    },
+    "prompt_hashes": {
+      "status": "PASS",
+      "detail": "every record's prompt sha256 equals the frozen trial's"
+    },
+    "teacher_forced_history": {
+      "status": "PASS",
+      "detail": "forced faces equal the target window at every trial"
+    },
+    "face_logprobs": {
+      "status": "PASS",
+      "detail": {
+        "n": 15300,
+        "min_mass": 0.06942855891669589,
+        "n_mass_below_0_5": 1939
+      }
+    },
+    "scorer_matches_generation": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_logprob_diff": 0.0
+      }
+    },
+    "policy_G_face_mass": {
+      "status": "PASS",
+      "detail": {
+        "min_six_face_mass": 0.9704016121378366,
+        "amendment": "v1.1"
+      }
+    },
+    "policy_complete": {
+      "status": "PASS",
+      "detail": {
+        "items": 50
+      }
+    },
+    "oracle_equals_sampling_distribution": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_logprob_diff": 0.0,
+        "n": 480
+      }
+    },
+    "numerical_floor": {
+      "status": "PASS",
+      "detail": {
+        "qwen": {
+          "max_abs_dp": 0.10166176844821395,
+          "p99": 0.06723718035809495,
+          "median": 0.005371690487287473,
+          "n": 2199
+        },
+        "mistral": {
+          "max_abs_dp": 0.04740546995284123,
+          "p99": 0.02880536078925755,
+          "median": 0.003495645883169085,
+          "n": 2151
+        }
+      }
+    }
+  },
+  "floors": {
+    "qwen": {
+      "max_abs_dp": 0.10166176844821395,
+      "p99": 0.06723718035809495,
+      "median": 0.005371690487287473,
+      "n": 2199
+    },
+    "mistral": {
+      "max_abs_dp": 0.04740546995284123,
+      "p99": 0.02880536078925755,
+      "median": 0.003495645883169085,
+      "n": 2151
+    }
+  },
+  "overall": "PASS"
+}
