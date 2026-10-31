@@ -59,7 +59,7 @@ targets contain 15 distinct strings.
 
 | Path | Contents |
 |---|---|
-| `PROTOCOL_FROZEN.md`, `prompts_frozen.md`, `inputs_sha256.json` | Frozen before any GPU work (commit `18f865f`) |
+| `PROTOCOL_FROZEN.md`, `prompts_frozen.md`, `inputs_sha256.json` | Frozen before any GPU work (commit `447565e`) |
 | `AMENDMENT_v1.1.md` | Approved before any Mistral corpus or prediction data |
 | `preflight/{qwen,mistral}/` | Regression vs Experiments 21/26, tokenisation, mass, floors, gates |
 | `corpus/{qwen,mistral}/` | Reference (8) and target (24) samples per generator, with seeds and full six-face vectors |

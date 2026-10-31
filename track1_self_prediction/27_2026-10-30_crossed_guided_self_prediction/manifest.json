@@ -5,7 +5,7 @@
  ],
  "status": "complete: preflight PASS (both models), corpus gate PASS, trials gate PASS, main checks PASS, analysis written",
  "design_source": "GPT_SPAR_Experiment_27_Crossed_Qwen_Mistral_Guided_Self_Prediction_Claude_Code_Handoff.md",
- "freeze_commit": "18f865f",
+ "freeze_commit": "447565e",
  "models": {
   "qwen": {
    "id": "Qwen/Qwen3-32B",
@@ -125,6 +125,7 @@
   }
  },
  "post_freeze_code_changes": [
+  "before the first push (history rewritten, never published): line 8 of the models.py docstring, which named the Mistral model followed directly by its 32-character transformers class name, was reworded because GitHub push protection read it as a Mistral API key (false positive). Comment-only; the recorded models.py hash (originally 33f57ca4...) was updated to the reworded file in inputs_sha256.json and here, and the freeze commit SHA changed from 18f865f to 447565e. All GPU runs used the original file, which differs only in that comment line",
   "amendment v1.1 (before data): analysis.py and __main__.py gates split as described in AMENDMENT_v1.1.md",
   "after data, analysis.py main_checks: the oracle check looked up each target's sampling record by content string across both corpora; Mistral reference 5 and target 13 equal Qwen target 15 ('5 2 6 1 3 4 6 2 5 1'), so it compared Qwen's policy with Mistral's sampling record. Now keyed by (generator, content). Check-only change; it PASSes with max |dlogp| 0",
   "after data, analysis.py boot_dict: a statistic with no finite estimate (E3s R vs A on Qwen targets: no Mistral->Qwen R trial passes the mass filter) is reported as est/lo/hi null instead of raising IndexError. No estimate changed",

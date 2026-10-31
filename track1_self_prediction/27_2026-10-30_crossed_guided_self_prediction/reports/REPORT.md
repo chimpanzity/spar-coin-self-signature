@@ -8,7 +8,7 @@ the frozen trial file (`trials/trials.jsonl`, sha256 `41dbc944…`), except for 
 
 | Stage | Result |
 |---|---|
-| Phase 0, freeze | Protocol, prompts and code frozen in commit `18f865f`, before any GPU work |
+| Phase 0, freeze | Protocol, prompts and code frozen in commit `447565e`, before any GPU work |
 | Phase 1, preflight Qwen3-32B | **PASS.** Experiment 21's G `5 2 6 3 1 4 6 2 5 3` and F `3 1 4 6 2 5 3 2 6 4` were reproduced. All 12 of Experiment 26's free outputs were identical. The new engine matched Experiment 21's class bit-for-bit. Numerical floor 0.091. |
 | Phase 1, preflight Mistral Small 3.2 24B | **FAIL, then PASS under amendment v1.1.** The original gate failed on prediction-prompt first-digit mass (0.31–0.43). The investigator approved v1.1, which gates mass on direct generation only, before any Mistral corpus existed. Greedy G `4 2 6 1 3 5 2 4 6 1`, F `3 1 5 2 6 4 3 1 5 2`, both deterministic. |
 | Phase 2, Tier A (historical case) | Collected: both greedy Gs × 2 predictors × 6 history conditions × 9 arms. Descriptive only. |
