@@ -1,0 +1,45 @@
+{
+  "tag": "SPAR_DICE_BIDIRECTIONAL_COMPLETION_v1.1",
+  "expected": {
+    "cells": 152,
+    "primary_cells": 144,
+    "supplementary_cells": 8,
+    "unique_prompts": 76,
+    "main_generations": 456,
+    "tf_rows": 752,
+    "tf_rows_primary": 720,
+    "tf_rows_supplementary": 32
+  },
+  "counts": {
+    "cells": 152,
+    "primary_cells": 144,
+    "supplementary_cells": 8,
+    "prompt_slots": 76,
+    "distinct_prompt_texts": 74,
+    "main_generations": 456,
+    "archival_generations": 8,
+    "tf_rows": 752,
+    "tf_rows_primary": 720,
+    "tf_rows_supplementary": 32,
+    "preflight_cells": 56
+  },
+  "duplicate_prompt_texts": [
+    [
+      "qwen-F-fwd1",
+      "mistral-F-fwd1"
+    ],
+    [
+      "qwen-F-fwd2",
+      "mistral-F-fwd2"
+    ]
+  ],
+  "commits": {
+    "freeze": null,
+    "preflight": null,
+    "results": null
+  },
+  "instance": null,
+  "cost_usd": null,
+  "environments": null,
+  "files": null
+}
