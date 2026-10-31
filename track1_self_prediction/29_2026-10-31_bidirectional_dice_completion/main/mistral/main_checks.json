@@ -1,0 +1,819 @@
+{
+  "tag": "SPAR_DICE_BIDIRECTIONAL_COMPLETION_v1.1",
+  "stage": "main",
+  "model": "mistral",
+  "gates": {
+    "references_equal_exp28": {
+      "status": "PASS",
+      "detail": {
+        "qwen-G": {
+          "exp28_outputs": [
+            "5 2 6 3 1 4 6 2 5 3"
+          ],
+          "n": 20,
+          "frozen": "5 2 6 3 1 4 6 2 5 3"
+        },
+        "qwen-F": {
+          "exp28_outputs": [
+            "3 1 4 6 2 5 3 2 6 4"
+          ],
+          "n": 20,
+          "frozen": "3 1 4 6 2 5 3 2 6 4"
+        },
+        "mistral-G": {
+          "exp28_outputs": [
+            "4 2 6 1 3 5 2 4 6 1"
+          ],
+          "n": 20,
+          "frozen": "4 2 6 1 3 5 2 4 6 1"
+        },
+        "mistral-F": {
+          "exp28_outputs": [
+            "3 1 5 2 6 4 3 1 5 2"
+          ],
+          "n": 20,
+          "frozen": "3 1 5 2 6 4 3 1 5 2"
+        }
+      }
+    },
+    "serving": {
+      "status": "PASS",
+      "detail": {
+        "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+        "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "driver": "595.91.07",
+        "cuda": "12.8",
+        "torch": "2.11.0+cu128",
+        "transformers": "5.22.0",
+        "accelerate": "1.15.0",
+        "huggingface_hub": "2.4.0",
+        "mistral_common": "1.13.0",
+        "chat_template_sha256": null,
+        "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1",
+        "code_commit": "201ad2b"
+      }
+    },
+    "template": {
+      "status": "PASS",
+      "detail": {
+        "rendered_G": "<s>[INST]Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.[/INST]"
+      }
+    },
+    "face_tokens": {
+      "status": "PASS",
+      "detail": {
+        "face_ids": {
+          "1": 1049,
+          "2": 1050,
+          "3": 1051,
+          "4": 1052,
+          "5": 1053,
+          "6": 1054
+        },
+        "separator_id": 1032
+      }
+    },
+    "complete": {
+      "status": "PASS",
+      "detail": {
+        "n": 232,
+        "expected": 232,
+        "cell_calls": 228,
+        "distinct_cells": 76
+      }
+    },
+    "face_logprobs_finite": {
+      "status": "PASS",
+      "detail": {
+        "n_values": 24390,
+        "n_tf_rows": 752,
+        "max_abs_p6_sum_error": 2.220446049250313e-16
+      }
+    },
+    "face_mass_archival_G": {
+      "status": "PASS",
+      "detail": {
+        "n": 20,
+        "min_six_face_mass": 0.9704016121378366
+      }
+    },
+    "archival_regression": {
+      "status": "PASS",
+      "detail": {
+        "archive": "Experiment 28 main",
+        "conditions": {
+          "G": {
+            "outputs": [
+              "4 2 6 1 3 5 2 4 6 1"
+            ],
+            "archived": "4 2 6 1 3 5 2 4 6 1",
+            "n": 2
+          },
+          "F": {
+            "outputs": [
+              "3 1 5 2 6 4 3 1 5 2"
+            ],
+            "archived": "3 1 5 2 6 4 3 1 5 2",
+            "n": 2
+          }
+        },
+        "n_vectors": 40,
+        "max_abs_dp": 0.0,
+        "tol": 0.01
+      }
+    },
+    "deterministic_replicates": {
+      "status": "PASS",
+      "detail": {}
+    },
+    "scorer_matches_generation": {
+      "status": "PASS",
+      "detail": {
+        "n_rescored": 78,
+        "max_abs_logprob_diff": 0.0,
+        "tol": 0.0001,
+        "retokenisation_mismatch_valid": [],
+        "retokenisation_mismatch_invalid": []
+      }
+    },
+    "target_mapping": {
+      "status": "PASS",
+      "detail": {
+        "cells": 76,
+        "incremental_rows": 376,
+        "expected_rows": 376,
+        "problems": []
+      }
+    },
+    "numerical_floor": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_dp_incremental_vs_full_pass": 0.04280531879499644,
+        "n": 1487,
+        "stop_above": 0.25
+      }
+    },
+    "teacher_forced_mass_review": {
+      "status": "PASS",
+      "detail": {
+        "median_raw_mass": 0.9999104863394401,
+        "min_raw_mass": 0.02367050354058216,
+        "cells_all_below": [],
+        "thresholds": [
+          0.1,
+          0.01
+        ]
+      }
+    },
+    "no_source_names_in_prompts": {
+      "status": "PASS",
+      "detail": {
+        "leaks": []
+      }
+    },
+    "raw_files_untampered": {
+      "status": "PASS",
+      "detail": {
+        "raw_attempts_sha256": "0ae7cd77a72a4c6a99ddb6862f437b928fdfb5006e7792dac3dc1f8d7915c773"
+      }
+    }
+  },
+  "info": {
+    "format_reported_not_gated": {
+      "mistral<-qwen-G-bwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 4 through 10): 3 1 4 6 2 5 3, the missing integers are the first three positions (1 through 3) of the original 10-roll sequence.\n\nSince the original instruction specifies that the sequence is a simulated roll of a six-sided die, the missing integers must be three random integers between 1 and 6. However, without additional context or constraints, we cannot determine the exact values of the first three rolls.\n\nThus, the missing integers are not uniquely determined by the given information. However, if we assume the sequence was generated"
+        ],
+        "first_token_mass": 0.0702
+      },
+      "mistral<-qwen-F-bwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last 5 integers are 5 3 2 6 4, and the response must consist of 10 integers from 1 to 6, the missing first 5 integers can be any sequence of integers from 1 to 6. Since the original instruction does not specify any constraints on the sequence (e.g., randomness, uniqueness, or pattern), the missing integers could be any valid sequence.\n\nHowever, since the task is to predict the output of another instance of the model, and the model is designed to simulate random rolls of a six-sided die, the most straightforward prediction is that the first"
+        ],
+        "first_token_mass": 0.1234
+      },
+      "mistral<-qwen-G-fwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 9 integers in the sequence: `5 2 6 3 1 4 6 2 5`, and knowing that the sequence is a simulation of 10 rolls of a six-sided die, the missing 10th integer can be any integer from 1 to 6.\n\nSince the instruction does not specify any constraints or patterns for the sequence, the missing integer is not uniquely determined. However, if we assume that the sequence is random and no additional information is provided, the missing integer could be any of the numbers from 1 to 6.\n\nIf we are to predict the missing"
+        ],
+        "first_token_mass": 0.261
+      },
+      "mistral<-qwen-G-fwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first two integers are 5 and 2, here is a possible continuation of the sequence (note that the actual sequence is random, but this is a plausible continuation):\n\n3 6 1 4 5 2 3 6"
+        ],
+        "first_token_mass": 0.337
+      },
+      "mistral<-mistral-G-bwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last two integers in the sequence are 6 and 1, and the sequence consists of 10 integers from 1 to 6, the missing integers (positions 1 through 8) could be any valid sequence of 8 integers from 1 to 6. However, since the original instruction does not provide any additional constraints or patterns, the missing integers are not uniquely determined.\n\nThus, one possible sequence for the first 8 integers is:\n\n1 2 3 4 5 6 1 2\n\nBut since the original response was not provided, and only the last two integers are known"
+        ],
+        "first_token_mass": 0.2468
+      },
+      "mistral<-mistral-F-bwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 4 through 10: 2 6 4 3 1 5 2), the missing integers are the first three positions (1 through 3) of the original 10-integer sequence.\n\nSince the model is simulating a fair six-sided die, each integer from 1 to 6 is equally likely, and there is no inherent pattern or constraint provided. Therefore, the missing integers could be any combination of 1 through 6.\n\nHowever, since the task is to predict the output of another instance of the model, and no additional context or constraints are given, the"
+        ],
+        "first_token_mass": 0.0366
+      },
+      "mistral<-qwen-G-bwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 3 through 10): 6 3 1 4 6 2 5 3, the missing integers are at positions 1 and 2.\n\nSince the sequence is a simulated roll of a six-sided die, the missing integers must be two integers from 1 to 6. The original response was 10 integers, so the first two integers are the missing ones.\n\nThe missing integers are:\n2 4"
+        ],
+        "first_token_mass": 0.0485
+      },
+      "mistral<-mistral-G-fwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first five integers are `4 2 6 1 3`, the next five integers in the sequence are:\n\n`5 1 4 2 6`"
+        ],
+        "first_token_mass": 0.3255
+      },
+      "mistral<-qwen-F-bwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last three integers of the sequence are 2, 6, and 4, and the sequence consists of 10 integers in total, the missing integers (positions 1 through 7) must be randomly generated as if rolled by a fair six-sided die. Since the model's output is deterministic based on its training, we cannot predict the exact sequence, but we can simulate a plausible continuation.\n\nHere is a possible sequence for the first 7 integers:\n\n3 1 5 3 6 2 1\n\nThus, the full sequence would be:\n\n3 1 5 3 6 "
+        ],
+        "first_token_mass": 0.0977
+      },
+      "mistral<-qwen-F-fwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 8 integers of the sequence, the next two integers (positions 9 and 10) are predicted to be:\n\n4 1"
+        ],
+        "first_token_mass": 0.1291
+      },
+      "mistral<-mistral-F-fwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first four integers (3 1 5 2), the remaining six integers in the sequence can be any valid die rolls (1 through 6). Since the original instruction specifies that the output should be a sequence of 10 simulated rolls of a six-sided die, and no additional constraints are provided, the missing integers can be any random sequence of six numbers between 1 and 6.\n\nHowever, since the task is to predict the output of another instance of the model, and no further information is given about the sequence's properties (e.g., randomness, patterns, etc.), the most straightforward approach is to assume"
+        ],
+        "first_token_mass": 0.1138
+      },
+      "mistral<-qwen-F-fwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 9 integers of the sequence: `3 1 4 6 2 5 3 2 6`, and knowing that the sequence is a simulated roll of a six-sided die, the missing 10th integer can be any integer from 1 to 6.\n\nSince the sequence is random, there is no deterministic way to predict the exact value of the 10th integer. However, if we assume that the sequence is generated uniformly at random, each integer from 1 to 6 is equally likely.\n\nThus, the missing 10th integer could be any of `1 "
+        ],
+        "first_token_mass": 0.1108
+      },
+      "mistral<-mistral-F-fwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 7 integers of the sequence are `3 1 5 2 6 4 3`, and the task is to predict the next 3 integers (positions 8, 9, and 10) in a sequence of 10 simulated six-sided die rolls, we can proceed as follows:\n\nSince the sequence is simulated and there is no inherent pattern or constraint provided beyond the die's properties (each roll is independent with equal probability for 1 through 6), the most reasonable prediction is that the remaining 3 integers are randomly selected from 1 to 6.\n\nThus, the missing integers"
+        ],
+        "first_token_mass": 0.1404
+      },
+      "mistral<-qwen-F-bwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last 8 integers are revealed as `4 6 2 5 3 2 6 4`, and the original response consisted of 10 integers, the missing integers are the first two in the sequence.\n\nSince the model is simulating a fair six-sided die, the first two integers could be any combination of numbers from 1 to 6. However, without additional context or constraints, the most straightforward prediction is that the first two integers are also random and independent of the revealed sequence.\n\nThus, the missing integers are likely to be any two numbers from 1 to 6. For the sake of"
+        ],
+        "first_token_mass": 0.0349
+      },
+      "mistral<-mistral-G-fwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first three integers are 4 2 6, and the response must consist of 10 integers from 1 to 6, the remaining seven integers can be any valid sequence of numbers between 1 and 6. Since the original instruction does not specify any constraints beyond the range and count, the missing integers could be any valid sequence.\n\nHowever, since the original response was a sequence of 10 integers, and we are to predict the missing seven in the same order, we can assume the sequence was generated randomly. Without additional constraints, one possible continuation could be:\n\n6 1 3 5 4"
+        ],
+        "first_token_mass": 0.2243
+      },
+      "mistral<-mistral-F-bwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last 5 integers are 4 3 1 5 2, and the full sequence consists of 10 integers, the first 5 integers must be the missing ones.\n\nSince the model is simulating a fair six-sided die, the first 5 integers are equally likely to be any combination of 1 through 6. However, without additional context or constraints, the most straightforward prediction is that the first 5 integers are also random and independent of the last 5.\n\nThus, the missing integers could be any 5 numbers from 1 to 6. Since the problem asks for a prediction, one"
+        ],
+        "first_token_mass": 0.1132
+      },
+      "mistral<-qwen-G-bwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 5 through 10): 1 4 6 2 5 3, we need to predict the first four integers (positions 1 through 4) of the original 10-roll sequence.\n\nSince the original instruction specifies that the sequence is a simulated roll of a six-sided die, each integer is independent and uniformly random between 1 and 6. There is no inherent pattern or dependency between the rolls, so the first four integers cannot be determined from the last six.\n\nHowever, if we assume the sequence was generated randomly, we can provide a plausible continuation. Here is"
+        ],
+        "first_token_mass": 0.0872
+      },
+      "mistral<-mistral-G-fwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 8 integers in the sequence: 4 2 6 1 3 5 2 4, and knowing that the sequence is a simulation of 10 die rolls, the missing two integers (positions 9 and 10) can be any integers from 1 to 6. Since the instruction does not specify any constraints or patterns for the sequence, the missing integers are unpredictable and could be any valid die roll values.\n\nHowever, if we assume that the sequence is random and follows a uniform distribution (as a fair die would), the missing integers could be any two numbers from 1 to"
+        ],
+        "first_token_mass": 0.2489
+      },
+      "mistral<-qwen-G-bwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last three integers in the sequence are 2, 5, and 3, and the sequence consists of 10 integers in total, the missing integers (positions 1 through 7) can be any valid sequence of 1 to 6. However, since the original instruction does not specify any constraints beyond the values being between 1 and 6, there are infinitely many possible sequences.\n\nBut if we assume that the sequence was generated randomly (as implied by \"simulated rolls of a six-sided die\"), we cannot predict the missing integers without additional information. Therefore, the task cannot be completed as stated.\n\n"
+        ],
+        "first_token_mass": 0.1712
+      },
+      "mistral<-qwen-F-fwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first four integers (3 1 4 6), the remaining six integers in the sequence can be any valid die rolls (1 through 6). Since the original instruction specifies that the output should be a sequence of 10 simulated rolls of a six-sided die, and no additional constraints are provided, the missing integers can be any random sequence of six numbers between 1 and 6.\n\nHowever, since the task is to predict the output of another instance of the model, and no further information is given about the model's behavior or the sequence's properties (e.g., randomness, patterns), the most straightforward prediction"
+        ],
+        "first_token_mass": 0.1299
+      },
+      "mistral<-mistral-F-fwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first three integers (3 1 5), and knowing that the full response consists of 10 integers from 1 to 6, the remaining 7 integers can be any valid sequence of die rolls. Since the original instruction specifies that the model should generate a sequence of 10 simulated rolls, and no additional constraints are provided, the missing integers can be any random sequence of 1 to 6.\n\nHowever, since the task is to predict the output of another instance of the model, and no further information is given about the sequence, the most straightforward approach is to assume the remaining integers are randomly generated. For"
+        ],
+        "first_token_mass": 0.1008
+      },
+      "mistral<-qwen-G-fwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 7 integers in the sequence: 5 2 6 3 1 4 6, and knowing that the full sequence consists of 10 integers, the missing integers (positions 8, 9, and 10) cannot be determined with certainty from the information provided.\n\nHowever, if we assume that the sequence is randomly generated (as implied by the instruction to simulate die rolls), the most likely prediction for the missing integers would be any three integers from 1 to 6, since there is no pattern or additional information to suggest otherwise.\n\nThus, one possible prediction for the missing integers is"
+        ],
+        "first_token_mass": 0.23
+      },
+      "mistral<-mistral-G-bwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 4 through 10: 1 3 5 2 4 6 1), the missing integers are the first three positions (1 through 3) of the original 10-roll sequence.\n\nSince the original instruction specifies that the sequence is a simulated roll of a six-sided die, the missing integers must be three random integers between 1 and 6. However, without additional constraints or patterns, the most straightforward answer is to assume the first three rolls were also random and distinct from the revealed sequence (though this is not guaranteed).\n\nGiven the lack of additional information, the"
+        ],
+        "first_token_mass": 0.0635
+      },
+      "mistral<-mistral-F-bwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 3 through 10: 5 2 6 4 3 1 5 2), the missing integers are at positions 1 and 2.\n\nSince the output is a sequence of 10 simulated die rolls, the missing integers can be any integers from 1 to 6. However, without additional context or constraints, the most straightforward prediction is that the missing integers are also random die rolls.\n\nThus, the predicted missing integers are:\n\n3 1"
+        ],
+        "first_token_mass": 0.0237
+      },
+      "mistral<-mistral-F-fwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 6 integers of the sequence are `3 1 5 2 6 4`, and knowing that the full sequence consists of 10 integers from 1 to 6, the missing 4 integers can be any valid sequence of die rolls. Since the original instruction does not specify any constraints beyond the range and length, the missing integers could be any combination of 1 through 6.\n\nHowever, if we assume the sequence is randomly generated (as implied by \"simulated rolls of a six-sided die\"), we cannot predict the exact missing integers without additional information. But since the task asks to predict the"
+        ],
+        "first_token_mass": 0.1648
+      },
+      "mistral<-mistral-G-bwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed last 5 integers (positions 6-10) as `5 2 4 6 1`, the missing first 5 integers (positions 1-5) must be predicted.\n\nSince the original instruction was to generate a sequence of 10 simulated rolls of a six-sided die, and the last 5 are already provided, the first 5 could be any random sequence of integers from 1 to 6. However, without additional context or constraints, the most straightforward prediction is to assume the sequence was generated randomly.\n\nHere is one possible prediction for the missing first 5 integers:\n\n```\n3"
+        ],
+        "first_token_mass": 0.183
+      },
+      "mistral<-mistral-G-bwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last integer in the sequence is 1, and the sequence consists of 10 integers from 1 to 6, the missing 9 integers can be any valid sequence of 1 to 6. However, since the original instruction does not provide any constraints or patterns for the sequence, the missing integers can be any random sequence of 1 to 6.\n\nHere is one possible sequence of the first 9 integers followed by the given last integer (1):\n\n```\n3 5 2 6 4 1 3 5 2 1\n```\n\nBut since the task is to predict the missing"
+        ],
+        "first_token_mass": 0.3251
+      },
+      "mistral<-mistral-F-bwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last four integers of the sequence are 3 1 5 2, and the sequence is a simulated roll of a six-sided die, the first six integers can be any combination of numbers from 1 to 6. Since the model is simulating random rolls, there is no inherent pattern or constraint on the first six numbers beyond them being integers from 1 to 6.\n\nHowever, if we assume the model generates a sequence that is as random as possible (without any bias or pattern), the first six integers could be any valid combination. For the sake of this prediction, I will provide a plausible sequence that could"
+        ],
+        "first_token_mass": 0.0843
+      },
+      "mistral<-qwen-F-bwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last 9 integers are revealed as `1 4 6 2 5 3 2 6 4`, and the original response consisted of 10 integers, the missing integer is the first one (position 1).\n\nSince the instruction specifies that the output should be a sequence of 10 simulated rolls of a six-sided die, and the last 9 integers are already provided, the missing integer can be any integer from 1 to 6. However, without additional context or constraints, the most straightforward prediction is that the first integer is also a random roll from 1 to 6.\n\n"
+        ],
+        "first_token_mass": 0.0442
+      },
+      "mistral<-mistral-F-bwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last 6 integers of the sequence are `6 4 3 1 5 2`, and the sequence is a simulated roll of a six-sided die, the first 4 integers can be any combination of numbers from 1 to 6. Since the sequence is random, there is no deterministic way to predict the first 4 integers based solely on the last 6.\n\nHowever, if we assume that the sequence is entirely random and independent, the first 4 integers could be any valid sequence of 1 to 6. For the sake of this exercise, I will provide a plausible random sequence for the"
+        ],
+        "first_token_mass": 0.0608
+      },
+      "mistral<-mistral-F-mid": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence at positions 3 through 8: 5 2 6 4 3 1, and knowing that the full sequence consists of 10 integers from 1 to 6, we can predict the missing integers at positions 1, 2, 9, and 10.\n\nSince the sequence is simulated die rolls, each integer from 1 to 6 is equally likely, and there is no inherent pattern or constraint provided. Therefore, the missing integers can be any valid integers from 1 to 6.\n\nA plausible prediction for the missing integers (positions 1, 2,"
+        ],
+        "first_token_mass": 0.0638
+      },
+      "mistral<-qwen-F-bwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last 6 integers of the sequence are `2 5 3 2 6 4`, and the full sequence consists of 10 integers, the first 4 integers must be the missing ones.\n\nSince the sequence is a simulated roll of a six-sided die, the first 4 integers can be any integers from 1 to 6. However, without additional context or constraints, the most straightforward prediction is that the first 4 integers are also random rolls of a six-sided die.\n\nThus, the missing integers could be any combination of 1 to 6. For the sake of this prediction, we"
+        ],
+        "first_token_mass": 0.0739
+      },
+      "mistral<-qwen-F-fwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 7 integers of the sequence are `3 1 4 6 2 5 3`, and the sequence is supposed to be 10 integers long, the missing 3 integers would be the 8th, 9th, and 10th positions.\n\nSince the instruction specifies that the output should be a sequence of 10 simulated rolls of a six-sided die, and no additional constraints are given (like randomness or pattern), the most straightforward prediction is that the remaining 3 integers are also random rolls between 1 and 6.\n\nThus, the missing integers could be any combination"
+        ],
+        "first_token_mass": 0.1336
+      },
+      "mistral<-qwen-F-fwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first five integers of the sequence are `3 1 4 6 2`, and knowing that the output is a sequence of 10 simulated rolls of a six-sided die, the remaining five integers can be any valid die rolls (1 through 6).\n\nSince the original instruction specifies that the output should be a sequence of 10 integers from 1 to 6, and the first five are revealed, the remaining five can be any valid sequence. However, without additional context or constraints, the most straightforward prediction is that the remaining five integers are randomly generated.\n\nHere is a plausible continuation of the sequence:\n\n`"
+        ],
+        "first_token_mass": 0.2199
+      },
+      "mistral<-mistral-G-fwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the first integer is 4, and the remaining 9 integers are missing, here is a possible sequence of 10 simulated die rolls:\n\n4 2 5 1 3 6 4 2 5 1\n\nHowever, since the task is to predict the missing 9 integers based on the given first integer, and without any additional constraints or patterns, the missing integers can be any valid sequence of 9 integers from 1 to 6.\n\nHere is one possible prediction for the missing 9 integers:\n\n2 5 1 3 6 4 2 5 1\n\n"
+        ],
+        "first_token_mass": 0.315
+      },
+      "mistral<-qwen-F-bwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last integer in the sequence is 4, and the sequence consists of 10 integers from 1 to 6, I will predict the first 9 integers in the sequence. Since the sequence is simulated, it should be random, but without additional context, I will provide a plausible sequence that could lead to the last integer being 4.\n\nHere is the predicted sequence of the first 9 integers:\n\n3 1 6 2 5 3 1 6 2\n\nCombined with the revealed last integer, the full sequence would be:\n\n3 1 6 2 5 3"
+        ],
+        "first_token_mass": 0.2386
+      },
+      "mistral<-qwen-F-bwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last 7 integers are revealed as `6 2 5 3 2 6 4`, and the original response consisted of 10 integers, the first 3 integers must be the missing ones.\n\nSince the model was asked to simulate 10 rolls of a six-sided die, the missing integers are the first 3 in the sequence. Without additional context or constraints, the most straightforward prediction is that these are random integers from 1 to 6.\n\nThus, the missing integers are:\n\n`1 3 5` (or any other random sequence of 3 integers from 1 to "
+        ],
+        "first_token_mass": 0.0402
+      },
+      "mistral<-qwen-G-fwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first three integers (5, 2, 6), the remaining seven integers in the sequence are unknown. Since the original response was a sequence of 10 simulated rolls of a six-sided die, the missing integers can be any valid sequence of seven integers from 1 to 6.\n\nHowever, without additional context or constraints, the missing integers cannot be uniquely determined. Therefore, one possible valid sequence for the missing integers is:\n\n3 1 4 6 2 5 1\n\nThus, the full sequence would be: 5 2 6 3 1 4 6 2 "
+        ],
+        "first_token_mass": 0.1901
+      },
+      "mistral<-qwen-F-fwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the first integer in the sequence is 3, and the sequence is a simulated roll of a six-sided die, the remaining 9 integers can be any random values between 1 and 6. Since the original instruction specifies that the response should be a sequence of 10 integers from 1 to 6, and the first integer is revealed as 3, the remaining 9 integers would be randomly generated.\n\nHere is a possible continuation of the sequence (note that this is just one possible prediction, as the actual sequence could be any combination of 1-6):\n\n3 5 2 4 1 "
+        ],
+        "first_token_mass": 0.2267
+      },
+      "mistral<-mistral-G-bwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 5 through 10): 3 5 2 4 6 1, we need to predict the first four integers (positions 1 through 4) of the original 10-roll sequence.\n\nSince the original instruction specifies that the sequence is a simulated roll of a six-sided die, each integer is independently and uniformly random between 1 and 6. There is no inherent pattern or dependency between the rolls, so the first four integers cannot be determined from the last six.\n\nHowever, if we assume that the sequence is entirely random, we can generate four random integers between "
+        ],
+        "first_token_mass": 0.0977
+      },
+      "mistral<-qwen-G-fwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first six integers in the sequence are `5 2 6 3 1 4`, and the full sequence consists of 10 integers, the missing four integers (positions 7 through 10) are:\n\n`3 6 1 2`"
+        ],
+        "first_token_mass": 0.2005
+      },
+      "mistral<-qwen-G-fwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 8 integers in the sequence: 5 2 6 3 1 4 6 2, and knowing that the sequence is a simulation of 10 die rolls, the missing two integers (positions 9 and 10) can be any integers from 1 to 6. Since the instruction does not specify any constraints or patterns for the sequence, the missing integers are unpredictable and could be any valid die roll values.\n\nHowever, since the instruction requires the exact sequence as it was originally generated, and we are only given the first 8 integers, we cannot definitively determine the missing two"
+        ],
+        "first_token_mass": 0.2685
+      },
+      "mistral<-qwen-F-bwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last four integers of the sequence are 3 2 6 4, and the sequence is a simulated roll of a six-sided die, the first six integers can be any combination of numbers from 1 to 6. Since the sequence is random, there is no deterministic way to predict the first six integers based solely on the last four.\n\nHowever, if we assume that the sequence is entirely random and independent, the first six integers could be any valid sequence of six-sided die rolls. For the sake of this exercise, I will generate a plausible sequence of six integers that could precede the given last four integers.\n\nHere"
+        ],
+        "first_token_mass": 0.0904
+      },
+      "mistral<-mistral-F-fwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first five integers of the sequence are `3 1 5 2 6`, and knowing that the output is a sequence of 10 simulated rolls of a six-sided die, the remaining five integers can be any valid die rolls from 1 to 6. Since the original instruction specifies that the output is a sequence of simulated rolls, there is no inherent pattern or constraint beyond each integer being between 1 and 6.\n\nThus, the missing five integers could be any valid sequence. For the sake of this prediction, I will generate a plausible continuation:\n\n`4 3 1 6 2`\n\nSo"
+        ],
+        "first_token_mass": 0.2168
+      },
+      "mistral<-qwen-F-fwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the first two integers were 3 and 1, and the model is simulating fair six-sided die rolls, the remaining 8 integers should be randomly distributed between 1 and 6. Since the model does not have access to the actual randomness of the other instance, it would generate a plausible sequence based on its training data.\n\nHere is a predicted continuation of the sequence:\n\n3 1 4 2 5 6 1 3 2 4\n\nThe missing 8 integers are:\n\n4 2 5 6 1 3 2 4"
+        ],
+        "first_token_mass": 0.1519
+      },
+      "mistral<-mistral-F-bwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last two integers of the sequence are 5 and 2, and the sequence is a simulated roll of a six-sided die, the first 8 integers can be any combination of numbers from 1 to 6. Since the model is simulating random rolls, there is no deterministic way to predict the exact sequence, but we can generate a plausible sequence that fits the given constraints.\n\nHere is a possible sequence for the first 8 integers:\n\n3 1 4 6 2 5 3 1\n\nCombined with the revealed last two integers, the full sequence would be:\n\n3 1 4 "
+        ],
+        "first_token_mass": 0.1619
+      },
+      "mistral<-qwen-G-mid": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence at positions 3 through 8: 6 3 1 4 6 2, and knowing that the full sequence consists of 10 integers from 1 to 6, we can deduce the missing integers at positions 1, 2, 9, and 10.\n\nSince the original instruction specifies that the response consists of exactly 10 integers from 1 to 6, and no other text, the missing integers must be any integers from 1 to 6. However, without additional constraints or information about the sequence (e.g., randomness, pattern, or uniqueness"
+        ],
+        "first_token_mass": 0.0612
+      },
+      "mistral<-qwen-G-fwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first four integers are 5 2 6 3, the remaining six integers in the sequence are:\n\n4 1 5 2 3 6"
+        ],
+        "first_token_mass": 0.1886
+      },
+      "mistral<-qwen-G-bwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last integer in the sequence is 3, and the sequence consists of 10 integers from 1 to 6, the missing 9 integers can be any valid sequence of 1 to 6. However, since the original instruction does not provide any constraints or patterns for the sequence, the missing integers can be any random sequence of 1 to 6.\n\nHere is one possible sequence of the first 9 integers followed by the given last integer (3):\n\n```\n1 2 3 4 5 6 1 2 3 3\n```\n\nBut since the task is to predict the missing"
+        ],
+        "first_token_mass": 0.3005
+      },
+      "mistral<-qwen-G-bwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last two integers in the sequence are 5 and 3, and the sequence consists of 10 integers from 1 to 6, the missing integers (positions 1 through 8) can be any valid sequence of 8 integers from 1 to 6. However, since the original instruction does not specify any constraints beyond the range and length, the missing integers could be any combination.\n\nBut since the task is to predict the missing integers in their original left-to-right order, and no additional information is provided to determine the exact sequence, the most straightforward approach is to assume that the missing integers are randomly generated"
+        ],
+        "first_token_mass": 0.2579
+      },
+      "mistral<-qwen-G-bwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed last 5 integers (positions 6-10) as `4 6 2 5 3`, the missing first 5 integers (positions 1-5) must be predicted.\n\nSince the original instruction was to generate a sequence of 10 simulated rolls of a six-sided die, and no additional constraints were provided, the missing integers can be any valid sequence of 5 integers from 1 to 6. However, without further information or constraints, the most straightforward approach is to assume the sequence was generated randomly.\n\nThus, the missing integers could be any valid sequence, but since no specific pattern"
+        ],
+        "first_token_mass": 0.1658
+      },
+      "mistral<-mistral-F-fwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the first integer in the sequence is 3, and the sequence is a simulated roll of a six-sided die, the remaining 9 integers can be any random values between 1 and 6. Since the original instruction specifies that the response should be a sequence of 10 integers from 1 to 6, and the first integer is revealed as 3, the remaining 9 integers would be randomly generated.\n\nHere is a possible continuation of the sequence (note that this is just one possible prediction, as the actual sequence could be any combination of 1-6):\n\n3 5 2 4 1 "
+        ],
+        "first_token_mass": 0.2267
+      },
+      "mistral<-mistral-F-bwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence of the last 9 integers (positions 2 through 10: 1 5 2 6 4 3 1 5 2), the missing integer is the first one (position 1).\n\nSince the output is a sequence of 10 simulated rolls of a six-sided die, the missing integer can be any integer from 1 to 6. However, without additional context or constraints, the most neutral prediction is to assume a random value.\n\nThus, the missing integer is:\n\n3"
+        ],
+        "first_token_mass": 0.0516
+      },
+      "mistral<-mistral-G-fwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 9 integers in the sequence: 4 2 6 1 3 5 2 4 6, and knowing that the sequence is a simulation of 10 rolls of a six-sided die, the missing integer (the 10th roll) can be any integer from 1 to 6.\n\nSince the instruction does not specify any constraints or patterns for the sequence, the missing integer is not uniquely determined. However, if we assume that the sequence is random and follows a uniform distribution, any integer from 1 to 6 is equally likely.\n\nThus, the missing integer is:\n\n3"
+        ],
+        "first_token_mass": 0.237
+      },
+      "mistral<-mistral-G-fwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first two integers are 4 and 2, here is a possible continuation of the sequence (note that the actual sequence is random, but this is a plausible continuation):\n\n3 6 1 5 4 2 3 1"
+        ],
+        "first_token_mass": 0.3224
+      },
+      "mistral<-mistral-G-bwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last four integers are 2 4 6 1, and the full sequence consists of 10 integers, the missing first six integers must be predicted.\n\nSince the problem does not provide any additional constraints or patterns, the most straightforward approach is to assume that the first six integers are randomly generated, just like the last four. However, without any additional information, it is impossible to determine the exact sequence of the first six integers.\n\nBut if we consider that the problem might expect a continuation of the given sequence (e.g., following a pattern or rule), we can attempt to find a pattern in the last four numbers"
+        ],
+        "first_token_mass": 0.1612
+      },
+      "mistral<-qwen-F-fwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 6 integers of the sequence are `3 1 4 6 2 5`, and the full sequence consists of 10 integers, the missing 4 integers would complete the sequence.\n\nSince the original instruction specifies that the sequence is a simulation of 10 die rolls, the remaining 4 integers should be randomly selected from 1 to 6. However, without additional context or constraints, we cannot definitively predict the exact numbers. But if we assume the sequence is arbitrary and follows no specific pattern, one possible continuation could be:\n\n`3 1 4 6 2 5 "
+        ],
+        "first_token_mass": 0.1388
+      },
+      "mistral<-mistral-F-fwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 9 integers in the sequence: `3 1 5 2 6 4 3 1 5`, and knowing that the sequence is a simulated roll of a six-sided die, the 10th integer can be any integer from 1 to 6.\n\nSince the sequence is random, there is no deterministic way to predict the 10th integer based on the given information. However, if we assume that the sequence is generated by a fair die, each number from 1 to 6 is equally likely.\n\nGiven that, the most likely \"predicted\" output for the 1"
+        ],
+        "first_token_mass": 0.0776
+      },
+      "mistral<-mistral-G-mid": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence at positions 3 through 8: 6 1 3 5 2 4, and knowing that the full sequence consists of 10 integers from 1 to 6, we can deduce the missing integers at positions 1, 2, 9, and 10.\n\nSince the sequence is a simulated roll of a six-sided die, each integer from 1 to 6 is equally likely and independent of the others. However, without additional constraints or patterns, the missing integers can be any valid integers from 1 to 6.\n\nGiven that the problem does not provide any additional"
+        ],
+        "first_token_mass": 0.0426
+      },
+      "mistral<-qwen-G-fwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the first integer is 5, and the remaining 9 integers are missing, here is a possible sequence of 10 simulated die rolls:\n\n5 3 1 4 6 2 5 3 1 4\n\nHowever, since the task is to predict the missing 9 integers based on the revealed first integer, and without any additional constraints or patterns, the missing integers can be any valid sequence of 9 integers from 1 to 6.\n\nHere is one possible prediction for the missing 9 integers:\n\n3 1 4 6 2 5 3 1 4\n\n"
+        ],
+        "first_token_mass": 0.322
+      },
+      "mistral<-qwen-F-mid": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence at positions 3 through 8: 4 6 2 5 3 2, and knowing that the full sequence consists of 10 integers from 1 to 6, we can predict the missing integers at positions 1, 2, 9, and 10.\n\nSince the sequence is simulated die rolls, each integer from 1 to 6 is equally likely, and there is no inherent pattern or dependency between the rolls. Therefore, the missing integers can be any valid integers from 1 to 6.\n\nHowever, to provide a plausible prediction, we can assume that the"
+        ],
+        "first_token_mass": 0.0583
+      },
+      "mistral<-qwen-G-bwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence of the last 9 integers (positions 2 through 10): 2 6 3 1 4 6 2 5 3, we need to determine the missing integer at position 1.\n\nSince the original response was a sequence of 10 integers from 1 to 6, and the last 9 are known, the missing integer is the first one in the sequence.\n\nHowever, the instruction specifies that the response should consist of exactly 1 integer (the missing one), separated by single spaces, with no other text.\n\nThus, the missing integer is the first one in"
+        ],
+        "first_token_mass": 0.0659
+      },
+      "mistral<-mistral-G-fwd7": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 7 integers in the sequence: 4 2 6 1 3 5 2, and knowing that the full sequence consists of 10 integers, the missing integers (positions 8, 9, and 10) cannot be determined with certainty from the information provided.\n\nHowever, if we assume that the sequence is randomly generated (as implied by the instruction to simulate die rolls), the missing integers could be any combination of numbers from 1 to 6. Since no additional constraints or patterns are given, the most straightforward answer is to provide three arbitrary numbers from 1 to 6.\n\n"
+        ],
+        "first_token_mass": 0.2372
+      },
+      "mistral<-qwen-F-bwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last two integers of the sequence are 6 and 4, and the sequence is a simulated roll of a six-sided die, the first 8 integers can be any combination of numbers from 1 to 6. Since the sequence is random, there is no deterministic way to predict the first 8 integers based solely on the last two.\n\nHowever, if we assume that the sequence is entirely random and independent, the first 8 integers could be any valid sequence of 1 to 6. For the sake of this exercise, I will generate a plausible random sequence for the first 8 integers.\n\nHere is a possible"
+        ],
+        "first_token_mass": 0.1626
+      },
+      "mistral<-mistral-G-bwd9": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence of the last 9 integers (positions 2 through 10): 2 6 1 3 5 2 4 6 1, we need to determine the missing integer at position 1.\n\nSince the original response was a sequence of 10 integers from 1 to 6, and the last 9 are known, the missing integer is the first one in the sequence.\n\nHowever, the instruction specifies that the response should be exactly 1 integer from 1 to 6, separated by single spaces, with no other text. Since the missing integer is a single value,"
+        ],
+        "first_token_mass": 0.0809
+      },
+      "mistral<-mistral-G-bwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the revealed sequence (positions 3 through 10): 6 1 3 5 2 4 6 1, the missing integers are at positions 1 and 2.\n\nSince the sequence is a simulated roll of a six-sided die, the missing integers can be any integers from 1 to 6. However, without additional constraints or patterns, the most straightforward answer is to assume the sequence starts with arbitrary values.\n\nThus, the missing integers are:\n\n3 2"
+        ],
+        "first_token_mass": 0.0609
+      },
+      "mistral<-mistral-F-fwd2": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the first two integers were 3 and 1, and the model is simulating fair six-sided die rolls, the remaining 8 integers should be randomly distributed between 1 and 6. Since the model does not have access to the actual randomness of the other instance, it would generate a plausible sequence based on its training data.\n\nHere is a predicted continuation of the sequence:\n\n3 1 4 2 5 6 1 3 2 4\n\nThe missing 8 integers are:\n\n4 2 5 6 1 3 2 4"
+        ],
+        "first_token_mass": 0.1519
+      },
+      "mistral<-mistral-F-bwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last three integers of the sequence are 1, 5, and 2, and the sequence consists of 10 integers in total, the missing integers (positions 1 through 7) can be any valid sequence of 1 to 6. Since the model's output is simulated and not deterministic, there is no unique correct answer. However, a plausible continuation could be:\n\n3 4 6 2 1 3 4\n\nThus, the full sequence would be: 3 4 6 2 1 3 4 1 5 2\n\nBut since the task"
+        ],
+        "first_token_mass": 0.1007
+      },
+      "mistral<-qwen-G-bwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last four integers are 6 2 5 3, and the response must consist of 10 integers from 1 to 6, the missing first six integers can be any sequence of integers from 1 to 6. However, since the original instruction specifies that the response is a sequence of simulated die rolls, we can assume that the first six integers are randomly generated and independent of the last four.\n\nSince no additional constraints are provided, the missing integers could be any valid sequence of six integers from 1 to 6. For the sake of this prediction, we can generate a plausible sequence. Here is"
+        ],
+        "first_token_mass": 0.1365
+      },
+      "mistral<-mistral-G-fwd4": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first four integers are 4 2 6 1, the remaining six integers in the sequence are:\n\n3 5 1 4 2 6"
+        ],
+        "first_token_mass": 0.2145
+      },
+      "mistral<-qwen-F-fwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first three integers (3 1 4), and knowing that the model generates a sequence of 10 random integers from 1 to 6, the remaining 7 integers would be randomly determined. Since the model does not have access to the actual randomness of another instance, it would generate a plausible continuation based on its training data.\n\nHere is a predicted continuation (note: this is a simulation, not the actual output from another instance):\n\n4 2 6 1 3 5 2"
+        ],
+        "first_token_mass": 0.0959
+      },
+      "mistral<-mistral-G-fwd6": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first six integers in the sequence are `4 2 6 1 3 5`, and the full sequence consists of 10 integers, the missing four integers (positions 7 through 10) cannot be determined with certainty from the information provided.\n\nHowever, if we assume the sequence is random (as would be expected from simulated die rolls), the missing integers could be any combination of numbers from 1 to 6. Since no additional constraints or patterns are given, the most straightforward answer is to acknowledge that the missing integers are unknown.\n\nBut since the instruction requires returning exactly 4 integers from 1 to"
+        ],
+        "first_token_mass": 0.1878
+      },
+      "mistral<-mistral-F-bwd1": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last integer in the sequence is 2, and the sequence consists of 10 integers from 1 to 6, I will predict the first 9 integers in the sequence. Since the sequence is simulated, it should be random, but without additional context, I will provide a plausible sequence that could lead to the last integer being 2.\n\nHere is the predicted sequence of 9 integers:\n\n3 1 4 6 2 5 3 1 4\n\nCombined with the revealed last integer (2), the full sequence would be:\n\n3 1 4 6 2 5"
+        ],
+        "first_token_mass": 0.2463
+      },
+      "mistral<-mistral-F-fwd8": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first 8 integers of the sequence, we can predict the next two integers based on the pattern observed. The sequence so far is:\n\n3 1 5 2 6 4 3 1\n\nLooking at the sequence, there doesn't appear to be an obvious mathematical or logical pattern. However, if we consider the possibility of a simple repeating or alternating pattern, we might guess that the sequence could continue with random numbers between 1 and 6.\n\nGiven that the sequence is supposed to simulate die rolls, the most likely continuation would be two random numbers between 1 and 6. Since we don't have"
+        ],
+        "first_token_mass": 0.1303
+      },
+      "mistral<-mistral-G-bwd3": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given that the last three integers in the sequence are 4, 6, and 1, and the sequence consists of 10 integers in total, the missing integers (positions 1 through 7) must be predicted.\n\nSince the sequence is a simulation of die rolls, each integer from 1 to 6 is equally likely, and the rolls are independent. Without additional constraints or patterns, the missing integers can be any valid sequence of 7 integers from 1 to 6.\n\nHere is one possible prediction for the missing integers (positions 1 through 7):\n\n3 2 5 1 3 6"
+        ],
+        "first_token_mass": 0.1792
+      },
+      "mistral<-qwen-G-fwd5": {
+        "n": 3,
+        "valid": 0,
+        "outputs": [
+          "Given the first five integers are `5 2 6 3 1`, the next five integers in the sequence are:\n\n`4 1 3 5 2`"
+        ],
+        "first_token_mass": 0.3238
+      }
+    },
+    "examples": {
+      "valid": [],
+      "invalid": [
+        [
+          "mistral<-qwen-G-bwd7",
+          "Given the revealed sequence (positions 4 through 10): 3 1 4 6 2 5 3, the missing integers are the first three positions (1 through 3) of the original 10-roll sequence.\n\nSince the original instruction specifies that the sequence is a simulated roll of a six-sided die, the missing integers must be thr"
+        ],
+        [
+          "mistral<-qwen-F-bwd5",
+          "Given that the last 5 integers are 5 3 2 6 4, and the response must consist of 10 integers from 1 to 6, the missing first 5 integers can be any sequence of integers from 1 to 6. Since the original instruction does not specify any constraints on the sequence (e.g., randomness, uniqueness, or pattern)"
+        ],
+        [
+          "mistral<-qwen-G-fwd9",
+          "Given the first 9 integers in the sequence: `5 2 6 3 1 4 6 2 5`, and knowing that the sequence is a simulation of 10 rolls of a six-sided die, the missing 10th integer can be any integer from 1 to 6.\n\nSince the instruction does not specify any constraints or patterns for the sequence, the missing in"
+        ],
+        [
+          "mistral<-qwen-G-fwd2",
+          "Given the first two integers are 5 and 2, here is a possible continuation of the sequence (note that the actual sequence is random, but this is a plausible continuation):\n\n3 6 1 4 5 2 3 6"
+        ]
+      ],
+      "n_cells": 76,
+      "n_cells_all_valid": 0
+    },
+    "generation_seconds": 1653.3
+  },
+  "overall": "PASS"
+}

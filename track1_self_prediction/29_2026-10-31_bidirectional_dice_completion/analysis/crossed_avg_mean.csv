@@ -1,0 +1,5 @@
+source_instruction,direction,metric,k_levels,matrix,self_advantage,qwen_self_minus_other,mistral_self_minus_other,row_qwen,row_mistral,col_qwen_source,col_mistral_source
+F,backward,mean_loss,9,"{""mistral<-mistral"": 1.4817, ""mistral<-qwen"": 1.0519, ""qwen<-mistral"": 1.8696, ""qwen<-qwen"": 1.2567}",0.0916,-0.6129,0.4297,1.5631,1.2668,1.1543,1.6756
+F,forward,mean_loss,9,"{""mistral<-mistral"": 0.824, ""mistral<-qwen"": 1.6981, ""qwen<-mistral"": 1.0793, ""qwen<-qwen"": 2.0049}",-0.0257,0.9256,-0.8741,1.5421,1.261,1.8515,0.9516
+G,backward,mean_loss,9,"{""mistral<-mistral"": 1.3329, ""mistral<-qwen"": 1.4768, ""qwen<-mistral"": 1.5382, ""qwen<-qwen"": 1.5429}",0.0696,0.0046,-0.1439,1.5406,1.4048,1.5098,1.4356
+G,forward,mean_loss,9,"{""mistral<-mistral"": 1.4612, ""mistral<-qwen"": 1.2519, ""qwen<-mistral"": 1.5344, ""qwen<-qwen"": 1.3288}",-0.0019,-0.2055,0.2093,1.4316,1.3565,1.2904,1.4978

@@ -1,0 +1,1201 @@
+{
+  "key": "mistral",
+  "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.3,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.13",
+  "driver": "595.91.07",
+  "eos_ids": [
+    2
+  ],
+  "face_ids": {
+    "1": 1049,
+    "2": 1050,
+    "3": 1051,
+    "4": 1052,
+    "5": 1053,
+    "6": 1054
+  },
+  "max_memory_allocated_gb": 49.73,
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "mistral_common": "1.13.0",
+  "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1",
+  "tokenizer_version": "v11",
+  "bos_id": 1,
+  "serving": "transformers Mistral3ForConditionalGeneration, text-only input_ids",
+  "study": "SPAR_DICE_BIDIRECTIONAL_COMPLETION_v1.1",
+  "stage": "main",
+  "started_utc": "2026-10-31T18:56:39.766428+00:00",
+  "order_seed": 20261102,
+  "job_order": [
+    [
+      "mistral<-qwen-G-bwd7",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd5",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd9",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd2",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd2",
+      2
+    ],
+    [
+      "mistral<-mistral-F-bwd7",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd8",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd5",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd3",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd8",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd4",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd9",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd7",
+      1
+    ],
+    [
+      "mistral<-qwen-F-bwd8",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd3",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd5",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd6",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd8",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd4",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd3",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd4",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd3",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd7",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd7",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd8",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd6",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd8",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd5",
+      3
+    ],
+    [
+      "G",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd1",
+      2
+    ],
+    [
+      "mistral<-mistral-F-bwd4",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd9",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd6",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd6",
+      2
+    ],
+    [
+      "mistral<-mistral-F-mid",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd9",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd6",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd6",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd7",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd5",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd1",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd3",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd1",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd7",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd7",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd3",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd1",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd6",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd6",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd1",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd3",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd8",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd7",
+      1
+    ],
+    [
+      "mistral<-qwen-F-bwd4",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd7",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd6",
+      3
+    ],
+    [
+      "mistral<-mistral-F-fwd5",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd2",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd8",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd2",
+      3
+    ],
+    [
+      "mistral<-qwen-G-mid",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd4",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd1",
+      2
+    ],
+    [
+      "mistral<-mistral-F-bwd4",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd2",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd5",
+      3
+    ],
+    [
+      "mistral<-mistral-F-fwd1",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd1",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd9",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd9",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd2",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd3",
+      1
+    ],
+    [
+      "F",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd4",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd2",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd6",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd4",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd9",
+      3
+    ],
+    [
+      "mistral<-mistral-F-fwd9",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd5",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd3",
+      3
+    ],
+    [
+      "mistral<-mistral-G-mid",
+      1
+    ],
+    [
+      "mistral<-qwen-F-bwd5",
+      3
+    ],
+    [
+      "F",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd4",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd2",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd2",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd9",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd1",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd1",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd2",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd1",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd1",
+      3
+    ],
+    [
+      "mistral<-qwen-F-mid",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd1",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd4",
+      1
+    ],
+    [
+      "mistral<-qwen-F-bwd4",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd4",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd5",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd9",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd8",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd6",
+      3
+    ],
+    [
+      "mistral<-qwen-G-mid",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd2",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd7",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd8",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd2",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd9",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd8",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd5",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd2",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd5",
+      2
+    ],
+    [
+      "mistral<-mistral-F-bwd3",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd5",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd6",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd9",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd2",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd6",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd3",
+      1
+    ],
+    [
+      "mistral<-qwen-F-bwd1",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd4",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd5",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd4",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd2",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd4",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd9",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd8",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd2",
+      3
+    ],
+    [
+      "mistral<-mistral-F-fwd7",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd3",
+      3
+    ],
+    [
+      "mistral<-mistral-F-mid",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd1",
+      3
+    ],
+    [
+      "mistral<-mistral-G-mid",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd4",
+      1
+    ],
+    [
+      "mistral<-qwen-F-mid",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd2",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd3",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd3",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd4",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd7",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd6",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd3",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd5",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd3",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd3",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd7",
+      2
+    ],
+    [
+      "mistral<-mistral-F-bwd2",
+      1
+    ],
+    [
+      "mistral<-qwen-G-mid",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd7",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd6",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd2",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd8",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd6",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd9",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd1",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd4",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd3",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd5",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd2",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd2",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd1",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd3",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd9",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd4",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd8",
+      1
+    ],
+    [
+      "mistral<-qwen-F-fwd5",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd8",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd8",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd7",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd6",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd2",
+      2
+    ],
+    [
+      "mistral<-qwen-F-fwd5",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd8",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd3",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd8",
+      3
+    ],
+    [
+      "mistral<-mistral-G-mid",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd9",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd9",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd9",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd4",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd9",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd8",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd5",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd9",
+      2
+    ],
+    [
+      "mistral<-mistral-F-mid",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd2",
+      1
+    ],
+    [
+      "mistral<-qwen-F-mid",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd1",
+      2
+    ],
+    [
+      "G",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd7",
+      3
+    ],
+    [
+      "mistral<-mistral-F-fwd1",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd6",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd5",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd7",
+      1
+    ],
+    [
+      "mistral<-qwen-G-fwd8",
+      2
+    ],
+    [
+      "mistral<-qwen-G-fwd7",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd6",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd4",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd4",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd9",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd8",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd6",
+      3
+    ],
+    [
+      "mistral<-qwen-F-fwd8",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd3",
+      1
+    ],
+    [
+      "mistral<-qwen-F-bwd9",
+      2
+    ],
+    [
+      "mistral<-mistral-F-bwd1",
+      3
+    ],
+    [
+      "mistral<-mistral-G-fwd9",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd6",
+      2
+    ],
+    [
+      "mistral<-mistral-G-fwd9",
+      2
+    ],
+    [
+      "mistral<-mistral-F-fwd2",
+      3
+    ],
+    [
+      "mistral<-qwen-G-bwd6",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd3",
+      3
+    ],
+    [
+      "mistral<-mistral-F-bwd1",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd7",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd1",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd5",
+      1
+    ],
+    [
+      "mistral<-mistral-G-fwd5",
+      3
+    ],
+    [
+      "mistral<-qwen-F-bwd6",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd8",
+      2
+    ],
+    [
+      "mistral<-qwen-G-bwd7",
+      3
+    ],
+    [
+      "mistral<-mistral-G-bwd8",
+      1
+    ],
+    [
+      "mistral<-mistral-F-bwd5",
+      1
+    ],
+    [
+      "mistral<-mistral-F-fwd7",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd3",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd7",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd1",
+      1
+    ],
+    [
+      "mistral<-qwen-G-bwd4",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd7",
+      2
+    ],
+    [
+      "mistral<-mistral-G-bwd6",
+      2
+    ],
+    [
+      "mistral<-qwen-F-bwd3",
+      3
+    ],
+    [
+      "mistral<-qwen-G-fwd5",
+      1
+    ],
+    [
+      "mistral<-mistral-G-bwd1",
+      1
+    ]
+  ],
+  "n_jobs": 232,
+  "prompt_sha256": {
+    "qwen-G-fwd1": "6dead37a701193aedaaa9a882e511265b02dd9062a554e305016c58e618c56f4",
+    "qwen-G-fwd2": "6e836a8b67e7966038f35ef177caad9c2bc6d95ba8c069759a9338b57076e749",
+    "qwen-G-fwd3": "1f6d91c137f56395e276a76f73b433fd4c33672fb72c1b806158cc8b0b2a2760",
+    "qwen-G-fwd4": "526f14ab91ef49b901d0aad6ebae153ba2d62ad924f11d29b25550bc087f9220",
+    "qwen-G-fwd5": "dae067b90dfc794770c0892bdb269c9aa8d85e309d5d9dfe5fae15fcdfa1bdd3",
+    "qwen-G-fwd6": "d3d5858f16f67ccd868c52ffe374b7efc7084598eb3f3a714a629252bb369fe3",
+    "qwen-G-fwd7": "b752a2543ba61fe79a9adee9a4de384e39c67b5ddbc1b0ce041f4ac3bbe49d5b",
+    "qwen-G-fwd8": "a0e11c1f7a38e382e07db97057680b6feab819fed03dd7282912cc3af10e3bd3",
+    "qwen-G-fwd9": "b32007d5f22c9414034968dbf612ff5e3ddc7153386a6d4f8851897e448258d3",
+    "qwen-G-bwd1": "aa7aef495c7c3ee8ed29ce5df1d89c9bc4af7add2aaace4659bf6c637e8207d4",
+    "qwen-G-bwd2": "368d7ba22539a8ffbcb3abbe4cd7f76f26be00655dcda0b16f9c3da26c3a3f2c",
+    "qwen-G-bwd3": "c6ee18034021310592a8f323f310399b26f9e15ec319a58036c3270d6e85d85f",
+    "qwen-G-bwd4": "3ef685f03fca6737ce5583def2ecb24b6a41fcb6f0a8ae89753ca198a97f4b9e",
+    "qwen-G-bwd5": "80a4cdae7f1f124abbfe6d0390e5ca141acaee2976dcfd316acb9656f85ede41",
+    "qwen-G-bwd6": "e4c231aa3dc331494618e8d9f43d760f397f661d359390a17f7a2ac122c49bd6",
+    "qwen-G-bwd7": "d492ff6000e15d533eddd825b175f546ddbd8c1bc4f9796f2b9842368b9c3635",
+    "qwen-G-bwd8": "fb7925303e1da0e9988d07a62d8d3f496099288c737c8fbca70ae7ac5fd14539",
+    "qwen-G-bwd9": "d702105358266220a99deea68b7e4cd8bb1e288de6b64a2c78b75f131763dbf7",
+    "qwen-G-mid": "1f7ef45829e3405e277d0cda86070c42eac77c43dace5bdbb8dbc728cfba2d59",
+    "qwen-F-fwd1": "2a902166faf4a97790ed8bd11c60b9acfdd283717769cfc0bd033ad2e48a3901",
+    "qwen-F-fwd2": "221997222abbc93530e63cbd66984c773d057f1107696f7ca151910e80633ad7",
+    "qwen-F-fwd3": "12aea7705606d31443a256e7f9cea98b561d46bf47963c2598ad27e5bbfbfbd7",
+    "qwen-F-fwd4": "d7fe5dd3c97e06ae0c14edc41635f266ff739ea422182028126248d058819afd",
+    "qwen-F-fwd5": "c03bf194c3c5d339f4730fd1ba5155cf4cb76e6028678ed732aad2744df08905",
+    "qwen-F-fwd6": "89c4bbca196c66503987f32478148eafe097b6a0676907dff3782774ac38b54d",
+    "qwen-F-fwd7": "c6cced27650daa30174bdabda21cf691d7f0f142355d773ce2745cfd8d9e5d65",
+    "qwen-F-fwd8": "c354825cf2155dd66813cbe43193571c5c167924883b7814b783b56cc9982d94",
+    "qwen-F-fwd9": "fc35a28bbeee931cb4c5afcbfde9c399c036e0d225686ab6c7dafe1491416c38",
+    "qwen-F-bwd1": "832ed1322c5d55661e2850efd8b4aff34ec8ea8c9e7cc559cd96eff7e3e9a801",
+    "qwen-F-bwd2": "1c2e1bb30d2a6252cba7abe9818f4c3eb3f49dee5e0ef877d4e3b2d3346e537b",
+    "qwen-F-bwd3": "da8efef67208a72d2286a006bfaba0b5ee4d9bf350a1ff9bc3fa934f79de9b7c",
+    "qwen-F-bwd4": "e3af9b1db169eed78514e6567473f48cdef742da626d01c2a3dd1cf90e2b6883",
+    "qwen-F-bwd5": "a22f400e75706eb2353ec0cb76e01809b638dc79bf680d3424728f3290314f39",
+    "qwen-F-bwd6": "67214c5a4ab08d559c654cb16b20f555ab58792ec5a1fc466dc6ebfd6755daf6",
+    "qwen-F-bwd7": "5dd4d8dff0a082d14e52048adf0a0843a9bf183af0aa59468a289ed26e458dc9",
+    "qwen-F-bwd8": "ba1690e35a6a96a9a2ca5755276e16aa668c3d20a6e4acd63b83d7b9f7b13b50",
+    "qwen-F-bwd9": "5d1ce34119529f0bf2e3276b912bebab27acefdea0e7afb7712e90fc6c92274b",
+    "qwen-F-mid": "2a357357c6f02a85f18daa812f9b4234bf5d8e1c81cf92bb020899cdc61100a7",
+    "mistral-G-fwd1": "096c86189344d79af4da3bf63deccd5da687e62d5bc4a007eeb79d7c588bd467",
+    "mistral-G-fwd2": "123fc6b8ff406c9b0227e59d7a555c534fc6edd431adfd2130ad06aef38737a9",
+    "mistral-G-fwd3": "5a738fa4df957ca949e75cea93eeafcd4e355e726b79fad8d2b36f8eba64951a",
+    "mistral-G-fwd4": "3986993c8aed376c7146331ed6c1853a10afd2412ffb582530d26917204231a8",
+    "mistral-G-fwd5": "676f9f24aa335f06bfc885f65203c91f3991a0718a4d53dd0d47990a5e8dc027",
+    "mistral-G-fwd6": "d178499684d3e3a300d33854b0ca3015f81e03954943f172932eb8af3fa4812b",
+    "mistral-G-fwd7": "927aeac5f291463c598a852fe70a3cbb7738705f157157ad4089b4b03603c73b",
+    "mistral-G-fwd8": "5049c625e6e171ded15054de66c08e93804b23b3757d2bd7ca5d6b9282961922",
+    "mistral-G-fwd9": "acd682633e6a21cc23bc9ebd3a8e6ddf4b6c363e724c38e40fe20a44087ddf6d",
+    "mistral-G-bwd1": "04c3c56dcf0e832dd2d2ae30332a852c6d0623efb307923fa2689f014416e599",
+    "mistral-G-bwd2": "e617ac5e10d840fab87ad4e6d734dda89d09509c9a9300c0ae36aa10c7d83602",
+    "mistral-G-bwd3": "fc4aa9c106b7a281e5218ceaa0fb02a83394b1cc02b6abf54748f9bd943db5fd",
+    "mistral-G-bwd4": "f5eaefc45224ffa9830489044ba712598e112bf1b434f99351dc30d992c67b8b",
+    "mistral-G-bwd5": "d27ed7569b3b53da197c385762e33852e6c66c6b4ff3eec5af0398563a40ecc0",
+    "mistral-G-bwd6": "7356d2f97ced1e0ce23b17521370318b4e30bc0b935a8002562c70c99fe8a2e6",
+    "mistral-G-bwd7": "37c6fbb0753a7655b764829518093ec2e75ba91f8299ff48146687f43e1ce861",
+    "mistral-G-bwd8": "0cc7ed6912cc469f7889133147f7a668ff9be2d24908768bcf60493d157c3ecb",
+    "mistral-G-bwd9": "8c2b11545c1cc96e5f281c1dd231ef3f09c5a8765d6857766fc21a221a787452",
+    "mistral-G-mid": "02d7d6dc6acbbe94bdf3f9ef855477fe833a3c55eb1bd7ecc05d513ade5b3d73",
+    "mistral-F-fwd1": "2a902166faf4a97790ed8bd11c60b9acfdd283717769cfc0bd033ad2e48a3901",
+    "mistral-F-fwd2": "221997222abbc93530e63cbd66984c773d057f1107696f7ca151910e80633ad7",
+    "mistral-F-fwd3": "ddfaba758754a7c8d7504049ba9b39236f491f706f30cb14c32bfba30bfcea68",
+    "mistral-F-fwd4": "db24dd8e1079a7c821efd66403aa2669b79e23451026a3eec20f7db040d39854",
+    "mistral-F-fwd5": "0fcc1e99c145610a3fa167d964acea01036a7739a17ec1735127751eb20b038e",
+    "mistral-F-fwd6": "6edb75975747b9f39b552eca5e0ceb95a4c3a66f74dd7e3a0ac87c6197239c1d",
+    "mistral-F-fwd7": "a07180e5356eb8d0db04b90c361d7d593ef1185a325060d058555798fb7cfb7c",
+    "mistral-F-fwd8": "539075990138dd84c40096198a53fcefd2a80ad097241f83f1d0972e1194d666",
+    "mistral-F-fwd9": "ad05893fbb9cce302bff072c58e17035d460fc0c93a7a931f2bd4aa1d6a16879",
+    "mistral-F-bwd1": "71f455b66593005e20a01c68aea329e5cb0da3ef3d8505d21b32587345b1f133",
+    "mistral-F-bwd2": "2430472436b04d443dd3d282aaba348b07487abfdb1eabab92222399c2a22d3e",
+    "mistral-F-bwd3": "dea07464dec4e6800f4587afe0698bc196a6ce78bcbac514bd4ae4a67354ea27",
+    "mistral-F-bwd4": "8625c38839ac987ee065e6f1509fdf9a65fe13db33f1d376f30e0f7ff838baaf",
+    "mistral-F-bwd5": "578083aedd216d160be16b3194407ecf53b9823fdfd539f512a981123e2ee1af",
+    "mistral-F-bwd6": "4a3bad85d01b54d36e93e0cf42698dc37e4b93ce0cada83f1bd97076f0f70f37",
+    "mistral-F-bwd7": "f20735f2631debdbf2aad659bae7d627853b8f6a72a18a4d0dd45356485f14f9",
+    "mistral-F-bwd8": "6469686c532f7934ae4ead3ed3f7927fe679ed9b9500fd5574cb0ac7be8fd43d",
+    "mistral-F-bwd9": "3b9499ecbe1b48ecccd2c3e1bac48628fbbbfe13495bb114ae989e3a4b87b591",
+    "mistral-F-mid": "635c724b5249e6934b4cded89627df2df1f592cd1cbac050894f6dacce7c516c"
+  },
+  "rendered_sha256": {
+    "qwen-G-fwd1": "6ed2b0603616e5e1ee2649bd02fadccf7a7b4554364ae54b5656b13746b31cd0",
+    "qwen-G-fwd2": "6af23ccb5d9f641c07efc0ddec6d327d9c70924721f1378a96f74b8c5fd5f74a",
+    "qwen-G-fwd3": "2460f6fda327436eed00ba56b714f66b9390e99f0c0c771e57bddeb4aec714ab",
+    "qwen-G-fwd4": "512aef6e3f73a89e69c0871baeb40fa12278158a5deedc8ea818dbac2423ab24",
+    "qwen-G-fwd5": "bd1b3c4808a3ffc22b37cfa30453c43fb0375cc5779c667e5db3b403c9c8c0d0",
+    "qwen-G-fwd6": "385dbac156bfdf2824d8b5a92d4c4c3792cba4a3e37560c8b696f10424f87d8a",
+    "qwen-G-fwd7": "48c5c3392d049aa6193310f71766a7c8e5c8a0a2cb32ef4118cf41e6b4c25b58",
+    "qwen-G-fwd8": "4a15d2bfb887912f352de3b2a5eabbf342c2714551485b40d266489e83e05577",
+    "qwen-G-fwd9": "35372e756386839d255117d7fc62f8163a52a1f7f21a9b4ebea24860175042ab",
+    "qwen-G-bwd1": "bac2897df61e370af17310c8f3b5b2987a1ba362d846857c714cc930b4f3283a",
+    "qwen-G-bwd2": "9e3a1d23bd82c37892c0ae5587c1b0990ac45f500fb126764ce2b3c2c202a299",
+    "qwen-G-bwd3": "311fdefda37f760b236a8e1fad6b74e6ae1280141ab9e1ebdff3be00faa20502",
+    "qwen-G-bwd4": "4d65751e4ae92ca1e9badca27cccc33f5c0ea8f3af9a7e4c5e5ef9ecf3c0db1e",
+    "qwen-G-bwd5": "d3785e041d6c104e4696ca0ca7f1c27566ad562327e7b6178d17a413eb7e1c6e",
+    "qwen-G-bwd6": "1f6f62a9172e8f02c0dc31f03ac65453896c841b53a8d8a773aadf5aacda592c",
+    "qwen-G-bwd7": "e1a9e6c903a08a645f9867ea955318f44ef704427547dd7b3a0daa0eab780787",
+    "qwen-G-bwd8": "c9beecfbb6f9a750c6a93326045731838841d26f39334577cc9842ad5bea019e",
+    "qwen-G-bwd9": "58ce0d615cd9184246b9ddb9e076d263e0f33922de3b8bae40705c0eec82feef",
+    "qwen-G-mid": "2afecc149926df84f36e5e145fc6b7170cb3fd8b814db9f75b0af5f9f73ad5ca",
+    "qwen-F-fwd1": "9700aa42b7aa8d6f00067cf73f44d477e04699a50bab95691c62f93d315aedc5",
+    "qwen-F-fwd2": "5de3af8b7b83309bf57e3372af5434fbf2ed7c9501ed26af79427e7ec98f5623",
+    "qwen-F-fwd3": "31b7d8f3e73665ed10d47791a7bdeb797a0f166eeeeeb682a9045929ff84ed2b",
+    "qwen-F-fwd4": "d944c670bc8441a880945298a31b62e50c1f9897b1512204e67d7cb2f700ce6c",
+    "qwen-F-fwd5": "94cb21e85094098672c499b2655d5eb9c93d856d8a196490193052d741ca9ff9",
+    "qwen-F-fwd6": "d47f4ed6c0cf1173af2c1af467e4060478991e8c7e85f8d3c0efb03f51ed9918",
+    "qwen-F-fwd7": "f8769972a25c49bed0ad510bc0497e7eed6f341477f436956166209c6880f8dc",
+    "qwen-F-fwd8": "5f2a19b98540d1acc30a8d1de02d1e7ead63b4683d13761f1f1ec2d0d71c452f",
+    "qwen-F-fwd9": "ccd5e40779dd902d279692e7fedb6cdeb396ac1af7cbc7bf1cc29dfafdbc95f1",
+    "qwen-F-bwd1": "ad283555dfca743a740e54eddf35f53340254fdaee4ec9492e98e30173aff687",
+    "qwen-F-bwd2": "a7718783809b2f51540e985265c78c901415d035cb63bfb37ae14a2d42fb633e",
+    "qwen-F-bwd3": "b2a87adc81ce7fc5afebbd6a9b9c53e8e52fbe2f541335559a3be5c50f0692e2",
+    "qwen-F-bwd4": "76d4b8721b00826db5010347b9bea05e148ac6afad9ca8228b64e7830c3ec1a4",
+    "qwen-F-bwd5": "6d715b0f52ab5fb1528167fe121ab2028af51cb49f61f677bc2183374e6eaebd",
+    "qwen-F-bwd6": "cbde78d811ddf6b857e6e69adbf92d56d08b1775e7bbc2b892155e0416c796b7",
+    "qwen-F-bwd7": "1604cebfbedc4272d23c84aeef7d46f920a13f7bcde26a19feb88ed6e9144f4e",
+    "qwen-F-bwd8": "14c9ece2316f21d7043e517a9d3bb73304ccba69946b2714fb79f3139577df66",
+    "qwen-F-bwd9": "643d838743ee16a335729ac44d682004cf9727eae18502fdd1538f1661b23c36",
+    "qwen-F-mid": "de7a28505396d73da64580af334e3bfd48b7d0bddc4d2aeb17573c81fa77f120",
+    "mistral-G-fwd1": "62d794e7c7a631ecaf2dbf1f9b7720e7615627736eadccc4214e6218604f49ec",
+    "mistral-G-fwd2": "baf901bbc2a3e83bc0d910c7cfc65fe2123d9cab9d83d001545291b094370dc8",
+    "mistral-G-fwd3": "15ccf927e7d29a9d05bb8eb1db7412fe475fe1e54da431b8769a789dfe695fc8",
+    "mistral-G-fwd4": "abe182d71849ad6a3ca89c69b52bf1a4e429e1d3d7708a59cb96983705fdbda1",
+    "mistral-G-fwd5": "1d8f2a15e627bed1e42f8ec0e4889795eb9b63ff9a523e4647436d09c36ff5f6",
+    "mistral-G-fwd6": "9eedb76ba44c98bc18063aaf2f85cee054f5531cc13f6f8faf3dea29f2d7ef81",
+    "mistral-G-fwd7": "34db0cc6368b4cf723443b5cefd03d2dd726d79477f93322898298a2d4a40fcf",
+    "mistral-G-fwd8": "93eb1ea9a0fd48960f0d5b132012049fbb62897b9904ea4bcfa01d64d693d334",
+    "mistral-G-fwd9": "e299d7d8621ed38794c1885a591468cb2f38ac815c16fa0e304c92d44ffa4696",
+    "mistral-G-bwd1": "7be51dac59628fca6801c50ea3570796e4ce265c7f6a3b46411b07c35df7504b",
+    "mistral-G-bwd2": "99f5cb2a9c81546dd827b7088bb36375be1e4f9519a6e56194f4d243d264e018",
+    "mistral-G-bwd3": "4846c277a3bb22a1516080efb346880b144d4364542c6cdadd0e9fd2c83b998c",
+    "mistral-G-bwd4": "2fab5594be3571eeaf11b3feddb3ad086906618bc28f4e3e432616abadae7624",
+    "mistral-G-bwd5": "5b8a632870eb9eab3f4861c005106f47cc255772e4eb4232f67803473a227f5e",
+    "mistral-G-bwd6": "58a559ebc4bf4a2a536de45f8639fb901c7649eaf3ac39355f69d5c3f27f31f7",
+    "mistral-G-bwd7": "36a8d7153dcfa8e812371943eba6ee6867f51512a73ab7421e2cb7476182e496",
+    "mistral-G-bwd8": "8bfb9615ff8b33faf8901106486b7ca307568aee81bc5592e42d037531e10a06",
+    "mistral-G-bwd9": "8f10598a31968aa77bad83e7920d8294318d5e2af607fcd63db7b79ce5cb815e",
+    "mistral-G-mid": "8ef1ef6e8cd085d4677f56334f8f11bfa0eed88b31d0a740ada577d0cca66cef",
+    "mistral-F-fwd1": "9700aa42b7aa8d6f00067cf73f44d477e04699a50bab95691c62f93d315aedc5",
+    "mistral-F-fwd2": "5de3af8b7b83309bf57e3372af5434fbf2ed7c9501ed26af79427e7ec98f5623",
+    "mistral-F-fwd3": "882af6ebf2e2e8f8501490e2e10023ef514419bf2f1be752f846cfedc2772bc9",
+    "mistral-F-fwd4": "faf653341138cd3fd023d9dad2941593d5265a9a23f94a8d2a670b1ec6a30ec8",
+    "mistral-F-fwd5": "8c0e30e91d285d669781a9fc19b4a512638f75a0224d4e1b048edff48bdf186a",
+    "mistral-F-fwd6": "feb02cb1e021874e4d81d75d255b47f8d8312a5b11fe31e84ecc8cf32288f64c",
+    "mistral-F-fwd7": "190cad2c77cd3015c42e5996679358bf613f85df0b605f2cc39d1235a3ea08b2",
+    "mistral-F-fwd8": "57ca46432174c2c0748381215552baf0503632da133343262a9e5766150324dc",
+    "mistral-F-fwd9": "dac5d6cb3f324551e22c231aa77b55c26faa07e77152b95672bb15a0ee6a4ed9",
+    "mistral-F-bwd1": "16ca03c783e93cdf27a764570e1150ed1cbc23ffd4c1080c1c2ca82e08a5b9e5",
+    "mistral-F-bwd2": "f35c844109c662892908dbbe54e344bedcc4c0c161870331e427260fa2efd758",
+    "mistral-F-bwd3": "b3638d25a933a50dff22ee6dc276ba844622bec9c62ce3f0fb7692169d076c91",
+    "mistral-F-bwd4": "497e40194dfb9333c6262e5dd6527a6501be3b79e2f4a21d46893db6aa138a93",
+    "mistral-F-bwd5": "6cd5c862b3b709d94cc427f3e93c0159d4faadca85631cf3a33ab569e422b6e4",
+    "mistral-F-bwd6": "79bd55f021190b53c3e50c811602b59d931f0a7743160245ad067ba9852beda7",
+    "mistral-F-bwd7": "bed73927e9a44db2ee8b216565f740476ddeade4fd70e9cb94b39c10fc03ee53",
+    "mistral-F-bwd8": "7bb1d431c534fbe1f85824e8a1a170a75d34bb26b8237887a6048f8a479118a7",
+    "mistral-F-bwd9": "4ac98c6c9c782a7380fb591eebe932f5112ed18edc243f7da8cfedc01d4ae6b5",
+    "mistral-F-mid": "cad6a3e634c8f7711c6fd1a6fee4ed8507de4e8d224b3cbaedc4b03f4280caee"
+  },
+  "archival_prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03"
+  },
+  "rendered_G": "<s>[INST]Generate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.[/INST]",
+  "g10_history_ids": [
+    1053,
+    1032,
+    1050,
+    1032,
+    1054,
+    1032,
+    1051,
+    1032,
+    1049,
+    1032,
+    1052,
+    1032,
+    1054,
+    1032,
+    1050,
+    1032,
+    1053,
+    1032,
+    1051
+  ],
+  "face_single_tokens": {
+    "1": [
+      1049
+    ],
+    "2": [
+      1050
+    ],
+    "3": [
+      1051
+    ],
+    "4": [
+      1052
+    ],
+    "5": [
+      1053
+    ],
+    "6": [
+      1054
+    ]
+  },
+  "accelerate": "1.15.0",
+  "huggingface_hub": "2.4.0",
+  "code_sha256": {
+    "dice_bidirectional_completion/__init__.py": "05ad6b9fa332253580dcaafc3aef4d48acaa9254b761cff75f50f5c407bcab19",
+    "dice_bidirectional_completion/__main__.py": "85644209191387529f94c3fe1dbed617f0cb7e660e1b0ab6ebf327db2dba756b",
+    "dice_bidirectional_completion/analysis.py": "98f27243b45053a57c3416229a1ec9b2a01ab3671612fda5923b68766d4bf416",
+    "dice_bidirectional_completion/config.py": "c09c646c9a4c43b712ea663928788f1b192d0e04703376c45df2e23908f535b9",
+    "dice_bidirectional_completion/figures.py": "8ae37bfba1306b60618b0780534758525084d3dfc23eb76ba27fa983aba92e50",
+    "dice_bidirectional_completion/gates.py": "5d1def352f0a4eab2a8e89b169fde279c11e37975cab5ac8d686779fd0b33347",
+    "dice_bidirectional_completion/gpu.py": "2b5756ed31a38c19cb4af04f7611899420837167346abd061a45682cf1ad6988",
+    "dice_bidirectional_completion/prompts.py": "73356fe420c1c1e6fd0a6de749f8d2f36987edd01c86d1e7d94e26cf97df0a95",
+    "dice_crossed_guidance/models.py": "e70e6497061475ecae946a28266a7d5ab74b60e3bc5c777fb4bc56c239485c96",
+    "dice_crossed_guidance/config.py": "ac23d8d178d541ce358443479add0615520b8376ed730ca8b348bec5b2a8ce5a",
+    "dice_logprob_crossmodel/gpu.py": "33c1ee66d827ab7b1ab8377ccde29376fe11095dccde39d417598ec97b5ee3ca",
+    "dice_logprob_crossmodel/prompts.py": "6ad7132da08c74ba2de08802f21c70342c104719942fa15647f18784f904e54a",
+    "dice_logprob/prompts.py": "117a7a218f9d1bf3f4e91c30ce80d7ef510c92c60a433ddb41a0b57c792ea143",
+    "dice_logprob/gpu_runner.py": "45da8128297d1fd4d5404ebbf79272a47017d0ba4519b3afcc8718a8e662e0f7"
+  },
+  "code_commit": "201ad2b",
+  "hourly_usd": "1.969",
+  "max_new_tokens": 128,
+  "gate_sha256": "776d59fabe0bfb9f4beab06c5c402dd11f9c2bb58d9b9fb7db79e3f539d2a0cc",
+  "resumed_with": 0,
+  "finished_utc": "2026-10-31T19:24:57.091378+00:00",
+  "generation_seconds": 1653.3,
+  "teacher_forced_seconds": 44.0,
+  "raw_attempts_sha256": "0ae7cd77a72a4c6a99ddb6862f437b928fdfb5006e7792dac3dc1f8d7915c773",
+  "teacher_forced_sha256": "f5376ca420988da50d745b5c2e84cc59b1392b320f390a8176a1581dc5dab64b"
+}

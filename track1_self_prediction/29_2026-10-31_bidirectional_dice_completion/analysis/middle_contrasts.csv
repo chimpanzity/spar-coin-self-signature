@@ -1,0 +1,7 @@
+part,source_instruction,matrix,self_advantage,qwen_self_minus_other,mistral_self_minus_other,row_qwen,row_mistral,col_qwen_source,col_mistral_source
+early_1_2,F,"{""mistral<-mistral"": 1.098, ""mistral<-qwen"": 0.697, ""qwen<-mistral"": 2.3073, ""qwen<-qwen"": 0.9397}",0.4832,-1.3675,0.4011,1.6235,0.8975,0.8184,1.7026
+early_1_2,G,"{""mistral<-mistral"": 0.9953, ""mistral<-qwen"": 1.055, ""qwen<-mistral"": 0.4289, ""qwen<-qwen"": 1.3303}",-0.4208,0.9013,-0.0597,0.8796,1.0252,1.1926,0.7121
+late_9_10,F,"{""mistral<-mistral"": 1.0891, ""mistral<-qwen"": 1.0496, ""qwen<-mistral"": 1.0416, ""qwen<-qwen"": 1.4439}",-0.2209,0.4023,0.0395,1.2427,1.0694,1.2468,1.0654
+late_9_10,G,"{""mistral<-mistral"": 1.2165, ""mistral<-qwen"": 1.4636, ""qwen<-mistral"": 1.1655, ""qwen<-qwen"": 0.4545}",0.4791,-0.711,-0.2471,0.81,1.3401,0.9591,1.191
+all_four,F,"{""mistral<-mistral"": 1.0936, ""mistral<-qwen"": 0.8733, ""qwen<-mistral"": 1.6744, ""qwen<-qwen"": 1.1918}",0.1312,-0.4826,0.2203,1.4331,0.9835,1.0326,1.384
+all_four,G,"{""mistral<-mistral"": 1.1059, ""mistral<-qwen"": 1.2593, ""qwen<-mistral"": 0.7972, ""qwen<-qwen"": 0.8924}",0.0291,0.0952,-0.1534,0.8448,1.1826,1.0758,0.9516

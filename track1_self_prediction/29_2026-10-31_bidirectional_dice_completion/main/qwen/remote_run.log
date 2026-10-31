@@ -1,0 +1,235 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<02:57,  3.98it/s]Loading weights:   1%|▏         | 10/707 [00:00<00:20, 34.62it/s]Loading weights:   2%|▏         | 17/707 [00:00<00:15, 43.26it/s]Loading weights:   4%|▍         | 27/707 [00:00<00:11, 60.70it/s]Loading weights:   5%|▌         | 38/707 [00:00<00:09, 69.09it/s]Loading weights:   7%|▋         | 46/707 [00:00<00:09, 71.02it/s]Loading weights:   8%|▊         | 55/707 [00:00<00:08, 76.44it/s]Loading weights:   9%|▉         | 64/707 [00:01<00:08, 75.03it/s]Loading weights:  10%|█         | 72/707 [00:01<00:09, 68.56it/s]Loading weights:  12%|█▏        | 83/707 [00:01<00:08, 73.27it/s]Loading weights:  13%|█▎        | 93/707 [00:01<00:07, 79.44it/s]Loading weights:  15%|█▍        | 103/707 [00:01<00:07, 82.85it/s]Loading weights:  16%|█▌        | 112/707 [00:01<00:07, 84.03it/s]Loading weights:  17%|█▋        | 121/707 [00:01<00:07, 79.01it/s]Loading weights:  18%|█▊        | 130/707 [00:01<00:07, 76.76it/s]Loading weights:  20%|█▉        | 138/707 [00:02<00:08, 70.28it/s]Loading weights:  21%|██        | 147/707 [00:02<00:07, 73.37it/s]Loading weights:  22%|██▏       | 158/707 [00:02<00:06, 82.05it/s]Loading weights:  24%|██▎       | 167/707 [00:02<00:06, 82.04it/s]Loading weights:  25%|██▍       | 176/707 [00:02<00:06, 78.48it/s]Loading weights:  26%|██▌       | 184/707 [00:02<00:07, 73.22it/s]Loading weights:  27%|██▋       | 192/707 [00:02<00:06, 74.09it/s]Loading weights:  28%|██▊       | 201/707 [00:02<00:06, 77.29it/s]Loading weights:  30%|██▉       | 210/707 [00:02<00:06, 79.80it/s]Loading weights:  31%|███       | 219/707 [00:03<00:06, 76.99it/s]Loading weights:  32%|███▏      | 227/707 [00:03<00:06, 71.64it/s]Loading weights:  33%|███▎      | 236/707 [00:03<00:06, 74.46it/s]Loading weights:  35%|███▍      | 246/707 [00:03<00:05, 81.06it/s]Loading weights:  36%|███▌      | 255/707 [00:03<00:05, 75.46it/s]Loading weights:  38%|███▊      | 268/707 [00:03<00:05, 83.60it/s]Loading weights:  39%|███▉      | 279/707 [00:03<00:05, 84.06it/s]Loading weights:  41%|████      | 288/707 [00:03<00:05, 82.75it/s]Loading weights:  42%|████▏     | 297/707 [00:04<00:05, 78.46it/s]Loading weights:  43%|████▎     | 305/707 [00:04<00:05, 72.98it/s]Loading weights:  44%|████▍     | 313/707 [00:04<00:05, 66.82it/s]Loading weights:  46%|████▌     | 324/707 [00:04<00:05, 75.02it/s]Loading weights:  47%|████▋     | 334/707 [00:04<00:04, 80.80it/s]Loading weights:  49%|████▊     | 343/707 [00:04<00:04, 82.66it/s]Loading weights:  50%|████▉     | 352/707 [00:04<00:04, 76.35it/s]Loading weights:  51%|█████     | 360/707 [00:04<00:04, 74.31it/s]Loading weights:  52%|█████▏    | 368/707 [00:04<00:04, 74.73it/s]Loading weights:  53%|█████▎    | 378/707 [00:05<00:04, 79.42it/s]Loading weights:  55%|█████▌    | 389/707 [00:05<00:04, 72.56it/s]Loading weights:  56%|█████▋    | 399/707 [00:05<00:03, 78.30it/s]Loading weights:  58%|█████▊    | 408/707 [00:05<00:03, 79.65it/s]Loading weights:  59%|█████▉    | 417/707 [00:05<00:03, 77.21it/s]Loading weights:  60%|██████    | 425/707 [00:05<00:03, 74.87it/s]Loading weights:  61%|██████    | 433/707 [00:05<00:03, 75.60it/s]Loading weights:  63%|██████▎   | 445/707 [00:05<00:03, 86.78it/s]Loading weights:  64%|██████▍   | 455/707 [00:06<00:02, 85.37it/s]Loading weights:  66%|██████▌   | 466/707 [00:06<00:02, 91.77it/s]Loading weights:  67%|██████▋   | 476/707 [00:06<00:02, 84.61it/s]Loading weights:  69%|██████▊   | 485/707 [00:06<00:02, 85.78it/s]Loading weights:  70%|██████▉   | 494/707 [00:06<00:02, 80.00it/s]Loading weights:  71%|███████   | 503/707 [00:06<00:02, 74.48it/s]Loading weights:  72%|███████▏  | 512/707 [00:06<00:02, 72.28it/s]Loading weights:  74%|███████▍  | 522/707 [00:06<00:02, 77.96it/s]Loading weights:  75%|███████▌  | 533/707 [00:07<00:02, 79.40it/s]Loading weights:  77%|███████▋  | 543/707 [00:07<00:01, 82.27it/s]Loading weights:  78%|███████▊  | 552/707 [00:07<00:01, 81.51it/s]Loading weights:  79%|███████▉  | 561/707 [00:07<00:01, 75.29it/s]Loading weights:  80%|████████  | 569/707 [00:07<00:01, 74.70it/s]Loading weights:  82%|████████▏ | 577/707 [00:07<00:01, 74.55it/s]Loading weights:  83%|████████▎ | 587/707 [00:07<00:01, 79.91it/s]Loading weights:  84%|████████▍ | 596/707 [00:07<00:01, 80.50it/s]Loading weights:  86%|████████▌ | 605/707 [00:07<00:01, 76.51it/s]Loading weights:  87%|████████▋ | 613/707 [00:08<00:01, 73.61it/s]Loading weights:  88%|████████▊ | 622/707 [00:08<00:01, 70.02it/s]Loading weights:  89%|████████▉ | 632/707 [00:08<00:01, 69.40it/s]Loading weights:  91%|█████████ | 643/707 [00:08<00:00, 79.10it/s]Loading weights:  92%|█████████▏| 653/707 [00:08<00:00, 83.40it/s]Loading weights:  94%|█████████▎| 662/707 [00:08<00:00, 82.92it/s]Loading weights:  95%|█████████▍| 671/707 [00:08<00:00, 77.22it/s]Loading weights:  96%|█████████▌| 679/707 [00:08<00:00, 70.67it/s]Loading weights:  97%|█████████▋| 687/707 [00:09<00:00, 71.38it/s]Loading weights:  99%|█████████▊| 697/707 [00:09<00:00, 68.66it/s]Loading weights: 100%|██████████| 707/707 [00:09<00:00, 75.92it/s]
+loaded qwen in 15.7 s
+[1/232] qwen<-mistral-F-bwd7-2: '5 3 4' (stop) | 1.71 s/call, eta 6.6 min
+[2/232] qwen<-mistral-G-fwd2-1: '5 1 3 6 2 4 6 3' (stop) | 2.32 s/call, eta 8.9 min
+[3/232] qwen<-qwen-G-bwd7-1: '5 4 2' (stop) | 1.96 s/call, eta 7.5 min
+[4/232] qwen<-mistral-G-bwd9-2: '4' (stop) | 1.60 s/call, eta 6.1 min
+[5/232] qwen<-qwen-G-bwd3-3: '4 6 1 3 5 2 4' (stop) | 1.79 s/call, eta 6.8 min
+[6/232] qwen<-mistral-F-fwd5-3: '4 2 5 1 3' (stop) | 1.81 s/call, eta 6.8 min
+[7/232] qwen<-mistral-F-bwd3-3: '4 3 6 2 1 3 5' (stop) | 1.92 s/call, eta 7.2 min
+[8/232] qwen<-mistral-G-bwd1-3: '4 2 6 3 5 1 2 6 3' (stop) | 2.09 s/call, eta 7.8 min
+[9/232] qwen<-qwen-G-bwd2-2: '4 2 6 1 3 5 2 6' (stop) | 2.18 s/call, eta 8.1 min
+[10/232] qwen<-qwen-G-fwd9-1: '6' (stop) | 2.01 s/call, eta 7.5 min
+[11/232] qwen<-qwen-F-bwd6-1: '4 1 3 2' (stop) | 1.97 s/call, eta 7.3 min
+[12/232] qwen<-mistral-G-bwd2-1: '4 2 5 3 1 6 2 3' (stop) | 2.05 s/call, eta 7.5 min
+[13/232] qwen<-mistral-F-fwd3-3: '4 2 6 3 1 5 2' (stop) | 2.09 s/call, eta 7.6 min
+[14/232] qwen<-qwen-F-bwd8-1: '3 1' (stop) | 2.00 s/call, eta 7.3 min
+[15/232] qwen<-qwen-F-fwd3-2: '5 2 6 4 1 3 2' (stop) | 2.04 s/call, eta 7.4 min
+[16/232] qwen<-mistral-G-fwd8-2: '5 1' (stop) | 1.97 s/call, eta 7.1 min
+[17/232] qwen<-mistral-F-bwd6-3: '5 2 6' (stop) | 1.92 s/call, eta 6.9 min
+[18/232] qwen<-qwen-G-fwd4-1: '4 1 2 5 3 6' (stop) | 1.94 s/call, eta 6.9 min
+[19/232] qwen<-mistral-G-bwd5-2: '4 3 2 5 6' (stop) | 1.94 s/call, eta 6.9 min
+[20/232] qwen<-qwen-F-fwd3-1: '5 2 6 4 1 3 2' (stop) | 1.90 s/call, eta 6.7 min
+[21/232] qwen<-mistral-G-mid-1: '4 2 1 6' (stop) | 1.88 s/call, eta 6.6 min
+[22/232] qwen<-mistral-F-bwd1-3: '5 3 6 1 4 2 6 3 1' (stop) | 1.95 s/call, eta 6.8 min
+[23/232] qwen<-mistral-G-fwd4-2: '3 5 2 4 1 6' (stop) | 1.96 s/call, eta 6.8 min
+[24/232] qwen<-qwen-G-bwd9-3: '4' (stop) | 1.90 s/call, eta 6.6 min
+[25/232] qwen<-mistral-F-fwd3-2: '4 2 6 3 1 5 2' (stop) | 1.87 s/call, eta 6.5 min
+[26/232] qwen<-qwen-F-bwd2-2: '5 3 2 6 1 4 2 6' (stop) | 1.91 s/call, eta 6.6 min
+[27/232] qwen<-mistral-G-bwd4-2: '4 5 3 2 1 3' (stop) | 1.92 s/call, eta 6.6 min
+[28/232] qwen<-mistral-F-bwd5-3: '5 2 6 4 3' (stop) | 1.92 s/call, eta 6.5 min
+[29/232] qwen<-mistral-G-bwd8-3: '4 6' (stop) | 1.89 s/call, eta 6.4 min
+[30/232] qwen<-mistral-G-bwd7-1: '4 2 5' (stop) | 1.86 s/call, eta 6.3 min
+[31/232] qwen<-mistral-F-bwd2-3: '4 3 6 1 2 5 3 6' (stop) | 1.90 s/call, eta 6.4 min
+[32/232] qwen<-mistral-F-bwd8-3: '3 5' (stop) | 1.87 s/call, eta 6.2 min
+[33/232] qwen<-mistral-G-fwd9-3: '5' (stop) | 1.82 s/call, eta 6.0 min
+[34/232] qwen<-mistral-G-bwd8-2: '4 6' (stop) | 1.78 s/call, eta 5.9 min
+[35/232] qwen<-mistral-G-fwd2-2: '5 1 3 6 2 4 6 3' (stop) | 1.77 s/call, eta 5.8 min
+[36/232] qwen<-qwen-F-bwd3-2: '5 3 1 4 2 5 3' (stop) | 1.79 s/call, eta 5.9 min
+[37/232] qwen<-qwen-G-bwd8-1: '4 6' (stop) | 1.77 s/call, eta 5.7 min
+[38/232] qwen<-mistral-G-bwd9-3: '4' (stop) | 1.73 s/call, eta 5.6 min
+[39/232] qwen<-qwen-G-fwd7-3: '4 2 1' (stop) | 1.71 s/call, eta 5.5 min
+[40/232] qwen<-qwen-F-bwd2-3: '5 3 2 6 1 4 2 6' (stop) | 1.71 s/call, eta 5.5 min
+[41/232] qwen<-mistral-G-fwd1-2: '5 2 6 3 1 4 2 6 3' (stop) | 1.75 s/call, eta 5.6 min
+[42/232] qwen<-mistral-F-fwd6-3: '4 2 5 1' (stop) | 1.74 s/call, eta 5.5 min
+[43/232] qwen<-qwen-G-fwd5-2: '4 2 5 6 3' (stop) | 1.74 s/call, eta 5.5 min
+[44/232] qwen<-mistral-G-bwd3-2: '5 3 2 1 4 3 2' (stop) | 1.76 s/call, eta 5.5 min
+[45/232] qwen<-qwen-F-mid-2: '5 3 1 4' (stop) | 1.76 s/call, eta 5.5 min
+[46/232] qwen<-qwen-G-bwd7-2: '5 4 2' (stop) | 1.73 s/call, eta 5.4 min
+[47/232] qwen<-mistral-F-fwd3-1: '4 2 6 3 1 5 2' (stop) | 1.72 s/call, eta 5.3 min
+[48/232] qwen<-qwen-G-fwd7-1: '4 2 1' (stop) | 1.70 s/call, eta 5.2 min
+[49/232] qwen<-qwen-F-bwd9-1: '3' (stop) | 1.67 s/call, eta 5.1 min
+[50/232] qwen<-qwen-G-fwd9-3: '6' (stop) | 1.64 s/call, eta 5.0 min
+[51/232] qwen<-qwen-G-bwd4-2: '4 1 3 6 2 5' (stop) | 1.66 s/call, eta 5.0 min
+[52/232] qwen<-mistral-G-bwd7-2: '4 2 5' (stop) | 1.63 s/call, eta 4.9 min
+[53/232] qwen<-qwen-F-bwd7-3: '5 1 3' (stop) | 1.63 s/call, eta 4.9 min
+[54/232] qwen<-mistral-F-fwd8-3: '5 2' (stop) | 1.61 s/call, eta 4.8 min
+[55/232] qwen<-mistral-G-mid-2: '4 2 1 6' (stop) | 1.60 s/call, eta 4.7 min
+[56/232] qwen<-mistral-F-fwd8-2: '5 2' (stop) | 1.57 s/call, eta 4.6 min
+[57/232] qwen<-qwen-G-bwd5-2: '5 1 3 4 2' (stop) | 1.58 s/call, eta 4.6 min
+[58/232] qwen<-mistral-G-fwd6-1: '5 3 1 6' (stop) | 1.58 s/call, eta 4.6 min
+[59/232] qwen<-mistral-F-fwd1-2: '4 2 6 1 5 3 2 6 1' (stop) | 1.61 s/call, eta 4.6 min
+[60/232] qwen<-qwen-F-bwd5-3: '4 1 2 5 3' (stop) | 1.61 s/call, eta 4.6 min
+[61/232] qwen<-mistral-F-fwd4-3: '4 6 2 5 1 3' (stop) | 1.62 s/call, eta 4.6 min
+[62/232] F-1: '3 1 4 6 2 5 3 2 6 4' (stop) | 1.65 s/call, eta 4.7 min
+[63/232] qwen<-mistral-F-bwd3-1: '4 3 6 2 1 3 5' (stop) | 1.65 s/call, eta 4.6 min
+[64/232] qwen<-mistral-F-bwd1-2: '5 3 6 1 4 2 6 3 1' (stop) | 1.65 s/call, eta 4.6 min
+[65/232] qwen<-qwen-G-bwd6-3: '4 2 3 1' (stop) | 1.65 s/call, eta 4.6 min
+[66/232] qwen<-mistral-G-fwd7-1: '3 1 6' (stop) | 1.64 s/call, eta 4.5 min
+[67/232] qwen<-qwen-F-bwd8-2: '3 1' (stop) | 1.62 s/call, eta 4.5 min
+[68/232] qwen<-mistral-F-fwd9-2: '2' (stop) | 1.60 s/call, eta 4.4 min
+[69/232] qwen<-qwen-G-fwd5-3: '4 2 5 6 3' (stop) | 1.59 s/call, eta 4.3 min
+[70/232] qwen<-qwen-G-fwd6-1: '4 1 6 2' (stop) | 1.59 s/call, eta 4.3 min
+[71/232] qwen<-qwen-F-fwd7-1: '4 2 1' (stop) | 1.59 s/call, eta 4.3 min
+[72/232] qwen<-mistral-G-fwd6-3: '5 3 1 6' (stop) | 1.57 s/call, eta 4.2 min
+[73/232] qwen<-mistral-G-fwd7-3: '3 1 6' (stop) | 1.56 s/call, eta 4.1 min
+[74/232] qwen<-qwen-G-mid-2: '4 5 5 3' (stop) | 1.56 s/call, eta 4.1 min
+[75/232] qwen<-qwen-G-bwd8-3: '4 6' (stop) | 1.54 s/call, eta 4.0 min
+[76/232] qwen<-qwen-G-bwd1-3: '5 2 6 1 3 4 2 6 1' (stop) | 1.57 s/call, eta 4.1 min
+[77/232] qwen<-qwen-F-fwd1-2: '4 2 6 1 5 3 2 6 1' (stop) | 1.59 s/call, eta 4.1 min
+[78/232] qwen<-qwen-G-mid-1: '4 5 5 3' (stop) | 1.58 s/call, eta 4.0 min
+[79/232] qwen<-qwen-F-fwd4-2: '5 2 1 3 6 4' (stop) | 1.59 s/call, eta 4.0 min
+[80/232] qwen<-mistral-G-bwd1-2: '4 2 6 3 5 1 2 6 3' (stop) | 1.59 s/call, eta 4.0 min
+[81/232] qwen<-qwen-F-fwd5-2: '5 3 1 4 2' (stop) | 1.59 s/call, eta 4.0 min
+[82/232] qwen<-qwen-G-fwd1-2: '4 2 6 3 1 5 2 6 3' (stop) | 1.61 s/call, eta 4.0 min
+[83/232] qwen<-mistral-F-bwd2-1: '4 3 6 1 2 5 3 6' (stop) | 1.61 s/call, eta 4.0 min
+[84/232] qwen<-mistral-F-bwd9-1: '4' (stop) | 1.60 s/call, eta 3.9 min
+[85/232] qwen<-qwen-G-bwd7-3: '5 4 2' (stop) | 1.58 s/call, eta 3.9 min
+[86/232] qwen<-mistral-F-bwd3-2: '4 3 6 2 1 3 5' (stop) | 1.58 s/call, eta 3.8 min
+[87/232] qwen<-mistral-G-bwd7-3: '4 2 5' (stop) | 1.57 s/call, eta 3.8 min
+[88/232] qwen<-qwen-F-bwd5-2: '4 1 2 5 3' (stop) | 1.56 s/call, eta 3.7 min
+[89/232] qwen<-qwen-F-fwd5-3: '5 3 1 4 2' (stop) | 1.55 s/call, eta 3.7 min
+[90/232] qwen<-mistral-F-bwd4-2: '4 2 6 1 3 5' (stop) | 1.56 s/call, eta 3.7 min
+[91/232] qwen<-qwen-F-fwd4-3: '5 2 1 3 6 4' (stop) | 1.55 s/call, eta 3.7 min
+[92/232] qwen<-qwen-G-mid-3: '4 5 5 3' (stop) | 1.55 s/call, eta 3.6 min
+[93/232] qwen<-mistral-G-fwd9-1: '5' (stop) | 1.53 s/call, eta 3.5 min
+[94/232] qwen<-mistral-G-fwd5-1: '5 2 4 6 1' (stop) | 1.53 s/call, eta 3.5 min
+[95/232] qwen<-mistral-F-bwd4-1: '4 2 6 1 3 5' (stop) | 1.53 s/call, eta 3.5 min
+[96/232] qwen<-qwen-G-bwd3-1: '4 6 1 3 5 2 4' (stop) | 1.53 s/call, eta 3.5 min
+[97/232] qwen<-mistral-F-fwd7-2: '4 2 1' (stop) | 1.52 s/call, eta 3.4 min
+[98/232] qwen<-mistral-G-fwd4-3: '3 5 2 4 1 6' (stop) | 1.52 s/call, eta 3.4 min
+[99/232] qwen<-qwen-F-fwd7-3: '4 2 1' (stop) | 1.51 s/call, eta 3.3 min
+[100/232] qwen<-qwen-G-fwd6-3: '4 1 6 2' (stop) | 1.50 s/call, eta 3.3 min
+[101/232] qwen<-mistral-F-fwd2-1: '4 2 6 5 3 1 2 6' (stop) | 1.51 s/call, eta 3.3 min
+[102/232] qwen<-qwen-F-bwd1-2: '5 2 3 1 6 4 2 6 3' (stop) | 1.53 s/call, eta 3.3 min
+[103/232] qwen<-mistral-F-fwd6-1: '4 2 5 1' (stop) | 1.52 s/call, eta 3.3 min
+[104/232] qwen<-mistral-F-fwd2-2: '4 2 6 5 3 1 2 6' (stop) | 1.52 s/call, eta 3.2 min
+[105/232] qwen<-qwen-F-fwd7-2: '4 2 1' (stop) | 1.51 s/call, eta 3.2 min
+[106/232] qwen<-qwen-G-fwd3-1: '4 3 1 6 2 5 3' (stop) | 1.52 s/call, eta 3.2 min
+[107/232] qwen<-qwen-F-fwd9-2: '4' (stop) | 1.51 s/call, eta 3.2 min
+[108/232] qwen<-mistral-F-fwd4-1: '4 6 2 5 1 3' (stop) | 1.51 s/call, eta 3.1 min
+[109/232] qwen<-mistral-G-fwd5-2: '5 2 4 6 1' (stop) | 1.50 s/call, eta 3.1 min
+[110/232] qwen<-qwen-G-fwd6-2: '4 1 6 2' (stop) | 1.50 s/call, eta 3.0 min
+[111/232] qwen<-qwen-G-fwd1-1: '4 2 6 3 1 5 2 6 3' (stop) | 1.50 s/call, eta 3.0 min
+[112/232] qwen<-qwen-F-mid-1: '5 3 1 4' (stop) | 1.49 s/call, eta 3.0 min
+[113/232] qwen<-qwen-F-bwd3-1: '5 3 1 4 2 5 3' (stop) | 1.49 s/call, eta 3.0 min
+[114/232] qwen<-qwen-F-fwd2-2: '4 2 6 5 3 1 2 6' (stop) | 1.50 s/call, eta 3.0 min
+[115/232] qwen<-qwen-F-bwd7-2: '5 1 3' (stop) | 1.49 s/call, eta 2.9 min
+[116/232] qwen<-qwen-F-fwd2-3: '4 2 6 5 3 1 2 6' (stop) | 1.49 s/call, eta 2.9 min
+[117/232] qwen<-mistral-G-fwd8-1: '5 1' (stop) | 1.48 s/call, eta 2.8 min
+[118/232] qwen<-qwen-G-fwd4-2: '4 1 2 5 3 6' (stop) | 1.48 s/call, eta 2.8 min
+[119/232] qwen<-mistral-F-fwd7-1: '4 2 1' (stop) | 1.47 s/call, eta 2.8 min
+[120/232] qwen<-mistral-F-bwd7-3: '5 3 4' (stop) | 1.46 s/call, eta 2.7 min
+[121/232] qwen<-qwen-G-fwd5-1: '4 2 5 6 3' (stop) | 1.46 s/call, eta 2.7 min
+[122/232] qwen<-mistral-G-bwd5-1: '4 3 2 5 6' (stop) | 1.45 s/call, eta 2.7 min
+[123/232] qwen<-mistral-G-bwd4-1: '4 5 3 2 1 3' (stop) | 1.45 s/call, eta 2.6 min
+[124/232] qwen<-qwen-F-fwd3-3: '5 2 6 4 1 3 2' (stop) | 1.45 s/call, eta 2.6 min
+[125/232] qwen<-qwen-F-bwd4-1: '5 1 4 3 2 6' (stop) | 1.46 s/call, eta 2.6 min
+[126/232] qwen<-mistral-G-bwd9-1: '4' (stop) | 1.45 s/call, eta 2.6 min
+[127/232] qwen<-qwen-G-fwd8-1: '4 1' (stop) | 1.44 s/call, eta 2.5 min
+[128/232] qwen<-qwen-F-bwd2-1: '5 3 2 6 1 4 2 6' (stop) | 1.44 s/call, eta 2.5 min
+[129/232] qwen<-qwen-F-bwd4-2: '5 1 4 3 2 6' (stop) | 1.44 s/call, eta 2.5 min
+[130/232] qwen<-qwen-G-fwd2-2: '4 3 6 1 2 5 6 3' (stop) | 1.45 s/call, eta 2.5 min
+[131/232] qwen<-qwen-G-bwd5-1: '5 1 3 4 2' (stop) | 1.45 s/call, eta 2.4 min
+[132/232] qwen<-qwen-F-bwd8-3: '3 1' (stop) | 1.44 s/call, eta 2.4 min
+[133/232] qwen<-mistral-G-bwd4-3: '4 5 3 2 1 3' (stop) | 1.43 s/call, eta 2.4 min
+[134/232] qwen<-mistral-G-bwd1-1: '4 2 6 3 5 1 2 6 3' (stop) | 1.44 s/call, eta 2.3 min
+[135/232] qwen<-qwen-F-bwd1-1: '5 2 3 1 6 4 2 6 3' (stop) | 1.44 s/call, eta 2.3 min
+[136/232] qwen<-mistral-F-mid-3: '4 3 2 5' (stop) | 1.44 s/call, eta 2.3 min
+[137/232] F-2: '3 1 4 6 2 5 3 2 6 4' (stop) | 1.44 s/call, eta 2.3 min
+[138/232] qwen<-qwen-F-fwd8-1: '4 1' (stop) | 1.43 s/call, eta 2.2 min
+[139/232] qwen<-qwen-F-fwd6-2: '4 2 6 1' (stop) | 1.44 s/call, eta 2.2 min
+[140/232] qwen<-qwen-F-fwd2-1: '4 2 6 5 3 1 2 6' (stop) | 1.44 s/call, eta 2.2 min
+[141/232] qwen<-mistral-F-fwd7-3: '4 2 1' (stop) | 1.43 s/call, eta 2.2 min
+[142/232] qwen<-qwen-G-bwd1-1: '5 2 6 1 3 4 2 6 1' (stop) | 1.43 s/call, eta 2.1 min
+[143/232] qwen<-mistral-F-fwd2-3: '4 2 6 5 3 1 2 6' (stop) | 1.43 s/call, eta 2.1 min
+[144/232] qwen<-mistral-F-fwd5-1: '4 2 5 1 3' (stop) | 1.43 s/call, eta 2.1 min
+[145/232] qwen<-qwen-F-bwd7-1: '5 1 3' (stop) | 1.42 s/call, eta 2.1 min
+[146/232] qwen<-mistral-G-bwd2-3: '4 2 5 3 1 6 2 3' (stop) | 1.42 s/call, eta 2.0 min
+[147/232] qwen<-mistral-F-bwd9-3: '4' (stop) | 1.41 s/call, eta 2.0 min
+[148/232] qwen<-qwen-F-fwd5-1: '5 3 1 4 2' (stop) | 1.41 s/call, eta 2.0 min
+[149/232] qwen<-qwen-G-bwd4-3: '4 1 3 6 2 5' (stop) | 1.41 s/call, eta 1.9 min
+[150/232] qwen<-qwen-G-fwd2-3: '4 3 6 1 2 5 6 3' (stop) | 1.41 s/call, eta 1.9 min
+[151/232] qwen<-mistral-G-fwd6-2: '5 3 1 6' (stop) | 1.40 s/call, eta 1.9 min
+[152/232] qwen<-qwen-G-bwd9-1: '4' (stop) | 1.39 s/call, eta 1.9 min
+[153/232] qwen<-qwen-G-bwd5-3: '5 1 3 4 2' (stop) | 1.39 s/call, eta 1.8 min
+[154/232] qwen<-mistral-G-fwd1-1: '5 2 6 3 1 4 2 6 3' (stop) | 1.39 s/call, eta 1.8 min
+[155/232] qwen<-mistral-G-fwd2-3: '5 1 3 6 2 4 6 3' (stop) | 1.39 s/call, eta 1.8 min
+[156/232] qwen<-qwen-G-bwd8-2: '4 6' (stop) | 1.39 s/call, eta 1.8 min
+[157/232] qwen<-mistral-G-fwd1-3: '5 2 6 3 1 4 2 6 3' (stop) | 1.39 s/call, eta 1.7 min
+[158/232] qwen<-mistral-G-bwd3-1: '5 3 2 1 4 3 2' (stop) | 1.39 s/call, eta 1.7 min
+[159/232] qwen<-mistral-G-bwd6-1: '4 2 6 3' (stop) | 1.39 s/call, eta 1.7 min
+[160/232] qwen<-mistral-G-fwd7-2: '3 1 6' (stop) | 1.38 s/call, eta 1.7 min
+[161/232] qwen<-qwen-G-bwd3-2: '4 6 1 3 5 2 4' (stop) | 1.38 s/call, eta 1.6 min
+[162/232] qwen<-mistral-F-mid-1: '4 3 2 5' (stop) | 1.38 s/call, eta 1.6 min
+[163/232] qwen<-mistral-F-bwd1-1: '5 3 6 1 4 2 6 3 1' (stop) | 1.38 s/call, eta 1.6 min
+[164/232] qwen<-mistral-G-bwd6-3: '4 2 6 3' (stop) | 1.37 s/call, eta 1.6 min
+[165/232] qwen<-mistral-G-bwd2-2: '4 2 5 3 1 6 2 3' (stop) | 1.37 s/call, eta 1.5 min
+[166/232] qwen<-mistral-F-bwd2-2: '4 3 6 1 2 5 3 6' (stop) | 1.37 s/call, eta 1.5 min
+[167/232] qwen<-mistral-G-mid-3: '4 2 1 6' (stop) | 1.37 s/call, eta 1.5 min
+[168/232] qwen<-mistral-G-fwd8-3: '5 1' (stop) | 1.36 s/call, eta 1.5 min
+[169/232] qwen<-mistral-F-bwd6-2: '5 2 6' (stop) | 1.36 s/call, eta 1.4 min
+[170/232] qwen<-qwen-F-bwd3-3: '5 3 1 4 2 5 3' (stop) | 1.36 s/call, eta 1.4 min
+[171/232] qwen<-mistral-F-fwd9-1: '2' (stop) | 1.35 s/call, eta 1.4 min
+[172/232] qwen<-mistral-F-fwd4-2: '4 6 2 5 1 3' (stop) | 1.35 s/call, eta 1.4 min
+[173/232] qwen<-mistral-G-fwd4-1: '3 5 2 4 1 6' (stop) | 1.35 s/call, eta 1.3 min
+[174/232] qwen<-mistral-F-fwd9-3: '2' (stop) | 1.34 s/call, eta 1.3 min
+[175/232] qwen<-mistral-G-fwd3-1: '3 5 1 4 2 6 5' (stop) | 1.35 s/call, eta 1.3 min
+[176/232] qwen<-mistral-F-bwd8-1: '3 5' (stop) | 1.34 s/call, eta 1.3 min
+[177/232] qwen<-qwen-F-fwd9-1: '4' (stop) | 1.34 s/call, eta 1.2 min
+[178/232] qwen<-mistral-F-fwd6-2: '4 2 5 1' (stop) | 1.33 s/call, eta 1.2 min
+[179/232] qwen<-qwen-F-bwd9-2: '3' (stop) | 1.33 s/call, eta 1.2 min
+[180/232] qwen<-mistral-F-bwd6-1: '5 2 6' (stop) | 1.32 s/call, eta 1.1 min
+[181/232] qwen<-mistral-F-bwd9-2: '4' (stop) | 1.32 s/call, eta 1.1 min
+[182/232] qwen<-mistral-G-bwd3-3: '5 3 2 1 4 3 2' (stop) | 1.32 s/call, eta 1.1 min
+[183/232] qwen<-mistral-F-bwd8-2: '3 5' (stop) | 1.31 s/call, eta 1.1 min
+[184/232] qwen<-mistral-G-fwd5-3: '5 2 4 6 1' (stop) | 1.31 s/call, eta 1.0 min
+[185/232] qwen<-qwen-F-bwd6-2: '4 1 3 2' (stop) | 1.31 s/call, eta 1.0 min
+[186/232] qwen<-qwen-F-mid-3: '5 3 1 4' (stop) | 1.30 s/call, eta 1.0 min
+[187/232] qwen<-mistral-F-fwd8-1: '5 2' (stop) | 1.30 s/call, eta 1.0 min
+[188/232] qwen<-qwen-F-fwd9-3: '4' (stop) | 1.29 s/call, eta 0.9 min
+[189/232] qwen<-qwen-F-fwd6-1: '4 2 6 1' (stop) | 1.29 s/call, eta 0.9 min
+[190/232] qwen<-qwen-F-bwd6-3: '4 1 3 2' (stop) | 1.29 s/call, eta 0.9 min
+[191/232] qwen<-qwen-F-fwd1-1: '4 2 6 1 5 3 2 6 1' (stop) | 1.29 s/call, eta 0.9 min
+[192/232] qwen<-qwen-G-bwd4-1: '4 1 3 6 2 5' (stop) | 1.29 s/call, eta 0.9 min
+[193/232] qwen<-qwen-G-fwd2-1: '4 3 6 1 2 5 6 3' (stop) | 1.29 s/call, eta 0.8 min
+[194/232] qwen<-qwen-F-fwd8-2: '4 1' (stop) | 1.28 s/call, eta 0.8 min
+[195/232] qwen<-qwen-F-fwd6-3: '4 2 6 1' (stop) | 1.28 s/call, eta 0.8 min
+[196/232] qwen<-qwen-G-bwd6-1: '4 2 3 1' (stop) | 1.28 s/call, eta 0.8 min
+[197/232] qwen<-qwen-F-fwd1-3: '4 2 6 1 5 3 2 6 1' (stop) | 1.28 s/call, eta 0.7 min
+[198/232] qwen<-mistral-F-bwd7-1: '5 3 4' (stop) | 1.27 s/call, eta 0.7 min
+[199/232] qwen<-mistral-G-bwd6-2: '4 2 6 3' (stop) | 1.27 s/call, eta 0.7 min
+[200/232] qwen<-qwen-G-fwd8-3: '4 1' (stop) | 1.27 s/call, eta 0.7 min
+[201/232] qwen<-mistral-F-fwd1-1: '4 2 6 1 5 3 2 6 1' (stop) | 1.27 s/call, eta 0.7 min
+[202/232] qwen<-qwen-G-bwd6-2: '4 2 3 1' (stop) | 1.27 s/call, eta 0.6 min
+[203/232] G-2: '5 2 6 3 1 4 6 2 5 3' (stop) | 1.28 s/call, eta 0.6 min
+[204/232] qwen<-mistral-G-fwd3-3: '3 5 1 4 2 6 5' (stop) | 1.28 s/call, eta 0.6 min
+[205/232] qwen<-qwen-G-fwd8-2: '4 1' (stop) | 1.27 s/call, eta 0.6 min
+[206/232] qwen<-qwen-F-bwd4-3: '5 1 4 3 2 6' (stop) | 1.27 s/call, eta 0.6 min
+[207/232] qwen<-mistral-F-bwd5-2: '5 2 6 4 3' (stop) | 1.27 s/call, eta 0.5 min
+[208/232] qwen<-qwen-G-fwd1-3: '4 2 6 3 1 5 2 6 3' (stop) | 1.27 s/call, eta 0.5 min
+[209/232] qwen<-qwen-F-bwd1-3: '5 2 3 1 6 4 2 6 3' (stop) | 1.27 s/call, eta 0.5 min
+[210/232] G-1: '5 2 6 3 1 4 6 2 5 3' (stop) | 1.27 s/call, eta 0.5 min
+[211/232] qwen<-mistral-G-bwd5-3: '4 3 2 5 6' (stop) | 1.27 s/call, eta 0.4 min
+[212/232] qwen<-qwen-G-bwd2-1: '4 2 6 1 3 5 2 6' (stop) | 1.27 s/call, eta 0.4 min
+[213/232] qwen<-mistral-F-mid-2: '4 3 2 5' (stop) | 1.27 s/call, eta 0.4 min
+[214/232] qwen<-mistral-G-fwd3-2: '3 5 1 4 2 6 5' (stop) | 1.27 s/call, eta 0.4 min
+[215/232] qwen<-mistral-F-bwd5-1: '5 2 6 4 3' (stop) | 1.27 s/call, eta 0.4 min
+[216/232] qwen<-mistral-F-bwd4-3: '4 2 6 1 3 5' (stop) | 1.27 s/call, eta 0.3 min
+[217/232] qwen<-mistral-G-fwd9-2: '5' (stop) | 1.26 s/call, eta 0.3 min
+[218/232] qwen<-qwen-F-bwd9-3: '3' (stop) | 1.26 s/call, eta 0.3 min
+[219/232] qwen<-qwen-G-bwd2-3: '4 2 6 1 3 5 2 6' (stop) | 1.26 s/call, eta 0.3 min
+[220/232] qwen<-qwen-G-bwd1-2: '5 2 6 1 3 4 2 6 1' (stop) | 1.26 s/call, eta 0.3 min
+[221/232] qwen<-qwen-F-fwd8-3: '4 1' (stop) | 1.26 s/call, eta 0.2 min
+[222/232] qwen<-qwen-F-fwd4-1: '5 2 1 3 6 4' (stop) | 1.25 s/call, eta 0.2 min
+[223/232] qwen<-qwen-G-bwd9-2: '4' (stop) | 1.25 s/call, eta 0.2 min
+[224/232] qwen<-mistral-G-bwd8-1: '4 6' (stop) | 1.25 s/call, eta 0.2 min
+[225/232] qwen<-qwen-G-fwd3-3: '4 3 1 6 2 5 3' (stop) | 1.25 s/call, eta 0.1 min
+[226/232] qwen<-qwen-G-fwd3-2: '4 3 1 6 2 5 3' (stop) | 1.25 s/call, eta 0.1 min
+[227/232] qwen<-mistral-F-fwd1-3: '4 2 6 1 5 3 2 6 1' (stop) | 1.25 s/call, eta 0.1 min
+[228/232] qwen<-qwen-G-fwd4-3: '4 1 2 5 3 6' (stop) | 1.25 s/call, eta 0.1 min
+[229/232] qwen<-qwen-F-bwd5-1: '4 1 2 5 3' (stop) | 1.24 s/call, eta 0.1 min
+[230/232] qwen<-qwen-G-fwd9-2: '6' (stop) | 1.24 s/call, eta 0.0 min
+[231/232] qwen<-qwen-G-fwd7-2: '4 2 1' (stop) | 1.24 s/call, eta 0.0 min
+[232/232] qwen<-mistral-F-fwd5-2: '4 2 5 1 3' (stop) | 1.24 s/call, eta 0.0 min
+{"stage": "main", "model": "qwen", "seconds": 377.9}
