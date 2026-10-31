@@ -1,0 +1,430 @@
+{
+  "key": "qwen",
+  "model_id": "Qwen/Qwen3-32B",
+  "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16 weights and activations; lm_head and logits fp32",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_mem_gb": 79.3,
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.0",
+  "python": "3.11.13",
+  "driver": "595.91.07",
+  "eos_ids": [
+    151643,
+    151645
+  ],
+  "face_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+  },
+  "max_memory_allocated_gb": 66.82,
+  "deterministic": {
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "use_deterministic_algorithms": "warn_only",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "serving": "Experiment 21 Qwen class",
+  "study": "SPAR_DICE_BIDIRECTIONAL_COMPLETION_v1.1",
+  "stage": "preflight",
+  "started_utc": "2026-10-31T18:41:56.087049+00:00",
+  "order_seed": 20261201,
+  "job_order": [
+    [
+      "qwen<-qwen-F-fwd1",
+      1
+    ],
+    [
+      "qwen<-mistral-G-fwd5",
+      1
+    ],
+    [
+      "qwen<-qwen-F-fwd9",
+      1
+    ],
+    [
+      "G",
+      1
+    ],
+    [
+      "qwen<-mistral-G-bwd5",
+      1
+    ],
+    [
+      "qwen<-mistral-F-fwd5",
+      1
+    ],
+    [
+      "qwen<-qwen-F-bwd9",
+      1
+    ],
+    [
+      "qwen<-mistral-G-bwd1",
+      1
+    ],
+    [
+      "qwen<-mistral-G-fwd9",
+      1
+    ],
+    [
+      "qwen<-qwen-F-mid",
+      1
+    ],
+    [
+      "qwen<-mistral-G-fwd1",
+      1
+    ],
+    [
+      "qwen<-qwen-F-bwd5",
+      1
+    ],
+    [
+      "qwen<-qwen-G-bwd5",
+      1
+    ],
+    [
+      "qwen<-mistral-G-bwd9",
+      1
+    ],
+    [
+      "qwen<-qwen-F-fwd5",
+      1
+    ],
+    [
+      "qwen<-mistral-F-mid",
+      1
+    ],
+    [
+      "F",
+      2
+    ],
+    [
+      "qwen<-mistral-F-fwd1",
+      1
+    ],
+    [
+      "qwen<-qwen-F-bwd1",
+      1
+    ],
+    [
+      "G",
+      2
+    ],
+    [
+      "qwen<-qwen-G-mid",
+      1
+    ],
+    [
+      "qwen<-mistral-F-bwd9",
+      1
+    ],
+    [
+      "qwen<-mistral-F-fwd9",
+      1
+    ],
+    [
+      "qwen<-mistral-G-mid",
+      1
+    ],
+    [
+      "F",
+      1
+    ],
+    [
+      "qwen<-qwen-G-fwd5",
+      1
+    ],
+    [
+      "qwen<-qwen-G-fwd9",
+      1
+    ],
+    [
+      "qwen<-mistral-F-bwd5",
+      1
+    ],
+    [
+      "qwen<-qwen-G-fwd1",
+      1
+    ],
+    [
+      "qwen<-qwen-G-bwd1",
+      1
+    ],
+    [
+      "qwen<-mistral-F-bwd1",
+      1
+    ],
+    [
+      "qwen<-qwen-G-bwd9",
+      1
+    ]
+  ],
+  "n_jobs": 32,
+  "prompt_sha256": {
+    "qwen-G-fwd1": "6dead37a701193aedaaa9a882e511265b02dd9062a554e305016c58e618c56f4",
+    "qwen-G-fwd2": "6e836a8b67e7966038f35ef177caad9c2bc6d95ba8c069759a9338b57076e749",
+    "qwen-G-fwd3": "1f6d91c137f56395e276a76f73b433fd4c33672fb72c1b806158cc8b0b2a2760",
+    "qwen-G-fwd4": "526f14ab91ef49b901d0aad6ebae153ba2d62ad924f11d29b25550bc087f9220",
+    "qwen-G-fwd5": "dae067b90dfc794770c0892bdb269c9aa8d85e309d5d9dfe5fae15fcdfa1bdd3",
+    "qwen-G-fwd6": "d3d5858f16f67ccd868c52ffe374b7efc7084598eb3f3a714a629252bb369fe3",
+    "qwen-G-fwd7": "b752a2543ba61fe79a9adee9a4de384e39c67b5ddbc1b0ce041f4ac3bbe49d5b",
+    "qwen-G-fwd8": "a0e11c1f7a38e382e07db97057680b6feab819fed03dd7282912cc3af10e3bd3",
+    "qwen-G-fwd9": "b32007d5f22c9414034968dbf612ff5e3ddc7153386a6d4f8851897e448258d3",
+    "qwen-G-bwd1": "aa7aef495c7c3ee8ed29ce5df1d89c9bc4af7add2aaace4659bf6c637e8207d4",
+    "qwen-G-bwd2": "368d7ba22539a8ffbcb3abbe4cd7f76f26be00655dcda0b16f9c3da26c3a3f2c",
+    "qwen-G-bwd3": "c6ee18034021310592a8f323f310399b26f9e15ec319a58036c3270d6e85d85f",
+    "qwen-G-bwd4": "3ef685f03fca6737ce5583def2ecb24b6a41fcb6f0a8ae89753ca198a97f4b9e",
+    "qwen-G-bwd5": "80a4cdae7f1f124abbfe6d0390e5ca141acaee2976dcfd316acb9656f85ede41",
+    "qwen-G-bwd6": "e4c231aa3dc331494618e8d9f43d760f397f661d359390a17f7a2ac122c49bd6",
+    "qwen-G-bwd7": "d492ff6000e15d533eddd825b175f546ddbd8c1bc4f9796f2b9842368b9c3635",
+    "qwen-G-bwd8": "fb7925303e1da0e9988d07a62d8d3f496099288c737c8fbca70ae7ac5fd14539",
+    "qwen-G-bwd9": "d702105358266220a99deea68b7e4cd8bb1e288de6b64a2c78b75f131763dbf7",
+    "qwen-G-mid": "1f7ef45829e3405e277d0cda86070c42eac77c43dace5bdbb8dbc728cfba2d59",
+    "qwen-F-fwd1": "2a902166faf4a97790ed8bd11c60b9acfdd283717769cfc0bd033ad2e48a3901",
+    "qwen-F-fwd2": "221997222abbc93530e63cbd66984c773d057f1107696f7ca151910e80633ad7",
+    "qwen-F-fwd3": "12aea7705606d31443a256e7f9cea98b561d46bf47963c2598ad27e5bbfbfbd7",
+    "qwen-F-fwd4": "d7fe5dd3c97e06ae0c14edc41635f266ff739ea422182028126248d058819afd",
+    "qwen-F-fwd5": "c03bf194c3c5d339f4730fd1ba5155cf4cb76e6028678ed732aad2744df08905",
+    "qwen-F-fwd6": "89c4bbca196c66503987f32478148eafe097b6a0676907dff3782774ac38b54d",
+    "qwen-F-fwd7": "c6cced27650daa30174bdabda21cf691d7f0f142355d773ce2745cfd8d9e5d65",
+    "qwen-F-fwd8": "c354825cf2155dd66813cbe43193571c5c167924883b7814b783b56cc9982d94",
+    "qwen-F-fwd9": "fc35a28bbeee931cb4c5afcbfde9c399c036e0d225686ab6c7dafe1491416c38",
+    "qwen-F-bwd1": "832ed1322c5d55661e2850efd8b4aff34ec8ea8c9e7cc559cd96eff7e3e9a801",
+    "qwen-F-bwd2": "1c2e1bb30d2a6252cba7abe9818f4c3eb3f49dee5e0ef877d4e3b2d3346e537b",
+    "qwen-F-bwd3": "da8efef67208a72d2286a006bfaba0b5ee4d9bf350a1ff9bc3fa934f79de9b7c",
+    "qwen-F-bwd4": "e3af9b1db169eed78514e6567473f48cdef742da626d01c2a3dd1cf90e2b6883",
+    "qwen-F-bwd5": "a22f400e75706eb2353ec0cb76e01809b638dc79bf680d3424728f3290314f39",
+    "qwen-F-bwd6": "67214c5a4ab08d559c654cb16b20f555ab58792ec5a1fc466dc6ebfd6755daf6",
+    "qwen-F-bwd7": "5dd4d8dff0a082d14e52048adf0a0843a9bf183af0aa59468a289ed26e458dc9",
+    "qwen-F-bwd8": "ba1690e35a6a96a9a2ca5755276e16aa668c3d20a6e4acd63b83d7b9f7b13b50",
+    "qwen-F-bwd9": "5d1ce34119529f0bf2e3276b912bebab27acefdea0e7afb7712e90fc6c92274b",
+    "qwen-F-mid": "2a357357c6f02a85f18daa812f9b4234bf5d8e1c81cf92bb020899cdc61100a7",
+    "mistral-G-fwd1": "096c86189344d79af4da3bf63deccd5da687e62d5bc4a007eeb79d7c588bd467",
+    "mistral-G-fwd2": "123fc6b8ff406c9b0227e59d7a555c534fc6edd431adfd2130ad06aef38737a9",
+    "mistral-G-fwd3": "5a738fa4df957ca949e75cea93eeafcd4e355e726b79fad8d2b36f8eba64951a",
+    "mistral-G-fwd4": "3986993c8aed376c7146331ed6c1853a10afd2412ffb582530d26917204231a8",
+    "mistral-G-fwd5": "676f9f24aa335f06bfc885f65203c91f3991a0718a4d53dd0d47990a5e8dc027",
+    "mistral-G-fwd6": "d178499684d3e3a300d33854b0ca3015f81e03954943f172932eb8af3fa4812b",
+    "mistral-G-fwd7": "927aeac5f291463c598a852fe70a3cbb7738705f157157ad4089b4b03603c73b",
+    "mistral-G-fwd8": "5049c625e6e171ded15054de66c08e93804b23b3757d2bd7ca5d6b9282961922",
+    "mistral-G-fwd9": "acd682633e6a21cc23bc9ebd3a8e6ddf4b6c363e724c38e40fe20a44087ddf6d",
+    "mistral-G-bwd1": "04c3c56dcf0e832dd2d2ae30332a852c6d0623efb307923fa2689f014416e599",
+    "mistral-G-bwd2": "e617ac5e10d840fab87ad4e6d734dda89d09509c9a9300c0ae36aa10c7d83602",
+    "mistral-G-bwd3": "fc4aa9c106b7a281e5218ceaa0fb02a83394b1cc02b6abf54748f9bd943db5fd",
+    "mistral-G-bwd4": "f5eaefc45224ffa9830489044ba712598e112bf1b434f99351dc30d992c67b8b",
+    "mistral-G-bwd5": "d27ed7569b3b53da197c385762e33852e6c66c6b4ff3eec5af0398563a40ecc0",
+    "mistral-G-bwd6": "7356d2f97ced1e0ce23b17521370318b4e30bc0b935a8002562c70c99fe8a2e6",
+    "mistral-G-bwd7": "37c6fbb0753a7655b764829518093ec2e75ba91f8299ff48146687f43e1ce861",
+    "mistral-G-bwd8": "0cc7ed6912cc469f7889133147f7a668ff9be2d24908768bcf60493d157c3ecb",
+    "mistral-G-bwd9": "8c2b11545c1cc96e5f281c1dd231ef3f09c5a8765d6857766fc21a221a787452",
+    "mistral-G-mid": "02d7d6dc6acbbe94bdf3f9ef855477fe833a3c55eb1bd7ecc05d513ade5b3d73",
+    "mistral-F-fwd1": "2a902166faf4a97790ed8bd11c60b9acfdd283717769cfc0bd033ad2e48a3901",
+    "mistral-F-fwd2": "221997222abbc93530e63cbd66984c773d057f1107696f7ca151910e80633ad7",
+    "mistral-F-fwd3": "ddfaba758754a7c8d7504049ba9b39236f491f706f30cb14c32bfba30bfcea68",
+    "mistral-F-fwd4": "db24dd8e1079a7c821efd66403aa2669b79e23451026a3eec20f7db040d39854",
+    "mistral-F-fwd5": "0fcc1e99c145610a3fa167d964acea01036a7739a17ec1735127751eb20b038e",
+    "mistral-F-fwd6": "6edb75975747b9f39b552eca5e0ceb95a4c3a66f74dd7e3a0ac87c6197239c1d",
+    "mistral-F-fwd7": "a07180e5356eb8d0db04b90c361d7d593ef1185a325060d058555798fb7cfb7c",
+    "mistral-F-fwd8": "539075990138dd84c40096198a53fcefd2a80ad097241f83f1d0972e1194d666",
+    "mistral-F-fwd9": "ad05893fbb9cce302bff072c58e17035d460fc0c93a7a931f2bd4aa1d6a16879",
+    "mistral-F-bwd1": "71f455b66593005e20a01c68aea329e5cb0da3ef3d8505d21b32587345b1f133",
+    "mistral-F-bwd2": "2430472436b04d443dd3d282aaba348b07487abfdb1eabab92222399c2a22d3e",
+    "mistral-F-bwd3": "dea07464dec4e6800f4587afe0698bc196a6ce78bcbac514bd4ae4a67354ea27",
+    "mistral-F-bwd4": "8625c38839ac987ee065e6f1509fdf9a65fe13db33f1d376f30e0f7ff838baaf",
+    "mistral-F-bwd5": "578083aedd216d160be16b3194407ecf53b9823fdfd539f512a981123e2ee1af",
+    "mistral-F-bwd6": "4a3bad85d01b54d36e93e0cf42698dc37e4b93ce0cada83f1bd97076f0f70f37",
+    "mistral-F-bwd7": "f20735f2631debdbf2aad659bae7d627853b8f6a72a18a4d0dd45356485f14f9",
+    "mistral-F-bwd8": "6469686c532f7934ae4ead3ed3f7927fe679ed9b9500fd5574cb0ac7be8fd43d",
+    "mistral-F-bwd9": "3b9499ecbe1b48ecccd2c3e1bac48628fbbbfe13495bb114ae989e3a4b87b591",
+    "mistral-F-mid": "635c724b5249e6934b4cded89627df2df1f592cd1cbac050894f6dacce7c516c"
+  },
+  "rendered_sha256": {
+    "qwen-G-fwd1": "395aa1c05fe20f739803108b1d0a631b06b171091f520d2c8e11d8cfcb180aef",
+    "qwen-G-fwd2": "d8c38d2e69320aaac9c47621094658b7ed6a1b3a0772363aa3969861a98ba193",
+    "qwen-G-fwd3": "e70554367a5529aeac4c4f6c8a076381adbc6123a73ba0d2263a87ad8687dbaa",
+    "qwen-G-fwd4": "98020493327978d8a554c38b21715a2ee4ec0dad03082176f668dc167a2fef82",
+    "qwen-G-fwd5": "7658784f2afbb738ea6e9b2a36015e8060f53194de49a1f53bfe0a1ff74e96c3",
+    "qwen-G-fwd6": "d82026482be87c7b95129b41e9bbb7f60e0d5556734daf9fd65dea8679173eb1",
+    "qwen-G-fwd7": "9c1c4c55208276fc0eb793c607e73fc6fe03349d84e77b62bb8b8d0b9dfbd613",
+    "qwen-G-fwd8": "287e78b6467ec10f11309aa92fc3ce5f035cd0b29be827903e7d4316192257cd",
+    "qwen-G-fwd9": "13c79176cd3c6a5c73d8f147c6fea2524928a9359c6f7740d39c667fb82bb778",
+    "qwen-G-bwd1": "f3cafc6c6a3ec6be154ea4c49ba11204b1f5ec2018eb2517f9cbf141ad62559e",
+    "qwen-G-bwd2": "828a472b6218efaeb817912e6df18bfcdc378431e13abaca2acf20303b23967d",
+    "qwen-G-bwd3": "f9155fe318647cf4f66c66eca43372fad4f069f8fdb846c2b3a2a938c1f6a214",
+    "qwen-G-bwd4": "ee6e8670982823d7ddb8261e0f860281f468db37f47b23415181390493d52452",
+    "qwen-G-bwd5": "30a65f5ee267549400c08b9f68efa39c5aa93b0f1dc293379b878bdf031d60d2",
+    "qwen-G-bwd6": "f08af6efcfe4d767cc3478e620801b7189ab806c0288b1209ca29c735cedfcbe",
+    "qwen-G-bwd7": "06388ca875e40ccd06cd29f7d483958382de66f5d60cbe03b7483c421e58eaba",
+    "qwen-G-bwd8": "12060302daa5f2cc2a6fe652416a25661cd3e9961511450a8a6e9c1f89bda021",
+    "qwen-G-bwd9": "40962a89ef4263a0c5a232c2a2b227a588c242298bd8e526896e7d7eb7cee72a",
+    "qwen-G-mid": "e070629ec7dff8b861e6e38336bbfebdbb8ad5983369c5d52305057d24760bb4",
+    "qwen-F-fwd1": "6571c8f1b4cc5729c05d6a850090d14589110f11824c9ebd39e4d31b6fa94f3a",
+    "qwen-F-fwd2": "cfda18689968643ad13c618b9ec5cd6c218ad5c62cf96d2d7bf91b630004ac24",
+    "qwen-F-fwd3": "080791c5be33fa80f86341e6bde28fa37bce0b0e034943d784637f462aee4074",
+    "qwen-F-fwd4": "11b030056a6fde67245ff036f20e6811dcbca5224e2875e9a228c11b2b2f5fae",
+    "qwen-F-fwd5": "27c3affdf4b29121cb731f1687b2697042ecb9db031893c10352f61cdbd92ed6",
+    "qwen-F-fwd6": "78eb3f736fb7e809f55ddbe8b68474809023a572f7ce79db74e45b18bb3073c7",
+    "qwen-F-fwd7": "cefa037efd5b781a4a4c57f35ba393164ffb7aa8724565e0720d1fd7a190481e",
+    "qwen-F-fwd8": "baa1a67b4a993d7804476d6743ea64ae3dcb0a799e655841b1f9555623641e1e",
+    "qwen-F-fwd9": "b104bfa364dd07cb29d93a605cd0409ac9374569e46002d16653912198d1b7ef",
+    "qwen-F-bwd1": "204f92e86f5d82a7e2111aa8318e3fa2bf4d1ceb61d1214ec6cbb41081e38e1e",
+    "qwen-F-bwd2": "abe7725947080a9f184fc3f7fe45cc8de84e399423d906b58580c5aec9c126f1",
+    "qwen-F-bwd3": "a950173b3bfd4860d11d260c235b77315a30b97255348cb36d7a372e8303854c",
+    "qwen-F-bwd4": "f7f95f03e601af27a0c45779b63b76b1f1380eda8bef7d45ae8b0898545658d1",
+    "qwen-F-bwd5": "e6fec48a62bc974aae516d6c2000321746c23eb79b504d69c620a7f2aa46ca9f",
+    "qwen-F-bwd6": "9f446313b4cb2cbe1ea0e25db5299d6b4048c6a5d6c6a6fbcebc9e254f8bb5ac",
+    "qwen-F-bwd7": "ba3059d8ce7b6f960ba287fd22cff33708dffdeca16caf77e19ca85d9620aef4",
+    "qwen-F-bwd8": "00d4b23d417a391ad36f2fe4bf1f21131106ba61d7b05482ee425cf83d4ce702",
+    "qwen-F-bwd9": "05bc7a4051a3b4dc41c42d61ffa0e8c804424ced1175fb1598a6d67e724c75dd",
+    "qwen-F-mid": "79bcd7f927ad7148df22d12bc6a799fd38382b3beff6b4e2827418002bb5fd3b",
+    "mistral-G-fwd1": "ec453f6610134ab5f7e78db24db11069ae963a74d749a33d98b9cb1f7b0c4a38",
+    "mistral-G-fwd2": "16e180c9534db6cd849d4a60e2a833fc300faa039be94afd7d096661b2b8b7c0",
+    "mistral-G-fwd3": "c5ba389998c7faa2ae57bf8790b9c380ab418b209f2d0cf242b5bafea951563c",
+    "mistral-G-fwd4": "dc041f0a929ed8dde1434843f94a77027fe4cacc508f107db53df1b1d719cee2",
+    "mistral-G-fwd5": "965ca4af38f07b38bfdff851384204652915591df693c5738ab0e7b78e629928",
+    "mistral-G-fwd6": "2f2db878edf3afc1b242fe0d240c751635728848e0b65ccdf23eedfeab8dec4d",
+    "mistral-G-fwd7": "809980e270e02a3ddc419ebb34b71b4c3aa6223b7d04b9689fe2b71535152f18",
+    "mistral-G-fwd8": "2532a598a22c964e6ecac2e1540b51d0a642bdc5350b10acc27a18c462f943ca",
+    "mistral-G-fwd9": "c551d328344d4c379395d92b97a6512efe1efd71f17391d2b08ead7a61c83ef2",
+    "mistral-G-bwd1": "97bf2140675d889f0cc111cbe42173dac2986a65f3cf48bf10b3c17fe0db27df",
+    "mistral-G-bwd2": "2d30a27fc965d1852834dfa6dc49ba623106604bc9da0c527c3073af5baad590",
+    "mistral-G-bwd3": "e8d5a8d2a018ce2a7473de0e80ea664598f79bc5b26e57e081bac4688947d653",
+    "mistral-G-bwd4": "51c35b59de4bb7a69d49f369e71411ef655b46f8ef42fb1957114d8e6519014a",
+    "mistral-G-bwd5": "a732368a5fd487bf5fc15f8b831c1e88effd8a007309ab9b5571ec1006558130",
+    "mistral-G-bwd6": "ae64b7c658eff3ee7d9930c3189f329d0a441882bdbf458a325649baabe17373",
+    "mistral-G-bwd7": "6b4e726164d544d8ce7fe9b9d7c5255ff8ead9f0367af96840c0be962d90bac7",
+    "mistral-G-bwd8": "9a2e37d07418b67ff54653eba91d8afba98d87672e5be9ef41e327883b9b6cef",
+    "mistral-G-bwd9": "b92a3efb5d5c77151ee931c83900e6a0c990d472aee26493fafba1dbed9d63e2",
+    "mistral-G-mid": "5516159abdfefc7562d3606c0d89a381ba2e876239fce86eb2c6b4022f66c550",
+    "mistral-F-fwd1": "6571c8f1b4cc5729c05d6a850090d14589110f11824c9ebd39e4d31b6fa94f3a",
+    "mistral-F-fwd2": "cfda18689968643ad13c618b9ec5cd6c218ad5c62cf96d2d7bf91b630004ac24",
+    "mistral-F-fwd3": "04e9a3da6b3757a161c26aff92073ef9a3d9cd6ed3c3c2d994a0ba291a08b2b8",
+    "mistral-F-fwd4": "9bdca4e72ae203e5db3912eb92384dd7ad4be39085340023dec101f2918367c5",
+    "mistral-F-fwd5": "42cd745ad0a6fc42ce412e8cb38cd59df6d8031502cadaf22606d057d5d6dd12",
+    "mistral-F-fwd6": "d9247ee5418b2e7e59e5418f5e9e6917e3407ec3bfed17777ab8d3f8f8867a19",
+    "mistral-F-fwd7": "c91888d66f931d5b7b5a31a361a748980bfb4e0e9c79cbf727b04b27ea5432ab",
+    "mistral-F-fwd8": "559910d8681118601ca45ff2a6c777422a1baac655983e5e6e1b5e745c290def",
+    "mistral-F-fwd9": "753af8739b47ba06850c2dea959b3f21b8e6e33eafbc5e9e8b78badaebeacd17",
+    "mistral-F-bwd1": "d98b99d7cc367708d1b036e48adcb2b892148cc904e7ffe24d52b099954a7f10",
+    "mistral-F-bwd2": "3d4a6f95cf4a558c9ba29d419933e5deb345bac1f6a9fecda9293451b10c915a",
+    "mistral-F-bwd3": "d1ebac12f9093ef0a090bbf02dd7b23ca8c2dbb7fa1243f5699006c7de651106",
+    "mistral-F-bwd4": "ea34f8339df73a7bf5d88dbdb8cea8ee45b714181eb02391bb1ca88d8c4d9c00",
+    "mistral-F-bwd5": "33451110365c6182697b38fbeb2104486e9120208f72663ed12e63afe01560fd",
+    "mistral-F-bwd6": "8352babd654843914b0d546e0eb1b5d758d15c8d730a0f0b78627855b4110c35",
+    "mistral-F-bwd7": "8efe00f779c965831c26af9f88cb190c8da96b9cb83c42ed614ea6e19fdd89a8",
+    "mistral-F-bwd8": "050cecfd34e2ad2588786b28ea148cb47c38d16587d7ed288dbd64d40c1bf540",
+    "mistral-F-bwd9": "e6f9412d7c136e496107415379f098524c9cb9087f3ac8974ce8f63db610208b",
+    "mistral-F-mid": "c1abd09b35696f988e36057d656c3888b4d8cb84836cf0465cb8e227588176bf"
+  },
+  "archival_prompt_sha256": {
+    "G": "edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe",
+    "F": "8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03"
+  },
+  "rendered_G": "<|im_start|>user\nGenerate a sequence of 10 simulated rolls of a six-sided die. Return exactly 10 integers from 1 to 6, separated by single spaces, with no other text.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "g10_history_ids": [
+    20,
+    220,
+    17,
+    220,
+    21,
+    220,
+    18,
+    220,
+    16,
+    220,
+    19,
+    220,
+    21,
+    220,
+    17,
+    220,
+    20,
+    220,
+    18
+  ],
+  "face_single_tokens": {
+    "1": [
+      16
+    ],
+    "2": [
+      17
+    ],
+    "3": [
+      18
+    ],
+    "4": [
+      19
+    ],
+    "5": [
+      20
+    ],
+    "6": [
+      21
+    ]
+  },
+  "accelerate": "1.15.0",
+  "huggingface_hub": "2.4.0",
+  "code_sha256": {
+    "dice_bidirectional_completion/__init__.py": "05ad6b9fa332253580dcaafc3aef4d48acaa9254b761cff75f50f5c407bcab19",
+    "dice_bidirectional_completion/__main__.py": "85644209191387529f94c3fe1dbed617f0cb7e660e1b0ab6ebf327db2dba756b",
+    "dice_bidirectional_completion/analysis.py": "98f27243b45053a57c3416229a1ec9b2a01ab3671612fda5923b68766d4bf416",
+    "dice_bidirectional_completion/config.py": "c09c646c9a4c43b712ea663928788f1b192d0e04703376c45df2e23908f535b9",
+    "dice_bidirectional_completion/figures.py": "8ae37bfba1306b60618b0780534758525084d3dfc23eb76ba27fa983aba92e50",
+    "dice_bidirectional_completion/gates.py": "5d1def352f0a4eab2a8e89b169fde279c11e37975cab5ac8d686779fd0b33347",
+    "dice_bidirectional_completion/gpu.py": "2b5756ed31a38c19cb4af04f7611899420837167346abd061a45682cf1ad6988",
+    "dice_bidirectional_completion/prompts.py": "73356fe420c1c1e6fd0a6de749f8d2f36987edd01c86d1e7d94e26cf97df0a95",
+    "dice_crossed_guidance/models.py": "e70e6497061475ecae946a28266a7d5ab74b60e3bc5c777fb4bc56c239485c96",
+    "dice_crossed_guidance/config.py": "ac23d8d178d541ce358443479add0615520b8376ed730ca8b348bec5b2a8ce5a",
+    "dice_logprob_crossmodel/gpu.py": "33c1ee66d827ab7b1ab8377ccde29376fe11095dccde39d417598ec97b5ee3ca",
+    "dice_logprob_crossmodel/prompts.py": "6ad7132da08c74ba2de08802f21c70342c104719942fa15647f18784f904e54a",
+    "dice_logprob/prompts.py": "117a7a218f9d1bf3f4e91c30ce80d7ef510c92c60a433ddb41a0b57c792ea143",
+    "dice_logprob/gpu_runner.py": "45da8128297d1fd4d5404ebbf79272a47017d0ba4519b3afcc8718a8e662e0f7"
+  },
+  "code_commit": "201ad2b",
+  "hourly_usd": "1.969",
+  "max_new_tokens": 128,
+  "vocab_scan": {
+    "vocab_size": 151669,
+    "face_like": [
+      [
+        16,
+        "1"
+      ],
+      [
+        17,
+        "2"
+      ],
+      [
+        18,
+        "3"
+      ],
+      [
+        19,
+        "4"
+      ],
+      [
+        20,
+        "5"
+      ],
+      [
+        21,
+        "6"
+      ]
+    ],
+    "variant_face_tokens": [],
+    "multi_digit_ascii_tokens": []
+  },
+  "vocab_scan_seconds": 0.5,
+  "resumed_with": 0,
+  "finished_utc": "2026-10-31T18:43:23.807842+00:00",
+  "generation_seconds": 60.6,
+  "teacher_forced_seconds": 26.6,
+  "raw_attempts_sha256": "7f130a156cc19c0b589833ad57b573471d3c9b9bae9f24323e50532cd319bd76",
+  "teacher_forced_sha256": "abc5c6900ed2cbdbb6b275f77f135582eb14e201ec057c0074e428003b12c155"
+}
