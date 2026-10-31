@@ -1,0 +1,25 @@
+{
+  "tag": "SPAR_DICE_LOGPROB_CROSSMODEL_v2.0",
+  "files": {
+    "src/spar_dynamic/dice_logprob_crossmodel/__init__.py": "0be617e5044c63465fca021078a72ace04768539260773c377b579559ba38021",
+    "src/spar_dynamic/dice_logprob_crossmodel/__main__.py": "33bb28acd3f185ba89ec2b12e327160a33ef47390f220fddb9666a6f00431143",
+    "src/spar_dynamic/dice_logprob_crossmodel/analysis.py": "17d27679f8e8e72a2718768fea3ecb6e078fd4cf1a215a37a7c1f981ee5a2304",
+    "src/spar_dynamic/dice_logprob_crossmodel/config.py": "b2e61eae797faf43771cf6f9fca95a59013e92737f56df306bed2a1077794d91",
+    "src/spar_dynamic/dice_logprob_crossmodel/figures.py": "dd2024540c7b0db1aaeddc83931cd1dfaf08e4f04976653c67dbbe89a040d8bd",
+    "src/spar_dynamic/dice_logprob_crossmodel/gates.py": "2fe385e30f0827b0889ca672c894e1d41b2c8e2ba0647533e0503ba3b5b3e008",
+    "src/spar_dynamic/dice_logprob_crossmodel/gpu.py": "33c1ee66d827ab7b1ab8377ccde29376fe11095dccde39d417598ec97b5ee3ca",
+    "src/spar_dynamic/dice_logprob_crossmodel/prompts.py": "6ad7132da08c74ba2de08802f21c70342c104719942fa15647f18784f904e54a",
+    "src/spar_dynamic/dice_crossed_guidance/models.py": "fe0d03681c9f5c22fc2e85f7ef7e9d77e3270277c6435af080feb770b79f196d",
+    "src/spar_dynamic/dice_crossed_guidance/config.py": "ac23d8d178d541ce358443479add0615520b8376ed730ca8b348bec5b2a8ce5a",
+    "src/spar_dynamic/dice_logprob/prompts.py": "117a7a218f9d1bf3f4e91c30ce80d7ef510c92c60a433ddb41a0b57c792ea143",
+    "src/spar_dynamic/dice_logprob/gpu_runner.py": "45da8128297d1fd4d5404ebbf79272a47017d0ba4519b3afcc8718a8e662e0f7",
+    "track1_self_prediction/21_2026-10-29_dice_logprob/main-qwen3-32b-a100/raw_attempts.jsonl": "1c71f1b13cb88eb64559ff95c73bf9d40027451d091cb6776fa9274a3c681d91",
+    "track1_self_prediction/21_2026-10-29_dice_logprob/main-qwen3-32b-a100/matched_prefix.jsonl": "eaa71d4a53599ca3909b7a79a576674696a3fa7b59ab932cdf9c8d2b6a2e29bd",
+    "track1_self_prediction/27_2026-10-30_crossed_guided_self_prediction/preflight/mistral/raw_attempts.jsonl": "9d3b940a5741c0b446b392d0a6cb38e733aec7e5a020de0645f644fede5fc711",
+    "track1_self_prediction/27_2026-10-30_crossed_guided_self_prediction/preflight/mistral/matched_prefix.jsonl": "9c8bef834a6fe9d59971ea354bd413051eda92ed2130a32f83ae6a9dc1e2948b",
+    "PROTOCOL_FROZEN.md": "ad89f3796b86bd09809d7d6d2475aa2938293b965a370645ed90d843a3a0db41",
+    "prompts_frozen.md": "4f9098f7cda2f2b2b4b13b16333001197fbe3d1d800968d04bf8a268f6a697af",
+    "prompts_frozen.json": "e9312497439fa592c72f6b622ebee4e4f38ec5487d64deee766889ef99d3e784",
+    "DATA_DICTIONARY.md": "cada5574635018e81a54b9a209671bb4ee5e2bd6954def62d8521e3c0f9b3bce"
+  }
+}
