@@ -1,0 +1,18 @@
+{
+  "tag": "SPAR_CROSSED_GUIDED_SELFPRED_v1.0",
+  "files": {
+    "src/spar_dynamic/dice_crossed_guidance/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/spar_dynamic/dice_crossed_guidance/__main__.py": "b32c31f1184b971c9589d6cbaf64e189ce253c8faba925f710f9479701fc2a7f",
+    "src/spar_dynamic/dice_crossed_guidance/analysis.py": "cd3a529d56804deea03cebcbfa3a276d6994daf80631a749b663dc4786a1932b",
+    "src/spar_dynamic/dice_crossed_guidance/config.py": "ac23d8d178d541ce358443479add0615520b8376ed730ca8b348bec5b2a8ce5a",
+    "src/spar_dynamic/dice_crossed_guidance/figures.py": "9bdb70dff2b78c0ef9c4d8aca1984b6b1de07ad8979e5b69f77293f0ed251789",
+    "src/spar_dynamic/dice_crossed_guidance/gpu.py": "cf0cb1858400fe397200e6861b94bd04e5a540a9d0a35a14bf2e662fe0405b4b",
+    "src/spar_dynamic/dice_crossed_guidance/models.py": "e70e6497061475ecae946a28266a7d5ab74b60e3bc5c777fb4bc56c239485c96",
+    "src/spar_dynamic/dice_crossed_guidance/prompts.py": "471cdf6ff5d1d58d4b40c7f3892f570a126e2031d7239130a2c6bd9e77361639",
+    "track1_self_prediction/21_2026-10-29_dice_logprob/main-qwen3-32b-a100/raw_attempts.jsonl": "1c71f1b13cb88eb64559ff95c73bf9d40027451d091cb6776fa9274a3c681d91",
+    "track1_self_prediction/21_2026-10-29_dice_logprob/main-qwen3-32b-a100/matched_prefix.jsonl": "eaa71d4a53599ca3909b7a79a576674696a3fa7b59ab932cdf9c8d2b6a2e29bd",
+    "track1_self_prediction/26_2026-10-30_dice_prefix_declarative/main/teacher_forced.jsonl": "fe3ce1d96cb61734fed21581386f4bc487d0d1b26e9aa20bd7f26e34bd6498b9",
+    "PROTOCOL_FROZEN.md": "ef70efeb1254211ecb30ad42890f8de1f4b45fbc6e60499c4eafd5a38a3adf51",
+    "prompts_frozen.md": "205f0087d63259b6afcd498d3137c6d2788987a9bb32db741569b5c9b9157b65"
+  }
+}
