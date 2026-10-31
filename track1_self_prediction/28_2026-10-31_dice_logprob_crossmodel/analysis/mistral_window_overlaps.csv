@@ -1,0 +1,6 @@
+pair,position,matched_G_js,matched_G_same_top,matched_F_js,matched_F_same_top
+W1-5 vs W3-7,3,0.5166,False,0.2938,True
+W1-5 vs W3-7,4,0.4459,False,0.2573,True
+W1-5 vs W3-7,5,0.2365,True,0.2526,True
+W3-7 vs W6-10,6,0.2012,False,0.2949,False
+W3-7 vs W6-10,7,0.2444,True,0.3033,False

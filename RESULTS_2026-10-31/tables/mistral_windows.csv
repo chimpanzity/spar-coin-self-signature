@@ -1,0 +1,16 @@
+window,position,local_index,W_output,W_valid,matched_G_js_vs_G|G,matched_G_top,matched_G_top_agrees_G|G,matched_G_top_is_history,matched_G_mass,matched_F_js_vs_F|F,matched_F_top,matched_F_top_agrees_F|F,matched_F_top_is_history,matched_F_mass
+W1-5,1,1,Here is the predicted output for the fir,False,0.0215,3,False,False,0.398,0.049,3,True,True,0.398
+W1-5,2,2,Here is the predicted output for the fir,False,0.016,2,True,True,1.0,0.0141,1,True,True,1.0
+W1-5,3,3,Here is the predicted output for the fir,False,0.0413,6,True,True,1.0,0.0083,5,True,True,1.0
+W1-5,4,4,Here is the predicted output for the fir,False,0.149,1,True,True,1.0,0.0308,2,True,True,1.0
+W1-5,5,5,Here is the predicted output for the fir,False,0.0111,3,True,True,1.0,0.0636,6,True,True,1.0
+W3-7,3,1,Here is the predicted output for the seq,False,0.6935,5,False,False,0.2272,0.3077,5,True,True,0.2272
+W3-7,4,2,Here is the predicted output for the seq,False,0.6099,2,False,False,0.9992,0.3549,2,True,True,0.9998
+W3-7,5,3,Here is the predicted output for the seq,False,0.2675,3,True,True,0.9972,0.2968,6,True,True,1.0
+W3-7,6,4,Here is the predicted output for the seq,False,0.3746,5,True,True,0.9997,0.5981,1,False,False,1.0
+W3-7,7,5,Here is the predicted output for the seq,False,0.1281,2,True,True,0.9996,0.0569,1,False,False,1.0
+W6-10,6,1,Here is the predicted output for the las,False,0.5484,3,False,False,0.2763,0.4987,3,False,False,0.2763
+W6-10,7,2,Here is the predicted output for the las,False,0.3521,2,True,True,0.9999,0.3816,2,False,False,1.0
+W6-10,8,3,Here is the predicted output for the las,False,0.4689,3,False,False,1.0,0.1778,1,True,True,0.9999
+W6-10,9,4,Here is the predicted output for the las,False,0.1449,1,False,False,1.0,0.1989,6,False,False,1.0
+W6-10,10,5,Here is the predicted output for the las,False,0.0171,1,True,True,1.0,0.191,2,True,True,1.0

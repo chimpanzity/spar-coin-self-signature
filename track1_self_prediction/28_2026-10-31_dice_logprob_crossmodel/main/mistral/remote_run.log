@@ -1,0 +1,304 @@
+Loading weights:   0%|          | 0/585 [00:00<?, ?it/s]Loading weights:   0%|          | 2/585 [00:00<00:56, 10.40it/s]Loading weights:   1%|          | 6/585 [00:00<00:28, 20.57it/s]Loading weights:   2%|▏         | 14/585 [00:00<00:14, 40.29it/s]Loading weights:   4%|▍         | 22/585 [00:00<00:10, 52.88it/s]Loading weights:   5%|▌         | 31/585 [00:00<00:10, 50.79it/s]Loading weights:   7%|▋         | 40/585 [00:00<00:09, 59.44it/s]Loading weights:   8%|▊         | 47/585 [00:00<00:08, 60.98it/s]Loading weights:   9%|▉         | 54/585 [00:01<00:09, 55.71it/s]Loading weights:  10%|█         | 60/585 [00:01<00:10, 51.07it/s]Loading weights:  12%|█▏        | 68/585 [00:01<00:09, 56.60it/s]Loading weights:  13%|█▎        | 76/585 [00:01<00:08, 61.31it/s]Loading weights:  14%|█▍        | 83/585 [00:01<00:07, 63.19it/s]Loading weights:  15%|█▌        | 90/585 [00:01<00:08, 59.38it/s]Loading weights:  17%|█▋        | 97/585 [00:01<00:08, 55.08it/s]Loading weights:  18%|█▊        | 105/585 [00:01<00:08, 55.37it/s]Loading weights:  19%|█▉        | 113/585 [00:02<00:08, 54.49it/s]Loading weights:  21%|██        | 122/585 [00:02<00:07, 61.97it/s]Loading weights:  22%|██▏       | 131/585 [00:02<00:07, 63.73it/s]Loading weights:  24%|██▍       | 139/585 [00:02<00:06, 65.73it/s]Loading weights:  25%|██▍       | 146/585 [00:02<00:06, 65.02it/s]Loading weights:  26%|██▌       | 153/585 [00:02<00:07, 59.33it/s]Loading weights:  27%|██▋       | 160/585 [00:02<00:07, 55.06it/s]Loading weights:  29%|██▊       | 168/585 [00:03<00:07, 54.66it/s]Loading weights:  30%|███       | 176/585 [00:03<00:07, 54.47it/s]Loading weights:  32%|███▏      | 186/585 [00:03<00:06, 57.93it/s]Loading weights:  33%|███▎      | 194/585 [00:03<00:06, 61.89it/s]Loading weights:  35%|███▍      | 202/585 [00:03<00:05, 65.10it/s]Loading weights:  36%|███▌      | 209/585 [00:03<00:05, 65.66it/s]Loading weights:  37%|███▋      | 216/585 [00:03<00:06, 59.25it/s]Loading weights:  38%|███▊      | 223/585 [00:03<00:06, 55.11it/s]Loading weights:  39%|███▉      | 231/585 [00:04<00:06, 54.59it/s]Loading weights:  41%|████      | 239/585 [00:04<00:05, 60.09it/s]Loading weights:  42%|████▏     | 247/585 [00:04<00:05, 64.96it/s]Loading weights:  43%|████▎     | 254/585 [00:04<00:04, 66.21it/s]Loading weights:  45%|████▍     | 261/585 [00:04<00:05, 61.09it/s]Loading weights:  46%|████▌     | 268/585 [00:04<00:05, 56.22it/s]Loading weights:  47%|████▋     | 275/585 [00:04<00:05, 52.66it/s]Loading weights:  49%|████▊     | 284/585 [00:04<00:04, 60.89it/s]Loading weights:  50%|████▉     | 292/585 [00:05<00:04, 64.73it/s]Loading weights:  51%|█████     | 299/585 [00:05<00:04, 64.88it/s]Loading weights:  52%|█████▏    | 306/585 [00:05<00:04, 59.89it/s]Loading weights:  54%|█████▎    | 313/585 [00:05<00:04, 55.26it/s]Loading weights:  55%|█████▍    | 320/585 [00:05<00:05, 51.89it/s]Loading weights:  56%|█████▌    | 329/585 [00:05<00:04, 53.75it/s]Loading weights:  58%|█████▊    | 338/585 [00:05<00:04, 60.56it/s]Loading weights:  59%|█████▉    | 346/585 [00:06<00:04, 57.70it/s]Loading weights:  61%|██████    | 356/585 [00:06<00:03, 62.07it/s]Loading weights:  69%|██████▉   | 403/585 [00:06<00:01, 157.89it/s]Loading weights:  90%|█████████ | 527/585 [00:06<00:00, 427.06it/s]Loading weights: 100%|██████████| 585/585 [00:06<00:00, 91.10it/s] 
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+loaded mistral in 11.4 s
+[1/300] W6-10-15: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 4.83 s/trial, eta 24.1 min
+[2/300] S6-10: '3' (stop) | 2.55 s/trial, eta 12.7 min
+[3/300] W3-7-7: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 3.55 s/trial, eta 17.6 min
+[4/300] S7-13: '3' (stop) | 2.73 s/trial, eta 13.5 min
+[5/300] S1-4: '3' (stop) | 2.24 s/trial, eta 11.0 min
+[6/300] S2-1: '3' (stop) | 1.91 s/trial, eta 9.4 min
+[7/300] S1-9: '3' (stop) | 1.65 s/trial, eta 8.1 min
+[8/300] G-16: '4 2 6 1 3 5 2 4 6 1' (stop) | 1.68 s/trial, eta 8.2 min
+[9/300] S2-18: '3' (stop) | 1.50 s/trial, eta 7.3 min
+[10/300] S4-9: '4' (stop) | 1.38 s/trial, eta 6.7 min
+[11/300] S9-18: '3' (stop) | 1.28 s/trial, eta 6.2 min
+[12/300] W6-10-3: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 1.35 s/trial, eta 6.5 min
+[13/300] W1-5-15: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 1.46 s/trial, eta 7.0 min
+[14/300] S6-15: '3' (stop) | 1.36 s/trial, eta 6.5 min
+[15/300] W6-10-2: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 1.41 s/trial, eta 6.7 min
+[16/300] S6-1: '3' (stop) | 1.33 s/trial, eta 6.3 min
+[17/300] S10-5: '3' (stop) | 1.27 s/trial, eta 6.0 min
+[18/300] S4-6: '4' (stop) | 1.20 s/trial, eta 5.7 min
+[19/300] W3-7-19: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 1.29 s/trial, eta 6.0 min
+[20/300] F-16: '3 1 5 2 6 4 3 1 5 2' (stop) | 1.31 s/trial, eta 6.1 min
+[21/300] W6-10-12: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 1.35 s/trial, eta 6.3 min
+[22/300] F-18: '3 1 5 2 6 4 3 1 5 2' (stop) | 1.33 s/trial, eta 6.2 min
+[23/300] S6-14: '3' (stop) | 1.28 s/trial, eta 5.9 min
+[24/300] S6-8: '3' (stop) | 1.23 s/trial, eta 5.6 min
+[25/300] S3-14: '3' (stop) | 1.19 s/trial, eta 5.4 min
+[26/300] W6-10-20: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 1.22 s/trial, eta 5.6 min
+[27/300] S8-8: '3' (stop) | 1.19 s/trial, eta 5.4 min
+[28/300] S7-10: '3' (stop) | 1.15 s/trial, eta 5.2 min
+[29/300] S5-15: '3' (stop) | 1.12 s/trial, eta 5.1 min
+[30/300] S8-4: '3' (stop) | 1.09 s/trial, eta 4.9 min
+[31/300] W1-5-7: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 1.09 s/trial, eta 4.9 min
+[32/300] S8-19: '3' (stop) | 1.06 s/trial, eta 4.7 min
+[33/300] S5-6: '3' (stop) | 1.03 s/trial, eta 4.6 min
+[34/300] S1-8: '3' (stop) | 1.01 s/trial, eta 4.5 min
+[35/300] S8-13: '3' (stop) | 0.98 s/trial, eta 4.3 min
+[36/300] S8-2: '3' (stop) | 0.96 s/trial, eta 4.2 min
+[37/300] S1-13: '3' (stop) | 0.93 s/trial, eta 4.1 min
+[38/300] G-7: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.93 s/trial, eta 4.1 min
+[39/300] W3-7-2: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.98 s/trial, eta 4.3 min
+[40/300] W6-10-19: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 1.01 s/trial, eta 4.4 min
+[41/300] W3-7-17: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 1.05 s/trial, eta 4.5 min
+[42/300] F-19: '3 1 5 2 6 4 3 1 5 2' (stop) | 1.04 s/trial, eta 4.5 min
+[43/300] S8-15: '3' (stop) | 1.02 s/trial, eta 4.4 min
+[44/300] S1-14: '3' (stop) | 1.00 s/trial, eta 4.3 min
+[45/300] S7-11: '3' (stop) | 0.98 s/trial, eta 4.2 min
+[46/300] W3-7-6: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 1.02 s/trial, eta 4.3 min
+[47/300] S5-14: '3' (stop) | 1.00 s/trial, eta 4.2 min
+[48/300] F-20: '3 1 5 2 6 4 3 1 5 2' (stop) | 1.00 s/trial, eta 4.2 min
+[49/300] F-13: '3 1 5 2 6 4 3 1 5 2' (stop) | 1.00 s/trial, eta 4.2 min
+[50/300] S5-8: '3' (stop) | 0.98 s/trial, eta 4.1 min
+[51/300] W1-5-11: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.98 s/trial, eta 4.1 min
+[52/300] W6-10-6: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 1.01 s/trial, eta 4.2 min
+[53/300] S4-11: '4' (stop) | 0.99 s/trial, eta 4.1 min
+[54/300] S9-6: '3' (stop) | 0.97 s/trial, eta 4.0 min
+[55/300] S4-18: '4' (stop) | 0.96 s/trial, eta 3.9 min
+[56/300] S3-16: '3' (stop) | 0.94 s/trial, eta 3.8 min
+[57/300] G-15: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.94 s/trial, eta 3.8 min
+[58/300] S7-7: '3' (stop) | 0.93 s/trial, eta 3.7 min
+[59/300] S2-2: '3' (stop) | 0.91 s/trial, eta 3.7 min
+[60/300] S7-12: '3' (stop) | 0.90 s/trial, eta 3.6 min
+[61/300] F-8: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.90 s/trial, eta 3.6 min
+[62/300] S3-3: '3' (stop) | 0.89 s/trial, eta 3.5 min
+[63/300] S6-6: '3' (stop) | 0.87 s/trial, eta 3.4 min
+[64/300] S9-14: '3' (stop) | 0.86 s/trial, eta 3.4 min
+[65/300] W3-7-11: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.89 s/trial, eta 3.5 min
+[66/300] W1-5-12: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.90 s/trial, eta 3.5 min
+[67/300] W1-5-17: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.90 s/trial, eta 3.5 min
+[68/300] W3-7-8: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.93 s/trial, eta 3.6 min
+[69/300] S5-5: '3' (stop) | 0.92 s/trial, eta 3.5 min
+[70/300] W6-10-13: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.94 s/trial, eta 3.6 min
+[71/300] F-7: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.93 s/trial, eta 3.6 min
+[72/300] S10-10: '3' (stop) | 0.92 s/trial, eta 3.5 min
+[73/300] W6-10-8: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.94 s/trial, eta 3.6 min
+[74/300] S8-3: '3' (stop) | 0.93 s/trial, eta 3.5 min
+[75/300] S10-9: '3' (stop) | 0.92 s/trial, eta 3.4 min
+[76/300] S7-17: '3' (stop) | 0.91 s/trial, eta 3.4 min
+[77/300] S9-4: '3' (stop) | 0.90 s/trial, eta 3.3 min
+[78/300] G-6: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.90 s/trial, eta 3.3 min
+[79/300] S1-5: '3' (stop) | 0.89 s/trial, eta 3.3 min
+[80/300] W6-10-18: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.90 s/trial, eta 3.3 min
+[81/300] S2-8: '3' (stop) | 0.89 s/trial, eta 3.3 min
+[82/300] F-14: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.89 s/trial, eta 3.2 min
+[83/300] S1-6: '3' (stop) | 0.88 s/trial, eta 3.2 min
+[84/300] W1-5-3: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.89 s/trial, eta 3.2 min
+[85/300] S5-11: '3' (stop) | 0.88 s/trial, eta 3.1 min
+[86/300] S4-14: '4' (stop) | 0.87 s/trial, eta 3.1 min
+[87/300] S8-11: '3' (stop) | 0.86 s/trial, eta 3.1 min
+[88/300] S9-3: '3' (stop) | 0.85 s/trial, eta 3.0 min
+[89/300] W3-7-14: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.87 s/trial, eta 3.1 min
+[90/300] S4-13: '4' (stop) | 0.86 s/trial, eta 3.0 min
+[91/300] S4-3: '4' (stop) | 0.86 s/trial, eta 3.0 min
+[92/300] W1-5-6: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.86 s/trial, eta 3.0 min
+[93/300] G-13: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.86 s/trial, eta 3.0 min
+[94/300] F-3: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.86 s/trial, eta 3.0 min
+[95/300] S10-13: '3' (stop) | 0.85 s/trial, eta 2.9 min
+[96/300] W1-5-13: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.86 s/trial, eta 2.9 min
+[97/300] W3-7-3: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.88 s/trial, eta 3.0 min
+[98/300] S1-17: '3' (stop) | 0.87 s/trial, eta 2.9 min
+[99/300] S1-18: '3' (stop) | 0.86 s/trial, eta 2.9 min
+[100/300] S1-10: '3' (stop) | 0.85 s/trial, eta 2.8 min
+[101/300] F-15: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.86 s/trial, eta 2.8 min
+[102/300] S5-19: '3' (stop) | 0.85 s/trial, eta 2.8 min
+[103/300] S6-12: '3' (stop) | 0.84 s/trial, eta 2.8 min
+[104/300] S8-16: '3' (stop) | 0.83 s/trial, eta 2.7 min
+[105/300] S5-1: '3' (stop) | 0.83 s/trial, eta 2.7 min
+[106/300] S8-6: '3' (stop) | 0.82 s/trial, eta 2.7 min
+[107/300] S4-12: '4' (stop) | 0.81 s/trial, eta 2.6 min
+[108/300] S2-20: '3' (stop) | 0.81 s/trial, eta 2.6 min
+[109/300] W1-5-14: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.81 s/trial, eta 2.6 min
+[110/300] F-10: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.81 s/trial, eta 2.6 min
+[111/300] W3-7-20: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.83 s/trial, eta 2.6 min
+[112/300] S6-18: '3' (stop) | 0.82 s/trial, eta 2.6 min
+[113/300] S3-6: '3' (stop) | 0.82 s/trial, eta 2.5 min
+[114/300] W6-10-14: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.83 s/trial, eta 2.6 min
+[115/300] S2-14: '3' (stop) | 0.82 s/trial, eta 2.5 min
+[116/300] S7-15: '3' (stop) | 0.82 s/trial, eta 2.5 min
+[117/300] W1-5-19: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.82 s/trial, eta 2.5 min
+[118/300] S10-3: '3' (stop) | 0.81 s/trial, eta 2.5 min
+[119/300] F-5: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.81 s/trial, eta 2.5 min
+[120/300] S4-19: '4' (stop) | 0.81 s/trial, eta 2.4 min
+[121/300] S10-1: '3' (stop) | 0.80 s/trial, eta 2.4 min
+[122/300] S10-19: '3' (stop) | 0.80 s/trial, eta 2.4 min
+[123/300] S5-13: '3' (stop) | 0.79 s/trial, eta 2.3 min
+[124/300] S9-20: '3' (stop) | 0.79 s/trial, eta 2.3 min
+[125/300] S10-2: '3' (stop) | 0.78 s/trial, eta 2.3 min
+[126/300] S6-20: '3' (stop) | 0.78 s/trial, eta 2.2 min
+[127/300] S10-16: '3' (stop) | 0.77 s/trial, eta 2.2 min
+[128/300] W6-10-11: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.78 s/trial, eta 2.2 min
+[129/300] S3-13: '3' (stop) | 0.78 s/trial, eta 2.2 min
+[130/300] S2-6: '3' (stop) | 0.77 s/trial, eta 2.2 min
+[131/300] S3-19: '3' (stop) | 0.76 s/trial, eta 2.2 min
+[132/300] W3-7-5: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.78 s/trial, eta 2.2 min
+[133/300] S10-17: '3' (stop) | 0.77 s/trial, eta 2.2 min
+[134/300] W3-7-13: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.79 s/trial, eta 2.2 min
+[135/300] G-17: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.79 s/trial, eta 2.2 min
+[136/300] S2-11: '3' (stop) | 0.79 s/trial, eta 2.1 min
+[137/300] G-4: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.79 s/trial, eta 2.1 min
+[138/300] S5-3: '3' (stop) | 0.78 s/trial, eta 2.1 min
+[139/300] S2-5: '3' (stop) | 0.78 s/trial, eta 2.1 min
+[140/300] S4-2: '4' (stop) | 0.77 s/trial, eta 2.1 min
+[141/300] S1-11: '3' (stop) | 0.77 s/trial, eta 2.0 min
+[142/300] S3-11: '3' (stop) | 0.76 s/trial, eta 2.0 min
+[143/300] S10-7: '3' (stop) | 0.76 s/trial, eta 2.0 min
+[144/300] S7-4: '3' (stop) | 0.75 s/trial, eta 2.0 min
+[145/300] G-14: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.75 s/trial, eta 1.9 min
+[146/300] S6-11: '3' (stop) | 0.75 s/trial, eta 1.9 min
+[147/300] W6-10-17: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.76 s/trial, eta 1.9 min
+[148/300] G-5: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.76 s/trial, eta 1.9 min
+[149/300] F-2: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.76 s/trial, eta 1.9 min
+[150/300] W3-7-10: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.77 s/trial, eta 1.9 min
+[151/300] W6-10-1: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.78 s/trial, eta 1.9 min
+[152/300] S5-7: '3' (stop) | 0.78 s/trial, eta 1.9 min
+[153/300] S8-7: '3' (stop) | 0.77 s/trial, eta 1.9 min
+[154/300] S3-9: '3' (stop) | 0.77 s/trial, eta 1.9 min
+[155/300] S2-9: '3' (stop) | 0.76 s/trial, eta 1.8 min
+[156/300] S7-2: '3' (stop) | 0.76 s/trial, eta 1.8 min
+[157/300] S5-20: '3' (stop) | 0.76 s/trial, eta 1.8 min
+[158/300] S2-10: '3' (stop) | 0.75 s/trial, eta 1.8 min
+[159/300] W6-10-7: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.76 s/trial, eta 1.8 min
+[160/300] G-19: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.76 s/trial, eta 1.8 min
+[161/300] S7-20: '3' (stop) | 0.76 s/trial, eta 1.8 min
+[162/300] G-20: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.76 s/trial, eta 1.7 min
+[163/300] S7-14: '3' (stop) | 0.75 s/trial, eta 1.7 min
+[164/300] S10-11: '3' (stop) | 0.75 s/trial, eta 1.7 min
+[165/300] S7-18: '3' (stop) | 0.75 s/trial, eta 1.7 min
+[166/300] S5-12: '3' (stop) | 0.74 s/trial, eta 1.7 min
+[167/300] S3-8: '3' (stop) | 0.74 s/trial, eta 1.6 min
+[168/300] S3-15: '3' (stop) | 0.74 s/trial, eta 1.6 min
+[169/300] G-8: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.74 s/trial, eta 1.6 min
+[170/300] F-9: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.74 s/trial, eta 1.6 min
+[171/300] S9-19: '3' (stop) | 0.73 s/trial, eta 1.6 min
+[172/300] S6-5: '3' (stop) | 0.73 s/trial, eta 1.6 min
+[173/300] W6-10-16: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.74 s/trial, eta 1.6 min
+[174/300] S4-16: '4' (stop) | 0.73 s/trial, eta 1.5 min
+[175/300] S9-16: '3' (stop) | 0.73 s/trial, eta 1.5 min
+[176/300] S7-8: '3' (stop) | 0.73 s/trial, eta 1.5 min
+[177/300] S4-15: '4' (stop) | 0.72 s/trial, eta 1.5 min
+[178/300] G-1: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.72 s/trial, eta 1.5 min
+[179/300] S9-8: '3' (stop) | 0.72 s/trial, eta 1.5 min
+[180/300] S5-2: '3' (stop) | 0.72 s/trial, eta 1.4 min
+[181/300] W1-5-18: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.72 s/trial, eta 1.4 min
+[182/300] W1-5-10: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.72 s/trial, eta 1.4 min
+[183/300] S4-4: '4' (stop) | 0.72 s/trial, eta 1.4 min
+[184/300] S9-9: '3' (stop) | 0.72 s/trial, eta 1.4 min
+[185/300] S1-15: '3' (stop) | 0.71 s/trial, eta 1.4 min
+[186/300] S7-9: '3' (stop) | 0.71 s/trial, eta 1.4 min
+[187/300] F-17: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.71 s/trial, eta 1.3 min
+[188/300] G-11: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.71 s/trial, eta 1.3 min
+[189/300] S6-4: '3' (stop) | 0.71 s/trial, eta 1.3 min
+[190/300] F-11: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.71 s/trial, eta 1.3 min
+[191/300] S3-4: '3' (stop) | 0.71 s/trial, eta 1.3 min
+[192/300] S9-13: '3' (stop) | 0.70 s/trial, eta 1.3 min
+[193/300] S7-3: '3' (stop) | 0.70 s/trial, eta 1.2 min
+[194/300] S9-10: '3' (stop) | 0.70 s/trial, eta 1.2 min
+[195/300] S4-5: '4' (stop) | 0.69 s/trial, eta 1.2 min
+[196/300] G-3: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.70 s/trial, eta 1.2 min
+[197/300] W3-7-1: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.71 s/trial, eta 1.2 min
+[198/300] S1-7: '3' (stop) | 0.70 s/trial, eta 1.2 min
+[199/300] W6-10-4: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.71 s/trial, eta 1.2 min
+[200/300] F-12: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.71 s/trial, eta 1.2 min
+[201/300] G-10: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.71 s/trial, eta 1.2 min
+[202/300] S9-17: '3' (stop) | 0.71 s/trial, eta 1.2 min
+[203/300] W3-7-12: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.72 s/trial, eta 1.2 min
+[204/300] W1-5-5: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.72 s/trial, eta 1.2 min
+[205/300] W6-10-5: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.73 s/trial, eta 1.2 min
+[206/300] S6-9: '3' (stop) | 0.73 s/trial, eta 1.1 min
+[207/300] S2-3: '3' (stop) | 0.72 s/trial, eta 1.1 min
+[208/300] S6-7: '3' (stop) | 0.72 s/trial, eta 1.1 min
+[209/300] S8-9: '3' (stop) | 0.72 s/trial, eta 1.1 min
+[210/300] S4-1: '4' (stop) | 0.71 s/trial, eta 1.1 min
+[211/300] S3-5: '3' (stop) | 0.71 s/trial, eta 1.1 min
+[212/300] S2-19: '3' (stop) | 0.71 s/trial, eta 1.0 min
+[213/300] S3-10: '3' (stop) | 0.71 s/trial, eta 1.0 min
+[214/300] S10-15: '3' (stop) | 0.70 s/trial, eta 1.0 min
+[215/300] S8-5: '3' (stop) | 0.70 s/trial, eta 1.0 min
+[216/300] S3-20: '3' (stop) | 0.70 s/trial, eta 1.0 min
+[217/300] G-9: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.70 s/trial, eta 1.0 min
+[218/300] S8-12: '3' (stop) | 0.69 s/trial, eta 0.9 min
+[219/300] G-18: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.70 s/trial, eta 0.9 min
+[220/300] W1-5-4: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.70 s/trial, eta 0.9 min
+[221/300] W3-7-15: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.71 s/trial, eta 0.9 min
+[222/300] S3-7: '3' (stop) | 0.71 s/trial, eta 0.9 min
+[223/300] S9-1: '3' (stop) | 0.70 s/trial, eta 0.9 min
+[224/300] W1-5-8: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.71 s/trial, eta 0.9 min
+[225/300] W3-7-4: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.71 s/trial, eta 0.9 min
+[226/300] S9-2: '3' (stop) | 0.71 s/trial, eta 0.9 min
+[227/300] S7-16: '3' (stop) | 0.71 s/trial, eta 0.9 min
+[228/300] S8-14: '3' (stop) | 0.71 s/trial, eta 0.8 min
+[229/300] S1-20: '3' (stop) | 0.70 s/trial, eta 0.8 min
+[230/300] S1-1: '3' (stop) | 0.70 s/trial, eta 0.8 min
+[231/300] W3-7-18: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.71 s/trial, eta 0.8 min
+[232/300] S9-15: '3' (stop) | 0.71 s/trial, eta 0.8 min
+[233/300] S5-18: '3' (stop) | 0.70 s/trial, eta 0.8 min
+[234/300] S3-18: '3' (stop) | 0.70 s/trial, eta 0.8 min
+[235/300] S10-6: '3' (stop) | 0.70 s/trial, eta 0.8 min
+[236/300] W6-10-9: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.71 s/trial, eta 0.8 min
+[237/300] S7-1: '3' (stop) | 0.70 s/trial, eta 0.7 min
+[238/300] S2-16: '3' (stop) | 0.70 s/trial, eta 0.7 min
+[239/300] W1-5-20: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.70 s/trial, eta 0.7 min
+[240/300] S7-19: '3' (stop) | 0.70 s/trial, eta 0.7 min
+[241/300] S6-2: '3' (stop) | 0.70 s/trial, eta 0.7 min
+[242/300] F-1: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.70 s/trial, eta 0.7 min
+[243/300] S9-11: '3' (stop) | 0.70 s/trial, eta 0.7 min
+[244/300] S5-4: '3' (stop) | 0.69 s/trial, eta 0.6 min
+[245/300] S8-1: '3' (stop) | 0.69 s/trial, eta 0.6 min
+[246/300] S10-4: '3' (stop) | 0.69 s/trial, eta 0.6 min
+[247/300] S3-1: '3' (stop) | 0.69 s/trial, eta 0.6 min
+[248/300] S7-6: '3' (stop) | 0.68 s/trial, eta 0.6 min
+[249/300] S8-20: '3' (stop) | 0.68 s/trial, eta 0.6 min
+[250/300] S9-5: '3' (stop) | 0.68 s/trial, eta 0.6 min
+[251/300] S2-4: '3' (stop) | 0.68 s/trial, eta 0.6 min
+[252/300] S6-16: '3' (stop) | 0.68 s/trial, eta 0.5 min
+[253/300] S1-2: '3' (stop) | 0.67 s/trial, eta 0.5 min
+[254/300] S2-7: '3' (stop) | 0.67 s/trial, eta 0.5 min
+[255/300] S1-16: '3' (stop) | 0.67 s/trial, eta 0.5 min
+[256/300] W1-5-9: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.67 s/trial, eta 0.5 min
+[257/300] S7-5: '3' (stop) | 0.67 s/trial, eta 0.5 min
+[258/300] S3-12: '3' (stop) | 0.67 s/trial, eta 0.5 min
+[259/300] S4-17: '4' (stop) | 0.66 s/trial, eta 0.5 min
+[260/300] S10-14: '3' (stop) | 0.66 s/trial, eta 0.4 min
+[261/300] S1-12: '3' (stop) | 0.66 s/trial, eta 0.4 min
+[262/300] W3-7-16: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.67 s/trial, eta 0.4 min
+[263/300] S6-3: '3' (stop) | 0.67 s/trial, eta 0.4 min
+[264/300] S5-17: '3' (stop) | 0.66 s/trial, eta 0.4 min
+[265/300] S4-7: '4' (stop) | 0.66 s/trial, eta 0.4 min
+[266/300] S4-10: '4' (stop) | 0.66 s/trial, eta 0.4 min
+[267/300] G-12: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.66 s/trial, eta 0.4 min
+[268/300] S3-2: '3' (stop) | 0.66 s/trial, eta 0.4 min
+[269/300] S2-15: '3' (stop) | 0.66 s/trial, eta 0.3 min
+[270/300] S6-19: '3' (stop) | 0.65 s/trial, eta 0.3 min
+[271/300] S5-9: '3' (stop) | 0.65 s/trial, eta 0.3 min
+[272/300] S5-10: '3' (stop) | 0.65 s/trial, eta 0.3 min
+[273/300] S2-13: '3' (stop) | 0.65 s/trial, eta 0.3 min
+[274/300] S10-12: '3' (stop) | 0.65 s/trial, eta 0.3 min
+[275/300] S10-8: '3' (stop) | 0.64 s/trial, eta 0.3 min
+[276/300] F-4: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.65 s/trial, eta 0.3 min
+[277/300] S3-17: '3' (stop) | 0.64 s/trial, eta 0.2 min
+[278/300] S2-12: '3' (stop) | 0.64 s/trial, eta 0.2 min
+[279/300] W1-5-1: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.64 s/trial, eta 0.2 min
+[280/300] S9-12: '3' (stop) | 0.64 s/trial, eta 0.2 min
+[281/300] S8-18: '3' (stop) | 0.64 s/trial, eta 0.2 min
+[282/300] S6-17: '3' (stop) | 0.64 s/trial, eta 0.2 min
+[283/300] W3-7-9: 'Here is the predicted output for the sequence of 10 simulated die rolls, followe' (stop) | 0.65 s/trial, eta 0.2 min
+[284/300] W1-5-16: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.65 s/trial, eta 0.2 min
+[285/300] S6-13: '3' (stop) | 0.65 s/trial, eta 0.2 min
+[286/300] S10-18: '3' (stop) | 0.64 s/trial, eta 0.2 min
+[287/300] W1-5-2: 'Here is the predicted output for the first 5 integers of the 10 simulated die ro' (stop) | 0.65 s/trial, eta 0.1 min
+[288/300] S8-17: '3' (stop) | 0.64 s/trial, eta 0.1 min
+[289/300] S5-16: '3' (stop) | 0.64 s/trial, eta 0.1 min
+[290/300] S4-20: '4' (stop) | 0.64 s/trial, eta 0.1 min
+[291/300] G-2: '4 2 6 1 3 5 2 4 6 1' (stop) | 0.64 s/trial, eta 0.1 min
+[292/300] S8-10: '3' (stop) | 0.64 s/trial, eta 0.1 min
+[293/300] S9-7: '3' (stop) | 0.64 s/trial, eta 0.1 min
+[294/300] F-6: '3 1 5 2 6 4 3 1 5 2' (stop) | 0.64 s/trial, eta 0.1 min
+[295/300] S10-20: '3' (stop) | 0.64 s/trial, eta 0.1 min
+[296/300] S2-17: '3' (stop) | 0.64 s/trial, eta 0.0 min
+[297/300] W6-10-10: 'Here is the predicted output for the last 5 integers (positions 6 through 10) of' (stop) | 0.64 s/trial, eta 0.0 min
+[298/300] S1-19: '3' (stop) | 0.64 s/trial, eta 0.0 min
+[299/300] S1-3: '3' (stop) | 0.64 s/trial, eta 0.0 min
+[300/300] S4-8: '4' (stop) | 0.63 s/trial, eta 0.0 min
+{"stage": "main", "model": "mistral", "seconds": 208.9}

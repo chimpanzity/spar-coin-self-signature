@@ -82,8 +82,7 @@ def fig2_gf(res: dict, out: Path):
             ax.tick_params(length=0)
         ax = fig.add_subplot(gs[2, c])
         _grid(ax)
-        ax.axhspan(0, r["floor"]["js_bits"], color=GRID, lw=0)
-        ax.text(10.4, r["floor"]["js_bits"], "numerical floor", ha="right", va="bottom", fontsize=7, color=MUTED)
+        ax.axhspan(0, max(r["floor"]["js_bits"], 0.012), color="#c3c2b7", lw=0, label="numerical floor (max JS)")
         mp = r["matched"]["rows"]
         series = [("natural paths (different histories after 1)", [x["js"] for x in nat], INK, "o"),
                   ("matched prefix: G history", [x["js"] for x in mp if x["history"] == "G"], BLUE, "s"),
@@ -96,7 +95,7 @@ def fig2_gf(res: dict, out: Path):
         ax.set_ylabel("JS(G, F), bits")
         ax.set_title(f"{NAME[m]}: G vs F divergence", fontsize=8.5, loc="left", color=INK)
         if c == 0:
-            ax.legend(frameon=False, fontsize=7, loc="upper right")
+            ax.legend(frameon=False, fontsize=7.5, ncol=4, loc="upper left", bbox_to_anchor=(0, -0.28))
     fig.colorbar(im, cax=fig.add_axes([0.92, 0.47, 0.012, 0.4]), label="six-face probability (bold = chosen face)")
     _save(fig, out, "fig2_G_vs_F")
 
@@ -156,7 +155,7 @@ def fig3_scope(res: dict, out: Path):
         ax.set_xlabel("original position")
         ax.set_ylabel("JS, bits (contexts differ)")
         if c == 0:
-            ax.legend(frameon=False, fontsize=7, ncol=2, loc="upper right")
+            ax.legend(frameon=False, fontsize=7.5, ncol=4, loc="upper left", bbox_to_anchor=(0, -0.25))
     _save(fig, out, "fig3_scope_S_W")
 
 
@@ -176,7 +175,8 @@ def fig4_cross(res: dict, out: Path):
             ax.text(v + 0.01, y, f"{v:.3f}", va="center", fontsize=7.5, color=INK2)
         ax.set_yticks(list(ys))
         ax.set_yticklabels([x[0] for x in metrics])
-        ax.invert_yaxis()
+        if ax is axes[0]:
+            ax.invert_yaxis()                     # shared y: invert once
         ax.set_xlim(0, 1)
         ax.set_xlabel("JS(G, F), bits (mean over positions)")
         ax.set_title(NAME[m], fontsize=9, loc="left", color=INK)

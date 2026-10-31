@@ -1,0 +1,6 @@
+pair,position,face_1,face_2,prefix_1,prefix_2,same_face,js,same_top,matched_G_js,matched_G_same_top,matched_F_js,matched_F_same_top
+W1-5 vs W3-7,3,6,4,4 2,,False,0.7893,False,0.3416,False,0.7896,False
+W1-5 vs W3-7,4,3,2,4 2 6,4,False,0.8162,False,0.185,True,0.8911,False
+W1-5 vs W3-7,5,5,6,4 2 6 3,4 2,False,0.4282,False,0.629,False,0.0172,True
+W3-7 vs W6-10,6,3,4,4 2 6,,False,0.3338,False,0.2652,False,0.5384,False
+W3-7 vs W6-10,7,5,2,4 2 6 3,4,False,0.9679,False,0.1108,True,0.3394,False

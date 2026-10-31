@@ -1,0 +1,28 @@
+metric,qwen,mistral
+G greedy sequence,5 2 6 3 1 4 6 2 5 3,4 2 6 1 3 5 2 4 6 1
+F greedy sequence,3 1 4 6 2 5 3 2 6 4,3 1 5 2 6 4 3 1 5 2
+valid outputs (of 300),300,240
+conditions with >1 distinct output,0,0
+"numerical floor, max |dp6|",0.0911,0.0552
+"numerical floor, max JS bits",0.006,0.0028
+G vs F natural: aligned face matches /10,1,0
+G vs F natural: best shift (matches),-3 (7),2 (3)
+G vs F natural: longest common run,7,2
+G vs F position 1 JS bits (same empty history),0.5206,0.1253
+"G vs F natural mean JS, positions 2-10",0.7662,0.7872
+matched prefix on G history: mean JS 2-10,0.0355,0.0178
+matched prefix on G history: top-face disagreements 2-10 (beyond floor),0 (0),1 (0)
+matched prefix on F history: mean JS 2-10,0.108,0.0226
+matched prefix on F history: top-face disagreements 2-10 (beyond floor),4 (4),3 (1)
+S(k) valid /10,10,10
+"S(k) faces, k=1..10",4 4 5 5 4 4 4 4 5 4,3 3 3 4 3 3 3 3 3 3
+S(k) = G(k) /10,2,1
+S(k) = F(k) /10,1,2
+S(k) mean JS vs G(k) / F(k),0.5736 / 0.7064,0.5894 / 0.5331
+W1-5 output,4 2 6 3 5,Here is the predicted output for the first 5 integers of the
+W1-5 = G / F / S faces (of 5),3 / 0 / 1,0 / 0 / 0
+W3-7 output,4 2 6 3 5,Here is the predicted output for the sequence of 10 simulate
+W3-7 = G / F / S faces (of 5),0 / 1 / 0,0 / 0 / 0
+W6-10 output,4 2 5 3 6,Here is the predicted output for the last 5 integers (positi
+W6-10 = G / F / S faces (of 5),1 / 0 / 1,0 / 0 / 0
+window overlaps agreeing (natural),0/5,0/5

@@ -215,7 +215,10 @@ def singles(fp, m, fl) -> dict:
                 mean_js_vs_G=r4(sum(r["vsG_js"] for r in rows) / 10), mean_js_vs_F=r4(sum(r["vsF_js"] for r in rows) / 10),
                 S_face_counts=dict(Counter(faces)), distinct_S_faces=len(set(faces)), mean_S_p=[r4(x) for x in mean_p],
                 mean_S_entropy_bits=r4(sum(entropy_bits(r["S_p"]) for r in rows) / 10),
-                S1_vs_G1_js=rows[0]["vsG_js"], S1_vs_F1_js=rows[0]["vsF_js"])
+                S1_vs_G1_js=rows[0]["vsG_js"], S1_vs_F1_js=rows[0]["vsF_js"],
+                # exploratory (not in the frozen plan): how much S(k) depends on k at all
+                exploratory_mean_pairwise_js_between_S=r4(_mean([js_bits(a["S_p"], b["S_p"]) for i, a in enumerate(rows) for b in rows[i + 1:]])),
+                exploratory_mean_pairwise_js_between_G_positions=r4(_mean([js_bits(g[i]["p"], g[j]["p"]) for i in range(1, 11) for j in range(i + 1, 11)])))
     return dict(rows=rows, summary=summ)
 
 
