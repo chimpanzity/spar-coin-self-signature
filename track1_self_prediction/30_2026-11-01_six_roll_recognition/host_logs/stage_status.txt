@@ -1,0 +1,4 @@
+SETUP_EXIT 0
+chain qwen exit 0
+chain mistral exit 0
+ALL_DONE

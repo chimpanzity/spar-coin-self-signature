@@ -1,0 +1,79 @@
+{
+  "tag": "SPAR_EXP30_SIX_ROLL_RECOGNITION_v1.0",
+  "stage": "main",
+  "model": "qwen",
+  "gates": {
+    "calibration_passed": {
+      "status": "PASS",
+      "detail": {
+        "epsilon": 0.9921874701976776
+      }
+    },
+    "references_equal_exp28": {
+      "status": "PASS",
+      "detail": null
+    },
+    "serving": {
+      "status": "PASS",
+      "detail": {
+        "model_id": "Qwen/Qwen3-32B",
+        "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "driver": "595.91.07",
+        "cuda": "12.8",
+        "torch": "2.11.0+cu128",
+        "transformers": "5.22.0",
+        "accelerate": "1.15.0",
+        "huggingface_hub": "2.4.0",
+        "mistral_common": null,
+        "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "tekken_sha256": null,
+        "code_commit": "0acf376c9925630f38a415f8ff039a9f5e96dc39"
+      }
+    },
+    "prompts": {
+      "status": "PASS",
+      "detail": {
+        "hash_mismatch": [],
+        "model_names_in_prompt": []
+      }
+    },
+    "complete": {
+      "status": "PASS",
+      "detail": {
+        "n": 96,
+        "expected": 96,
+        "tokenwise": 32
+      }
+    },
+    "finite": {
+      "status": "PASS",
+      "detail": {
+        "n_values": 352
+      }
+    },
+    "deterministic_replicates": {
+      "status": "PASS",
+      "detail": {
+        "n_prompts": 32,
+        "differing": {}
+      }
+    },
+    "raw_files_untampered": {
+      "status": "PASS",
+      "detail": {
+        "presentations_sha256": "28234d613f98d4468fbe71406687eec380a632f6d0ee769086c478d963cd228e"
+      }
+    }
+  },
+  "info": {
+    "epsilon": 0.9921874701976776,
+    "main_floor": 0.3730964376591146,
+    "main_floor_exceeds_epsilon": false,
+    "median_mass_AB": 0.9935541888020785,
+    "low_mass_presentations": [],
+    "strict_valid": "93/96",
+    "seconds": 239.9
+  },
+  "overall": "PASS"
+}

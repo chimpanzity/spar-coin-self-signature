@@ -1,0 +1,183 @@
+{
+  "tag": "SPAR_EXP30_SIX_ROLL_RECOGNITION_v1.0",
+  "counts": {
+    "items": 8,
+    "recognition_prompts": 32,
+    "presentations": 64,
+    "self_frame_presentations": 32,
+    "main_calls": 192,
+    "calibration_items": 18,
+    "calibration_prompts": 36,
+    "calibration_calls": 72,
+    "tech_prompts": 4,
+    "tech_calls": 24,
+    "archival_generations": 8,
+    "policy_rows_per_scorer": 144,
+    "distinct_prompt_texts": 72,
+    "all_prompts": 72
+  },
+  "commits": {
+    "freeze": "d9d8f6b",
+    "approvals": "0acf376",
+    "deployed_code": "0acf376c9925630f38a415f8ff039a9f5e96dc39",
+    "results": null
+  },
+  "instance": {
+    "provider": "vast.ai",
+    "instance_id": 58680335,
+    "offer": 53873539,
+    "location": "North Carolina, US",
+    "gpu": "A100-SXM4-80GB",
+    "driver": "595.91.07",
+    "image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime",
+    "created_utc": "2026-11-01T16:14:50Z",
+    "incident": "stopped by itself before setup; restarted once manually; no data affected",
+    "destroyed_utc": "2026-11-01T16:36:46Z",
+    "destroyed_confirmed": "instance absent from `vastai show instances` after destroy"
+  },
+  "cost_usd": {
+    "billed_total": 2.092,
+    "gpu": 0.633,
+    "gpu_hours": 0.355,
+    "disk": 0.077,
+    "download": 1.374,
+    "download_gb": 103.0,
+    "source": "vastai show invoices-v1, 2026-11-01",
+    "cap": 15.0
+  },
+  "environments": {
+    "qwen": {
+      "model_id": "Qwen/Qwen3-32B",
+      "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+      "gpu": "NVIDIA A100-SXM4-80GB",
+      "driver": "595.91.07",
+      "cuda": "12.8",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.22.0",
+      "accelerate": "1.15.0",
+      "huggingface_hub": "2.4.0",
+      "mistral_common": null,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "tekken_sha256": null,
+      "code_commit": "0acf376c9925630f38a415f8ff039a9f5e96dc39",
+      "label_tokens": {
+        "A": {
+          "id": 32,
+          "n_tokens": 1,
+          "text": "A",
+          "space_id": 362
+        },
+        "B": {
+          "id": 33,
+          "n_tokens": 1,
+          "text": "B",
+          "space_id": 425
+        }
+      }
+    },
+    "mistral": {
+      "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+      "gpu": "NVIDIA A100-SXM4-80GB",
+      "driver": "595.91.07",
+      "cuda": "12.8",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.22.0",
+      "accelerate": "1.15.0",
+      "huggingface_hub": "2.4.0",
+      "mistral_common": "1.13.0",
+      "chat_template_sha256": null,
+      "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1",
+      "code_commit": "0acf376c9925630f38a415f8ff039a9f5e96dc39",
+      "label_tokens": {
+        "A": {
+          "id": 1065,
+          "n_tokens": 1,
+          "text": "A",
+          "space_id": 1349
+        },
+        "B": {
+          "id": 1066,
+          "n_tokens": 1,
+          "text": "B",
+          "space_id": 1398
+        }
+      }
+    }
+  },
+  "judge_status": {
+    "qwen": {
+      "preflight": "PASS",
+      "calibration": "PASS",
+      "main": "PASS",
+      "recognition": "ANALYSABLE",
+      "median_main_mass_AB": 0.9935541888020785,
+      "answer_probability_interpretation": "usable"
+    },
+    "mistral": {
+      "preflight": "PASS",
+      "calibration": "PASS",
+      "main": "PASS",
+      "recognition": "ANALYSABLE",
+      "median_main_mass_AB": 0.9439109357046297,
+      "answer_probability_interpretation": "usable"
+    }
+  },
+  "files": {
+    "analysis/calibration_gate.json": "02f3c281f1c5ab4fb5b5245216159e4eb9887d2a12b916d24fb13b41979f28c3",
+    "analysis/crossed_contrasts.csv": "2e2a92833245da91ff392ee574e1afaed40bd83682ca1261a9911e4c9e321be1",
+    "analysis/paired_scores.csv": "f4700b66d925bfda8597aff78244239b61e1cd48974965968e4e68c4bdc8bbf9",
+    "analysis/policy_deltas.csv": "b86cb324886807aeac7bf41f4949d886a4400b3bc778f50bfced75758427ae73",
+    "analysis/policy_likelihoods.csv": "925a66a1f68c1be66a7b1dab774f45463ae1b3f48ff168eab091af8eda37193b",
+    "analysis/recognition_presentations.csv": "148fc1d555153627f499fa0dda6cc821c07c4350c9d436012eaa4953bac1ca40",
+    "analysis/self_vs_neutral_items.csv": "e0f013a70f2cb51dcf817c15b300d70c2f50609e143abef2b1b23c3000d32410",
+    "analysis/summaries.csv": "948687eb130f5517c27c1e640cda40f01c1bceb494166cf97c1e4bdbca1f7149",
+    "analysis/summary.json": "b717c3a4648773a2307b802ece068a8a3401ea1791e110248a2abf6142a0f452",
+    "APPROVALS.md": "a3945921c8f0b286453388ad6d23311d87af3fe121d80a0be471da9c7e12275f",
+    "calibration/mistral/calibration_gate.json": "a9c7575760bfc36050e9ad83af4663bf59548b90be49ba50c131048141b16b03",
+    "calibration/mistral/CALIBRATION_GATE.md": "f7564aaf993f564f1042ed2c5c999f73f6e345dc44c1caffdfd80963347579c5",
+    "calibration/mistral/env_calibration.json": "a00e552274c724078bbc9a6dca8ef45a8eb236fd2af49a82e2640d014c04a6a7",
+    "calibration/mistral/presentations.jsonl": "f71f701e95544f071c1008de88d9721dbb89265fef2f28090c5171e8a38276fe",
+    "calibration/qwen/calibration_gate.json": "bbbe52e398d9f27a652389f575f28eb84be2f00b1910988cae71e57bd0c41d48",
+    "calibration/qwen/CALIBRATION_GATE.md": "fda391112e31d22e4f3610df01a1d463b41eca1932012a3c7ccb99c6d36d3703",
+    "calibration/qwen/env_calibration.json": "962d898e34f438c01a687722b5e20e918e99e3b34b312bbf3aaa54837bb286b5",
+    "calibration/qwen/presentations.jsonl": "07f7a2f5a1ab1b9f9290c5bfe88ad054ea57bd48907bde26db3e9f409ffc0032",
+    "calibration_items.csv": "e2d7d7c83cd2fe005fe0df2ed75bdcf81978055e3d68ec129875439c4a46b285",
+    "conditions.csv": "290d2561b8dbdc289c4edfa30995ba8c45296ac7325623272543c37b146bee19",
+    "DATA_DICTIONARY.md": "dfe503533aa68870511d6c79130596bd6ea528494b8d279e3e5086f7936a8c91",
+    "DECISION_MEMO.md": "20650f612ddd39ce319a6069df92cc5c66084cbafbdf17239e87642a0ff7026d",
+    "host_logs/chain_mistral.log": "2369529429f5f99fb377ad1862024a9bfc2b82ea8fe60fb5019e654128692ee8",
+    "host_logs/chain_qwen.log": "fc7cff95e901f3de4aebe4f049953480a502a2a9ccc4b6934d4419d0b30ed980",
+    "host_logs/driver.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "host_logs/setup.log": "01787ddb581023423a04d9e1744328b8e0f4effd7652eff697841b886b8b14dd",
+    "host_logs/stage_status.txt": "5b0bcdb3ea6bd81257884f5ca4d3bc7459e0180a7e60f2130b276ae124f3e138",
+    "inputs_sha256.json": "2c85be2b28dbdaa34b5d070ff95419ddef851aa87146028e9af4c501fc1245ab",
+    "main/mistral/env_main.json": "b4f8b94f62fc7f75082566d78714c682205c04380955b40c6c6a227a0f67c6b5",
+    "main/mistral/main_checks.json": "79bcb5cc95237d8c67195a883c76663281abaae2680c736e0d4476ada3fb8f25",
+    "main/mistral/MAIN_CHECKS.md": "def0e34bbb39f620142be8f67cc362ec64ec64518867c43b4b1a62e7e4d3a661",
+    "main/mistral/presentations.jsonl": "cfed96d0ffe25f19cc5a7cea6e8cb257462300d376f411fb51e619b17d4675eb",
+    "main/qwen/env_main.json": "118012c0804af0b87c98598004262885d5fdb5321bd8a9fc3b121e3d65a946a8",
+    "main/qwen/main_checks.json": "3e6015cb44cf4b86f58ac03b83a3179cde0a4215a46b4e87ef1ac8b71e95951e",
+    "main/qwen/MAIN_CHECKS.md": "e2e8b86f6e047858f548135346ce06c703ff05f19d68576c8dd2d228d47b5ea2",
+    "main/qwen/presentations.jsonl": "28234d613f98d4468fbe71406687eec380a632f6d0ee769086c478d963cd228e",
+    "manifest_template.json": "4f41898bf981ae4da396d39f2297bfea8aafa020221c08500b86b039cf4b3b20",
+    "policy_benchmark/mistral/policy_teacher_forced.jsonl": "b44149ffea2f3065d2174827b26ae129ce0047a004dc0b655316b81e48bea14b",
+    "policy_benchmark/qwen/policy_teacher_forced.jsonl": "f550ef56572dd1a8b9a6738bbcc542aefabe018b44cd79bec17c2bbdef79f94a",
+    "preflight/mistral/archival.jsonl": "379bc5246d7f5a59d5cabb243f26df61877c745424cfd5f43c22962f03cdaf0c",
+    "preflight/mistral/env_preflight.json": "033e1792ab463bb5c92e8621c23b671a0465151de4830fb36d18371307a6b1c4",
+    "preflight/mistral/preflight_gates.json": "d15ff995f66bedcf0df825972ab46401f19f300d2f6e5ea62f14aebe262a4079",
+    "preflight/mistral/PREFLIGHT_GATES.md": "1275da27c52ba936dcb0ea1d9fd808872289473e322fa1b42a6701256febc25a",
+    "preflight/mistral/presentations.jsonl": "962b46cb6e2d5f896e076041e29cf201ca1438e3fc71d22e9a39297e6210c954",
+    "preflight/qwen/archival.jsonl": "649a4c876cbcd73b557a645a89f6131d1b8e1d05e15287e96cb256a954e83b9c",
+    "preflight/qwen/env_preflight.json": "b65ddc3d39232ef1c913e5d4cad6c2ea1e798a26437612bdf7bc569c5b03b15c",
+    "preflight/qwen/preflight_gates.json": "c70e49642f5f3a8a92f0810de421d5d4a3aa35954254927adda5d629964e5ec8",
+    "preflight/qwen/PREFLIGHT_GATES.md": "cd9bb36a49fb95a4f4f1ffdf38c7157881942fbcd8aab7e0308239d00cc1be02",
+    "preflight/qwen/presentations.jsonl": "b67d3178d1aca2f548e21ebb468ad7d9bee97de188d7ad389ff5199059c802b7",
+    "prompts_frozen.md": "6fc4e634d3c3ed128a688db3f0815c8cb7794dbc64f33403a757b7ae9965cb26",
+    "PROTOCOL_FROZEN.md": "0166df452ac97099e7de5968cf4daf94160ca63bb4e480073a1c74f61610cdf6",
+    "README.md": "fab5aeb291f95940aada63dcd851c53c94cae9d9fee75ceb447718dafbe8be29",
+    "REPORT.md": "e3916c4a467c46f04114fd212c6ff291aa48654471cdca79457144e33045174d",
+    "stage_status_mistral.txt": "49abb474c23542e07e235f0fd9dbf83ee49b2ebc33224d18b2556b3df3fd2e7f",
+    "stage_status_qwen.txt": "916ffe450f77cada28cb327317ab5c0edc961e26cbd465f0069796ce04922ab7"
+  }
+}

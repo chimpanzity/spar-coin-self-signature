@@ -1,0 +1,153 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/585 [00:00<?, ?it/s]Loading weights:   0%|          | 1/585 [00:00<01:19,  7.38it/s]Loading weights:   0%|          | 2/585 [00:00<01:33,  6.22it/s]Loading weights:   1%|          | 6/585 [00:00<00:35, 16.48it/s]Loading weights:   2%|▏         | 14/585 [00:00<00:15, 35.77it/s]Loading weights:   4%|▍         | 22/585 [00:00<00:11, 46.96it/s]Loading weights:   5%|▍         | 28/585 [00:00<00:11, 48.26it/s]Loading weights:   6%|▌         | 34/585 [00:00<00:12, 45.24it/s]Loading weights:   7%|▋         | 42/585 [00:01<00:10, 49.83it/s]Loading weights:   9%|▊         | 50/585 [00:01<00:09, 56.39it/s]Loading weights:  10%|▉         | 58/585 [00:01<00:08, 58.57it/s]Loading weights:  11%|█         | 64/585 [00:01<00:09, 57.25it/s]Loading weights:  12%|█▏        | 70/585 [00:01<00:09, 51.69it/s]Loading weights:  13%|█▎        | 77/585 [00:01<00:09, 53.88it/s]Loading weights:  15%|█▍        | 85/585 [00:01<00:08, 58.77it/s]Loading weights:  16%|█▌        | 91/585 [00:01<00:08, 56.55it/s]Loading weights:  17%|█▋        | 97/585 [00:02<00:09, 50.34it/s]Loading weights:  18%|█▊        | 103/585 [00:02<00:09, 51.38it/s]Loading weights:  19%|█▉        | 112/585 [00:02<00:08, 54.34it/s]Loading weights:  21%|██        | 121/585 [00:02<00:08, 53.53it/s]Loading weights:  22%|██▏       | 130/585 [00:02<00:07, 61.07it/s]Loading weights:  23%|██▎       | 137/585 [00:02<00:07, 61.64it/s]Loading weights:  25%|██▍       | 144/585 [00:02<00:07, 56.35it/s]Loading weights:  26%|██▌       | 150/585 [00:03<00:08, 50.96it/s]Loading weights:  27%|██▋       | 158/585 [00:03<00:07, 56.98it/s]Loading weights:  28%|██▊       | 166/585 [00:03<00:06, 60.57it/s]Loading weights:  30%|██▉       | 173/585 [00:03<00:06, 59.56it/s]Loading weights:  31%|███       | 180/585 [00:03<00:07, 55.07it/s]Loading weights:  32%|███▏      | 186/585 [00:03<00:08, 49.34it/s]Loading weights:  33%|███▎      | 194/585 [00:03<00:07, 50.03it/s]Loading weights:  35%|███▍      | 203/585 [00:03<00:06, 57.71it/s]Loading weights:  36%|███▌      | 211/585 [00:04<00:06, 61.80it/s]Loading weights:  37%|███▋      | 218/585 [00:04<00:05, 62.18it/s]Loading weights:  38%|███▊      | 225/585 [00:04<00:06, 57.18it/s]Loading weights:  39%|███▉      | 231/585 [00:04<00:06, 52.19it/s]Loading weights:  41%|████      | 240/585 [00:04<00:06, 54.82it/s]Loading weights:  43%|████▎     | 249/585 [00:04<00:05, 57.27it/s]Loading weights:  44%|████▍     | 257/585 [00:04<00:05, 62.20it/s]Loading weights:  45%|████▌     | 265/585 [00:04<00:04, 66.19it/s]Loading weights:  46%|████▋     | 272/585 [00:05<00:04, 66.39it/s]Loading weights:  48%|████▊     | 279/585 [00:05<00:05, 59.52it/s]Loading weights:  49%|████▉     | 286/585 [00:05<00:05, 52.63it/s]Loading weights:  50%|█████     | 294/585 [00:05<00:05, 52.42it/s]Loading weights:  52%|█████▏    | 302/585 [00:05<00:05, 56.16it/s]Loading weights:  53%|█████▎    | 310/585 [00:05<00:04, 58.03it/s]Loading weights:  54%|█████▍    | 316/585 [00:05<00:05, 52.22it/s]Loading weights:  55%|█████▌    | 322/585 [00:06<00:04, 53.35it/s]Loading weights:  56%|█████▌    | 329/585 [00:06<00:04, 54.93it/s]Loading weights:  58%|█████▊    | 337/585 [00:06<00:04, 58.35it/s]Loading weights:  59%|█████▊    | 343/585 [00:06<00:04, 56.86it/s]Loading weights:  60%|█████▉    | 349/585 [00:06<00:04, 52.72it/s]Loading weights:  61%|██████    | 356/585 [00:06<00:04, 56.18it/s]Loading weights:  71%|███████   | 416/585 [00:06<00:00, 199.49it/s]Loading weights:  94%|█████████▎| 548/585 [00:06<00:00, 504.69it/s]Loading weights: 100%|██████████| 585/585 [00:06<00:00, 85.54it/s] 
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+loaded mistral in 12.0 s; labels {'A': {'id': 1065, 'n_tokens': 1, 'text': 'A', 'space_id': 1349}, 'B': {'id': 1066, 'n_tokens': 1, 'text': 'B', 'space_id': 1398}}
+[preflight 1/12] tech-selfframe-o1-3: d=+3.218 mass=0.944 'A' | 0.10 s/call
+[preflight 2/12] tech-selfframe-o1-2: d=+3.218 mass=0.944 'A' | 0.10 s/call
+[preflight 3/12] tech-selfframe-o2-1: d=+3.267 mass=0.954 'A' | 1.19 s/call
+[preflight 4/12] tech-arith-o1-1: d=+12.334 mass=0.975 'A' | 1.38 s/call
+[preflight 5/12] tech-arith-o2-1: d=-9.928 mass=1.000 'B' | 1.50 s/call
+[preflight 6/12] tech-selfframe-o1-1: d=+3.218 mass=0.944 'A' | 1.80 s/call
+[preflight 7/12] tech-arith-o2-3: d=-9.928 mass=1.000 'B' | 1.56 s/call
+[preflight 8/12] tech-arith-o1-3: d=+12.334 mass=0.975 'A' | 1.38 s/call
+[preflight 9/12] tech-arith-o1-2: d=+12.334 mass=0.975 'A' | 1.23 s/call
+[preflight 10/12] tech-selfframe-o2-2: d=+3.267 mass=0.954 'A' | 1.12 s/call
+[preflight 11/12] tech-selfframe-o2-3: d=+3.267 mass=0.954 'A' | 1.03 s/call
+[preflight 12/12] tech-arith-o2-2: d=-9.928 mass=1.000 'B' | 0.95 s/call
+preflight mistral PASS
+[calibration 1/36] cal-order56-2-o1-1: d=+5.446 mass=0.934 'A' | 3.08 s/call
+[calibration 2/36] cal-all_faces-1-o2-1: d=-4.045 mass=0.990 'B' | 3.09 s/call
+[calibration 3/36] cal-order56-5-o2-1: d=+3.523 mass=0.827 'A' | 3.08 s/call
+[calibration 4/36] cal-order56-3-o2-1: d=+2.892 mass=0.836 'A' | 3.07 s/call
+[calibration 5/36] cal-all_faces-2-o2-1: d=-3.310 mass=0.982 'B' | 3.08 s/call
+[calibration 6/36] cal-all_faces-6-o2-1: d=-3.047 mass=0.987 'B' | 3.09 s/call
+[calibration 7/36] cal-order56-5-o1-1: d=+5.823 mass=0.901 'A' | 3.09 s/call
+[calibration 8/36] cal-last_digit-6-o1-1: d=+9.957 mass=0.996 'A' | 3.06 s/call
+[calibration 9/36] cal-last_digit-3-o1-1: d=+7.485 mass=0.995 'A' | 3.04 s/call
+[calibration 10/36] cal-order56-3-o1-1: d=+6.113 mass=0.939 'A' | 3.04 s/call
+[calibration 11/36] cal-order56-6-o1-1: d=+6.384 mass=0.908 'A' | 3.04 s/call
+[calibration 12/36] cal-last_digit-5-o1-1: d=+7.364 mass=0.995 'A' | 3.03 s/call
+[calibration 13/36] cal-order56-6-o2-1: d=+4.004 mass=0.840 'A' | 3.03 s/call
+[calibration 14/36] cal-order56-4-o2-1: d=+2.417 mass=0.797 'A' | 3.03 s/call
+[calibration 15/36] cal-order56-2-o2-1: d=+3.274 mass=0.840 'A' | 3.03 s/call
+[calibration 16/36] cal-order56-1-o2-1: d=+2.620 mass=0.896 'A' | 3.03 s/call
+[calibration 17/36] cal-last_digit-5-o2-1: d=-6.135 mass=0.993 'B' | 3.02 s/call
+[calibration 18/36] cal-all_faces-2-o1-1: d=+11.695 mass=0.998 'A' | 3.02 s/call
+[calibration 19/36] cal-last_digit-4-o1-1: d=+9.367 mass=0.996 'A' | 3.02 s/call
+[calibration 20/36] cal-all_faces-1-o1-1: d=+11.350 mass=0.997 'A' | 3.02 s/call
+[calibration 21/36] cal-last_digit-3-o2-1: d=-5.234 mass=0.995 'B' | 3.01 s/call
+[calibration 22/36] cal-last_digit-2-o2-1: d=-3.162 mass=0.990 'B' | 3.01 s/call
+[calibration 23/36] cal-last_digit-6-o2-1: d=-7.517 mass=0.995 'B' | 3.00 s/call
+[calibration 24/36] cal-all_faces-5-o2-1: d=-4.322 mass=0.989 'B' | 3.01 s/call
+[calibration 25/36] cal-all_faces-5-o1-1: d=+11.409 mass=0.998 'A' | 3.01 s/call
+[calibration 26/36] cal-all_faces-4-o1-1: d=+12.036 mass=0.997 'A' | 3.01 s/call
+[calibration 27/36] cal-last_digit-1-o1-1: d=+8.701 mass=0.996 'A' | 3.01 s/call
+[calibration 28/36] cal-last_digit-2-o1-1: d=+7.037 mass=0.995 'A' | 3.00 s/call
+[calibration 29/36] cal-all_faces-3-o1-1: d=+11.184 mass=0.998 'A' | 3.01 s/call
+[calibration 30/36] cal-last_digit-4-o2-1: d=-7.795 mass=0.996 'B' | 3.00 s/call
+[calibration 31/36] cal-all_faces-6-o1-1: d=+11.820 mass=0.997 'A' | 3.00 s/call
+[calibration 32/36] cal-last_digit-1-o2-1: d=-7.377 mass=0.995 'B' | 3.00 s/call
+[calibration 33/36] cal-all_faces-4-o2-1: d=-3.151 mass=0.985 'B' | 3.00 s/call
+[calibration 34/36] cal-order56-4-o1-1: d=+5.425 mass=0.901 'A' | 3.01 s/call
+[calibration 35/36] cal-all_faces-3-o2-1: d=-3.847 mass=0.987 'B' | 3.01 s/call
+[calibration 36/36] cal-order56-1-o1-1: d=+5.507 mass=0.914 'A' | 3.01 s/call
+calibration mistral PASS
+[main 1/96] self-qwen-F-repeat-o1-2: d=+2.314 mass=0.981 'A' | 0.10 s/call
+[main 2/96] neutral-mistral-G-swap-o1-3: d=+1.223 mass=0.933 'A' | 0.10 s/call
+[main 3/96] neutral-mistral-G-repeat-o1-3: d=+0.314 mass=0.990 'A' | 0.10 s/call
+[main 4/96] neutral-mistral-F-repeat-o2-2: d=+0.526 mass=0.927 'A' | 0.10 s/call
+[main 5/96] self-qwen-G-repeat-o1-1: d=+2.803 mass=0.987 'A' | 0.76 s/call
+[main 6/96] self-mistral-F-swap-o1-2: d=+3.024 mass=0.950 'A' | 0.65 s/call
+[main 7/96] self-qwen-G-swap-o2-3: d=+2.752 mass=0.937 'A' | 0.57 s/call
+[main 8/96] self-qwen-G-repeat-o2-1: d=+0.260 mass=0.930 'A' | 0.92 s/call
+[main 9/96] neutral-qwen-F-swap-o2-3: d=+1.675 mass=0.935 'A' | 0.83 s/call
+[main 10/96] self-mistral-F-swap-o2-1: d=+2.676 mass=0.940 'A' | 1.08 s/call
+[main 11/96] self-mistral-F-swap-o1-1: d=+3.024 mass=0.950 'A' | 1.28 s/call
+[main 12/96] neutral-qwen-G-swap-o1-3: d=+1.324 mass=0.942 'A' | 1.19 s/call
+[main 13/96] neutral-qwen-G-swap-o2-3: d=+1.288 mass=0.925 'A' | 1.10 s/call
+[main 14/96] neutral-mistral-F-swap-o1-3: d=+1.702 mass=0.951 'A' | 1.03 s/call
+[main 15/96] neutral-qwen-G-repeat-o2-1: d=+0.114 mass=0.944 'A' | 1.18 s/call
+[main 16/96] self-mistral-G-repeat-o1-3: d=+1.413 mass=0.984 'A' | 1.11 s/call
+[main 17/96] self-qwen-F-repeat-o2-3: d=+2.478 mass=0.964 'A' | 1.05 s/call
+[main 18/96] neutral-qwen-F-repeat-o2-2: d=+1.821 mass=0.968 'A' | 1.00 s/call
+[main 19/96] neutral-qwen-F-repeat-o1-3: d=+1.067 mass=0.988 'A' | 0.95 s/call
+[main 20/96] neutral-qwen-G-repeat-o1-1: d=+1.554 mass=0.990 'A' | 1.07 s/call
+[main 21/96] neutral-mistral-F-swap-o1-1: d=+1.702 mass=0.951 'A' | 1.17 s/call
+[main 22/96] neutral-mistral-G-swap-o1-1: d=+1.223 mass=0.933 'A' | 1.26 s/call
+[main 23/96] self-mistral-F-repeat-o1-3: d=+2.005 mass=0.978 'A' | 1.21 s/call
+[main 24/96] self-mistral-F-repeat-o2-2: d=+1.030 mass=0.924 'A' | 1.17 s/call
+[main 25/96] self-mistral-G-swap-o1-2: d=+2.505 mass=0.940 'A' | 1.12 s/call
+[main 26/96] neutral-mistral-F-swap-o1-2: d=+1.702 mass=0.951 'A' | 1.08 s/call
+[main 27/96] neutral-mistral-G-swap-o1-2: d=+1.223 mass=0.933 'A' | 1.05 s/call
+[main 28/96] self-qwen-G-swap-o1-2: d=+2.639 mass=0.942 'A' | 1.01 s/call
+[main 29/96] self-qwen-F-repeat-o1-3: d=+2.314 mass=0.981 'A' | 0.98 s/call
+[main 30/96] self-mistral-G-swap-o2-2: d=+2.511 mass=0.940 'A' | 0.95 s/call
+[main 31/96] self-mistral-G-repeat-o2-1: d=+0.970 mass=0.956 'A' | 1.03 s/call
+[main 32/96] neutral-mistral-G-repeat-o2-1: d=+0.776 mass=0.972 'A' | 1.10 s/call
+[main 33/96] self-mistral-G-repeat-o1-1: d=+1.413 mass=0.984 'A' | 1.17 s/call
+[main 34/96] neutral-qwen-F-repeat-o2-3: d=+1.821 mass=0.968 'A' | 1.13 s/call
+[main 35/96] self-mistral-G-repeat-o2-2: d=+0.970 mass=0.956 'A' | 1.10 s/call
+[main 36/96] neutral-qwen-G-repeat-o2-2: d=+0.114 mass=0.944 'A' | 1.08 s/call
+[main 37/96] self-qwen-G-repeat-o1-2: d=+2.803 mass=0.987 'A' | 1.05 s/call
+[main 38/96] self-qwen-G-swap-o1-1: d=+2.639 mass=0.942 'A' | 1.11 s/call
+[main 39/96] self-qwen-G-repeat-o1-3: d=+2.803 mass=0.987 'A' | 1.08 s/call
+[main 40/96] neutral-mistral-G-swap-o2-2: d=+1.162 mass=0.939 'A' | 1.06 s/call
+[main 41/96] neutral-qwen-F-swap-o1-3: d=+1.952 mass=0.944 'A' | 1.04 s/call
+[main 42/96] neutral-mistral-F-swap-o2-3: d=+1.191 mass=0.935 'A' | 1.01 s/call
+[main 43/96] self-qwen-F-swap-o2-2: d=+2.840 mass=0.938 'A' | 0.99 s/call
+[main 44/96] neutral-qwen-G-repeat-o2-3: d=+0.114 mass=0.944 'A' | 0.97 s/call
+[main 45/96] neutral-mistral-G-swap-o2-1: d=+1.162 mass=0.939 'A' | 1.02 s/call
+[main 46/96] self-qwen-F-repeat-o2-1: d=+2.478 mass=0.964 'A' | 1.07 s/call
+[main 47/96] neutral-qwen-G-swap-o2-1: d=+1.288 mass=0.925 'A' | 1.12 s/call
+[main 48/96] self-mistral-G-repeat-o2-3: d=+0.970 mass=0.956 'A' | 1.10 s/call
+[main 49/96] neutral-qwen-G-swap-o1-2: d=+1.324 mass=0.942 'A' | 1.08 s/call
+[main 50/96] neutral-mistral-G-repeat-o1-1: d=+0.314 mass=0.990 'A' | 1.12 s/call
+[main 51/96] self-qwen-F-swap-o1-1: d=+3.295 mass=0.946 'A' | 1.16 s/call
+[main 52/96] self-qwen-G-swap-o2-2: d=+2.752 mass=0.937 'A' | 1.14 s/call
+[main 53/96] self-mistral-G-swap-o2-1: d=+2.511 mass=0.940 'A' | 1.18 s/call
+[main 54/96] self-qwen-G-repeat-o2-2: d=+0.260 mass=0.930 'A' | 1.16 s/call
+[main 55/96] self-qwen-F-swap-o2-3: d=+2.840 mass=0.938 'A' | 1.14 s/call
+[main 56/96] self-mistral-F-repeat-o1-1: d=+2.005 mass=0.978 'A' | 1.18 s/call
+[main 57/96] self-mistral-F-swap-o2-2: d=+2.676 mass=0.940 'A' | 1.16 s/call
+[main 58/96] neutral-qwen-G-repeat-o1-3: d=+1.554 mass=0.990 'A' | 1.15 s/call
+[main 59/96] self-mistral-F-repeat-o2-3: d=+1.030 mass=0.924 'A' | 1.13 s/call
+[main 60/96] neutral-mistral-G-repeat-o2-2: d=+0.776 mass=0.972 'A' | 1.11 s/call
+[main 61/96] neutral-qwen-F-swap-o1-2: d=+1.952 mass=0.944 'A' | 1.09 s/call
+[main 62/96] neutral-mistral-F-repeat-o1-1: d=+0.888 mass=0.984 'A' | 1.13 s/call
+[main 63/96] self-qwen-F-repeat-o1-1: d=+2.314 mass=0.981 'A' | 1.16 s/call
+[main 64/96] neutral-mistral-F-repeat-o1-3: d=+0.888 mass=0.984 'A' | 1.15 s/call
+[main 65/96] neutral-qwen-G-swap-o2-2: d=+1.288 mass=0.925 'A' | 1.13 s/call
+[main 66/96] self-mistral-G-swap-o1-1: d=+2.505 mass=0.940 'A' | 1.16 s/call
+[main 67/96] self-mistral-F-swap-o2-3: d=+2.676 mass=0.940 'A' | 1.15 s/call
+[main 68/96] self-qwen-F-swap-o1-2: d=+3.295 mass=0.946 'A' | 1.13 s/call
+[main 69/96] self-qwen-G-swap-o1-3: d=+2.639 mass=0.942 'A' | 1.12 s/call
+[main 70/96] neutral-mistral-G-repeat-o2-3: d=+0.776 mass=0.972 'A' | 1.10 s/call
+[main 71/96] self-mistral-F-repeat-o1-2: d=+2.005 mass=0.978 'A' | 1.09 s/call
+[main 72/96] self-qwen-F-swap-o2-1: d=+2.840 mass=0.938 'A' | 1.12 s/call
+[main 73/96] neutral-mistral-F-swap-o2-2: d=+1.191 mass=0.935 'A' | 1.11 s/call
+[main 74/96] neutral-qwen-F-repeat-o1-2: d=+1.067 mass=0.988 'A' | 1.09 s/call
+[main 75/96] self-qwen-G-repeat-o2-3: d=+0.260 mass=0.930 'A' | 1.08 s/call
+[main 76/96] self-mistral-F-swap-o1-3: d=+3.024 mass=0.950 'A' | 1.07 s/call
+[main 77/96] neutral-qwen-F-repeat-o1-1: d=+1.067 mass=0.988 'A' | 1.10 s/call
+[main 78/96] self-qwen-G-swap-o2-1: d=+2.752 mass=0.937 'A' | 1.12 s/call
+[main 79/96] neutral-mistral-G-repeat-o1-2: d=+0.314 mass=0.990 'A' | 1.11 s/call
+[main 80/96] neutral-mistral-F-swap-o2-1: d=+1.191 mass=0.935 'A' | 1.14 s/call
+[main 81/96] neutral-qwen-F-swap-o2-1: d=+1.675 mass=0.935 'A' | 1.16 s/call
+[main 82/96] self-mistral-G-swap-o2-3: d=+2.511 mass=0.940 'A' | 1.15 s/call
+[main 83/96] neutral-mistral-F-repeat-o2-1: d=+0.526 mass=0.927 'A' | 1.18 s/call
+[main 84/96] neutral-qwen-F-repeat-o2-1: d=+1.821 mass=0.968 'A' | 1.20 s/call
+[main 85/96] neutral-qwen-F-swap-o1-1: d=+1.952 mass=0.944 'A' | 1.22 s/call
+[main 86/96] self-qwen-F-repeat-o2-2: d=+2.478 mass=0.964 'A' | 1.21 s/call
+[main 87/96] self-mistral-F-repeat-o2-1: d=+1.030 mass=0.924 'A' | 1.23 s/call
+[main 88/96] neutral-qwen-G-repeat-o1-2: d=+1.554 mass=0.990 'A' | 1.22 s/call
+[main 89/96] neutral-mistral-F-repeat-o1-2: d=+0.888 mass=0.984 'A' | 1.21 s/call
+[main 90/96] self-qwen-F-swap-o1-3: d=+3.295 mass=0.946 'A' | 1.20 s/call
+[main 91/96] neutral-mistral-G-swap-o2-3: d=+1.162 mass=0.939 'A' | 1.19 s/call
+[main 92/96] self-mistral-G-repeat-o1-2: d=+1.413 mass=0.984 'A' | 1.17 s/call
+[main 93/96] neutral-qwen-G-swap-o1-1: d=+1.324 mass=0.942 'A' | 1.20 s/call
+[main 94/96] neutral-mistral-F-repeat-o2-3: d=+0.526 mass=0.927 'A' | 1.18 s/call
+[main 95/96] neutral-qwen-F-swap-o2-2: d=+1.675 mass=0.935 'A' | 1.17 s/call
+[main 96/96] self-mistral-G-swap-o1-3: d=+2.505 mass=0.940 'A' | 1.16 s/call
+main mistral PASS
+DONE mistral
+{"stage": "chain", "model": "mistral", "seconds": 256.1}

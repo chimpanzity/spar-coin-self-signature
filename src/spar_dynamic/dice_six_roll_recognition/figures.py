@@ -105,10 +105,10 @@ def fig2_swap_scores(res, out: Path, foil="swap", name="fig2_swap_scores"):
         h = [Line2D([], [], color=COL[m], marker=MK[m], ls="none", ms=8, label=f"{NAME[m]} judge: S") for m in C.MODELS] + \
             [Line2D([], [], color=INK2, marker="o", mfc="white", ls="none", ms=5, label="s1 (authentic = A), s2 (authentic = B)"),
              plt.Rectangle((0, 0), 1, 1, color=GREY, alpha=0.2, label="within +/- epsilon")]
-        axes[0][1].legend(handles=h, fontsize=7, frameon=False, loc="best")
+        fig.legend(handles=h, fontsize=7.5, frameon=False, loc="lower center", ncol=4)
     fig.suptitle(f"{foil.upper()} foil: each judge's preference for the authentic ending, by source, frame and order "
                  "(positive = authentic)", fontsize=10, x=0.01, ha="left", color=INK)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
     _save(fig, out, name)
 
 
@@ -133,6 +133,7 @@ def fig3_contrasts(res, out: Path):
         ax.set_xticks(range(len(groups)))
         ax.set_xticklabels([f"{foil} D_{i}" for foil, i in groups], fontsize=8.5)
         ax.set_ylabel("D (log-odds; positive = own-source advantage)")
+        ax.margins(y=0.15)
         h = [plt.Rectangle((0, 0), 1, 1, color=c, alpha=a) for _, c, a in frames]
         ax.legend(h, ["self frame", "neutral frame", "self - neutral"], fontsize=7.5, frameon=False)
     ax.set_title("Crossed diagonal advantage D = 0.5[(S_QQ - S_MQ) + (S_MM - S_QM)]; descriptive, one string per source",

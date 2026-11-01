@@ -1,0 +1,17 @@
+judge,item_id,diagonal,foil_type,S_self,S_neutral,S_self_minus_neutral,cls_self,cls_neutral
+mistral,mistral-F-repeat,True,repeat,0.48757073283195496,0.18114665150642395,0.306424081325531,mixed_or_tied,mixed_or_tied
+mistral,mistral-F-swap,True,swap,0.17396359518170357,0.25556661933660507,-0.0816030241549015,mixed_or_tied,mixed_or_tied
+mistral,mistral-G-repeat,True,repeat,0.22160723060369492,-0.2312011569738388,0.4528083875775337,mixed_or_tied,mixed_or_tied
+mistral,mistral-G-swap,True,swap,-0.0028104931116104126,0.030483245849609375,-0.03329373896121979,mixed_or_tied,mixed_or_tied
+mistral,qwen-F-repeat,False,repeat,-0.08210088685154915,-0.3770007938146591,0.29489990696310997,mixed_or_tied,mixed_or_tied
+mistral,qwen-F-swap,False,swap,0.22742754966020584,0.1384153664112091,0.08901218324899673,mixed_or_tied,mixed_or_tied
+mistral,qwen-G-repeat,False,repeat,1.2718657925724983,0.720431350171566,0.5514344424009323,mixed_or_tied,mixed_or_tied
+mistral,qwen-G-swap,False,swap,-0.05649565905332565,0.01770596206188202,-0.07420162111520767,mixed_or_tied,mixed_or_tied
+qwen,mistral-F-repeat,False,repeat,5.63683141535148,1.8820952684618533,3.754736146889627,consistent_target,mixed_or_tied
+qwen,mistral-F-swap,False,swap,0.3397273529553786,0.2499273307621479,0.08980002219323069,mixed_or_tied,mixed_or_tied
+qwen,mistral-G-repeat,False,repeat,3.9948310495819896,0.9467696519568563,3.0480613976251334,mixed_or_tied,mixed_or_tied
+qwen,mistral-G-swap,False,swap,0.08876796020194888,0.2238234905526042,-0.13505553035065532,mixed_or_tied,mixed_or_tied
+qwen,qwen-F-repeat,True,repeat,3.9007894622627646,1.3692320552654564,2.531557406997308,mixed_or_tied,mixed_or_tied
+qwen,qwen-F-swap,True,swap,0.3323442416731268,0.009799912106245756,0.32254432956688106,mixed_or_tied,mixed_or_tied
+qwen,qwen-G-repeat,True,repeat,3.6796855363063514,1.1607302445918322,2.5189552917145193,mixed_or_tied,mixed_or_tied
+qwen,qwen-G-swap,True,swap,-0.5166204490233213,-0.17291630385443568,-0.3437041451688856,mixed_or_tied,mixed_or_tied
