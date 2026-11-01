@@ -1,0 +1,29 @@
+{
+  "tag": "SPAR_EXP30_SIX_ROLL_RECOGNITION_v1.0",
+  "counts": {
+    "items": 8,
+    "recognition_prompts": 32,
+    "presentations": 64,
+    "self_frame_presentations": 32,
+    "main_calls": 192,
+    "calibration_items": 18,
+    "calibration_prompts": 36,
+    "calibration_calls": 72,
+    "tech_prompts": 4,
+    "tech_calls": 24,
+    "archival_generations": 8,
+    "policy_rows_per_scorer": 144,
+    "distinct_prompt_texts": 72,
+    "all_prompts": 72
+  },
+  "commits": {
+    "freeze": null,
+    "approvals": null,
+    "results": null
+  },
+  "instance": null,
+  "cost_usd": null,
+  "environments": null,
+  "judge_status": null,
+  "files": null
+}
