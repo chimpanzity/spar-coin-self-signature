@@ -75,6 +75,7 @@ T2_EXP = {
     "noise_label":           T2 / "19_2026-10-27_paint_circle_noise_label_predictability",
     "noise_label_rep":       T2 / "20_2026-10-27_paint_circle_noise_label_replication",
     "forecast_prediction":   T2 / "21_2026-11-04_blind_twin_forecast_prediction",
+    "blind_coder":           T2 / "22_2026-11-04_first_level_blind_coder",
 }
 EXP = {**T1_EXP, **T2_EXP}
 
