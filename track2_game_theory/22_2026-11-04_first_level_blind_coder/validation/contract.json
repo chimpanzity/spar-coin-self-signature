@@ -1,0 +1,582 @@
+{
+  "b01_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.62,
+    "round1_p2": 0.42,
+    "len19_outputs": [
+      0.15,
+      0.15
+    ],
+    "distinct_outputs": 45
+  },
+  "b01_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.54,
+    "round1_p2": 0.48,
+    "len19_outputs": [
+      0.7551844629490487,
+      0.6495573252908209
+    ],
+    "distinct_outputs": 86
+  },
+  "b01_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.62,
+    "round1_p2": 0.58,
+    "len19_outputs": [
+      0.85,
+      0.15
+    ],
+    "distinct_outputs": 75
+  },
+  "b01_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.66,
+    "round1_p2": 0.35,
+    "len19_outputs": [
+      0.8229276531831125,
+      0.1804380114895046
+    ],
+    "distinct_outputs": 84
+  },
+  "b02_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.64,
+    "round1_p2": 0.58,
+    "len19_outputs": [
+      0.4387499999999999,
+      0.2262499999999999
+    ],
+    "distinct_outputs": 82
+  },
+  "b02_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.6,
+    "round1_p2": 0.55,
+    "len19_outputs": [
+      0.331,
+      0.277
+    ],
+    "distinct_outputs": 58
+  },
+  "b02_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.43,
+    "len19_outputs": [
+      0.857059279554294,
+      0.1433795955896562
+    ],
+    "distinct_outputs": 86
+  },
+  "b02_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.57,
+    "round1_p2": 0.46,
+    "len19_outputs": [
+      0.7165068610923121,
+      0.2843879697819346
+    ],
+    "distinct_outputs": 83
+  },
+  "b03_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.5621765008857981,
+    "round1_p2": 0.5621765008857981,
+    "len19_outputs": [
+      0.41338242108267,
+      0.12
+    ],
+    "distinct_outputs": 77
+  },
+  "b03_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.58,
+    "round1_p2": 0.46,
+    "len19_outputs": [
+      0.7304623523854936,
+      0.2705764889786647
+    ],
+    "distinct_outputs": 86
+  },
+  "b03_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.62,
+    "round1_p2": 0.4,
+    "len19_outputs": [
+      0.8480705012587058,
+      0.15622524914970293
+    ],
+    "distinct_outputs": 86
+  },
+  "b03_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.6,
+    "len19_outputs": [
+      0.18,
+      0.18
+    ],
+    "distinct_outputs": 66
+  },
+  "b04_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.55,
+    "round1_p2": 0.45,
+    "len19_outputs": [
+      0.7276280113073818,
+      0.28293108014847246
+    ],
+    "distinct_outputs": 86
+  },
+  "b04_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.44,
+    "len19_outputs": [
+      0.7745397351967098,
+      0.22908606468665862
+    ],
+    "distinct_outputs": 86
+  },
+  "b04_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.44,
+    "len19_outputs": [
+      0.43733333333333335,
+      0.12
+    ],
+    "distinct_outputs": 83
+  },
+  "b04_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.62,
+    "round1_p2": 0.58,
+    "len19_outputs": [
+      0.7405389736626868,
+      0.2685010263373132
+    ],
+    "distinct_outputs": 85
+  },
+  "b05_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.58,
+    "round1_p2": 0.55,
+    "len19_outputs": [
+      0.4417190476190477,
+      0.12
+    ],
+    "distinct_outputs": 81
+  },
+  "b05_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.62,
+    "round1_p2": 0.56,
+    "len19_outputs": [
+      0.6938839285714286,
+      0.1556160714285714
+    ],
+    "distinct_outputs": 84
+  },
+  "b05_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.58,
+    "round1_p2": 0.45,
+    "len19_outputs": [
+      0.8066972957696996,
+      0.31268312609123305
+    ],
+    "distinct_outputs": 86
+  },
+  "b05_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.62,
+    "round1_p2": 0.42,
+    "len19_outputs": [
+      0.8281641903124017,
+      0.18602686755075923
+    ],
+    "distinct_outputs": 86
+  },
+  "b06_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.44,
+    "len19_outputs": [
+      0.7930380856590692,
+      0.21033966485865963
+    ],
+    "distinct_outputs": 84
+  },
+  "b06_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.55,
+    "len19_outputs": [
+      0.5,
+      0.16798161486607557
+    ],
+    "distinct_outputs": 73
+  },
+  "b06_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.64,
+    "round1_p2": 0.42,
+    "len19_outputs": [
+      0.7554354774813317,
+      0.1954696060383293
+    ],
+    "distinct_outputs": 86
+  },
+  "b06_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.58,
+    "round1_p2": 0.55,
+    "len19_outputs": [
+      0.22,
+      0.22
+    ],
+    "distinct_outputs": 46
+  },
+  "b07_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.62,
+    "round1_p2": 0.58,
+    "len19_outputs": [
+      0.41786407766990286,
+      0.18000000000000002
+    ],
+    "distinct_outputs": 60
+  },
+  "b07_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.65,
+    "round1_p2": 0.6,
+    "len19_outputs": [
+      0.6360000000000001,
+      0.12
+    ],
+    "distinct_outputs": 49
+  },
+  "b07_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.62,
+    "round1_p2": 0.42,
+    "len19_outputs": [
+      0.7728071003970447,
+      0.17335645771320635
+    ],
+    "distinct_outputs": 85
+  },
+  "b07_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.56,
+    "round1_p2": 0.46,
+    "len19_outputs": [
+      0.8098812022874518,
+      0.19156623731070757
+    ],
+    "distinct_outputs": 84
+  },
+  "b08_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.65,
+    "round1_p2": 0.38,
+    "len19_outputs": [
+      0.806799663169433,
+      0.11533816666083407
+    ],
+    "distinct_outputs": 84
+  },
+  "b08_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.5204,
+    "round1_p2": 0.4898,
+    "len19_outputs": [
+      0.7475418021049814,
+      0.561050156027018
+    ],
+    "distinct_outputs": 86
+  },
+  "b08_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.58,
+    "round1_p2": 0.58,
+    "len19_outputs": [
+      0.7813289030689774,
+      0.3727725905563045
+    ],
+    "distinct_outputs": 83
+  },
+  "b08_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.45,
+    "len19_outputs": [
+      0.2075100585596356,
+      0.15
+    ],
+    "distinct_outputs": 64
+  },
+  "b09_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.62,
+    "round1_p2": 0.45,
+    "len19_outputs": [
+      0.8625,
+      0.05
+    ],
+    "distinct_outputs": 78
+  },
+  "b09_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.62,
+    "round1_p2": 0.46,
+    "len19_outputs": [
+      0.8137583754113393,
+      0.18694502332213753
+    ],
+    "distinct_outputs": 86
+  },
+  "b09_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.58,
+    "round1_p2": 0.47,
+    "len19_outputs": [
+      0.7458264330437089,
+      0.25628075913175496
+    ],
+    "distinct_outputs": 82
+  },
+  "b09_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.58,
+    "round1_p2": 0.58,
+    "len19_outputs": [
+      0.41338242108267,
+      0.15
+    ],
+    "distinct_outputs": 40
+  },
+  "b10_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.58,
+    "round1_p2": 0.42,
+    "len19_outputs": [
+      0.46675,
+      0.42754999999999993
+    ],
+    "distinct_outputs": 49
+  },
+  "b10_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.55,
+    "len19_outputs": [
+      0.85,
+      0.15
+    ],
+    "distinct_outputs": 46
+  },
+  "b10_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.6,
+    "round1_p2": 0.45,
+    "len19_outputs": [
+      0.7703591821631621,
+      0.23075935642964618
+    ],
+    "distinct_outputs": 83
+  },
+  "b10_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [
+      "math"
+    ],
+    "round1_p1": 0.504,
+    "round1_p2": 0.4976,
+    "len19_outputs": [
+      0.8840714455231783,
+      0.8722501723728048
+    ],
+    "distinct_outputs": 86
+  }
+}
