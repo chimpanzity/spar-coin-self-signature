@@ -1,0 +1,1052 @@
+{
+  "validity": {
+    "generated": 40,
+    "valid": 40,
+    "complete_blocks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "failures": []
+  },
+  "cell_descriptives": {
+    "astra->astra": {
+      "n_valid": 10,
+      "n_generated": 10,
+      "n": 10,
+      "mean": 0.24968259499999998,
+      "sd": 0.00023717877276434215,
+      "min": 0.24934375,
+      "max": 0.25,
+      "n_positive": 10
+    },
+    "astra->fable": {
+      "n_valid": 10,
+      "n_generated": 10,
+      "n": 10,
+      "mean": 0.25523081833333333,
+      "sd": 0.003018312406081737,
+      "min": 0.25,
+      "max": 0.2577916666666667,
+      "n_positive": 10
+    },
+    "fable->astra": {
+      "n_valid": 10,
+      "n_generated": 10,
+      "n": 10,
+      "mean": 0.258687275,
+      "sd": 0.0039936022865223715,
+      "min": 0.2545,
+      "max": 0.263875,
+      "n_positive": 10
+    },
+    "fable->fable": {
+      "n_valid": 10,
+      "n_generated": 10,
+      "n": 10,
+      "mean": 0.27637881666666664,
+      "sd": 0.002115142117631287,
+      "min": 0.27437221666666667,
+      "max": 0.27838541666666666,
+      "n_positive": 10
+    }
+  },
+  "baselines": {
+    "constant_0.5": {
+      "astra": 0.25,
+      "fable": 0.25
+    },
+    "repeat_last_0.75": {
+      "astra": 0.32187499999999997,
+      "fable": 0.33645833333333336
+    },
+    "switch_last_0.75": {
+      "astra": 0.296875,
+      "fable": 0.28229166666666666
+    },
+    "learned_other_wave": {
+      "astra": 0.24884325103368932,
+      "fable": 0.2502286748559132
+    }
+  },
+  "primary": {
+    "complete_blocks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "n_complete": 10,
+    "planned_comparison_complete": true,
+    "L": {
+      "astra->astra": 0.24968259499999998,
+      "astra->fable": 0.25523081833333333,
+      "fable->astra": 0.258687275,
+      "fable->fable": 0.27637881666666664
+    },
+    "contrasts": {
+      "fable_own_author_advantage": -0.021147998333333307,
+      "astra_own_author_advantage": 0.009004680000000015,
+      "balanced_self_advantage": -0.006071659166666646,
+      "reciprocal": false
+    },
+    "per_block": [
+      {
+        "block": 1,
+        "fable_own_author_advantage": -0.01658054999999997,
+        "astra_own_author_advantage": 0.006973050000000008,
+        "balanced_self_advantage": -0.004803749999999982,
+        "reciprocal": false
+      },
+      {
+        "block": 2,
+        "fable_own_author_advantage": -0.021070133333333352,
+        "astra_own_author_advantage": 0.014364450000000029,
+        "balanced_self_advantage": -0.0033528416666666616,
+        "reciprocal": false
+      },
+      {
+        "block": 3,
+        "fable_own_author_advantage": -0.026948616666666703,
+        "astra_own_author_advantage": 0.004625000000000018,
+        "balanced_self_advantage": -0.011161808333333342,
+        "reciprocal": false
+      },
+      {
+        "block": 4,
+        "fable_own_author_advantage": -0.01658054999999997,
+        "astra_own_author_advantage": 0.014364450000000029,
+        "balanced_self_advantage": -0.0011080499999999716,
+        "reciprocal": false
+      },
+      {
+        "block": 5,
+        "fable_own_author_advantage": -0.028385416666666663,
+        "astra_own_author_advantage": 0.006316800000000011,
+        "balanced_self_advantage": -0.011034308333333326,
+        "reciprocal": false
+      },
+      {
+        "block": 6,
+        "fable_own_author_advantage": -0.023076533333333316,
+        "astra_own_author_advantage": 0.005049450000000039,
+        "balanced_self_advantage": -0.009013541666666638,
+        "reciprocal": false
+      },
+      {
+        "block": 7,
+        "fable_own_author_advantage": -0.021070133333333352,
+        "astra_own_author_advantage": 0.014364450000000029,
+        "balanced_self_advantage": -0.0033528416666666616,
+        "reciprocal": false
+      },
+      {
+        "block": 8,
+        "fable_own_author_advantage": -0.020593749999999966,
+        "astra_own_author_advantage": 0.011105549999999992,
+        "balanced_self_advantage": -0.004744099999999987,
+        "reciprocal": false
+      },
+      {
+        "block": 9,
+        "fable_own_author_advantage": -0.01658054999999997,
+        "astra_own_author_advantage": 0.006441800000000025,
+        "balanced_self_advantage": -0.005069374999999973,
+        "reciprocal": false
+      },
+      {
+        "block": 10,
+        "fable_own_author_advantage": -0.020593749999999966,
+        "astra_own_author_advantage": 0.006441800000000025,
+        "balanced_self_advantage": -0.0070759749999999705,
+        "reciprocal": false
+      }
+    ],
+    "block_summary": {
+      "fable_own_author_advantage": {
+        "n": 10,
+        "mean": -0.021147998333333324,
+        "sd": 0.004122538398262818,
+        "min": -0.028385416666666663,
+        "max": -0.01658054999999997,
+        "n_positive": 0
+      },
+      "astra_own_author_advantage": {
+        "n": 10,
+        "mean": 0.00900468000000002,
+        "sd": 0.004081250169453801,
+        "min": 0.004625000000000018,
+        "max": 0.014364450000000029,
+        "n_positive": 10
+      },
+      "balanced_self_advantage": {
+        "n": 10,
+        "mean": -0.006071659166666651,
+        "sd": 0.003399293422167545,
+        "min": -0.011161808333333342,
+        "max": -0.0011080499999999716,
+        "n_positive": 0
+      }
+    },
+    "n_blocks_reciprocal": 0
+  },
+  "target_swap": {
+    "astra": {
+      "per_block": [
+        {
+          "block": 1,
+          "intended": 0.25356770833333336,
+          "swapped": 0.25138020833333335,
+          "swapped_minus_intended": -0.002187500000000009
+        },
+        {
+          "block": 2,
+          "intended": 0.2514063166666667,
+          "swapped": 0.2502979833333333,
+          "swapped_minus_intended": -0.0011083333333333778
+        },
+        {
+          "block": 3,
+          "intended": 0.2506559,
+          "swapped": 0.2488475666666667,
+          "swapped_minus_intended": -0.0018083333333333007
+        },
+        {
+          "block": 4,
+          "intended": 0.2536511083333334,
+          "swapped": 0.2518136083333333,
+          "swapped_minus_intended": -0.0018375000000000474
+        },
+        {
+          "block": 5,
+          "intended": 0.25,
+          "swapped": 0.25,
+          "swapped_minus_intended": 0.0
+        },
+        {
+          "block": 6,
+          "intended": 0.25237971666666664,
+          "swapped": 0.2502213833333333,
+          "swapped_minus_intended": -0.0021583333333333177
+        },
+        {
+          "block": 7,
+          "intended": 0.2514063166666667,
+          "swapped": 0.2502979833333333,
+          "swapped_minus_intended": -0.0011083333333333778
+        },
+        {
+          "block": 8,
+          "intended": 0.25383333333333336,
+          "swapped": 0.2509166666666667,
+          "swapped_minus_intended": -0.0029166666666666785
+        },
+        {
+          "block": 9,
+          "intended": 0.25383333333333336,
+          "swapped": 0.2509166666666667,
+          "swapped_minus_intended": -0.0029166666666666785
+        },
+        {
+          "block": 10,
+          "intended": 0.25383333333333336,
+          "swapped": 0.2509166666666667,
+          "swapped_minus_intended": -0.0029166666666666785
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "mean": -0.0018958333333333466,
+        "sd": 0.0009501949117788216,
+        "min": -0.0029166666666666785,
+        "max": 0.0,
+        "n_positive": 0
+      },
+      "mean_intended": 0.25245670666666664,
+      "mean_swapped": 0.2505608733333333
+    },
+    "fable": {
+      "per_block": [
+        {
+          "block": 1,
+          "intended": 0.26534450833333334,
+          "swapped": 0.2587820083333333,
+          "swapped_minus_intended": -0.006562500000000027
+        },
+        {
+          "block": 2,
+          "intended": 0.2691236083333334,
+          "swapped": 0.26145277499999997,
+          "swapped_minus_intended": -0.0076708333333334044
+        },
+        {
+          "block": 3,
+          "intended": 0.26644270833333333,
+          "swapped": 0.2598802083333333,
+          "swapped_minus_intended": -0.006562500000000027
+        },
+        {
+          "block": 4,
+          "intended": 0.2691236083333334,
+          "swapped": 0.26145277499999997,
+          "swapped_minus_intended": -0.0076708333333334044
+        },
+        {
+          "block": 5,
+          "intended": 0.2673511083333333,
+          "swapped": 0.2604386083333333,
+          "swapped_minus_intended": -0.006912499999999988
+        },
+        {
+          "block": 6,
+          "intended": 0.26644270833333333,
+          "swapped": 0.2598802083333333,
+          "swapped_minus_intended": -0.006562500000000027
+        },
+        {
+          "block": 7,
+          "intended": 0.2691236083333334,
+          "swapped": 0.26145277499999997,
+          "swapped_minus_intended": -0.0076708333333334044
+        },
+        {
+          "block": 8,
+          "intended": 0.2696829833333333,
+          "swapped": 0.26204131666666663,
+          "swapped_minus_intended": -0.007641666666666658
+        },
+        {
+          "block": 9,
+          "intended": 0.26534450833333334,
+          "swapped": 0.2587820083333333,
+          "swapped_minus_intended": -0.006562500000000027
+        },
+        {
+          "block": 10,
+          "intended": 0.2673511083333333,
+          "swapped": 0.2604386083333333,
+          "swapped_minus_intended": -0.006912499999999988
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "mean": -0.007072916666666695,
+        "sd": 0.0005259443666889758,
+        "min": -0.0076708333333334044,
+        "max": -0.006562500000000027,
+        "n_positive": 0
+      },
+      "mean_intended": 0.2675330458333333,
+      "mean_swapped": 0.26046012916666667
+    }
+  },
+  "resemblance": {
+    "loss": {
+      "astra_programs_on_astra": 0.25143879,
+      "astra_programs_on_fable": 0.25157879000000005,
+      "fable_programs_on_astra": 0.26406221249999995,
+      "fable_programs_on_fable": 0.26393096250000003
+    },
+    "better_fit": {
+      "astra": "astra",
+      "fable": "fable"
+    },
+    "author_x_player_self_resemblance": 0.00013562499999997257
+  },
+  "switching": {
+    "observed": {
+      "astra": {
+        "win": 0.6513761467889908,
+        "n_win": 109,
+        "loss": 0.4117647058823529,
+        "n_loss": 119,
+        "gap_win_minus_loss": 0.23961144090663788
+      },
+      "fable": {
+        "win": 0.576271186440678,
+        "n_win": 118,
+        "loss": 0.5363636363636364,
+        "n_loss": 110,
+        "gap_win_minus_loss": 0.03990755007704161
+      }
+    },
+    "predicted": {
+      "astra->astra": {
+        "win": {
+          "n": 10,
+          "mean": 0.5301,
+          "sd": 0.019553061709671526,
+          "min": 0.5,
+          "max": 0.55,
+          "n_positive": 10
+        },
+        "loss": {
+          "n": 10,
+          "mean": 0.5301,
+          "sd": 0.019553061709671526,
+          "min": 0.5,
+          "max": 0.55,
+          "n_positive": 10
+        },
+        "gap_win_minus_loss": {
+          "n": 10,
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n_positive": 0
+        }
+      },
+      "astra->fable": {
+        "win": {
+          "n": 10,
+          "mean": 0.46509999999999996,
+          "sd": 0.018507956247096682,
+          "min": 0.44999999999999996,
+          "max": 0.5,
+          "n_positive": 10
+        },
+        "loss": {
+          "n": 10,
+          "mean": 0.46509999999999996,
+          "sd": 0.01850795624709668,
+          "min": 0.44999999999999996,
+          "max": 0.5,
+          "n_positive": 10
+        },
+        "gap_win_minus_loss": {
+          "n": 10,
+          "mean": -5.551115123125783e-18,
+          "sd": 1.7554167342883506e-17,
+          "min": -5.551115123125783e-17,
+          "max": 0.0,
+          "n_positive": 0
+        }
+      },
+      "fable->astra": {
+        "win": {
+          "n": 10,
+          "mean": 0.6235,
+          "sd": 0.02087662169349575,
+          "min": 0.5999999999999999,
+          "max": 0.6500000000000001,
+          "n_positive": 10
+        },
+        "loss": {
+          "n": 10,
+          "mean": 0.6235,
+          "sd": 0.020876621693495672,
+          "min": 0.6,
+          "max": 0.65,
+          "n_positive": 10
+        },
+        "gap_win_minus_loss": {
+          "n": 10,
+          "mean": 1.1102230246251566e-17,
+          "sd": 8.191944760012302e-17,
+          "min": -1.1102230246251565e-16,
+          "max": 1.1102230246251565e-16,
+          "n_positive": 3
+        }
+      },
+      "fable->fable": {
+        "win": {
+          "n": 10,
+          "mean": 0.381,
+          "sd": 0.006324555320336764,
+          "min": 0.375,
+          "max": 0.387,
+          "n_positive": 10
+        },
+        "loss": {
+          "n": 10,
+          "mean": 0.381,
+          "sd": 0.006324555320336764,
+          "min": 0.375,
+          "max": 0.387,
+          "n_positive": 10
+        },
+        "gap_win_minus_loss": {
+          "n": 10,
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n_positive": 0
+        }
+      }
+    }
+  },
+  "sensitivity": {
+    "leave_one_game_out": {
+      "AA_00_1": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.008226346666666634,
+        "balanced_self_advantage": -0.006460825833333336,
+        "reciprocal": false
+      },
+      "AA_00_2": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.00978301333333334,
+        "balanced_self_advantage": -0.005682492499999983,
+        "reciprocal": false
+      },
+      "AF_00_1": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.00978301333333334,
+        "balanced_self_advantage": -0.005682492499999983,
+        "reciprocal": false
+      },
+      "AF_00_2": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.008226346666666634,
+        "balanced_self_advantage": -0.006460825833333336,
+        "reciprocal": false
+      },
+      "AQ_00_1": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.010561346666666693,
+        "balanced_self_advantage": -0.005293325833333307,
+        "reciprocal": false
+      },
+      "AQ_00_2_MU1": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.007448013333333309,
+        "balanced_self_advantage": -0.006849992499999999,
+        "reciprocal": false
+      },
+      "FA_00_1": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.011339680000000019,
+        "balanced_self_advantage": -0.004904159166666644,
+        "reciprocal": false
+      },
+      "FA_00_2": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.006669679999999956,
+        "balanced_self_advantage": -0.0072391591666666755,
+        "reciprocal": false
+      },
+      "FF_00_1": {
+        "fable_own_author_advantage": -0.024652165000000004,
+        "astra_own_author_advantage": 0.009004680000000015,
+        "balanced_self_advantage": -0.007823742499999994,
+        "reciprocal": false
+      },
+      "FF_00_2": {
+        "fable_own_author_advantage": -0.01764383166666661,
+        "astra_own_author_advantage": 0.009004680000000015,
+        "balanced_self_advantage": -0.004319575833333297,
+        "reciprocal": false
+      },
+      "FQ_00_1": {
+        "fable_own_author_advantage": -0.019746331666666672,
+        "astra_own_author_advantage": 0.009004680000000015,
+        "balanced_self_advantage": -0.005370825833333329,
+        "reciprocal": false
+      },
+      "FQ_00_2": {
+        "fable_own_author_advantage": -0.02254966499999994,
+        "astra_own_author_advantage": 0.009004680000000015,
+        "balanced_self_advantage": -0.006772492499999963,
+        "reciprocal": false
+      },
+      "QA_00_1_MU1": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.012896346666666614,
+        "balanced_self_advantage": -0.004125825833333346,
+        "reciprocal": false
+      },
+      "QA_00_2": {
+        "fable_own_author_advantage": -0.021147998333333307,
+        "astra_own_author_advantage": 0.0051130133333333605,
+        "balanced_self_advantage": -0.008017492499999973,
+        "reciprocal": false
+      },
+      "QF_00_1_MU1": {
+        "fable_own_author_advantage": -0.02254966499999994,
+        "astra_own_author_advantage": 0.009004680000000015,
+        "balanced_self_advantage": -0.006772492499999963,
+        "reciprocal": false
+      },
+      "QF_00_2": {
+        "fable_own_author_advantage": -0.019746331666666672,
+        "astra_own_author_advantage": 0.009004680000000015,
+        "balanced_self_advantage": -0.005370825833333329,
+        "reciprocal": false
+      }
+    },
+    "leave_one_game_out_range": {
+      "fable_own_author_advantage": [
+        -0.024652165000000004,
+        -0.01764383166666661
+      ],
+      "astra_own_author_advantage": [
+        0.0051130133333333605,
+        0.012896346666666614
+      ],
+      "balanced_self_advantage": [
+        -0.008017492499999973,
+        -0.004125825833333346
+      ]
+    },
+    "by_wave": {
+      "replicate_1": {
+        "fable_own_author_advantage": -0.01764383166666661,
+        "astra_own_author_advantage": 0.001221346666666706,
+        "balanced_self_advantage": -0.008211242499999952,
+        "reciprocal": false
+      },
+      "replicate_2": {
+        "fable_own_author_advantage": -0.024652165000000004,
+        "astra_own_author_advantage": 0.01678801333333335,
+        "balanced_self_advantage": -0.003932075833333326,
+        "reciprocal": false
+      }
+    },
+    "excluding_round_1": {
+      "L": {
+        "astra->astra": 0.2496658894736842,
+        "astra->fable": 0.25550612456140354,
+        "fable->astra": 0.2591445,
+        "fable->fable": 0.2777671754385965
+      },
+      "contrasts": {
+        "fable_own_author_advantage": -0.02226105087719299,
+        "astra_own_author_advantage": 0.009478610526315795,
+        "balanced_self_advantage": -0.006391220175438597,
+        "reciprocal": false
+      }
+    }
+  },
+  "protocol": "FirstLevelBlindCoder_v1",
+  "acceptance": {
+    "ok": true,
+    "checks": {
+      "games": true,
+      "pairings": true,
+      "contributing": true,
+      "decisions": true,
+      "per_target": true,
+      "per_seat": true,
+      "after_opening": true,
+      "switch_counts": true
+    },
+    "n_games": 18,
+    "contributing_games": [
+      "AA_00_1",
+      "AA_00_2",
+      "AF_00_1",
+      "AF_00_2",
+      "AQ_00_1",
+      "AQ_00_2_MU1",
+      "FA_00_1",
+      "FA_00_2",
+      "FF_00_1",
+      "FF_00_2",
+      "FQ_00_1",
+      "FQ_00_2",
+      "QA_00_1_MU1",
+      "QA_00_2",
+      "QF_00_1_MU1",
+      "QF_00_2"
+    ],
+    "decisions": {
+      "astra": 240,
+      "fable": 240
+    },
+    "switch_counts": {
+      "astra_win": [
+        71,
+        109
+      ],
+      "astra_loss": [
+        49,
+        119
+      ],
+      "fable_win": [
+        68,
+        118
+      ],
+      "fable_loss": [
+        59,
+        110
+      ]
+    }
+  },
+  "programs": [
+    {
+      "id": "b01_fable_for_fable.py",
+      "block": 1,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748"
+    },
+    {
+      "id": "b01_astra_for_astra.py",
+      "block": 1,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "0baf17fe4ed36d709c9fa6abda7360c037c54879e25436ea3a83c352c25f2d61"
+    },
+    {
+      "id": "b01_fable_for_astra.py",
+      "block": 1,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf"
+    },
+    {
+      "id": "b01_astra_for_fable.py",
+      "block": 1,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96"
+    },
+    {
+      "id": "b02_fable_for_astra.py",
+      "block": 2,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "bfd5bd848ee6b3bff095332580f916b1692b80129c49cc22a9f37414238d65e1"
+    },
+    {
+      "id": "b02_fable_for_fable.py",
+      "block": 2,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748"
+    },
+    {
+      "id": "b02_astra_for_fable.py",
+      "block": 2,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "53e9ba014045bc226550beb3dea2279c69586bd93300f3f20284846685b4cb84"
+    },
+    {
+      "id": "b02_astra_for_astra.py",
+      "block": 2,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "1091b742861eb0c54e82f329a5de1c7a6fb6bf41d408eb46f7b793030796c4d7"
+    },
+    {
+      "id": "b03_fable_for_astra.py",
+      "block": 3,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "0d0ad724c90acb8bc849682f6edf998c0c56fa50fd752992635a36a4bd6279eb"
+    },
+    {
+      "id": "b03_astra_for_astra.py",
+      "block": 3,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593"
+    },
+    {
+      "id": "b03_astra_for_fable.py",
+      "block": 3,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "83b6294d5ab472bb7faf634ec992503c5d780a5d67e64c169cb0bdfa0603b31d"
+    },
+    {
+      "id": "b03_fable_for_fable.py",
+      "block": 3,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8"
+    },
+    {
+      "id": "b04_astra_for_astra.py",
+      "block": 4,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "1091b742861eb0c54e82f329a5de1c7a6fb6bf41d408eb46f7b793030796c4d7"
+    },
+    {
+      "id": "b04_astra_for_fable.py",
+      "block": 4,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96"
+    },
+    {
+      "id": "b04_fable_for_astra.py",
+      "block": 4,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "bfd5bd848ee6b3bff095332580f916b1692b80129c49cc22a9f37414238d65e1"
+    },
+    {
+      "id": "b04_fable_for_fable.py",
+      "block": 4,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748"
+    },
+    {
+      "id": "b05_fable_for_fable.py",
+      "block": 5,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8"
+    },
+    {
+      "id": "b05_fable_for_astra.py",
+      "block": 5,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf"
+    },
+    {
+      "id": "b05_astra_for_astra.py",
+      "block": 5,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "9ebf32bcd520748ebf8036ac45b3129f07f8dd5482a039015d43d836667cedf7"
+    },
+    {
+      "id": "b05_astra_for_fable.py",
+      "block": 5,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "9ebf32bcd520748ebf8036ac45b3129f07f8dd5482a039015d43d836667cedf7"
+    },
+    {
+      "id": "b06_astra_for_astra.py",
+      "block": 6,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "40b09685e869712811dd615651e66c67ab30ff5efebc0095052c5b244341457a"
+    },
+    {
+      "id": "b06_fable_for_fable.py",
+      "block": 6,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8"
+    },
+    {
+      "id": "b06_astra_for_fable.py",
+      "block": 6,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "6dc6e3ff99ad857a933f10a11461e0dfde76f5a729d8d050460a937453d88bd3"
+    },
+    {
+      "id": "b06_fable_for_astra.py",
+      "block": 6,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "0d0ad724c90acb8bc849682f6edf998c0c56fa50fd752992635a36a4bd6279eb"
+    },
+    {
+      "id": "b07_fable_for_astra.py",
+      "block": 7,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "bfd5bd848ee6b3bff095332580f916b1692b80129c49cc22a9f37414238d65e1"
+    },
+    {
+      "id": "b07_fable_for_fable.py",
+      "block": 7,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748"
+    },
+    {
+      "id": "b07_astra_for_fable.py",
+      "block": 7,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "53e9ba014045bc226550beb3dea2279c69586bd93300f3f20284846685b4cb84"
+    },
+    {
+      "id": "b07_astra_for_astra.py",
+      "block": 7,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "1091b742861eb0c54e82f329a5de1c7a6fb6bf41d408eb46f7b793030796c4d7"
+    },
+    {
+      "id": "b08_astra_for_fable.py",
+      "block": 8,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96"
+    },
+    {
+      "id": "b08_astra_for_astra.py",
+      "block": 8,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593"
+    },
+    {
+      "id": "b08_fable_for_astra.py",
+      "block": 8,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "dfe7dc387794480f50cc97129f806750339e739db271dc492da815679f7da3af"
+    },
+    {
+      "id": "b08_fable_for_fable.py",
+      "block": 8,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8"
+    },
+    {
+      "id": "b09_fable_for_astra.py",
+      "block": 9,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf"
+    },
+    {
+      "id": "b09_astra_for_fable.py",
+      "block": 9,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96"
+    },
+    {
+      "id": "b09_astra_for_astra.py",
+      "block": 9,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593"
+    },
+    {
+      "id": "b09_fable_for_fable.py",
+      "block": 9,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748"
+    },
+    {
+      "id": "b10_fable_for_fable.py",
+      "block": 10,
+      "author": "fable",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8"
+    },
+    {
+      "id": "b10_fable_for_astra.py",
+      "block": 10,
+      "author": "fable",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf"
+    },
+    {
+      "id": "b10_astra_for_fable.py",
+      "block": 10,
+      "author": "astra",
+      "target": "fable",
+      "status": "valid",
+      "valid": true,
+      "sha256": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96"
+    },
+    {
+      "id": "b10_astra_for_astra.py",
+      "block": 10,
+      "author": "astra",
+      "target": "astra",
+      "status": "valid",
+      "valid": true,
+      "sha256": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593"
+    }
+  ]
+}

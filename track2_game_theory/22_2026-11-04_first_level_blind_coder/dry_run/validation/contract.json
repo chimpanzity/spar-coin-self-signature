@@ -1,0 +1,522 @@
+{
+  "b01_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.613,
+      0.613
+    ],
+    "distinct_outputs": 3
+  },
+  "b01_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.475,
+      0.475
+    ],
+    "distinct_outputs": 3
+  },
+  "b01_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.388,
+      0.388
+    ],
+    "distinct_outputs": 3
+  },
+  "b01_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.55,
+      0.55
+    ],
+    "distinct_outputs": 3
+  },
+  "b02_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.35,
+      0.35
+    ],
+    "distinct_outputs": 3
+  },
+  "b02_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.613,
+      0.613
+    ],
+    "distinct_outputs": 3
+  },
+  "b02_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.525,
+      0.525
+    ],
+    "distinct_outputs": 3
+  },
+  "b02_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.487,
+      0.487
+    ],
+    "distinct_outputs": 3
+  },
+  "b03_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.4,
+      0.4
+    ],
+    "distinct_outputs": 3
+  },
+  "b03_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.45,
+      0.45
+    ],
+    "distinct_outputs": 3
+  },
+  "b03_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.512,
+      0.512
+    ],
+    "distinct_outputs": 3
+  },
+  "b03_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.625,
+      0.625
+    ],
+    "distinct_outputs": 3
+  },
+  "b04_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.487,
+      0.487
+    ],
+    "distinct_outputs": 3
+  },
+  "b04_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.55,
+      0.55
+    ],
+    "distinct_outputs": 3
+  },
+  "b04_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.35,
+      0.35
+    ],
+    "distinct_outputs": 3
+  },
+  "b04_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.613,
+      0.613
+    ],
+    "distinct_outputs": 3
+  },
+  "b05_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.625,
+      0.625
+    ],
+    "distinct_outputs": 3
+  },
+  "b05_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.388,
+      0.388
+    ],
+    "distinct_outputs": 3
+  },
+  "b05_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.5,
+      0.5
+    ],
+    "distinct_outputs": 1
+  },
+  "b05_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.5,
+      0.5
+    ],
+    "distinct_outputs": 1
+  },
+  "b06_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.463,
+      0.463
+    ],
+    "distinct_outputs": 3
+  },
+  "b06_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.625,
+      0.625
+    ],
+    "distinct_outputs": 3
+  },
+  "b06_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.537,
+      0.537
+    ],
+    "distinct_outputs": 3
+  },
+  "b06_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.4,
+      0.4
+    ],
+    "distinct_outputs": 3
+  },
+  "b07_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.35,
+      0.35
+    ],
+    "distinct_outputs": 3
+  },
+  "b07_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.613,
+      0.613
+    ],
+    "distinct_outputs": 3
+  },
+  "b07_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.525,
+      0.525
+    ],
+    "distinct_outputs": 3
+  },
+  "b07_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.487,
+      0.487
+    ],
+    "distinct_outputs": 3
+  },
+  "b08_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.55,
+      0.55
+    ],
+    "distinct_outputs": 3
+  },
+  "b08_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.45,
+      0.45
+    ],
+    "distinct_outputs": 3
+  },
+  "b08_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.363,
+      0.363
+    ],
+    "distinct_outputs": 3
+  },
+  "b08_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.625,
+      0.625
+    ],
+    "distinct_outputs": 3
+  },
+  "b09_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.388,
+      0.388
+    ],
+    "distinct_outputs": 3
+  },
+  "b09_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.55,
+      0.55
+    ],
+    "distinct_outputs": 3
+  },
+  "b09_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.45,
+      0.45
+    ],
+    "distinct_outputs": 3
+  },
+  "b09_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.613,
+      0.613
+    ],
+    "distinct_outputs": 3
+  },
+  "b10_fable_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.625,
+      0.625
+    ],
+    "distinct_outputs": 3
+  },
+  "b10_fable_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.388,
+      0.388
+    ],
+    "distinct_outputs": 3
+  },
+  "b10_astra_for_fable.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.55,
+      0.55
+    ],
+    "distinct_outputs": 3
+  },
+  "b10_astra_for_astra.py": {
+    "ok": true,
+    "n_synthetic_calls": 92,
+    "error": null,
+    "imports": [],
+    "round1_p1": 0.5,
+    "round1_p2": 0.5,
+    "len19_outputs": [
+      0.45,
+      0.45
+    ],
+    "distinct_outputs": 3
+  }
+}

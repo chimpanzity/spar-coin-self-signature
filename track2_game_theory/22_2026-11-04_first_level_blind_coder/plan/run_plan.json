@@ -1,0 +1,123 @@
+{
+  "protocol": "FirstLevelBlindCoder_v1",
+  "created_utc": "2026-11-05T00:57:56.448618Z",
+  "repo": {
+    "commit": "27e2cbe0ac74ef992a682cc5df274eaaaea7bdac",
+    "branch": "exp-t2-22-blind-coder",
+    "dirty_tracked": false
+  },
+  "handoff": "SPAR_First_Level_Blind_Coder_Player_Choices_Handoff.md",
+  "acceptance": {
+    "ok": true,
+    "checks": {
+      "games": true,
+      "pairings": true,
+      "contributing": true,
+      "decisions": true,
+      "per_target": true,
+      "per_seat": true,
+      "after_opening": true,
+      "switch_counts": true
+    },
+    "n_games": 18,
+    "contributing_games": [
+      "AA_00_1",
+      "AA_00_2",
+      "AF_00_1",
+      "AF_00_2",
+      "AQ_00_1",
+      "AQ_00_2_MU1",
+      "FA_00_1",
+      "FA_00_2",
+      "FF_00_1",
+      "FF_00_2",
+      "FQ_00_1",
+      "FQ_00_2",
+      "QA_00_1_MU1",
+      "QA_00_2",
+      "QF_00_1_MU1",
+      "QF_00_2"
+    ],
+    "decisions": {
+      "astra": 240,
+      "fable": 240
+    },
+    "switch_counts": {
+      "astra_win": [
+        71,
+        109
+      ],
+      "astra_loss": [
+        49,
+        119
+      ],
+      "fable_win": [
+        68,
+        118
+      ],
+      "fable_loss": [
+        59,
+        110
+      ]
+    }
+  },
+  "inputs_sha256": {
+    "track2_game_theory/05_2026-10-10_study1_exp1_disclosure/mp3m-p2-20261010/with_makeups/game_logs.jsonl": "4fa446f2c3c75fb51cdab2ff998512e58e27a713661d1cc16e93ff09287b0507",
+    "src/opponent_disclosure_mp_3models/config.py": "7d8bd4c89b8a1d949d34d7bd5304386f57f63311c43fe2820a31e0ec6538951c",
+    "src/opponent_disclosure_mp_3models/game.py": "1812e52431536f244ae9f8bae45a4dadf92e33757957f9c09168cd8ce4644522"
+  },
+  "code_sha256": {
+    "src/blind_coder_player_choices/__init__.py": "cab90e292458d2d80d2866f158788db3bdb90525ac2a9889f6eaf6ea9b9c86b2",
+    "src/blind_coder_player_choices/__main__.py": "b3bc37f3338d04af6d240cd6edb471d49a560d457fd9a2ffc3a30d1e0a001027",
+    "src/blind_coder_player_choices/authors.py": "c3493f61b4febe2bc8ddecfde1617d51fb47c8607f9f4288434239bea15bb0bd",
+    "src/blind_coder_player_choices/config.py": "ed10d3e57dd51f9b9d4c2a13a618eeeecb0797393ca2669fd1ec2a0c3e76b503",
+    "src/blind_coder_player_choices/data.py": "8111bb989bd834f78b36894bf19850953d82981927f28edfa7937445061199c2",
+    "src/blind_coder_player_choices/execute.py": "ab2609af8351d0ebc7051672a98384eebeb11f4dba45f0c06649c5f6a4424d70",
+    "src/blind_coder_player_choices/prompts.py": "7f3dcb2d017c8666e195f815d79152dff6ac2b99f9864d2bd8770a2f9df8c0d5",
+    "src/blind_coder_player_choices/sandbox_worker.py": "b2e54413b968454bf0e6f021d74cdeb22c01f930df5a88b0278d6e2d3fc87943",
+    "src/blind_coder_player_choices/scoring.py": "b0d03ff08e43294827d9708f45972734a0e21748869e146f768d917ba46275b3"
+  },
+  "reused_code_sha256": {
+    "src/blind_twin_forecast_prediction/authors.py": "e9b6f8f54f853cca74148eeeb467f871c947d5a9b56b774ef091357c49bb7dae",
+    "src/blind_twin_forecast_prediction/sandbox.py": "392d9ccbc5cc68fa0c0f527240516d7ae13f574536e14a8a05304552eca0d750",
+    "src/blind_twin_forecast_prediction/config.py": "78212e1843cc489afa9de8ff085a49473dd0938ab6258189797ca445f2acd9ce",
+    "src/blind_twin_forecast_prediction/__main__.py": "bff951a84e3d08d8b7d94793fdf8becd53895b461d28ad9e7b028cf4270b1aa2"
+  },
+  "tests_sha256": {
+    "tests/test_blind_coder_player_choices.py": "900050223adba10285c56bdc8152c8f39004044fc60a3bc567cee98dce090641"
+  },
+  "messages_sha256": {
+    "astra": "6e8ff82a73243f5dece07af099bff0ded212997ab85f93448c2130a5e03b7844",
+    "fable": "94ae8d4a600d3a71dd9fdcf1060541e93b2fc70b41f6d9339ddb854282a0f505"
+  },
+  "schedule_seed": 20261105,
+  "schedule_sha256": "466516bc6ac2ce7d113004f68d85affe55b34361fa800ffd03d64535b987d27c",
+  "n_calls": 40,
+  "settings": {
+    "reasoning": {
+      "effort": "low",
+      "exclude": true
+    },
+    "max_tokens": 4000,
+    "temperature_top_p_seed": "omitted",
+    "tools": "none",
+    "fallbacks": "off",
+    "cache": "no cache directives; every request isolated",
+    "cap_usd": 10.0,
+    "worst_case_per_call_usd": {
+      "astra->astra": 0.21087,
+      "astra->fable": 0.2109366666666667,
+      "fable->astra": 0.21087,
+      "fable->fable": 0.2109366666666667
+    },
+    "worst_case_total_usd": 8.436133333333334,
+    "sandbox": {
+      "timeout_s": 120,
+      "call_limit_s": 2.0,
+      "memory_mb": 512
+    },
+    "parser": "btfp_v1_source_or_one_fence (folder 21 parser, unchanged)",
+    "min_complete_blocks": 8
+  },
+  "endpoint_snapshot_sha256": "033145cb9e796d34e8ad3529e591f2bc604550d2acca7494ad595b29e05ea8d7"
+}

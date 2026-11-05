@@ -1,0 +1,282 @@
+[
+ {
+  "order": 1,
+  "block": 1,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b01:fable->fable"
+ },
+ {
+  "order": 2,
+  "block": 1,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b01:astra->astra"
+ },
+ {
+  "order": 3,
+  "block": 1,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b01:fable->astra"
+ },
+ {
+  "order": 4,
+  "block": 1,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b01:astra->fable"
+ },
+ {
+  "order": 5,
+  "block": 2,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b02:fable->astra"
+ },
+ {
+  "order": 6,
+  "block": 2,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b02:fable->fable"
+ },
+ {
+  "order": 7,
+  "block": 2,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b02:astra->fable"
+ },
+ {
+  "order": 8,
+  "block": 2,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b02:astra->astra"
+ },
+ {
+  "order": 9,
+  "block": 3,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b03:fable->astra"
+ },
+ {
+  "order": 10,
+  "block": 3,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b03:astra->astra"
+ },
+ {
+  "order": 11,
+  "block": 3,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b03:astra->fable"
+ },
+ {
+  "order": 12,
+  "block": 3,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b03:fable->fable"
+ },
+ {
+  "order": 13,
+  "block": 4,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b04:astra->astra"
+ },
+ {
+  "order": 14,
+  "block": 4,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b04:astra->fable"
+ },
+ {
+  "order": 15,
+  "block": 4,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b04:fable->astra"
+ },
+ {
+  "order": 16,
+  "block": 4,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b04:fable->fable"
+ },
+ {
+  "order": 17,
+  "block": 5,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b05:fable->fable"
+ },
+ {
+  "order": 18,
+  "block": 5,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b05:fable->astra"
+ },
+ {
+  "order": 19,
+  "block": 5,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b05:astra->astra"
+ },
+ {
+  "order": 20,
+  "block": 5,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b05:astra->fable"
+ },
+ {
+  "order": 21,
+  "block": 6,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b06:astra->astra"
+ },
+ {
+  "order": 22,
+  "block": 6,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b06:fable->fable"
+ },
+ {
+  "order": 23,
+  "block": 6,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b06:astra->fable"
+ },
+ {
+  "order": 24,
+  "block": 6,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b06:fable->astra"
+ },
+ {
+  "order": 25,
+  "block": 7,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b07:fable->astra"
+ },
+ {
+  "order": 26,
+  "block": 7,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b07:fable->fable"
+ },
+ {
+  "order": 27,
+  "block": 7,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b07:astra->fable"
+ },
+ {
+  "order": 28,
+  "block": 7,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b07:astra->astra"
+ },
+ {
+  "order": 29,
+  "block": 8,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b08:astra->fable"
+ },
+ {
+  "order": 30,
+  "block": 8,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b08:astra->astra"
+ },
+ {
+  "order": 31,
+  "block": 8,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b08:fable->astra"
+ },
+ {
+  "order": 32,
+  "block": 8,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b08:fable->fable"
+ },
+ {
+  "order": 33,
+  "block": 9,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b09:fable->astra"
+ },
+ {
+  "order": 34,
+  "block": 9,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b09:astra->fable"
+ },
+ {
+  "order": 35,
+  "block": 9,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b09:astra->astra"
+ },
+ {
+  "order": 36,
+  "block": 9,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b09:fable->fable"
+ },
+ {
+  "order": 37,
+  "block": 10,
+  "author": "fable",
+  "target": "fable",
+  "slot_id": "b10:fable->fable"
+ },
+ {
+  "order": 38,
+  "block": 10,
+  "author": "fable",
+  "target": "astra",
+  "slot_id": "b10:fable->astra"
+ },
+ {
+  "order": 39,
+  "block": 10,
+  "author": "astra",
+  "target": "fable",
+  "slot_id": "b10:astra->fable"
+ },
+ {
+  "order": 40,
+  "block": 10,
+  "author": "astra",
+  "target": "astra",
+  "slot_id": "b10:astra->astra"
+ }
+]
