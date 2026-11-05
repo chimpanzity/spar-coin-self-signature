@@ -10,7 +10,7 @@ This track started on Oct 9, after track 1's forecasting design hit a floor. Gam
 | B. Framing a generator as self | Oct 11 | 09 |
 | C. Closed-loop self-play | Oct 20–21 | 10–12 |
 | D. Scripted opponents: exploitation, noise and source beliefs | Oct 21–27 | 13–20 |
-| E. Predicting observer forecasts with generated code | Nov 4 | 21 |
+| E. Predicting forecasts and choices with generated code | Nov 4 | 21–22 |
 
 Each folder has its own README.
 
@@ -62,6 +62,7 @@ Fable paints against a local script; the circle-placer makes no API calls. The s
 | 19 | [`19_2026-10-27_paint_circle_noise_label_predictability`](19_2026-10-27_paint_circle_noise_label_predictability/) | 3 noise levels × 3 labels (none / self / other LLM), the same script under each label, plus a prospective shadow Proteus forecasting Fable: do labels change exploitation and exploitability? | At ε = .10 any LLM label reduced exploitation, self most (wins .72 / .60 / .52), and predictability moved with it. At ε ≥ .15 Fable is near chance regardless. The self–other gap is within session noise: a replication candidate, not a finding. |
 | 20 | [`20_2026-10-27_paint_circle_noise_label_replication`](20_2026-10-27_paint_circle_noise_label_replication/) | Replication of 19 at ε = .10: 5 new scripts, each replayed under 5 labels (none / self / other LLM / human / dead salmon) | **Self vs other did not replicate** (median gap 0; folder 19's ordering in 1 of 5 scripts). Labels cut winning only slightly (.75–.79 vs .80), mostly on two harder scripts. The consistent effect: any label makes Fable less predictable to Proteus (17 of 20 comparisons with no label), salmon most. |
 | 21 | [`21_2026-11-04_blind_twin_forecast_prediction`](21_2026-11-04_blind_twin_forecast_prediction/) | Offline crossover on archived Blind Twin forecasts (folder 07): Astra and Fable each wrote one zero-example Python predictor of Astra's and of Fable's observer forecasts (4 calls, $0.32); frozen programs scored on 240 archived forecast pairs from the six condition-00 matching-pennies games | **No reciprocal own-model advantage: Astra's code predicted both judges better** (Fable target 0.256 vs 0.288; Astra target 0.225 vs 0.262; balanced +0.003). Only Astra's own-target program beats a constant 0.5. Astra's two programs are near-identical; Fable's program for Astra fits Fable best. Exploratory: each author's programs resemble its own judge (+0.037, all 6 games). |
+| 22 | [`22_2026-11-04_first_level_blind_coder`](22_2026-11-04_first_level_blind_coder/) | Crossed code-author × named-player pilot on actual choices: Astra and Fable each wrote 10 zero-example predictors of Astra's and of Fable's matching-pennies moves (40 calls, $3.14); frozen programs scored on 480 archived decisions (Study 1, condition 00) | **Astra's code predicted both players better; no reciprocal own-model advantage** (Astra 0.226 vs 0.273; Fable 0.214 vs 0.256; Fable own-author advantage negative in 10/10 blocks). Naming the target did not help (swap −0.005 / +0.002). Fable's programs apply win-stay/lose-shift (wrong sign: Astra switches more after wins, +0.24) and are worse than 0.5. |
 
 **Where Phase D leaves us:**
 - **Fable can exploit what it sees.** A clear pattern is exploited almost perfectly, under any label (13, 14).

@@ -1,0 +1,681 @@
+{
+  "protocol": "FirstLevelBlindCoder_v1",
+  "handoff": "SPAR_First_Level_Blind_Coder_Player_Choices_Handoff.md",
+  "branch": "exp-t2-22-blind-coder",
+  "base": "415d139833c09e1e1ad827cce206d563c2a94785 (folder 21 runner) via main",
+  "commits": {
+    "code": "0210adf",
+    "schedule_fix": "27e2cbe",
+    "plan": "6902793",
+    "approval": "f811c0b",
+    "programs_frozen": "c4fe5f7",
+    "numbers_frozen": "eed899b"
+  },
+  "plan_sha256": "9becd791f1411d1fce9d941e83ecd014ecff81ea728da8714895ade65dc0f91a",
+  "calls": {
+    "n": 40,
+    "status": {
+      "completed": 40
+    },
+    "finish": {
+      "stop": 40
+    },
+    "returned": {
+      "anthropic/claude-fable-5.1 | Anthropic": 20,
+      "openai/gpt-6-astra | OpenAI": 20
+    },
+    "cached_prompt_tokens": 0,
+    "retries": 0,
+    "per_call": [
+      {
+        "slot": "b01:fable->fable",
+        "order": 1,
+        "response_id": "gen-1793840311-0aD8reQsa2dfvpu84jTv",
+        "cost_usd": 0.1175,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 2119,
+          "reasoning_tokens": 1208,
+          "cached_tokens": 0,
+          "cost": 0.1175
+        }
+      },
+      {
+        "slot": "b01:astra->astra",
+        "order": 2,
+        "response_id": "gen-1793840341-tjAD3NrJXMMTBnjhgCq0",
+        "cost_usd": 0.05769,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 1007,
+          "reasoning_tokens": 178,
+          "cached_tokens": 0,
+          "cost": 0.05769
+        }
+      },
+      {
+        "slot": "b01:fable->astra",
+        "order": 3,
+        "response_id": "gen-1793840360-E0LYS8cNmD1DiOTc3bjV",
+        "cost_usd": 0.10485,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 1867,
+          "reasoning_tokens": 940,
+          "cached_tokens": 0,
+          "cost": 0.10485
+        }
+      },
+      {
+        "slot": "b01:astra->fable",
+        "order": 4,
+        "response_id": "gen-1793840384-ecE4FzVt271JOO08sqjV",
+        "cost_usd": 0.06206,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 1092,
+          "reasoning_tokens": 126,
+          "cached_tokens": 0,
+          "cost": 0.06206
+        }
+      },
+      {
+        "slot": "b02:fable->astra",
+        "order": 5,
+        "response_id": "gen-1793840406-F0NbTkHKhXjLlk7sGOdL",
+        "cost_usd": 0.0899,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 1568,
+          "reasoning_tokens": 644,
+          "cached_tokens": 0,
+          "cost": 0.0899
+        }
+      },
+      {
+        "slot": "b02:fable->fable",
+        "order": 6,
+        "response_id": "gen-1793840430-TPYlN4KLHeN8sBy9A8Xw",
+        "cost_usd": 0.08695,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 1508,
+          "reasoning_tokens": 672,
+          "cached_tokens": 0,
+          "cost": 0.08695
+        }
+      },
+      {
+        "slot": "b02:astra->fable",
+        "order": 7,
+        "response_id": "gen-1793840449-HfyT3kzxy4EzJy4yczZS",
+        "cost_usd": 0.07011,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 1253,
+          "reasoning_tokens": 229,
+          "cached_tokens": 0,
+          "cost": 0.07011
+        }
+      },
+      {
+        "slot": "b02:astra->astra",
+        "order": 8,
+        "response_id": "gen-1793840476-u6gYrEgKKGkzf7USoFPS",
+        "cost_usd": 0.04999,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 853,
+          "reasoning_tokens": 144,
+          "cached_tokens": 0,
+          "cost": 0.04999
+        }
+      },
+      {
+        "slot": "b03:fable->astra",
+        "order": 9,
+        "response_id": "gen-1793840493-Yk1XtYGowYe94xplMspX",
+        "cost_usd": 0.0747,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 1264,
+          "reasoning_tokens": 498,
+          "cached_tokens": 0,
+          "cost": 0.0747
+        }
+      },
+      {
+        "slot": "b03:astra->astra",
+        "order": 10,
+        "response_id": "gen-1793840508-va33tGF9ZUq3HE8rqOKC",
+        "cost_usd": 0.04679,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 789,
+          "reasoning_tokens": 147,
+          "cached_tokens": 0,
+          "cost": 0.04679
+        }
+      },
+      {
+        "slot": "b03:astra->fable",
+        "order": 11,
+        "response_id": "gen-1793840524-NVkjgwcxK2EK8zw8Gv4H",
+        "cost_usd": 0.05966,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 1044,
+          "reasoning_tokens": 75,
+          "cached_tokens": 0,
+          "cost": 0.05966
+        }
+      },
+      {
+        "slot": "b03:fable->fable",
+        "order": 12,
+        "response_id": "gen-1793840543-Hdsg0f9ZItKI3uzFAD1S",
+        "cost_usd": 0.12005,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 2170,
+          "reasoning_tokens": 1154,
+          "cached_tokens": 0,
+          "cost": 0.12005
+        }
+      },
+      {
+        "slot": "b04:astra->astra",
+        "order": 13,
+        "response_id": "gen-1793840573-LpFyCCw0c48MoDt5pPxR",
+        "cost_usd": 0.05544,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 962,
+          "reasoning_tokens": 157,
+          "cached_tokens": 0,
+          "cost": 0.05544
+        }
+      },
+      {
+        "slot": "b04:astra->fable",
+        "order": 14,
+        "response_id": "gen-1793840591-GlTgtMhUvgZFxiWwgeTQ",
+        "cost_usd": 0.06171,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 1085,
+          "reasoning_tokens": 124,
+          "cached_tokens": 0,
+          "cost": 0.06171
+        }
+      },
+      {
+        "slot": "b04:fable->astra",
+        "order": 15,
+        "response_id": "gen-1793840613-Cel8YXhcIhZsJEixVGOC",
+        "cost_usd": 0.1157,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 2084,
+          "reasoning_tokens": 683,
+          "cached_tokens": 0,
+          "cost": 0.1157
+        }
+      },
+      {
+        "slot": "b04:fable->fable",
+        "order": 16,
+        "response_id": "gen-1793840640-SiDdDFsBQ11xORfyGYwQ",
+        "cost_usd": 0.097,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 1709,
+          "reasoning_tokens": 734,
+          "cached_tokens": 0,
+          "cost": 0.097
+        }
+      },
+      {
+        "slot": "b05:fable->fable",
+        "order": 17,
+        "response_id": "gen-1793840662-ylDiau2F2SHpUZ9AmYfb",
+        "cost_usd": 0.11215,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 2012,
+          "reasoning_tokens": 639,
+          "cached_tokens": 0,
+          "cost": 0.11215
+        }
+      },
+      {
+        "slot": "b05:fable->astra",
+        "order": 18,
+        "response_id": "gen-1793840687-LDcodDASidbMUX3IfpQb",
+        "cost_usd": 0.1235,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 2240,
+          "reasoning_tokens": 1024,
+          "cached_tokens": 0,
+          "cost": 0.1235
+        }
+      },
+      {
+        "slot": "b05:astra->astra",
+        "order": 19,
+        "response_id": "gen-1793840717-S7F5djb6Bf0oJBIr2tCX",
+        "cost_usd": 0.04964,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 846,
+          "reasoning_tokens": 126,
+          "cached_tokens": 0,
+          "cost": 0.04964
+        }
+      },
+      {
+        "slot": "b05:astra->fable",
+        "order": 20,
+        "response_id": "gen-1793840734-Xpr31hBsBJKEPr1dxWzj",
+        "cost_usd": 0.05796,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 1010,
+          "reasoning_tokens": 111,
+          "cached_tokens": 0,
+          "cost": 0.05796
+        }
+      },
+      {
+        "slot": "b06:astra->astra",
+        "order": 21,
+        "response_id": "gen-1793840758-zLZxyDE9b9io1xvZxLJg",
+        "cost_usd": 0.05589,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 971,
+          "reasoning_tokens": 125,
+          "cached_tokens": 0,
+          "cost": 0.05589
+        }
+      },
+      {
+        "slot": "b06:fable->fable",
+        "order": 22,
+        "response_id": "gen-1793840774-6jAmTk7jUhF42KlUCSBa",
+        "cost_usd": 0.10915,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 1952,
+          "reasoning_tokens": 800,
+          "cached_tokens": 0,
+          "cost": 0.10915
+        }
+      },
+      {
+        "slot": "b06:astra->fable",
+        "order": 23,
+        "response_id": "gen-1793840802-ejr27hs34Cz66wuEsXqM",
+        "cost_usd": 0.05356,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 922,
+          "reasoning_tokens": 67,
+          "cached_tokens": 0,
+          "cost": 0.05356
+        }
+      },
+      {
+        "slot": "b06:fable->astra",
+        "order": 24,
+        "response_id": "gen-1793840821-LBxlsWBFzPpawOg73NAI",
+        "cost_usd": 0.09915,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 1753,
+          "reasoning_tokens": 653,
+          "cached_tokens": 0,
+          "cost": 0.09915
+        }
+      },
+      {
+        "slot": "b07:fable->astra",
+        "order": 25,
+        "response_id": "gen-1793840846-mfxu7dKsDAIGde01NVPp",
+        "cost_usd": 0.0928,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 1626,
+          "reasoning_tokens": 541,
+          "cached_tokens": 0,
+          "cost": 0.0928
+        }
+      },
+      {
+        "slot": "b07:fable->fable",
+        "order": 26,
+        "response_id": "gen-1793840866-TGfpfSziia8Iq0Hd7bO7",
+        "cost_usd": 0.09145,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 1598,
+          "reasoning_tokens": 856,
+          "cached_tokens": 0,
+          "cost": 0.09145
+        }
+      },
+      {
+        "slot": "b07:astra->fable",
+        "order": 27,
+        "response_id": "gen-1793840890-PaaWCMzohQc8SyA0lKgz",
+        "cost_usd": 0.06181,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 1087,
+          "reasoning_tokens": 164,
+          "cached_tokens": 0,
+          "cost": 0.06181
+        }
+      },
+      {
+        "slot": "b07:astra->astra",
+        "order": 28,
+        "response_id": "gen-1793840911-eh07CSFGDOr8tgSC2MW2",
+        "cost_usd": 0.05224,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 898,
+          "reasoning_tokens": 169,
+          "cached_tokens": 0,
+          "cost": 0.05224
+        }
+      },
+      {
+        "slot": "b08:astra->fable",
+        "order": 29,
+        "response_id": "gen-1793840928-trbvmXC1IdM9FqzhoUFj",
+        "cost_usd": 0.05501,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 951,
+          "reasoning_tokens": 98,
+          "cached_tokens": 0,
+          "cost": 0.05501
+        }
+      },
+      {
+        "slot": "b08:astra->astra",
+        "order": 30,
+        "response_id": "gen-1793840948-XnwyPJpMkMZQ93iubqzU",
+        "cost_usd": 0.05404,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 934,
+          "reasoning_tokens": 148,
+          "cached_tokens": 0,
+          "cost": 0.05404
+        }
+      },
+      {
+        "slot": "b08:fable->astra",
+        "order": 31,
+        "response_id": "gen-1793840967-lOj7e27sGkVfKqY9jqHZ",
+        "cost_usd": 0.12065,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 2183,
+          "reasoning_tokens": 723,
+          "cached_tokens": 0,
+          "cost": 0.12065
+        }
+      },
+      {
+        "slot": "b08:fable->fable",
+        "order": 32,
+        "response_id": "gen-1793840993-zRDY8A6kcnuInznlBqbT",
+        "cost_usd": 0.1042,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 1853,
+          "reasoning_tokens": 926,
+          "cached_tokens": 0,
+          "cost": 0.1042
+        }
+      },
+      {
+        "slot": "b09:fable->astra",
+        "order": 33,
+        "response_id": "gen-1793841018-axEZQWPcgWktYM9xExob",
+        "cost_usd": 0.0864,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 1498,
+          "reasoning_tokens": 598,
+          "cached_tokens": 0,
+          "cost": 0.0864
+        }
+      },
+      {
+        "slot": "b09:astra->fable",
+        "order": 34,
+        "response_id": "gen-1793841038-ifyIlcqIrPX7orgCFpZ2",
+        "cost_usd": 0.05366,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 924,
+          "reasoning_tokens": 145,
+          "cached_tokens": 0,
+          "cost": 0.05366
+        }
+      },
+      {
+        "slot": "b09:astra->astra",
+        "order": 35,
+        "response_id": "gen-1793841058-npuuLeD7qv5HIcAyelkA",
+        "cost_usd": 0.04619,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 777,
+          "reasoning_tokens": 76,
+          "cached_tokens": 0,
+          "cost": 0.04619
+        }
+      },
+      {
+        "slot": "b09:fable->fable",
+        "order": 36,
+        "response_id": "gen-1793841074-JVbjsGpEszXnnV1IFkL9",
+        "cost_usd": 0.0928,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 1625,
+          "reasoning_tokens": 1007,
+          "cached_tokens": 0,
+          "cost": 0.0928
+        }
+      },
+      {
+        "slot": "b10:fable->fable",
+        "order": 37,
+        "response_id": "gen-1793841096-Y4UWrs2l1FqLCubywqIT",
+        "cost_usd": 0.08825,
+        "usage": {
+          "prompt_tokens": 1155,
+          "completion_tokens": 1534,
+          "reasoning_tokens": 517,
+          "cached_tokens": 0,
+          "cost": 0.08825
+        }
+      },
+      {
+        "slot": "b10:fable->astra",
+        "order": 38,
+        "response_id": "gen-1793841116-MGP8Tyx7jzzbxrulL0hs",
+        "cost_usd": 0.09935,
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 1757,
+          "reasoning_tokens": 652,
+          "cached_tokens": 0,
+          "cost": 0.09935
+        }
+      },
+      {
+        "slot": "b10:astra->fable",
+        "order": 39,
+        "response_id": "gen-1793841138-0VtKClD9cFFc1mFKZ3ng",
+        "cost_usd": 0.05961,
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 1043,
+          "reasoning_tokens": 138,
+          "cached_tokens": 0,
+          "cost": 0.05961
+        }
+      },
+      {
+        "slot": "b10:astra->astra",
+        "order": 40,
+        "response_id": "gen-1793841159-EEl1HJs813bXxQpnpCvq",
+        "cost_usd": 0.05189,
+        "usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 891,
+          "reasoning_tokens": 95,
+          "cached_tokens": 0,
+          "cost": 0.05189
+        }
+      }
+    ]
+  },
+  "cost_usd": {
+    "billed_total": 3.1414,
+    "by_author": {
+      "astra": 1.115,
+      "fable": 2.0265
+    },
+    "cap": 10.0
+  },
+  "version_limit": "OpenRouter slugs are not dated snapshots; pinned providers and prices match the archive; identical weights cannot be verified",
+  "counts": {
+    "games": 18,
+    "contributing_games": 16,
+    "decisions": {
+      "astra": 240,
+      "fable": 240
+    },
+    "programs_generated": 40,
+    "programs_valid": 40,
+    "complete_blocks": 10
+  },
+  "failures": [],
+  "deviations": [
+    "sandbox: isolated-mode Python worker + Windows Job Object + in-process audit hook (no container; no OS-level network block)",
+    "schedule order numbering fixed before the plan was committed or approved (dispatch order unaffected)"
+  ],
+  "files": {
+    "APPROVAL.md": "9ab326fccc20defa08e1543be2966cfa51e29864d1484cadbb492af36ed01832",
+    "dry_run/DRY_RUN.json": "e930145a373738df0535d1cda5cc0dc36bc6c8d1b0e6a2eed34feb508e4588c7",
+    "dry_run/programs/b01_astra_for_astra.py": "0baf17fe4ed36d709c9fa6abda7360c037c54879e25436ea3a83c352c25f2d61",
+    "dry_run/programs/b01_astra_for_fable.py": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96",
+    "dry_run/programs/b01_fable_for_astra.py": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf",
+    "dry_run/programs/b01_fable_for_fable.py": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748",
+    "dry_run/programs/b02_astra_for_astra.py": "1091b742861eb0c54e82f329a5de1c7a6fb6bf41d408eb46f7b793030796c4d7",
+    "dry_run/programs/b02_astra_for_fable.py": "53e9ba014045bc226550beb3dea2279c69586bd93300f3f20284846685b4cb84",
+    "dry_run/programs/b02_fable_for_astra.py": "bfd5bd848ee6b3bff095332580f916b1692b80129c49cc22a9f37414238d65e1",
+    "dry_run/programs/b02_fable_for_fable.py": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748",
+    "dry_run/programs/b03_astra_for_astra.py": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593",
+    "dry_run/programs/b03_astra_for_fable.py": "83b6294d5ab472bb7faf634ec992503c5d780a5d67e64c169cb0bdfa0603b31d",
+    "dry_run/programs/b03_fable_for_astra.py": "0d0ad724c90acb8bc849682f6edf998c0c56fa50fd752992635a36a4bd6279eb",
+    "dry_run/programs/b03_fable_for_fable.py": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8",
+    "dry_run/programs/b04_astra_for_astra.py": "1091b742861eb0c54e82f329a5de1c7a6fb6bf41d408eb46f7b793030796c4d7",
+    "dry_run/programs/b04_astra_for_fable.py": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96",
+    "dry_run/programs/b04_fable_for_astra.py": "bfd5bd848ee6b3bff095332580f916b1692b80129c49cc22a9f37414238d65e1",
+    "dry_run/programs/b04_fable_for_fable.py": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748",
+    "dry_run/programs/b05_astra_for_astra.py": "9ebf32bcd520748ebf8036ac45b3129f07f8dd5482a039015d43d836667cedf7",
+    "dry_run/programs/b05_astra_for_fable.py": "9ebf32bcd520748ebf8036ac45b3129f07f8dd5482a039015d43d836667cedf7",
+    "dry_run/programs/b05_fable_for_astra.py": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf",
+    "dry_run/programs/b05_fable_for_fable.py": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8",
+    "dry_run/programs/b06_astra_for_astra.py": "40b09685e869712811dd615651e66c67ab30ff5efebc0095052c5b244341457a",
+    "dry_run/programs/b06_astra_for_fable.py": "6dc6e3ff99ad857a933f10a11461e0dfde76f5a729d8d050460a937453d88bd3",
+    "dry_run/programs/b06_fable_for_astra.py": "0d0ad724c90acb8bc849682f6edf998c0c56fa50fd752992635a36a4bd6279eb",
+    "dry_run/programs/b06_fable_for_fable.py": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8",
+    "dry_run/programs/b07_astra_for_astra.py": "1091b742861eb0c54e82f329a5de1c7a6fb6bf41d408eb46f7b793030796c4d7",
+    "dry_run/programs/b07_astra_for_fable.py": "53e9ba014045bc226550beb3dea2279c69586bd93300f3f20284846685b4cb84",
+    "dry_run/programs/b07_fable_for_astra.py": "bfd5bd848ee6b3bff095332580f916b1692b80129c49cc22a9f37414238d65e1",
+    "dry_run/programs/b07_fable_for_fable.py": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748",
+    "dry_run/programs/b08_astra_for_astra.py": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593",
+    "dry_run/programs/b08_astra_for_fable.py": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96",
+    "dry_run/programs/b08_fable_for_astra.py": "dfe7dc387794480f50cc97129f806750339e739db271dc492da815679f7da3af",
+    "dry_run/programs/b08_fable_for_fable.py": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8",
+    "dry_run/programs/b09_astra_for_astra.py": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593",
+    "dry_run/programs/b09_astra_for_fable.py": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96",
+    "dry_run/programs/b09_fable_for_astra.py": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf",
+    "dry_run/programs/b09_fable_for_fable.py": "a3933a482ff87b8b97f5e6b12acf76f9aa9fb1b3d5328119cf6d5e6457c9c748",
+    "dry_run/programs/b10_astra_for_astra.py": "4a2cf4b7a673c3e8bfc204055b9850e9ad8b7dcefb517453d62863c6ba790593",
+    "dry_run/programs/b10_astra_for_fable.py": "a27868e6b88471fdc911429dd3fecdf4c4e714e589c03fedd86535bcf766cb96",
+    "dry_run/programs/b10_fable_for_astra.py": "7b98814cd00f50e79141b86ddbb95fda52016ed66a98ef256fe1f7f98d9497bf",
+    "dry_run/programs/b10_fable_for_fable.py": "c47b51961b98003426a85d6fe7173ddc0f177a07f34594fce5287f359001e6b8",
+    "dry_run/programs/sources_sha256.json": "202def64e7dc7ca93da8ef8ac3816baa60db785bf0bcdf97106acae9b5e34bd2",
+    "dry_run/responses/calls.jsonl": "a7870a2e1ab28a0147f1b443ccb8380b8fa5c430963db1e1d73f045fceffa9bb",
+    "dry_run/scoring/generation_scores.csv": "2e41dbb87b178e15f2d4ea947da9a2f642673fed04b1d526ac433d31858fd600",
+    "dry_run/scoring/item_predictions.csv": "4acc7c048d36af18812f389e469dc13b07cab03c2eb4c4d10b29b55cc2155d40",
+    "dry_run/scoring/results.json": "76494c911679650dff2e59a2984596b698bbbb978f23e543736384c9dc3b1e0b",
+    "dry_run/validation/contract.json": "b86b17ec078da3d964c885fa8680cf4dd6e7c00dd157c028d5460f8561029f14",
+    "plan/author_message_target_astra.txt": "6e8ff82a73243f5dece07af099bff0ded212997ab85f93448c2130a5e03b7844",
+    "plan/author_message_target_fable.txt": "94ae8d4a600d3a71dd9fdcf1060541e93b2fc70b41f6d9339ddb854282a0f505",
+    "plan/endpoint_snapshot.json": "033145cb9e796d34e8ad3529e591f2bc604550d2acca7494ad595b29e05ea8d7",
+    "plan/run_plan.json": "9becd791f1411d1fce9d941e83ecd014ecff81ea728da8714895ade65dc0f91a",
+    "plan/schedule.json": "466516bc6ac2ce7d113004f68d85affe55b34361fa800ffd03d64535b987d27c",
+    "programs/b01_astra_for_astra.py": "7e42dd67ed618690c75ac02b430737a343285a07326070030132337bf33d0ca1",
+    "programs/b01_astra_for_fable.py": "cb02085cd8544c035b6fa588861a7cb4eb571f8cac94ad815a14f28f34ad0525",
+    "programs/b01_fable_for_astra.py": "bc2b78d7ed9fa8a5747b13e2b202344cd8c6a5e0592950dd96daffdf6157d5c6",
+    "programs/b01_fable_for_fable.py": "f03e1f4439b4218e966f87c69d4ea75a2a944d3c263ee842072e1ec6f7d81e18",
+    "programs/b02_astra_for_astra.py": "637669f2be7429102a8fa2bd36920244c28c81c9c64c4b34c488b6e9d6e53296",
+    "programs/b02_astra_for_fable.py": "c1763c5b6754fe0e70382639659bbfc0befa04c7f1c312c55e75fb0d188d91b3",
+    "programs/b02_fable_for_astra.py": "94f64cc1829105623b433e73f2427e225d921a9a3bc47aa52d616b39aa8eb99d",
+    "programs/b02_fable_for_fable.py": "d15c73c6f83893177e42b819d7e4ab14bc0cb481bd4bbdd0ac04dff6f1246ebf",
+    "programs/b03_astra_for_astra.py": "4ee5c52a1d2a59c58e333f1520e20168d76df1318b206d77ded1792bb1c594c1",
+    "programs/b03_astra_for_fable.py": "98559e7651417a32a6b2fac4057568bdbe27f48f39bf8a9c69e85fb0b35845df",
+    "programs/b03_fable_for_astra.py": "692885decaca74c00a48da8b10d533e70e95a95d8e89a932047c3d4441b6bb09",
+    "programs/b03_fable_for_fable.py": "ebe7cdd2af184495fec112c363937f5512e3c4a81a92ff14fcef2b63df330f69",
+    "programs/b04_astra_for_astra.py": "f181d4ced937ff25e960e862723ef2a561e278a5cd6dcbbc2197e250cfc70be8",
+    "programs/b04_astra_for_fable.py": "5d04b202c4c6806e42102ca9015bbf1973b5c8c736a38dac1ed6d6e6c7352b01",
+    "programs/b04_fable_for_astra.py": "1595ffd67ee50419132140777e91f84c9b35ffde2f8a39ef8f360c6e447fae6a",
+    "programs/b04_fable_for_fable.py": "dd12e615be957d5c1e5c4c209f7448a813a45805f27fedd63f307a950f5f1859",
+    "programs/b05_astra_for_astra.py": "87c4b1f7261e780c936a6dce3d11772c43e18c0cd126ceefb72c1d9cdba8129d",
+    "programs/b05_astra_for_fable.py": "cfbb065be0c2145d752806013e25452b31ccf9a7f77eac4eb172db67bf73efca",
+    "programs/b05_fable_for_astra.py": "3cebfcfb054a4111033346f1ff860d3989181da9e5a87cbea54c18155fbf702c",
+    "programs/b05_fable_for_fable.py": "6b0ece8af3d29388bc7c8d9f805e9dfb30172adef17293b458f0ee2ef9ec5000",
+    "programs/b06_astra_for_astra.py": "f782782bcbee619306ae63fe30e2bf3b35bc6957e8b9c4806af6d755e4ad3fbf",
+    "programs/b06_astra_for_fable.py": "76e92d5246836b752e996443527fbd5de5222478d5d5edf77fe44978714588f1",
+    "programs/b06_fable_for_astra.py": "10ad658db768664562d25aff5911bb17bac773806ade0b41b8d0e771df5586cc",
+    "programs/b06_fable_for_fable.py": "d63f9f29f3de7d7a6d13aefc4cbf035288c8db4788cfc820797837b0c12f7728",
+    "programs/b07_astra_for_astra.py": "0d672b9ebd727915caad26063300f2927036e83943c98326fba0c207042fadaf",
+    "programs/b07_astra_for_fable.py": "0144ea760a7eef99c9295f04c2dd2b123e40c8cb022642ee9f048b105a73e29e",
+    "programs/b07_fable_for_astra.py": "ee01cad518768df8a3993131483b9755576b0394167e49d01ccee2ee26f3cfc8",
+    "programs/b07_fable_for_fable.py": "d1fdfa7aa29800b5128c6a6f6455c36b04736884c6db04e49212fbec950f86ae",
+    "programs/b08_astra_for_astra.py": "e3c859e2e8fc09ca84443414c3ed97623e1c74015491f1aaac76e7a68a5029b1",
+    "programs/b08_astra_for_fable.py": "c133677bd430c38ceb9e4aff898101d99e95d85e4d489d264838524e270b083e",
+    "programs/b08_fable_for_astra.py": "fed38a98a4a569f126518a534795ea9ec75f64f279b566281083ac3a6a61034f",
+    "programs/b08_fable_for_fable.py": "2097e856a534ccff51a9d67c9446969f08ddee2fe48eabcfd7e4bcad54a1468f",
+    "programs/b09_astra_for_astra.py": "636b85b650fd6796a54990f1a9ce2d48aef253a1607dc354809489f64d0ed4ed",
+    "programs/b09_astra_for_fable.py": "45ad8671d8fdfd99490d0d60ee1f3d69e33e2d87806c38ad45992f9331955c6b",
+    "programs/b09_fable_for_astra.py": "74792a6aa902fe3854c900fc6ffd61d798737b436a81b1b56a9d576ec66fa4ef",
+    "programs/b09_fable_for_fable.py": "6f2260a0bfd4a1c08c464fdc30fda457efe65c6c0ff056021d168c725035cb33",
+    "programs/b10_astra_for_astra.py": "23dd6816d2e66436bf81a328f6067a6c231617dd2eb52df658d51aecff7cf73e",
+    "programs/b10_astra_for_fable.py": "1b5c1e30b8d30e91758be9abbcd2c9fec4073d3723f2e38a8c0ebba0a2ea4d13",
+    "programs/b10_fable_for_astra.py": "6cdc53147f20d1e409ca55dfc7c55b239daf77547a732e36ed5428590844d3a3",
+    "programs/b10_fable_for_fable.py": "eda7b1785524096729690539250404793ad4cfb0f7d785a947f442faf59c8f50",
+    "programs/sources_sha256.json": "0818e007d8c2022ffa33e541f9e3eafb30388cf13f52c62a446f8c5d47b8d6ca",
+    "README.md": "4e8ec406d4c7e420c73182f33e5d786733c169aca0676000bddf38b6c1452f4a",
+    "REPORT.md": "41b8b75b06e45a1cd22cf3cc24cb73e8321e22fe0c6987f4b8fbee48b37291d6",
+    "responses/calls.jsonl": "7ba7b3e53dfe1a7d19f4279f3a7ec7761630a9e8ae39fb8548155f0aa5d3f525",
+    "run.log": "257dda7b6b3d14490b7710522a0d221d0b3e44f9ef0b6f96abc419820c641484",
+    "scoring/generation_scores.csv": "43842f430d3571e34b581d5a07909bd226b0c117a622fce02f39603433f54f24",
+    "scoring/item_predictions.csv": "84d8df9435ea3c7924fd0a5278d90e5d7eadd2ea7be08d9290ea115912a32664",
+    "scoring/results.json": "0be4e4deda9803eb8fe39c3d358f690ea42dd5651feffe88a763f4106ac37e2d",
+    "validation/contract.json": "7bdab502ce1bf12d0b36e6a64ba556cb7a89b0ee7d524642b496ca9b4d922d78"
+  }
+}
