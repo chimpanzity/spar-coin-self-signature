@@ -1,0 +1,34 @@
+{
+  "astra_for_astra.py": {
+    "status": "frozen",
+    "parse": "bare",
+    "finish_reason": "stop",
+    "sha256": "8c02f12ffbc8f820f2adc91ad49e96d5cb0db8c746d2caeed2e76e0bc75b9693",
+    "n_lines": 120,
+    "response_sha256": "ac8997da714ab9504ad7a5a3539cc5267558affad3a8fe0998fde244abba5500"
+  },
+  "astra_for_fable.py": {
+    "status": "frozen",
+    "parse": "bare",
+    "finish_reason": "stop",
+    "sha256": "103d702aea1a218f74497703c27e20e915f92f4805ac25a62369c8b1f2b3d360",
+    "n_lines": 95,
+    "response_sha256": "2ce36691709af9ecd4581c9ee44b11aed08281bc6c1007b5244eccd3743ede33"
+  },
+  "fable_for_astra.py": {
+    "status": "frozen",
+    "parse": "one_fence_stripped",
+    "finish_reason": "stop",
+    "sha256": "f9eed0c61f4851d0d97580c9c2496f6c28d175a32066da4b81ded85ae7b2e461",
+    "n_lines": 60,
+    "response_sha256": "dc3ed5c063ebc43c059abb6b0ba3d666fd8e33f39f9bb0aa75e67b3a49e102f0"
+  },
+  "fable_for_fable.py": {
+    "status": "frozen",
+    "parse": "one_fence_stripped",
+    "finish_reason": "stop",
+    "sha256": "fc3700b05501096b19c1ad2c8c85ea239096363b2a6b2936905c1fb356848382",
+    "n_lines": 76,
+    "response_sha256": "4de8bd55597ac0735585840aa9d2b6c1f78ec6e8f1fbe0c54c0c34fdcb5c11d2"
+  }
+}
