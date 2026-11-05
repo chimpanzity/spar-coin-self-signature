@@ -74,6 +74,7 @@ T2_EXP = {
     "entropy_gradient_rep":  T2 / "18_2026-10-22_paint_circle_entropy_gradient_replication",
     "noise_label":           T2 / "19_2026-10-27_paint_circle_noise_label_predictability",
     "noise_label_rep":       T2 / "20_2026-10-27_paint_circle_noise_label_replication",
+    "forecast_prediction":   T2 / "21_2026-11-04_blind_twin_forecast_prediction",
 }
 EXP = {**T1_EXP, **T2_EXP}
 
