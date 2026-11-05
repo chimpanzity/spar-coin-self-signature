@@ -30,7 +30,7 @@ def schedule() -> List[dict]:
     for b in range(1, C.N_BLOCKS + 1):
         cells = list(C.CELLS)
         rng.shuffle(cells)
-        out += [dict(order=len(out) + 1, block=b, author=a, target=j, slot_id=slot_id(b, a, j)) for a, j in cells]
+        out += [dict(order=len(out) + i, block=b, author=a, target=j, slot_id=slot_id(b, a, j)) for i, (a, j) in enumerate(cells, 1)]
     return out
 
 

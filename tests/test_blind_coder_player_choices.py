@@ -186,6 +186,7 @@ def test_learned_reference_uses_other_wave_only(items):
 def test_schedule_and_dry_pipeline(tmp_path, monkeypatch):
     sch = AU.schedule()
     assert sch == AU.schedule() and len(sch) == 40 and len({s["slot_id"] for s in sch}) == 40
+    assert [s["order"] for s in sch] == list(range(1, 41))
     assert all(sorted((s["author"], s["target"]) for s in sch if s["block"] == b) == sorted(C.CELLS) for b in range(1, 11))
     assert any([(s["author"], s["target"]) for s in sch if s["block"] == b] != list(C.CELLS) for b in range(1, 11))   # shuffled within blocks
     prices = {m["slug"]: {"prompt": 1e-5, "completion": 5e-5} for m in C.MODELS.values()}
