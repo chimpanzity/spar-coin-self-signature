@@ -1,0 +1,309 @@
+{
+  "protocol": "BlindTwinForecastPrediction_v1",
+  "program_status": {
+    "astra_for_astra.py": "valid",
+    "astra_for_fable.py": "valid",
+    "fable_for_astra.py": "valid",
+    "fable_for_fable.py": "valid"
+  },
+  "sources_sha256": {
+    "astra_for_astra.py": "edf21a5179d5630157fcda1204724ff35c05f75c9ff66205514a52d15725e585",
+    "astra_for_fable.py": "7be84f548e9f082c718876a16b0bdc87786bcad2a97f71238e19ac27702a720d",
+    "fable_for_astra.py": "e7fcac0e618467d2cc3e2f70f4886bb3a78620874546b9d16e5685ebaf3280a4",
+    "fable_for_fable.py": "88149ede083cb07a0760600759e46c3faff6bc4c657d2fd1a80e693eff43b15a"
+  },
+  "acceptance": {
+    "ok": true,
+    "checks": {
+      "items": true,
+      "retest_items": true,
+      "retest_games": true,
+      "stable": true,
+      "stable_by_pairing": true,
+      "inputs": true
+    },
+    "n_items": 240,
+    "n_retest": 120,
+    "n_stable": 42,
+    "stable_by_pairing": {
+      "AA": 11,
+      "FF": 14,
+      "QQ": 17
+    }
+  },
+  "n_items": 240,
+  "primary": {
+    "B": {
+      "astra->astra": 0.363,
+      "astra->fable": 0.35887500000000006,
+      "fable->astra": 0.271245113562786,
+      "fable->fable": 0.2516666666666667
+    },
+    "contrasts": {
+      "fable_target_advantage": 0.10720833333333335,
+      "astra_target_advantage": -0.09175488643721397,
+      "balanced_self_advantage": 0.007726723448059691,
+      "reciprocal": false
+    },
+    "per_game": {
+      "mp:AA_00_1": {
+        "fable_target_advantage": 0.09887499999999999,
+        "astra_target_advantage": -0.06282528664648623,
+        "balanced_self_advantage": 0.01802485667675688
+      },
+      "mp:AA_00_2": {
+        "fable_target_advantage": 0.108875,
+        "astra_target_advantage": -0.10478976360358455,
+        "balanced_self_advantage": 0.002042618198207724
+      },
+      "mp:FF_00_1": {
+        "fable_target_advantage": 0.11887500000000004,
+        "astra_target_advantage": -0.04215591269593316,
+        "balanced_self_advantage": 0.03835954365203344
+      },
+      "mp:FF_00_2": {
+        "fable_target_advantage": 0.146375,
+        "astra_target_advantage": -0.1335461118558291,
+        "balanced_self_advantage": 0.006414444072085454
+      },
+      "mp:QQ_00_1_MU2": {
+        "fable_target_advantage": 0.07137500000000002,
+        "astra_target_advantage": -0.06108312163714369,
+        "balanced_self_advantage": 0.005145939181428166
+      },
+      "mp:QQ_00_2": {
+        "fable_target_advantage": 0.09887499999999999,
+        "astra_target_advantage": -0.14612912218430685,
+        "balanced_self_advantage": -0.02362706109215343
+      }
+    },
+    "logo_range": {
+      "fable_target_advantage": [
+        0.09937499999999999,
+        0.114375
+      ],
+      "astra_target_advantage": [
+        -0.10167468118547007,
+        -0.08088003928779536
+      ],
+      "balanced_self_advantage": [
+        0.0016001594072649894,
+        0.013997480356102321
+      ]
+    },
+    "logo": {
+      "mp:AA_00_1": {
+        "fable_target_advantage": 0.108875,
+        "astra_target_advantage": -0.0975408063953595,
+        "balanced_self_advantage": 0.005667096802320248,
+        "reciprocal": false
+      },
+      "mp:AA_00_2": {
+        "fable_target_advantage": 0.10687500000000005,
+        "astra_target_advantage": -0.08914791100393987,
+        "balanced_self_advantage": 0.00886354449803009,
+        "reciprocal": false
+      },
+      "mp:FF_00_1": {
+        "fable_target_advantage": 0.10487500000000005,
+        "astra_target_advantage": -0.10167468118547007,
+        "balanced_self_advantage": 0.0016001594072649894,
+        "reciprocal": false
+      },
+      "mp:FF_00_2": {
+        "fable_target_advantage": 0.09937499999999999,
+        "astra_target_advantage": -0.0833966413534909,
+        "balanced_self_advantage": 0.007989179323254547,
+        "reciprocal": false
+      },
+      "mp:QQ_00_1_MU2": {
+        "fable_target_advantage": 0.114375,
+        "astra_target_advantage": -0.09788923939722799,
+        "balanced_self_advantage": 0.008242880301386007,
+        "reciprocal": false
+      },
+      "mp:QQ_00_2": {
+        "fable_target_advantage": 0.108875,
+        "astra_target_advantage": -0.08088003928779536,
+        "balanced_self_advantage": 0.013997480356102321,
+        "reciprocal": false
+      }
+    }
+  },
+  "references": {
+    "constant_0.5": {
+      "astra": 0.25,
+      "fable": 0.25
+    },
+    "repeat_previous_0.75": {
+      "astra": 0.403125,
+      "fable": 0.4552083333333334
+    }
+  },
+  "cross_scores": {
+    "astra_for_astra": {
+      "astra": 0.363,
+      "fable": 0.4046666666666667
+    },
+    "astra_for_fable": {
+      "astra": 0.32762500000000006,
+      "fable": 0.35887500000000006
+    },
+    "fable_for_astra": {
+      "astra": 0.271245113562786,
+      "fable": 0.2941370485541792
+    },
+    "fable_for_fable": {
+      "astra": 0.2725,
+      "fable": 0.2516666666666667
+    }
+  },
+  "modal": {
+    "astra": {
+      "n": 240,
+      "different_modal_calls": 0,
+      "same_modal_calls": 228,
+      "involving_tie": 12,
+      "identical_probabilities": 12,
+      "mean_abs_prob_difference": 0.047499999999999966
+    },
+    "fable": {
+      "n": 240,
+      "different_modal_calls": 89,
+      "same_modal_calls": 90,
+      "involving_tie": 61,
+      "identical_probabilities": 8,
+      "mean_abs_prob_difference": 0.11459271083448713
+    }
+  },
+  "target_swap": {
+    "astra": {
+      "intended": 0.3609375,
+      "swapped": 0.3661458333333334,
+      "swapped_minus_intended": 0.00520833333333337
+    },
+    "fable": {
+      "intended": 0.26145589011472636,
+      "swapped": 0.2833185242770896,
+      "swapped_minus_intended": 0.021862634162363226
+    }
+  },
+  "secondary": {
+    "split_games": {
+      "retested_games": {
+        "games": [
+          "mp:AA_00_1",
+          "mp:FF_00_1",
+          "mp:QQ_00_1_MU2"
+        ],
+        "B": {
+          "astra->astra": 0.3313333333333333,
+          "astra->fable": 0.34137500000000004,
+          "fable->astra": 0.27597855967347895,
+          "fable->fable": 0.24500000000000002
+        },
+        "contrasts": {
+          "fable_target_advantage": 0.09637500000000002,
+          "astra_target_advantage": -0.05535477365985436,
+          "balanced_self_advantage": 0.020510113170072827,
+          "reciprocal": false
+        }
+      },
+      "other_games": {
+        "games": [
+          "mp:AA_00_2",
+          "mp:FF_00_2",
+          "mp:QQ_00_2"
+        ],
+        "B": {
+          "astra->astra": 0.39466666666666667,
+          "astra->fable": 0.37637500000000007,
+          "fable->astra": 0.26651166745209315,
+          "fable->fable": 0.25833333333333336
+        },
+        "contrasts": {
+          "fable_target_advantage": 0.11804166666666671,
+          "astra_target_advantage": -0.12815499921457352,
+          "balanced_self_advantage": -0.005056666273953403,
+          "reciprocal": false
+        }
+      }
+    },
+    "by_administration": {
+      "original": {
+        "n_items": 120,
+        "B": {
+          "astra->astra": 0.3313333333333333,
+          "astra->fable": 0.34137500000000004,
+          "fable->astra": 0.27597855967347895,
+          "fable->fable": 0.24500000000000002
+        },
+        "contrasts": {
+          "fable_target_advantage": 0.09637500000000002,
+          "astra_target_advantage": -0.05535477365985436,
+          "balanced_self_advantage": 0.020510113170072827,
+          "reciprocal": false
+        }
+      },
+      "retest": {
+        "n_items": 120,
+        "B": {
+          "astra->astra": 0.3446666666666666,
+          "astra->fable": 0.34637500000000004,
+          "fable->astra": 0.27156196169457447,
+          "fable->fable": 0.2416666666666667
+        },
+        "contrasts": {
+          "fable_target_advantage": 0.10470833333333335,
+          "astra_target_advantage": -0.07310470497209215,
+          "balanced_self_advantage": 0.0158018141806206,
+          "reciprocal": false
+        }
+      }
+    },
+    "stable_disagreements": {
+      "n": 42,
+      "by_pairing": {
+        "AA": 11,
+        "FF": 14,
+        "QQ": 17
+      },
+      "item_brier": {
+        "astra_for_astra": {
+          "astra": 0.23476190476190475,
+          "fable": 0.33952380952380945
+        },
+        "astra_for_fable": {
+          "astra": 0.23160714285714287,
+          "fable": 0.31017857142857147
+        },
+        "fable_for_astra": {
+          "astra": 0.23556008300203773,
+          "fable": 0.28315154710168405
+        },
+        "fable_for_fable": {
+          "astra": 0.3076190476190476,
+          "fable": 0.21238095238095242
+        }
+      },
+      "star_assignment": {
+        "astra": {
+          "higher_star_to_star_judge": 25,
+          "higher_star_to_other_judge": 14,
+          "ties": 3
+        },
+        "fable": {
+          "higher_star_to_star_judge": 27,
+          "higher_star_to_other_judge": 13,
+          "ties": 2
+        }
+      }
+    }
+  },
+  "descriptive_player_moves": {
+    "astra_for_astra": 0.2863333333333333,
+    "astra_for_fable": 0.270125,
+    "fable_for_astra": 0.2755681170198839,
+    "fable_for_fable": 0.26333333333333336
+  }
+}

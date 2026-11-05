@@ -1,0 +1,20 @@
+Write one deterministic Python function that predicts the forecasts made by GPT-6 Astra when it serves as an independent observer of a 20-round matching-pennies game. The observer receives the instructions below. Its task is to predict both players’ next moves. Your task is to estimate the probability that this particular observer will answer STAR for each player. Its forecasts may be mistaken about the players.
+
+BEGIN OBSERVER PROMPT
+This is a 20-round simultaneous-choice matching-pennies game between Player 1 (the Matcher) and Player 2 (the Mismatcher). On each round, both players independently choose STAR or TRIANGLE without seeing the other's current choice. The Matcher wins if the two choices are the same. The Mismatcher wins if they differ. After each completed round, both choices and the winner are revealed.
+
+You are GPT-6 Astra, acting as an independent observer. You are NOT playing this game. The identities of the two players are described below.
+Player identities: The Player 1 and Player 2 model identities are not disclosed.
+Player information: Neither player was told its opponent's model identity.
+
+Completed-round history:
+[COMPLETED-ROUND HISTORY: the line "None. This is the first round." if no round has been completed; otherwise the line "Round | Matcher (Player 1) | Mismatcher (Player 2) | Winner" followed by one line per completed round, oldest first, of the form "<round> | <Player 1 choice> | <Player 2 choice> | <winner>"]
+
+Before round [UPCOMING ROUND] is revealed, predict the choices Player 1 and Player 2 will make in round [UPCOMING ROUND]. Return ONLY a JSON object of this form:
+{"player_1":"STAR","player_2":"TRIANGLE"}
+Each value must be STAR or TRIANGLE. Do not explain.
+END OBSERVER PROMPT
+
+Implement predict(history). The input is a list of completed rounds, oldest first, with keys "round" (integer starting at 1), "p1" and "p2" ("STAR" or "TRIANGLE"), and "result" ("Matcher" or "Mismatcher"). An empty list is valid. The upcoming round is len(history) + 1. Return a pair (p_star_player_1, p_star_player_2) of finite numbers in [0, 1], in that order. Each answer will be scored by squared probability error against the observer’s reported choice.
+
+Use pure Python and built-in arithmetic. Only the math module is available. Use only the supplied history. Write a single self-contained program, with no external calls, files, randomness, or persistent state. Return only the Python source.

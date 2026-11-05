@@ -1,0 +1,135 @@
+{
+  "protocol": "BlindTwinForecastPrediction_v1",
+  "created_utc": "2026-11-05T00:29:56.416996Z",
+  "repo": {
+    "commit": "fbf9fec3a357153c227fe3f7a9c9bbc0caf7fce6",
+    "branch": "exp-t2-21-forecast-prediction",
+    "dirty_tracked": false
+  },
+  "handoff": "SPAR_Blind_Twin_Forecast_Prediction_Handoff.md",
+  "acceptance": {
+    "ok": true,
+    "checks": {
+      "items": true,
+      "retest_items": true,
+      "retest_games": true,
+      "stable": true,
+      "stable_by_pairing": true,
+      "inputs": true
+    },
+    "n_items": 240,
+    "n_retest": 120,
+    "n_stable": 42,
+    "stable_by_pairing": {
+      "AA": 11,
+      "FF": 14,
+      "QQ": 17
+    }
+  },
+  "inputs_sha256": {
+    "track2_game_theory/07_2026-10-11_selfself_judges_and_retest/btss-20261011/predictions.csv": "ad5c3450d38fffbb8e5f17d96e0126ccc5cecc17336883496b1ba76bc4baf4ef",
+    "track2_game_theory/07_2026-10-11_selfself_judges_and_retest/btss-retest-20261011/predictions.csv": "52f7f867332211c8a2076d5498db9d073876b174118dc61e561db24ceccbe8bd",
+    "track2_game_theory/05_2026-10-10_study1_exp1_disclosure/mp3m-p2-20261010/with_makeups/game_logs.jsonl": "4fa446f2c3c75fb51cdab2ff998512e58e27a713661d1cc16e93ff09287b0507",
+    "src/blind_twin_selfself/config.py": "6485927324aea0f4b773b52831c60630546699d6265cccec6e9966b0b2ddac4b",
+    "src/blind_twin_selfself/judge.py": "2acadca0293be2afcd171bbd3a4a2fbb00a9d551946fdf175e8b177740ab228d",
+    "src/blind_twin_retest.py": "ba50c9478d1b31b6a57a4d7cbd5c77e4994c18e3b65f15567d4b4f104dc0934c",
+    "track2_game_theory/07_2026-10-11_selfself_judges_and_retest/btss-20261011/endpoint_and_price_snapshots.json": "554aee96746584054e2973751ff6eb5af5b3088eb7147c1614e4f64af7644030"
+  },
+  "code_sha256": {
+    "src/blind_twin_forecast_prediction/__init__.py": "7efea50c7a32114aea7da08c6724628d0ecc513be51d3453f783b5632b40edfc",
+    "src/blind_twin_forecast_prediction/__main__.py": "bff951a84e3d08d8b7d94793fdf8becd53895b461d28ad9e7b028cf4270b1aa2",
+    "src/blind_twin_forecast_prediction/authors.py": "e9b6f8f54f853cca74148eeeb467f871c947d5a9b56b774ef091357c49bb7dae",
+    "src/blind_twin_forecast_prediction/config.py": "78212e1843cc489afa9de8ff085a49473dd0938ab6258189797ca445f2acd9ce",
+    "src/blind_twin_forecast_prediction/data.py": "5300cda0838083e5698763e34a482b65c09425d23295d0d29a42dac71df4f88b",
+    "src/blind_twin_forecast_prediction/execute.py": "f0ce28a9270c4d73fbbe60cc2cb9dd72a2f3e45b580d3aeba0e3393854719a0b",
+    "src/blind_twin_forecast_prediction/prompts.py": "a7341dda1b13a8dfd97449b1340b80c504894b4282545bbb2f371f14f2a1cfd7",
+    "src/blind_twin_forecast_prediction/sandbox.py": "392d9ccbc5cc68fa0c0f527240516d7ae13f574536e14a8a05304552eca0d750",
+    "src/blind_twin_forecast_prediction/sandbox_worker.py": "ab69fe894813d78b989b10430551f95526642c06848e85b2b6e7efca79fe5644",
+    "src/blind_twin_forecast_prediction/scoring.py": "1030d8da3f0e21d8f450dfbf29e8c44203b6dc6b56f2f56f7407138ba474fa5a"
+  },
+  "messages_sha256": {
+    "astra": "1b405cbe269bb8d8d54435a81844b960ec7a30dd0f3aa8715ce71c474a4885e9",
+    "fable": "a3d6a7df911c497317f3fd4feebcf0d83a2fc02864d575b8f8634ff663a07ce4"
+  },
+  "cells": {
+    "author:astra:target:astra": {
+      "author": "astra",
+      "target": "astra",
+      "slug": "openai/gpt-6-astra",
+      "provider": {
+        "order": [
+          "openai"
+        ],
+        "allow_fallbacks": false
+      },
+      "program": "astra_for_astra.py",
+      "message_sha256": "1b405cbe269bb8d8d54435a81844b960ec7a30dd0f3aa8715ce71c474a4885e9",
+      "request_sha256": "6248963b037d6c6b2775e8e8df15d420a326cad50ea7f49aeb54c9d078fd8b49",
+      "worst_case_usd": 0.20864000000000002
+    },
+    "author:astra:target:fable": {
+      "author": "astra",
+      "target": "fable",
+      "slug": "openai/gpt-6-astra",
+      "provider": {
+        "order": [
+          "openai"
+        ],
+        "allow_fallbacks": false
+      },
+      "program": "astra_for_fable.py",
+      "message_sha256": "a3d6a7df911c497317f3fd4feebcf0d83a2fc02864d575b8f8634ff663a07ce4",
+      "request_sha256": "0f525d35dbe923695ff499bf70587f18dfac0241cd2933c8ef745b8fd929f269",
+      "worst_case_usd": 0.20867333333333335
+    },
+    "author:fable:target:astra": {
+      "author": "fable",
+      "target": "astra",
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": {
+        "order": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false
+      },
+      "program": "fable_for_astra.py",
+      "message_sha256": "1b405cbe269bb8d8d54435a81844b960ec7a30dd0f3aa8715ce71c474a4885e9",
+      "request_sha256": "0c36b3453baae47166d937c52db2ba9f9f61c8dbe20990dd8999bc5fba2bca0b",
+      "worst_case_usd": 0.20864000000000002
+    },
+    "author:fable:target:fable": {
+      "author": "fable",
+      "target": "fable",
+      "slug": "anthropic/claude-fable-5.1",
+      "provider": {
+        "order": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false
+      },
+      "program": "fable_for_fable.py",
+      "message_sha256": "a3d6a7df911c497317f3fd4feebcf0d83a2fc02864d575b8f8634ff663a07ce4",
+      "request_sha256": "cbc5fd3224ddfe2ce8aed1b34fe8e4e73a1179d17faa9d1610000899a3759705",
+      "worst_case_usd": 0.20867333333333335
+    }
+  },
+  "settings": {
+    "reasoning": {
+      "effort": "low",
+      "exclude": true
+    },
+    "max_tokens": 4000,
+    "temperature": "omitted",
+    "tools": "none",
+    "generations_per_cell": 1,
+    "cap_usd": 5.0,
+    "worst_case_total_usd": 0.8346266666666667,
+    "sandbox": {
+      "timeout_s": 60,
+      "call_limit_s": 2.0,
+      "memory_mb": 512
+    },
+    "parser": "btfp_v1_source_or_one_fence"
+  },
+  "endpoint_snapshot_sha256": "84475dd01e0309957c17b528f931c30c59c3673b23b9c734d41dabd0df80d186"
+}
