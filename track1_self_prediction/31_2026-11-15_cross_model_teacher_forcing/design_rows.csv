@@ -1,0 +1,161 @@
+row_id,scorer_model,scorer_mode,source_model,source_mode,position,forced_prefix,authentic_face,context_key,cross_model,replay_kind,prompt_sha256
+qwen|G|qwen-G|1,qwen,G,qwen,G,1,,5,qwen|G|[],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|2,qwen,G,qwen,G,2,5,2,qwen|G|[5],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|3,qwen,G,qwen,G,3,5 2,6,qwen|G|[5 2],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|4,qwen,G,qwen,G,4,5 2 6,3,qwen|G|[5 2 6],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|5,qwen,G,qwen,G,5,5 2 6 3,1,qwen|G|[5 2 6 3],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|6,qwen,G,qwen,G,6,5 2 6 3 1,4,qwen|G|[5 2 6 3 1],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|7,qwen,G,qwen,G,7,5 2 6 3 1 4,6,qwen|G|[5 2 6 3 1 4],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|8,qwen,G,qwen,G,8,5 2 6 3 1 4 6,2,qwen|G|[5 2 6 3 1 4 6],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|9,qwen,G,qwen,G,9,5 2 6 3 1 4 6 2,5,qwen|G|[5 2 6 3 1 4 6 2],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-G|10,qwen,G,qwen,G,10,5 2 6 3 1 4 6 2 5,3,qwen|G|[5 2 6 3 1 4 6 2 5],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|1,qwen,G,qwen,F,1,,3,qwen|G|[],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|2,qwen,G,qwen,F,2,3,1,qwen|G|[3],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|3,qwen,G,qwen,F,3,3 1,4,qwen|G|[3 1],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|4,qwen,G,qwen,F,4,3 1 4,6,qwen|G|[3 1 4],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|5,qwen,G,qwen,F,5,3 1 4 6,2,qwen|G|[3 1 4 6],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|6,qwen,G,qwen,F,6,3 1 4 6 2,5,qwen|G|[3 1 4 6 2],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|7,qwen,G,qwen,F,7,3 1 4 6 2 5,3,qwen|G|[3 1 4 6 2 5],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|8,qwen,G,qwen,F,8,3 1 4 6 2 5 3,2,qwen|G|[3 1 4 6 2 5 3],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|9,qwen,G,qwen,F,9,3 1 4 6 2 5 3 2,6,qwen|G|[3 1 4 6 2 5 3 2],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|qwen-F|10,qwen,G,qwen,F,10,3 1 4 6 2 5 3 2 6,4,qwen|G|[3 1 4 6 2 5 3 2 6],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|1,qwen,G,mistral,G,1,,4,qwen|G|[],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|2,qwen,G,mistral,G,2,4,2,qwen|G|[4],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|3,qwen,G,mistral,G,3,4 2,6,qwen|G|[4 2],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|4,qwen,G,mistral,G,4,4 2 6,1,qwen|G|[4 2 6],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|5,qwen,G,mistral,G,5,4 2 6 1,3,qwen|G|[4 2 6 1],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|6,qwen,G,mistral,G,6,4 2 6 1 3,5,qwen|G|[4 2 6 1 3],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|7,qwen,G,mistral,G,7,4 2 6 1 3 5,2,qwen|G|[4 2 6 1 3 5],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|8,qwen,G,mistral,G,8,4 2 6 1 3 5 2,4,qwen|G|[4 2 6 1 3 5 2],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|9,qwen,G,mistral,G,9,4 2 6 1 3 5 2 4,6,qwen|G|[4 2 6 1 3 5 2 4],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-G|10,qwen,G,mistral,G,10,4 2 6 1 3 5 2 4 6,1,qwen|G|[4 2 6 1 3 5 2 4 6],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|1,qwen,G,mistral,F,1,,3,qwen|G|[],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|2,qwen,G,mistral,F,2,3,1,qwen|G|[3],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|3,qwen,G,mistral,F,3,3 1,5,qwen|G|[3 1],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|4,qwen,G,mistral,F,4,3 1 5,2,qwen|G|[3 1 5],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|5,qwen,G,mistral,F,5,3 1 5 2,6,qwen|G|[3 1 5 2],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|6,qwen,G,mistral,F,6,3 1 5 2 6,4,qwen|G|[3 1 5 2 6],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|7,qwen,G,mistral,F,7,3 1 5 2 6 4,3,qwen|G|[3 1 5 2 6 4],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|8,qwen,G,mistral,F,8,3 1 5 2 6 4 3,1,qwen|G|[3 1 5 2 6 4 3],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|9,qwen,G,mistral,F,9,3 1 5 2 6 4 3 1,5,qwen|G|[3 1 5 2 6 4 3 1],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|G|mistral-F|10,qwen,G,mistral,F,10,3 1 5 2 6 4 3 1 5,2,qwen|G|[3 1 5 2 6 4 3 1 5],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+qwen|F|qwen-G|1,qwen,F,qwen,G,1,,5,qwen|F|[],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|2,qwen,F,qwen,G,2,5,2,qwen|F|[5],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|3,qwen,F,qwen,G,3,5 2,6,qwen|F|[5 2],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|4,qwen,F,qwen,G,4,5 2 6,3,qwen|F|[5 2 6],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|5,qwen,F,qwen,G,5,5 2 6 3,1,qwen|F|[5 2 6 3],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|6,qwen,F,qwen,G,6,5 2 6 3 1,4,qwen|F|[5 2 6 3 1],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|7,qwen,F,qwen,G,7,5 2 6 3 1 4,6,qwen|F|[5 2 6 3 1 4],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|8,qwen,F,qwen,G,8,5 2 6 3 1 4 6,2,qwen|F|[5 2 6 3 1 4 6],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|9,qwen,F,qwen,G,9,5 2 6 3 1 4 6 2,5,qwen|F|[5 2 6 3 1 4 6 2],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-G|10,qwen,F,qwen,G,10,5 2 6 3 1 4 6 2 5,3,qwen|F|[5 2 6 3 1 4 6 2 5],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|1,qwen,F,qwen,F,1,,3,qwen|F|[],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|2,qwen,F,qwen,F,2,3,1,qwen|F|[3],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|3,qwen,F,qwen,F,3,3 1,4,qwen|F|[3 1],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|4,qwen,F,qwen,F,4,3 1 4,6,qwen|F|[3 1 4],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|5,qwen,F,qwen,F,5,3 1 4 6,2,qwen|F|[3 1 4 6],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|6,qwen,F,qwen,F,6,3 1 4 6 2,5,qwen|F|[3 1 4 6 2],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|7,qwen,F,qwen,F,7,3 1 4 6 2 5,3,qwen|F|[3 1 4 6 2 5],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|8,qwen,F,qwen,F,8,3 1 4 6 2 5 3,2,qwen|F|[3 1 4 6 2 5 3],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|9,qwen,F,qwen,F,9,3 1 4 6 2 5 3 2,6,qwen|F|[3 1 4 6 2 5 3 2],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|qwen-F|10,qwen,F,qwen,F,10,3 1 4 6 2 5 3 2 6,4,qwen|F|[3 1 4 6 2 5 3 2 6],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|1,qwen,F,mistral,G,1,,4,qwen|F|[],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|2,qwen,F,mistral,G,2,4,2,qwen|F|[4],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|3,qwen,F,mistral,G,3,4 2,6,qwen|F|[4 2],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|4,qwen,F,mistral,G,4,4 2 6,1,qwen|F|[4 2 6],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|5,qwen,F,mistral,G,5,4 2 6 1,3,qwen|F|[4 2 6 1],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|6,qwen,F,mistral,G,6,4 2 6 1 3,5,qwen|F|[4 2 6 1 3],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|7,qwen,F,mistral,G,7,4 2 6 1 3 5,2,qwen|F|[4 2 6 1 3 5],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|8,qwen,F,mistral,G,8,4 2 6 1 3 5 2,4,qwen|F|[4 2 6 1 3 5 2],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|9,qwen,F,mistral,G,9,4 2 6 1 3 5 2 4,6,qwen|F|[4 2 6 1 3 5 2 4],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-G|10,qwen,F,mistral,G,10,4 2 6 1 3 5 2 4 6,1,qwen|F|[4 2 6 1 3 5 2 4 6],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|1,qwen,F,mistral,F,1,,3,qwen|F|[],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|2,qwen,F,mistral,F,2,3,1,qwen|F|[3],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|3,qwen,F,mistral,F,3,3 1,5,qwen|F|[3 1],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|4,qwen,F,mistral,F,4,3 1 5,2,qwen|F|[3 1 5],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|5,qwen,F,mistral,F,5,3 1 5 2,6,qwen|F|[3 1 5 2],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|6,qwen,F,mistral,F,6,3 1 5 2 6,4,qwen|F|[3 1 5 2 6],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|7,qwen,F,mistral,F,7,3 1 5 2 6 4,3,qwen|F|[3 1 5 2 6 4],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|8,qwen,F,mistral,F,8,3 1 5 2 6 4 3,1,qwen|F|[3 1 5 2 6 4 3],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|9,qwen,F,mistral,F,9,3 1 5 2 6 4 3 1,5,qwen|F|[3 1 5 2 6 4 3 1],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+qwen|F|mistral-F|10,qwen,F,mistral,F,10,3 1 5 2 6 4 3 1 5,2,qwen|F|[3 1 5 2 6 4 3 1 5],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|G|qwen-G|1,mistral,G,qwen,G,1,,5,mistral|G|[],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|2,mistral,G,qwen,G,2,5,2,mistral|G|[5],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|3,mistral,G,qwen,G,3,5 2,6,mistral|G|[5 2],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|4,mistral,G,qwen,G,4,5 2 6,3,mistral|G|[5 2 6],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|5,mistral,G,qwen,G,5,5 2 6 3,1,mistral|G|[5 2 6 3],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|6,mistral,G,qwen,G,6,5 2 6 3 1,4,mistral|G|[5 2 6 3 1],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|7,mistral,G,qwen,G,7,5 2 6 3 1 4,6,mistral|G|[5 2 6 3 1 4],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|8,mistral,G,qwen,G,8,5 2 6 3 1 4 6,2,mistral|G|[5 2 6 3 1 4 6],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|9,mistral,G,qwen,G,9,5 2 6 3 1 4 6 2,5,mistral|G|[5 2 6 3 1 4 6 2],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-G|10,mistral,G,qwen,G,10,5 2 6 3 1 4 6 2 5,3,mistral|G|[5 2 6 3 1 4 6 2 5],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|1,mistral,G,qwen,F,1,,3,mistral|G|[],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|2,mistral,G,qwen,F,2,3,1,mistral|G|[3],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|3,mistral,G,qwen,F,3,3 1,4,mistral|G|[3 1],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|4,mistral,G,qwen,F,4,3 1 4,6,mistral|G|[3 1 4],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|5,mistral,G,qwen,F,5,3 1 4 6,2,mistral|G|[3 1 4 6],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|6,mistral,G,qwen,F,6,3 1 4 6 2,5,mistral|G|[3 1 4 6 2],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|7,mistral,G,qwen,F,7,3 1 4 6 2 5,3,mistral|G|[3 1 4 6 2 5],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|8,mistral,G,qwen,F,8,3 1 4 6 2 5 3,2,mistral|G|[3 1 4 6 2 5 3],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|9,mistral,G,qwen,F,9,3 1 4 6 2 5 3 2,6,mistral|G|[3 1 4 6 2 5 3 2],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|qwen-F|10,mistral,G,qwen,F,10,3 1 4 6 2 5 3 2 6,4,mistral|G|[3 1 4 6 2 5 3 2 6],True,cross_model,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|1,mistral,G,mistral,G,1,,4,mistral|G|[],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|2,mistral,G,mistral,G,2,4,2,mistral|G|[4],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|3,mistral,G,mistral,G,3,4 2,6,mistral|G|[4 2],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|4,mistral,G,mistral,G,4,4 2 6,1,mistral|G|[4 2 6],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|5,mistral,G,mistral,G,5,4 2 6 1,3,mistral|G|[4 2 6 1],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|6,mistral,G,mistral,G,6,4 2 6 1 3,5,mistral|G|[4 2 6 1 3],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|7,mistral,G,mistral,G,7,4 2 6 1 3 5,2,mistral|G|[4 2 6 1 3 5],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|8,mistral,G,mistral,G,8,4 2 6 1 3 5 2,4,mistral|G|[4 2 6 1 3 5 2],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|9,mistral,G,mistral,G,9,4 2 6 1 3 5 2 4,6,mistral|G|[4 2 6 1 3 5 2 4],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-G|10,mistral,G,mistral,G,10,4 2 6 1 3 5 2 4 6,1,mistral|G|[4 2 6 1 3 5 2 4 6],False,own_G_on_G_replay,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|1,mistral,G,mistral,F,1,,3,mistral|G|[],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|2,mistral,G,mistral,F,2,3,1,mistral|G|[3],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|3,mistral,G,mistral,F,3,3 1,5,mistral|G|[3 1],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|4,mistral,G,mistral,F,4,3 1 5,2,mistral|G|[3 1 5],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|5,mistral,G,mistral,F,5,3 1 5 2,6,mistral|G|[3 1 5 2],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|6,mistral,G,mistral,F,6,3 1 5 2 6,4,mistral|G|[3 1 5 2 6],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|7,mistral,G,mistral,F,7,3 1 5 2 6 4,3,mistral|G|[3 1 5 2 6 4],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|8,mistral,G,mistral,F,8,3 1 5 2 6 4 3,1,mistral|G|[3 1 5 2 6 4 3],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|9,mistral,G,mistral,F,9,3 1 5 2 6 4 3 1,5,mistral|G|[3 1 5 2 6 4 3 1],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|G|mistral-F|10,mistral,G,mistral,F,10,3 1 5 2 6 4 3 1 5,2,mistral|G|[3 1 5 2 6 4 3 1 5],False,own_mismatched_prompt,edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+mistral|F|qwen-G|1,mistral,F,qwen,G,1,,5,mistral|F|[],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|2,mistral,F,qwen,G,2,5,2,mistral|F|[5],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|3,mistral,F,qwen,G,3,5 2,6,mistral|F|[5 2],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|4,mistral,F,qwen,G,4,5 2 6,3,mistral|F|[5 2 6],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|5,mistral,F,qwen,G,5,5 2 6 3,1,mistral|F|[5 2 6 3],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|6,mistral,F,qwen,G,6,5 2 6 3 1,4,mistral|F|[5 2 6 3 1],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|7,mistral,F,qwen,G,7,5 2 6 3 1 4,6,mistral|F|[5 2 6 3 1 4],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|8,mistral,F,qwen,G,8,5 2 6 3 1 4 6,2,mistral|F|[5 2 6 3 1 4 6],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|9,mistral,F,qwen,G,9,5 2 6 3 1 4 6 2,5,mistral|F|[5 2 6 3 1 4 6 2],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-G|10,mistral,F,qwen,G,10,5 2 6 3 1 4 6 2 5,3,mistral|F|[5 2 6 3 1 4 6 2 5],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|1,mistral,F,qwen,F,1,,3,mistral|F|[],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|2,mistral,F,qwen,F,2,3,1,mistral|F|[3],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|3,mistral,F,qwen,F,3,3 1,4,mistral|F|[3 1],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|4,mistral,F,qwen,F,4,3 1 4,6,mistral|F|[3 1 4],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|5,mistral,F,qwen,F,5,3 1 4 6,2,mistral|F|[3 1 4 6],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|6,mistral,F,qwen,F,6,3 1 4 6 2,5,mistral|F|[3 1 4 6 2],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|7,mistral,F,qwen,F,7,3 1 4 6 2 5,3,mistral|F|[3 1 4 6 2 5],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|8,mistral,F,qwen,F,8,3 1 4 6 2 5 3,2,mistral|F|[3 1 4 6 2 5 3],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|9,mistral,F,qwen,F,9,3 1 4 6 2 5 3 2,6,mistral|F|[3 1 4 6 2 5 3 2],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|qwen-F|10,mistral,F,qwen,F,10,3 1 4 6 2 5 3 2 6,4,mistral|F|[3 1 4 6 2 5 3 2 6],True,cross_model,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|1,mistral,F,mistral,G,1,,4,mistral|F|[],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|2,mistral,F,mistral,G,2,4,2,mistral|F|[4],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|3,mistral,F,mistral,G,3,4 2,6,mistral|F|[4 2],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|4,mistral,F,mistral,G,4,4 2 6,1,mistral|F|[4 2 6],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|5,mistral,F,mistral,G,5,4 2 6 1,3,mistral|F|[4 2 6 1],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|6,mistral,F,mistral,G,6,4 2 6 1 3,5,mistral|F|[4 2 6 1 3],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|7,mistral,F,mistral,G,7,4 2 6 1 3 5,2,mistral|F|[4 2 6 1 3 5],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|8,mistral,F,mistral,G,8,4 2 6 1 3 5 2,4,mistral|F|[4 2 6 1 3 5 2],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|9,mistral,F,mistral,G,9,4 2 6 1 3 5 2 4,6,mistral|F|[4 2 6 1 3 5 2 4],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-G|10,mistral,F,mistral,G,10,4 2 6 1 3 5 2 4 6,1,mistral|F|[4 2 6 1 3 5 2 4 6],False,own_mismatched_prompt,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|1,mistral,F,mistral,F,1,,3,mistral|F|[],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|2,mistral,F,mistral,F,2,3,1,mistral|F|[3],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|3,mistral,F,mistral,F,3,3 1,5,mistral|F|[3 1],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|4,mistral,F,mistral,F,4,3 1 5,2,mistral|F|[3 1 5],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|5,mistral,F,mistral,F,5,3 1 5 2,6,mistral|F|[3 1 5 2],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|6,mistral,F,mistral,F,6,3 1 5 2 6,4,mistral|F|[3 1 5 2 6],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|7,mistral,F,mistral,F,7,3 1 5 2 6 4,3,mistral|F|[3 1 5 2 6 4],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|8,mistral,F,mistral,F,8,3 1 5 2 6 4 3,1,mistral|F|[3 1 5 2 6 4 3],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|9,mistral,F,mistral,F,9,3 1 5 2 6 4 3 1,5,mistral|F|[3 1 5 2 6 4 3 1],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03
+mistral|F|mistral-F|10,mistral,F,mistral,F,10,3 1 5 2 6 4 3 1 5,2,mistral|F|[3 1 5 2 6 4 3 1 5],False,own_F_on_F_replay,8adcaddfff0d9acee6bcc9060917175e7d68167f440c42b00a3800cd32dcef03

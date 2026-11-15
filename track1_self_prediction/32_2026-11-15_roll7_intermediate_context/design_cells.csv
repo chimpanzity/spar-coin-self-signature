@@ -1,0 +1,13 @@
+cell_id,prompt_id,predictor,source_id,condition,condition_name,own_source,prefix5,sixth_in_prompt,authentic_sixth,authentic_seventh,prompt_sha256
+qwen<-qwen-G-A,qwen-G-A,qwen,qwen-G,A,pair-generated sixth and seventh,True,5 2 6 3 1,,4,6,7460c260e7bfa45673ea7feea36baafe8aedf5adc70e2211ed2600a9bdd64aaa
+qwen<-qwen-G-B,qwen-G-B,qwen,qwen-G,B,direct seventh,True,5 2 6 3 1,,4,6,d49a6903e16029b08ee03663290753c7693d81ef6228379ba9153675a7fcaa5e
+qwen<-qwen-G-C,qwen-G-C,qwen,qwen-G,C,authentic sixth supplied,True,5 2 6 3 1,4,4,6,940332b8d516040648e67491d6327c4e9ec6fc0086af1b6be8c6aaa6514d74a1
+qwen<-mistral-G-A,mistral-G-A,qwen,mistral-G,A,pair-generated sixth and seventh,False,4 2 6 1 3,,5,2,dc76ac20ad33f1de8c2f63222331995533b6ff1c64d645d5be06bd037e1b5060
+qwen<-mistral-G-B,mistral-G-B,qwen,mistral-G,B,direct seventh,False,4 2 6 1 3,,5,2,aaa3e346e5d5cee8f9830ed6c0952868124a8529c91efa77f7911f82fc273751
+qwen<-mistral-G-C,mistral-G-C,qwen,mistral-G,C,authentic sixth supplied,False,4 2 6 1 3,5,5,2,1b412fa3c02a66edc8738d182da2ec87c5f30c030da07c4dc20f1e70041570fc
+mistral<-qwen-G-A,qwen-G-A,mistral,qwen-G,A,pair-generated sixth and seventh,False,5 2 6 3 1,,4,6,7460c260e7bfa45673ea7feea36baafe8aedf5adc70e2211ed2600a9bdd64aaa
+mistral<-qwen-G-B,qwen-G-B,mistral,qwen-G,B,direct seventh,False,5 2 6 3 1,,4,6,d49a6903e16029b08ee03663290753c7693d81ef6228379ba9153675a7fcaa5e
+mistral<-qwen-G-C,qwen-G-C,mistral,qwen-G,C,authentic sixth supplied,False,5 2 6 3 1,4,4,6,940332b8d516040648e67491d6327c4e9ec6fc0086af1b6be8c6aaa6514d74a1
+mistral<-mistral-G-A,mistral-G-A,mistral,mistral-G,A,pair-generated sixth and seventh,True,4 2 6 1 3,,5,2,dc76ac20ad33f1de8c2f63222331995533b6ff1c64d645d5be06bd037e1b5060
+mistral<-mistral-G-B,mistral-G-B,mistral,mistral-G,B,direct seventh,True,4 2 6 1 3,,5,2,aaa3e346e5d5cee8f9830ed6c0952868124a8529c91efa77f7911f82fc273751
+mistral<-mistral-G-C,mistral-G-C,mistral,mistral-G,C,authentic sixth supplied,True,4 2 6 1 3,5,5,2,1b412fa3c02a66edc8738d182da2ec87c5f30c030da07c4dc20f1e70041570fc
