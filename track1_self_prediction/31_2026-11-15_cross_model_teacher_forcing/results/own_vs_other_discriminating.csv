@@ -1,0 +1,9 @@
+source_id,scorer_mode,n,logloss_own,logloss_other,own_minus_other,own_cell_is_replay
+qwen-G,G,7,0.2522,0.5603,-0.3081,True
+qwen-G,F,7,0.2941,0.4097,-0.1156,False
+qwen-F,G,7,0.9117,1.5625,-0.6508,False
+qwen-F,F,7,0.1764,1.3595,-1.1831,True
+mistral-G,G,7,0.2293,0.5039,-0.2746,True
+mistral-G,F,7,0.3039,0.6394,-0.3355,False
+mistral-F,G,7,0.485,2.7319,-2.2469,False
+mistral-F,F,7,0.4087,2.395,-1.9864,True

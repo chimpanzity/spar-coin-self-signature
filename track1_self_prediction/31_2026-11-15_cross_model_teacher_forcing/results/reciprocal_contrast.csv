@@ -1,0 +1,5 @@
+source_mode,scorer_mode,own_advantage_nats,qwen_source_other_minus_own,mistral_source_other_minus_own,includes_replay_cells
+G,G,0.1762,0.2432,0.1092,True
+G,F,0.13,0.1194,0.1406,False
+F,G,1.1384,0.3913,1.8856,False
+F,F,1.3356,0.8845,1.7866,True

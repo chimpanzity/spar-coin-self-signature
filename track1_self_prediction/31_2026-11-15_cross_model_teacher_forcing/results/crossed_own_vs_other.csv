@@ -1,0 +1,9 @@
+source_id,source_model,source_mode,scorer_mode,own_scorer,other_scorer,logloss_own_2_10,logloss_other_2_10,own_minus_other_2_10,logloss_own_pos1,logloss_other_pos1,own_cell_kind,own_cell_is_replay
+qwen-G,qwen,G,G,qwen,mistral,0.235,0.4782,-0.2432,0.6256,1.4713,own_G_on_G_replay,True
+qwen-G,qwen,G,F,qwen,mistral,0.309,0.4285,-0.1194,3.8858,2.5875,own_mismatched_prompt,False
+qwen-F,qwen,F,G,qwen,mistral,0.8806,1.2718,-0.3913,1.4937,1.4702,own_mismatched_prompt,False
+qwen-F,qwen,F,F,qwen,mistral,0.2034,1.0879,-0.8845,0.9462,0.6047,own_F_on_F_replay,True
+mistral-G,mistral,G,G,mistral,qwen,0.2857,0.3949,-0.1092,1.2776,1.4541,own_G_on_G_replay,True
+mistral-G,mistral,G,F,mistral,qwen,0.3579,0.4985,-0.1406,2.2337,2.8558,own_mismatched_prompt,False
+mistral-F,mistral,F,G,mistral,qwen,0.497,2.3826,-1.8856,1.4702,1.4937,own_mismatched_prompt,False
+mistral-F,mistral,F,F,mistral,qwen,0.389,2.1755,-1.7866,0.6047,0.9462,own_F_on_F_replay,True

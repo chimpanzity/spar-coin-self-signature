@@ -1,0 +1,9 @@
+scorer_model,source_id,js_pos1,js_mean_2_10,js_max_2_10,top_agree_2_10,n_2_10
+mistral,mistral-F,0.1253,0.0226,0.0686,6,9
+mistral,mistral-G,0.1253,0.0178,0.0438,8,9
+mistral,qwen-F,0.1253,0.0159,0.0686,9,9
+mistral,qwen-G,0.1253,0.0259,0.0737,9,9
+qwen,mistral-F,0.5206,0.0793,0.3194,7,9
+qwen,mistral-G,0.5206,0.0483,0.2051,8,9
+qwen,qwen-F,0.5206,0.108,0.3194,5,9
+qwen,qwen-G,0.5206,0.0355,0.0927,9,9

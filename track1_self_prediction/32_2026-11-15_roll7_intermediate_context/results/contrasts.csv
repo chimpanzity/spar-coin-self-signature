@@ -1,0 +1,5 @@
+predictor,source_id,own_source,p_true7_A,p_true7_A_constrained,p_true7_B,p_true7_C,A_minus_B,C_minus_B,C_minus_A,A_constrained_minus_B,C_minus_A_constrained,logloss_A,logloss_B,logloss_C,A_sixth_generated,A_sixth_reconstructed,digit_mass7_A,digit_mass7_B,digit_mass7_C,free_valid_A,free_valid_B,free_valid_C
+qwen,qwen-G,True,0.3111,0.3111,0.1557,0.5722,0.1553,0.4164,0.2611,0.1553,0.2611,1.1678,1.8597,0.5583,4,True,1.0,0.9999,0.9766,True,True,True
+qwen,mistral-G,False,0.2095,0.2095,0.0347,0.0053,0.1749,-0.0294,-0.2042,0.1749,-0.2042,1.5629,3.3622,5.2397,5,True,1.0,1.0,0.9785,True,True,True
+mistral,qwen-G,False,0.1891,0.1891,0.0144,0.0356,0.1747,0.0212,-0.1535,0.1747,-0.1535,1.6655,4.2387,3.3361,4,True,0.9998,0.7428,0.6273,True,True,True
+mistral,mistral-G,True,0.0541,0.0541,0.0228,0.0574,0.0313,0.0346,0.0033,0.0313,0.0033,2.9162,3.7808,2.8572,5,True,0.9999,0.6859,0.6284,True,True,True

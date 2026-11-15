@@ -1,0 +1,118 @@
+{
+  "tag": "SPAR_EXP32_ROLL7_INTERMEDIATE_CONTEXT_v1.0",
+  "commits": {
+    "freeze": "bba03b5",
+    "deployed_code": "bba03b5 (git archive, LF bytes)",
+    "results": null
+  },
+  "approval": "investigator approved the rental in-session on 2026-11-15 (cap $10); see 31/APPROVALS.md",
+  "instance": {
+    "provider": "vast.ai",
+    "instance_id": 60812655,
+    "offer": 34475479,
+    "location": "Czechia, CZ",
+    "gpu": "A100-SXM4-80GB",
+    "driver": "595.91.07",
+    "image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime",
+    "disk_gb": 200,
+    "dph_total_usd": 1.253,
+    "ready_utc": "2026-11-15T17:00:48Z (approx., first successful SSH)",
+    "setup_seconds_download": 842,
+    "run_utc": [
+      "2026-11-15T17:17:41Z",
+      "2026-11-15T17:18:58Z"
+    ],
+    "destroyed_utc": "2026-11-15T17:19:35Z",
+    "destroyed_confirmed": "`vastai show instances` returned [] after destroy",
+    "incidents": [
+      "offer 58627268 (California, A100-SXM4-80GB, $0.375/h): create returned success=false and instance 60812397 stayed 'stopped' (GPU taken by another tenant); destroyed before it ever ran ($0.004 storage)",
+      "offer 58209534 (instance 60812437) turned out to be an A100-SXM4-40GB (the second offer search lacked a gpu_ram filter); too small for Qwen3-32B bf16 and a different card from Experiment 28, so it was destroyed during package setup, before any model call ($0.037)"
+    ]
+  },
+  "cost_usd": {
+    "billed_usd_total": 0.733,
+    "by_instance": {
+      "60812397": 0.004,
+      "60812437": 0.037,
+      "60812655": 0.692
+    },
+    "source": "vastai show invoices-v1 -c -s 2026-11-15 -e 2026-11-16 (fetched 2026-11-15 ~17:25Z; may still add cents)",
+    "shared_between": "Experiments 31 and 32 (one rental)"
+  },
+  "environments": {
+    "qwen": {
+      "gpu": "NVIDIA A100-SXM4-80GB",
+      "driver": "595.91.07",
+      "cuda": "12.8",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.22.0",
+      "accelerate": "1.15.0",
+      "huggingface_hub": "2.4.0",
+      "mistral_common": null,
+      "model_id": "Qwen/Qwen3-32B",
+      "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "tekken_sha256": null,
+      "eos_ids": [
+        151643,
+        151645
+      ],
+      "face_ids": {
+        "1": 16,
+        "2": 17,
+        "3": 18,
+        "4": 19,
+        "5": 20,
+        "6": 21
+      },
+      "separator_id": 220,
+      "started_utc": "2026-11-15T17:17:41.435239+00:00",
+      "finished_utc": "2026-11-15T17:18:20.526656+00:00",
+      "max_memory_allocated_gb": 66.82,
+      "code_commit": "bba03b5"
+    },
+    "mistral": {
+      "gpu": "NVIDIA A100-SXM4-80GB",
+      "driver": "595.91.07",
+      "cuda": "12.8",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.22.0",
+      "accelerate": "1.15.0",
+      "huggingface_hub": "2.4.0",
+      "mistral_common": "1.13.0",
+      "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+      "chat_template_sha256": null,
+      "tekken_sha256": "6e2501687ccd0e1f30f36319eaf2b46958b897811e246cd8eb5d385b9e3de7d1",
+      "eos_ids": [
+        2
+      ],
+      "face_ids": {
+        "1": 1049,
+        "2": 1050,
+        "3": 1051,
+        "4": 1052,
+        "5": 1053,
+        "6": 1054
+      },
+      "separator_id": 1032,
+      "started_utc": "2026-11-15T17:18:36.668878+00:00",
+      "finished_utc": "2026-11-15T17:18:57.988114+00:00",
+      "max_memory_allocated_gb": 49.73,
+      "code_commit": "bba03b5"
+    }
+  },
+  "archival_check": "see Experiment 31 run_record (shared preflight)",
+  "checks": "PASS",
+  "files": {
+    "raw/qwen/cells.jsonl": "ae59158a8a5d15755d175b71f10978dea632a0e6051868525aff5f75d2603838",
+    "raw/qwen/env.json": "9391163097e6a6a612deb8c589f9197a125e0906d8987d01e5db65c444c7b71f",
+    "raw/mistral/cells.jsonl": "7ced3fcbe454b5e1369665643c99cfec8677c4375e3856481f56948d6b3e59f7",
+    "raw/mistral/env.json": "e9cd424ece36045c312d1e12c3f7fe13f4427d88024dc8e50232db0d15de8b09",
+    "results/cells_12.csv": "6cd33ed31bab56af0dd959bf38192abc0b2c75d7bb974ba56fe2c28a8cb62fb0",
+    "results/checks.json": "57802fc7e2886759e622725399cc094810d80a6fd08abee18e3366bbc948c858",
+    "results/CHECKS.md": "19ca69db08e1848664d02117d138a4f8b59e7e52a2bc94eb49afb4ecdc81ee41",
+    "results/contrasts.csv": "4a4778e1de149a047a62679dc8e501d44d7985afcaa131e684038687029cf1f4",
+    "results/summary.json": "0ae5691811634d93688d721eccff153fe1520a803016e32510f06a8e8ed7027e"
+  }
+}

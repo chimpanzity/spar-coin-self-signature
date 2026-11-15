@@ -1,0 +1,3 @@
+run qwen exit 0
+run mistral exit 0
+ALL_DONE

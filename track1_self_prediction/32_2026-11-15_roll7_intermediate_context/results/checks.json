@@ -1,0 +1,67 @@
+{
+  "experiment": "SPAR_EXP32_ROLL7_INTERMEDIATE_CONTEXT_v1.0",
+  "overall": "PASS",
+  "checks": {
+    "both_models_ran": {
+      "status": "PASS",
+      "detail": [
+        "mistral",
+        "qwen"
+      ]
+    },
+    "raw_file_hashes": {
+      "status": "PASS",
+      "detail": null
+    },
+    "prompt_hashes": {
+      "status": "PASS",
+      "detail": null
+    },
+    "records": {
+      "status": "PASS",
+      "detail": 24
+    },
+    "cells_12": {
+      "status": "PASS",
+      "detail": null
+    },
+    "identical_stimuli_both_predictors": {
+      "status": "PASS",
+      "detail": null
+    },
+    "no_leakage": {
+      "status": "PASS",
+      "detail": []
+    },
+    "A_scored_after_predicted_sixth": {
+      "status": "PASS",
+      "detail": null
+    },
+    "B_five_rolls_C_authentic_sixth": {
+      "status": "PASS",
+      "detail": null
+    },
+    "replicates_bit_identical": {
+      "status": "PASS",
+      "detail": null
+    },
+    "first_boundary_matches_generation": {
+      "status": "PASS",
+      "detail": null
+    },
+    "finite": {
+      "status": "PASS",
+      "detail": null
+    },
+    "floor_incremental_vs_full_pass": {
+      "status": "PASS",
+      "detail": {
+        "max_dp": 0.012656537625374054
+      }
+    },
+    "constrained_equals_free_when_defined": {
+      "status": "PASS",
+      "detail": null
+    }
+  }
+}
