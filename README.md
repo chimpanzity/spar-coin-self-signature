@@ -112,6 +112,19 @@ python -m pytest                 # full test suite
 
 Live runs call models through OpenRouter and need `OPENROUTER_API_KEY` in `.env` at the repository root (git-ignored). Each experiment README gives the exact commands for that experiment.
 
+`requirements-lock.txt` pins the exact package versions used through November 2026 (Python 3.14.5). Open-weight GPU experiments (track 1, 21 onward) run on vast.ai and also need `VAST_API_KEY` in `.env` and the SSH key `~/.ssh/vast_spar`.
+
+### Running experiments with Claude Code
+
+Experiments are designed and run with [Claude Code](https://claude.com/claude-code) from a handoff document. [`CLAUDE.md`](CLAUDE.md) is the operating guide; Claude Code loads it automatically in this folder. It covers:
+
+- machine setup and key handling (never printed or committed);
+- the freeze → approval → run → checks → analysis workflow, and the folder conventions;
+- OpenRouter quirks and costs, and the tested vast.ai recipe for Qwen3-32B and Mistral Small 3.2;
+- Windows and git gotchas.
+
+To continue on a new machine, clone the repo, recreate `.venv`, copy `.env` and the vast SSH key over securely, open the folder in VS Code and start Claude Code there.
+
 ## Models
 
 | Name used here | Model |
