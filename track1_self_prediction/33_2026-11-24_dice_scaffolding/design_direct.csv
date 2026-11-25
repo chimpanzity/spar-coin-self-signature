@@ -1,0 +1,102 @@
+phase,assay,subject,path,lengths,prompt_sha256
+core,direct_G,,1 3 5 4 6 2 4 5 2,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,1 4 2 6 3 5 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,1 4 3 5 2 6 2 1 5,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,1 5 2 4 3 6 6 4 5,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,1 6 2 4 3 5 1 3 6,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,2 1 5 4 3 6 4 2 6,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,3 1 2 4 5 6 6 1 5,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,3 4 2 5 1 6 6 2 1,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,4 3 1 5 2 6 5 2 6,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,4 6 1 3 2 5 1 2 5,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,5 2 6 1 3 4 1 2 3,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,5 6 1 3 4 2 5 2 1,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,4 2 6 1 3 5,[6],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+core,direct_G,,5 2 6 3 1 4,[6],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,1 3 5 2 6 4 1 3 2,"[0, 1, 2, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,1 4 2 6 3 5 1 2 4,"[2, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 1 5 4 6 2 3 1 6,"[1, 2, 3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 1 5 6 2 4 1 3 5,"[4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 1 5 6 2 4 3 1 5,"[7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 1 6 2 4 5 1 3 6,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 1 6 2 4 5 3 6 1,"[7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 1 6 2 5 4 1 3 6,"[5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 5 1 6 2 4 3 5 1,"[2, 3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 5 1 6 2 4 3 5 6,[9],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 5 2 6 1 4 3 2 5,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 6 1 4 2 5 3 6 1,"[2, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 6 2 5 1 4 2 6 3,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 1 3 6 2 5 1 4 3,"[1, 2, 3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 1 6 2 3 5 1 4 6,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 2 1 5 6 3 2 4 1,"[2, 3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 2 6 1 3 5 2 4 6,"[3, 4, 5, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 2 6 1 3 5 2 5 4,"[8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 2 6 1 3 5 4 2 6,"[7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 2 6 1 3 5 6 2 4,"[7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 2 6 1 5 3 6 2 4,"[5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 2 6 3 1 5 2 4 6,"[4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 1 6 3 4 2 5 1,"[1, 2, 3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 1 6 3 4 6 2 5,"[7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 6 1 3 4 6 2 5,"[7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 6 1 4 3 6 2 1,"[5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 6 1 4 3 6 2 5,[9],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 6 3 1 4 3 6 2,"[4, 5, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 6 3 1 4 6 2 5,"[7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 2 6 3 1 4 6 5 2,"[8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 3 1 6 2 4 3 5 1,"[2, 3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 3 6 1 2 4 3 6 2,"[3, 4, 5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 3 6 1 4 2 6 2 5,"[5, 6, 7, 8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 3 6 1 4 2 6 3 1,"[8, 9]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,1 2,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,1 5,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,1 6,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,2 1,"[1, 2]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,2 3,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,2 4,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,2 5,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,2 6,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 2,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,3 4,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 3,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 5,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,4 6,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 1,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 4,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,5 6,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,6 1,"[1, 2]",edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,6 2,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,6 3,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,6 4,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,direct_G,,6 5,[2],edc7a4a228d493e83a5086181c170aa052e3e7cb8b34b9911ef4dc8147fdb8fe
+extensions,cued_G,a shape,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",3e161876a4fcfe4a8f298cd2b7696ba036f57c4b4058ef435555cc20e76c5c21
+extensions,cued_G,a shape,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",3e161876a4fcfe4a8f298cd2b7696ba036f57c4b4058ef435555cc20e76c5c21
+extensions,cued_G,a shape,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",3e161876a4fcfe4a8f298cd2b7696ba036f57c4b4058ef435555cc20e76c5c21
+extensions,cued_G,a shape,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",3e161876a4fcfe4a8f298cd2b7696ba036f57c4b4058ef435555cc20e76c5c21
+extensions,cued_G,a shape described as blue,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",9c9a4fca3d66313c366e0902f1e32275d9b5a9d21aad7db815bb7a383de0906f
+extensions,cued_G,a shape described as blue,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",9c9a4fca3d66313c366e0902f1e32275d9b5a9d21aad7db815bb7a383de0906f
+extensions,cued_G,a shape described as blue,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",9c9a4fca3d66313c366e0902f1e32275d9b5a9d21aad7db815bb7a383de0906f
+extensions,cued_G,a shape described as blue,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",9c9a4fca3d66313c366e0902f1e32275d9b5a9d21aad7db815bb7a383de0906f
+extensions,cued_G,a shape described as orange,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",97f052984895a6ece093497261c440daf589db6f09cdbc3ba4beefc55ae326f8
+extensions,cued_G,a shape described as orange,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",97f052984895a6ece093497261c440daf589db6f09cdbc3ba4beefc55ae326f8
+extensions,cued_G,a shape described as orange,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",97f052984895a6ece093497261c440daf589db6f09cdbc3ba4beefc55ae326f8
+extensions,cued_G,a shape described as orange,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",97f052984895a6ece093497261c440daf589db6f09cdbc3ba4beefc55ae326f8
+extensions,cued_G,a shape described as pointy,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",a87259f4c84c8db9cf30f91d577ee4bb0fde31ae9a284b1b72471a1b318e8eab
+extensions,cued_G,a shape described as pointy,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",a87259f4c84c8db9cf30f91d577ee4bb0fde31ae9a284b1b72471a1b318e8eab
+extensions,cued_G,a shape described as pointy,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",a87259f4c84c8db9cf30f91d577ee4bb0fde31ae9a284b1b72471a1b318e8eab
+extensions,cued_G,a shape described as pointy,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",a87259f4c84c8db9cf30f91d577ee4bb0fde31ae9a284b1b72471a1b318e8eab
+extensions,cued_G,a shape described as round,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",ed6066aa77b7aa675437ce0cee902ef95e3a9d4aab49828e44ee6b969db35912
+extensions,cued_G,a shape described as round,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",ed6066aa77b7aa675437ce0cee902ef95e3a9d4aab49828e44ee6b969db35912
+extensions,cued_G,a shape described as round,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",ed6066aa77b7aa675437ce0cee902ef95e3a9d4aab49828e44ee6b969db35912
+extensions,cued_G,a shape described as round,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",ed6066aa77b7aa675437ce0cee902ef95e3a9d4aab49828e44ee6b969db35912
+extensions,cued_G,a shape described as angry,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",17d6236b3017cf1c23f51c8f6fe7c789a373916e0956a3c7b2b01e07e3758fcf
+extensions,cued_G,a shape described as angry,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",17d6236b3017cf1c23f51c8f6fe7c789a373916e0956a3c7b2b01e07e3758fcf
+extensions,cued_G,a shape described as angry,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",17d6236b3017cf1c23f51c8f6fe7c789a373916e0956a3c7b2b01e07e3758fcf
+extensions,cued_G,a shape described as angry,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",17d6236b3017cf1c23f51c8f6fe7c789a373916e0956a3c7b2b01e07e3758fcf
+extensions,cued_G,a shape described as calm,2 3 4 5 1 6 1 6 4,"[3, 4, 5, 6, 7, 8, 9]",c5db13e9ee5bc09426ecfc03a30be3dd8d1ea5a81d9b121e26a93e86afeed82a
+extensions,cued_G,a shape described as calm,2 6 1 5 4 3 1 6 5,"[3, 4, 5, 6, 7, 8, 9]",c5db13e9ee5bc09426ecfc03a30be3dd8d1ea5a81d9b121e26a93e86afeed82a
+extensions,cued_G,a shape described as calm,3 6 1 5 4 2 5 1 3,"[3, 4, 5, 6, 7, 8, 9]",c5db13e9ee5bc09426ecfc03a30be3dd8d1ea5a81d9b121e26a93e86afeed82a
+extensions,cued_G,a shape described as calm,4 2 5 6 1 3 5 1 6,"[3, 4, 5, 6, 7, 8, 9]",c5db13e9ee5bc09426ecfc03a30be3dd8d1ea5a81d9b121e26a93e86afeed82a

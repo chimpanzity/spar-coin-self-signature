@@ -1,0 +1,35 @@
+{
+  "files": {
+    "PROTOCOL.md": "f196b408b6cda3d06dcc7fee09dce134b619253a391241831ad111820ce3a522",
+    "prompts_frozen.md": "d94fb18c8f4b39ccae6c1bc93127571bd47894dddf5264fcd3e5cabffb7c620b",
+    "design_forecasts.csv": "26aa38ac46026ba9ae8cb29676e44d1059b436cfccf3855b0f961ab04219eb42",
+    "design_histories.csv": "679eb8f11bd7dc3bd73249182a0a8c5cae9536b5aa33f37c5a108c556f9a6ed6",
+    "design_direct.csv": "506e77f8a7a687cc60920b52a66c4c837a55f2a45863f31ebeb745cacb0f5715",
+    "design_letters.csv": "728c6cb9f74a64d91fce1c2772fd1be1bfc11e8368bcafc22c65d80fbcaf7bef",
+    "manifest.json": "886aef0ae31c13edd34179ed2050ef76653d1238a091bbcd3f3bdbdeca6f822c"
+  },
+  "code_sha256": {
+    "dice_scaffolding/__init__.py": "2fa656371389289457c996b5aa3422afdba7281206460991f70d2b22949d7ea8",
+    "dice_scaffolding/__main__.py": "a9e7a1b5e475f27acb4464078d68bf8775ea34273c4c07d8a54e312f5fc5cab9",
+    "dice_scaffolding/analysis.py": "ce380cd7edb246324d0faa0b4de5898629e7a68fb7e2df3f4f2ab369139f1e70",
+    "dice_scaffolding/config.py": "fa38fa682e675aef79b23fbe3a643b55a8ebee237a4d99cae8b588d2a2d345e9",
+    "dice_scaffolding/design.py": "d88ac21bcc467f29468aabeec6bfc518659a05cab3eb2475c5a7395360f93bf0",
+    "dice_scaffolding/figures.py": "9b706c2166fb369876bc7fc7621abe2cc834d2ff6d71efa42984fa928eb405bc",
+    "dice_scaffolding/gpu.py": "14185e3dbdebb9f51c9d9a707c7008ce6ef49675b9395e4920d7b59d7f798213",
+    "dice_31_32/gpu.py": "dfbb1398b23210435e1d41a03c0772658686729326cf3abefe0e6c78acffd81c",
+    "dice_31_32/config.py": "40916b03f76b816b52ccebbf89431cf5beb9605b7d0105dd0f59b0c3043d7293",
+    "dice_31_32/stimuli.py": "90026e5904aedc69619f148db29c6c194af62238d341362dd182a762e6561a99",
+    "dice_crossed_guidance/models.py": "e70e6497061475ecae946a28266a7d5ab74b60e3bc5c777fb4bc56c239485c96",
+    "dice_crossed_guidance/config.py": "ac23d8d178d541ce358443479add0615520b8376ed730ca8b348bec5b2a8ce5a",
+    "dice_logprob_crossmodel/gpu.py": "33c1ee66d827ab7b1ab8377ccde29376fe11095dccde39d417598ec97b5ee3ca",
+    "dice_logprob/prompts.py": "117a7a218f9d1bf3f4e91c30ce80d7ef510c92c60a433ddb41a0b57c792ea143",
+    "dice_logprob/gpu_runner.py": "45da8128297d1fd4d5404ebbf79272a47017d0ba4519b3afcc8718a8e662e0f7"
+  },
+  "archived_inputs": {
+    "28_2026-10-31_dice_logprob_crossmodel/main/qwen/raw_attempts.jsonl": "a94af1387715de866957dcb7713d2b8e5296efd24a03dd808ec44b954a396482",
+    "28_2026-10-31_dice_logprob_crossmodel/main/mistral/raw_attempts.jsonl": "b4fee4a55fcdbef5025df0e0c9fc4be32e3a0a2dec2147e9f65272c82fe2a000",
+    "27_2026-10-30_crossed_guided_self_prediction/corpus/qwen/sampled.jsonl": "f04ef2f63100f6b2ce36ec437fca7d31fd10605852de5d1faf37077d80816d9f",
+    "27_2026-10-30_crossed_guided_self_prediction/corpus/mistral/sampled.jsonl": "6091ae7531c4f07c8f4e2910d6eb50f8724ec62c83a5e38797f89e30908ea8c5"
+  },
+  "prompt_manifest_sha256": "1ec3ff59be712805094aed1c56e8450db48947e13a4e48bdca7d65919e18f5ec"
+}

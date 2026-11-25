@@ -1,0 +1,361 @@
+{
+  "tag": "SPAR_EXP33_DICE_SCAFFOLDING_v1.0",
+  "design_source": "GPT_SPAR_Dice_Scaffolding_Claude_Code_Handoff.md (2026-11-24)",
+  "status": "frozen before GPU collection",
+  "counts": {
+    "per_model": {
+      "design_rows": {
+        "core/plain": 2912,
+        "core/t2": 392,
+        "core/scaffold": 588,
+        "core/identity": 196,
+        "core/worked": 9,
+        "extensions/factual": 168,
+        "extensions/objects": 364,
+        "extensions/incidental": 196,
+        "extensions/opening": 74,
+        "extensions/natural": 588
+      },
+      "unique_forecasts": {
+        "core": 4094,
+        "extensions": 1356
+      },
+      "direct": {
+        "core": {
+          "histories": 114,
+          "streams": 18,
+          "cued_streams": 0,
+          "scored_boundaries": 114,
+          "forced_tokens": 312
+        },
+        "extensions": {
+          "histories": 200,
+          "streams": 55,
+          "cued_streams": 28,
+          "scored_boundaries": 396,
+          "forced_tokens": 1200
+        }
+      },
+      "association": 384,
+      "fact": 52,
+      "verbal": 280,
+      "free": 10,
+      "max_generated_tokens": {
+        "verbal": 35840,
+        "free": 960
+      }
+    },
+    "both_models": {
+      "plain": 5824,
+      "t2": 784,
+      "scaffold": 1176
+    },
+    "histories": {
+      "development": 28,
+      "confirmation": 84,
+      "subset": 28
+    },
+    "natural": {
+      "valid_sampled": {
+        "qwen": 24,
+        "mistral": 24
+      },
+      "invalid": 0,
+      "rows": 350,
+      "unique_prefixes": 176,
+      "overlap_with_constructed": 11
+    }
+  },
+  "expected": {
+    "dev_histories": 28,
+    "conf_histories": 84,
+    "plain_per_model": 2912,
+    "t2_per_model": 392,
+    "scaffold_per_model": 588,
+    "identity_per_model": 196,
+    "association_per_model": 384
+  },
+  "families": [
+    {
+      "rank": 1,
+      "split": "development",
+      "path": "4 6 1 3 2 5 1 2 5 3"
+    },
+    {
+      "rank": 2,
+      "split": "development",
+      "path": "2 1 5 4 3 6 4 2 6 1"
+    },
+    {
+      "rank": 3,
+      "split": "development",
+      "path": "1 4 3 5 2 6 2 1 5 4"
+    },
+    {
+      "rank": 4,
+      "split": "development",
+      "path": "1 4 2 6 3 5 1 6 4 2"
+    },
+    {
+      "rank": 5,
+      "split": "confirmation",
+      "path": "3 6 1 5 4 2 5 1 3 2"
+    },
+    {
+      "rank": 6,
+      "split": "confirmation",
+      "path": "4 2 5 6 1 3 5 1 6 2"
+    },
+    {
+      "rank": 7,
+      "split": "confirmation",
+      "path": "2 6 1 5 4 3 1 6 5 2"
+    },
+    {
+      "rank": 8,
+      "split": "confirmation",
+      "path": "2 3 4 5 1 6 1 6 4 2"
+    },
+    {
+      "rank": 9,
+      "split": "confirmation",
+      "path": "5 2 6 1 3 4 1 2 3 5"
+    },
+    {
+      "rank": 10,
+      "split": "confirmation",
+      "path": "1 5 2 4 3 6 6 4 5 1"
+    },
+    {
+      "rank": 11,
+      "split": "confirmation",
+      "path": "1 6 2 4 3 5 1 3 6 2"
+    },
+    {
+      "rank": 12,
+      "split": "confirmation",
+      "path": "1 3 5 4 6 2 4 5 2 6"
+    },
+    {
+      "rank": 13,
+      "split": "confirmation",
+      "path": "5 6 1 3 4 2 5 2 1 4"
+    },
+    {
+      "rank": 14,
+      "split": "confirmation",
+      "path": "3 4 2 5 1 6 6 2 1 3"
+    },
+    {
+      "rank": 15,
+      "split": "confirmation",
+      "path": "3 1 2 4 5 6 6 1 5 3"
+    },
+    {
+      "rank": 16,
+      "split": "confirmation",
+      "path": "4 3 1 5 2 6 5 2 6 1"
+    }
+  ],
+  "archive_selection": [
+    {
+      "source": "qwen",
+      "seed": 27200019,
+      "path": "5 2 6 3 1 4 3 6 2 5"
+    },
+    {
+      "source": "qwen",
+      "seed": 27200016,
+      "path": "3 5 1 6 2 4 3 5 6 1"
+    },
+    {
+      "source": "qwen",
+      "seed": 27200020,
+      "path": "5 2 6 3 1 4 6 5 2 3"
+    },
+    {
+      "source": "qwen",
+      "seed": 27200001,
+      "path": "3 5 1 6 2 4 3 5 1 6"
+    },
+    {
+      "source": "qwen",
+      "seed": 27200006,
+      "path": "4 2 6 3 1 5 2 4 6 3"
+    },
+    {
+      "source": "qwen",
+      "seed": 27200014,
+      "path": "5 2 6 1 3 4 6 2 5 1"
+    },
+    {
+      "source": "qwen",
+      "seed": 27200015,
+      "path": "5 3 6 1 4 2 6 3 1 5"
+    },
+    {
+      "source": "qwen",
+      "seed": 27200011,
+      "path": "4 2 6 1 3 5 2 4 6 3"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250013,
+      "path": "4 2 6 1 3 5 6 2 4 1"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250004,
+      "path": "3 1 5 6 2 4 3 1 5 2"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250008,
+      "path": "3 1 5 6 2 4 3 1 5 6"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250005,
+      "path": "5 2 6 1 4 3 6 2 1 5"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250001,
+      "path": "3 1 5 4 6 2 3 1 6 4"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250018,
+      "path": "4 1 3 6 2 5 1 4 3 6"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250014,
+      "path": "4 2 6 1 5 3 6 2 4 1"
+    },
+    {
+      "source": "mistral",
+      "seed": 27250010,
+      "path": "3 1 6 2 4 5 3 6 1 2"
+    }
+  ],
+  "pairs": {
+    "development": [
+      [
+        "red",
+        "green"
+      ],
+      [
+        "narrow",
+        "wide"
+      ],
+      [
+        "sad",
+        "cheerful"
+      ],
+      [
+        "bothered",
+        "unbothered"
+      ],
+      [
+        "restless",
+        "settled"
+      ],
+      [
+        "uneasy",
+        "confident"
+      ]
+    ],
+    "confirmation": [
+      [
+        "blue",
+        "orange"
+      ],
+      [
+        "yellow",
+        "violet"
+      ],
+      [
+        "pointy",
+        "round"
+      ],
+      [
+        "jagged",
+        "smooth"
+      ],
+      [
+        "angry",
+        "calm"
+      ],
+      [
+        "angsty",
+        "composed"
+      ]
+    ]
+  },
+  "subset_words": [
+    "blue",
+    "orange",
+    "pointy",
+    "round",
+    "angry",
+    "calm"
+  ],
+  "strata": {
+    "4-5": [
+      4,
+      5
+    ],
+    "6": [
+      6
+    ],
+    "7": [
+      7
+    ],
+    "8-10": [
+      8,
+      9,
+      10
+    ]
+  },
+  "models": {
+    "qwen": {
+      "model_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "face_ids": {
+        "1": 16,
+        "2": 17,
+        "3": 18,
+        "4": 19,
+        "5": 20,
+        "6": 21
+      },
+      "separator_id": 220
+    },
+    "mistral": {
+      "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "revision": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+      "face_ids": {
+        "1": 1049,
+        "2": 1050,
+        "3": 1051,
+        "4": 1052,
+        "5": 1053,
+        "6": 1054
+      },
+      "separator_id": 1032
+    }
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 241124,
+    "generator": "PCG64"
+  },
+  "prompt_manifest_sha256": "1ec3ff59be712805094aed1c56e8450db48947e13a4e48bdca7d65919e18f5ec",
+  "stop_rules": {
+    "scorer_tol_logp": 0.0001,
+    "floor_stop_p": 0.25,
+    "low_mass_flag": 0.5
+  },
+  "gpu_cap_usd": 15.0
+}
