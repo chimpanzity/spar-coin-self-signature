@@ -1,0 +1,2953 @@
+target,model,family,fold,loss
+qwen,equal odds,123,2,7.558006050479981
+qwen,equal odds,124,2,12.119742228940142
+qwen,equal odds,126,0,5.0560109009514695
+qwen,equal odds,134,3,28.49465501793603
+qwen,equal odds,135,2,24.785865719424567
+qwen,equal odds,136,4,15.896921161425885
+qwen,equal odds,145,1,15.95374494703996
+qwen,equal odds,156,0,5.24368980338366
+qwen,equal odds,234,0,5.336821054595163
+qwen,equal odds,235,3,14.163331144328708
+qwen,equal odds,236,4,6.813733892742126
+qwen,equal odds,245,2,12.932450825935847
+qwen,equal odds,246,1,5.559157379037451
+qwen,equal odds,256,3,3.1888275797503076
+qwen,equal odds,345,0,16.07282570914659
+qwen,equal odds,346,4,8.432479433287291
+qwen,equal odds,356,1,10.77768617846361
+qwen,equal odds,456,1,1.9148883751255077
+qwen,face bias,123,2,13.676335684879362
+qwen,face bias,124,2,10.28116712793808
+qwen,face bias,126,0,4.009795666825146
+qwen,face bias,134,3,24.240534818705886
+qwen,face bias,135,2,13.970658955411297
+qwen,face bias,136,4,14.444602019758465
+qwen,face bias,145,1,8.7244786599756
+qwen,face bias,156,0,4.095359946514473
+qwen,face bias,234,0,4.019745528486456
+qwen,face bias,235,3,5.82588044990468
+qwen,face bias,236,4,3.874082595577681
+qwen,face bias,245,2,5.290592706212603
+qwen,face bias,246,1,5.372854723068986
+qwen,face bias,256,3,1.9874287143174545
+qwen,face bias,345,0,8.427218043079518
+qwen,face bias,346,4,8.789526282482528
+qwen,face bias,356,1,8.946093851334295
+qwen,face bias,456,1,2.0591497608871316
+qwen,history,123,2,9.44996412348915
+qwen,history,124,2,2.4833948127764507
+qwen,history,126,0,0.9107552080630393
+qwen,history,134,3,3.908939446707675
+qwen,history,135,2,1.8265457903341324
+qwen,history,136,4,3.5010157860878017
+qwen,history,145,1,1.9039064610976453
+qwen,history,156,0,2.047209933389123
+qwen,history,234,0,1.9523084438002225
+qwen,history,235,3,2.382658368380678
+qwen,history,236,4,1.065086483845776
+qwen,history,245,2,2.0413071704977352
+qwen,history,246,1,1.5207689911364703
+qwen,history,256,3,1.4900732427734038
+qwen,history,345,0,1.6185310364853809
+qwen,history,346,4,0.7410032356165007
+qwen,history,356,1,2.1942641639450007
+qwen,history,456,1,1.110407315688968
+qwen,raw forecast qwen,123,2,5.624342149457667
+qwen,raw forecast qwen,124,2,14.378422434851663
+qwen,raw forecast qwen,126,0,6.401467207640906
+qwen,raw forecast qwen,134,3,39.79844466016523
+qwen,raw forecast qwen,135,2,31.69890970493023
+qwen,raw forecast qwen,136,4,33.25721579936585
+qwen,raw forecast qwen,145,1,11.022896292421104
+qwen,raw forecast qwen,156,0,14.292838470110224
+qwen,raw forecast qwen,234,0,22.68361807667345
+qwen,raw forecast qwen,235,3,29.52438211492635
+qwen,raw forecast qwen,236,4,30.022736240275737
+qwen,raw forecast qwen,245,2,14.849173701054307
+qwen,raw forecast qwen,246,1,20.064376770160894
+qwen,raw forecast qwen,256,3,18.118755228924062
+qwen,raw forecast qwen,345,0,8.454538231882863
+qwen,raw forecast qwen,346,4,19.94422110297002
+qwen,raw forecast qwen,356,1,29.87900155233659
+qwen,raw forecast qwen,456,1,5.797097481200829
+qwen,calibrated output qwen,123,2,18.403152740952546
+qwen,calibrated output qwen,124,2,9.83504872827669
+qwen,calibrated output qwen,126,0,2.6916916597502976
+qwen,calibrated output qwen,134,3,23.16345864999093
+qwen,calibrated output qwen,135,2,11.6770603722223
+qwen,calibrated output qwen,136,4,12.501399970787212
+qwen,calibrated output qwen,145,1,5.9746830923506336
+qwen,calibrated output qwen,156,0,2.4145453017461436
+qwen,calibrated output qwen,234,0,3.926202713560888
+qwen,calibrated output qwen,235,3,5.273124131183123
+qwen,calibrated output qwen,236,4,2.8166801254055436
+qwen,calibrated output qwen,245,2,3.1246349922743697
+qwen,calibrated output qwen,246,1,2.9489405178192882
+qwen,calibrated output qwen,256,3,1.2404440268858332
+qwen,calibrated output qwen,345,0,6.131485050340975
+qwen,calibrated output qwen,346,4,5.379985825592823
+qwen,calibrated output qwen,356,1,5.716198209643232
+qwen,calibrated output qwen,456,1,1.6137331404169546
+qwen,history+output qwen,123,2,10.19326016593155
+qwen,history+output qwen,124,2,2.4672369677397623
+qwen,history+output qwen,126,0,0.7325072507708582
+qwen,history+output qwen,134,3,3.7749044098560773
+qwen,history+output qwen,135,2,1.8164746656387536
+qwen,history+output qwen,136,4,2.6472059802930565
+qwen,history+output qwen,145,1,1.9707200949341663
+qwen,history+output qwen,156,0,2.212566495305626
+qwen,history+output qwen,234,0,1.7477860590419059
+qwen,history+output qwen,235,3,2.483887115189599
+qwen,history+output qwen,236,4,0.9581979407507886
+qwen,history+output qwen,245,2,2.018267892296462
+qwen,history+output qwen,246,1,1.4796596287003325
+qwen,history+output qwen,256,3,1.6202364047576288
+qwen,history+output qwen,345,0,1.5670698327330264
+qwen,history+output qwen,346,4,0.636054647465317
+qwen,history+output qwen,356,1,2.440859981906969
+qwen,history+output qwen,456,1,1.2514448833704563
+qwen,history+output+act qwen b25,123,2,10.19326016593155
+qwen,history+output+act qwen b25,124,2,2.4672369677397623
+qwen,history+output+act qwen b25,126,0,0.9262569093595298
+qwen,history+output+act qwen b25,134,3,3.7749044098560773
+qwen,history+output+act qwen b25,135,2,1.8164746656387536
+qwen,history+output+act qwen b25,136,4,2.959862240779873
+qwen,history+output+act qwen b25,145,1,2.6338731986567296
+qwen,history+output+act qwen b25,156,0,1.758065081532701
+qwen,history+output+act qwen b25,234,0,1.582283588694989
+qwen,history+output+act qwen b25,235,3,2.483887115189599
+qwen,history+output+act qwen b25,236,4,0.8771081820396568
+qwen,history+output+act qwen b25,245,2,2.018267892296462
+qwen,history+output+act qwen b25,246,1,1.860941938639875
+qwen,history+output+act qwen b25,256,3,1.6202364047576288
+qwen,history+output+act qwen b25,345,0,1.7299027436079832
+qwen,history+output+act qwen b25,346,4,0.9361983874998123
+qwen,history+output+act qwen b25,356,1,2.5325746252671024
+qwen,history+output+act qwen b25,456,1,1.4014139748162544
+qwen,act only qwen agent b25,123,2,9.191897234380734
+qwen,act only qwen agent b25,124,2,3.0031796043028383
+qwen,act only qwen agent b25,126,0,1.4376054923989166
+qwen,act only qwen agent b25,134,3,5.188567322282424
+qwen,act only qwen agent b25,135,2,2.6141799561779844
+qwen,act only qwen agent b25,136,4,4.553208915306345
+qwen,act only qwen agent b25,145,1,4.826124842624247
+qwen,act only qwen agent b25,156,0,1.266354294858869
+qwen,act only qwen agent b25,234,0,1.726898513345489
+qwen,act only qwen agent b25,235,3,3.3055513947472615
+qwen,act only qwen agent b25,236,4,1.2977000409818105
+qwen,act only qwen agent b25,245,2,1.8924057312967808
+qwen,act only qwen agent b25,246,1,2.6372528084994147
+qwen,act only qwen agent b25,256,3,1.4116851368538417
+qwen,act only qwen agent b25,345,0,1.8715971842248063
+qwen,act only qwen agent b25,346,4,3.408171632151063
+qwen,act only qwen agent b25,356,1,2.619237315910219
+qwen,act only qwen agent b25,456,1,1.1863122751038218
+qwen,act only qwen direct b25,123,2,7.965399085716336
+qwen,act only qwen direct b25,124,2,2.543436481529812
+qwen,act only qwen direct b25,126,0,0.983759522708905
+qwen,act only qwen direct b25,134,3,5.888014169278417
+qwen,act only qwen direct b25,135,2,1.7053567063669497
+qwen,act only qwen direct b25,136,4,3.247529489013221
+qwen,act only qwen direct b25,145,1,3.2799653862492697
+qwen,act only qwen direct b25,156,0,2.065995407691565
+qwen,act only qwen direct b25,234,0,1.832506926014944
+qwen,act only qwen direct b25,235,3,3.360489308164411
+qwen,act only qwen direct b25,236,4,1.0661981038914217
+qwen,act only qwen direct b25,245,2,2.604860515154691
+qwen,act only qwen direct b25,246,1,1.6458563298430313
+qwen,act only qwen direct b25,256,3,1.3532101891215491
+qwen,act only qwen direct b25,345,0,2.1740267308403047
+qwen,act only qwen direct b25,346,4,2.275699185557278
+qwen,act only qwen direct b25,356,1,2.5875288443000994
+qwen,act only qwen direct b25,456,1,0.8460074209618682
+qwen,history+output+act qwen b50,123,2,10.19326016593155
+qwen,history+output+act qwen b50,124,2,2.4672369677397623
+qwen,history+output+act qwen b50,126,0,0.7180184969661418
+qwen,history+output+act qwen b50,134,3,3.5246868097188035
+qwen,history+output+act qwen b50,135,2,1.8164746656387536
+qwen,history+output+act qwen b50,136,4,3.2053432539547653
+qwen,history+output+act qwen b50,145,1,2.0879115482878157
+qwen,history+output+act qwen b50,156,0,2.1963941485490213
+qwen,history+output+act qwen b50,234,0,1.6736247170359089
+qwen,history+output+act qwen b50,235,3,2.2626277308430107
+qwen,history+output+act qwen b50,236,4,0.837576874326572
+qwen,history+output+act qwen b50,245,2,2.018267892296462
+qwen,history+output+act qwen b50,246,1,1.6899488906426052
+qwen,history+output+act qwen b50,256,3,1.644717703019209
+qwen,history+output+act qwen b50,345,0,1.446604678801479
+qwen,history+output+act qwen b50,346,4,0.7464908028885308
+qwen,history+output+act qwen b50,356,1,2.4939030328815073
+qwen,history+output+act qwen b50,456,1,1.3473604844746638
+qwen,act only qwen agent b50,123,2,9.737445331191523
+qwen,act only qwen agent b50,124,2,2.3849522849857387
+qwen,act only qwen agent b50,126,0,1.4753377049178784
+qwen,act only qwen agent b50,134,3,6.753813900618024
+qwen,act only qwen agent b50,135,2,4.132407759583055
+qwen,act only qwen agent b50,136,4,6.082932879136293
+qwen,act only qwen agent b50,145,1,4.717901963070658
+qwen,act only qwen agent b50,156,0,2.404118430576099
+qwen,act only qwen agent b50,234,0,2.8112571791960015
+qwen,act only qwen agent b50,235,3,2.7290529451060066
+qwen,act only qwen agent b50,236,4,1.6889642773887203
+qwen,act only qwen agent b50,245,2,1.7624199465160781
+qwen,act only qwen agent b50,246,1,2.460452747603624
+qwen,act only qwen agent b50,256,3,1.3955776351989477
+qwen,act only qwen agent b50,345,0,2.554976684918135
+qwen,act only qwen agent b50,346,4,2.221057048239391
+qwen,act only qwen agent b50,356,1,3.2975851567431627
+qwen,act only qwen agent b50,456,1,2.005630038557817
+qwen,act only qwen direct b50,123,2,9.1835219818061
+qwen,act only qwen direct b50,124,2,3.219036337133453
+qwen,act only qwen direct b50,126,0,1.0730078507575722
+qwen,act only qwen direct b50,134,3,7.862718206488478
+qwen,act only qwen direct b50,135,2,1.7359171914740597
+qwen,act only qwen direct b50,136,4,3.6123806072173976
+qwen,act only qwen direct b50,145,1,4.9464982652100815
+qwen,act only qwen direct b50,156,0,2.7804931337726626
+qwen,act only qwen direct b50,234,0,3.3301003204370914
+qwen,act only qwen direct b50,235,3,2.243210910549869
+qwen,act only qwen direct b50,236,4,1.2483198752147275
+qwen,act only qwen direct b50,245,2,1.9654649979114032
+qwen,act only qwen direct b50,246,1,1.915430630435423
+qwen,act only qwen direct b50,256,3,1.2611821278885014
+qwen,act only qwen direct b50,345,0,1.6625084833230004
+qwen,act only qwen direct b50,346,4,3.1395297939667954
+qwen,act only qwen direct b50,356,1,3.5714358971190254
+qwen,act only qwen direct b50,456,1,1.0359753165804675
+qwen,history+output+act qwen b75,123,2,10.19326016593155
+qwen,history+output+act qwen b75,124,2,2.4672369677397623
+qwen,history+output+act qwen b75,126,0,0.8476659394160411
+qwen,history+output+act qwen b75,134,3,3.7749044098560773
+qwen,history+output+act qwen b75,135,2,1.8164746656387536
+qwen,history+output+act qwen b75,136,4,3.3483113602831764
+qwen,history+output+act qwen b75,145,1,2.0363452935123045
+qwen,history+output+act qwen b75,156,0,2.049414496520816
+qwen,history+output+act qwen b75,234,0,1.4386697645961959
+qwen,history+output+act qwen b75,235,3,2.483887115189599
+qwen,history+output+act qwen b75,236,4,0.893555355998536
+qwen,history+output+act qwen b75,245,2,2.018267892296462
+qwen,history+output+act qwen b75,246,1,1.7527174527649931
+qwen,history+output+act qwen b75,256,3,1.6202364047576288
+qwen,history+output+act qwen b75,345,0,1.393614612195055
+qwen,history+output+act qwen b75,346,4,0.721402227074066
+qwen,history+output+act qwen b75,356,1,2.4666546554236763
+qwen,history+output+act qwen b75,456,1,1.3196302318962845
+qwen,act only qwen agent b75,123,2,13.694990252362254
+qwen,act only qwen agent b75,124,2,2.501559950130393
+qwen,act only qwen agent b75,126,0,1.684599000888759
+qwen,act only qwen agent b75,134,3,6.421987592889592
+qwen,act only qwen agent b75,135,2,3.0225698854848964
+qwen,act only qwen agent b75,136,4,6.08828416941351
+qwen,act only qwen agent b75,145,1,4.660642319943857
+qwen,act only qwen agent b75,156,0,1.4651524538448386
+qwen,act only qwen agent b75,234,0,2.3307787610585273
+qwen,act only qwen agent b75,235,3,3.211496878112365
+qwen,act only qwen agent b75,236,4,0.9872738428249835
+qwen,act only qwen agent b75,245,2,1.4177274665656607
+qwen,act only qwen agent b75,246,1,2.0793733219393076
+qwen,act only qwen agent b75,256,3,1.3511088854481808
+qwen,act only qwen agent b75,345,0,2.127004841778346
+qwen,act only qwen agent b75,346,4,2.463960590555347
+qwen,act only qwen agent b75,356,1,2.5876262464855113
+qwen,act only qwen agent b75,456,1,1.4636505287632293
+qwen,act only qwen direct b75,123,2,13.709398912628345
+qwen,act only qwen direct b75,124,2,2.13421597836123
+qwen,act only qwen direct b75,126,0,0.9465972081883475
+qwen,act only qwen direct b75,134,3,4.623307947434259
+qwen,act only qwen direct b75,135,2,2.2389974971710083
+qwen,act only qwen direct b75,136,4,3.4672975294639534
+qwen,act only qwen direct b75,145,1,2.5969053391236145
+qwen,act only qwen direct b75,156,0,1.5052591702369336
+qwen,act only qwen direct b75,234,0,1.7763733193164388
+qwen,act only qwen direct b75,235,3,3.5286637636326112
+qwen,act only qwen direct b75,236,4,1.0370578669210795
+qwen,act only qwen direct b75,245,2,1.63690482769885
+qwen,act only qwen direct b75,246,1,1.8272109079127812
+qwen,act only qwen direct b75,256,3,0.7155874374447388
+qwen,act only qwen direct b75,345,0,2.3259096852486656
+qwen,act only qwen direct b75,346,4,1.8347415221475762
+qwen,act only qwen direct b75,356,1,2.562067682278883
+qwen,act only qwen direct b75,456,1,1.1274202616229756
+qwen,history+output+act qwen b100,123,2,11.171032678868968
+qwen,history+output+act qwen b100,124,2,2.8897280686991036
+qwen,history+output+act qwen b100,126,0,0.8601035647833385
+qwen,history+output+act qwen b100,134,3,2.789164521280412
+qwen,history+output+act qwen b100,135,2,1.768634057972509
+qwen,history+output+act qwen b100,136,4,2.992292428456017
+qwen,history+output+act qwen b100,145,1,1.9707200949341663
+qwen,history+output+act qwen b100,156,0,1.3926696857519296
+qwen,history+output+act qwen b100,234,0,1.7254230473135879
+qwen,history+output+act qwen b100,235,3,1.810018409233699
+qwen,history+output+act qwen b100,236,4,0.6010953083208386
+qwen,history+output+act qwen b100,245,2,0.975824078277428
+qwen,history+output+act qwen b100,246,1,1.4796596287003325
+qwen,history+output+act qwen b100,256,3,0.9946589434410646
+qwen,history+output+act qwen b100,345,0,1.468983042487183
+qwen,history+output+act qwen b100,346,4,0.6726935820582624
+qwen,history+output+act qwen b100,356,1,2.440859981906969
+qwen,history+output+act qwen b100,456,1,1.2514448833704563
+qwen,act only qwen agent b100,123,2,16.499068631760277
+qwen,act only qwen agent b100,124,2,3.6101225124315746
+qwen,act only qwen agent b100,126,0,0.9341812923845536
+qwen,act only qwen agent b100,134,3,4.230801653971491
+qwen,act only qwen agent b100,135,2,2.570910485377522
+qwen,act only qwen agent b100,136,4,4.720799247643371
+qwen,act only qwen agent b100,145,1,2.724254224361506
+qwen,act only qwen agent b100,156,0,1.338063621081411
+qwen,act only qwen agent b100,234,0,2.933730923071194
+qwen,act only qwen agent b100,235,3,1.9683707798600547
+qwen,act only qwen agent b100,236,4,0.8463762484033985
+qwen,act only qwen agent b100,245,2,1.071043012554952
+qwen,act only qwen agent b100,246,1,1.717673157662955
+qwen,act only qwen agent b100,256,3,0.7092787653684862
+qwen,act only qwen agent b100,345,0,2.263123134709638
+qwen,act only qwen agent b100,346,4,1.8856409217407668
+qwen,act only qwen agent b100,356,1,2.584926741010266
+qwen,act only qwen agent b100,456,1,0.7228006298501608
+qwen,act only qwen direct b100,123,2,1.3055288277925496
+qwen,act only qwen direct b100,124,2,0.6140406947966
+qwen,act only qwen direct b100,126,0,0.224120276790998
+qwen,act only qwen direct b100,134,3,0.9217890924515445
+qwen,act only qwen direct b100,135,2,1.343434901946268
+qwen,act only qwen direct b100,136,4,0.3767509953383626
+qwen,act only qwen direct b100,145,1,0.7822857507318776
+qwen,act only qwen direct b100,156,0,0.3547561719958452
+qwen,act only qwen direct b100,234,0,0.6758249291512214
+qwen,act only qwen direct b100,235,3,0.6691679097190338
+qwen,act only qwen direct b100,236,4,0.29144361404407654
+qwen,act only qwen direct b100,245,2,0.5439951666672118
+qwen,act only qwen direct b100,246,1,0.31874468090730995
+qwen,act only qwen direct b100,256,3,0.298547280564118
+qwen,act only qwen direct b100,345,0,0.6972084693414858
+qwen,act only qwen direct b100,346,4,0.28291881856774603
+qwen,act only qwen direct b100,356,1,0.5068012842844815
+qwen,act only qwen direct b100,456,1,0.5121696058117986
+qwen,history+output+act qwen b75 rank8,123,2,10.19326016593155
+qwen,history+output+act qwen b75 rank8,124,2,2.4672369677397623
+qwen,history+output+act qwen b75 rank8,126,0,0.9044421323966128
+qwen,history+output+act qwen b75 rank8,134,3,3.7749044098560773
+qwen,history+output+act qwen b75 rank8,135,2,1.8164746656387536
+qwen,history+output+act qwen b75 rank8,136,4,3.3844215269109896
+qwen,history+output+act qwen b75 rank8,145,1,2.033273595218986
+qwen,history+output+act qwen b75 rank8,156,0,2.132129595684839
+qwen,history+output+act qwen b75 rank8,234,0,1.3798506729295497
+qwen,history+output+act qwen b75 rank8,235,3,2.483887115189599
+qwen,history+output+act qwen b75 rank8,236,4,0.9193427179588273
+qwen,history+output+act qwen b75 rank8,245,2,2.018267892296462
+qwen,history+output+act qwen b75 rank8,246,1,1.8207093398483944
+qwen,history+output+act qwen b75 rank8,256,3,1.6202364047576288
+qwen,history+output+act qwen b75 rank8,345,0,1.4237667288020341
+qwen,history+output+act qwen b75 rank8,346,4,0.7214807086362903
+qwen,history+output+act qwen b75 rank8,356,1,2.5076607141664087
+qwen,history+output+act qwen b75 rank8,456,1,1.333776831965429
+qwen,history+output+act qwen b75 rank16,123,2,10.19326016593155
+qwen,history+output+act qwen b75 rank16,124,2,2.4672369677397623
+qwen,history+output+act qwen b75 rank16,126,0,0.9004450328336308
+qwen,history+output+act qwen b75 rank16,134,3,3.7749044098560773
+qwen,history+output+act qwen b75 rank16,135,2,1.8164746656387536
+qwen,history+output+act qwen b75 rank16,136,4,3.3868130273937207
+qwen,history+output+act qwen b75 rank16,145,1,2.0101310192658786
+qwen,history+output+act qwen b75 rank16,156,0,2.0560288269827214
+qwen,history+output+act qwen b75 rank16,234,0,1.4332973817690597
+qwen,history+output+act qwen b75 rank16,235,3,2.483887115189599
+qwen,history+output+act qwen b75 rank16,236,4,0.9209729423381828
+qwen,history+output+act qwen b75 rank16,245,2,2.018267892296462
+qwen,history+output+act qwen b75 rank16,246,1,1.8485075352716063
+qwen,history+output+act qwen b75 rank16,256,3,1.6202364047576288
+qwen,history+output+act qwen b75 rank16,345,0,1.3933530414189645
+qwen,history+output+act qwen b75 rank16,346,4,0.7176295375089672
+qwen,history+output+act qwen b75 rank16,356,1,2.4806914175414723
+qwen,history+output+act qwen b75 rank16,456,1,1.3204120620128672
+qwen,history+output+act qwen b75 rank64,123,2,10.19326016593155
+qwen,history+output+act qwen b75 rank64,124,2,2.4672369677397623
+qwen,history+output+act qwen b75 rank64,126,0,0.8310782716204473
+qwen,history+output+act qwen b75 rank64,134,3,3.7749044098560773
+qwen,history+output+act qwen b75 rank64,135,2,1.8164746656387536
+qwen,history+output+act qwen b75 rank64,136,4,3.340056745371109
+qwen,history+output+act qwen b75 rank64,145,1,2.0347280524411495
+qwen,history+output+act qwen b75 rank64,156,0,2.058688080275571
+qwen,history+output+act qwen b75 rank64,234,0,1.4381497122363136
+qwen,history+output+act qwen b75 rank64,235,3,2.483887115189599
+qwen,history+output+act qwen b75 rank64,236,4,0.8959323172101733
+qwen,history+output+act qwen b75 rank64,245,2,2.018267892296462
+qwen,history+output+act qwen b75 rank64,246,1,1.743737889601535
+qwen,history+output+act qwen b75 rank64,256,3,1.6202364047576288
+qwen,history+output+act qwen b75 rank64,345,0,1.3963524907634406
+qwen,history+output+act qwen b75 rank64,346,4,0.7197160186015945
+qwen,history+output+act qwen b75 rank64,356,1,2.458739716169489
+qwen,history+output+act qwen b75 rank64,456,1,1.3128818496495132
+qwen,history+output qwen [shape],123,2,11.272802998009704
+qwen,history+output qwen [shape],124,2,2.515243686395575
+qwen,history+output qwen [shape],126,0,0.7141285585244698
+qwen,history+output qwen [shape],134,3,3.8403823691163566
+qwen,history+output qwen [shape],135,2,1.8419736256008414
+qwen,history+output qwen [shape],136,4,2.661857724943621
+qwen,history+output qwen [shape],145,1,2.087504457186154
+qwen,history+output qwen [shape],156,0,2.0858932440178575
+qwen,history+output qwen [shape],234,0,1.848028696872474
+qwen,history+output qwen [shape],235,3,2.4842954939135917
+qwen,history+output qwen [shape],236,4,0.8239664812870512
+qwen,history+output qwen [shape],245,2,1.9944653799990462
+qwen,history+output qwen [shape],246,1,1.3980497851701328
+qwen,history+output qwen [shape],256,3,1.6144388411274602
+qwen,history+output qwen [shape],345,0,1.7935520270744478
+qwen,history+output qwen [shape],346,4,0.5562161061259944
+qwen,history+output qwen [shape],356,1,2.481146212074622
+qwen,history+output qwen [shape],456,1,1.1442179168628437
+qwen,history+output+act qwen [shape],123,2,11.272802998009704
+qwen,history+output+act qwen [shape],124,2,2.515243686395575
+qwen,history+output+act qwen [shape],126,0,0.8806177095506325
+qwen,history+output+act qwen [shape],134,3,3.8403823691163566
+qwen,history+output+act qwen [shape],135,2,1.8419736256008414
+qwen,history+output+act qwen [shape],136,4,3.473721297138759
+qwen,history+output+act qwen [shape],145,1,1.9776477273902842
+qwen,history+output+act qwen [shape],156,0,1.831490268083859
+qwen,history+output+act qwen [shape],234,0,1.7317803345047753
+qwen,history+output+act qwen [shape],235,3,2.4842954939135917
+qwen,history+output+act qwen [shape],236,4,0.8510452580629541
+qwen,history+output+act qwen [shape],245,2,1.9944653799990462
+qwen,history+output+act qwen [shape],246,1,1.6713580581586414
+qwen,history+output+act qwen [shape],256,3,1.6144388411274602
+qwen,history+output+act qwen [shape],345,0,1.648363409734775
+qwen,history+output+act qwen [shape],346,4,0.8132155996505827
+qwen,history+output+act qwen [shape],356,1,2.5914038698459114
+qwen,history+output+act qwen [shape],456,1,1.1708614665851105
+qwen,raw forecast qwen [shape],123,2,6.925025967151235
+qwen,raw forecast qwen [shape],124,2,13.444989755461256
+qwen,raw forecast qwen [shape],126,0,4.490291698021199
+qwen,raw forecast qwen [shape],134,3,33.75757124166265
+qwen,raw forecast qwen [shape],135,2,25.828029805008182
+qwen,raw forecast qwen [shape],136,4,26.22745512292342
+qwen,raw forecast qwen [shape],145,1,13.255157530665052
+qwen,raw forecast qwen [shape],156,0,10.528725401421504
+qwen,raw forecast qwen [shape],234,0,15.936298600314913
+qwen,raw forecast qwen [shape],235,3,21.964024842718377
+qwen,raw forecast qwen [shape],236,4,21.597641590764216
+qwen,raw forecast qwen [shape],245,2,17.463684220587155
+qwen,raw forecast qwen [shape],246,1,15.763010468435603
+qwen,raw forecast qwen [shape],256,3,13.807278035406872
+qwen,raw forecast qwen [shape],345,0,8.639436359462929
+qwen,raw forecast qwen [shape],346,4,14.77668825897748
+qwen,raw forecast qwen [shape],356,1,22.305159961337058
+qwen,raw forecast qwen [shape],456,1,6.12662157264538
+qwen,act only qwen shape b75,123,2,12.18346031663026
+qwen,act only qwen shape b75,124,2,2.1508293699581174
+qwen,act only qwen shape b75,126,0,1.6569218234450818
+qwen,act only qwen shape b75,134,3,5.530068282575761
+qwen,act only qwen shape b75,135,2,3.31335784697813
+qwen,act only qwen shape b75,136,4,6.09938602837898
+qwen,act only qwen shape b75,145,1,3.5995371868004042
+qwen,act only qwen shape b75,156,0,1.6480990258521604
+qwen,act only qwen shape b75,234,0,3.0571141766751677
+qwen,act only qwen shape b75,235,3,3.2225195207430324
+qwen,act only qwen shape b75,236,4,1.4327243905292908
+qwen,act only qwen shape b75,245,2,1.4460726367596137
+qwen,act only qwen shape b75,246,1,2.4944419180060957
+qwen,act only qwen shape b75,256,3,1.4871865229889625
+qwen,act only qwen shape b75,345,0,2.2078336467998345
+qwen,act only qwen shape b75,346,4,2.409981256040639
+qwen,act only qwen shape b75,356,1,3.278768246113127
+qwen,act only qwen shape b75,456,1,1.4613811147722713
+qwen,history+output qwen [self],123,2,8.97640951434919
+qwen,history+output qwen [self],124,2,2.5768561454084975
+qwen,history+output qwen [self],126,0,0.7516823328835939
+qwen,history+output qwen [self],134,3,3.762838992901553
+qwen,history+output qwen [self],135,2,1.9103411571100486
+qwen,history+output qwen [self],136,4,2.560462468934668
+qwen,history+output qwen [self],145,1,1.866595003132841
+qwen,history+output qwen [self],156,0,2.2500157603760824
+qwen,history+output qwen [self],234,0,1.52169014112142
+qwen,history+output qwen [self],235,3,2.7202141711423096
+qwen,history+output qwen [self],236,4,1.1843755131794855
+qwen,history+output qwen [self],245,2,2.002470839648122
+qwen,history+output qwen [self],246,1,1.479061896057295
+qwen,history+output qwen [self],256,3,1.6239703864630795
+qwen,history+output qwen [self],345,0,1.7494657507826605
+qwen,history+output qwen [self],346,4,0.5423038056412451
+qwen,history+output qwen [self],356,1,2.407828374767392
+qwen,history+output qwen [self],456,1,1.2959833105245282
+qwen,history+output+act qwen [self],123,2,9.090036127436946
+qwen,history+output+act qwen [self],124,2,1.5161875337081447
+qwen,history+output+act qwen [self],126,0,0.7579421824410145
+qwen,history+output+act qwen [self],134,3,3.762838992901553
+qwen,history+output+act qwen [self],135,2,1.6426782037536747
+qwen,history+output+act qwen [self],136,4,3.167888858236223
+qwen,history+output+act qwen [self],145,1,1.76136978333473
+qwen,history+output+act qwen [self],156,0,2.0826972321391466
+qwen,history+output+act qwen [self],234,0,1.2294787193884373
+qwen,history+output+act qwen [self],235,3,2.7202141711423096
+qwen,history+output+act qwen [self],236,4,0.9865961770225798
+qwen,history+output+act qwen [self],245,2,1.500424022820388
+qwen,history+output+act qwen [self],246,1,1.6119801435623415
+qwen,history+output+act qwen [self],256,3,1.6239703864630795
+qwen,history+output+act qwen [self],345,0,1.5512435554773711
+qwen,history+output+act qwen [self],346,4,0.5596035442894284
+qwen,history+output+act qwen [self],356,1,2.3861894566543347
+qwen,history+output+act qwen [self],456,1,1.351398216259985
+qwen,raw forecast qwen [self],123,2,5.58698611459693
+qwen,raw forecast qwen [self],124,2,15.897530179359793
+qwen,raw forecast qwen [self],126,0,9.402441622060948
+qwen,raw forecast qwen [self],134,3,40.48183036971904
+qwen,raw forecast qwen [self],135,2,32.550577737033656
+qwen,raw forecast qwen [self],136,4,35.75197985251965
+qwen,raw forecast qwen [self],145,1,9.63223731107761
+qwen,raw forecast qwen [self],156,0,16.104898658496534
+qwen,raw forecast qwen [self],234,0,24.158741984715892
+qwen,raw forecast qwen [self],235,3,30.359525835563705
+qwen,raw forecast qwen [self],236,4,31.158671604805363
+qwen,raw forecast qwen [self],245,2,11.925999886081334
+qwen,raw forecast qwen [self],246,1,20.436129491207982
+qwen,raw forecast qwen [self],256,3,18.46583609406193
+qwen,raw forecast qwen [self],345,0,8.856414776836486
+qwen,raw forecast qwen [self],346,4,20.11192847785958
+qwen,raw forecast qwen [self],356,1,30.7307742006244
+qwen,raw forecast qwen [self],456,1,4.013222775533612
+qwen,act only qwen self b75,123,2,9.891314817033301
+qwen,act only qwen self b75,124,2,2.331721192240727
+qwen,act only qwen self b75,126,0,1.6731213616054461
+qwen,act only qwen self b75,134,3,6.172885751295766
+qwen,act only qwen self b75,135,2,3.342200640767853
+qwen,act only qwen self b75,136,4,4.839807476509964
+qwen,act only qwen self b75,145,1,3.3812770953264195
+qwen,act only qwen self b75,156,0,1.1188498702007024
+qwen,act only qwen self b75,234,0,2.8991729017054833
+qwen,act only qwen self b75,235,3,2.7451829333711415
+qwen,act only qwen self b75,236,4,0.8688061698029669
+qwen,act only qwen self b75,245,2,1.6209366498513134
+qwen,act only qwen self b75,246,1,2.289718351518182
+qwen,act only qwen self b75,256,3,1.3299937351767317
+qwen,act only qwen self b75,345,0,1.9360436088099
+qwen,act only qwen self b75,346,4,2.55005066444196
+qwen,act only qwen self b75,356,1,2.4329723174460587
+qwen,act only qwen self b75,456,1,1.0363024014601654
+qwen,history+output qwen [generic],123,2,9.896553502647729
+qwen,history+output qwen [generic],124,2,2.406693563519624
+qwen,history+output qwen [generic],126,0,0.6858605150004097
+qwen,history+output qwen [generic],134,3,3.6040755793176777
+qwen,history+output qwen [generic],135,2,1.8604799161528434
+qwen,history+output qwen [generic],136,4,2.7824767230929424
+qwen,history+output qwen [generic],145,1,1.9012135852699366
+qwen,history+output qwen [generic],156,0,2.2816879535495427
+qwen,history+output qwen [generic],234,0,1.6916516556334784
+qwen,history+output qwen [generic],235,3,2.3132206246130953
+qwen,history+output qwen [generic],236,4,0.918899723938947
+qwen,history+output qwen [generic],245,2,2.0404330564563846
+qwen,history+output qwen [generic],246,1,1.3631154507029997
+qwen,history+output qwen [generic],256,3,1.5744784173324382
+qwen,history+output qwen [generic],345,0,1.4525373247638154
+qwen,history+output qwen [generic],346,4,0.5499779569835436
+qwen,history+output qwen [generic],356,1,2.422340288972316
+qwen,history+output qwen [generic],456,1,1.0502832655714889
+qwen,history+output+act qwen [generic],123,2,9.896553502647729
+qwen,history+output+act qwen [generic],124,2,2.406693563519624
+qwen,history+output+act qwen [generic],126,0,0.7786721188161848
+qwen,history+output+act qwen [generic],134,3,3.6040755793176777
+qwen,history+output+act qwen [generic],135,2,1.8604799161528434
+qwen,history+output+act qwen [generic],136,4,3.017219696578857
+qwen,history+output+act qwen [generic],145,1,1.830109381774059
+qwen,history+output+act qwen [generic],156,0,2.103209992246045
+qwen,history+output+act qwen [generic],234,0,1.3170888435456007
+qwen,history+output+act qwen [generic],235,3,2.3132206246130953
+qwen,history+output+act qwen [generic],236,4,0.7860715626922836
+qwen,history+output+act qwen [generic],245,2,2.0404330564563846
+qwen,history+output+act qwen [generic],246,1,1.553773026163335
+qwen,history+output+act qwen [generic],256,3,1.5744784173324382
+qwen,history+output+act qwen [generic],345,0,1.3259963114009534
+qwen,history+output+act qwen [generic],346,4,0.820967367080114
+qwen,history+output+act qwen [generic],356,1,2.446272409896272
+qwen,history+output+act qwen [generic],456,1,1.1106250962059787
+qwen,raw forecast qwen [generic],123,2,5.7847137084231335
+qwen,raw forecast qwen [generic],124,2,15.43317073769144
+qwen,raw forecast qwen [generic],126,0,7.783640957441861
+qwen,raw forecast qwen [generic],134,3,39.714055881526214
+qwen,raw forecast qwen [generic],135,2,33.90697293151639
+qwen,raw forecast qwen [generic],136,4,35.00737943905195
+qwen,raw forecast qwen [generic],145,1,11.204250256790294
+qwen,raw forecast qwen [generic],156,0,16.638378395251653
+qwen,raw forecast qwen [generic],234,0,25.228155936259217
+qwen,raw forecast qwen [generic],235,3,34.507406019015875
+qwen,raw forecast qwen [generic],236,4,34.88091986788505
+qwen,raw forecast qwen [generic],245,2,15.538457182388937
+qwen,raw forecast qwen [generic],246,1,23.10825847422517
+qwen,raw forecast qwen [generic],256,3,22.352747908664018
+qwen,raw forecast qwen [generic],345,0,9.07714764775416
+qwen,raw forecast qwen [generic],346,4,21.76896987972548
+qwen,raw forecast qwen [generic],356,1,33.81548625098649
+qwen,raw forecast qwen [generic],456,1,6.944766357412075
+qwen,act only qwen generic b75,123,2,10.094811775994074
+qwen,act only qwen generic b75,124,2,2.542334299445968
+qwen,act only qwen generic b75,126,0,1.5176350832354286
+qwen,act only qwen generic b75,134,3,6.212443344157472
+qwen,act only qwen generic b75,135,2,2.71370815630524
+qwen,act only qwen generic b75,136,4,4.692793279897601
+qwen,act only qwen generic b75,145,1,2.9198162362001465
+qwen,act only qwen generic b75,156,0,1.2108175161889507
+qwen,act only qwen generic b75,234,0,3.2890381251129024
+qwen,act only qwen generic b75,235,3,3.3119702538324627
+qwen,act only qwen generic b75,236,4,0.9082053168797048
+qwen,act only qwen generic b75,245,2,2.295574646473915
+qwen,act only qwen generic b75,246,1,2.4439144813679956
+qwen,act only qwen generic b75,256,3,1.7137982933532978
+qwen,act only qwen generic b75,345,0,2.0849148437387677
+qwen,act only qwen generic b75,346,4,2.410724280506166
+qwen,act only qwen generic b75,356,1,2.6071284472967915
+qwen,act only qwen generic b75,456,1,0.8086794655082468
+qwen,transfer agent->agent qwen,123,2,13.69498129138583
+qwen,transfer agent->agent qwen,124,2,2.501560059732504
+qwen,transfer agent->agent qwen,126,0,1.6845986867865612
+qwen,transfer agent->agent qwen,134,3,6.4219877797889104
+qwen,transfer agent->agent qwen,135,2,3.022568571803386
+qwen,transfer agent->agent qwen,136,4,6.08828480964966
+qwen,transfer agent->agent qwen,145,1,4.660642177796847
+qwen,transfer agent->agent qwen,156,0,1.4651527014888515
+qwen,transfer agent->agent qwen,234,0,2.3307794592516466
+qwen,transfer agent->agent qwen,235,3,3.211496838042891
+qwen,transfer agent->agent qwen,236,4,0.9872736856160395
+qwen,transfer agent->agent qwen,245,2,1.4177287752970997
+qwen,transfer agent->agent qwen,246,1,2.079373006546023
+qwen,transfer agent->agent qwen,256,3,1.3511089160784595
+qwen,transfer agent->agent qwen,345,0,2.1270050401243243
+qwen,transfer agent->agent qwen,346,4,2.4639605733995276
+qwen,transfer agent->agent qwen,356,1,2.5876260932206216
+qwen,transfer agent->agent qwen,456,1,1.4636506329551775
+qwen,transfer agent->shape qwen,123,2,144.71803353537658
+qwen,transfer agent->shape qwen,124,2,47.97679777506402
+qwen,transfer agent->shape qwen,126,0,21.89916353851666
+qwen,transfer agent->shape qwen,134,3,27.125988690358565
+qwen,transfer agent->shape qwen,135,2,105.83992001182101
+qwen,transfer agent->shape qwen,136,4,36.19507939323082
+qwen,transfer agent->shape qwen,145,1,9.981469277380784
+qwen,transfer agent->shape qwen,156,0,2.9150715095170994
+qwen,transfer agent->shape qwen,234,0,5.163458659365097
+qwen,transfer agent->shape qwen,235,3,8.222263893823692
+qwen,transfer agent->shape qwen,236,4,16.052303807598403
+qwen,transfer agent->shape qwen,245,2,41.31185921227873
+qwen,transfer agent->shape qwen,246,1,23.276164012758986
+qwen,transfer agent->shape qwen,256,3,4.316208646172652
+qwen,transfer agent->shape qwen,345,0,7.087189251865193
+qwen,transfer agent->shape qwen,346,4,22.296495608555006
+qwen,transfer agent->shape qwen,356,1,17.338170302936305
+qwen,transfer agent->shape qwen,456,1,18.24628752653415
+qwen,transfer agent->self qwen,123,2,12.679812410186983
+qwen,transfer agent->self qwen,124,2,7.5172158002277625
+qwen,transfer agent->self qwen,126,0,2.4275778913296597
+qwen,transfer agent->self qwen,134,3,12.9635988640296
+qwen,transfer agent->self qwen,135,2,14.192436686417304
+qwen,transfer agent->self qwen,136,4,8.651278762807456
+qwen,transfer agent->self qwen,145,1,29.118541542595324
+qwen,transfer agent->self qwen,156,0,7.9777961597815805
+qwen,transfer agent->self qwen,234,0,8.75670042032473
+qwen,transfer agent->self qwen,235,3,14.386003933853127
+qwen,transfer agent->self qwen,236,4,32.009823208401485
+qwen,transfer agent->self qwen,245,2,8.428809977468084
+qwen,transfer agent->self qwen,246,1,6.181297130401506
+qwen,transfer agent->self qwen,256,3,7.212001252269498
+qwen,transfer agent->self qwen,345,0,21.636729922076103
+qwen,transfer agent->self qwen,346,4,19.279876855329707
+qwen,transfer agent->self qwen,356,1,26.426448536903763
+qwen,transfer agent->self qwen,456,1,17.18411059110431
+qwen,transfer agent->generic qwen,123,2,63.42946809884926
+qwen,transfer agent->generic qwen,124,2,35.30909105764291
+qwen,transfer agent->generic qwen,126,0,6.5660034312106434
+qwen,transfer agent->generic qwen,134,3,29.52816303643482
+qwen,transfer agent->generic qwen,135,2,82.01176087868426
+qwen,transfer agent->generic qwen,136,4,24.40565950314783
+qwen,transfer agent->generic qwen,145,1,45.96117491024685
+qwen,transfer agent->generic qwen,156,0,32.88912010049389
+qwen,transfer agent->generic qwen,234,0,12.805782109337224
+qwen,transfer agent->generic qwen,235,3,5.996696803133143
+qwen,transfer agent->generic qwen,236,4,12.777403593126516
+qwen,transfer agent->generic qwen,245,2,30.70294361422401
+qwen,transfer agent->generic qwen,246,1,6.976083104629464
+qwen,transfer agent->generic qwen,256,3,1.7929585553288045
+qwen,transfer agent->generic qwen,345,0,59.3478540408321
+qwen,transfer agent->generic qwen,346,4,33.48583024502923
+qwen,transfer agent->generic qwen,356,1,30.774073651474367
+qwen,transfer agent->generic qwen,456,1,24.52774825688695
+qwen,history+output+direct act qwen,123,2,11.50700576525538
+qwen,history+output+direct act qwen,124,2,2.222359270189464
+qwen,history+output+direct act qwen,126,0,0.5827314305890111
+qwen,history+output+direct act qwen,134,3,4.138513701998481
+qwen,history+output+direct act qwen,135,2,1.5808585118532072
+qwen,history+output+direct act qwen,136,4,2.70489895808916
+qwen,history+output+direct act qwen,145,1,1.9202071179271414
+qwen,history+output+direct act qwen,156,0,1.580800638400586
+qwen,history+output+direct act qwen,234,0,1.3877645281760012
+qwen,history+output+direct act qwen,235,3,3.220457451934631
+qwen,history+output+direct act qwen,236,4,0.9210763028756327
+qwen,history+output+direct act qwen,245,2,1.72929433269384
+qwen,history+output+direct act qwen,246,1,1.432435628067542
+qwen,history+output+direct act qwen,256,3,0.6187448549980684
+qwen,history+output+direct act qwen,345,0,1.4586324588133301
+qwen,history+output+direct act qwen,346,4,0.8020096841112889
+qwen,history+output+direct act qwen,356,1,2.2573389968919026
+qwen,history+output+direct act qwen,456,1,1.205232791711625
+qwen,history+logits qwen,123,2,11.764733034650055
+qwen,history+logits qwen,124,2,2.5610880676238112
+qwen,history+logits qwen,126,0,0.8303907777824066
+qwen,history+logits qwen,134,3,2.4147430226084423
+qwen,history+logits qwen,135,2,1.8981044380264027
+qwen,history+logits qwen,136,4,3.080577757983533
+qwen,history+logits qwen,145,1,1.6428606169567292
+qwen,history+logits qwen,156,0,1.4436176274560026
+qwen,history+logits qwen,234,0,2.0418430100982774
+qwen,history+logits qwen,235,3,1.9870746042362697
+qwen,history+logits qwen,236,4,0.6579865396577093
+qwen,history+logits qwen,245,2,1.1809769959661198
+qwen,history+logits qwen,246,1,1.5368535868761903
+qwen,history+logits qwen,256,3,1.4097947549779308
+qwen,history+logits qwen,345,0,1.5079890027676488
+qwen,history+logits qwen,346,4,0.6734160232939836
+qwen,history+logits qwen,356,1,2.317487781076372
+qwen,history+logits qwen,456,1,1.0556429328108055
+qwen,history+logits+act qwen,123,2,11.764733034650055
+qwen,history+logits+act qwen,124,2,2.5610880676238112
+qwen,history+logits+act qwen,126,0,0.8303907777824066
+qwen,history+logits+act qwen,134,3,2.4147430226084423
+qwen,history+logits+act qwen,135,2,1.8981044380264027
+qwen,history+logits+act qwen,136,4,3.0992583310941035
+qwen,history+logits+act qwen,145,1,1.6428606169567292
+qwen,history+logits+act qwen,156,0,1.4436176274560026
+qwen,history+logits+act qwen,234,0,2.0418430100982774
+qwen,history+logits+act qwen,235,3,1.9870746042362697
+qwen,history+logits+act qwen,236,4,0.6598276365636732
+qwen,history+logits+act qwen,245,2,1.1809769959661198
+qwen,history+logits+act qwen,246,1,1.5368535868761903
+qwen,history+logits+act qwen,256,3,1.4097947549779308
+qwen,history+logits+act qwen,345,0,1.5079890027676488
+qwen,history+logits+act qwen,346,4,0.6619377193107017
+qwen,history+logits+act qwen,356,1,2.317487781076372
+qwen,history+logits+act qwen,456,1,1.0556429328108055
+qwen,history+both outputs,123,2,6.725655145969026
+qwen,history+both outputs,124,2,1.6063786398633324
+qwen,history+both outputs,126,0,0.9491905636425528
+qwen,history+both outputs,134,3,3.9329641752354516
+qwen,history+both outputs,135,2,2.0046811279796395
+qwen,history+both outputs,136,4,2.5610105451869303
+qwen,history+both outputs,145,1,1.985542277734174
+qwen,history+both outputs,156,0,2.3714764116494265
+qwen,history+both outputs,234,0,1.578408240427826
+qwen,history+both outputs,235,3,2.1381984146397452
+qwen,history+both outputs,236,4,0.8246013542312541
+qwen,history+both outputs,245,2,1.5591309160024622
+qwen,history+both outputs,246,1,1.1634864104843365
+qwen,history+both outputs,256,3,1.159688174454833
+qwen,history+both outputs,345,0,1.9134434463312608
+qwen,history+both outputs,346,4,0.7446403719809206
+qwen,history+both outputs,356,1,2.7272936102755003
+qwen,history+both outputs,456,1,1.117207023637614
+qwen,history+both outputs+act mistral,123,2,7.278514013941943
+qwen,history+both outputs+act mistral,124,2,1.7635976384528222
+qwen,history+both outputs+act mistral,126,0,1.0276928700270247
+qwen,history+both outputs+act mistral,134,3,3.5046034505043644
+qwen,history+both outputs+act mistral,135,2,1.5236006047755748
+qwen,history+both outputs+act mistral,136,4,2.7685516020111387
+qwen,history+both outputs+act mistral,145,1,2.4276854328677966
+qwen,history+both outputs+act mistral,156,0,2.062788347384395
+qwen,history+both outputs+act mistral,234,0,1.6282159151057918
+qwen,history+both outputs+act mistral,235,3,1.8537128924364403
+qwen,history+both outputs+act mistral,236,4,0.9691306005131057
+qwen,history+both outputs+act mistral,245,2,1.4085310818281875
+qwen,history+both outputs+act mistral,246,1,1.2615332234428154
+qwen,history+both outputs+act mistral,256,3,1.1207254409146732
+qwen,history+both outputs+act mistral,345,0,1.6484967834969977
+qwen,history+both outputs+act mistral,346,4,0.9723999071921637
+qwen,history+both outputs+act mistral,356,1,2.7140451610243606
+qwen,history+both outputs+act mistral,456,1,1.2310832092933974
+qwen,history+both outputs+act mistral+act qwen,123,2,7.278514013941943
+qwen,history+both outputs+act mistral+act qwen,124,2,1.7635976384528222
+qwen,history+both outputs+act mistral+act qwen,126,0,1.0277709481438533
+qwen,history+both outputs+act mistral+act qwen,134,3,3.5046034505043644
+qwen,history+both outputs+act mistral+act qwen,135,2,1.5236006047755748
+qwen,history+both outputs+act mistral+act qwen,136,4,2.7685516020111387
+qwen,history+both outputs+act mistral+act qwen,145,1,2.420852862093593
+qwen,history+both outputs+act mistral+act qwen,156,0,2.000788585296052
+qwen,history+both outputs+act mistral+act qwen,234,0,1.502668152038544
+qwen,history+both outputs+act mistral+act qwen,235,3,1.8537128924364403
+qwen,history+both outputs+act mistral+act qwen,236,4,0.9691306005131057
+qwen,history+both outputs+act mistral+act qwen,245,2,1.4085310818281875
+qwen,history+both outputs+act mistral+act qwen,246,1,1.3460423829275967
+qwen,history+both outputs+act mistral+act qwen,256,3,1.1207254409146732
+qwen,history+both outputs+act mistral+act qwen,345,0,1.6479752112503665
+qwen,history+both outputs+act mistral+act qwen,346,4,0.9723999071921637
+qwen,history+both outputs+act mistral+act qwen,356,1,2.601625696580868
+qwen,history+both outputs+act mistral+act qwen,456,1,1.2497984900406551
+qwen,raw forecast mistral,123,2,24.32108424364962
+qwen,raw forecast mistral,124,2,34.06628663329485
+qwen,raw forecast mistral,126,0,4.320868111807044
+qwen,raw forecast mistral,134,3,52.26347567115568
+qwen,raw forecast mistral,135,2,55.68565133806661
+qwen,raw forecast mistral,136,4,17.536683492650898
+qwen,raw forecast mistral,145,1,43.526005264229845
+qwen,raw forecast mistral,156,0,6.254752798551753
+qwen,raw forecast mistral,234,0,21.04297507148642
+qwen,raw forecast mistral,235,3,42.4007545594631
+qwen,raw forecast mistral,236,4,15.644731533109725
+qwen,raw forecast mistral,245,2,38.726273885101826
+qwen,raw forecast mistral,246,1,9.125180735596743
+qwen,raw forecast mistral,256,3,10.463155282090584
+qwen,raw forecast mistral,345,0,35.43705276249414
+qwen,raw forecast mistral,346,4,9.66480585158446
+qwen,raw forecast mistral,356,1,18.947012137254596
+qwen,raw forecast mistral,456,1,3.006041611984361
+qwen,calibrated output mistral,123,2,16.0882997392218
+qwen,calibrated output mistral,124,2,8.892597951572377
+qwen,calibrated output mistral,126,0,2.869805664416781
+qwen,calibrated output mistral,134,3,17.327545522332677
+qwen,calibrated output mistral,135,2,9.323847012720927
+qwen,calibrated output mistral,136,4,8.248830621065574
+qwen,calibrated output mistral,145,1,7.571737991947899
+qwen,calibrated output mistral,156,0,4.280852034166799
+qwen,calibrated output mistral,234,0,4.627448364051349
+qwen,calibrated output mistral,235,3,5.342162009287377
+qwen,calibrated output mistral,236,4,3.124233201422753
+qwen,calibrated output mistral,245,2,3.249993026769968
+qwen,calibrated output mistral,246,1,4.615799742377165
+qwen,calibrated output mistral,256,3,1.5554415058569713
+qwen,calibrated output mistral,345,0,9.324308011698703
+qwen,calibrated output mistral,346,4,6.1029440267868935
+qwen,calibrated output mistral,356,1,8.10244975439028
+qwen,calibrated output mistral,456,1,5.752750511929556
+qwen,history+output mistral,123,2,5.850308173261269
+qwen,history+output mistral,124,2,1.6677523889146277
+qwen,history+output mistral,126,0,1.1050281319121305
+qwen,history+output mistral,134,3,3.3398894158508234
+qwen,history+output mistral,135,2,2.0675966252579445
+qwen,history+output mistral,136,4,2.625977554421299
+qwen,history+output mistral,145,1,1.9088949005462421
+qwen,history+output mistral,156,0,2.4944425478851278
+qwen,history+output mistral,234,0,1.2941355550648272
+qwen,history+output mistral,235,3,2.085969905787705
+qwen,history+output mistral,236,4,1.0958917924160818
+qwen,history+output mistral,245,2,1.470548851602415
+qwen,history+output mistral,246,1,1.2786681091355419
+qwen,history+output mistral,256,3,1.2490428541284349
+qwen,history+output mistral,345,0,1.115273112363913
+qwen,history+output mistral,346,4,0.6353167000289309
+qwen,history+output mistral,356,1,2.758568952694102
+qwen,history+output mistral,456,1,1.0632733719113696
+qwen,history+output+act mistral b25,123,2,6.191214527870675
+qwen,history+output+act mistral b25,124,2,1.7381846371011989
+qwen,history+output+act mistral b25,126,0,1.1050281319121305
+qwen,history+output+act mistral b25,134,3,3.312162307303101
+qwen,history+output+act mistral b25,135,2,1.6430989432455732
+qwen,history+output+act mistral b25,136,4,2.4956300919441934
+qwen,history+output+act mistral b25,145,1,1.5767079602002996
+qwen,history+output+act mistral b25,156,0,2.4944425478851278
+qwen,history+output+act mistral b25,234,0,1.2941355550648272
+qwen,history+output+act mistral b25,235,3,1.9655052753475903
+qwen,history+output+act mistral b25,236,4,1.0365483545765952
+qwen,history+output+act mistral b25,245,2,1.6926981611327838
+qwen,history+output+act mistral b25,246,1,1.1952234197372364
+qwen,history+output+act mistral b25,256,3,1.1610797427157613
+qwen,history+output+act mistral b25,345,0,1.115273112363913
+qwen,history+output+act mistral b25,346,4,0.6389692126689384
+qwen,history+output+act mistral b25,356,1,2.6086599587711645
+qwen,history+output+act mistral b25,456,1,1.2842786311370054
+qwen,act only mistral agent b25,123,2,11.115594976549097
+qwen,act only mistral agent b25,124,2,1.4999427974167308
+qwen,act only mistral agent b25,126,0,1.2673326743083402
+qwen,act only mistral agent b25,134,3,4.198228866460681
+qwen,act only mistral agent b25,135,2,1.9326135151052377
+qwen,act only mistral agent b25,136,4,4.44576922232973
+qwen,act only mistral agent b25,145,1,2.984532253298911
+qwen,act only mistral agent b25,156,0,1.9138353708945992
+qwen,act only mistral agent b25,234,0,2.8604926081376587
+qwen,act only mistral agent b25,235,3,2.7031686995330735
+qwen,act only mistral agent b25,236,4,0.9721730859139187
+qwen,act only mistral agent b25,245,2,1.213363087269949
+qwen,act only mistral agent b25,246,1,1.8334084638262522
+qwen,act only mistral agent b25,256,3,0.8753831076832327
+qwen,act only mistral agent b25,345,0,2.1928734110666532
+qwen,act only mistral agent b25,346,4,2.475854659310301
+qwen,act only mistral agent b25,356,1,1.9052038162709366
+qwen,act only mistral agent b25,456,1,0.9594934527020288
+qwen,act only mistral direct b25,123,2,9.151180959113258
+qwen,act only mistral direct b25,124,2,2.1421992792463502
+qwen,act only mistral direct b25,126,0,1.149954532342038
+qwen,act only mistral direct b25,134,3,5.947739830033857
+qwen,act only mistral direct b25,135,2,1.9150745009855206
+qwen,act only mistral direct b25,136,4,4.601578102569619
+qwen,act only mistral direct b25,145,1,4.183021280719806
+qwen,act only mistral direct b25,156,0,2.4686068054038652
+qwen,act only mistral direct b25,234,0,2.1503536881338174
+qwen,act only mistral direct b25,235,3,3.377764122592886
+qwen,act only mistral direct b25,236,4,1.6835148524656454
+qwen,act only mistral direct b25,245,2,1.3688356975915734
+qwen,act only mistral direct b25,246,1,1.9574454987836398
+qwen,act only mistral direct b25,256,3,2.250036804104774
+qwen,act only mistral direct b25,345,0,2.2325510833111895
+qwen,act only mistral direct b25,346,4,3.744662809702253
+qwen,act only mistral direct b25,356,1,3.2017263659798645
+qwen,act only mistral direct b25,456,1,1.1163072021676086
+qwen,history+output+act mistral b50,123,2,5.545003255065751
+qwen,history+output+act mistral b50,124,2,2.1616623838283857
+qwen,history+output+act mistral b50,126,0,1.1050281319121305
+qwen,history+output+act mistral b50,134,3,3.2327054578394994
+qwen,history+output+act mistral b50,135,2,1.934459283709911
+qwen,history+output+act mistral b50,136,4,2.4399125621417967
+qwen,history+output+act mistral b50,145,1,1.8295784409187599
+qwen,history+output+act mistral b50,156,0,2.4944425478851278
+qwen,history+output+act mistral b50,234,0,1.2941355550648272
+qwen,history+output+act mistral b50,235,3,1.8642864582902032
+qwen,history+output+act mistral b50,236,4,0.9365385764405835
+qwen,history+output+act mistral b50,245,2,1.3108900351018349
+qwen,history+output+act mistral b50,246,1,1.1889595799258248
+qwen,history+output+act mistral b50,256,3,1.1980355492162502
+qwen,history+output+act mistral b50,345,0,1.115273112363913
+qwen,history+output+act mistral b50,346,4,0.6699685289818994
+qwen,history+output+act mistral b50,356,1,2.693193174692204
+qwen,history+output+act mistral b50,456,1,1.2840008510617666
+qwen,act only mistral agent b50,123,2,9.086055035979522
+qwen,act only mistral agent b50,124,2,2.5863031836929053
+qwen,act only mistral agent b50,126,0,1.280780881388046
+qwen,act only mistral agent b50,134,3,6.543514683600345
+qwen,act only mistral agent b50,135,2,3.2784611805796913
+qwen,act only mistral agent b50,136,4,3.9414812737281024
+qwen,act only mistral agent b50,145,1,3.9709364605908295
+qwen,act only mistral agent b50,156,0,1.401878949010899
+qwen,act only mistral agent b50,234,0,4.436267945898323
+qwen,act only mistral agent b50,235,3,2.341542426316763
+qwen,act only mistral agent b50,236,4,1.503900123087677
+qwen,act only mistral agent b50,245,2,1.5104420217817214
+qwen,act only mistral agent b50,246,1,2.187891044072117
+qwen,act only mistral agent b50,256,3,1.0085574423794865
+qwen,act only mistral agent b50,345,0,1.8961689825850112
+qwen,act only mistral agent b50,346,4,3.1358496680948638
+qwen,act only mistral agent b50,356,1,2.7232123073472443
+qwen,act only mistral agent b50,456,1,0.8232069116588879
+qwen,act only mistral direct b50,123,2,7.2272578549913815
+qwen,act only mistral direct b50,124,2,2.145600966783365
+qwen,act only mistral direct b50,126,0,1.9120634845485511
+qwen,act only mistral direct b50,134,3,4.600132429743334
+qwen,act only mistral direct b50,135,2,1.699712458439839
+qwen,act only mistral direct b50,136,4,3.233748396187922
+qwen,act only mistral direct b50,145,1,3.213088452211472
+qwen,act only mistral direct b50,156,0,2.227112707245394
+qwen,act only mistral direct b50,234,0,2.886536930847291
+qwen,act only mistral direct b50,235,3,3.146067610799001
+qwen,act only mistral direct b50,236,4,0.8378873457939487
+qwen,act only mistral direct b50,245,2,1.1924145667740875
+qwen,act only mistral direct b50,246,1,2.1077856086050373
+qwen,act only mistral direct b50,256,3,1.858339085050341
+qwen,act only mistral direct b50,345,0,3.204954584038397
+qwen,act only mistral direct b50,346,4,2.617475276852664
+qwen,act only mistral direct b50,356,1,2.733076478848971
+qwen,act only mistral direct b50,456,1,1.7895957345845943
+qwen,history+output+act mistral b75,123,2,5.588574203351095
+qwen,history+output+act mistral b75,124,2,1.6557012627605567
+qwen,history+output+act mistral b75,126,0,1.1050281319121305
+qwen,history+output+act mistral b75,134,3,3.3597723360351637
+qwen,history+output+act mistral b75,135,2,1.7110547688453543
+qwen,history+output+act mistral b75,136,4,2.5349151376625003
+qwen,history+output+act mistral b75,145,1,2.3499044405868275
+qwen,history+output+act mistral b75,156,0,2.4944425478851278
+qwen,history+output+act mistral b75,234,0,1.2941355550648272
+qwen,history+output+act mistral b75,235,3,1.9932483928373317
+qwen,history+output+act mistral b75,236,4,1.0202749994385811
+qwen,history+output+act mistral b75,245,2,1.2964196502701861
+qwen,history+output+act mistral b75,246,1,1.4079942694594019
+qwen,history+output+act mistral b75,256,3,1.1146937284396672
+qwen,history+output+act mistral b75,345,0,1.115273112363913
+qwen,history+output+act mistral b75,346,4,0.6715787357821897
+qwen,history+output+act mistral b75,356,1,2.6445615941509626
+qwen,history+output+act mistral b75,456,1,1.2604305220925156
+qwen,act only mistral agent b75,123,2,12.771660633146416
+qwen,act only mistral agent b75,124,2,2.6548958944365677
+qwen,act only mistral agent b75,126,0,1.3218125299563894
+qwen,act only mistral agent b75,134,3,10.478866965310736
+qwen,act only mistral agent b75,135,2,2.675196263046866
+qwen,act only mistral agent b75,136,4,3.945629520429938
+qwen,act only mistral agent b75,145,1,4.911637161710165
+qwen,act only mistral agent b75,156,0,1.7672055440640857
+qwen,act only mistral agent b75,234,0,5.559900170166347
+qwen,act only mistral agent b75,235,3,2.2714713245458573
+qwen,act only mistral agent b75,236,4,1.600240651006823
+qwen,act only mistral agent b75,245,2,1.806816142880993
+qwen,act only mistral agent b75,246,1,3.476689651506204
+qwen,act only mistral agent b75,256,3,1.2755481556370978
+qwen,act only mistral agent b75,345,0,2.816065451419149
+qwen,act only mistral agent b75,346,4,2.6279991677105645
+qwen,act only mistral agent b75,356,1,2.733535751999049
+qwen,act only mistral agent b75,456,1,1.2014436388315308
+qwen,act only mistral direct b75,123,2,6.399828783465646
+qwen,act only mistral direct b75,124,2,1.7959415344545526
+qwen,act only mistral direct b75,126,0,0.6745725828849043
+qwen,act only mistral direct b75,134,3,2.9099097999178567
+qwen,act only mistral direct b75,135,2,1.4108775570501708
+qwen,act only mistral direct b75,136,4,2.2788402413240627
+qwen,act only mistral direct b75,145,1,1.3545888792486842
+qwen,act only mistral direct b75,156,0,1.4945983669779386
+qwen,act only mistral direct b75,234,0,2.05436296811966
+qwen,act only mistral direct b75,235,3,2.618081182940664
+qwen,act only mistral direct b75,236,4,1.1406362150229659
+qwen,act only mistral direct b75,245,2,1.7578322452038118
+qwen,act only mistral direct b75,246,1,2.0940726236362988
+qwen,act only mistral direct b75,256,3,0.8566843451339629
+qwen,act only mistral direct b75,345,0,1.602694717399787
+qwen,act only mistral direct b75,346,4,1.1115285752945938
+qwen,act only mistral direct b75,356,1,1.622316173963392
+qwen,act only mistral direct b75,456,1,0.9312726265543593
+qwen,history+output+act mistral b100,123,2,5.540155600907983
+qwen,history+output+act mistral b100,124,2,1.572207259007915
+qwen,history+output+act mistral b100,126,0,0.9932105480097831
+qwen,history+output+act mistral b100,134,3,3.3679237794432413
+qwen,history+output+act mistral b100,135,2,1.7108424672327285
+qwen,history+output+act mistral b100,136,4,2.551594474647579
+qwen,history+output+act mistral b100,145,1,2.3516337525504984
+qwen,history+output+act mistral b100,156,0,2.388265896972308
+qwen,history+output+act mistral b100,234,0,1.8918445478090369
+qwen,history+output+act mistral b100,235,3,1.9067420568766444
+qwen,history+output+act mistral b100,236,4,0.9851851438430016
+qwen,history+output+act mistral b100,245,2,1.2267204032623427
+qwen,history+output+act mistral b100,246,1,1.3183915754696318
+qwen,history+output+act mistral b100,256,3,1.086937822799882
+qwen,history+output+act mistral b100,345,0,1.4991725360914305
+qwen,history+output+act mistral b100,346,4,0.6813949448496185
+qwen,history+output+act mistral b100,356,1,2.6381171715209493
+qwen,history+output+act mistral b100,456,1,1.2261721051912187
+qwen,act only mistral agent b100,123,2,9.41989689839857
+qwen,act only mistral agent b100,124,2,2.645239520436246
+qwen,act only mistral agent b100,126,0,1.1752735154650484
+qwen,act only mistral agent b100,134,3,8.284866921762237
+qwen,act only mistral agent b100,135,2,2.819591635679295
+qwen,act only mistral agent b100,136,4,4.880767456932262
+qwen,act only mistral agent b100,145,1,4.017698651399397
+qwen,act only mistral agent b100,156,0,1.782479632893117
+qwen,act only mistral agent b100,234,0,7.715471778327454
+qwen,act only mistral agent b100,235,3,2.1598825065390987
+qwen,act only mistral agent b100,236,4,1.5142279965676415
+qwen,act only mistral agent b100,245,2,1.997388684405997
+qwen,act only mistral agent b100,246,1,2.599513342919925
+qwen,act only mistral agent b100,256,3,0.9677193849139486
+qwen,act only mistral agent b100,345,0,6.282120750985122
+qwen,act only mistral agent b100,346,4,2.163386824522954
+qwen,act only mistral agent b100,356,1,2.078171395028902
+qwen,act only mistral agent b100,456,1,2.5126312942815416
+qwen,act only mistral direct b100,123,2,5.7503139618473975
+qwen,act only mistral direct b100,124,2,1.2694107203824585
+qwen,act only mistral direct b100,126,0,0.7070272235170526
+qwen,act only mistral direct b100,134,3,3.064863787846761
+qwen,act only mistral direct b100,135,2,1.5421934937140893
+qwen,act only mistral direct b100,136,4,2.497943230648355
+qwen,act only mistral direct b100,145,1,0.9174404692716577
+qwen,act only mistral direct b100,156,0,0.8382401930077163
+qwen,act only mistral direct b100,234,0,1.5644161518877375
+qwen,act only mistral direct b100,235,3,2.7664261461810646
+qwen,act only mistral direct b100,236,4,0.6461380902864047
+qwen,act only mistral direct b100,245,2,1.260332277768642
+qwen,act only mistral direct b100,246,1,1.9585885938956098
+qwen,act only mistral direct b100,256,3,0.5984881227690547
+qwen,act only mistral direct b100,345,0,0.9743449914247554
+qwen,act only mistral direct b100,346,4,1.5147442590503186
+qwen,act only mistral direct b100,356,1,1.4878842131468815
+qwen,act only mistral direct b100,456,1,0.5144062872480133
+qwen,history+output+act mistral b75 rank8,123,2,5.2421923284054435
+qwen,history+output+act mistral b75 rank8,124,2,1.6913507249140405
+qwen,history+output+act mistral b75 rank8,126,0,1.3037610162534727
+qwen,history+output+act mistral b75 rank8,134,3,3.440894567195908
+qwen,history+output+act mistral b75 rank8,135,2,1.7371973109908083
+qwen,history+output+act mistral b75 rank8,136,4,3.0908030154007586
+qwen,history+output+act mistral b75 rank8,145,1,2.4488622586364026
+qwen,history+output+act mistral b75 rank8,156,0,2.5841776777820233
+qwen,history+output+act mistral b75 rank8,234,0,1.7431829311301872
+qwen,history+output+act mistral b75 rank8,235,3,2.0656380118606847
+qwen,history+output+act mistral b75 rank8,236,4,1.0928554017114431
+qwen,history+output+act mistral b75 rank8,245,2,1.3086798310579304
+qwen,history+output+act mistral b75 rank8,246,1,1.4795613728409525
+qwen,history+output+act mistral b75 rank8,256,3,1.152578268769178
+qwen,history+output+act mistral b75 rank8,345,0,1.251845486748986
+qwen,history+output+act mistral b75 rank8,346,4,0.7702946881497
+qwen,history+output+act mistral b75 rank8,356,1,2.7377491504731384
+qwen,history+output+act mistral b75 rank8,456,1,1.322437982539211
+qwen,history+output+act mistral b75 rank16,123,2,5.624138913113305
+qwen,history+output+act mistral b75 rank16,124,2,1.6573167741923964
+qwen,history+output+act mistral b75 rank16,126,0,1.1050281319121305
+qwen,history+output+act mistral b75 rank16,134,3,3.3542969978779937
+qwen,history+output+act mistral b75 rank16,135,2,1.749860184982561
+qwen,history+output+act mistral b75 rank16,136,4,2.6488274303318367
+qwen,history+output+act mistral b75 rank16,145,1,2.3123899553759304
+qwen,history+output+act mistral b75 rank16,156,0,2.4944425478851278
+qwen,history+output+act mistral b75 rank16,234,0,1.2941355550648272
+qwen,history+output+act mistral b75 rank16,235,3,2.031124790564656
+qwen,history+output+act mistral b75 rank16,236,4,1.0565153662721627
+qwen,history+output+act mistral b75 rank16,245,2,1.2697475725629739
+qwen,history+output+act mistral b75 rank16,246,1,1.4343940408956355
+qwen,history+output+act mistral b75 rank16,256,3,1.107837502191421
+qwen,history+output+act mistral b75 rank16,345,0,1.115273112363913
+qwen,history+output+act mistral b75 rank16,346,4,0.7448012459129338
+qwen,history+output+act mistral b75 rank16,356,1,2.678520206720577
+qwen,history+output+act mistral b75 rank16,456,1,1.3474318342148368
+qwen,history+output+act mistral b75 rank64,123,2,5.616754904977381
+qwen,history+output+act mistral b75 rank64,124,2,1.6614140729754274
+qwen,history+output+act mistral b75 rank64,126,0,1.1050281319121305
+qwen,history+output+act mistral b75 rank64,134,3,3.3803635524714406
+qwen,history+output+act mistral b75 rank64,135,2,1.7331108519337857
+qwen,history+output+act mistral b75 rank64,136,4,2.5128058141859477
+qwen,history+output+act mistral b75 rank64,145,1,2.345562635262286
+qwen,history+output+act mistral b75 rank64,156,0,2.4944425478851278
+qwen,history+output+act mistral b75 rank64,234,0,1.2941355550648272
+qwen,history+output+act mistral b75 rank64,235,3,1.9774474701524156
+qwen,history+output+act mistral b75 rank64,236,4,1.0032844569284745
+qwen,history+output+act mistral b75 rank64,245,2,1.3029187780693994
+qwen,history+output+act mistral b75 rank64,246,1,1.3973999394728753
+qwen,history+output+act mistral b75 rank64,256,3,1.1174003662281509
+qwen,history+output+act mistral b75 rank64,345,0,1.115273112363913
+qwen,history+output+act mistral b75 rank64,346,4,0.6683462254309509
+qwen,history+output+act mistral b75 rank64,356,1,2.6515241371604334
+qwen,history+output+act mistral b75 rank64,456,1,1.2546593177570482
+qwen,history+output mistral [shape],123,2,7.082379861204058
+qwen,history+output mistral [shape],124,2,1.8508614337995724
+qwen,history+output mistral [shape],126,0,0.8126762544083079
+qwen,history+output mistral [shape],134,3,3.606303171601823
+qwen,history+output mistral [shape],135,2,1.9708919665321345
+qwen,history+output mistral [shape],136,4,2.643370939822116
+qwen,history+output mistral [shape],145,1,2.3251938402821497
+qwen,history+output mistral [shape],156,0,2.2840695738190004
+qwen,history+output mistral [shape],234,0,2.0312231394896885
+qwen,history+output mistral [shape],235,3,2.2721344515362047
+qwen,history+output mistral [shape],236,4,1.3113912584091574
+qwen,history+output mistral [shape],245,2,1.439271003861193
+qwen,history+output mistral [shape],246,1,1.5228722290278653
+qwen,history+output mistral [shape],256,3,1.354705637216049
+qwen,history+output mistral [shape],345,0,1.6358669327194326
+qwen,history+output mistral [shape],346,4,0.42834717066043265
+qwen,history+output mistral [shape],356,1,3.4339934325973296
+qwen,history+output mistral [shape],456,1,2.098264635842754
+qwen,history+output+act mistral [shape],123,2,8.946826764110567
+qwen,history+output+act mistral [shape],124,2,1.7674701876074221
+qwen,history+output+act mistral [shape],126,0,0.9492046144246956
+qwen,history+output+act mistral [shape],134,3,3.4582841567735514
+qwen,history+output+act mistral [shape],135,2,1.5249243736036175
+qwen,history+output+act mistral [shape],136,4,2.6156401934519704
+qwen,history+output+act mistral [shape],145,1,2.2584767657983007
+qwen,history+output+act mistral [shape],156,0,1.9888308034025526
+qwen,history+output+act mistral [shape],234,0,1.8210895389306998
+qwen,history+output+act mistral [shape],235,3,2.440278092219826
+qwen,history+output+act mistral [shape],236,4,1.2514062418494072
+qwen,history+output+act mistral [shape],245,2,1.0316361448756821
+qwen,history+output+act mistral [shape],246,1,1.46300605435465
+qwen,history+output+act mistral [shape],256,3,1.3889412336803495
+qwen,history+output+act mistral [shape],345,0,1.3920191806389173
+qwen,history+output+act mistral [shape],346,4,0.44231254586542973
+qwen,history+output+act mistral [shape],356,1,2.8913608915615465
+qwen,history+output+act mistral [shape],456,1,1.9153819734606683
+qwen,raw forecast mistral [shape],123,2,22.073290623235945
+qwen,raw forecast mistral [shape],124,2,31.898127736809645
+qwen,raw forecast mistral [shape],126,0,3.8585871424387554
+qwen,raw forecast mistral [shape],134,3,51.58963939960529
+qwen,raw forecast mistral [shape],135,2,52.07246287132813
+qwen,raw forecast mistral [shape],136,4,17.14104063734758
+qwen,raw forecast mistral [shape],145,1,39.62091850933646
+qwen,raw forecast mistral [shape],156,0,6.146084579817554
+qwen,raw forecast mistral [shape],234,0,21.090905415975296
+qwen,raw forecast mistral [shape],235,3,39.16847672648525
+qwen,raw forecast mistral [shape],236,4,14.405135911625804
+qwen,raw forecast mistral [shape],245,2,36.201388536997875
+qwen,raw forecast mistral [shape],246,1,8.929925873218139
+qwen,raw forecast mistral [shape],256,3,9.177352354822819
+qwen,raw forecast mistral [shape],345,0,34.3737511112368
+qwen,raw forecast mistral [shape],346,4,9.778766886777555
+qwen,raw forecast mistral [shape],356,1,17.652972826500463
+qwen,raw forecast mistral [shape],456,1,2.8316023819143106
+qwen,act only mistral shape b75,123,2,10.222430367305142
+qwen,act only mistral shape b75,124,2,3.122338962851083
+qwen,act only mistral shape b75,126,0,1.6626332192395665
+qwen,act only mistral shape b75,134,3,10.292536198421837
+qwen,act only mistral shape b75,135,2,3.0029210672095537
+qwen,act only mistral shape b75,136,4,5.298547857079929
+qwen,act only mistral shape b75,145,1,5.34690261381937
+qwen,act only mistral shape b75,156,0,1.9113825044116144
+qwen,act only mistral shape b75,234,0,5.500299471494057
+qwen,act only mistral shape b75,235,3,2.4659126624869647
+qwen,act only mistral shape b75,236,4,1.5290308629871305
+qwen,act only mistral shape b75,245,2,1.8446567160905827
+qwen,act only mistral shape b75,246,1,3.69044112953317
+qwen,act only mistral shape b75,256,3,1.1922419823062318
+qwen,act only mistral shape b75,345,0,3.3620058643992174
+qwen,act only mistral shape b75,346,4,3.3244427312942446
+qwen,act only mistral shape b75,356,1,4.619286160561382
+qwen,act only mistral shape b75,456,1,1.8433944786886396
+qwen,history+output mistral [self],123,2,5.060004897673877
+qwen,history+output mistral [self],124,2,1.8290764993012882
+qwen,history+output mistral [self],126,0,0.7934071170151323
+qwen,history+output mistral [self],134,3,3.194563670096416
+qwen,history+output mistral [self],135,2,1.6391788687301014
+qwen,history+output mistral [self],136,4,3.153939968604755
+qwen,history+output mistral [self],145,1,1.786241213427246
+qwen,history+output mistral [self],156,0,2.32502454608623
+qwen,history+output mistral [self],234,0,1.0739370295846913
+qwen,history+output mistral [self],235,3,1.8290768352739366
+qwen,history+output mistral [self],236,4,0.9830029036491718
+qwen,history+output mistral [self],245,2,1.4289773481687584
+qwen,history+output mistral [self],246,1,1.1030272162377899
+qwen,history+output mistral [self],256,3,1.1364434108590673
+qwen,history+output mistral [self],345,0,1.0515277627402024
+qwen,history+output mistral [self],346,4,0.6479782066431871
+qwen,history+output mistral [self],356,1,2.540670214491835
+qwen,history+output mistral [self],456,1,0.9638318481831444
+qwen,history+output+act mistral [self],123,2,5.4834198323204575
+qwen,history+output+act mistral [self],124,2,1.654759480821929
+qwen,history+output+act mistral [self],126,0,0.8662470352381287
+qwen,history+output+act mistral [self],134,3,3.194563670096416
+qwen,history+output+act mistral [self],135,2,1.3893671210801564
+qwen,history+output+act mistral [self],136,4,2.9488343841657745
+qwen,history+output+act mistral [self],145,1,1.786241213427246
+qwen,history+output+act mistral [self],156,0,2.032181536191203
+qwen,history+output+act mistral [self],234,0,1.2721140197223446
+qwen,history+output+act mistral [self],235,3,1.8290768352739366
+qwen,history+output+act mistral [self],236,4,1.044659472976975
+qwen,history+output+act mistral [self],245,2,1.286090827140735
+qwen,history+output+act mistral [self],246,1,1.1030272162377899
+qwen,history+output+act mistral [self],256,3,1.1364434108590673
+qwen,history+output+act mistral [self],345,0,1.166511282574774
+qwen,history+output+act mistral [self],346,4,0.6117176119734655
+qwen,history+output+act mistral [self],356,1,2.540670214491835
+qwen,history+output+act mistral [self],456,1,0.9638318481831444
+qwen,raw forecast mistral [self],123,2,22.49242200651189
+qwen,raw forecast mistral [self],124,2,30.802456333812273
+qwen,raw forecast mistral [self],126,0,4.791908996263931
+qwen,raw forecast mistral [self],134,3,49.25383415797322
+qwen,raw forecast mistral [self],135,2,49.81282260113121
+qwen,raw forecast mistral [self],136,4,16.681274582667726
+qwen,raw forecast mistral [self],145,1,39.12651287293587
+qwen,raw forecast mistral [self],156,0,6.263596848715699
+qwen,raw forecast mistral [self],234,0,18.618838465456886
+qwen,raw forecast mistral [self],235,3,36.932089728201795
+qwen,raw forecast mistral [self],236,4,12.680540594054193
+qwen,raw forecast mistral [self],245,2,35.859341755581475
+qwen,raw forecast mistral [self],246,1,7.980084960426606
+qwen,raw forecast mistral [self],256,3,7.945694525113775
+qwen,raw forecast mistral [self],345,0,31.97794274435751
+qwen,raw forecast mistral [self],346,4,9.371268446044148
+qwen,raw forecast mistral [self],356,1,17.095352515392133
+qwen,raw forecast mistral [self],456,1,3.5950979743282523
+qwen,act only mistral self b75,123,2,15.327148114755685
+qwen,act only mistral self b75,124,2,2.8195559868371594
+qwen,act only mistral self b75,126,0,1.3365687302841014
+qwen,act only mistral self b75,134,3,7.163388888953591
+qwen,act only mistral self b75,135,2,3.2584266224679066
+qwen,act only mistral self b75,136,4,3.9805681038121796
+qwen,act only mistral self b75,145,1,3.4785252789270813
+qwen,act only mistral self b75,156,0,1.8045711881816973
+qwen,act only mistral self b75,234,0,3.808573803885201
+qwen,act only mistral self b75,235,3,2.5356276937850946
+qwen,act only mistral self b75,236,4,1.6304813688409896
+qwen,act only mistral self b75,245,2,2.578718945519201
+qwen,act only mistral self b75,246,1,1.8161654838668149
+qwen,act only mistral self b75,256,3,1.050776578238889
+qwen,act only mistral self b75,345,0,2.31961242869529
+qwen,act only mistral self b75,346,4,2.7201051510607575
+qwen,act only mistral self b75,356,1,2.6015162789734614
+qwen,act only mistral self b75,456,1,1.3680746276438824
+qwen,history+output mistral [generic],123,2,7.375789761233783
+qwen,history+output mistral [generic],124,2,2.0913186190101407
+qwen,history+output mistral [generic],126,0,0.9165098611407386
+qwen,history+output mistral [generic],134,3,3.1692114127227886
+qwen,history+output mistral [generic],135,2,1.9348176916083892
+qwen,history+output mistral [generic],136,4,3.1139388147720446
+qwen,history+output mistral [generic],145,1,1.8138403563424141
+qwen,history+output mistral [generic],156,0,2.3591801557178154
+qwen,history+output mistral [generic],234,0,1.1898493222765565
+qwen,history+output mistral [generic],235,3,1.8877538381611512
+qwen,history+output mistral [generic],236,4,0.9527430365163788
+qwen,history+output mistral [generic],245,2,1.7676482076679922
+qwen,history+output mistral [generic],246,1,1.1826132467612827
+qwen,history+output mistral [generic],256,3,1.1830562664394073
+qwen,history+output mistral [generic],345,0,1.0785524058482538
+qwen,history+output mistral [generic],346,4,0.6897866117178216
+qwen,history+output mistral [generic],356,1,2.714700757631164
+qwen,history+output mistral [generic],456,1,1.0338429483708647
+qwen,history+output+act mistral [generic],123,2,5.445590545191467
+qwen,history+output+act mistral [generic],124,2,1.5842978885075343
+qwen,history+output+act mistral [generic],126,0,0.8236298405472602
+qwen,history+output+act mistral [generic],134,3,3.1692114127227886
+qwen,history+output+act mistral [generic],135,2,1.4727086464233168
+qwen,history+output+act mistral [generic],136,4,2.9580200614645644
+qwen,history+output+act mistral [generic],145,1,1.8138403563424141
+qwen,history+output+act mistral [generic],156,0,2.341002941510108
+qwen,history+output+act mistral [generic],234,0,1.3653665632204721
+qwen,history+output+act mistral [generic],235,3,1.8877538381611512
+qwen,history+output+act mistral [generic],236,4,0.9978458050867465
+qwen,history+output+act mistral [generic],245,2,1.230465621714477
+qwen,history+output+act mistral [generic],246,1,1.1826132467612827
+qwen,history+output+act mistral [generic],256,3,1.1830562664394073
+qwen,history+output+act mistral [generic],345,0,1.0505278400737499
+qwen,history+output+act mistral [generic],346,4,0.6607822939096564
+qwen,history+output+act mistral [generic],356,1,2.714700757631164
+qwen,history+output+act mistral [generic],456,1,1.0338429483708647
+qwen,raw forecast mistral [generic],123,2,23.13824251105496
+qwen,raw forecast mistral [generic],124,2,33.011685441814166
+qwen,raw forecast mistral [generic],126,0,4.153373879698392
+qwen,raw forecast mistral [generic],134,3,51.28078121074868
+qwen,raw forecast mistral [generic],135,2,52.825907543869846
+qwen,raw forecast mistral [generic],136,4,16.51666976749626
+qwen,raw forecast mistral [generic],145,1,42.11652501500183
+qwen,raw forecast mistral [generic],156,0,5.93420439363918
+qwen,raw forecast mistral [generic],234,0,19.912466149263523
+qwen,raw forecast mistral [generic],235,3,39.55890497335208
+qwen,raw forecast mistral [generic],236,4,13.675696816977274
+qwen,raw forecast mistral [generic],245,2,37.550174384217954
+qwen,raw forecast mistral [generic],246,1,8.412792412293795
+qwen,raw forecast mistral [generic],256,3,8.785145073644305
+qwen,raw forecast mistral [generic],345,0,35.05290840398043
+qwen,raw forecast mistral [generic],346,4,9.32843065066728
+qwen,raw forecast mistral [generic],356,1,17.16497815202628
+qwen,raw forecast mistral [generic],456,1,3.1999953071056666
+qwen,act only mistral generic b75,123,2,12.728721864837302
+qwen,act only mistral generic b75,124,2,3.3113983027998444
+qwen,act only mistral generic b75,126,0,1.3691028918685533
+qwen,act only mistral generic b75,134,3,10.957689605598212
+qwen,act only mistral generic b75,135,2,3.0282230912615056
+qwen,act only mistral generic b75,136,4,4.420624975398554
+qwen,act only mistral generic b75,145,1,4.449357619708503
+qwen,act only mistral generic b75,156,0,1.9583556938750573
+qwen,act only mistral generic b75,234,0,4.5695026813369894
+qwen,act only mistral generic b75,235,3,2.567500240309294
+qwen,act only mistral generic b75,236,4,1.5750598457878129
+qwen,act only mistral generic b75,245,2,2.489431090066497
+qwen,act only mistral generic b75,246,1,2.353293458332965
+qwen,act only mistral generic b75,256,3,1.2575801941143212
+qwen,act only mistral generic b75,345,0,2.8055270586963252
+qwen,act only mistral generic b75,346,4,3.0078629134037516
+qwen,act only mistral generic b75,356,1,3.287921005930517
+qwen,act only mistral generic b75,456,1,1.4555396033746053
+qwen,transfer agent->agent mistral,123,2,12.771666462095139
+qwen,transfer agent->agent mistral,124,2,2.6548961721333595
+qwen,transfer agent->agent mistral,126,0,1.32181275988092
+qwen,transfer agent->agent mistral,134,3,10.478867028834967
+qwen,transfer agent->agent mistral,135,2,2.6751971627819118
+qwen,transfer agent->agent mistral,136,4,3.9456294583083458
+qwen,transfer agent->agent mistral,145,1,4.911636739326745
+qwen,transfer agent->agent mistral,156,0,1.7672056531463074
+qwen,transfer agent->agent mistral,234,0,5.559900264578398
+qwen,transfer agent->agent mistral,235,3,2.271471301524079
+qwen,transfer agent->agent mistral,236,4,1.6002402610340631
+qwen,transfer agent->agent mistral,245,2,1.806815918228405
+qwen,transfer agent->agent mistral,246,1,3.476689526763129
+qwen,transfer agent->agent mistral,256,3,1.2755481235950692
+qwen,transfer agent->agent mistral,345,0,2.816065434226697
+qwen,transfer agent->agent mistral,346,4,2.627999112058634
+qwen,transfer agent->agent mistral,356,1,2.733536023110967
+qwen,transfer agent->agent mistral,456,1,1.2014436829739035
+qwen,transfer agent->shape mistral,123,2,41.732378310758
+qwen,transfer agent->shape mistral,124,2,8.806822693235182
+qwen,transfer agent->shape mistral,126,0,2.6143040813948066
+qwen,transfer agent->shape mistral,134,3,14.822316084400045
+qwen,transfer agent->shape mistral,135,2,18.520858870822853
+qwen,transfer agent->shape mistral,136,4,22.139469590804662
+qwen,transfer agent->shape mistral,145,1,17.905523681339428
+qwen,transfer agent->shape mistral,156,0,2.7090292177849253
+qwen,transfer agent->shape mistral,234,0,10.26655510250891
+qwen,transfer agent->shape mistral,235,3,2.880646537185953
+qwen,transfer agent->shape mistral,236,4,22.023656433977056
+qwen,transfer agent->shape mistral,245,2,3.4943009116973385
+qwen,transfer agent->shape mistral,246,1,17.55083357039669
+qwen,transfer agent->shape mistral,256,3,1.1934450377280126
+qwen,transfer agent->shape mistral,345,0,8.592007452615725
+qwen,transfer agent->shape mistral,346,4,4.709287267614918
+qwen,transfer agent->shape mistral,356,1,11.787743661635494
+qwen,transfer agent->shape mistral,456,1,9.221803626502522
+qwen,transfer agent->self mistral,123,2,12.28559820437114
+qwen,transfer agent->self mistral,124,2,10.492880993162737
+qwen,transfer agent->self mistral,126,0,5.254524901737422
+qwen,transfer agent->self mistral,134,3,39.65304189338841
+qwen,transfer agent->self mistral,135,2,56.85797498193009
+qwen,transfer agent->self mistral,136,4,39.524476775992
+qwen,transfer agent->self mistral,145,1,28.92280672452866
+qwen,transfer agent->self mistral,156,0,27.42220726813436
+qwen,transfer agent->self mistral,234,0,28.61876199573918
+qwen,transfer agent->self mistral,235,3,10.37255949951387
+qwen,transfer agent->self mistral,236,4,2.472924753818166
+qwen,transfer agent->self mistral,245,2,9.66852658596166
+qwen,transfer agent->self mistral,246,1,10.984879847979185
+qwen,transfer agent->self mistral,256,3,5.576009088885009
+qwen,transfer agent->self mistral,345,0,64.47919869213197
+qwen,transfer agent->self mistral,346,4,30.183014037178975
+qwen,transfer agent->self mistral,356,1,10.615525989212086
+qwen,transfer agent->self mistral,456,1,2.0620418866130437
+qwen,transfer agent->generic mistral,123,2,11.252900453742397
+qwen,transfer agent->generic mistral,124,2,6.013097474904566
+qwen,transfer agent->generic mistral,126,0,2.2262667352341956
+qwen,transfer agent->generic mistral,134,3,20.968853860693752
+qwen,transfer agent->generic mistral,135,2,8.820199813692403
+qwen,transfer agent->generic mistral,136,4,16.429520775389147
+qwen,transfer agent->generic mistral,145,1,3.893887285061986
+qwen,transfer agent->generic mistral,156,0,5.982475528541541
+qwen,transfer agent->generic mistral,234,0,11.673543739389231
+qwen,transfer agent->generic mistral,235,3,5.0300934364079986
+qwen,transfer agent->generic mistral,236,4,13.444336060618639
+qwen,transfer agent->generic mistral,245,2,4.012626260159768
+qwen,transfer agent->generic mistral,246,1,2.4203016177576777
+qwen,transfer agent->generic mistral,256,3,1.6070015942506608
+qwen,transfer agent->generic mistral,345,0,16.64254473727576
+qwen,transfer agent->generic mistral,346,4,10.287560314379414
+qwen,transfer agent->generic mistral,356,1,7.048523824998419
+qwen,transfer agent->generic mistral,456,1,1.4131210815978423
+qwen,history+output+direct act mistral,123,2,5.768050625335017
+qwen,history+output+direct act mistral,124,2,1.8880406312487328
+qwen,history+output+direct act mistral,126,0,0.5761644416532198
+qwen,history+output+direct act mistral,134,3,3.12241030835351
+qwen,history+output+direct act mistral,135,2,1.66835099776137
+qwen,history+output+direct act mistral,136,4,2.154588254548925
+qwen,history+output+direct act mistral,145,1,1.4382413879566869
+qwen,history+output+direct act mistral,156,0,1.3567924895043966
+qwen,history+output+direct act mistral,234,0,1.8107803596240013
+qwen,history+output+direct act mistral,235,3,2.6098405745215376
+qwen,history+output+direct act mistral,236,4,0.831323560846866
+qwen,history+output+direct act mistral,245,2,1.5830768473419752
+qwen,history+output+direct act mistral,246,1,1.5057944403748689
+qwen,history+output+direct act mistral,256,3,0.660397670393931
+qwen,history+output+direct act mistral,345,0,1.6499702340824758
+qwen,history+output+direct act mistral,346,4,0.6422561398182904
+qwen,history+output+direct act mistral,356,1,2.090229662371398
+qwen,history+output+direct act mistral,456,1,1.0107614740331032
+qwen,history+logits mistral,123,2,9.44996412348915
+qwen,history+logits mistral,124,2,2.4833948127764507
+qwen,history+logits mistral,126,0,0.7653252490986616
+qwen,history+logits mistral,134,3,3.3065292258580805
+qwen,history+logits mistral,135,2,1.8265457903341324
+qwen,history+logits mistral,136,4,2.633497420809285
+qwen,history+logits mistral,145,1,2.2964035533000016
+qwen,history+logits mistral,156,0,1.9953180842240663
+qwen,history+logits mistral,234,0,1.4292637852282313
+qwen,history+logits mistral,235,3,2.3247451918936104
+qwen,history+logits mistral,236,4,1.2426103955453833
+qwen,history+logits mistral,245,2,2.0413071704977352
+qwen,history+logits mistral,246,1,1.5700342337174602
+qwen,history+logits mistral,256,3,1.3857849077068245
+qwen,history+logits mistral,345,0,1.0508363354656636
+qwen,history+logits mistral,346,4,0.5145522089614717
+qwen,history+logits mistral,356,1,2.5478176477617875
+qwen,history+logits mistral,456,1,1.2987496500247906
+qwen,history+logits+act mistral,123,2,9.44996412348915
+qwen,history+logits+act mistral,124,2,2.4833948127764507
+qwen,history+logits+act mistral,126,0,0.7653252490986616
+qwen,history+logits+act mistral,134,3,3.3065292258580805
+qwen,history+logits+act mistral,135,2,1.8265457903341324
+qwen,history+logits+act mistral,136,4,2.633497420809285
+qwen,history+logits+act mistral,145,1,2.2964035533000016
+qwen,history+logits+act mistral,156,0,1.9953180842240663
+qwen,history+logits+act mistral,234,0,1.4292637852282313
+qwen,history+logits+act mistral,235,3,2.3247451918936104
+qwen,history+logits+act mistral,236,4,1.2426103955453833
+qwen,history+logits+act mistral,245,2,2.0413071704977352
+qwen,history+logits+act mistral,246,1,1.5700342337174602
+qwen,history+logits+act mistral,256,3,1.3857849077068245
+qwen,history+logits+act mistral,345,0,1.0508363354656636
+qwen,history+logits+act mistral,346,4,0.5145522089614717
+qwen,history+logits+act mistral,356,1,2.5478176477617875
+qwen,history+logits+act mistral,456,1,1.2987496500247906
+qwen,history+both outputs+act qwen,123,2,6.725655145969026
+qwen,history+both outputs+act qwen,124,2,1.6063786398633324
+qwen,history+both outputs+act qwen,126,0,0.9450752378710048
+qwen,history+both outputs+act qwen,134,3,3.5541472480033853
+qwen,history+both outputs+act qwen,135,2,2.0046811279796395
+qwen,history+both outputs+act qwen,136,4,3.317397334211192
+qwen,history+both outputs+act qwen,145,1,2.340413161732634
+qwen,history+both outputs+act qwen,156,0,2.2272608763804627
+qwen,history+both outputs+act qwen,234,0,1.302940033893375
+qwen,history+both outputs+act qwen,235,3,2.0113839482773535
+qwen,history+both outputs+act qwen,236,4,0.820915758425631
+qwen,history+both outputs+act qwen,245,2,1.5591309160024622
+qwen,history+both outputs+act qwen,246,1,1.3928375507962079
+qwen,history+both outputs+act qwen,256,3,1.1961446518169587
+qwen,history+both outputs+act qwen,345,0,1.77558885807387
+qwen,history+both outputs+act qwen,346,4,0.898049254209549
+qwen,history+both outputs+act qwen,356,1,2.697796022758904
+qwen,history+both outputs+act qwen,456,1,1.1316274669722022
+qwen,history+both outputs+act qwen+act mistral,123,2,7.278514013941862
+qwen,history+both outputs+act qwen+act mistral,124,2,1.7635976384528078
+qwen,history+both outputs+act qwen+act mistral,126,0,1.0277709481438515
+qwen,history+both outputs+act qwen+act mistral,134,3,3.3479248541186757
+qwen,history+both outputs+act qwen+act mistral,135,2,1.5236006047755717
+qwen,history+both outputs+act qwen+act mistral,136,4,3.280623671225772
+qwen,history+both outputs+act qwen+act mistral,145,1,2.340413161732634
+qwen,history+both outputs+act qwen+act mistral,156,0,2.00078858529605
+qwen,history+both outputs+act qwen+act mistral,234,0,1.5026681520385494
+qwen,history+both outputs+act qwen+act mistral,235,3,1.8687544300950425
+qwen,history+both outputs+act qwen+act mistral,236,4,0.8596349346042818
+qwen,history+both outputs+act qwen+act mistral,245,2,1.4085310818281946
+qwen,history+both outputs+act qwen+act mistral,246,1,1.3928375507962079
+qwen,history+both outputs+act qwen+act mistral,256,3,1.169618993788111
+qwen,history+both outputs+act qwen+act mistral,345,0,1.6479752112503732
+qwen,history+both outputs+act qwen+act mistral,346,4,0.9735967149606736
+qwen,history+both outputs+act qwen+act mistral,356,1,2.697796022758904
+qwen,history+both outputs+act qwen+act mistral,456,1,1.1316274669722022
+mistral,equal odds,123,2,5.7633321788533225
+mistral,equal odds,124,2,7.191408469529702
+mistral,equal odds,126,0,2.785774404990942
+mistral,equal odds,134,3,10.446614852542126
+mistral,equal odds,135,2,10.192407936411607
+mistral,equal odds,136,4,7.712115252962275
+mistral,equal odds,145,1,3.7892257787727357
+mistral,equal odds,156,0,1.600879211186509
+mistral,equal odds,234,0,4.63255322345369
+mistral,equal odds,235,3,9.339597577205913
+mistral,equal odds,236,4,6.235184992723592
+mistral,equal odds,245,2,3.5663805783595808
+mistral,equal odds,246,1,4.752202665451677
+mistral,equal odds,256,3,3.449312320502591
+mistral,equal odds,345,0,2.1290164320447627
+mistral,equal odds,346,4,2.8190578481688813
+mistral,equal odds,356,1,2.743719326655279
+mistral,equal odds,456,1,0.7992134085467896
+mistral,face bias,123,2,5.85452931712413
+mistral,face bias,124,2,4.90099206381836
+mistral,face bias,126,0,1.7636356154895694
+mistral,face bias,134,3,6.935556116945364
+mistral,face bias,135,2,5.64451096288699
+mistral,face bias,136,4,5.124388252344809
+mistral,face bias,145,1,2.5738324293774713
+mistral,face bias,156,0,1.2349772592419455
+mistral,face bias,234,0,2.0518711770943034
+mistral,face bias,235,3,3.5719292576865214
+mistral,face bias,236,4,1.9311316626835424
+mistral,face bias,245,2,1.5209812365573308
+mistral,face bias,246,1,3.1356758013659296
+mistral,face bias,256,3,1.2572797839561343
+mistral,face bias,345,0,1.5268428433083132
+mistral,face bias,346,4,3.730824842481795
+mistral,face bias,356,1,3.5648611692343573
+mistral,face bias,456,1,1.508491317259007
+mistral,history,123,2,6.378631455143977
+mistral,history,124,2,1.390108800271122
+mistral,history,126,0,0.42261390059317616
+mistral,history,134,3,0.8910336986647618
+mistral,history,135,2,0.5688083782444343
+mistral,history,136,4,1.2492866165189964
+mistral,history,145,1,0.4617132071149151
+mistral,history,156,0,0.3208221564390138
+mistral,history,234,0,2.8043875577440893
+mistral,history,235,3,0.806568038258266
+mistral,history,236,4,0.6421318465617983
+mistral,history,245,2,0.25938291154028653
+mistral,history,246,1,0.48275552936574867
+mistral,history,256,3,0.3595506442990514
+mistral,history,345,0,0.780319162162848
+mistral,history,346,4,0.2598195656453483
+mistral,history,356,1,0.48724422541371953
+mistral,history,456,1,0.5949613293498666
+mistral,raw forecast qwen,123,2,5.939482680985154
+mistral,raw forecast qwen,124,2,11.14922483767978
+mistral,raw forecast qwen,126,0,4.743753389135627
+mistral,raw forecast qwen,134,3,30.78089387629971
+mistral,raw forecast qwen,135,2,21.471159676481545
+mistral,raw forecast qwen,136,4,26.773137467450493
+mistral,raw forecast qwen,145,1,7.713707552377465
+mistral,raw forecast qwen,156,0,10.615949040509234
+mistral,raw forecast qwen,234,0,34.36155563338597
+mistral,raw forecast qwen,235,3,36.12288441531526
+mistral,raw forecast qwen,236,4,34.36301500868368
+mistral,raw forecast qwen,245,2,20.171286436756375
+mistral,raw forecast qwen,246,1,26.06150710673715
+mistral,raw forecast qwen,256,3,20.76134943515869
+mistral,raw forecast qwen,345,0,12.286841132534057
+mistral,raw forecast qwen,346,4,19.297846790771555
+mistral,raw forecast qwen,356,1,15.269485673184732
+mistral,raw forecast qwen,456,1,6.919708672082353
+mistral,calibrated output qwen,123,2,6.607468425903927
+mistral,calibrated output qwen,124,2,4.79028960503829
+mistral,calibrated output qwen,126,0,1.2767116316023956
+mistral,calibrated output qwen,134,3,6.092447356642874
+mistral,calibrated output qwen,135,2,3.811783122179824
+mistral,calibrated output qwen,136,4,4.273916543168662
+mistral,calibrated output qwen,145,1,1.983427984415331
+mistral,calibrated output qwen,156,0,0.7514369517649908
+mistral,calibrated output qwen,234,0,2.2577606419483476
+mistral,calibrated output qwen,235,3,3.156492948145376
+mistral,calibrated output qwen,236,4,1.440027431544763
+mistral,calibrated output qwen,245,2,1.080163811172164
+mistral,calibrated output qwen,246,1,2.1094119991171403
+mistral,calibrated output qwen,256,3,0.9963326904216059
+mistral,calibrated output qwen,345,0,1.3513137461838003
+mistral,calibrated output qwen,346,4,2.3499665343566147
+mistral,calibrated output qwen,356,1,2.285795168402483
+mistral,calibrated output qwen,456,1,1.1082455037691785
+mistral,history+output qwen,123,2,6.3172863107645725
+mistral,history+output qwen,124,2,1.3567234594617135
+mistral,history+output qwen,126,0,0.4586534850842134
+mistral,history+output qwen,134,3,0.8153187361429169
+mistral,history+output qwen,135,2,0.5535058010769961
+mistral,history+output qwen,136,4,0.7672926342607126
+mistral,history+output qwen,145,1,0.44487230385077153
+mistral,history+output qwen,156,0,0.4234494363012547
+mistral,history+output qwen,234,0,2.0427427285768904
+mistral,history+output qwen,235,3,0.4802242740699641
+mistral,history+output qwen,236,4,0.302487236950398
+mistral,history+output qwen,245,2,0.2640040576471754
+mistral,history+output qwen,246,1,0.5127139955482297
+mistral,history+output qwen,256,3,0.35263240089634595
+mistral,history+output qwen,345,0,0.8367401669304696
+mistral,history+output qwen,346,4,0.23046531143101953
+mistral,history+output qwen,356,1,0.432561721114974
+mistral,history+output qwen,456,1,0.7753831627278158
+mistral,history+output+act qwen b25,123,2,5.5155661417998125
+mistral,history+output+act qwen b25,124,2,1.1934072382814185
+mistral,history+output+act qwen b25,126,0,0.4586534850842134
+mistral,history+output+act qwen b25,134,3,0.8153187361429169
+mistral,history+output+act qwen b25,135,2,0.5417092387686598
+mistral,history+output+act qwen b25,136,4,0.6430927991356633
+mistral,history+output+act qwen b25,145,1,0.44487230385077153
+mistral,history+output+act qwen b25,156,0,0.4234494363012547
+mistral,history+output+act qwen b25,234,0,2.0427427285768904
+mistral,history+output+act qwen b25,235,3,0.4802242740699641
+mistral,history+output+act qwen b25,236,4,0.24012355835096091
+mistral,history+output+act qwen b25,245,2,0.33624338881878507
+mistral,history+output+act qwen b25,246,1,0.5127139955482297
+mistral,history+output+act qwen b25,256,3,0.35263240089634595
+mistral,history+output+act qwen b25,345,0,0.8367401669304696
+mistral,history+output+act qwen b25,346,4,0.277134698004081
+mistral,history+output+act qwen b25,356,1,0.432561721114974
+mistral,history+output+act qwen b25,456,1,0.7753831627278158
+mistral,act only qwen agent b25,123,2,5.827443166675245
+mistral,act only qwen agent b25,124,2,1.19957844998666
+mistral,act only qwen agent b25,126,0,0.7306541024633085
+mistral,act only qwen agent b25,134,3,0.6845414826575343
+mistral,act only qwen agent b25,135,2,0.76986008400911
+mistral,act only qwen agent b25,136,4,1.1185994577566256
+mistral,act only qwen agent b25,145,1,0.8886672054699019
+mistral,act only qwen agent b25,156,0,0.45538456588300597
+mistral,act only qwen agent b25,234,0,1.0086441854693637
+mistral,act only qwen agent b25,235,3,1.5597213033013648
+mistral,act only qwen agent b25,236,4,0.3853867012646806
+mistral,act only qwen agent b25,245,2,0.46025275355514966
+mistral,act only qwen agent b25,246,1,0.6525889718463089
+mistral,act only qwen agent b25,256,3,0.547478233408979
+mistral,act only qwen agent b25,345,0,0.6778908779803325
+mistral,act only qwen agent b25,346,4,0.45096005843947023
+mistral,act only qwen agent b25,356,1,0.5764605193112848
+mistral,act only qwen agent b25,456,1,0.6979951079172767
+mistral,act only qwen direct b25,123,2,5.139105712666491
+mistral,act only qwen direct b25,124,2,1.373337118794275
+mistral,act only qwen direct b25,126,0,0.5386380565999757
+mistral,act only qwen direct b25,134,3,0.9665329331115774
+mistral,act only qwen direct b25,135,2,0.9839516069487981
+mistral,act only qwen direct b25,136,4,1.1183684740430087
+mistral,act only qwen direct b25,145,1,0.6087950527002909
+mistral,act only qwen direct b25,156,0,0.35956153867884405
+mistral,act only qwen direct b25,234,0,1.692202650853783
+mistral,act only qwen direct b25,235,3,0.8695556461279397
+mistral,act only qwen direct b25,236,4,0.5248145652314465
+mistral,act only qwen direct b25,245,2,0.3493908871735733
+mistral,act only qwen direct b25,246,1,0.45773321122564364
+mistral,act only qwen direct b25,256,3,0.41257066309621204
+mistral,act only qwen direct b25,345,0,0.6918214735102063
+mistral,act only qwen direct b25,346,4,0.4435014992831592
+mistral,act only qwen direct b25,356,1,0.29341725432539045
+mistral,act only qwen direct b25,456,1,0.7912802442588823
+mistral,history+output+act qwen b50,123,2,5.83811516431811
+mistral,history+output+act qwen b50,124,2,1.3982612984054832
+mistral,history+output+act qwen b50,126,0,0.4314201891834896
+mistral,history+output+act qwen b50,134,3,0.6880319304049426
+mistral,history+output+act qwen b50,135,2,0.5792077843607437
+mistral,history+output+act qwen b50,136,4,0.598836688461055
+mistral,history+output+act qwen b50,145,1,0.56840749468281
+mistral,history+output+act qwen b50,156,0,0.3705019989650027
+mistral,history+output+act qwen b50,234,0,1.9320851477492322
+mistral,history+output+act qwen b50,235,3,0.47178356077579425
+mistral,history+output+act qwen b50,236,4,0.31651848746254924
+mistral,history+output+act qwen b50,245,2,0.22442674741697813
+mistral,history+output+act qwen b50,246,1,0.42012053157724144
+mistral,history+output+act qwen b50,256,3,0.3322572063941578
+mistral,history+output+act qwen b50,345,0,0.6792336115242207
+mistral,history+output+act qwen b50,346,4,0.2621535302188965
+mistral,history+output+act qwen b50,356,1,0.4928148499605127
+mistral,history+output+act qwen b50,456,1,0.5314909199344114
+mistral,act only qwen agent b50,123,2,4.85395742867325
+mistral,act only qwen agent b50,124,2,1.2958048017326425
+mistral,act only qwen agent b50,126,0,0.8520604457408506
+mistral,act only qwen agent b50,134,3,1.0052945921944965
+mistral,act only qwen agent b50,135,2,1.0474257171618762
+mistral,act only qwen agent b50,136,4,1.7043982763001388
+mistral,act only qwen agent b50,145,1,0.8697447812701543
+mistral,act only qwen agent b50,156,0,0.6696916925959805
+mistral,act only qwen agent b50,234,0,2.0374880344624597
+mistral,act only qwen agent b50,235,3,1.277845574351236
+mistral,act only qwen agent b50,236,4,0.6918762507178787
+mistral,act only qwen agent b50,245,2,0.4785393173308705
+mistral,act only qwen agent b50,246,1,0.4921882915419376
+mistral,act only qwen agent b50,256,3,0.3003025047863754
+mistral,act only qwen agent b50,345,0,0.46702134855827376
+mistral,act only qwen agent b50,346,4,0.3012426919862337
+mistral,act only qwen agent b50,356,1,0.8536227980762193
+mistral,act only qwen agent b50,456,1,0.8181411174312139
+mistral,act only qwen direct b50,123,2,5.9004789378892255
+mistral,act only qwen direct b50,124,2,1.9773295233315904
+mistral,act only qwen direct b50,126,0,0.7041287032594518
+mistral,act only qwen direct b50,134,3,1.333931512313904
+mistral,act only qwen direct b50,135,2,0.8838161184564296
+mistral,act only qwen direct b50,136,4,1.3018964909676711
+mistral,act only qwen direct b50,145,1,0.8963464456079181
+mistral,act only qwen direct b50,156,0,0.4726873328631503
+mistral,act only qwen direct b50,234,0,2.2047975288586166
+mistral,act only qwen direct b50,235,3,0.7808873430651179
+mistral,act only qwen direct b50,236,4,0.6895598737708383
+mistral,act only qwen direct b50,245,2,0.39718764857343886
+mistral,act only qwen direct b50,246,1,0.5818399730248734
+mistral,act only qwen direct b50,256,3,0.3562969855257008
+mistral,act only qwen direct b50,345,0,0.5894680308647615
+mistral,act only qwen direct b50,346,4,0.5045048028162288
+mistral,act only qwen direct b50,356,1,0.2689016190363656
+mistral,act only qwen direct b50,456,1,0.557594900512333
+mistral,history+output+act qwen b75,123,2,6.141816780919561
+mistral,history+output+act qwen b75,124,2,1.1042880622677385
+mistral,history+output+act qwen b75,126,0,0.4586534850842134
+mistral,history+output+act qwen b75,134,3,0.6473812691673358
+mistral,history+output+act qwen b75,135,2,0.4006744214808424
+mistral,history+output+act qwen b75,136,4,0.6094430852280697
+mistral,history+output+act qwen b75,145,1,0.423077808587041
+mistral,history+output+act qwen b75,156,0,0.4234494363012547
+mistral,history+output+act qwen b75,234,0,2.0427427285768904
+mistral,history+output+act qwen b75,235,3,0.45420079435577315
+mistral,history+output+act qwen b75,236,4,0.36716610438640634
+mistral,history+output+act qwen b75,245,2,0.29814985072442335
+mistral,history+output+act qwen b75,246,1,0.44595205385318043
+mistral,history+output+act qwen b75,256,3,0.31440972085424135
+mistral,history+output+act qwen b75,345,0,0.8367401669304696
+mistral,history+output+act qwen b75,346,4,0.3751402438021951
+mistral,history+output+act qwen b75,356,1,0.40484038185576043
+mistral,history+output+act qwen b75,456,1,0.6615680063711468
+mistral,act only qwen agent b75,123,2,5.935998360965404
+mistral,act only qwen agent b75,124,2,1.2632572996177054
+mistral,act only qwen agent b75,126,0,0.6963337891508652
+mistral,act only qwen agent b75,134,3,1.1088751193979085
+mistral,act only qwen agent b75,135,2,1.2082362856493567
+mistral,act only qwen agent b75,136,4,1.7457860544570272
+mistral,act only qwen agent b75,145,1,1.0648469513565013
+mistral,act only qwen agent b75,156,0,0.6445002650031307
+mistral,act only qwen agent b75,234,0,2.2651119189319258
+mistral,act only qwen agent b75,235,3,1.301595637720746
+mistral,act only qwen agent b75,236,4,0.7775288086918879
+mistral,act only qwen agent b75,245,2,0.36467448937652525
+mistral,act only qwen agent b75,246,1,0.47094274882618437
+mistral,act only qwen agent b75,256,3,0.42882664502023055
+mistral,act only qwen agent b75,345,0,0.7449733329487752
+mistral,act only qwen agent b75,346,4,0.41260809467844645
+mistral,act only qwen agent b75,356,1,0.83203207353816
+mistral,act only qwen agent b75,456,1,0.6748870388917766
+mistral,act only qwen direct b75,123,2,7.208910339648398
+mistral,act only qwen direct b75,124,2,0.9719018951470823
+mistral,act only qwen direct b75,126,0,0.44374182667230855
+mistral,act only qwen direct b75,134,3,0.5140781616226241
+mistral,act only qwen direct b75,135,2,0.5644743970286329
+mistral,act only qwen direct b75,136,4,0.7269479134429346
+mistral,act only qwen direct b75,145,1,0.5563398291584901
+mistral,act only qwen direct b75,156,0,0.2858664422633927
+mistral,act only qwen direct b75,234,0,1.5925872742284224
+mistral,act only qwen direct b75,235,3,0.5684485183913378
+mistral,act only qwen direct b75,236,4,0.3008080740560339
+mistral,act only qwen direct b75,245,2,0.21812527971308074
+mistral,act only qwen direct b75,246,1,0.38083970252743354
+mistral,act only qwen direct b75,256,3,0.37819771123867185
+mistral,act only qwen direct b75,345,0,0.6944742140281126
+mistral,act only qwen direct b75,346,4,0.29620517833730614
+mistral,act only qwen direct b75,356,1,0.3323505787178757
+mistral,act only qwen direct b75,456,1,0.46028827227811037
+mistral,history+output+act qwen b100,123,2,5.577727007908723
+mistral,history+output+act qwen b100,124,2,1.0266639087230285
+mistral,history+output+act qwen b100,126,0,0.4552354934324138
+mistral,history+output+act qwen b100,134,3,0.6475196064732697
+mistral,history+output+act qwen b100,135,2,0.40949899604123674
+mistral,history+output+act qwen b100,136,4,0.4070557377796546
+mistral,history+output+act qwen b100,145,1,0.2815883373956474
+mistral,history+output+act qwen b100,156,0,0.3210908189205984
+mistral,history+output+act qwen b100,234,0,1.7616387666144968
+mistral,history+output+act qwen b100,235,3,0.4197109643341132
+mistral,history+output+act qwen b100,236,4,0.23588147965226103
+mistral,history+output+act qwen b100,245,2,0.25066580602892047
+mistral,history+output+act qwen b100,246,1,0.39128640584816216
+mistral,history+output+act qwen b100,256,3,0.2821198078407828
+mistral,history+output+act qwen b100,345,0,0.6829106425739145
+mistral,history+output+act qwen b100,346,4,0.2241532470007103
+mistral,history+output+act qwen b100,356,1,0.6078016932191556
+mistral,history+output+act qwen b100,456,1,0.4992948263514741
+mistral,act only qwen agent b100,123,2,6.922138364226147
+mistral,act only qwen agent b100,124,2,1.3226031866969643
+mistral,act only qwen agent b100,126,0,0.6737379947681283
+mistral,act only qwen agent b100,134,3,0.8125102296691239
+mistral,act only qwen agent b100,135,2,0.9134085061520277
+mistral,act only qwen agent b100,136,4,1.1773352507112265
+mistral,act only qwen agent b100,145,1,0.886685752771443
+mistral,act only qwen agent b100,156,0,0.42924022828541797
+mistral,act only qwen agent b100,234,0,1.5086747381701464
+mistral,act only qwen agent b100,235,3,1.0781093556228656
+mistral,act only qwen agent b100,236,4,0.7414548681007013
+mistral,act only qwen agent b100,245,2,0.30428878715362834
+mistral,act only qwen agent b100,246,1,0.5278533855281857
+mistral,act only qwen agent b100,256,3,0.40068881025053465
+mistral,act only qwen agent b100,345,0,0.8672463081091183
+mistral,act only qwen agent b100,346,4,0.39834950388271634
+mistral,act only qwen agent b100,356,1,1.7812696044663243
+mistral,act only qwen agent b100,456,1,0.8537449416912569
+mistral,act only qwen direct b100,123,2,3.807310739773547
+mistral,act only qwen direct b100,124,2,1.0558256858051294
+mistral,act only qwen direct b100,126,0,0.2846708335345101
+mistral,act only qwen direct b100,134,3,0.4153716841018901
+mistral,act only qwen direct b100,135,2,0.7665121260266482
+mistral,act only qwen direct b100,136,4,0.3823746400306558
+mistral,act only qwen direct b100,145,1,0.42039034767241706
+mistral,act only qwen direct b100,156,0,0.27033373237079167
+mistral,act only qwen direct b100,234,0,0.8200663711107046
+mistral,act only qwen direct b100,235,3,0.5499470017333813
+mistral,act only qwen direct b100,236,4,0.26631026499791616
+mistral,act only qwen direct b100,245,2,0.29525778858711665
+mistral,act only qwen direct b100,246,1,0.3381763309489205
+mistral,act only qwen direct b100,256,3,0.3089721270506456
+mistral,act only qwen direct b100,345,0,0.7285782796356933
+mistral,act only qwen direct b100,346,4,0.2708219481878333
+mistral,act only qwen direct b100,356,1,0.5324764870384103
+mistral,act only qwen direct b100,456,1,0.45726275993681414
+mistral,history+output+act qwen b75 rank8,123,2,5.62093770678369
+mistral,history+output+act qwen b75 rank8,124,2,1.3486019796200148
+mistral,history+output+act qwen b75 rank8,126,0,0.48418964383644764
+mistral,history+output+act qwen b75 rank8,134,3,0.6815195261986947
+mistral,history+output+act qwen b75 rank8,135,2,0.4503999822599741
+mistral,history+output+act qwen b75 rank8,136,4,0.7174972940673662
+mistral,history+output+act qwen b75 rank8,145,1,0.428708588627158
+mistral,history+output+act qwen b75 rank8,156,0,0.3947088384042061
+mistral,history+output+act qwen b75 rank8,234,0,1.8370835310839813
+mistral,history+output+act qwen b75 rank8,235,3,0.4568078869717756
+mistral,history+output+act qwen b75 rank8,236,4,0.41409434333011297
+mistral,history+output+act qwen b75 rank8,245,2,0.28536543220919447
+mistral,history+output+act qwen b75 rank8,246,1,0.4743753101334583
+mistral,history+output+act qwen b75 rank8,256,3,0.34614030970484516
+mistral,history+output+act qwen b75 rank8,345,0,0.6319357741284544
+mistral,history+output+act qwen b75 rank8,346,4,0.31085224521925087
+mistral,history+output+act qwen b75 rank8,356,1,0.3931772313257154
+mistral,history+output+act qwen b75 rank8,456,1,0.6754309299308621
+mistral,history+output+act qwen b75 rank16,123,2,6.055416606792917
+mistral,history+output+act qwen b75 rank16,124,2,1.1637086884978718
+mistral,history+output+act qwen b75 rank16,126,0,0.4586534850842134
+mistral,history+output+act qwen b75 rank16,134,3,0.6682812589560947
+mistral,history+output+act qwen b75 rank16,135,2,0.40451191282557347
+mistral,history+output+act qwen b75 rank16,136,4,0.7268493768127517
+mistral,history+output+act qwen b75 rank16,145,1,0.4195524128734322
+mistral,history+output+act qwen b75 rank16,156,0,0.4234494363012547
+mistral,history+output+act qwen b75 rank16,234,0,2.0427427285768904
+mistral,history+output+act qwen b75 rank16,235,3,0.4609704886451813
+mistral,history+output+act qwen b75 rank16,236,4,0.3964532992309506
+mistral,history+output+act qwen b75 rank16,245,2,0.31898922640170513
+mistral,history+output+act qwen b75 rank16,246,1,0.45538524000093766
+mistral,history+output+act qwen b75 rank16,256,3,0.33114761189811726
+mistral,history+output+act qwen b75 rank16,345,0,0.8367401669304696
+mistral,history+output+act qwen b75 rank16,346,4,0.3083933083547814
+mistral,history+output+act qwen b75 rank16,356,1,0.42499944255675387
+mistral,history+output+act qwen b75 rank16,456,1,0.658875114378498
+mistral,history+output+act qwen b75 rank64,123,2,5.9119746148304415
+mistral,history+output+act qwen b75 rank64,124,2,1.0807534405408534
+mistral,history+output+act qwen b75 rank64,126,0,0.4586534850842134
+mistral,history+output+act qwen b75 rank64,134,3,0.6370536363754242
+mistral,history+output+act qwen b75 rank64,135,2,0.43130506569662436
+mistral,history+output+act qwen b75 rank64,136,4,0.5080532560627513
+mistral,history+output+act qwen b75 rank64,145,1,0.4205909736079326
+mistral,history+output+act qwen b75 rank64,156,0,0.4234494363012547
+mistral,history+output+act qwen b75 rank64,234,0,2.0427427285768904
+mistral,history+output+act qwen b75 rank64,235,3,0.4580822618996712
+mistral,history+output+act qwen b75 rank64,236,4,0.3786421911640931
+mistral,history+output+act qwen b75 rank64,245,2,0.3065325958787737
+mistral,history+output+act qwen b75 rank64,246,1,0.4455209089545841
+mistral,history+output+act qwen b75 rank64,256,3,0.32401499604661604
+mistral,history+output+act qwen b75 rank64,345,0,0.8367401669304696
+mistral,history+output+act qwen b75 rank64,346,4,0.33363614534369823
+mistral,history+output+act qwen b75 rank64,356,1,0.40382475124664924
+mistral,history+output+act qwen b75 rank64,456,1,0.6431990356365925
+mistral,history+output qwen [shape],123,2,5.938186421297208
+mistral,history+output qwen [shape],124,2,1.3201074879994357
+mistral,history+output qwen [shape],126,0,0.4732429139662826
+mistral,history+output qwen [shape],134,3,0.7539788131067349
+mistral,history+output qwen [shape],135,2,0.58756910604738
+mistral,history+output qwen [shape],136,4,0.9748467315884147
+mistral,history+output qwen [shape],145,1,0.5375516724930492
+mistral,history+output qwen [shape],156,0,0.3443260239946469
+mistral,history+output qwen [shape],234,0,1.8374540239456565
+mistral,history+output qwen [shape],235,3,0.4826868687484855
+mistral,history+output qwen [shape],236,4,0.8149223839542353
+mistral,history+output qwen [shape],245,2,0.26084793671402784
+mistral,history+output qwen [shape],246,1,0.463263249060559
+mistral,history+output qwen [shape],256,3,0.3583917125274958
+mistral,history+output qwen [shape],345,0,1.059339339702514
+mistral,history+output qwen [shape],346,4,0.48768196488629334
+mistral,history+output qwen [shape],356,1,0.5226535256476376
+mistral,history+output qwen [shape],456,1,0.6210620574270656
+mistral,history+output+act qwen [shape],123,2,5.660303291065245
+mistral,history+output+act qwen [shape],124,2,1.289716917833962
+mistral,history+output+act qwen [shape],126,0,0.4732429139662826
+mistral,history+output+act qwen [shape],134,3,0.5947231893095465
+mistral,history+output+act qwen [shape],135,2,0.5143334994031673
+mistral,history+output+act qwen [shape],136,4,0.7132656024281453
+mistral,history+output+act qwen [shape],145,1,0.48095119430453015
+mistral,history+output+act qwen [shape],156,0,0.3443260239946469
+mistral,history+output+act qwen [shape],234,0,1.8374540239456565
+mistral,history+output+act qwen [shape],235,3,0.4456982582549926
+mistral,history+output+act qwen [shape],236,4,0.5492323382553367
+mistral,history+output+act qwen [shape],245,2,0.25813169076321874
+mistral,history+output+act qwen [shape],246,1,0.4342526148107971
+mistral,history+output+act qwen [shape],256,3,0.33209534914453903
+mistral,history+output+act qwen [shape],345,0,1.059339339702514
+mistral,history+output+act qwen [shape],346,4,0.3615761637801893
+mistral,history+output+act qwen [shape],356,1,0.5013889937865449
+mistral,history+output+act qwen [shape],456,1,0.5398463707865115
+mistral,raw forecast qwen [shape],123,2,6.229669402366606
+mistral,raw forecast qwen [shape],124,2,8.34681903778428
+mistral,raw forecast qwen [shape],126,0,2.6480509889885986
+mistral,raw forecast qwen [shape],134,3,22.845117101537966
+mistral,raw forecast qwen [shape],135,2,15.149319457828673
+mistral,raw forecast qwen [shape],136,4,19.786678668332815
+mistral,raw forecast qwen [shape],145,1,7.456834006389116
+mistral,raw forecast qwen [shape],156,0,7.918614645310143
+mistral,raw forecast qwen [shape],234,0,25.18445692139645
+mistral,raw forecast qwen [shape],235,3,25.98893268242269
+mistral,raw forecast qwen [shape],236,4,24.886736553521747
+mistral,raw forecast qwen [shape],245,2,18.322211222183157
+mistral,raw forecast qwen [shape],246,1,21.190285757442677
+mistral,raw forecast qwen [shape],256,3,16.59223634660198
+mistral,raw forecast qwen [shape],345,0,8.420612668668722
+mistral,raw forecast qwen [shape],346,4,12.722923531025346
+mistral,raw forecast qwen [shape],356,1,9.734643415753311
+mistral,raw forecast qwen [shape],456,1,7.19567422603997
+mistral,act only qwen shape b75,123,2,7.257511191555525
+mistral,act only qwen shape b75,124,2,1.1536712781659941
+mistral,act only qwen shape b75,126,0,0.707636174662186
+mistral,act only qwen shape b75,134,3,1.0925281618888874
+mistral,act only qwen shape b75,135,2,1.073888046177693
+mistral,act only qwen shape b75,136,4,1.7098104545654422
+mistral,act only qwen shape b75,145,1,0.9155984684176671
+mistral,act only qwen shape b75,156,0,0.5530591392027809
+mistral,act only qwen shape b75,234,0,3.105090145818302
+mistral,act only qwen shape b75,235,3,1.269387526506864
+mistral,act only qwen shape b75,236,4,0.7607901848008606
+mistral,act only qwen shape b75,245,2,0.38376869709525013
+mistral,act only qwen shape b75,246,1,0.7352807112836359
+mistral,act only qwen shape b75,256,3,0.3975663047794966
+mistral,act only qwen shape b75,345,0,0.643228064810096
+mistral,act only qwen shape b75,346,4,0.5144072149882762
+mistral,act only qwen shape b75,356,1,0.9491394860470287
+mistral,act only qwen shape b75,456,1,0.7002027951425792
+mistral,history+output qwen [self],123,2,5.817291597594038
+mistral,history+output qwen [self],124,2,1.4576198747475175
+mistral,history+output qwen [self],126,0,0.5982063074503347
+mistral,history+output qwen [self],134,3,0.8425145726633047
+mistral,history+output qwen [self],135,2,0.4957164087879926
+mistral,history+output qwen [self],136,4,0.9209097852932276
+mistral,history+output qwen [self],145,1,0.5008644083061483
+mistral,history+output qwen [self],156,0,0.44226659814469244
+mistral,history+output qwen [self],234,0,1.713921665903354
+mistral,history+output qwen [self],235,3,0.506431439858729
+mistral,history+output qwen [self],236,4,0.4797407922583146
+mistral,history+output qwen [self],245,2,0.22759520484626652
+mistral,history+output qwen [self],246,1,0.5601306505327691
+mistral,history+output qwen [self],256,3,0.3479305618783244
+mistral,history+output qwen [self],345,0,1.0974236282718206
+mistral,history+output qwen [self],346,4,0.33135154824995644
+mistral,history+output qwen [self],356,1,0.3733323645966404
+mistral,history+output qwen [self],456,1,0.9623730111090655
+mistral,history+output+act qwen [self],123,2,5.6243665791703465
+mistral,history+output+act qwen [self],124,2,1.1575358988452895
+mistral,history+output+act qwen [self],126,0,0.5201124601128826
+mistral,history+output+act qwen [self],134,3,0.497906933473306
+mistral,history+output+act qwen [self],135,2,0.46560362260652627
+mistral,history+output+act qwen [self],136,4,0.5728634659098855
+mistral,history+output+act qwen [self],145,1,0.37422815965150075
+mistral,history+output+act qwen [self],156,0,0.31885240328061354
+mistral,history+output+act qwen [self],234,0,1.569503683011633
+mistral,history+output+act qwen [self],235,3,0.6332328683806097
+mistral,history+output+act qwen [self],236,4,0.5458985144267632
+mistral,history+output+act qwen [self],245,2,0.1978321317987577
+mistral,history+output+act qwen [self],246,1,0.5336291339282129
+mistral,history+output+act qwen [self],256,3,0.36331040606244464
+mistral,history+output+act qwen [self],345,0,0.7641980156474072
+mistral,history+output+act qwen [self],346,4,0.22951753344433853
+mistral,history+output+act qwen [self],356,1,0.37333556393763745
+mistral,history+output+act qwen [self],456,1,0.9258330161656195
+mistral,raw forecast qwen [self],123,2,5.2923316615233365
+mistral,raw forecast qwen [self],124,2,14.490559406415409
+mistral,raw forecast qwen [self],126,0,7.78634582435231
+mistral,raw forecast qwen [self],134,3,33.66186654741523
+mistral,raw forecast qwen [self],135,2,23.926424247436284
+mistral,raw forecast qwen [self],136,4,29.458879065819023
+mistral,raw forecast qwen [self],145,1,8.591962684156437
+mistral,raw forecast qwen [self],156,0,11.380858986058096
+mistral,raw forecast qwen [self],234,0,36.769132591885615
+mistral,raw forecast qwen [self],235,3,38.46566022586321
+mistral,raw forecast qwen [self],236,4,35.43134888285697
+mistral,raw forecast qwen [self],245,2,20.312009371938082
+mistral,raw forecast qwen [self],246,1,25.721608364939105
+mistral,raw forecast qwen [self],256,3,20.298067304014662
+mistral,raw forecast qwen [self],345,0,14.569853061037627
+mistral,raw forecast qwen [self],346,4,20.16564321780974
+mistral,raw forecast qwen [self],356,1,16.065844178686024
+mistral,raw forecast qwen [self],456,1,4.759557280274941
+mistral,act only qwen self b75,123,2,6.3963852877660825
+mistral,act only qwen self b75,124,2,1.2505577831773909
+mistral,act only qwen self b75,126,0,0.7358244534142008
+mistral,act only qwen self b75,134,3,1.1575672802233927
+mistral,act only qwen self b75,135,2,1.0620583873612925
+mistral,act only qwen self b75,136,4,1.481826338953952
+mistral,act only qwen self b75,145,1,0.7356709130665683
+mistral,act only qwen self b75,156,0,0.439086205305268
+mistral,act only qwen self b75,234,0,2.6656566328036817
+mistral,act only qwen self b75,235,3,1.5834834508036622
+mistral,act only qwen self b75,236,4,0.5862488797998217
+mistral,act only qwen self b75,245,2,0.4273866248321008
+mistral,act only qwen self b75,246,1,0.5493823305977736
+mistral,act only qwen self b75,256,3,0.3405367493044105
+mistral,act only qwen self b75,345,0,0.5380026716569009
+mistral,act only qwen self b75,346,4,0.4900315443169047
+mistral,act only qwen self b75,356,1,0.6569348827140059
+mistral,act only qwen self b75,456,1,0.6862701355312223
+mistral,history+output qwen [generic],123,2,7.4219679031348464
+mistral,history+output qwen [generic],124,2,1.2193387026030846
+mistral,history+output qwen [generic],126,0,0.4671305171017708
+mistral,history+output qwen [generic],134,3,0.7904159211377716
+mistral,history+output qwen [generic],135,2,0.49318764203398185
+mistral,history+output qwen [generic],136,4,0.8646349617361095
+mistral,history+output qwen [generic],145,1,0.465434651642894
+mistral,history+output qwen [generic],156,0,0.3878651535525785
+mistral,history+output qwen [generic],234,0,1.8698481538155705
+mistral,history+output qwen [generic],235,3,0.4738897049444739
+mistral,history+output qwen [generic],236,4,0.49962191789884414
+mistral,history+output qwen [generic],245,2,0.2844415094107821
+mistral,history+output qwen [generic],246,1,0.49860641547258827
+mistral,history+output qwen [generic],256,3,0.3703553831399821
+mistral,history+output qwen [generic],345,0,0.8992269840992478
+mistral,history+output qwen [generic],346,4,0.33111993842316184
+mistral,history+output qwen [generic],356,1,0.3804132659913453
+mistral,history+output qwen [generic],456,1,0.6470275507608825
+mistral,history+output+act qwen [generic],123,2,6.168509800938598
+mistral,history+output+act qwen [generic],124,2,0.9212361522755209
+mistral,history+output+act qwen [generic],126,0,0.4352868151899882
+mistral,history+output+act qwen [generic],134,3,0.6478705804252916
+mistral,history+output+act qwen [generic],135,2,0.43750167899731734
+mistral,history+output+act qwen [generic],136,4,0.6540502962900482
+mistral,history+output+act qwen [generic],145,1,0.402967041746998
+mistral,history+output+act qwen [generic],156,0,0.2979869736876198
+mistral,history+output+act qwen [generic],234,0,1.722443942798754
+mistral,history+output+act qwen [generic],235,3,0.45487358571312314
+mistral,history+output+act qwen [generic],236,4,0.6413062907804455
+mistral,history+output+act qwen [generic],245,2,0.33142523608783203
+mistral,history+output+act qwen [generic],246,1,0.4728811580872494
+mistral,history+output+act qwen [generic],256,3,0.3371997547898114
+mistral,history+output+act qwen [generic],345,0,0.6688858902498135
+mistral,history+output+act qwen [generic],346,4,0.24431521898105843
+mistral,history+output+act qwen [generic],356,1,0.38925379433991897
+mistral,history+output+act qwen [generic],456,1,0.5635570487019327
+mistral,raw forecast qwen [generic],123,2,6.1389686307652545
+mistral,raw forecast qwen [generic],124,2,12.860053637108004
+mistral,raw forecast qwen [generic],126,0,6.255952726143718
+mistral,raw forecast qwen [generic],134,3,31.414165952476242
+mistral,raw forecast qwen [generic],135,2,23.574598538087297
+mistral,raw forecast qwen [generic],136,4,28.83368672095001
+mistral,raw forecast qwen [generic],145,1,7.470411844719815
+mistral,raw forecast qwen [generic],156,0,12.281471617337976
+mistral,raw forecast qwen [generic],234,0,37.113478176120445
+mistral,raw forecast qwen [generic],235,3,40.8134637172775
+mistral,raw forecast qwen [generic],236,4,39.57166940476775
+mistral,raw forecast qwen [generic],245,2,21.60722205939622
+mistral,raw forecast qwen [generic],246,1,29.637410203090266
+mistral,raw forecast qwen [generic],256,3,24.993452661158603
+mistral,raw forecast qwen [generic],345,0,11.820259346919174
+mistral,raw forecast qwen [generic],346,4,21.705996710626664
+mistral,raw forecast qwen [generic],356,1,18.672181453800718
+mistral,raw forecast qwen [generic],456,1,8.031972198937567
+mistral,act only qwen generic b75,123,2,5.74579521328159
+mistral,act only qwen generic b75,124,2,1.0025990554557012
+mistral,act only qwen generic b75,126,0,0.6945550611182391
+mistral,act only qwen generic b75,134,3,1.0722277304368888
+mistral,act only qwen generic b75,135,2,1.1480637030794736
+mistral,act only qwen generic b75,136,4,1.3598773138804294
+mistral,act only qwen generic b75,145,1,0.6624118864777707
+mistral,act only qwen generic b75,156,0,0.28730905624081765
+mistral,act only qwen generic b75,234,0,2.9212433403015496
+mistral,act only qwen generic b75,235,3,1.3906224655257002
+mistral,act only qwen generic b75,236,4,0.5640354922786256
+mistral,act only qwen generic b75,245,2,0.44610916833264946
+mistral,act only qwen generic b75,246,1,0.4696477584413025
+mistral,act only qwen generic b75,256,3,0.3634323273688001
+mistral,act only qwen generic b75,345,0,0.7750802337686133
+mistral,act only qwen generic b75,346,4,0.5091032844495836
+mistral,act only qwen generic b75,356,1,0.6489854921059943
+mistral,act only qwen generic b75,456,1,0.571582266632561
+mistral,transfer agent->agent qwen,123,2,5.935998404287456
+mistral,transfer agent->agent qwen,124,2,1.263257207740159
+mistral,transfer agent->agent qwen,126,0,0.6963335009800097
+mistral,transfer agent->agent qwen,134,3,1.1088751425792462
+mistral,transfer agent->agent qwen,135,2,1.2082361490528246
+mistral,transfer agent->agent qwen,136,4,1.7457862666710746
+mistral,transfer agent->agent qwen,145,1,1.0648468866266534
+mistral,transfer agent->agent qwen,156,0,0.6445005003163778
+mistral,transfer agent->agent qwen,234,0,2.2651123976766496
+mistral,transfer agent->agent qwen,235,3,1.3015955271794473
+mistral,transfer agent->agent qwen,236,4,0.7775286133722155
+mistral,transfer agent->agent qwen,245,2,0.3646745148946981
+mistral,transfer agent->agent qwen,246,1,0.47094260877386285
+mistral,transfer agent->agent qwen,256,3,0.4288266574166069
+mistral,transfer agent->agent qwen,345,0,0.7449732854883443
+mistral,transfer agent->agent qwen,346,4,0.412608088393301
+mistral,transfer agent->agent qwen,356,1,0.8320321532716575
+mistral,transfer agent->agent qwen,456,1,0.6748871480825295
+mistral,transfer agent->shape qwen,123,2,21.209848305994658
+mistral,transfer agent->shape qwen,124,2,5.145761609685325
+mistral,transfer agent->shape qwen,126,0,9.106860910809507
+mistral,transfer agent->shape qwen,134,3,12.003282323672414
+mistral,transfer agent->shape qwen,135,2,2.895777909837577
+mistral,transfer agent->shape qwen,136,4,8.428257915767974
+mistral,transfer agent->shape qwen,145,1,1.0754509222099753
+mistral,transfer agent->shape qwen,156,0,0.9574590091333438
+mistral,transfer agent->shape qwen,234,0,26.04555066898658
+mistral,transfer agent->shape qwen,235,3,11.268495635133691
+mistral,transfer agent->shape qwen,236,4,17.16606412789866
+mistral,transfer agent->shape qwen,245,2,18.03763181943566
+mistral,transfer agent->shape qwen,246,1,7.631187008317291
+mistral,transfer agent->shape qwen,256,3,5.097073531747816
+mistral,transfer agent->shape qwen,345,0,15.778171224549089
+mistral,transfer agent->shape qwen,346,4,14.516420331522491
+mistral,transfer agent->shape qwen,356,1,1.9265388587734276
+mistral,transfer agent->shape qwen,456,1,0.4746514942899762
+mistral,transfer agent->self qwen,123,2,6.955101179292321
+mistral,transfer agent->self qwen,124,2,4.451700207702326
+mistral,transfer agent->self qwen,126,0,3.06123853041181
+mistral,transfer agent->self qwen,134,3,5.832127532328845
+mistral,transfer agent->self qwen,135,2,10.492149132138048
+mistral,transfer agent->self qwen,136,4,14.438919331831576
+mistral,transfer agent->self qwen,145,1,5.888717483291863
+mistral,transfer agent->self qwen,156,0,1.6951050626291229
+mistral,transfer agent->self qwen,234,0,8.82332866034938
+mistral,transfer agent->self qwen,235,3,18.06601526217601
+mistral,transfer agent->self qwen,236,4,14.290987108981659
+mistral,transfer agent->self qwen,245,2,5.27605301549352
+mistral,transfer agent->self qwen,246,1,1.1830101529312418
+mistral,transfer agent->self qwen,256,3,7.2539360291489885
+mistral,transfer agent->self qwen,345,0,4.585444739342628
+mistral,transfer agent->self qwen,346,4,1.2578230135623205
+mistral,transfer agent->self qwen,356,1,6.53119790188412
+mistral,transfer agent->self qwen,456,1,1.449824700851903
+mistral,transfer agent->generic qwen,123,2,7.235538458515644
+mistral,transfer agent->generic qwen,124,2,8.042976831343772
+mistral,transfer agent->generic qwen,126,0,2.3436329116568664
+mistral,transfer agent->generic qwen,134,3,6.236407542554887
+mistral,transfer agent->generic qwen,135,2,9.279096400379936
+mistral,transfer agent->generic qwen,136,4,5.624542236514084
+mistral,transfer agent->generic qwen,145,1,4.95291082453842
+mistral,transfer agent->generic qwen,156,0,4.585170385939417
+mistral,transfer agent->generic qwen,234,0,23.567147960876895
+mistral,transfer agent->generic qwen,235,3,7.723296406693314
+mistral,transfer agent->generic qwen,236,4,4.048588931907036
+mistral,transfer agent->generic qwen,245,2,6.621633351371088
+mistral,transfer agent->generic qwen,246,1,3.8638701792128614
+mistral,transfer agent->generic qwen,256,3,1.3394219525011597
+mistral,transfer agent->generic qwen,345,0,15.02866676930922
+mistral,transfer agent->generic qwen,346,4,1.3864835543569456
+mistral,transfer agent->generic qwen,356,1,1.2704578761057075
+mistral,transfer agent->generic qwen,456,1,2.17412805278529
+mistral,history+output+direct act qwen,123,2,4.816827602683806
+mistral,history+output+direct act qwen,124,2,0.8419815558597673
+mistral,history+output+direct act qwen,126,0,0.3450338860740625
+mistral,history+output+direct act qwen,134,3,0.35515007180044106
+mistral,history+output+direct act qwen,135,2,0.3581956712746332
+mistral,history+output+direct act qwen,136,4,0.452905313176091
+mistral,history+output+direct act qwen,145,1,0.3745490560132822
+mistral,history+output+direct act qwen,156,0,0.2393943962028958
+mistral,history+output+direct act qwen,234,0,1.14283323071504
+mistral,history+output+direct act qwen,235,3,0.32512809052252895
+mistral,history+output+direct act qwen,236,4,0.36176739432911537
+mistral,history+output+direct act qwen,245,2,0.2118408564211772
+mistral,history+output+direct act qwen,246,1,0.4089914500654644
+mistral,history+output+direct act qwen,256,3,0.22017701827795447
+mistral,history+output+direct act qwen,345,0,0.6019198076610525
+mistral,history+output+direct act qwen,346,4,0.2648763793099081
+mistral,history+output+direct act qwen,356,1,0.3140829610706073
+mistral,history+output+direct act qwen,456,1,0.2959396922352708
+mistral,history+logits qwen,123,2,6.985259588903644
+mistral,history+logits qwen,124,2,1.4984470238399223
+mistral,history+logits qwen,126,0,0.514593273349757
+mistral,history+logits qwen,134,3,0.7018222630329777
+mistral,history+logits qwen,135,2,0.46115254748971574
+mistral,history+logits qwen,136,4,0.7873441290521178
+mistral,history+logits qwen,145,1,0.2895745084341704
+mistral,history+logits qwen,156,0,0.28900311473607676
+mistral,history+logits qwen,234,0,2.1894020445134164
+mistral,history+logits qwen,235,3,0.42954091531567085
+mistral,history+logits qwen,236,4,0.4394020865736324
+mistral,history+logits qwen,245,2,0.26418238813998024
+mistral,history+logits qwen,246,1,0.4563121158335523
+mistral,history+logits qwen,256,3,0.2919699862397
+mistral,history+logits qwen,345,0,0.6286466821586892
+mistral,history+logits qwen,346,4,0.25109557880703776
+mistral,history+logits qwen,356,1,0.631409653823543
+mistral,history+logits qwen,456,1,0.5664231458714214
+mistral,history+logits+act qwen,123,2,6.865725144695816
+mistral,history+logits+act qwen,124,2,1.3002535941705229
+mistral,history+logits+act qwen,126,0,0.5075034994917873
+mistral,history+logits+act qwen,134,3,0.614277411564466
+mistral,history+logits+act qwen,135,2,0.47454395003128064
+mistral,history+logits+act qwen,136,4,0.6188755668721637
+mistral,history+logits+act qwen,145,1,0.2895745084341704
+mistral,history+logits+act qwen,156,0,0.30013774651532643
+mistral,history+logits+act qwen,234,0,1.9333952506996417
+mistral,history+logits+act qwen,235,3,0.44445247885649586
+mistral,history+logits+act qwen,236,4,0.45589607481760214
+mistral,history+logits+act qwen,245,2,0.25574328311611233
+mistral,history+logits+act qwen,246,1,0.4563121158335523
+mistral,history+logits+act qwen,256,3,0.29162257164122757
+mistral,history+logits+act qwen,345,0,0.5064051620733876
+mistral,history+logits+act qwen,346,4,0.2720593646296287
+mistral,history+logits+act qwen,356,1,0.631409653823543
+mistral,history+logits+act qwen,456,1,0.5664231458714214
+mistral,history+both outputs,123,2,5.455819482802611
+mistral,history+both outputs,124,2,1.0119096519439938
+mistral,history+both outputs,126,0,0.49537599157680207
+mistral,history+both outputs,134,3,0.731929923777359
+mistral,history+both outputs,135,2,0.5226113888075467
+mistral,history+both outputs,136,4,0.7622501020480877
+mistral,history+both outputs,145,1,0.43341839394802006
+mistral,history+both outputs,156,0,0.3653504345440088
+mistral,history+both outputs,234,0,1.7434186832958243
+mistral,history+both outputs,235,3,0.43166429166892106
+mistral,history+both outputs,236,4,0.735007234187064
+mistral,history+both outputs,245,2,0.2132839599229679
+mistral,history+both outputs,246,1,0.4867052911305936
+mistral,history+both outputs,256,3,0.28616306608105857
+mistral,history+both outputs,345,0,0.6231095293564112
+mistral,history+both outputs,346,4,0.2966975218768646
+mistral,history+both outputs,356,1,0.3906458868977815
+mistral,history+both outputs,456,1,0.6027528943060334
+mistral,history+both outputs+act mistral,123,2,4.217396814179428
+mistral,history+both outputs+act mistral,124,2,1.0893812280308257
+mistral,history+both outputs+act mistral,126,0,0.5208851999234644
+mistral,history+both outputs+act mistral,134,3,0.6460505184312723
+mistral,history+both outputs+act mistral,135,2,0.4016023784748157
+mistral,history+both outputs+act mistral,136,4,0.6297957766754348
+mistral,history+both outputs+act mistral,145,1,0.42666244107385354
+mistral,history+both outputs+act mistral,156,0,0.3355395471551234
+mistral,history+both outputs+act mistral,234,0,1.677675923171961
+mistral,history+both outputs+act mistral,235,3,0.4445774800988538
+mistral,history+both outputs+act mistral,236,4,0.49564076736566604
+mistral,history+both outputs+act mistral,245,2,0.21467096410485223
+mistral,history+both outputs+act mistral,246,1,0.46850058891959795
+mistral,history+both outputs+act mistral,256,3,0.27833444586332784
+mistral,history+both outputs+act mistral,345,0,0.5064904346943352
+mistral,history+both outputs+act mistral,346,4,0.4510300619175267
+mistral,history+both outputs+act mistral,356,1,0.3767733168927574
+mistral,history+both outputs+act mistral,456,1,0.3984867507477059
+mistral,history+both outputs+act mistral+act qwen,123,2,4.051221951570689
+mistral,history+both outputs+act mistral+act qwen,124,2,0.9958321096583346
+mistral,history+both outputs+act mistral+act qwen,126,0,0.5121933071119343
+mistral,history+both outputs+act mistral+act qwen,134,3,0.6460505184312723
+mistral,history+both outputs+act mistral+act qwen,135,2,0.45417454920177036
+mistral,history+both outputs+act mistral+act qwen,136,4,0.5882341626277485
+mistral,history+both outputs+act mistral+act qwen,145,1,0.42666244107385354
+mistral,history+both outputs+act mistral+act qwen,156,0,0.3104893645025027
+mistral,history+both outputs+act mistral+act qwen,234,0,1.6552719979630044
+mistral,history+both outputs+act mistral+act qwen,235,3,0.4445774800988538
+mistral,history+both outputs+act mistral+act qwen,236,4,0.4611351590516129
+mistral,history+both outputs+act mistral+act qwen,245,2,0.19309760843921295
+mistral,history+both outputs+act mistral+act qwen,246,1,0.46850058891959795
+mistral,history+both outputs+act mistral+act qwen,256,3,0.27833444586332784
+mistral,history+both outputs+act mistral+act qwen,345,0,0.511065045854722
+mistral,history+both outputs+act mistral+act qwen,346,4,0.42048334743940335
+mistral,history+both outputs+act mistral+act qwen,356,1,0.3767733168927574
+mistral,history+both outputs+act mistral+act qwen,456,1,0.3984867507477059
+mistral,raw forecast mistral,123,2,22.9387282958668
+mistral,raw forecast mistral,124,2,25.39386774618407
+mistral,raw forecast mistral,126,0,1.5114292840784103
+mistral,raw forecast mistral,134,3,27.023152868470643
+mistral,raw forecast mistral,135,2,33.354175535726775
+mistral,raw forecast mistral,136,4,9.489680457777157
+mistral,raw forecast mistral,145,1,21.817974119911934
+mistral,raw forecast mistral,156,0,2.9092262697577134
+mistral,raw forecast mistral,234,0,16.17309065232671
+mistral,raw forecast mistral,235,3,29.130667734343678
+mistral,raw forecast mistral,236,4,15.549065703848221
+mistral,raw forecast mistral,245,2,19.076594483773476
+mistral,raw forecast mistral,246,1,12.10694869299352
+mistral,raw forecast mistral,256,3,12.509067238736142
+mistral,raw forecast mistral,345,0,10.333478273950359
+mistral,raw forecast mistral,346,4,5.634467258516854
+mistral,raw forecast mistral,356,1,7.7740324403557475
+mistral,raw forecast mistral,456,1,2.821612982710874
+mistral,calibrated output mistral,123,2,6.05453591978788
+mistral,calibrated output mistral,124,2,4.7307673201923555
+mistral,calibrated output mistral,126,0,2.0296738910466847
+mistral,calibrated output mistral,134,3,5.983325335764814
+mistral,calibrated output mistral,135,2,4.590602892400886
+mistral,calibrated output mistral,136,4,4.110187765248036
+mistral,calibrated output mistral,145,1,2.0507087121273906
+mistral,calibrated output mistral,156,0,1.2628632845589192
+mistral,calibrated output mistral,234,0,1.8335386948545898
+mistral,calibrated output mistral,235,3,3.366963370407722
+mistral,calibrated output mistral,236,4,1.6444196507454716
+mistral,calibrated output mistral,245,2,1.4251100117698183
+mistral,calibrated output mistral,246,1,2.524672340678452
+mistral,calibrated output mistral,256,3,1.2478934645391442
+mistral,calibrated output mistral,345,0,2.299219098527794
+mistral,calibrated output mistral,346,4,3.6610938651449874
+mistral,calibrated output mistral,356,1,2.8785462001581466
+mistral,calibrated output mistral,456,1,1.3717920988380428
+mistral,history+output mistral,123,2,4.865917120090326
+mistral,history+output mistral,124,2,0.9085094517972147
+mistral,history+output mistral,126,0,0.41723141493477706
+mistral,history+output mistral,134,3,0.7982321109076024
+mistral,history+output mistral,135,2,0.6690922425643823
+mistral,history+output mistral,136,4,0.8514076457500742
+mistral,history+output mistral,145,1,0.41989694599286836
+mistral,history+output mistral,156,0,0.343066384435194
+mistral,history+output mistral,234,0,1.5692928433769857
+mistral,history+output mistral,235,3,0.5457987145372547
+mistral,history+output mistral,236,4,1.219280561567527
+mistral,history+output mistral,245,2,0.22837465176749616
+mistral,history+output mistral,246,1,0.5016349306082045
+mistral,history+output mistral,256,3,0.3078065333947076
+mistral,history+output mistral,345,0,0.4554319462033917
+mistral,history+output mistral,346,4,0.32189470732938535
+mistral,history+output mistral,356,1,0.3705581999225344
+mistral,history+output mistral,456,1,0.5649224752385287
+mistral,history+output+act mistral b25,123,2,4.815022598478328
+mistral,history+output+act mistral b25,124,2,0.9539249987265306
+mistral,history+output+act mistral b25,126,0,0.45743159277174295
+mistral,history+output+act mistral b25,134,3,0.7397062813001796
+mistral,history+output+act mistral b25,135,2,0.5715978191468009
+mistral,history+output+act mistral b25,136,4,0.8514076457500742
+mistral,history+output+act mistral b25,145,1,0.3603298704356434
+mistral,history+output+act mistral b25,156,0,0.3110956020512929
+mistral,history+output+act mistral b25,234,0,1.7042391421906367
+mistral,history+output+act mistral b25,235,3,0.45219236735532603
+mistral,history+output+act mistral b25,236,4,1.219280561567527
+mistral,history+output+act mistral b25,245,2,0.20520943383034126
+mistral,history+output+act mistral b25,246,1,0.43404659740941715
+mistral,history+output+act mistral b25,256,3,0.2782755690669659
+mistral,history+output+act mistral b25,345,0,0.6118647769846964
+mistral,history+output+act mistral b25,346,4,0.32189470732938535
+mistral,history+output+act mistral b25,356,1,0.42960089465181533
+mistral,history+output+act mistral b25,456,1,0.4509940456403669
+mistral,act only mistral agent b25,123,2,4.493609649584619
+mistral,act only mistral agent b25,124,2,1.1055142229282955
+mistral,act only mistral agent b25,126,0,0.6601636175087348
+mistral,act only mistral agent b25,134,3,0.8750917553003791
+mistral,act only mistral agent b25,135,2,0.8280027973582871
+mistral,act only mistral agent b25,136,4,1.2764116526414062
+mistral,act only mistral agent b25,145,1,0.4460287374459881
+mistral,act only mistral agent b25,156,0,0.34017648935399764
+mistral,act only mistral agent b25,234,0,2.1253946749874393
+mistral,act only mistral agent b25,235,3,0.7307863289727509
+mistral,act only mistral agent b25,236,4,0.42875049014916006
+mistral,act only mistral agent b25,245,2,0.3107001308352539
+mistral,act only mistral agent b25,246,1,0.34775899579237884
+mistral,act only mistral agent b25,256,3,0.348023883667057
+mistral,act only mistral agent b25,345,0,0.6780105425231276
+mistral,act only mistral agent b25,346,4,0.4735994900491877
+mistral,act only mistral agent b25,356,1,0.8147631923733498
+mistral,act only mistral agent b25,456,1,0.8568631705312288
+mistral,act only mistral direct b25,123,2,5.537215732944581
+mistral,act only mistral direct b25,124,2,1.5090598058914573
+mistral,act only mistral direct b25,126,0,0.9310346647963327
+mistral,act only mistral direct b25,134,3,1.0998883734855138
+mistral,act only mistral direct b25,135,2,0.8121374922270078
+mistral,act only mistral direct b25,136,4,1.1107278877295765
+mistral,act only mistral direct b25,145,1,0.8238279409430666
+mistral,act only mistral direct b25,156,0,0.5419686488726764
+mistral,act only mistral direct b25,234,0,1.7491782897667043
+mistral,act only mistral direct b25,235,3,0.6943914569455086
+mistral,act only mistral direct b25,236,4,0.5786156884087242
+mistral,act only mistral direct b25,245,2,0.29550456127327224
+mistral,act only mistral direct b25,246,1,0.6495835370908621
+mistral,act only mistral direct b25,256,3,0.3772712125744784
+mistral,act only mistral direct b25,345,0,0.51431785384229
+mistral,act only mistral direct b25,346,4,0.6549127338396387
+mistral,act only mistral direct b25,356,1,0.49987550607314235
+mistral,act only mistral direct b25,456,1,0.5813190274920459
+mistral,history+output+act mistral b50,123,2,4.677456642451038
+mistral,history+output+act mistral b50,124,2,0.9801242725576769
+mistral,history+output+act mistral b50,126,0,0.4685283223650352
+mistral,history+output+act mistral b50,134,3,0.7017639678866298
+mistral,history+output+act mistral b50,135,2,0.6386328541508787
+mistral,history+output+act mistral b50,136,4,0.8514076457500742
+mistral,history+output+act mistral b50,145,1,0.41989694599286836
+mistral,history+output+act mistral b50,156,0,0.2927055901394407
+mistral,history+output+act mistral b50,234,0,1.916840988146497
+mistral,history+output+act mistral b50,235,3,0.521831652578475
+mistral,history+output+act mistral b50,236,4,1.219280561567527
+mistral,history+output+act mistral b50,245,2,0.16430367137854376
+mistral,history+output+act mistral b50,246,1,0.5016349306082045
+mistral,history+output+act mistral b50,256,3,0.2791088131988113
+mistral,history+output+act mistral b50,345,0,0.3488996836939609
+mistral,history+output+act mistral b50,346,4,0.32189470732938535
+mistral,history+output+act mistral b50,356,1,0.3705581999225344
+mistral,history+output+act mistral b50,456,1,0.5649224752385287
+mistral,act only mistral agent b50,123,2,5.415798493263047
+mistral,act only mistral agent b50,124,2,1.1546812278814673
+mistral,act only mistral agent b50,126,0,0.7351525597672198
+mistral,act only mistral agent b50,134,3,1.0286876745674425
+mistral,act only mistral agent b50,135,2,0.6669087380602514
+mistral,act only mistral agent b50,136,4,1.1143358869864537
+mistral,act only mistral agent b50,145,1,0.9143271510583518
+mistral,act only mistral agent b50,156,0,0.4279852335142527
+mistral,act only mistral agent b50,234,0,2.902188733574212
+mistral,act only mistral agent b50,235,3,1.103127614521643
+mistral,act only mistral agent b50,236,4,0.6608116610974267
+mistral,act only mistral agent b50,245,2,0.2898390501739468
+mistral,act only mistral agent b50,246,1,0.4011661193472058
+mistral,act only mistral agent b50,256,3,0.3649893578894854
+mistral,act only mistral agent b50,345,0,0.618524390070938
+mistral,act only mistral agent b50,346,4,0.33078529512532534
+mistral,act only mistral agent b50,356,1,0.7099711893348436
+mistral,act only mistral agent b50,456,1,0.566776854296785
+mistral,act only mistral direct b50,123,2,3.8058988591173595
+mistral,act only mistral direct b50,124,2,0.9730668891699045
+mistral,act only mistral direct b50,126,0,0.8233068361531313
+mistral,act only mistral direct b50,134,3,0.7412116579609759
+mistral,act only mistral direct b50,135,2,0.6427340997855406
+mistral,act only mistral direct b50,136,4,0.8581166855876651
+mistral,act only mistral direct b50,145,1,0.5895378614943038
+mistral,act only mistral direct b50,156,0,0.4083691593969141
+mistral,act only mistral direct b50,234,0,1.561055638709738
+mistral,act only mistral direct b50,235,3,0.5238697116980832
+mistral,act only mistral direct b50,236,4,0.3375745697936042
+mistral,act only mistral direct b50,245,2,0.26752065671795244
+mistral,act only mistral direct b50,246,1,0.44261844179650994
+mistral,act only mistral direct b50,256,3,0.3259399657346864
+mistral,act only mistral direct b50,345,0,1.255576195732602
+mistral,act only mistral direct b50,346,4,0.3474414779596862
+mistral,act only mistral direct b50,356,1,0.3879347533148374
+mistral,act only mistral direct b50,456,1,0.9583764414566903
+mistral,history+output+act mistral b75,123,2,4.777746969202741
+mistral,history+output+act mistral b75,124,2,1.016386836126996
+mistral,history+output+act mistral b75,126,0,0.44155695110669874
+mistral,history+output+act mistral b75,134,3,0.6745224022532451
+mistral,history+output+act mistral b75,135,2,0.6813847521798438
+mistral,history+output+act mistral b75,136,4,0.8514076457500742
+mistral,history+output+act mistral b75,145,1,0.41989694599286836
+mistral,history+output+act mistral b75,156,0,0.29916103113436826
+mistral,history+output+act mistral b75,234,0,1.9264250132031375
+mistral,history+output+act mistral b75,235,3,0.5264474996276799
+mistral,history+output+act mistral b75,236,4,1.219280561567527
+mistral,history+output+act mistral b75,245,2,0.19747631388286702
+mistral,history+output+act mistral b75,246,1,0.5016349306082045
+mistral,history+output+act mistral b75,256,3,0.2767657823168254
+mistral,history+output+act mistral b75,345,0,0.36942248509402104
+mistral,history+output+act mistral b75,346,4,0.32189470732938535
+mistral,history+output+act mistral b75,356,1,0.3705581999225344
+mistral,history+output+act mistral b75,456,1,0.5649224752385287
+mistral,act only mistral agent b75,123,2,7.046946823028038
+mistral,act only mistral agent b75,124,2,1.0631464223576412
+mistral,act only mistral agent b75,126,0,0.6765431113280561
+mistral,act only mistral agent b75,134,3,1.4950082032819239
+mistral,act only mistral agent b75,135,2,0.7434514097391419
+mistral,act only mistral agent b75,136,4,1.6071115537416987
+mistral,act only mistral agent b75,145,1,0.9841286069451486
+mistral,act only mistral agent b75,156,0,0.4973584087697458
+mistral,act only mistral agent b75,234,0,3.4462846479783873
+mistral,act only mistral agent b75,235,3,1.348448327190462
+mistral,act only mistral agent b75,236,4,0.7138354761143292
+mistral,act only mistral agent b75,245,2,0.31252245604006096
+mistral,act only mistral agent b75,246,1,0.6041288658609999
+mistral,act only mistral agent b75,256,3,0.4395616203985428
+mistral,act only mistral agent b75,345,0,1.1492849933531166
+mistral,act only mistral agent b75,346,4,0.756390870742762
+mistral,act only mistral agent b75,356,1,0.7735528766547949
+mistral,act only mistral agent b75,456,1,0.8009669893184
+mistral,act only mistral direct b75,123,2,4.007077967610377
+mistral,act only mistral direct b75,124,2,0.8308946389183419
+mistral,act only mistral direct b75,126,0,0.42412132090319643
+mistral,act only mistral direct b75,134,3,0.32656248404957233
+mistral,act only mistral direct b75,135,2,0.38436553188260164
+mistral,act only mistral direct b75,136,4,0.5577888256146853
+mistral,act only mistral direct b75,145,1,0.42864821102222955
+mistral,act only mistral direct b75,156,0,0.3469132188814575
+mistral,act only mistral direct b75,234,0,1.756967079580905
+mistral,act only mistral direct b75,235,3,0.479207243684369
+mistral,act only mistral direct b75,236,4,0.2621835430519604
+mistral,act only mistral direct b75,245,2,0.14786161213480484
+mistral,act only mistral direct b75,246,1,0.45000324097480954
+mistral,act only mistral direct b75,256,3,0.44542685336463733
+mistral,act only mistral direct b75,345,0,0.4320189526695266
+mistral,act only mistral direct b75,346,4,0.24841860808880478
+mistral,act only mistral direct b75,356,1,0.37584001609670786
+mistral,act only mistral direct b75,456,1,0.5016454188626193
+mistral,history+output+act mistral b100,123,2,4.6685551935907155
+mistral,history+output+act mistral b100,124,2,0.9605758549981457
+mistral,history+output+act mistral b100,126,0,0.43197923620713513
+mistral,history+output+act mistral b100,134,3,0.6678074172001117
+mistral,history+output+act mistral b100,135,2,0.777161450882676
+mistral,history+output+act mistral b100,136,4,0.7496653733465096
+mistral,history+output+act mistral b100,145,1,0.36942869714756066
+mistral,history+output+act mistral b100,156,0,0.322733895848104
+mistral,history+output+act mistral b100,234,0,1.7385645737989173
+mistral,history+output+act mistral b100,235,3,0.49058728713405575
+mistral,history+output+act mistral b100,236,4,0.6761028095016038
+mistral,history+output+act mistral b100,245,2,0.181732619907784
+mistral,history+output+act mistral b100,246,1,0.4709454767632919
+mistral,history+output+act mistral b100,256,3,0.2520099443708208
+mistral,history+output+act mistral b100,345,0,0.38227146093466485
+mistral,history+output+act mistral b100,346,4,0.4105897135162719
+mistral,history+output+act mistral b100,356,1,0.39258502833965725
+mistral,history+output+act mistral b100,456,1,0.46100090762202406
+mistral,act only mistral agent b100,123,2,4.268848177695389
+mistral,act only mistral agent b100,124,2,1.3024132199847378
+mistral,act only mistral agent b100,126,0,0.6737441753296443
+mistral,act only mistral agent b100,134,3,1.1928938974880097
+mistral,act only mistral agent b100,135,2,1.3687701635650162
+mistral,act only mistral agent b100,136,4,1.7722209115866783
+mistral,act only mistral agent b100,145,1,0.9258461288971064
+mistral,act only mistral agent b100,156,0,0.4731325498834431
+mistral,act only mistral agent b100,234,0,2.6796720202568736
+mistral,act only mistral agent b100,235,3,1.0715046557959569
+mistral,act only mistral agent b100,236,4,1.1266148166257681
+mistral,act only mistral agent b100,245,2,0.3538644320763358
+mistral,act only mistral agent b100,246,1,0.591991329998644
+mistral,act only mistral agent b100,256,3,0.404648685218292
+mistral,act only mistral agent b100,345,0,1.4719668926513034
+mistral,act only mistral agent b100,346,4,0.5767984122960742
+mistral,act only mistral agent b100,356,1,1.0017219370082173
+mistral,act only mistral agent b100,456,1,0.8120653841094218
+mistral,act only mistral direct b100,123,2,1.3238893713100655
+mistral,act only mistral direct b100,124,2,0.26919808353890856
+mistral,act only mistral direct b100,126,0,0.10254558581759592
+mistral,act only mistral direct b100,134,3,0.09227767176599748
+mistral,act only mistral direct b100,135,2,0.15605739787815906
+mistral,act only mistral direct b100,136,4,0.09833464216520775
+mistral,act only mistral direct b100,145,1,0.09411963309475295
+mistral,act only mistral direct b100,156,0,0.08931670008839754
+mistral,act only mistral direct b100,234,0,0.18250141212323798
+mistral,act only mistral direct b100,235,3,0.07959639204125094
+mistral,act only mistral direct b100,236,4,0.035501257533143066
+mistral,act only mistral direct b100,245,2,0.05412205803208322
+mistral,act only mistral direct b100,246,1,0.08004667066840684
+mistral,act only mistral direct b100,256,3,0.08742416268639154
+mistral,act only mistral direct b100,345,0,0.07056446648712421
+mistral,act only mistral direct b100,346,4,0.07662056841062155
+mistral,act only mistral direct b100,356,1,0.0860520639078262
+mistral,act only mistral direct b100,456,1,0.0881385252186301
+mistral,history+output+act mistral b75 rank8,123,2,4.865917120090326
+mistral,history+output+act mistral b75 rank8,124,2,0.9085094517972147
+mistral,history+output+act mistral b75 rank8,126,0,0.5200653885263503
+mistral,history+output+act mistral b75 rank8,134,3,0.7186847782778919
+mistral,history+output+act mistral b75 rank8,135,2,0.6690922425643823
+mistral,history+output+act mistral b75 rank8,136,4,0.8514076457500742
+mistral,history+output+act mistral b75 rank8,145,1,0.41989694599286836
+mistral,history+output+act mistral b75 rank8,156,0,0.3501966934037453
+mistral,history+output+act mistral b75 rank8,234,0,1.9408674387118798
+mistral,history+output+act mistral b75 rank8,235,3,0.5503038726267507
+mistral,history+output+act mistral b75 rank8,236,4,1.219280561567527
+mistral,history+output+act mistral b75 rank8,245,2,0.22837465176749616
+mistral,history+output+act mistral b75 rank8,246,1,0.5016349306082045
+mistral,history+output+act mistral b75 rank8,256,3,0.28255493952134764
+mistral,history+output+act mistral b75 rank8,345,0,0.3542295334564189
+mistral,history+output+act mistral b75 rank8,346,4,0.32189470732938535
+mistral,history+output+act mistral b75 rank8,356,1,0.3705581999225344
+mistral,history+output+act mistral b75 rank8,456,1,0.5649224752385287
+mistral,history+output+act mistral b75 rank16,123,2,4.840212703900453
+mistral,history+output+act mistral b75 rank16,124,2,1.032155590451603
+mistral,history+output+act mistral b75 rank16,126,0,0.4697060715901296
+mistral,history+output+act mistral b75 rank16,134,3,0.6849799460821625
+mistral,history+output+act mistral b75 rank16,135,2,0.7027059172614954
+mistral,history+output+act mistral b75 rank16,136,4,0.8514076457500742
+mistral,history+output+act mistral b75 rank16,145,1,0.41989694599286836
+mistral,history+output+act mistral b75 rank16,156,0,0.3072356664989309
+mistral,history+output+act mistral b75 rank16,234,0,1.9578655093622193
+mistral,history+output+act mistral b75 rank16,235,3,0.5217392673533118
+mistral,history+output+act mistral b75 rank16,236,4,1.219280561567527
+mistral,history+output+act mistral b75 rank16,245,2,0.1964134859652793
+mistral,history+output+act mistral b75 rank16,246,1,0.5016349306082045
+mistral,history+output+act mistral b75 rank16,256,3,0.28255302690614353
+mistral,history+output+act mistral b75 rank16,345,0,0.3679284425618203
+mistral,history+output+act mistral b75 rank16,346,4,0.32189470732938535
+mistral,history+output+act mistral b75 rank16,356,1,0.3705581999225344
+mistral,history+output+act mistral b75 rank16,456,1,0.5649224752385287
+mistral,history+output+act mistral b75 rank64,123,2,4.771955485918828
+mistral,history+output+act mistral b75 rank64,124,2,1.0131811635597892
+mistral,history+output+act mistral b75 rank64,126,0,0.43646679113763426
+mistral,history+output+act mistral b75 rank64,134,3,0.6768500287928155
+mistral,history+output+act mistral b75 rank64,135,2,0.6890179524125409
+mistral,history+output+act mistral b75 rank64,136,4,0.8514076457500742
+mistral,history+output+act mistral b75 rank64,145,1,0.3344754649695269
+mistral,history+output+act mistral b75 rank64,156,0,0.30059656420224173
+mistral,history+output+act mistral b75 rank64,234,0,1.9213586370453022
+mistral,history+output+act mistral b75 rank64,235,3,0.5117505276566428
+mistral,history+output+act mistral b75 rank64,236,4,1.219280561567527
+mistral,history+output+act mistral b75 rank64,245,2,0.19431345983164197
+mistral,history+output+act mistral b75 rank64,246,1,0.586154910581547
+mistral,history+output+act mistral b75 rank64,256,3,0.2723273998697443
+mistral,history+output+act mistral b75 rank64,345,0,0.3788761072341605
+mistral,history+output+act mistral b75 rank64,346,4,0.32189470732938535
+mistral,history+output+act mistral b75 rank64,356,1,0.4746531088729033
+mistral,history+output+act mistral b75 rank64,456,1,0.634206730429924
+mistral,history+output mistral [shape],123,2,4.719986920554461
+mistral,history+output mistral [shape],124,2,0.916565763489757
+mistral,history+output mistral [shape],126,0,0.3528450511096503
+mistral,history+output mistral [shape],134,3,0.867821637978737
+mistral,history+output mistral [shape],135,2,0.5916837104378588
+mistral,history+output mistral [shape],136,4,0.8354359581719676
+mistral,history+output mistral [shape],145,1,0.40729080784786476
+mistral,history+output mistral [shape],156,0,0.32736485674946886
+mistral,history+output mistral [shape],234,0,2.0303772426445694
+mistral,history+output mistral [shape],235,3,0.6334355099635512
+mistral,history+output mistral [shape],236,4,0.9097910858197432
+mistral,history+output mistral [shape],245,2,0.20703394483248658
+mistral,history+output mistral [shape],246,1,0.4973361089767441
+mistral,history+output mistral [shape],256,3,0.28835310773325246
+mistral,history+output mistral [shape],345,0,0.5065749516197702
+mistral,history+output mistral [shape],346,4,0.27208532841697386
+mistral,history+output mistral [shape],356,1,0.40778416939514567
+mistral,history+output mistral [shape],456,1,0.4927201100430267
+mistral,history+output+act mistral [shape],123,2,4.964138860711999
+mistral,history+output+act mistral [shape],124,2,1.0727659923145865
+mistral,history+output+act mistral [shape],126,0,0.4104788048342967
+mistral,history+output+act mistral [shape],134,3,0.6947562725667596
+mistral,history+output+act mistral [shape],135,2,0.5407520096727602
+mistral,history+output+act mistral [shape],136,4,0.7504410767034025
+mistral,history+output+act mistral [shape],145,1,0.40729080784786476
+mistral,history+output+act mistral [shape],156,0,0.2774276673671206
+mistral,history+output+act mistral [shape],234,0,2.1459963638636737
+mistral,history+output+act mistral [shape],235,3,0.6183437903514836
+mistral,history+output+act mistral [shape],236,4,0.9043346775005934
+mistral,history+output+act mistral [shape],245,2,0.18344183062539918
+mistral,history+output+act mistral [shape],246,1,0.4973361089767441
+mistral,history+output+act mistral [shape],256,3,0.24623720201796048
+mistral,history+output+act mistral [shape],345,0,0.3974435448216373
+mistral,history+output+act mistral [shape],346,4,0.43291033523341715
+mistral,history+output+act mistral [shape],356,1,0.40778416939514567
+mistral,history+output+act mistral [shape],456,1,0.4927201100430267
+mistral,raw forecast mistral [shape],123,2,21.078711299230154
+mistral,raw forecast mistral [shape],124,2,23.835404855581857
+mistral,raw forecast mistral [shape],126,0,1.4430901183379046
+mistral,raw forecast mistral [shape],134,3,27.083776321383482
+mistral,raw forecast mistral [shape],135,2,30.465708262290477
+mistral,raw forecast mistral [shape],136,4,9.528875847679487
+mistral,raw forecast mistral [shape],145,1,18.871188953173796
+mistral,raw forecast mistral [shape],156,0,2.831737324655935
+mistral,raw forecast mistral [shape],234,0,16.51621355020764
+mistral,raw forecast mistral [shape],235,3,26.21483020604974
+mistral,raw forecast mistral [shape],236,4,14.807879820115181
+mistral,raw forecast mistral [shape],245,2,17.022377323559272
+mistral,raw forecast mistral [shape],246,1,11.587566194935723
+mistral,raw forecast mistral [shape],256,3,11.02510424545728
+mistral,raw forecast mistral [shape],345,0,9.888429258646289
+mistral,raw forecast mistral [shape],346,4,5.75543335030618
+mistral,raw forecast mistral [shape],356,1,6.825208903024541
+mistral,raw forecast mistral [shape],456,1,2.5552943792990153
+mistral,act only mistral shape b75,123,2,5.380291816851077
+mistral,act only mistral shape b75,124,2,1.9723832706066722
+mistral,act only mistral shape b75,126,0,0.7082357585840806
+mistral,act only mistral shape b75,134,3,1.4931516847867108
+mistral,act only mistral shape b75,135,2,0.6945037501640948
+mistral,act only mistral shape b75,136,4,1.4676617743720728
+mistral,act only mistral shape b75,145,1,1.1950767585189281
+mistral,act only mistral shape b75,156,0,0.4235737665998534
+mistral,act only mistral shape b75,234,0,4.287231612548975
+mistral,act only mistral shape b75,235,3,1.2066006544264436
+mistral,act only mistral shape b75,236,4,0.8817086627580233
+mistral,act only mistral shape b75,245,2,0.47469291112263673
+mistral,act only mistral shape b75,246,1,0.5459711528175254
+mistral,act only mistral shape b75,256,3,0.4191156081518683
+mistral,act only mistral shape b75,345,0,1.3491434661516228
+mistral,act only mistral shape b75,346,4,0.6244769655287746
+mistral,act only mistral shape b75,356,1,0.6680118870016889
+mistral,act only mistral shape b75,456,1,0.7774395059230604
+mistral,history+output mistral [self],123,2,4.7502126634764785
+mistral,history+output mistral [self],124,2,0.9946862711920154
+mistral,history+output mistral [self],126,0,0.3641633006504224
+mistral,history+output mistral [self],134,3,0.7097682229424711
+mistral,history+output mistral [self],135,2,0.5422843359421841
+mistral,history+output mistral [self],136,4,0.6351309870781258
+mistral,history+output mistral [self],145,1,0.45169543469104106
+mistral,history+output mistral [self],156,0,0.33694215909521735
+mistral,history+output mistral [self],234,0,1.7060234530194478
+mistral,history+output mistral [self],235,3,0.6458419863254541
+mistral,history+output mistral [self],236,4,0.8905556172300004
+mistral,history+output mistral [self],245,2,0.2579797544851764
+mistral,history+output mistral [self],246,1,0.44948578086443386
+mistral,history+output mistral [self],256,3,0.3206573936389729
+mistral,history+output mistral [self],345,0,0.8913338100232129
+mistral,history+output mistral [self],346,4,0.4592201231378776
+mistral,history+output mistral [self],356,1,0.6536451182693996
+mistral,history+output mistral [self],456,1,0.571564800162858
+mistral,history+output+act mistral [self],123,2,4.656965714743155
+mistral,history+output+act mistral [self],124,2,1.03290199236403
+mistral,history+output+act mistral [self],126,0,0.3902241089310565
+mistral,history+output+act mistral [self],134,3,0.6292057841827882
+mistral,history+output+act mistral [self],135,2,0.49330972443578885
+mistral,history+output+act mistral [self],136,4,0.6479649387432033
+mistral,history+output+act mistral [self],145,1,0.4505938764257533
+mistral,history+output+act mistral [self],156,0,0.28585763917107837
+mistral,history+output+act mistral [self],234,0,1.7366647104738053
+mistral,history+output+act mistral [self],235,3,0.5893872717600648
+mistral,history+output+act mistral [self],236,4,0.8415866012158411
+mistral,history+output+act mistral [self],245,2,0.23572197891006366
+mistral,history+output+act mistral [self],246,1,0.41620015662917415
+mistral,history+output+act mistral [self],256,3,0.29214163799191
+mistral,history+output+act mistral [self],345,0,0.48803146473312725
+mistral,history+output+act mistral [self],346,4,0.5075476555305753
+mistral,history+output+act mistral [self],356,1,0.5451937325179593
+mistral,history+output+act mistral [self],456,1,0.3293001612430904
+mistral,raw forecast mistral [self],123,2,20.900697834066996
+mistral,raw forecast mistral [self],124,2,21.79568660894451
+mistral,raw forecast mistral [self],126,0,1.6831376564211962
+mistral,raw forecast mistral [self],134,3,23.865064103067496
+mistral,raw forecast mistral [self],135,2,28.451140368076224
+mistral,raw forecast mistral [self],136,4,8.468830356886887
+mistral,raw forecast mistral [self],145,1,18.995670515162434
+mistral,raw forecast mistral [self],156,0,3.368043235667038
+mistral,raw forecast mistral [self],234,0,13.134299036333774
+mistral,raw forecast mistral [self],235,3,23.189127907037584
+mistral,raw forecast mistral [self],236,4,11.552713027467561
+mistral,raw forecast mistral [self],245,2,16.793882237070566
+mistral,raw forecast mistral [self],246,1,10.039064318025586
+mistral,raw forecast mistral [self],256,3,9.818980466213583
+mistral,raw forecast mistral [self],345,0,8.360067414621108
+mistral,raw forecast mistral [self],346,4,4.26733087197019
+mistral,raw forecast mistral [self],356,1,6.028798148284809
+mistral,raw forecast mistral [self],456,1,3.1330413374093404
+mistral,act only mistral self b75,123,2,6.257619148151643
+mistral,act only mistral self b75,124,2,1.4657320046282818
+mistral,act only mistral self b75,126,0,0.76171731379928
+mistral,act only mistral self b75,134,3,1.210348297112236
+mistral,act only mistral self b75,135,2,0.7007994451965324
+mistral,act only mistral self b75,136,4,1.5340298625401185
+mistral,act only mistral self b75,145,1,0.8597064360229693
+mistral,act only mistral self b75,156,0,0.26939412856941264
+mistral,act only mistral self b75,234,0,3.159123863224029
+mistral,act only mistral self b75,235,3,1.1927104443212697
+mistral,act only mistral self b75,236,4,1.074080882499737
+mistral,act only mistral self b75,245,2,0.36717226774827677
+mistral,act only mistral self b75,246,1,0.6732297806064288
+mistral,act only mistral self b75,256,3,0.36947358515696443
+mistral,act only mistral self b75,345,0,0.5787781580261226
+mistral,act only mistral self b75,346,4,0.7573063517606071
+mistral,act only mistral self b75,356,1,0.6493947404591172
+mistral,act only mistral self b75,456,1,0.557097804235655
+mistral,history+output mistral [generic],123,2,4.731846833440058
+mistral,history+output mistral [generic],124,2,0.9718442788387653
+mistral,history+output mistral [generic],126,0,0.42170212635761906
+mistral,history+output mistral [generic],134,3,0.6647114708185314
+mistral,history+output mistral [generic],135,2,0.5521095349766519
+mistral,history+output mistral [generic],136,4,0.6053221198047347
+mistral,history+output mistral [generic],145,1,0.3962624006097226
+mistral,history+output mistral [generic],156,0,0.3231610489137233
+mistral,history+output mistral [generic],234,0,1.6759770002001189
+mistral,history+output mistral [generic],235,3,0.6045026911598073
+mistral,history+output mistral [generic],236,4,0.8047424540938222
+mistral,history+output mistral [generic],245,2,0.24504215571448548
+mistral,history+output mistral [generic],246,1,0.5077743517870887
+mistral,history+output mistral [generic],256,3,0.26336506168607654
+mistral,history+output mistral [generic],345,0,0.5885826688378538
+mistral,history+output mistral [generic],346,4,0.3050343860956864
+mistral,history+output mistral [generic],356,1,0.5415924948728773
+mistral,history+output mistral [generic],456,1,0.552500073214616
+mistral,history+output+act mistral [generic],123,2,4.6592099122454025
+mistral,history+output+act mistral [generic],124,2,1.06288778747794
+mistral,history+output+act mistral [generic],126,0,0.41517364937500617
+mistral,history+output+act mistral [generic],134,3,0.6647114708185314
+mistral,history+output+act mistral [generic],135,2,0.5157680683953305
+mistral,history+output+act mistral [generic],136,4,0.6679855436469775
+mistral,history+output+act mistral [generic],145,1,0.3898683290840615
+mistral,history+output+act mistral [generic],156,0,0.27065084412145035
+mistral,history+output+act mistral [generic],234,0,1.6854330777466446
+mistral,history+output+act mistral [generic],235,3,0.6045026911598073
+mistral,history+output+act mistral [generic],236,4,0.7633714611294482
+mistral,history+output+act mistral [generic],245,2,0.2047068992702011
+mistral,history+output+act mistral [generic],246,1,0.4629817002065318
+mistral,history+output+act mistral [generic],256,3,0.26336506168607654
+mistral,history+output+act mistral [generic],345,0,0.37034488768605095
+mistral,history+output+act mistral [generic],346,4,0.37452781103448457
+mistral,history+output+act mistral [generic],356,1,0.41148288459425214
+mistral,history+output+act mistral [generic],456,1,0.3417310541975512
+mistral,raw forecast mistral [generic],123,2,21.718412280757036
+mistral,raw forecast mistral [generic],124,2,24.024847055570778
+mistral,raw forecast mistral [generic],126,0,1.398654762168393
+mistral,raw forecast mistral [generic],134,3,25.663256009254468
+mistral,raw forecast mistral [generic],135,2,30.760627370316254
+mistral,raw forecast mistral [generic],136,4,8.547915440250788
+mistral,raw forecast mistral [generic],145,1,20.86418441489447
+mistral,raw forecast mistral [generic],156,0,2.7877192116917544
+mistral,raw forecast mistral [generic],234,0,14.553018667459904
+mistral,raw forecast mistral [generic],235,3,25.713193759462495
+mistral,raw forecast mistral [generic],236,4,13.05074956716947
+mistral,raw forecast mistral [generic],245,2,17.922542812617724
+mistral,raw forecast mistral [generic],246,1,10.778440322640085
+mistral,raw forecast mistral [generic],256,3,10.684325263614923
+mistral,raw forecast mistral [generic],345,0,10.06645610608209
+mistral,raw forecast mistral [generic],346,4,4.758913555762193
+mistral,raw forecast mistral [generic],356,1,6.37607219096333
+mistral,raw forecast mistral [generic],456,1,2.8090424000492185
+mistral,act only mistral generic b75,123,2,6.33223214358189
+mistral,act only mistral generic b75,124,2,1.7500819951490632
+mistral,act only mistral generic b75,126,0,0.6313553480708104
+mistral,act only mistral generic b75,134,3,1.423424418103906
+mistral,act only mistral generic b75,135,2,0.7671875803274769
+mistral,act only mistral generic b75,136,4,1.7168763534187708
+mistral,act only mistral generic b75,145,1,0.9071647012446927
+mistral,act only mistral generic b75,156,0,0.40234088852201055
+mistral,act only mistral generic b75,234,0,3.3448342661394435
+mistral,act only mistral generic b75,235,3,1.215063860938685
+mistral,act only mistral generic b75,236,4,0.8679342406408086
+mistral,act only mistral generic b75,245,2,0.35460652347703253
+mistral,act only mistral generic b75,246,1,0.7924896867544939
+mistral,act only mistral generic b75,256,3,0.3072456913682054
+mistral,act only mistral generic b75,345,0,0.8050738163694064
+mistral,act only mistral generic b75,346,4,0.7372694083106047
+mistral,act only mistral generic b75,356,1,0.6614689331127055
+mistral,act only mistral generic b75,456,1,0.8120420078369284
+mistral,transfer agent->agent mistral,123,2,7.046947054489752
+mistral,transfer agent->agent mistral,124,2,1.063146039125383
+mistral,transfer agent->agent mistral,126,0,0.6765435732220562
+mistral,transfer agent->agent mistral,134,3,1.4950082568116325
+mistral,transfer agent->agent mistral,135,2,0.7434510993465393
+mistral,transfer agent->agent mistral,136,4,1.6071115908289357
+mistral,transfer agent->agent mistral,145,1,0.9841285014367562
+mistral,transfer agent->agent mistral,156,0,0.4973585215003616
+mistral,transfer agent->agent mistral,234,0,3.4462852438985028
+mistral,transfer agent->agent mistral,235,3,1.348448452724188
+mistral,transfer agent->agent mistral,236,4,0.7138353079283931
+mistral,transfer agent->agent mistral,245,2,0.3125229773414509
+mistral,transfer agent->agent mistral,246,1,0.6041289770886696
+mistral,transfer agent->agent mistral,256,3,0.43956153522738467
+mistral,transfer agent->agent mistral,345,0,1.1492851987321058
+mistral,transfer agent->agent mistral,346,4,0.7563909061014872
+mistral,transfer agent->agent mistral,356,1,0.7735533446049931
+mistral,transfer agent->agent mistral,456,1,0.8009673338254082
+mistral,transfer agent->shape mistral,123,2,20.123410558065892
+mistral,transfer agent->shape mistral,124,2,6.703617951753077
+mistral,transfer agent->shape mistral,126,0,24.27079515197371
+mistral,transfer agent->shape mistral,134,3,9.809186444459263
+mistral,transfer agent->shape mistral,135,2,10.940867782916376
+mistral,transfer agent->shape mistral,136,4,25.802067343773384
+mistral,transfer agent->shape mistral,145,1,10.145367159927789
+mistral,transfer agent->shape mistral,156,0,1.9023940599183853
+mistral,transfer agent->shape mistral,234,0,17.32925274886708
+mistral,transfer agent->shape mistral,235,3,8.738553629625173
+mistral,transfer agent->shape mistral,236,4,43.54315306980062
+mistral,transfer agent->shape mistral,245,2,11.203415853252864
+mistral,transfer agent->shape mistral,246,1,14.236816017847326
+mistral,transfer agent->shape mistral,256,3,2.90908818718505
+mistral,transfer agent->shape mistral,345,0,11.964636366078025
+mistral,transfer agent->shape mistral,346,4,33.645147839033164
+mistral,transfer agent->shape mistral,356,1,11.37411923300842
+mistral,transfer agent->shape mistral,456,1,11.66473859447458
+mistral,transfer agent->self mistral,123,2,11.441450457702084
+mistral,transfer agent->self mistral,124,2,28.0944885087399
+mistral,transfer agent->self mistral,126,0,11.009163590953145
+mistral,transfer agent->self mistral,134,3,23.83679541654011
+mistral,transfer agent->self mistral,135,2,46.84098646933086
+mistral,transfer agent->self mistral,136,4,24.473340176885557
+mistral,transfer agent->self mistral,145,1,32.47477124650482
+mistral,transfer agent->self mistral,156,0,7.707301290390485
+mistral,transfer agent->self mistral,234,0,34.46081982888622
+mistral,transfer agent->self mistral,235,3,8.863508825675167
+mistral,transfer agent->self mistral,236,4,7.907812709941808
+mistral,transfer agent->self mistral,245,2,28.705476853897427
+mistral,transfer agent->self mistral,246,1,9.9719393441375
+mistral,transfer agent->self mistral,256,3,3.013163159225936
+mistral,transfer agent->self mistral,345,0,54.834294802625685
+mistral,transfer agent->self mistral,346,4,25.578372306696696
+mistral,transfer agent->self mistral,356,1,6.369715443572395
+mistral,transfer agent->self mistral,456,1,2.5425382346360728
+mistral,transfer agent->generic mistral,123,2,9.867675989203006
+mistral,transfer agent->generic mistral,124,2,11.179336649884773
+mistral,transfer agent->generic mistral,126,0,2.12754719139761
+mistral,transfer agent->generic mistral,134,3,4.947042696263883
+mistral,transfer agent->generic mistral,135,2,5.644604965225344
+mistral,transfer agent->generic mistral,136,4,5.728571581767061
+mistral,transfer agent->generic mistral,145,1,2.3449578626968566
+mistral,transfer agent->generic mistral,156,0,1.3053641210152902
+mistral,transfer agent->generic mistral,234,0,12.275668675131614
+mistral,transfer agent->generic mistral,235,3,5.641451269333456
+mistral,transfer agent->generic mistral,236,4,4.502786445450851
+mistral,transfer agent->generic mistral,245,2,9.721271705905597
+mistral,transfer agent->generic mistral,246,1,1.89603856033787
+mistral,transfer agent->generic mistral,256,3,2.093868171112731
+mistral,transfer agent->generic mistral,345,0,12.385896452593004
+mistral,transfer agent->generic mistral,346,4,6.460296099505503
+mistral,transfer agent->generic mistral,356,1,4.819860465367782
+mistral,transfer agent->generic mistral,456,1,4.729339903282157
+mistral,history+output+direct act mistral,123,2,3.7996385765685226
+mistral,history+output+direct act mistral,124,2,0.7707704323238208
+mistral,history+output+direct act mistral,126,0,0.3896363496929108
+mistral,history+output+direct act mistral,134,3,0.42032350421113773
+mistral,history+output+direct act mistral,135,2,0.3977540686510275
+mistral,history+output+direct act mistral,136,4,0.4538684066775623
+mistral,history+output+direct act mistral,145,1,0.24845572246967942
+mistral,history+output+direct act mistral,156,0,0.2808842414188852
+mistral,history+output+direct act mistral,234,0,1.3474703353687894
+mistral,history+output+direct act mistral,235,3,0.3275429231497739
+mistral,history+output+direct act mistral,236,4,0.3255305825399142
+mistral,history+output+direct act mistral,245,2,0.2061420275860988
+mistral,history+output+direct act mistral,246,1,0.28920840111006757
+mistral,history+output+direct act mistral,256,3,0.3190885857323606
+mistral,history+output+direct act mistral,345,0,0.602144495198266
+mistral,history+output+direct act mistral,346,4,0.22514149554637272
+mistral,history+output+direct act mistral,356,1,0.3926754991992027
+mistral,history+output+direct act mistral,456,1,0.37503526312132324
+mistral,history+logits mistral,123,2,4.072484951466452
+mistral,history+logits mistral,124,2,0.8083178910447865
+mistral,history+logits mistral,126,0,0.4744367728644412
+mistral,history+logits mistral,134,3,0.692625154364049
+mistral,history+logits mistral,135,2,1.090876529468363
+mistral,history+logits mistral,136,4,0.8011865811640693
+mistral,history+logits mistral,145,1,0.4202284953770287
+mistral,history+logits mistral,156,0,0.31096026784125524
+mistral,history+logits mistral,234,0,1.8210614917937142
+mistral,history+logits mistral,235,3,0.5996925077988172
+mistral,history+logits mistral,236,4,0.7233430426685422
+mistral,history+logits mistral,245,2,0.14496242626537686
+mistral,history+logits mistral,246,1,0.47324554937516417
+mistral,history+logits mistral,256,3,0.27621921143514855
+mistral,history+logits mistral,345,0,0.43522187960603836
+mistral,history+logits mistral,346,4,0.41244502080463974
+mistral,history+logits mistral,356,1,0.43705999106518734
+mistral,history+logits mistral,456,1,0.38349484592006444
+mistral,history+logits+act mistral,123,2,4.185606305254445
+mistral,history+logits+act mistral,124,2,0.805671327158306
+mistral,history+logits+act mistral,126,0,0.4708542001435478
+mistral,history+logits+act mistral,134,3,0.692625154364049
+mistral,history+logits+act mistral,135,2,1.136213495039727
+mistral,history+logits+act mistral,136,4,0.8011865811640693
+mistral,history+logits+act mistral,145,1,0.4202284953770287
+mistral,history+logits+act mistral,156,0,0.2978512277336017
+mistral,history+logits+act mistral,234,0,1.9366359801359543
+mistral,history+logits+act mistral,235,3,0.5996925077988172
+mistral,history+logits+act mistral,236,4,0.7233430426685422
+mistral,history+logits+act mistral,245,2,0.17147233147015886
+mistral,history+logits+act mistral,246,1,0.47324554937516417
+mistral,history+logits+act mistral,256,3,0.27621921143514855
+mistral,history+logits+act mistral,345,0,0.394119203875158
+mistral,history+logits+act mistral,346,4,0.41244502080463974
+mistral,history+logits+act mistral,356,1,0.43705999106518734
+mistral,history+logits+act mistral,456,1,0.38349484592006444
+mistral,history+both outputs+act qwen,123,2,4.483808722724535
+mistral,history+both outputs+act qwen,124,2,0.8658766599552942
+mistral,history+both outputs+act qwen,126,0,0.517628005160698
+mistral,history+both outputs+act qwen,134,3,0.6509147211931473
+mistral,history+both outputs+act qwen,135,2,0.424304725553877
+mistral,history+both outputs+act qwen,136,4,0.6262834609284088
+mistral,history+both outputs+act qwen,145,1,0.43341839394802006
+mistral,history+both outputs+act qwen,156,0,0.32755425676028244
+mistral,history+both outputs+act qwen,234,0,1.709371449404185
+mistral,history+both outputs+act qwen,235,3,0.42341501137469795
+mistral,history+both outputs+act qwen,236,4,0.4213511003520005
+mistral,history+both outputs+act qwen,245,2,0.18945787603231704
+mistral,history+both outputs+act qwen,246,1,0.4867052911305936
+mistral,history+both outputs+act qwen,256,3,0.2734335789372215
+mistral,history+both outputs+act qwen,345,0,0.6282157085210053
+mistral,history+both outputs+act qwen,346,4,0.3299373770793498
+mistral,history+both outputs+act qwen,356,1,0.3906458868977815
+mistral,history+both outputs+act qwen,456,1,0.6027528943060334
+mistral,history+both outputs+act qwen+act mistral,123,2,4.051221951570674
+mistral,history+both outputs+act qwen+act mistral,124,2,0.9958321096583317
+mistral,history+both outputs+act qwen+act mistral,126,0,0.5121933071119303
+mistral,history+both outputs+act qwen+act mistral,134,3,0.5973718894738963
+mistral,history+both outputs+act qwen+act mistral,135,2,0.4541745492017691
+mistral,history+both outputs+act qwen+act mistral,136,4,0.5882341626277447
+mistral,history+both outputs+act qwen+act mistral,145,1,0.4266624410738571
+mistral,history+both outputs+act qwen+act mistral,156,0,0.3104893645025013
+mistral,history+both outputs+act qwen+act mistral,234,0,1.6552719979629895
+mistral,history+both outputs+act qwen+act mistral,235,3,0.4530433794251594
+mistral,history+both outputs+act qwen+act mistral,236,4,0.46113515905161434
+mistral,history+both outputs+act qwen+act mistral,245,2,0.19309760843920895
+mistral,history+both outputs+act qwen+act mistral,246,1,0.4685005889195966
+mistral,history+both outputs+act qwen+act mistral,256,3,0.2648922172077907
+mistral,history+both outputs+act qwen+act mistral,345,0,0.5110650458547278
+mistral,history+both outputs+act qwen+act mistral,346,4,0.4204833474393985
+mistral,history+both outputs+act qwen+act mistral,356,1,0.37677331689276644
+mistral,history+both outputs+act qwen+act mistral,456,1,0.39848675074770484

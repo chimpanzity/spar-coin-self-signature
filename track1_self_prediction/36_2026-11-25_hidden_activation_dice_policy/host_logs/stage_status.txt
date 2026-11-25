@@ -1,0 +1,4 @@
+validate exit 0
+run qwen exit 0 2026-11-25T17:02:40Z
+run mistral exit 0 2026-11-25T17:27:52Z
+ALL_DONE

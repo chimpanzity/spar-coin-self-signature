@@ -35,3 +35,14 @@ No scaffold reliably helps a model skip to roll 7 (1 of 24 standard cells correc
 | Report and figure | [exp35/REPORT.md](exp35/REPORT.md) |
 | Tables | [exp35/](exp35/) |
 | Protocol, raw data, checks (not copied) | [../track1_self_prediction/35_2026-11-25_roll7_prompt_scaffolding/](../track1_self_prediction/35_2026-11-25_roll7_prompt_scaffolding/) |
+
+## Experiment 36: hidden activations and dice policy
+
+No evidence that Qwen forecast activations carry Qwen-specific policy information beyond history and output (gain -0.035, CI -0.136 to
++0.047). The direct-activation positive control does not beat a history-only model, so the null is not sharp.
+
+| What | Where |
+|---|---|
+| Report and figure | [exp36/REPORT.md](exp36/REPORT.md) |
+| Tables | [exp36/](exp36/) |
+| Protocol, raw rows, checks (not copied) | [../track1_self_prediction/36_2026-11-25_hidden_activation_dice_policy/](../track1_self_prediction/36_2026-11-25_hidden_activation_dice_policy/) |

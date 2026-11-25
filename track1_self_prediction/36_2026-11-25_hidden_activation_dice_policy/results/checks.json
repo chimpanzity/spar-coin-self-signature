@@ -1,0 +1,66 @@
+{
+ "qwen": {
+  "pilot gates": true,
+  "full gates (replay, repeat, hooks off, projection, finite)": true,
+  "archival G/F replay": true,
+  "2,400 rows, frozen order and prompt hashes": true,
+  "array rows match metadata": true,
+  "pinned revision": true,
+  "array hashes": true,
+  "replay detail": {
+   "shape": {
+    "n": 47,
+    "max_dp": 0.0,
+    "bit_identical": 47
+   },
+   "self": {
+    "n": 8,
+    "max_dp": 0.0,
+    "bit_identical": 8
+   },
+   "generic": {
+    "n": 8,
+    "max_dp": 0.0,
+    "bit_identical": 8
+   },
+   "direct": {
+    "n": 61,
+    "max_dp": 0.0,
+    "bit_identical": 61
+   }
+  },
+  "projection_max_abs": 0.00012969970703125
+ },
+ "mistral": {
+  "pilot gates": true,
+  "full gates (replay, repeat, hooks off, projection, finite)": true,
+  "archival G/F replay": true,
+  "2,400 rows, frozen order and prompt hashes": true,
+  "array rows match metadata": true,
+  "pinned revision": true,
+  "array hashes": true,
+  "replay detail": {
+   "shape": {
+    "n": 47,
+    "max_dp": 0.0,
+    "bit_identical": 47
+   },
+   "self": {
+    "n": 8,
+    "max_dp": 0.0,
+    "bit_identical": 8
+   },
+   "generic": {
+    "n": 8,
+    "max_dp": 0.0,
+    "bit_identical": 8
+   },
+   "direct": {
+    "n": 61,
+    "max_dp": 0.0,
+    "bit_identical": 61
+   }
+  },
+  "projection_max_abs": 0.000110626220703125
+ }
+}

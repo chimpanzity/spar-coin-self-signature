@@ -1,0 +1,1938 @@
+{
+"('bias', 'qwen')": [
+[
+"()",
+10.0
+],
+[
+"()",
+10.0
+],
+[
+"()",
+3.1622776601683795
+],
+[
+"()",
+3.1622776601683795
+],
+[
+"()",
+10.0
+]
+],
+"('bias', 'mistral')": [
+[
+"()",
+3.1622776601683795
+],
+[
+"()",
+3.1622776601683795
+],
+[
+"()",
+10.0
+],
+[
+"()",
+0.001
+],
+[
+"()",
+10.0
+]
+],
+"('hist', 'qwen')": [
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.31622776601683794
+]
+],
+"('hist', 'mistral')": [
+[
+"(('hist', 'relational', 1.0),)",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0),)",
+0.1
+],
+[
+"(('hist', 'relational', 1.0),)",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'agent', 'b25', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 1.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 1.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 1.0))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'agent', 'b50', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'agent', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'agent', 'b100', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 1.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 10.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 1.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 1.0))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'agent', 'b75', 8)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'agent', 'b75', 16)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'agent', 'b75', 64)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'shape', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 1.0))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'self', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 1.0), ('act', 'qwen', 'self', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 1.0), ('act', 'qwen', 'self', 'b75', 32, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'qwen', 'generic', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 0.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 1.0))",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'agent', 'b75', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'shape', 'b75', 32)": [
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'self', 'b75', 32)": [
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'generic', 'b75', 32)": [
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'direct', 'b75', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+1.0
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'agent', 'b25', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.001
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'qwen', 'qwen', 'agent', 'b50', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'agent', 'b100', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'direct', 'b25', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'direct', 'b50', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'qwen', 'direct', 'b100', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.0031622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.01
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.0031622776601683794
+]
+],
+"('chain', 'qwen', 'mistral', 'agent', 'b25', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b25', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b25', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b25', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b25', 32, 1.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b25', 32, 0.1))",
+0.1
+]
+],
+"('chain', 'qwen', 'mistral', 'agent', 'b50', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b50', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b50', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b50', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b50', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b50', 32, 0.1))",
+0.1
+]
+],
+"('chain', 'qwen', 'mistral', 'agent', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 32, 0.1))",
+0.1
+]
+],
+"('chain', 'qwen', 'mistral', 'agent', 'b100', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.1
+]
+],
+"('chain', 'qwen', 'mistral', 'agent', 'b75', 8)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 8, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 8, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 8, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 8, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 8, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'mistral', 'agent', 'b75', 16)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 16, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 16, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 16, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 16, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 16, 0.1))",
+0.1
+]
+],
+"('chain', 'qwen', 'mistral', 'agent', 'b75', 64)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 64, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.1
+]
+],
+"('chain', 'qwen', 'mistral', 'shape', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'shape', 0.1), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'shape', 1.0), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'shape', 1.0), ('act', 'mistral', 'shape', 'b75', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'mistral', 'shape', 0.1), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'mistral', 'shape', 0.1), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.1
+]
+],
+"('chain', 'qwen', 'mistral', 'self', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 0.1), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.31622776601683794
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 0.1), ('act', 'mistral', 'self', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 0.1), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 0.1), ('act', 'mistral', 'self', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 1.0), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.31622776601683794
+]
+],
+"('chain', 'qwen', 'mistral', 'generic', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 0.1), ('act', 'mistral', 'generic', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 0.1), ('act', 'mistral', 'generic', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 0.1), ('act', 'mistral', 'generic', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 0.1), ('act', 'mistral', 'generic', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 1.0), ('act', 'mistral', 'generic', 'b75', 32, 0.1))",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'mistral', 'agent', 'b75', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+1.0
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'qwen', 'mistral', 'shape', 'b75', 32)": [
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+1.0
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+1.0
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'mistral', 'self', 'b75', 32)": [
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'qwen', 'mistral', 'generic', 'b75', 32)": [
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+1.0
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'qwen', 'mistral', 'direct', 'b75', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'qwen', 'mistral', 'agent', 'b25', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'mistral', 'agent', 'b50', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'mistral', 'agent', 'b100', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'qwen', 'mistral', 'direct', 'b25', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'mistral', 'direct', 'b50', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'qwen', 'mistral', 'direct', 'b100', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'agent', 'b25', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 0.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 0.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 10.0))",
+0.31622776601683794
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 0.0))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b25', 32, 10.0))",
+0.31622776601683794
+]
+],
+"('chain', 'mistral', 'qwen', 'agent', 'b50', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 10.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 0.1))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b50', 32, 1.0))",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'agent', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 1.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 0.1))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 32, 1.0))",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'agent', 'b100', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 1.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 1.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 0.1))",
+0.001
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b100', 32, 1.0))",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'agent', 'b75', 8)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 1.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 0.1))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 8, 1.0))",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'agent', 'b75', 16)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 1.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 0.1))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 16, 1.0))",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'agent', 'b75', 64)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 1.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 0.1))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'agent', 0.1), ('act', 'qwen', 'agent', 'b75', 64, 1.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'qwen', 'shape', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.0))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'shape', 0.1), ('act', 'qwen', 'shape', 'b75', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'qwen', 'shape', 1.0), ('act', 'qwen', 'shape', 'b75', 32, 0.1))",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'self', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 0.1))",
+0.001
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 1.0))",
+0.03162277660168379
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'qwen', 'self', 0.1), ('act', 'qwen', 'self', 'b75', 32, 1.0))",
+0.1
+]
+],
+"('chain', 'mistral', 'qwen', 'generic', 'b75', 32)": [
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 1.0), ('act', 'qwen', 'generic', 'b75', 32, 1.0))",
+0.01
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 0.1))",
+0.01
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'qwen', 'generic', 0.1), ('act', 'qwen', 'generic', 'b75', 32, 1.0))",
+0.03162277660168379
+]
+],
+"('actonly', 'mistral', 'qwen', 'agent', 'b75', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'qwen', 'shape', 'b75', 32)": [
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'qwen', 'self', 'b75', 32)": [
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'qwen', 'generic', 'b75', 32)": [
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'qwen', 'direct', 'b75', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'qwen', 'agent', 'b25', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'qwen', 'agent', 'b25', 32, 1.0),)",
+0.03162277660168379
+]
+],
+"('actonly', 'mistral', 'qwen', 'agent', 'b50', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'qwen', 'agent', 'b100', 32)": [
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'agent', 'b100', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'qwen', 'direct', 'b25', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'qwen', 'direct', 'b50', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'qwen', 'direct', 'b100', 32)": [
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'qwen', 'direct', 'b100', 32, 1.0),)",
+0.1
+]
+],
+"('chain', 'mistral', 'mistral', 'agent', 'b25', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b25', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b25', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 10.0), ('act', 'mistral', 'agent', 'b25', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b25', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b25', 32, 0.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'agent', 'b50', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b50', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b50', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 10.0), ('act', 'mistral', 'agent', 'b50', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b50', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b50', 32, 0.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'agent', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 10.0), ('act', 'mistral', 'agent', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 32, 0.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'agent', 'b100', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 10.0), ('act', 'mistral', 'agent', 'b100', 32, 1.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b100', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b100', 32, 10.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'agent', 'b75', 8)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 8, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 8, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 10.0), ('act', 'mistral', 'agent', 'b75', 8, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 8, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 8, 0.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'agent', 'b75', 16)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 16, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 16, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 10.0), ('act', 'mistral', 'agent', 'b75', 16, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 16, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 16, 0.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'agent', 'b75', 64)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 1.0), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 10.0), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 64, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'agent', 0.1), ('act', 'mistral', 'agent', 'b75', 64, 0.0))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'shape', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'shape', 0.1), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'mistral', 'shape', 0.1), ('act', 'mistral', 'shape', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'shape', 1.0), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'shape', 0.1), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'shape', 0.1), ('act', 'mistral', 'shape', 'b75', 32, 0.1))",
+0.03162277660168379
+]
+],
+"('chain', 'mistral', 'mistral', 'self', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 0.1), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'mistral', 'self', 0.1), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 1.0), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'mistral', 'self', 1.0), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'self', 1.0), ('act', 'mistral', 'self', 'b75', 32, 0.1))",
+0.1
+]
+],
+"('chain', 'mistral', 'mistral', 'generic', 'b75', 32)": [
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 0.1), ('act', 'mistral', 'generic', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'mistral', 'generic', 0.1), ('act', 'mistral', 'generic', 'b75', 32, 0.1))",
+0.03162277660168379
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 1.0), ('act', 'mistral', 'generic', 'b75', 32, 0.1))",
+0.1
+],
+[
+"(('hist', 'rbf2+relational', 1.0), ('out', 'mistral', 'generic', 1.0), ('act', 'mistral', 'generic', 'b75', 32, 0.0))",
+0.1
+],
+[
+"(('hist', 'relational', 1.0), ('out', 'mistral', 'generic', 1.0), ('act', 'mistral', 'generic', 'b75', 32, 0.1))",
+0.1
+]
+],
+"('actonly', 'mistral', 'mistral', 'agent', 'b75', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'mistral', 'shape', 'b75', 32)": [
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'shape', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'mistral', 'self', 'b75', 32)": [
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'self', 'b75', 32, 1.0),)",
+0.03162277660168379
+]
+],
+"('actonly', 'mistral', 'mistral', 'generic', 'b75', 32)": [
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'generic', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'mistral', 'direct', 'b75', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'direct', 'b75', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'mistral', 'agent', 'b25', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b25', 32, 1.0),)",
+0.31622776601683794
+]
+],
+"('actonly', 'mistral', 'mistral', 'agent', 'b50', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'agent', 'b50', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'mistral', 'agent', 'b100', 32)": [
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'agent', 'b100', 32, 1.0),)",
+0.03162277660168379
+]
+],
+"('actonly', 'mistral', 'mistral', 'direct', 'b25', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b25', 32, 1.0),)",
+0.03162277660168379
+]
+],
+"('actonly', 'mistral', 'mistral', 'direct', 'b50', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.1
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.31622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b50', 32, 1.0),)",
+0.1
+]
+],
+"('actonly', 'mistral', 'mistral', 'direct', 'b100', 32)": [
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.01
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.03162277660168379
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.0031622776601683794
+],
+[
+"(('act', 'mistral', 'direct', 'b100', 32, 1.0),)",
+0.001
+]
+]
+}

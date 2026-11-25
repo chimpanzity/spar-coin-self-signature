@@ -1,0 +1,73 @@
+target,model,favoured_face,pairs,mean_sq_error
+qwen,raw forecast qwen,1,135,44.71351294583964
+qwen,raw forecast qwen,2,92,38.124972349789594
+qwen,raw forecast qwen,3,92,12.403774947966363
+qwen,raw forecast qwen,4,40,4.939977134932085
+qwen,raw forecast qwen,5,65,7.688968485100287
+qwen,raw forecast qwen,6,224,16.82302229687247
+qwen,history,1,135,1.8377868780458013
+qwen,history,2,92,2.1747776371640732
+qwen,history,3,92,2.156328004288551
+qwen,history,4,40,7.029714169008807
+qwen,history,5,65,3.8739168267006043
+qwen,history,6,224,3.3227193868415625
+qwen,history+output qwen,1,135,1.9281118399689834
+qwen,history+output qwen,2,92,2.1627619381935377
+qwen,history+output qwen,3,92,2.2168730334465634
+qwen,history+output qwen,4,40,7.913197202897024
+qwen,history+output qwen,5,65,3.0809749629476513
+qwen,history+output qwen,6,224,3.4154106318472555
+qwen,history+output+act qwen b75,1,135,1.9776684217842195
+qwen,history+output+act qwen b75,2,92,2.344807232187663
+qwen,history+output+act qwen b75,3,92,2.18584121375645
+qwen,history+output+act qwen b75,4,40,8.293314865682452
+qwen,history+output+act qwen b75,5,65,3.2671677035088984
+qwen,history+output+act qwen b75,6,224,3.3674351378674925
+qwen,history+output+act mistral b75,1,135,1.6819821880599626
+qwen,history+output+act mistral b75,2,92,2.6769400062543696
+qwen,history+output+act mistral b75,3,92,2.148984248317236
+qwen,history+output+act mistral b75,4,40,5.023925867682609
+qwen,history+output+act mistral b75,5,65,2.812958360150163
+qwen,history+output+act mistral b75,6,224,2.624861252956162
+qwen,act only qwen direct b75,1,135,2.2619014245409144
+qwen,act only qwen direct b75,2,92,3.120740760852805
+qwen,act only qwen direct b75,3,92,1.5862827779652826
+qwen,act only qwen direct b75,4,40,7.703323491284453
+qwen,act only qwen direct b75,5,65,4.951801971498326
+qwen,act only qwen direct b75,6,224,3.9024062253030922
+mistral,raw forecast qwen,1,228,35.01194176413513
+mistral,raw forecast qwen,2,79,35.978477219741556
+mistral,raw forecast qwen,3,61,8.31271978500316
+mistral,raw forecast qwen,4,53,5.026800739046735
+mistral,raw forecast qwen,5,36,6.566778104493242
+mistral,raw forecast qwen,6,191,7.514868158000239
+mistral,history,1,228,0.8056120404000279
+mistral,history,2,79,0.9959278356343993
+mistral,history,3,61,0.6386447963650173
+mistral,history,4,53,2.6652705577300244
+mistral,history,5,36,2.896246229984803
+mistral,history,6,191,0.7921938499280113
+mistral,history+output qwen,1,228,0.6669695761934066
+mistral,history+output qwen,2,79,0.957347671345608
+mistral,history+output qwen,3,61,0.5520557676077199
+mistral,history+output qwen,4,53,2.590884590051564
+mistral,history+output qwen,5,36,2.504213965710495
+mistral,history+output qwen,6,191,0.7741251574243225
+mistral,history+output+act qwen b75,1,228,0.6788036244980225
+mistral,history+output+act qwen b75,2,79,0.8299203158628112
+mistral,history+output+act qwen b75,3,61,0.4826081469807752
+mistral,history+output+act qwen b75,4,53,2.8152764174763854
+mistral,history+output+act qwen b75,5,36,2.1906912848606828
+mistral,history+output+act qwen b75,6,191,0.6727144357558043
+mistral,history+output+act mistral b75,1,228,0.7853917826924675
+mistral,history+output+act mistral b75,2,79,1.0075157329185056
+mistral,history+output+act mistral b75,3,61,0.5156607957866303
+mistral,history+output+act mistral b75,4,53,1.6894818857974496
+mistral,history+output+act mistral b75,5,36,2.3160649603697356
+mistral,history+output+act mistral b75,6,191,0.6620646407471524
+mistral,act only qwen direct b75,1,228,0.6917257047183357
+mistral,act only qwen direct b75,2,79,0.9025367261564713
+mistral,act only qwen direct b75,3,61,0.5540367351844989
+mistral,act only qwen direct b75,4,53,1.533958443283471
+mistral,act only qwen direct b75,5,36,4.355789804255796
+mistral,act only qwen direct b75,6,191,0.6053062548129249

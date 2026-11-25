@@ -1,0 +1,51 @@
+{
+ "replay": {
+  "ok": true,
+  "by_mode": {
+   "shape": {
+    "n": 47,
+    "max_dp": 0.0,
+    "bit_identical": 47
+   },
+   "self": {
+    "n": 8,
+    "max_dp": 0.0,
+    "bit_identical": 8
+   },
+   "generic": {
+    "n": 8,
+    "max_dp": 0.0,
+    "bit_identical": 8
+   },
+   "direct": {
+    "n": 61,
+    "max_dp": 0.0,
+    "bit_identical": 61
+   }
+  }
+ },
+ "repeat": {
+  "n": 2400,
+  "score_mismatches": 0,
+  "state_mismatches": 0,
+  "ok": true
+ },
+ "hook_off": {
+  "n": 2400,
+  "mismatches": 0,
+  "ok": true
+ },
+ "finite": true,
+ "projection_max_abs": 0.000110626220703125,
+ "last_token": [
+  [
+   false,
+   4
+  ],
+  [
+   true,
+   1032
+  ]
+ ],
+ "ok": true
+}
