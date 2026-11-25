@@ -1,0 +1,23 @@
+checkpoint,subject,valid,content,repeated_faces_first_six,first_six_permutation,matches_qwen,first_divergence_qwen,matches_mistral,first_divergence_mistral
+qwen,neutral,True,5 2 6 3 1 4 2 5 3 6,0,True,6,7,3,1
+qwen,blue,True,5 3 1 6 2 4 3 5 1 6,0,True,2,2,0,1
+qwen,orange,True,5 3 1 6 2 4 3 5 1 6,0,True,2,2,0,1
+qwen,pointy,True,5 1 3 6 2 4 1 5 3 6,0,True,2,2,0,1
+qwen,round,True,5 3 1 6 2 4 3 5 1 6,0,True,2,2,0,1
+qwen,angry,True,5 2 6 1 4 3 6 2 5 1,0,True,6,4,4,1
+qwen,calm,True,1 2 3 4 5 6 1 2 3 4,0,True,2,1,1,1
+qwen,identical,True,5 2 6 3 1 4 3 6 2 5,0,True,6,7,2,1
+qwen,name_qwen,True,5 2 6 1 4 3 2 5 6 1,0,True,3,4,6,1
+qwen,name_mistral,True,4 2 6 1 3 5 2 5 1 6,0,True,2,1,7,8
+mistral,neutral,False,"Since the roller is hypothetical and no specific pattern or bias is provided, the most straightforward approach is to si",,,,,,
+mistral,blue,False,"Since the roller is described as ""blue"" and there are no earlier rolls to establish a pattern, we can assume the rolls a",,,,,,
+mistral,orange,False,"Since the roller is described as ""orange"" and there are no earlier rolls to establish a pattern, we can assume the rolls",,,,,,
+mistral,pointy,False,"Given that the roller is described as ""pointy"" and there are no earlier rolls to influence the sequence, we can assume t",,,,,,
+mistral,round,False,"Since the roller is described as ""round"" and there are no earlier rolls to influence the sequence, we can assume the rol",,,,,,
+mistral,angry,False,"Given that the roller is described as ""angry"" and there are no earlier rolls to influence the sequence, we can assume th",,,,,,
+mistral,calm,False,"Given that the roller is described as ""calm"" and there are no earlier rolls to influence the sequence, we can assume the",,,,,,
+mistral,identical,False,"Since the roller is hypothetical and has no prior rolls or biases, each roll is independent and uniformly distributed be",,,,,,
+mistral,name_qwen,False,"Since the roller is a deterministic model (Qwen/Qwen3-32B) and no earlier rolls are provided, the output will be based o",,,,,,
+mistral,name_mistral,False,"Here is a predicted sequence of 10 simulated rolls of a six-sided die:
+
+1 3 5 2 4 6 1 3 5 2",,,,,,

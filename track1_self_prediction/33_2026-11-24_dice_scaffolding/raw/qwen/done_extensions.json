@@ -1,0 +1,23 @@
+{
+  "phase": "extensions",
+  "model": "qwen",
+  "finished_utc": "2026-11-25T06:07:51.856603+00:00",
+  "seconds": 2573.9,
+  "files": {
+    "archival_core.jsonl": "f61fdd5cd9cc1a90d16f4ee404b053ef63a1a15ac286720e684f77f99c4bec0d",
+    "archival_extensions.jsonl": "d494e24bb75899ba35704da89d8923f0adcaa81ecba122bde9da940d099fa7ac",
+    "association_scores.json": "c6861d75a400aaa1b8caad1eaf340ca2744ade8c7443dce59b0d3991293f7d78",
+    "association_seal.json": "242ac21922f4e1e887f9f117484a4d89b9ed1fb5f3fc4f8278c81fa41adf9b04",
+    "associations.jsonl": "b03917a8c147f4b4a9c3397b5bf400f861ddcaca5abf14b04d30a7f6a415e11c",
+    "direct_core.jsonl": "ab85bade5f3822353f179a5b91547f37540324e90e971add33d50618b88f550d",
+    "direct_extensions.jsonl": "845d7ca463a61b749c33b5af23fa75bdcab51acd25365746e383446616daad4f",
+    "env_core.json": "6075919b17426975c98183a40115a8cb6eeaad2b81063da638d6cf3fce401341",
+    "env_extensions.json": "5ff08e439b6da63bc8570be8fef6b18e61c392d52b03240c5c198938c30d1bfc",
+    "facts.jsonl": "8a66fe1f6d05fe46a87ea5134b7d615564bfc0637291075ad51f24c775c8135d",
+    "forecasts_core.jsonl": "36d10728458b032b7895cd0a2975c0749f93b34e009a791ffc0d200a3fec670c",
+    "forecasts_extensions.jsonl": "66419bc917771fd5a195d747b3e07b421a5312e7893a62f1b8c11cde6a84acff",
+    "generations.jsonl": "24f42ad100b5aa6eb316f83e30014d8fc16d71e536abe1a0c5d09331a27b7756"
+  },
+  "run_id": "qwen-extensions-20261125T052458Z",
+  "max_memory_allocated_gb": 66.82
+}

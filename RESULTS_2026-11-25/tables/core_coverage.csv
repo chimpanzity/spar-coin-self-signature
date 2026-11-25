@@ -1,0 +1,143 @@
+phase,arm,condition,checkpoint,n,median_mass,min_mass,greedy_is_face,low_mass_flag,mean_chars,mean_tokens
+core,plain,"[""T1"", ""plain"", null, ""a shape""]",qwen,112,0.9893377305450293,0.9568653346072654,1.0,False,405.0,114.0
+core,plain,"[""T1"", ""plain"", null, ""a shape""]",mistral,112,0.15819284055919877,0.11235340339138326,0.0,True,405.0,114.0
+core,plain,"[""T1"", ""plain"", null, ""a shape with no further description""]",qwen,112,0.9923181664687865,0.9764350161147417,1.0,False,433.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape with no further description""]",mistral,112,0.0730020648810479,0.03517655980970064,0.0,True,433.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as red""]",qwen,112,0.988520551281782,0.9709790898405697,1.0,False,422.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as red""]",mistral,112,0.1784059809575813,0.12527248735836116,0.0,True,422.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as green""]",qwen,112,0.9895307394378855,0.9702848535578762,1.0,False,424.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as green""]",mistral,112,0.18195311911065482,0.11849973854132388,0.0,True,424.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as narrow""]",qwen,112,0.9897854465117646,0.9655676740227735,1.0,False,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as narrow""]",mistral,112,0.12611958795103223,0.080556602134471,0.0,True,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as wide""]",qwen,112,0.9939133793684961,0.970159689744884,1.0,False,423.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as wide""]",mistral,112,0.1331589624066233,0.08834389277588528,0.0,True,423.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as sad""]",qwen,112,0.979680195476631,0.942334957318773,1.0,False,422.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as sad""]",mistral,112,0.15441164353050518,0.11597559084788557,0.0,True,422.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as cheerful""]",qwen,112,0.9951247680114526,0.9806238765421572,1.0,False,427.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as cheerful""]",mistral,112,0.10203216321657968,0.06518988757377765,0.0,True,427.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as bothered""]",qwen,112,0.9855488077615768,0.9549153813664122,1.0,False,427.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as bothered""]",mistral,112,0.0927736052747557,0.06402477532899004,0.0,True,427.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as unbothered""]",qwen,112,0.9869910191765034,0.9571783504490848,1.0,False,429.0,120.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as unbothered""]",mistral,112,0.19203406244090218,0.12656376222981403,0.0,True,429.0,119.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as restless""]",qwen,112,0.9891827491707073,0.9617388969416064,1.0,False,427.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as restless""]",mistral,112,0.07172433674496342,0.05015705193530603,0.0,True,427.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as settled""]",qwen,112,0.9829693205148466,0.9496206551241722,1.0,False,426.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as settled""]",mistral,112,0.07601176017993666,0.04405895321636373,0.0,True,426.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as uneasy""]",qwen,112,0.9848932830825149,0.9590135810689862,1.0,False,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as uneasy""]",mistral,112,0.07810505501091823,0.05215453203922495,0.0,True,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as confident""]",qwen,112,0.9955402783539775,0.9794378858484531,1.0,False,428.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as confident""]",mistral,112,0.12342578027667082,0.0863891186713783,0.0,True,428.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as blue""]",qwen,112,0.990225790706057,0.9719642284366209,1.0,False,423.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as blue""]",mistral,112,0.1748326461905959,0.12268410591379367,0.0,True,423.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as orange""]",qwen,112,0.9854929153659377,0.9604981512371553,1.0,False,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as orange""]",mistral,112,0.19215018101622988,0.12833742731113554,0.0,True,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as yellow""]",qwen,112,0.9878974856479124,0.9541455935831379,1.0,False,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as yellow""]",mistral,112,0.1632925252104538,0.107258610550273,0.0,True,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as violet""]",qwen,112,0.9905168695604173,0.9668365673454921,1.0,False,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as violet""]",mistral,112,0.15708163862240465,0.10954686259750514,0.0,True,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as pointy""]",qwen,112,0.9860468123502355,0.9442327529275739,1.0,False,425.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as pointy""]",mistral,112,0.08691424422045842,0.04824549957176352,0.0,True,425.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as round""]",qwen,112,0.9831405226144431,0.9431054466720571,1.0,False,424.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as round""]",mistral,112,0.17873796594273725,0.12057474677712081,0.0,True,424.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as jagged""]",qwen,112,0.9833752167686902,0.9439622122904622,1.0,False,425.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as jagged""]",mistral,112,0.055675417534174224,0.03130325921939137,0.0,True,425.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as smooth""]",qwen,112,0.990168032577117,0.9656389017406325,1.0,False,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as smooth""]",mistral,112,0.1240167725686209,0.07759730003159121,0.0,True,425.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as angry""]",qwen,112,0.9875776570868431,0.9641525474735577,1.0,False,424.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as angry""]",mistral,112,0.11978803779233893,0.08573513015389846,0.0,True,424.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as calm""]",qwen,112,0.9928877774094036,0.9730110860473794,1.0,False,423.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as calm""]",mistral,112,0.14453608942221352,0.1068717905075001,0.0,True,423.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as angsty""]",qwen,112,0.9884618287348412,0.9694009272475017,1.0,False,425.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as angsty""]",mistral,112,0.08548536719971772,0.0579945713018028,0.0,True,425.0,118.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as composed""]",qwen,112,0.9827960347701923,0.9416838104863718,1.0,False,427.0,117.0
+core,plain,"[""T1"", ""plain"", null, ""a shape described as composed""]",mistral,112,0.05024484665414101,0.024061057337561753,0.0,True,427.0,117.0
+core,t2,"[""T2"", ""plain"", null, ""a shape""]",qwen,28,0.9672182122160743,0.8625032186402635,1.0,False,403.0,116.0
+core,t2,"[""T2"", ""plain"", null, ""a shape""]",mistral,28,0.008339900492620955,0.004395545023138371,0.0,True,403.0,115.0
+core,t2,"[""T2"", ""plain"", null, ""a shape with no further description""]",qwen,28,0.9843450107021412,0.9285903755985033,1.0,False,431.0,120.0
+core,t2,"[""T2"", ""plain"", null, ""a shape with no further description""]",mistral,28,0.009943151833814425,0.004966339941071699,0.0,True,431.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as blue""]",qwen,28,0.9636784150962101,0.701890227331555,1.0,False,421.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as blue""]",mistral,28,0.02313462642382628,0.015080412130420206,0.0,True,421.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as orange""]",qwen,28,0.9493755986502262,0.6339608667955783,1.0,False,423.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as orange""]",mistral,28,0.022341512013888024,0.013440341801903996,0.0,True,423.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as yellow""]",qwen,28,0.9685766092714638,0.7049280604185786,1.0,False,423.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as yellow""]",mistral,28,0.018532723194011617,0.01257302283373199,0.0,True,423.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as violet""]",qwen,28,0.9715878972604471,0.7473765512669052,1.0,False,423.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as violet""]",mistral,28,0.023512234926813716,0.015651517516086323,0.0,True,423.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as pointy""]",qwen,28,0.9638685056389873,0.8270753654652544,1.0,False,423.0,120.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as pointy""]",mistral,28,0.0025905727119469243,0.0014572515032013314,0.0,True,423.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as round""]",qwen,28,0.9520111610208346,0.7026418630038801,1.0,False,422.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as round""]",mistral,28,0.018198723153475378,0.012605213014930228,0.0,True,422.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as jagged""]",qwen,28,0.9536153354112737,0.8981721054192414,1.0,False,423.0,120.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as jagged""]",mistral,28,0.003143469737027044,0.002007026736607727,0.0,True,423.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as smooth""]",qwen,28,0.9711843631749686,0.8721986764498819,1.0,False,423.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as smooth""]",mistral,28,0.006678610511259906,0.004331731020983307,0.0,True,423.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as angry""]",qwen,28,0.9277714074648793,0.776655396341991,1.0,False,422.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as angry""]",mistral,28,0.01266315380982793,0.00829357194367054,0.0,True,422.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as calm""]",qwen,28,0.9695927298927312,0.9005590991641887,1.0,False,421.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as calm""]",mistral,28,0.008197987837025694,0.0048506713241237,0.0,True,421.0,118.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as angsty""]",qwen,28,0.9230786343686601,0.852341366452413,1.0,False,423.0,120.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as angsty""]",mistral,28,0.009649914463872852,0.007344127570892716,0.0,True,423.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as composed""]",qwen,28,0.9503274149190724,0.7700100815033566,1.0,False,425.0,119.0
+core,t2,"[""T2"", ""plain"", null, ""a shape described as composed""]",mistral,28,0.005053763487375626,0.0032616229834427557,0.0,True,425.0,118.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape""]",qwen,28,0.9969412575686065,0.9872401342582949,1.0,False,510.0,136.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape""]",mistral,28,0.24533303257859207,0.1576554784547216,0.0,True,510.0,136.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as blue""]",qwen,28,0.9967641239124454,0.9867812375512368,1.0,False,528.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as blue""]",mistral,28,0.2718991640181252,0.18240624130344293,0.0,True,528.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as orange""]",qwen,28,0.9963330035050056,0.9854741317402546,1.0,False,530.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as orange""]",mistral,28,0.2967366120030496,0.211184337734772,0.0,True,530.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as pointy""]",qwen,28,0.9955100204603883,0.9829098195781061,1.0,False,530.0,140.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as pointy""]",mistral,28,0.143729525803779,0.1028755617764122,0.0,True,530.0,140.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as round""]",qwen,28,0.9960371737479385,0.9818223921831701,1.0,False,529.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as round""]",mistral,28,0.21338977942201767,0.13532767465880724,0.0,True,529.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as angry""]",qwen,28,0.9986155619373394,0.9879933947894879,1.0,False,529.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as angry""]",mistral,28,0.20118038517877918,0.149233951063301,0.0,True,529.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as calm""]",qwen,28,0.9973878415933854,0.9881569133918204,1.0,False,528.0,139.0
+core,scaffold,"[""T1"", ""physical"", null, ""a shape described as calm""]",mistral,28,0.333780035549306,0.23419966675775059,0.0,True,528.0,139.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape""]",qwen,28,0.9955455790016543,0.9895107972018417,1.0,False,527.0,134.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape""]",mistral,28,0.06641419781801414,0.04434473427510138,0.0,True,527.0,134.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as blue""]",qwen,28,0.9958714472756883,0.984753683664969,1.0,False,545.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as blue""]",mistral,28,0.09449076964041367,0.060200133031346734,0.0,True,545.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as orange""]",qwen,28,0.9942054207737561,0.9821376909652253,1.0,False,547.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as orange""]",mistral,28,0.1277289738461509,0.07765663533349325,0.0,True,547.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as pointy""]",qwen,28,0.9824043050580983,0.9265425800530492,1.0,False,547.0,138.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as pointy""]",mistral,28,0.04095765676943235,0.025802341929834948,0.0,True,547.0,138.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as round""]",qwen,28,0.9869950750356851,0.9655760338363484,1.0,False,546.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as round""]",mistral,28,0.10787983815506086,0.07054541443426576,0.0,True,546.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as angry""]",qwen,28,0.9952391155012672,0.983913294370446,1.0,False,546.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as angry""]",mistral,28,0.049573831794570714,0.02970276274218895,0.0,True,546.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as calm""]",qwen,28,0.9926958771262058,0.9645472939817736,1.0,False,545.0,137.0
+core,scaffold,"[""T1"", ""textual"", null, ""a shape described as calm""]",mistral,28,0.0868828347416672,0.052407249889305695,0.0,True,545.0,137.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape""]",qwen,28,0.9936961164691381,0.9828351409125399,1.0,False,517.0,133.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape""]",mistral,28,0.20063904312868858,0.16206059969546516,0.0,True,517.0,133.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as blue""]",qwen,28,0.9904883984574313,0.9785712774054824,1.0,False,535.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as blue""]",mistral,28,0.24649320363773516,0.20279947614140073,0.0,True,535.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as orange""]",qwen,28,0.9877677104067332,0.9737394279538769,1.0,False,537.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as orange""]",mistral,28,0.265485326793782,0.22661855917420373,0.0,True,537.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as pointy""]",qwen,28,0.9893987788100178,0.9667034475515236,1.0,False,537.0,137.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as pointy""]",mistral,28,0.15624923418715111,0.128543206344665,0.0,True,537.0,137.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as round""]",qwen,28,0.9902437038952829,0.9797228588764079,1.0,False,536.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as round""]",mistral,28,0.2446577692312348,0.2044223003533452,0.0,True,536.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as angry""]",qwen,28,0.9911960340059311,0.96514383492468,1.0,False,536.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as angry""]",mistral,28,0.17882619320417972,0.1461061260321476,0.0,True,536.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as calm""]",qwen,28,0.9924352602894952,0.9568758931354061,1.0,False,535.0,136.0
+core,scaffold,"[""T1"", ""preamble"", null, ""a shape described as calm""]",mistral,28,0.19216898239751473,0.15893795980739447,0.0,True,535.0,136.0
+core,identity,"[""T1"", ""plain"", null, ""the language model answering this forecast""]",qwen,28,0.999034176567946,0.9954441482012548,1.0,False,440.0,118.0
+core,identity,"[""T1"", ""plain"", null, ""the language model answering this forecast""]",mistral,28,0.2899808499874789,0.20103406910339802,0.03571428571428571,True,440.0,118.0
+core,identity,"[""T1"", ""plain"", null, ""another instance of the exact checkpoint answering this forecast, with identical weights""]",qwen,28,0.9990824655884243,0.9958917212797551,1.0,False,486.0,125.0
+core,identity,"[""T1"", ""plain"", null, ""another instance of the exact checkpoint answering this forecast, with identical weights""]",mistral,28,0.1251742584071127,0.07457531074402912,0.0,True,486.0,125.0
+core,identity,"[""T1"", ""plain"", null, ""another language model""]",qwen,28,0.998174705836611,0.987418649250939,1.0,False,420.0,115.0
+core,identity,"[""T1"", ""plain"", null, ""another language model""]",mistral,28,0.14127726793023085,0.10087756385625082,0.0,True,420.0,115.0
+core,identity,"[""T1"", ""plain"", null, ""a language model""]",qwen,28,0.9985269218706556,0.979451602238467,1.0,False,414.0,115.0
+core,identity,"[""T1"", ""plain"", null, ""a language model""]",mistral,28,0.206931101310166,0.14544802506297783,0.0,True,414.0,115.0
+core,identity,"[""T1"", ""plain"", null, ""Qwen/Qwen3-32B""]",qwen,28,0.9964669276570639,0.985910408941407,1.0,False,412.0,121.0
+core,identity,"[""T1"", ""plain"", null, ""Qwen/Qwen3-32B""]",mistral,28,0.30062246008097315,0.23856803131395674,0.0,True,412.0,121.0
+core,identity,"[""T1"", ""plain"", null, ""mistralai/Mistral-Small-3.2-24B-Instruct-2506""]",qwen,28,0.9951418635314673,0.984073853612484,1.0,False,443.0,135.0
+core,identity,"[""T1"", ""plain"", null, ""mistralai/Mistral-Small-3.2-24B-Instruct-2506""]",mistral,28,0.295160550150142,0.24872702112822737,0.0,True,443.0,135.0
+core,identity,"[""T1"", ""plain"", null, ""the group referred to by \""we\""""]",qwen,28,0.9867684198050586,0.9712858854445492,1.0,False,427.0,119.0
+core,identity,"[""T1"", ""plain"", null, ""the group referred to by \""we\""""]",mistral,28,0.13267593982746922,0.07218828994823918,0.0,True,427.0,119.0
+core,worked,"[""T1"", ""plain"", null, ""a shape""]",qwen,3,0.9821304658380718,0.9816164467933253,1.0,False,403.0,112.0
+core,worked,"[""T1"", ""plain"", null, ""a shape""]",mistral,3,0.1297687589966358,0.11513166324286658,0.0,True,403.0,112.0
+core,worked,"[""T1"", ""plain"", null, ""a shape described as blue""]",qwen,3,0.9877333105379711,0.9842068034051191,1.0,False,421.0,115.0
+core,worked,"[""T1"", ""plain"", null, ""a shape described as blue""]",mistral,3,0.12587534652879673,0.12204036632520184,0.0,True,421.0,115.0
+core,worked,"[""T1"", ""plain"", null, ""a shape described as orange""]",qwen,3,0.9777475307015862,0.9719469147973206,1.0,False,423.0,115.0
+core,worked,"[""T1"", ""plain"", null, ""a shape described as orange""]",mistral,3,0.15957675945482125,0.14378942510334283,0.0,True,423.0,115.0

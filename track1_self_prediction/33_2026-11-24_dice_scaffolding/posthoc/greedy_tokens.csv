@@ -1,0 +1,16 @@
+checkpoint,phase,n_rows,greedy_token,count
+qwen,core,4094,'6',2342
+qwen,core,4094,'4',655
+qwen,core,4094,'5',598
+qwen,core,4094,'3',419
+qwen,core,4094,'2',80
+qwen,extensions,1356,'6',739
+qwen,extensions,1356,'5',292
+qwen,extensions,1356,'4',233
+qwen,extensions,1356,'3',80
+qwen,extensions,1356,'2',12
+mistral,core,4094,'Given',4093
+mistral,core,4094,'3',1
+mistral,extensions,1356,'Given',1353
+mistral,extensions,1356,'Since',2
+mistral,extensions,1356,'3',1

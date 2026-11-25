@@ -1,0 +1,13 @@
+bank,checkpoint,left,right,a,S_left_minus_S_right,directional_test,own_improvement,families_positive,n_families
+primary: confirmatory pairs x confirmatory histories,qwen,blue,orange,1.0510113925702171,0.0007234089123063468,0.0007234089123063468,0.0009713540762892529,7,12
+primary: confirmatory pairs x confirmatory histories,qwen,yellow,violet,0.015443811629666016,-0.0017980337196670485,-0.0017980337196670485,0.012675715738247405,6,12
+primary: confirmatory pairs x confirmatory histories,qwen,pointy,round,-1.6649410527315922,-0.000637550079269519,0.000637550079269519,-0.003122069896430936,5,12
+primary: confirmatory pairs x confirmatory histories,qwen,jagged,smooth,-3.9899806026223814,0.010987257118745581,-0.010987257118745581,-0.04276357697299806,6,12
+primary: confirmatory pairs x confirmatory histories,qwen,angry,calm,-4.542659069409638,0.011792667749557317,-0.011792667749557317,-0.055177306350773676,5,12
+primary: confirmatory pairs x confirmatory histories,qwen,angsty,composed,-5.450294914411643,0.011833041378430031,-0.011833041378430031,-0.014624034779229203,4,12
+primary: confirmatory pairs x confirmatory histories,mistral,blue,orange,0.2319257501512766,0.004986949327562607,0.004986949327562607,-0.03920847005710263,10,12
+primary: confirmatory pairs x confirmatory histories,mistral,yellow,violet,0.4171888558194041,0.003797462449325687,0.003797462449325687,-0.03525577174856378,10,12
+primary: confirmatory pairs x confirmatory histories,mistral,pointy,round,-0.24461341835558414,0.011108843619872332,-0.011108843619872332,-0.049932495133527995,2,12
+primary: confirmatory pairs x confirmatory histories,mistral,jagged,smooth,-0.4836015668697655,-0.002161762984824543,0.002161762984824543,-0.030469696837888666,6,12
+primary: confirmatory pairs x confirmatory histories,mistral,angry,calm,-0.6703755799680948,0.004967162263636527,-0.004967162263636527,-0.027356686777675745,4,12
+primary: confirmatory pairs x confirmatory histories,mistral,angsty,composed,-0.43195772310718894,-0.018124485237042822,0.018124485237042822,-0.07903588967407287,9,12

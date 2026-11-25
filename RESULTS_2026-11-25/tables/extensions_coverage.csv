@@ -1,0 +1,71 @@
+phase,arm,condition,checkpoint,n,median_mass,min_mass,greedy_is_face,low_mass_flag,mean_chars,mean_tokens
+extensions,factual,"[""T1"", ""plain"", null, ""a language model from a developer based in China""]",qwen,28,0.9983842911850608,0.9855389158216697,1.0,False,446.0,121.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model from a developer based in China""]",mistral,28,0.21239647190011446,0.12600311733135286,0.0,True,446.0,121.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model from a developer based in France""]",qwen,28,0.9974624954339655,0.9840228946519713,1.0,False,447.0,121.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model from a developer based in France""]",mistral,28,0.17874968645202718,0.11562939634907345,0.0,True,447.0,121.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model developed by Alibaba""]",qwen,28,0.9982100233392053,0.9894702227565916,1.0,False,435.0,118.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model developed by Alibaba""]",mistral,28,0.19930978837201085,0.12436500175015582,0.0,True,435.0,120.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model developed by Mistral AI""]",qwen,28,0.996598776934468,0.959848242872528,1.0,False,438.0,120.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model developed by Mistral AI""]",mistral,28,0.31121345482362944,0.21156528372793848,0.03571428571428571,True,438.0,120.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model with approximately 32 billion parameters""]",qwen,28,0.9986617647719146,0.9896077339685917,1.0,False,455.0,122.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model with approximately 32 billion parameters""]",mistral,28,0.1998881272652484,0.13987502995002782,0.0,True,455.0,122.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model with approximately 24 billion parameters""]",qwen,28,0.9983353590087256,0.9864415198212554,1.0,False,455.0,122.0
+extensions,factual,"[""T1"", ""plain"", null, ""a language model with approximately 24 billion parameters""]",mistral,28,0.18658897967265997,0.13400012855952687,0.0,True,455.0,122.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as blue and pointy""]",qwen,28,0.9847523396771856,0.86185962569072,1.0,False,434.0,120.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as blue and pointy""]",mistral,28,0.15205519699416828,0.09502456669743635,0.0,True,434.0,120.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as blue and round""]",qwen,28,0.9879502894329968,0.9543080599115956,1.0,False,433.0,119.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as blue and round""]",mistral,28,0.19045857373489125,0.11205759407276138,0.0,True,433.0,119.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as orange and pointy""]",qwen,28,0.9759230623350184,0.8711849590442783,1.0,False,436.0,120.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as orange and pointy""]",mistral,28,0.17009968278388454,0.1007092583735897,0.0,True,436.0,120.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as orange and round""]",qwen,28,0.9842356590608123,0.9415872596930807,1.0,False,435.0,119.0
+extensions,objects,"[""T1"", ""plain"", null, ""a shape described as orange and round""]",mistral,28,0.2007927366352691,0.12615933040204713,0.0,True,435.0,119.0
+extensions,objects,"[""T1"", ""plain"", null, ""a square described as angry""]",qwen,28,0.9864021558575932,0.957397449553795,1.0,False,425.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a square described as angry""]",mistral,28,0.09353874428751793,0.06501869410587546,0.0,True,425.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a circle described as angry""]",qwen,28,0.982593203828386,0.9422597770170342,1.0,False,425.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a circle described as angry""]",mistral,28,0.12029058292408054,0.08555739762473748,0.0,True,425.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a square described as sad""]",qwen,28,0.987172292214273,0.9390036825458499,1.0,False,423.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a square described as sad""]",mistral,28,0.13794097428965618,0.09207032530194514,0.0,True,423.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a circle described as sad""]",qwen,28,0.980880218819608,0.9627197652790412,1.0,False,423.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a circle described as sad""]",mistral,28,0.17067235974242884,0.11899381581105403,0.0,True,423.0,117.0
+extensions,objects,"[""T1"", ""plain"", null, ""a square""]",qwen,28,0.9586318271417817,0.8754173277279266,1.0,False,406.0,114.0
+extensions,objects,"[""T1"", ""plain"", null, ""a square""]",mistral,28,0.11416537255081557,0.07232959231450328,0.0,True,406.0,114.0
+extensions,objects,"[""T1"", ""plain"", null, ""a circle""]",qwen,28,0.9520690518737314,0.7953844986636205,1.0,False,406.0,114.0
+extensions,objects,"[""T1"", ""plain"", null, ""a circle""]",mistral,28,0.12244813138977748,0.0832758066088174,0.0,True,406.0,114.0
+extensions,objects,"[""T1"", ""plain"", null, ""a blue square""]",qwen,28,0.9945241509595406,0.9673821197417573,1.0,False,411.0,115.0
+extensions,objects,"[""T1"", ""plain"", null, ""a blue square""]",mistral,28,0.21667357711189156,0.15402870231817825,0.0,True,411.0,115.0
+extensions,objects,"[""T1"", ""plain"", null, ""a red square""]",qwen,28,0.9943244884658915,0.976484773785718,1.0,False,410.0,115.0
+extensions,objects,"[""T1"", ""plain"", null, ""a red square""]",mistral,28,0.22478709646824319,0.16451578147897092,0.0,True,410.0,115.0
+extensions,objects,"[""T1"", ""plain"", null, ""a dead salmon""]",qwen,28,0.9915167662058606,0.972741195993538,1.0,False,411.0,115.0
+extensions,objects,"[""T1"", ""plain"", null, ""a dead salmon""]",mistral,28,0.2885082323895827,0.21837558787045577,0.0,True,411.0,115.0
+extensions,incidental,"[""T1"", ""plain"", """", ""a shape""]",qwen,28,0.9954811728681425,0.9811605655402585,1.0,False,433.0,120.0
+extensions,incidental,"[""T1"", ""plain"", """", ""a shape""]",mistral,28,0.32194287188155823,0.21633273660011285,0.0,True,433.0,120.0
+extensions,incidental,"[""T1"", ""plain"", ""blue"", ""a shape""]",qwen,28,0.9945736232425664,0.9574033530409116,1.0,False,448.0,123.0
+extensions,incidental,"[""T1"", ""plain"", ""blue"", ""a shape""]",mistral,28,0.2851306851602119,0.21225748316206108,0.0,True,448.0,123.0
+extensions,incidental,"[""T1"", ""plain"", ""orange"", ""a shape""]",qwen,28,0.9949551034850149,0.9445676931972777,1.0,False,450.0,123.0
+extensions,incidental,"[""T1"", ""plain"", ""orange"", ""a shape""]",mistral,28,0.30319783127303573,0.2297326699611365,0.0,True,450.0,123.0
+extensions,incidental,"[""T1"", ""plain"", ""pointy"", ""a shape""]",qwen,28,0.9850387416234669,0.9415156882012802,1.0,False,450.0,124.0
+extensions,incidental,"[""T1"", ""plain"", ""pointy"", ""a shape""]",mistral,28,0.24913012668584714,0.18998359401000933,0.0,True,450.0,124.0
+extensions,incidental,"[""T1"", ""plain"", ""round"", ""a shape""]",qwen,28,0.9820761511930485,0.9077976261532525,1.0,False,449.0,123.0
+extensions,incidental,"[""T1"", ""plain"", ""round"", ""a shape""]",mistral,28,0.25058980021072036,0.18626490938521842,0.0,True,449.0,123.0
+extensions,incidental,"[""T1"", ""plain"", ""angry"", ""a shape""]",qwen,28,0.9951789963335385,0.9513305997253849,1.0,False,449.0,124.0
+extensions,incidental,"[""T1"", ""plain"", ""angry"", ""a shape""]",mistral,28,0.27238741811261963,0.2004086620996387,0.0,True,449.0,124.0
+extensions,incidental,"[""T1"", ""plain"", ""calm"", ""a shape""]",qwen,28,0.996732350537288,0.9592956609910946,1.0,False,448.0,124.0
+extensions,incidental,"[""T1"", ""plain"", ""calm"", ""a shape""]",mistral,28,0.2544431730713771,0.19022222764371252,0.0,True,448.0,124.0
+extensions,opening,"[""T1"", ""plain"", null, ""a shape""]",qwen,37,0.9955433742149205,0.9811643117018024,1.0,False,396.7027027027027,105.5945945945946
+extensions,opening,"[""T1"", ""plain"", null, ""a shape""]",mistral,37,0.20871041022590403,0.16419601942725068,0.0,True,396.7027027027027,105.5945945945946
+extensions,opening,"[""T1"", ""plain"", null, ""another instance of the exact checkpoint answering this forecast, with identical weights""]",qwen,37,0.9995647203195562,0.9974086411020017,1.0,False,477.7027027027027,116.5945945945946
+extensions,opening,"[""T1"", ""plain"", null, ""another instance of the exact checkpoint answering this forecast, with identical weights""]",mistral,37,0.18540200361547496,0.12958365749412074,0.0,True,477.7027027027027,116.5945945945946
+extensions,natural,"[""T1"", ""plain"", null, ""a shape""]",qwen,84,0.9891512081814562,0.978406295598215,1.0,False,405.8095238095238,114.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape""]",mistral,84,0.14435158984692265,0.11235340339138326,0.0,True,405.8095238095238,114.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as blue""]",qwen,84,0.990254351087184,0.9714869864205775,1.0,False,423.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as blue""]",mistral,84,0.15511833485671772,0.11973002319828933,0.0,True,423.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as orange""]",qwen,84,0.9848378535363518,0.9711868393961403,1.0,False,425.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as orange""]",mistral,84,0.17092282422566168,0.13907801527976552,0.0,True,425.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as pointy""]",qwen,84,0.9863033570920147,0.9533764234333494,1.0,False,425.8095238095238,118.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as pointy""]",mistral,84,0.0799788063903808,0.04506533925147268,0.0,True,425.8095238095238,118.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as round""]",qwen,84,0.9818900542167862,0.9610355380902242,1.0,False,424.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as round""]",mistral,84,0.1607802528914778,0.12645714419666598,0.0,True,424.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as angry""]",qwen,84,0.9867781504282196,0.9695884950539471,1.0,False,424.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as angry""]",mistral,84,0.11546970191598753,0.08729925001814395,0.0,True,424.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as calm""]",qwen,84,0.9929508627248715,0.9775785378310808,1.0,False,423.8095238095238,117.80952380952381
+extensions,natural,"[""T1"", ""plain"", null, ""a shape described as calm""]",mistral,84,0.13211556078000702,0.10347421115069204,0.0,True,423.8095238095238,117.80952380952381

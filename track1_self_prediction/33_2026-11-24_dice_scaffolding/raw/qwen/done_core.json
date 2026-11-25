@@ -1,0 +1,52 @@
+{
+  "phase": "core",
+  "model": "qwen",
+  "finished_utc": "2026-11-25T05:18:25.376957+00:00",
+  "seconds": 595.8,
+  "files": {
+    "archival_core.jsonl": "f61fdd5cd9cc1a90d16f4ee404b053ef63a1a15ac286720e684f77f99c4bec0d",
+    "association_scores.json": "c6861d75a400aaa1b8caad1eaf340ca2744ade8c7443dce59b0d3991293f7d78",
+    "association_seal.json": "242ac21922f4e1e887f9f117484a4d89b9ed1fb5f3fc4f8278c81fa41adf9b04",
+    "associations.jsonl": "b03917a8c147f4b4a9c3397b5bf400f861ddcaca5abf14b04d30a7f6a415e11c",
+    "direct_core.jsonl": "ab85bade5f3822353f179a5b91547f37540324e90e971add33d50618b88f550d",
+    "env_core.json": "6075919b17426975c98183a40115a8cb6eeaad2b81063da638d6cf3fce401341",
+    "forecasts_core.jsonl": "36d10728458b032b7895cd0a2975c0749f93b34e009a791ffc0d200a3fec670c"
+  },
+  "run_id": "qwen-core-20261125T050829Z",
+  "max_memory_allocated_gb": 66.82,
+  "development_look": [
+    {
+      "subject": "a shape",
+      "mass": 0.9894205856666639,
+      "argmax": "5",
+      "q": [
+        0.009495274332494079,
+        0.02552039500781653,
+        0.21415869020393644,
+        0.1760103256251058,
+        0.3148154040821832,
+        0.259999910748464
+      ]
+    },
+    {
+      "subject": "a shape described as red",
+      "mass": 0.9911386674120195,
+      "argmax": "6",
+      "q": [
+        0.006431142861767811,
+        0.01286904019149065,
+        0.17116747585444714,
+        0.1270306795624728,
+        0.19317287968657515,
+        0.4893287818432466
+      ]
+    }
+  ],
+  "repro": {
+    "forecasts_rescored": 64,
+    "forecast_mismatches": 0,
+    "direct_mismatches": 0,
+    "floor_max_dp": 0.04348974721878002,
+    "ok": true
+  }
+}

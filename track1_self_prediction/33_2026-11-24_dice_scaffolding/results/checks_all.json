@@ -1,0 +1,237 @@
+{
+  "experiment": "SPAR_EXP33_DICE_SCAFFOLDING_v1.0",
+  "phase": "all",
+  "overall": "PASS",
+  "checks": {
+    "frozen_files_and_code": {
+      "status": "PASS",
+      "detail": []
+    },
+    "qwen_core_archival_replay": {
+      "status": "PASS",
+      "detail": {
+        "G": 0.0,
+        "F": 0.0
+      }
+    },
+    "qwen_core_on_path_and_boundaries": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_dlogp": 0.0,
+        "ok": true
+      }
+    },
+    "qwen_core_serving_identity": {
+      "status": "PASS",
+      "detail": null
+    },
+    "qwen_core_prompt_hash": {
+      "status": "PASS",
+      "detail": null
+    },
+    "qwen_core_raw_hashes": {
+      "status": "PASS",
+      "detail": 7
+    },
+    "qwen_core_forecast_rows": {
+      "status": "PASS",
+      "detail": 4094
+    },
+    "qwen_core_direct_rows": {
+      "status": "PASS",
+      "detail": 114
+    },
+    "qwen_repro_and_floor": {
+      "status": "PASS",
+      "detail": {
+        "forecasts_rescored": 64,
+        "forecast_mismatches": 0,
+        "direct_mismatches": 0,
+        "floor_max_dp": 0.04348974721878002,
+        "ok": true
+      }
+    },
+    "qwen_association_sealed_before_dice": {
+      "status": "PASS",
+      "detail": {
+        "sealed_utc": "2026-11-25T05:09:24.179022+00:00",
+        "scores_sha256": "c6861d75a400aaa1b8caad1eaf340ca2744ade8c7443dce59b0d3991293f7d78",
+        "rows_sha256": "b03917a8c147f4b4a9c3397b5bf400f861ddcaca5abf14b04d30a7f6a415e11c",
+        "dice_rows_at_seal": 0
+      }
+    },
+    "qwen_association_scores_rederive": {
+      "status": "PASS",
+      "detail": null
+    },
+    "qwen_extensions_archival_replay": {
+      "status": "PASS",
+      "detail": {
+        "G": 0.0,
+        "F": 0.0
+      }
+    },
+    "qwen_extensions_on_path_and_boundaries": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_dlogp": 0.0,
+        "ok": true
+      }
+    },
+    "qwen_extensions_serving_identity": {
+      "status": "PASS",
+      "detail": null
+    },
+    "qwen_extensions_prompt_hash": {
+      "status": "PASS",
+      "detail": null
+    },
+    "qwen_extensions_raw_hashes": {
+      "status": "PASS",
+      "detail": 13
+    },
+    "qwen_extensions_forecast_rows": {
+      "status": "PASS",
+      "detail": 1356
+    },
+    "qwen_extensions_direct_rows": {
+      "status": "PASS",
+      "detail": 396
+    },
+    "qwen_generation_rows": {
+      "status": "PASS",
+      "detail": null
+    },
+    "qwen_fact_rows": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mistral_core_archival_replay": {
+      "status": "PASS",
+      "detail": {
+        "G": 0.0,
+        "F": 0.0
+      }
+    },
+    "mistral_core_on_path_and_boundaries": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_dlogp": 0.0,
+        "ok": true
+      }
+    },
+    "mistral_core_serving_identity": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mistral_core_prompt_hash": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mistral_core_raw_hashes": {
+      "status": "PASS",
+      "detail": 7
+    },
+    "mistral_core_forecast_rows": {
+      "status": "PASS",
+      "detail": 4094
+    },
+    "mistral_core_direct_rows": {
+      "status": "PASS",
+      "detail": 114
+    },
+    "mistral_repro_and_floor": {
+      "status": "PASS",
+      "detail": {
+        "forecasts_rescored": 64,
+        "forecast_mismatches": 0,
+        "direct_mismatches": 0,
+        "floor_max_dp": 0.028552082950095814,
+        "ok": true
+      }
+    },
+    "mistral_association_sealed_before_dice": {
+      "status": "PASS",
+      "detail": {
+        "sealed_utc": "2026-11-25T05:19:22.968512+00:00",
+        "scores_sha256": "066e16ce9a39f494dd5d327be096672857087019382a3bb58ae5dcd9d9b4f823",
+        "rows_sha256": "7c74e6004e748e1efc48aa7c2401099586180d144b67cd92c2825762d1e9c64b",
+        "dice_rows_at_seal": 0
+      }
+    },
+    "mistral_association_scores_rederive": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mistral_extensions_archival_replay": {
+      "status": "PASS",
+      "detail": {
+        "G": 0.0,
+        "F": 0.0
+      }
+    },
+    "mistral_extensions_on_path_and_boundaries": {
+      "status": "PASS",
+      "detail": {
+        "max_abs_dlogp": 0.0,
+        "ok": true
+      }
+    },
+    "mistral_extensions_serving_identity": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mistral_extensions_prompt_hash": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mistral_extensions_raw_hashes": {
+      "status": "PASS",
+      "detail": 13
+    },
+    "mistral_extensions_forecast_rows": {
+      "status": "PASS",
+      "detail": 1356
+    },
+    "mistral_extensions_direct_rows": {
+      "status": "PASS",
+      "detail": 396
+    },
+    "mistral_generation_rows": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mistral_fact_rows": {
+      "status": "PASS",
+      "detail": null
+    },
+    "finite_scores": {
+      "status": "PASS",
+      "detail": null
+    },
+    "mass_in_0_1": {
+      "status": "PASS",
+      "detail": null
+    },
+    "normalised": {
+      "status": "PASS",
+      "detail": null
+    },
+    "digit_ids": {
+      "status": "PASS",
+      "detail": null
+    },
+    "js_identity_bounds_symmetry": {
+      "status": "PASS",
+      "detail": null
+    },
+    "no_leakage": {
+      "status": "PASS",
+      "detail": null
+    },
+    "identical_stimuli_both_forecasters": {
+      "status": "PASS",
+      "detail": null
+    }
+  }
+}

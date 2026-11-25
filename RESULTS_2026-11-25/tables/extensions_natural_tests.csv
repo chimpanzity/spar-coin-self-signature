@@ -1,0 +1,5 @@
+checkpoint,histories,directional_test_mean,own_improvement_mean,by_pair
+qwen,all selected,-0.0030656372524904634,-0.011742695619771289,"[""blue/orange: -0.00253"", ""pointy/round: +0.00441"", ""angry/calm: -0.01108""]"
+qwen,previously unseen,-0.0026959454390014736,-0.011081498875798271,"[""blue/orange: -0.00339"", ""pointy/round: +0.00448"", ""angry/calm: -0.00919""]"
+mistral,all selected,-0.0019879390635276343,-0.0426722464189927,"[""blue/orange: +0.00530"", ""pointy/round: -0.01074"", ""angry/calm: -0.00052""]"
+mistral,previously unseen,-0.0016274381015887473,-0.04284263148168279,"[""blue/orange: +0.00494"", ""pointy/round: -0.00974"", ""angry/calm: -0.00008""]"

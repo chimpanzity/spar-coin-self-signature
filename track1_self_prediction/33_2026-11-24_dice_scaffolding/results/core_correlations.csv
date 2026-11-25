@@ -1,0 +1,5 @@
+checkpoint,level,n,pearson_association_vs_selective,pearson_association_vs_own_gain
+qwen,word,12,-0.8329166948683127,-0.8457620371066382
+qwen,pair,6,-0.9099952452588433,
+mistral,word,12,-0.14120243116948306,0.41318072050552734
+mistral,pair,6,0.29580461979164946,

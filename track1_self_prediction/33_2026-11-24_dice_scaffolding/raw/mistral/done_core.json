@@ -1,0 +1,52 @@
+{
+  "phase": "core",
+  "model": "mistral",
+  "finished_utc": "2026-11-25T05:24:33.266817+00:00",
+  "seconds": 341.0,
+  "files": {
+    "archival_core.jsonl": "4da23c21fdbc56ed5150b551adb73f9668c324f8a525ecc1f35e3217b62a248e",
+    "association_scores.json": "066e16ce9a39f494dd5d327be096672857087019382a3bb58ae5dcd9d9b4f823",
+    "association_seal.json": "4067931b02d2e3cedb672adc37787b844789cb9b208665fdbf922e024b2f210c",
+    "associations.jsonl": "7c74e6004e748e1efc48aa7c2401099586180d144b67cd92c2825762d1e9c64b",
+    "direct_core.jsonl": "75941c8878315d159f524f52744a2c60a456ab58cb2fcac0284cb179b817df30",
+    "env_core.json": "c37a3b984b23ab79651babc31b570f70eff5a1a57a19fd446f521f6564b4c327",
+    "forecasts_core.jsonl": "2b7613b98569f62fbfc82fcaeb275a95ff48817a5acddfeaf2bd6369ef33b5d1"
+  },
+  "run_id": "mistral-core-20261125T051852Z",
+  "max_memory_allocated_gb": 49.73,
+  "development_look": [
+    {
+      "subject": "a shape",
+      "mass": 0.1928966345883155,
+      "argmax": "Given",
+      "q": [
+        0.08078776977670651,
+        0.1497394079940401,
+        0.15778452477805416,
+        0.2788768701625493,
+        0.32523700315632076,
+        0.007574424132329347
+      ]
+    },
+    {
+      "subject": "a shape described as red",
+      "mass": 0.2170864841760891,
+      "argmax": "Given",
+      "q": [
+        0.06422324260013945,
+        0.14744203651061996,
+        0.1628443176671503,
+        0.3204309765804294,
+        0.29887453527220215,
+        0.006184891369458768
+      ]
+    }
+  ],
+  "repro": {
+    "forecasts_rescored": 64,
+    "forecast_mismatches": 0,
+    "direct_mismatches": 0,
+    "floor_max_dp": 0.028552082950095814,
+    "ok": true
+  }
+}

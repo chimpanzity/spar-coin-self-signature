@@ -1,0 +1,23 @@
+{
+  "phase": "extensions",
+  "model": "mistral",
+  "finished_utc": "2026-11-25T06:43:01.254338+00:00",
+  "seconds": 2091.1,
+  "files": {
+    "archival_core.jsonl": "4da23c21fdbc56ed5150b551adb73f9668c324f8a525ecc1f35e3217b62a248e",
+    "archival_extensions.jsonl": "19cd9951bcfb81a1a21d8feb3bab838388a9277809692e0144a5a10c9b501d9e",
+    "association_scores.json": "066e16ce9a39f494dd5d327be096672857087019382a3bb58ae5dcd9d9b4f823",
+    "association_seal.json": "4067931b02d2e3cedb672adc37787b844789cb9b208665fdbf922e024b2f210c",
+    "associations.jsonl": "7c74e6004e748e1efc48aa7c2401099586180d144b67cd92c2825762d1e9c64b",
+    "direct_core.jsonl": "75941c8878315d159f524f52744a2c60a456ab58cb2fcac0284cb179b817df30",
+    "direct_extensions.jsonl": "de8e01a5c66a1e9d906a45d8a43ced58da2bc250e4e02a5917b0a9126c549205",
+    "env_core.json": "c37a3b984b23ab79651babc31b570f70eff5a1a57a19fd446f521f6564b4c327",
+    "env_extensions.json": "1fb7d88e07fcfff2034c074644d7210b860d9d705fe006f02647342c1f60299f",
+    "facts.jsonl": "3e24d72df5b4cd698fc453fd6edffa90ca185f434ddb88e6fd8f8d6dbd0038fb",
+    "forecasts_core.jsonl": "2b7613b98569f62fbfc82fcaeb275a95ff48817a5acddfeaf2bd6369ef33b5d1",
+    "forecasts_extensions.jsonl": "94e7035407e5a6f57874a3d7688b3c511d9f2c45ddb3f6577a423bf51f018bfe",
+    "generations.jsonl": "e7e69c6786d0ca4e95d31c53d2db9f10f203d664287bc893ffef2f61c523fd9e"
+  },
+  "run_id": "mistral-extensions-20261125T060810Z",
+  "max_memory_allocated_gb": 49.73
+}
