@@ -1,0 +1,89 @@
+{
+ "experiment": 36,
+ "commits": {
+  "freeze": "b9bcda3",
+  "results": "df0f2d4"
+ },
+ "instance": {
+  "provider": "vast.ai",
+  "instance_id": 62532834,
+  "offer": 53645770,
+  "location": "Poland",
+  "gpu": "A100-SXM4-80GB",
+  "driver": "595.91.07",
+  "image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime",
+  "disk_gb": 200,
+  "created_utc": "2026-11-25T14:29:56Z",
+  "destroyed_utc": "2026-11-25T18:13Z",
+  "destroyed": "after copying raw files, arrays and adapters and checking hashes; `vastai show instances` returned []"
+ },
+ "cost_usd": {
+  "shared_rental_total_usd": 6.161,
+  "gpu": 4.329,
+  "disk": 0.356,
+  "download": 1.427,
+  "upload": 0.049,
+  "gpu_hours": 3.689,
+  "source": "vastai show invoices-v1 -c -s 2026-11-25 -e 2026-11-27 (fetched just after destroy; may still add cents)",
+  "note": "one instance for Experiments 35, 36 and 37; not split between them. Cap: $15 for the shared rental"
+ },
+ "environments": {
+  "raw/mistral/env.json": {
+   "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "595.91.07",
+   "started_utc": "2026-11-25T17:03:13.097265+00:00",
+   "finished_utc": "2026-11-25T17:27:50.821658+00:00"
+  },
+  "raw/qwen/env.json": {
+   "model_id": "Qwen/Qwen3-32B",
+   "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "595.91.07",
+   "started_utc": "2026-11-25T16:28:57.471368+00:00",
+   "finished_utc": "2026-11-25T17:02:38.739868+00:00"
+  }
+ },
+ "stage_status": [
+  "validate exit 0",
+  "run qwen exit 0 2026-11-25T17:02:40Z",
+  "run mistral exit 0 2026-11-25T17:27:52Z",
+  "ALL_DONE"
+ ],
+ "file_sha256": {
+  "raw/mistral/archival.jsonl": "1e76ed44a54cacfd1630ad27f71c8e5d334117af43d224e12a01fe446c8a7aa2",
+  "raw/mistral/env.json": "6483945d955675da873888764f0c5a9bbb4e3227fe5b3e58a0a154f48cd329a9",
+  "raw/mistral/full_gates.json": "a7c7aa10152b86f2e6e0f9ef6e79507f150afabb7499b5d2cb70fac56ba12267",
+  "raw/mistral/pilot_gates.json": "eadb58212f7aceb3ed97c8fc246e4b34db180cc7a15a42d757e231ccbe2ee888",
+  "raw/mistral/pilot_rows.jsonl": "800dbe08b0246a001cef8e28eb7d8a2686f6f2a67808f12837c0735988e404c7",
+  "raw/mistral/rows.jsonl": "965d4723ca5a26a26a788cfc14d08ca4fdbd33eb4d1e67576e634efcd7eb9014",
+  "raw/qwen/archival.jsonl": "5c1e880a79bd8136f9b23a3862c959e77485d60aba2ae3f842a3dfc1d724513f",
+  "raw/qwen/env.json": "40ccacb8ffbec3c176b432436eef98d18511bc0a0d108234516f5adc9a7f7cbb",
+  "raw/qwen/full_gates.json": "f9e3ee1c89eb4b2bd579a42037a1b2f08caa430d264d723639a48e9314989652",
+  "raw/qwen/pilot_gates.json": "e6ad4b15a0e70d17e85a1faa83459781dd6005580931326928508840cfafe99d",
+  "raw/qwen/pilot_rows.jsonl": "55d0da08bdbc2c53efb8878b2592be9b3dfa80a3220cb955d8320ba1b6abc4ab",
+  "raw/qwen/rows.jsonl": "6c7b8407abfae7a52f8863b2af74cf1bc817d4b79a2be4fd44bf1216604790d8",
+  "results/checks.json": "fbab29e2f10f42575ef7700c3ef85e6d171760e7a094d89699d76c90ee7fd256",
+  "results/CHECKS.md": "c479995dc61ce0df89a2b184ee23742c3976fa330cce48b35af556afc74c9ef2",
+  "results/chosen_hyperparameters.json": "f10c6253d3d4f549685ab49934099321cf29829d568b1fc38269e06dca166540",
+  "results/comparisons.csv": "7f26866b41917a4708e9eec6bf4d5dcc638e5b5e446949b71cfe1dc38f2979b3",
+  "results/gain_by_fold.csv": "c1597f1e75601312ffd79940867d345880235747e70f104a2704b500e7acd904",
+  "results/losses.csv": "7bd75bd0a6b88e245659fb8587e893b1182880e50dd0a7541f90bb6e79166575",
+  "results/losses_by_family.csv": "4bb320efd870b28b720b7a19a714d36eb73d746b44a987e5edab00c54c3fe699",
+  "results/losses_by_favoured_face.csv": "89b81eb759857f63da7ba0b59dbd2077f9d5b16011b5a6001ceebbfd2a725371",
+  "results/oof_predictions.csv": "3dd9ef680a3145d61fe98d16faac2e98e051866ea387f1530116c1fedfa66eb2",
+  "results/policy_and_ranking.csv": "2f8f95adb9bc8925cabf1975e3f67d3df220e717f4f77ae92f5275848ec2df98",
+  "results/summary.json": "5d9be303998b41af982fe3d6305ac5f1486f89f2c80b8451db9ce7cc09481382"
+ },
+ "arrays_not_in_git_sha256": {
+  "arrays/mistral/head_gram_centered_f32.npy": "6b6c1d39dc89180754e30626c31492b5cfca4dbaed95d386ac266b5eaa513f9e",
+  "arrays/mistral/states_bf16_uint16.npy": "1669dc660e30a979cf3a128483a2a7eae1ac817551c5a5571552e015cb559b87",
+  "arrays/qwen/head_gram_centered_f32.npy": "df7308321ae69e83d8c144d8ddc9221ee3e1d02e2754efef702b347b3d107496",
+  "arrays/qwen/states_bf16_uint16.npy": "491c10168b2c0beee337f61816a09007c122db5bbc66152d069622bd0262b7f4"
+ }
+}

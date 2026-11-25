@@ -1,0 +1,79 @@
+{
+ "experiment": 37,
+ "commits": {
+  "freeze": "6b22a50",
+  "probes": "2f49cb1",
+  "results": "the commit that adds this file"
+ },
+ "instance": {
+  "provider": "vast.ai",
+  "instance_id": 62532834,
+  "offer": 53645770,
+  "location": "Poland",
+  "gpu": "A100-SXM4-80GB",
+  "driver": "595.91.07",
+  "image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime",
+  "disk_gb": 200,
+  "created_utc": "2026-11-25T14:29:56Z",
+  "destroyed_utc": "2026-11-25T18:13Z",
+  "destroyed": "after copying raw files, arrays and adapters and checking hashes; `vastai show instances` returned []"
+ },
+ "cost_usd": {
+  "shared_rental_total_usd": 6.161,
+  "gpu": 4.329,
+  "disk": 0.356,
+  "download": 1.427,
+  "upload": 0.049,
+  "gpu_hours": 3.689,
+  "source": "vastai show invoices-v1 -c -s 2026-11-25 -e 2026-11-27 (fetched just after destroy; may still add cents)",
+  "note": "one instance for Experiments 35, 36 and 37; not split between them. Cap: $15 for the shared rental"
+ },
+ "environments": {
+  "raw/env_evaluate.json": {
+   "model_id": "Qwen/Qwen3-32B",
+   "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "595.91.07",
+   "started_utc": "2026-11-25T17:41:03.965258+00:00",
+   "finished_utc": "2026-11-25T18:11:15.676040+00:00"
+  },
+  "raw/env_train.json": {
+   "model_id": "Qwen/Qwen3-32B",
+   "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "595.91.07",
+   "started_utc": "2026-11-25T17:28:21.405282+00:00",
+   "finished_utc": null
+  }
+ },
+ "stage_status": [
+  "validate exit 0",
+  "train exit 0 2026-11-25T17:40:40Z",
+  "evaluate exit 0 2026-11-25T18:11:17Z",
+  "ALL_DONE"
+ ],
+ "file_sha256": {
+  "raw/env_evaluate.json": "793f570f6658054a6a7ead30be3b7e84dbc3caade2a0d7d72f70842d0ae184d2",
+  "raw/env_train.json": "737f63eb7fd8c30951e523f2aac69e30786b1f9c8bd2862df3a68cabeb5f086e",
+  "raw/eval_checks.json": "11b9a91818947fbc4597f71120799f3ea6a7157740be92a9ac83603b4b68e53c",
+  "raw/rows.jsonl": "94a92f592a289f828e87babfe964fd056bd459a09bc98537d0974bccebe430b4",
+  "raw/train_log.jsonl": "b8846d47ce583df724aa960b6ae389b5e5cac2a812eb1ce89a27e444ebb25f73",
+  "raw/train_summary.json": "0ae73150ad7f15a9701dfeee35f3a60d5a94755397cc6823352efcbc6a75c8e5",
+  "results/CHECKS.md": "8da9bb02d60b95ae5f704af178220e89581c1895bd112be4de9e117867d2a99b",
+  "results/favourite_reversals.csv": "4188aa473c6f0263ecbad8e69e979b1f7ac9d3374bf769d38cb236762cf5e893",
+  "results/metrics.csv": "371a1f128f8559b7f1fd6ff4949f23ab593a0b13a1a26212b08b4595bf411f64",
+  "results/paired_changes.csv": "39012462e34d27a798ddc736edaf61ae32b762e1ea22ef122db600b063ea9cef",
+  "results/summary.json": "393fef14686b348de1e7c9d29b4ce8bceeca8bc5c65a10739fc74f0eb9a48d90"
+ },
+ "arrays_not_in_git_sha256": {
+  "arrays/adapters/A.npz": "3805f2415de23ac3cbbcda383e73aba807fe5adc576739325d53383a16d1df65",
+  "arrays/adapters/B.npz": "0b75012d87e46b0b86cdee7f38496d8139986f504a43cddd5c0d3dfaad8f846b",
+  "arrays/adapters/neutral.npz": "e88592889f4559ce57a5ba4d840995b6f0b865cd3d961ce36c0c353daf0cb36f",
+  "arrays/probes.npz": "9dda351e5640b62e1676f797568019558d4f698e6d8deb51f0e1b8b764444c23",
+  "arrays/states_bf16_uint16.npy": "7197b579b7d39b2d30a3e9be20e372f70c5a69da559bb95e53aea175bf71f373"
+ }
+}

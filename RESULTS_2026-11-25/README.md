@@ -46,3 +46,14 @@ No evidence that Qwen forecast activations carry Qwen-specific policy informatio
 | Report and figure | [exp36/REPORT.md](exp36/REPORT.md) |
 | Tables | [exp36/](exp36/) |
 | Protocol, raw rows, checks (not copied) | [../track1_self_prediction/36_2026-11-25_hidden_activation_dice_policy/](../track1_self_prediction/36_2026-11-25_hidden_activation_dice_policy/) |
+
+## Experiment 37: frozen probe, policy swap
+
+Adapters changed Qwen's dice policy and a generation-state probe follows the change. The frozen forecast probe does not cleanly: it
+moves about as much under a neutral adapter and does not track A minus B. Rental for 35-37: $6.16.
+
+| What | Where |
+|---|---|
+| Report and figure | [exp37/REPORT.md](exp37/REPORT.md) |
+| Tables | [exp37/](exp37/) |
+| Protocol, raw rows, checks (not copied) | [../track1_self_prediction/37_2026-11-25_frozen_probe_policy_swap/](../track1_self_prediction/37_2026-11-25_frozen_probe_policy_swap/) |

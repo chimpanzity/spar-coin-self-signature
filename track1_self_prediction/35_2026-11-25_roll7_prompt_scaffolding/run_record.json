@@ -1,0 +1,74 @@
+{
+ "experiment": 35,
+ "commits": {
+  "freeze": "5374f6d",
+  "results": "61df944"
+ },
+ "instance": {
+  "provider": "vast.ai",
+  "instance_id": 62532834,
+  "offer": 53645770,
+  "location": "Poland",
+  "gpu": "A100-SXM4-80GB",
+  "driver": "595.91.07",
+  "image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime",
+  "disk_gb": 200,
+  "created_utc": "2026-11-25T14:29:56Z",
+  "destroyed_utc": "2026-11-25T18:13Z",
+  "destroyed": "after copying raw files, arrays and adapters and checking hashes; `vastai show instances` returned []"
+ },
+ "cost_usd": {
+  "shared_rental_total_usd": 6.161,
+  "gpu": 4.329,
+  "disk": 0.356,
+  "download": 1.427,
+  "upload": 0.049,
+  "gpu_hours": 3.689,
+  "source": "vastai show invoices-v1 -c -s 2026-11-25 -e 2026-11-27 (fetched just after destroy; may still add cents)",
+  "note": "one instance for Experiments 35, 36 and 37; not split between them. Cap: $15 for the shared rental"
+ },
+ "environments": {
+  "raw/mistral/env.json": {
+   "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "595.91.07",
+   "started_utc": "2026-11-25T16:27:09.191913+00:00",
+   "finished_utc": "2026-11-25T16:28:26.237197+00:00"
+  },
+  "raw/qwen/env.json": {
+   "model_id": "Qwen/Qwen3-32B",
+   "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "595.91.07",
+   "started_utc": "2026-11-25T14:48:23.989941+00:00",
+   "finished_utc": "2026-11-25T16:26:41.327570+00:00"
+  }
+ },
+ "stage_status": [
+  "run qwen exit 0 2026-11-25T16:26:42Z",
+  "run mistral exit 0 2026-11-25T16:28:27Z",
+  "ALL_DONE"
+ ],
+ "file_sha256": {
+  "raw/mistral/archival.jsonl": "0439d9d52323e12b5ab4eb959e2873a50330a5be53e361651266efcf5f205c39",
+  "raw/mistral/cells_standard.jsonl": "9f1ed20cb64f9bed07a87d2c99f0f625fb43d0cf460bdced4739f3c44b30bdc6",
+  "raw/mistral/env.json": "b94d038f956840ed763b6aac175a00e3db99631e9aef7feb8310d5716c3aace0",
+  "raw/qwen/archival.jsonl": "0e2cab8f5eebc6973621ed70744054fa951cdb30f01d721fc2fccf8cc8f7a9a8",
+  "raw/qwen/cells_standard.jsonl": "74d0b51c0beb4ce58266e4ddb2a6c0b5b60486b19e76d43bf4e6d267c31dc23a",
+  "raw/qwen/cells_thinking.jsonl": "f57d9fe6421d109afd56d8e559105538d36788de911b6e05b839498cb40507e9",
+  "raw/qwen/cells_thinking_supplementary.jsonl": "0c60bc8f36c00492e425ce05f255a03e48183305940333bd505bb7685a7a1962",
+  "raw/qwen/env.json": "101574f1f5c5c091466843ed20cbf15583f500cb15b96802c81135b006df1b13",
+  "results/cells_36.csv": "0530a1a3ded4c1a9fcd8fd8dcff9c8bd92bb7162b6159091f5fff64b7607a39f",
+  "results/CHECKS.md": "92d288de46128709d7d0bfb6be244d1dcd148fd4032448ea2df0884b9f76556e",
+  "results/contrasts.csv": "735b23081a2faa02a725ac6be46692776ac095abdf479d7110dd0cfd95656956",
+  "results/exp32_anchors.csv": "043686d832617d8907dec1428db13c2a64a1f0c0fba6ef90a51d4520c4020208",
+  "results/recurrence.csv": "17988e64de1576d9d424c2987e3697e7d158c34f9f0d97acb3362434e8693bdb",
+  "results/summary.json": "8e611ec2c764fcd98eb9358bb52315d6058d2b0dc746043829305f924dfd004b",
+  "results/supplementary_long_budget.csv": "7ca2aafe7f9db5db225d21a4ec1780ff3ffdb03209dbe9b2ddb64161915560de"
+ }
+}

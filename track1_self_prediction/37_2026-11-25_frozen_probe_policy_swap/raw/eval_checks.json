@@ -1,0 +1,59 @@
+{
+ "checks": {
+  "base_repeat": 0,
+  "hook_off": {
+   "n": 576,
+   "mismatches": 0,
+   "ok": true
+  },
+  "exp36_score_mismatches": 0,
+  "disabled_equals_base_scores": true,
+  "disabled_equals_base_states": true,
+  "disabled_prompt_and_tokens_equal_base": true,
+  "disabled_hook_off": {
+   "n": 83,
+   "mismatches": 0,
+   "ok": true
+  },
+  "A_prompt_and_tokens_equal_base": true,
+  "A_hook_off": {
+   "n": 83,
+   "mismatches": 0,
+   "ok": true
+  },
+  "B_prompt_and_tokens_equal_base": true,
+  "B_hook_off": {
+   "n": 83,
+   "mismatches": 0,
+   "ok": true
+  },
+  "neutral_prompt_and_tokens_equal_base": true,
+  "neutral_hook_off": {
+   "n": 83,
+   "mismatches": 0,
+   "ok": true
+  }
+ },
+ "free_generation_G": {
+  "base": {
+   "content": "5 2 6 3 1 4 6 2 5 3",
+   "finish_reason": "stop"
+  },
+  "disabled": {
+   "content": "5 2 6 3 1 4 6 2 5 3",
+   "finish_reason": "stop"
+  },
+  "A": {
+   "content": "5 3 6 4 1 2 5 6 4 3",
+   "finish_reason": "stop"
+  },
+  "B": {
+   "content": "3 5 2 1 4 6 2 5 3 1",
+   "finish_reason": "stop"
+  },
+  "neutral": {
+   "content": "3 5 1 6 2 4 3 6 5 2",
+   "finish_reason": "stop"
+  }
+ }
+}
