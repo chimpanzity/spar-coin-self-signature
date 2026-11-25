@@ -24,3 +24,14 @@ and there is no Qwen-specific improvement where the two models' favourites diffe
 | Report | [exp34/REPORT.md](exp34/REPORT.md) |
 | Estimates and per-history rows | [exp34/summary.json](exp34/summary.json), [exp34/per_history.csv](exp34/per_history.csv) |
 | Script (not copied) | [../track1_self_prediction/34_2026-11-25_dice_unused_faces/](../track1_self_prediction/34_2026-11-25_dice_unused_faces/) |
+
+## Experiment 35: roll-7 prompt scaffolding
+
+No scaffold reliably helps a model skip to roll 7 (1 of 24 standard cells correct, 15 give the sixth). Qwen thinking is cut off at
+1,024 tokens in all 12 cells; supplementary 4,096-token runs finish in 10 and none is correct.
+
+| What | Where |
+|---|---|
+| Report and figure | [exp35/REPORT.md](exp35/REPORT.md) |
+| Tables | [exp35/](exp35/) |
+| Protocol, raw data, checks (not copied) | [../track1_self_prediction/35_2026-11-25_roll7_prompt_scaffolding/](../track1_self_prediction/35_2026-11-25_roll7_prompt_scaffolding/) |

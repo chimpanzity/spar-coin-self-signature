@@ -1,0 +1,215 @@
+{
+ "checks": {
+  "36 cells x 2 replicates": true,
+  "prompt bytes and hashes equal the frozen design": true,
+  "baseline hashes equal Experiment 32 prompts_frozen.md": true,
+  "archival G/F replay (Experiment 28)": true,
+  "Experiment 32 B replay": true,
+  "Experiment 32 B replay bit-identical": true,
+  "pinned revisions": true,
+  "replicates bit-identical": true,
+  "standard answer scores equal the generation step": true,
+  "standard boundary: rendered prompt ends with the empty think block (Qwen)": true,
+  "thinking prompt ends at the assistant header": true,
+  "thinking boundary follows </think> and whitespace only": true,
+  "thinking without a boundary has no scores": true,
+  "supplementary runs extend the primary greedy path": true,
+  "face token ids": true,
+  "six-face probabilities sum to one, mass <= 1": true,
+  "raw file hashes": true
+ },
+ "info": {
+  "full_pass_floor_max_dp": 0.0,
+  "b_replay": {
+   "qwen": {
+    "qwen": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "mistral": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "5",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    }
+   },
+   "mistral": {
+    "qwen": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "mistral": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "5",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    }
+   }
+  },
+  "replicate_mismatches": []
+ },
+ "recurrence": [
+  {
+   "mode": "standard",
+   "condition": "GAP",
+   "cells": 4,
+   "scored": 4,
+   "p7_up": 1,
+   "mean_d_p7": -0.00703615642093919,
+   "min_d_p7": -0.044444996644550316,
+   "max_d_p7": 0.03525852779314946,
+   "margin_up": 1,
+   "n_true7": 0,
+   "n_true6": 4,
+   "n_other": 0,
+   "n_invalid": 0
+  },
+  {
+   "mode": "standard",
+   "condition": "SLOT",
+   "cells": 4,
+   "scored": 4,
+   "p7_up": 3,
+   "mean_d_p7": 0.030591987262568635,
+   "min_d_p7": -0.02961080378797743,
+   "max_d_p7": 0.12549062744443198,
+   "margin_up": 3,
+   "n_true7": 1,
+   "n_true6": 2,
+   "n_other": 1,
+   "n_invalid": 0
+  },
+  {
+   "mode": "standard",
+   "condition": "THINK",
+   "cells": 4,
+   "scored": 4,
+   "p7_up": 1,
+   "mean_d_p7": 0.0025569075790991126,
+   "min_d_p7": -0.03121712746961955,
+   "max_d_p7": 0.05846246869792557,
+   "margin_up": 2,
+   "n_true7": 0,
+   "n_true6": 1,
+   "n_other": 1,
+   "n_invalid": 2
+  },
+  {
+   "mode": "standard",
+   "condition": "INFER",
+   "cells": 4,
+   "scored": 4,
+   "p7_up": 1,
+   "mean_d_p7": -0.011187748493038462,
+   "min_d_p7": -0.11461824012822287,
+   "max_d_p7": 0.10144215620786362,
+   "margin_up": 2,
+   "n_true7": 0,
+   "n_true6": 3,
+   "n_other": 0,
+   "n_invalid": 1
+  },
+  {
+   "mode": "standard",
+   "condition": "IMAGINE",
+   "cells": 4,
+   "scored": 4,
+   "p7_up": 1,
+   "mean_d_p7": -0.005981578803226775,
+   "min_d_p7": -0.08112238412251967,
+   "max_d_p7": 0.07306406378273597,
+   "margin_up": 2,
+   "n_true7": 0,
+   "n_true6": 1,
+   "n_other": 1,
+   "n_invalid": 2
+  },
+  {
+   "mode": "thinking",
+   "condition": "GAP",
+   "cells": 2,
+   "scored": 0,
+   "p7_up": 0,
+   "mean_d_p7": null,
+   "min_d_p7": null,
+   "max_d_p7": null,
+   "margin_up": 0,
+   "n_true7": 0,
+   "n_true6": 0,
+   "n_other": 0,
+   "n_invalid": 2
+  },
+  {
+   "mode": "thinking",
+   "condition": "SLOT",
+   "cells": 2,
+   "scored": 0,
+   "p7_up": 0,
+   "mean_d_p7": null,
+   "min_d_p7": null,
+   "max_d_p7": null,
+   "margin_up": 0,
+   "n_true7": 0,
+   "n_true6": 0,
+   "n_other": 0,
+   "n_invalid": 2
+  },
+  {
+   "mode": "thinking",
+   "condition": "THINK",
+   "cells": 2,
+   "scored": 0,
+   "p7_up": 0,
+   "mean_d_p7": null,
+   "min_d_p7": null,
+   "max_d_p7": null,
+   "margin_up": 0,
+   "n_true7": 0,
+   "n_true6": 0,
+   "n_other": 0,
+   "n_invalid": 2
+  },
+  {
+   "mode": "thinking",
+   "condition": "INFER",
+   "cells": 2,
+   "scored": 0,
+   "p7_up": 0,
+   "mean_d_p7": null,
+   "min_d_p7": null,
+   "max_d_p7": null,
+   "margin_up": 0,
+   "n_true7": 0,
+   "n_true6": 0,
+   "n_other": 0,
+   "n_invalid": 2
+  },
+  {
+   "mode": "thinking",
+   "condition": "IMAGINE",
+   "cells": 2,
+   "scored": 0,
+   "p7_up": 0,
+   "mean_d_p7": null,
+   "min_d_p7": null,
+   "max_d_p7": null,
+   "margin_up": 0,
+   "n_true7": 0,
+   "n_true6": 0,
+   "n_other": 0,
+   "n_invalid": 2
+  }
+ ]
+}
