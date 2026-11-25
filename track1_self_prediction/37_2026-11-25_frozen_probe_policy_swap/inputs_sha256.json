@@ -1,0 +1,16 @@
+{
+ "frozen": {
+  "PROTOCOL.md": "3c98f4bb112e7d020c6a7af898988ca1867b6a6613fa13d080d8c8b855948027",
+  "manifest.json": "1ba4bde60665c5ba9bc6affec5feb643ebfdef24895f5c2c9d98beea958e1ede",
+  "split.csv": "becb175f923f60d55e1271a290ed95a40259a9cc79c7b0b63aee9ae8f375d626",
+  "prompt_hashes.csv": "597693924a362ba8a82e8e825b3a1ba802c34db2a6c563d5974d8aa67e8f0e47"
+ },
+ "code": {
+  "__init__.py": "298a3675e6e90dd5baf8a54b3f62cd7fec61f87dfa120f27f0dc821150eed4c1",
+  "__main__.py": "39c36d1e8f19b11bc175592babb6e54dad7f379009bc6ddda116f3d5aff4e43c",
+  "analysis.py": "bc4b5cddee305e9e468362e998f78ee056d62efccf884fc9d908eec5ae8244d3",
+  "design.py": "b7ff3f4b2a743e3661fcc497344f21d84fccb70009f4950196a7c07f749f79f7",
+  "gpu.py": "6e294587ab30c71e3c243fa04285603e0d83c83682020db4233231f6af7e3507",
+  "probes.py": "e91947dd00a4c3860901d42ef94ebd88efdf114fe9f6c92cf3744a7520feda20"
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "tag": "SPAR_EXP37_FROZEN_PROBE_POLICY_SWAP_v1.0",
+ "model": {
+  "model_id": "Qwen/Qwen3-32B",
+  "revision": "9216db5781bf21249d130ec9da846c4624c16137"
+ },
+ "holdout": [
+  "126",
+  "145",
+  "156",
+  "234",
+  "246",
+  "345",
+  "356",
+  "456"
+ ],
+ "train": [
+  "123",
+  "124",
+  "134",
+  "135",
+  "136",
+  "235",
+  "236",
+  "245",
+  "256",
+  "346"
+ ],
+ "dev": [
+  "125",
+  "146"
+ ],
+ "n": {
+  "train": 240,
+  "dev": 48,
+  "holdout": 192
+ },
+ "modes": [
+  "agent",
+  "shape",
+  "direct"
+ ],
+ "arms": [
+  "base",
+  "disabled",
+  "A",
+  "B",
+  "neutral"
+ ],
+ "blocks": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39
+ ],
+ "sites": [
+  "self_attn.q_proj",
+  "self_attn.v_proj",
+  "self_attn.o_proj",
+  "mlp.down_proj"
+ ],
+ "configs": [
+  {
+   "name": "c1",
+   "rank": 8,
+   "lr": 0.0005,
+   "epochs": 24,
+   "batch": 10
+  },
+  {
+   "name": "c2",
+   "rank": 16,
+   "lr": 0.001,
+   "epochs": 40,
+   "batch": 10
+  }
+ ],
+ "eval_every": 4,
+ "seed": {
+  "A": 370001,
+  "B": 370002,
+  "neutral": 370003
+ },
+ "w_full": 1.0,
+ "gate": {
+  "median_abs_dlogodds": 0.5,
+  "switch_rate": 0.2,
+  "median_abs_dmass_pp": 3.0
+ },
+ "gpu_cap_usd": 10.0
+}
