@@ -1,0 +1,16 @@
+{
+ "archived_inputs": {
+  "28_2026-10-31_dice_logprob_crossmodel/main/qwen/raw_attempts.jsonl": "a94af1387715de866957dcb7713d2b8e5296efd24a03dd808ec44b954a396482",
+  "28_2026-10-31_dice_logprob_crossmodel/main/mistral/raw_attempts.jsonl": "b4fee4a55fcdbef5025df0e0c9fc4be32e3a0a2dec2147e9f65272c82fe2a000",
+  "32_2026-11-15_roll7_intermediate_context/raw/qwen/cells.jsonl": "ae59158a8a5d15755d175b71f10978dea632a0e6051868525aff5f75d2603838",
+  "32_2026-11-15_roll7_intermediate_context/raw/mistral/cells.jsonl": "7ced3fcbe454b5e1369665643c99cfec8677c4375e3856481f56948d6b3e59f7",
+  "32_2026-11-15_roll7_intermediate_context/prompts_frozen.md": "88898542b5eff9b12b9ad315eb8bcf455fb281e9518728c5add0a703a684f9f9",
+  "32_2026-11-15_roll7_intermediate_context/results/cells_12.csv": "6cd33ed31bab56af0dd959bf38192abc0b2c75d7bb974ba56fe2c28a8cb62fb0"
+ },
+ "frozen": {
+  "PROTOCOL.md": "fe76fbb941507e6cff6f9c8032f5300c67d5b9fd800e9256c57b2e938f400a69",
+  "prompts_frozen.md": "e912a8106bfd299d4d80bbd62368350aa5612526b7a41bc8f1044f467095f796",
+  "design_cells.csv": "5a89f91f72b308d98061e7eb5ad44c282e8097135366b411baee41b0d6a2bac7",
+  "manifest.json": "4a9a749c1d3f6cdc8b2870a8f65e8f20685650ae503d56609d0c773a1619816e"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "tag": "SPAR_EXP35_ROLL7_PROMPT_SCAFFOLDING_v1.0",
+ "cells": 36,
+ "calls": 72,
+ "unique_prompts": 12,
+ "models": {
+  "qwen": {
+   "model_id": "Qwen/Qwen3-32B",
+   "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+   "face_ids": {
+    "1": 16,
+    "2": 17,
+    "3": 18,
+    "4": 19,
+    "5": 20,
+    "6": 21
+   }
+  },
+  "mistral": {
+   "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "revision": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+   "face_ids": {
+    "1": 1049,
+    "2": 1050,
+    "3": 1051,
+    "4": 1052,
+    "5": 1053,
+    "6": 1054
+   }
+  }
+ },
+ "prompts": {
+  "qwen-B": "d49a6903e16029b08ee03663290753c7693d81ef6228379ba9153675a7fcaa5e",
+  "qwen-GAP": "8c1586bbebe0fc3eeb6e1470af285550fcaa6fd40d4667aa1f23071d8de3c118",
+  "qwen-SLOT": "65a6de12f9c9bf079c54d82227d1ad7a7aaf2662949c00ccf665b7b7665d830d",
+  "qwen-THINK": "ccc4fa7ba7e0cb418e64ed4acb83faffc56c1766b5c49a8472ec77dc683aa606",
+  "qwen-INFER": "b0bdbfd88db1ec36e8afce374915d88173e6c414cf5fb0ded2a95cd706c94495",
+  "qwen-IMAGINE": "77fcb5327a8bea6f85379ae7626b3bb418906723071c435461907edcdb4a947b",
+  "mistral-B": "aaa3e346e5d5cee8f9830ed6c0952868124a8529c91efa77f7911f82fc273751",
+  "mistral-GAP": "b7381419d8ac5413b285cbc00cca435e77c81717ebe88ef5a444340f9aed8710",
+  "mistral-SLOT": "e429650413ac59a67a66c381c65feecfb5d52f5ffaf2af3ba4f0dbf0786d9802",
+  "mistral-THINK": "38dbafea364cb88456e010c6882c5ef9fc64a0710b63022bcb7f3fd5a9721e91",
+  "mistral-INFER": "27523a9023fcf53b7878d6a7dd22c9001f53261ce3e8e777561c3a53d8e0532a",
+  "mistral-IMAGINE": "a8294fb0192198b014dc79a341f523a3fdf04ad62a0198908826eb4319849670"
+ },
+ "baseline_sha_exp32": {
+  "qwen": "d49a6903e16029b08ee03663290753c7693d81ef6228379ba9153675a7fcaa5e",
+  "mistral": "aaa3e346e5d5cee8f9830ed6c0952868124a8529c91efa77f7911f82fc273751"
+ },
+ "replicates": 2,
+ "think_max_new": 1024,
+ "supplementary_max_new": 4096,
+ "standard_max_new": 128,
+ "repro_tol_p": 0.01,
+ "gpu_cap_usd": 10.0
+}
