@@ -1,0 +1,60 @@
+{
+ "tag": "SPAR_EXP36_HIDDEN_ACTIVATION_DICE_POLICY_v1.0",
+ "prefixes": 480,
+ "eligible_prefixes": 432,
+ "eligible_families": 18,
+ "pilot_families": [
+  "125",
+  "146"
+ ],
+ "pilot_prefixes": [
+  "1 5 2",
+  "2 1 5",
+  "4 6 1",
+  "1 5 2 4",
+  "2 1 5 4",
+  "4 6 1 3"
+ ],
+ "folds": {
+  "345": 0,
+  "246": 1,
+  "123": 2,
+  "256": 3,
+  "236": 4,
+  "234": 0,
+  "456": 1,
+  "135": 2,
+  "134": 3,
+  "136": 4,
+  "126": 0,
+  "356": 1,
+  "124": 2,
+  "235": 3,
+  "346": 4,
+  "156": 0,
+  "145": 1,
+  "245": 2
+ },
+ "rows_per_model": 2400,
+ "n_inner": 4,
+ "slots": [
+  "b25",
+  "b50",
+  "b75",
+  "b100",
+  "final_norm"
+ ],
+ "primary_slot": "b75",
+ "pairs": 648,
+ "models": {
+  "qwen": {
+   "model_id": "Qwen/Qwen3-32B",
+   "revision": "9216db5781bf21249d130ec9da846c4624c16137"
+  },
+  "mistral": {
+   "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "revision": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43"
+  }
+ },
+ "gpu_cap_usd": 10.0
+}

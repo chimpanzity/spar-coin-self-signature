@@ -1,0 +1,25 @@
+{
+ "archived_inputs": {
+  "33_2026-11-24_dice_scaffolding/raw/qwen/forecasts_core.jsonl": "36d10728458b032b7895cd0a2975c0749f93b34e009a791ffc0d200a3fec670c",
+  "33_2026-11-24_dice_scaffolding/raw/qwen/forecasts_extensions.jsonl": "66419bc917771fd5a195d747b3e07b421a5312e7893a62f1b8c11cde6a84acff",
+  "33_2026-11-24_dice_scaffolding/raw/qwen/direct_core.jsonl": "ab85bade5f3822353f179a5b91547f37540324e90e971add33d50618b88f550d",
+  "33_2026-11-24_dice_scaffolding/raw/qwen/direct_extensions.jsonl": "845d7ca463a61b749c33b5af23fa75bdcab51acd25365746e383446616daad4f",
+  "33_2026-11-24_dice_scaffolding/raw/mistral/forecasts_core.jsonl": "2b7613b98569f62fbfc82fcaeb275a95ff48817a5acddfeaf2bd6369ef33b5d1",
+  "33_2026-11-24_dice_scaffolding/raw/mistral/forecasts_extensions.jsonl": "94e7035407e5a6f57874a3d7688b3c511d9f2c45ddb3f6577a423bf51f018bfe",
+  "33_2026-11-24_dice_scaffolding/raw/mistral/direct_core.jsonl": "75941c8878315d159f524f52744a2c60a456ab58cb2fcac0284cb179b817df30",
+  "33_2026-11-24_dice_scaffolding/raw/mistral/direct_extensions.jsonl": "de8e01a5c66a1e9d906a45d8a43ced58da2bc250e4e02a5917b0a9126c549205",
+  "33_2026-11-24_dice_scaffolding/prompts_frozen.md": "d94fb18c8f4b39ccae6c1bc93127571bd47894dddf5264fcd3e5cabffb7c620b"
+ },
+ "frozen": {
+  "PROTOCOL.md": "39aaf8093118258337b8aab622e9008ba00d72dd57edba77b12b74c93cbdc947",
+  "prompts_frozen.md": "7bfe789598cf6bf28722df198c03e23da1e75e18e8e473d1574c0ff1d8ed2c73",
+  "prompt_hashes.csv": "56afbf10de78241668a87cb2f58fb60e977ca8c3974b1697604483ec79c4b9c1",
+  "design_prefixes.csv": "24e56894a0d0ad819442ba75e86176efa60d667b22e692aa7c9c8dd34204f90f",
+  "manifest.json": "66ff6399cd6cca703e96d00af3a8b400c218ac0aedfc3ebda74f40f206b62cea"
+ },
+ "analysis_code": {
+  "analysis.py": "839cdb6ed0ff11f24757caebfeb2acc427a8aa58a2de5e95df9b5585569818d6",
+  "design.py": "e6789068cd52d91d7c2592107650989f859670deb44a60fccb36ef5dd5431ba1",
+  "gpu.py": "6fa6f6e2969ab4cea6366a0e472b1af509ba7121b3dc62f9c7a8a8fa8fdedd73"
+ }
+}

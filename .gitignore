@@ -21,3 +21,6 @@ track2_game_theory/**/_fake*/
 
 # Local runs of pilot-era code that fit no experiment folder (see src/repo_paths.py)
 new_runs/
+
+# Experiment 36+ activation arrays and adapter weights (hashes in raw/<model>/env.json)
+track1_self_prediction/*/arrays/
