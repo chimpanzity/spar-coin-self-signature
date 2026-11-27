@@ -1,0 +1,37 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+validate ok
+Loading weights:   0%|          | 0/585 [00:00<?, ?it/s]Loading weights:   0%|          | 2/585 [00:00<00:47, 12.26it/s]Loading weights:   1%|          | 5/585 [00:00<00:31, 18.64it/s]Loading weights:   2%|▏         | 13/585 [00:00<00:14, 38.48it/s]Loading weights:   3%|▎         | 18/585 [00:00<00:14, 39.42it/s]Loading weights:   4%|▍         | 24/585 [00:00<00:14, 38.86it/s]Loading weights:   5%|▌         | 32/585 [00:00<00:13, 41.88it/s]Loading weights:   7%|▋         | 41/585 [00:01<00:11, 48.33it/s]Loading weights:   8%|▊         | 49/585 [00:01<00:10, 52.10it/s]Loading weights:   9%|▉         | 55/585 [00:01<00:10, 50.61it/s]Loading weights:  10%|█         | 61/585 [00:01<00:11, 46.44it/s]Loading weights:  12%|█▏        | 68/585 [00:01<00:11, 43.39it/s]Loading weights:  13%|█▎        | 76/585 [00:01<00:10, 48.74it/s]Loading weights:  14%|█▍        | 84/585 [00:01<00:09, 51.23it/s]Loading weights:  15%|█▌        | 90/585 [00:01<00:09, 51.20it/s]Loading weights:  16%|█▋        | 96/585 [00:02<00:11, 41.13it/s]Loading weights:  18%|█▊        | 104/585 [00:02<00:09, 48.44it/s]Loading weights:  19%|█▉        | 112/585 [00:02<00:09, 51.28it/s]Loading weights:  20%|██        | 118/585 [00:02<00:09, 48.86it/s]Loading weights:  21%|██        | 124/585 [00:02<00:11, 41.35it/s]Loading weights:  22%|██▏       | 131/585 [00:02<00:10, 43.50it/s]Loading weights:  23%|██▎       | 136/585 [00:03<00:10, 44.44it/s]Loading weights:  24%|██▍       | 141/585 [00:03<00:11, 38.31it/s]Loading weights:  25%|██▌       | 149/585 [00:03<00:10, 42.87it/s]Loading weights:  27%|██▋       | 157/585 [00:03<00:08, 47.67it/s]Loading weights:  28%|██▊       | 162/585 [00:03<00:10, 42.10it/s]Loading weights:  29%|██▊       | 167/585 [00:03<00:10, 41.75it/s]Loading weights:  30%|██▉       | 175/585 [00:04<00:10, 40.72it/s]Loading weights:  31%|███▏      | 184/585 [00:04<00:08, 47.08it/s]Loading weights:  32%|███▏      | 189/585 [00:04<00:09, 41.77it/s]Loading weights:  33%|███▎      | 194/585 [00:04<00:09, 40.82it/s]Loading weights:  34%|███▍      | 199/585 [00:04<00:10, 37.87it/s]Loading weights:  35%|███▍      | 203/585 [00:04<00:10, 35.96it/s]Loading weights:  36%|███▌      | 212/585 [00:04<00:08, 42.40it/s]Loading weights:  37%|███▋      | 217/585 [00:05<00:08, 41.37it/s]Loading weights:  38%|███▊      | 222/585 [00:05<00:09, 37.86it/s]Loading weights:  39%|███▉      | 229/585 [00:05<00:09, 38.10it/s]Loading weights:  41%|████      | 237/585 [00:05<00:07, 44.31it/s]Loading weights:  41%|████▏     | 242/585 [00:05<00:08, 38.92it/s]Loading weights:  42%|████▏     | 248/585 [00:05<00:08, 39.11it/s]Loading weights:  44%|████▎     | 255/585 [00:06<00:08, 37.53it/s]Loading weights:  45%|████▌     | 265/585 [00:06<00:07, 45.54it/s]Loading weights:  46%|████▌     | 270/585 [00:06<00:07, 43.23it/s]Loading weights:  47%|████▋     | 275/585 [00:06<00:07, 40.45it/s]Loading weights:  48%|████▊     | 282/585 [00:06<00:06, 44.18it/s]Loading weights:  49%|████▉     | 287/585 [00:06<00:06, 44.51it/s]Loading weights:  50%|█████     | 293/585 [00:06<00:06, 44.13it/s]Loading weights:  51%|█████     | 299/585 [00:06<00:06, 43.57it/s]Loading weights:  52%|█████▏    | 304/585 [00:07<00:06, 40.44it/s]Loading weights:  53%|█████▎    | 311/585 [00:07<00:06, 39.21it/s]Loading weights:  55%|█████▍    | 319/585 [00:07<00:06, 41.68it/s]Loading weights:  55%|█████▌    | 324/585 [00:07<00:06, 40.71it/s]Loading weights:  56%|█████▌    | 329/585 [00:07<00:06, 38.67it/s]Loading weights:  57%|█████▋    | 333/585 [00:07<00:07, 34.67it/s]Loading weights:  58%|█████▊    | 339/585 [00:08<00:06, 36.91it/s]Loading weights:  59%|█████▉    | 347/585 [00:08<00:05, 42.70it/s]Loading weights:  61%|██████    | 355/585 [00:08<00:04, 46.61it/s]Loading weights:  62%|██████▏   | 360/585 [00:08<00:05, 42.17it/s]Loading weights:  77%|███████▋  | 448/585 [00:08<00:00, 229.97it/s]Loading weights:  93%|█████████▎| 542/585 [00:08<00:00, 402.20it/s]Loading weights: 100%|██████████| 585/585 [00:08<00:00, 66.82it/s] 
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+loaded mistral in 14.5 s
+archival True anchors True
+policy 20/170 40 s
+policy 40/170 94 s
+policy 60/170 158 s
+policy 80/170 231 s
+policy 100/170 312 s
+policy 120/170 403 s
+policy 140/170 497 s
+policy 160/170 598 s
+exp31 True 32 bit-identical
+prompts 25/548 7 s; last SLOT-52 '4'
+prompts 50/548 14 s; last B-416 '5'
+prompts 75/548 21 s; last SLOT-3516 '4'
+prompts 100/548 28 s; last B-5316 '4'
+prompts 125/548 35 s; last SLOT-41362 '5'
+prompts 150/548 42 s; last B-53614 '4'
+prompts 175/548 108 s; last SLOT-416235 '3'
+prompts 200/548 177 s; last B-1352641 "To predict roll 9, let's analyze the seq"
+prompts 225/548 223 s; last SLOT-3625142 '4'
+prompts 250/548 284 s; last B-5261346 "To predict roll 9, let's analyze the seq"
+prompts 275/548 344 s; last SLOT-31624513 '4'
+prompts 300/548 400 s; last B-42156324 '5'
+prompts 325/548 456 s; last SLOT-52631436 '4'
+prompts 350/548 497 s; last C-53 '4'
+prompts 375/548 504 s; last C-3526 '4'
+prompts 400/548 511 s; last C-41623 '5'
+prompts 425/548 523 s; last C-421563 '5'
+prompts 450/548 545 s; last C-4136251 'To predict the 8th roll, we can analyze '
+prompts 475/548 562 s; last C-31624536 '4'
+prompts 500/548 588 s; last C-52631462 '4'
+prompts 525/548 595 s; last C-416235146 '5'
+DONE mistral 1269.4

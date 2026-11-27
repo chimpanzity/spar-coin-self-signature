@@ -1,0 +1,49 @@
+predictor,rolls_shown,answer,kind,own_top_next,own_top_roll7
+qwen,1 3 5 2 6,6,last shown roll,4,2
+qwen,1 4 2 6 3,3,last shown roll,5,2
+qwen,3 1 5 4 6,6,last shown roll,2,2
+qwen,3 1 5 6 2,5,another shown face,4,3
+qwen,3 1 6 2 4,4,last shown roll,5,2
+qwen,3 1 6 2 5,5,last shown roll,4,2
+qwen,3 2 5 1 6,6,last shown roll,4,2
+qwen,3 5 1 6 2,3,another shown face,4,3
+qwen,3 5 2 6 1,6,another shown face,4,2
+qwen,3 6 1 4 2,4,another shown face,5,2
+qwen,3 6 2 5 1,5,another shown face,4,3
+qwen,4 1 3 6 2,3,another shown face,5,2
+qwen,4 1 6 2 3,3,last shown roll,5,2
+qwen,4 2 1 5 6,6,last shown roll,3,2
+qwen,4 2 6 1 3,3,last shown roll,5,2
+qwen,4 2 6 1 5,5,last shown roll,3,2
+qwen,4 2 6 3 1,6,another shown face,5,2
+qwen,5 2 1 6 3,3,last shown roll,4,6
+qwen,5 2 6 1 3,3,last shown roll,4,6
+qwen,5 2 6 1 4,4,last shown roll,3,6
+qwen,5 2 6 3 1,6,another shown face,4,6
+qwen,5 3 1 6 2,3,another shown face,4,3
+qwen,5 3 6 1 2,3,another shown face,4,3
+qwen,5 3 6 1 4,4,last shown roll,2,6
+mistral,1 3 5 2 6,4,unused face (roll 6 under the rule),4,1
+mistral,1 4 2 6 3,5,unused face (roll 6 under the rule),5,1
+mistral,3 1 5 4 6,4,another shown face,2,3
+mistral,3 1 5 6 2,4,unused face (roll 6 under the rule),4,1
+mistral,3 1 6 2 4,5,unused face (roll 6 under the rule),5,3
+mistral,3 1 6 2 5,4,unused face (roll 6 under the rule),4,1
+mistral,3 2 5 1 6,4,unused face (roll 6 under the rule),4,3
+mistral,3 5 1 6 2,4,unused face (roll 6 under the rule),4,3
+mistral,3 5 2 6 1,4,unused face (roll 6 under the rule),4,3
+mistral,3 6 1 4 2,5,unused face (roll 6 under the rule),5,3
+mistral,3 6 2 5 1,4,unused face (roll 6 under the rule),4,6
+mistral,4 1 3 6 2,5,unused face (roll 6 under the rule),5,1
+mistral,4 1 6 2 3,5,unused face (roll 6 under the rule),5,6
+mistral,4 2 1 5 6,3,unused face (roll 6 under the rule),3,2
+mistral,4 2 6 1 3,5,unused face (roll 6 under the rule),5,2
+mistral,4 2 6 1 5,3,unused face (roll 6 under the rule),3,6
+mistral,4 2 6 3 1,5,unused face (roll 6 under the rule),5,4
+mistral,5 2 1 6 3,4,unused face (roll 6 under the rule),4,2
+mistral,5 2 6 1 3,4,unused face (roll 6 under the rule),4,6
+mistral,5 2 6 1 4,3,unused face (roll 6 under the rule),3,6
+mistral,5 2 6 3 1,4,unused face (roll 6 under the rule),4,6
+mistral,5 3 1 6 2,4,unused face (roll 6 under the rule),4,6
+mistral,5 3 6 1 2,4,unused face (roll 6 under the rule),4,6
+mistral,5 3 6 1 4,4,last shown roll,2,6

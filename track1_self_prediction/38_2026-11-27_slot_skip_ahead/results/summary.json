@@ -1,0 +1,127 @@
+{
+ "checks": {
+  "548 prompts per predictor, prompt bytes and hashes equal the frozen design": true,
+  "170 policy prefixes per generator": true,
+  "archival G/F replay (Experiment 28)": true,
+  "anchors reproduce (Experiment 35 SLOT, Experiment 32 B and C)": true,
+  "policy reproduces Experiment 31 (|dp| <= 0.01)": true,
+  "pinned revisions": true,
+  "first-answer replicate bit-identical": true,
+  "first-answer scores equal the generation step": true,
+  "one-step copies across the six branches bit-identical": true,
+  "Qwen standard boundary: rendered prompt ends with the empty think block": true,
+  "face token ids": true,
+  "anchor prompts in the grid give the anchor outputs": true,
+  "raw file hashes": true
+ },
+ "info": {
+  "full_pass_floor_prompts": 0.0,
+  "full_pass_floor_policy": 0.10166173747799678,
+  "exp31_bit_identical": {
+   "qwen": "32/32",
+   "mistral": "32/32"
+  },
+  "anchors": {
+   "qwen": {
+    "exp35-qwen-SLOT": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "6",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-qwen-G-B": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-qwen-G-C": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "6",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp35-mistral-SLOT": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "3",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-mistral-G-B": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "5",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-mistral-G-C": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    }
+   },
+   "mistral": {
+    "exp35-qwen-SLOT": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-qwen-G-B": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-qwen-G-C": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp35-mistral-SLOT": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "5",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-mistral-G-B": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "5",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    },
+    "exp32-mistral-G-C": {
+     "prompt_equal": true,
+     "ids_equal": true,
+     "content": "4",
+     "content_equal": true,
+     "bit_identical": true,
+     "max_dp": 0.0
+    }
+   }
+  }
+ }
+}

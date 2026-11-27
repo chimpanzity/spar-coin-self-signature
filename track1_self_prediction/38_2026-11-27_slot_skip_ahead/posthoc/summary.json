@@ -1,0 +1,58 @@
+{
+ "qwen SLOT": {
+  "distinct_sequences": 368,
+  "target_roll": 48,
+  "roll_k1": 16,
+  "other_face": 304,
+  "invalid": 0
+ },
+ "qwen B": {
+  "distinct_sequences": 368,
+  "target_roll": 51,
+  "roll_k1": 58,
+  "other_face": 259,
+  "invalid": 0
+ },
+ "qwen C": {
+  "distinct_sequences": 368,
+  "target_roll": 135,
+  "roll_k1": 0,
+  "other_face": 233,
+  "invalid": 0
+ },
+ "qwen SLOT k=5": {
+  "another shown face": 10,
+  "last shown roll": 14,
+  "unused face (roll 6 under the rule)": 0,
+  "answer equals own top roll-7 face": 4,
+  "prefixes": 24
+ },
+ "mistral SLOT": {
+  "distinct_sequences": 368,
+  "target_roll": 53,
+  "roll_k1": 63,
+  "other_face": 252,
+  "invalid": 0
+ },
+ "mistral B": {
+  "distinct_sequences": 368,
+  "target_roll": 50,
+  "roll_k1": 52,
+  "other_face": 143,
+  "invalid": 123
+ },
+ "mistral C": {
+  "distinct_sequences": 368,
+  "target_roll": 67,
+  "roll_k1": 0,
+  "other_face": 287,
+  "invalid": 14
+ },
+ "mistral SLOT k=5": {
+  "another shown face": 1,
+  "last shown roll": 1,
+  "unused face (roll 6 under the rule)": 22,
+  "answer equals own top roll-7 face": 0,
+  "prefixes": 24
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "experiment": 38,
+ "commits": {
+  "freeze": "9fcf00c",
+  "results": "(this commit)"
+ },
+ "instance": {
+  "provider": "vast.ai",
+  "instance_id": 62875534,
+  "offer": 36695163,
+  "location": "Montana, US",
+  "gpu": "A100-SXM4-80GB",
+  "driver": "610.57.04",
+  "image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime",
+  "disk_gb": 160,
+  "created_utc": "2026-11-27T15:19Z",
+  "destroyed_utc": "2026-11-27T16:23:20Z",
+  "destroyed": "after copying raw files and checking hashes; `vastai show instances` no longer listed it"
+ },
+ "cost_usd": {
+  "total": 1.63,
+  "gpu": 1.301,
+  "gpu_hours": 1.038,
+  "disk": 0.046,
+  "download": 0.273,
+  "cap": 5.0,
+  "source": "vastai show invoices-v1 -c -s 2026-11-27 -e 2026-11-28 (fetched just after destroy; may still add cents)"
+ },
+ "environments": {
+  "raw/qwen/env.json": {
+   "model_id": "Qwen/Qwen3-32B",
+   "model_commit": "9216db5781bf21249d130ec9da846c4624c16137",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "610.57.04",
+   "started_utc": "2026-11-27T15:40:38.191487+00:00",
+   "finished_utc": "2026-11-27T16:01:41.703083+00:00",
+   "preflight_seconds": 6.9,
+   "policy_seconds": 1037.0,
+   "prompts_seconds": 219.6
+  },
+  "raw/mistral/env.json": {
+   "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "model_commit": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.22.0",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "driver": "610.57.04",
+   "started_utc": "2026-11-27T16:02:00.513669+00:00",
+   "finished_utc": "2026-11-27T16:22:54.802949+00:00",
+   "preflight_seconds": 4.6,
+   "policy_seconds": 648.1,
+   "prompts_seconds": 601.6
+  }
+ },
+ "stage_status": [
+  "setup start 2026-11-27T15:23:14Z",
+  "setup ok 2026-11-27T15:40:13Z",
+  "run qwen exit 0 2026-11-27T16:01:42Z",
+  "run mistral exit 0 2026-11-27T16:22:55Z",
+  "ALL_DONE"
+ ],
+ "file_sha256": {
+  "posthoc/distinct_sequence_answers.csv": "56311762898a8cb10fd90c0dd4e8f870c08c6a782cc1280eac7e08e827b1aa0b",
+  "posthoc/distinct_sequences.py": "d14c2659ff6856f10f633ec5643e835a2954f81d90173be47595eefaf5d72661",
+  "posthoc/slot_k5_answers.csv": "fc074dae9d9075ae52aa7475700c1e94ecacc3f64a3f2d85d6ffd7d0a9441bbd",
+  "posthoc/summary.json": "c585f0e6b911f48d0627aad90523dbaf1b6ac672cd5fb891f0b92c06ec82b12b",
+  "raw/mistral/archival.jsonl": "383cd909c98c9b6602dbd8e0844dc0057da27d906281331abfb58083989c3a61",
+  "raw/mistral/env.json": "d379c2ffbb7e9d34c52429c61d442de225abb7dcf543fd79f6073a2478ee9785",
+  "raw/mistral/policy.jsonl": "50ffb66c3ac4f3dfddc21c244ffdacd5e66a7547794fd5b75be0fde9c0304fec",
+  "raw/mistral/prompts.jsonl": "5b48383ed4de4586908bd909d8fbed58c2024741d8b3fe682781664b83b72bc7",
+  "raw/qwen/archival.jsonl": "c5765f62930a5491a24dcc08bc28d1e694d0d7b0760fef59799fa37b25ee3aa3",
+  "raw/qwen/env.json": "b62fb22e4006d17e22621569b4e1d274d0613026084989acfa2d80c3d1cb7b4d",
+  "raw/qwen/policy.jsonl": "136ccf606059c7c4b0d8832a1090664df476d236fecf97c0aea4f241a3d4e01b",
+  "raw/qwen/prompts.jsonl": "6117fd384c560aca175188cf7674ecf0b2aa2a87e26e6a8a9824a63cc428b252",
+  "results/CHECKS.md": "fda71fdaac680ee70edd778344c1911ac1cb37b91606154497622ffb8db93ca6",
+  "results/by_k.csv": "a376abc2a11099aeea627af0e060df9a01be11c37b99eb0833bcc0623ea982b8",
+  "results/primary.csv": "24d9ae949e60144eed5ed29aa0cd2871f738b7b61a0537a03675c047ccfe5965",
+  "results/prompts_scored.csv": "852c54b49359860bc78fd071681ac1912b94d3d64a8461c3a5b07e2fe6ca91b9",
+  "results/realised.csv": "f6e587e12a44283950bd499df988d4f427e236e06a0bb17a8e7d0f4b6edeb37a",
+  "results/summary.json": "afbc5365d184d8287e81ec584b83cf303c8789859165cd1822d9c97354e76bc7"
+ }
+}

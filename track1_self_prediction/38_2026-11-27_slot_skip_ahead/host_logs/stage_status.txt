@@ -1,0 +1,5 @@
+setup start 2026-11-27T15:23:14Z
+setup ok 2026-11-27T15:40:13Z
+run qwen exit 0 2026-11-27T16:01:42Z
+run mistral exit 0 2026-11-27T16:22:55Z
+ALL_DONE
