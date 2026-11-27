@@ -1,0 +1,23 @@
+{
+ "archived_inputs": {
+  "28_2026-10-31_dice_logprob_crossmodel/main/qwen/raw_attempts.jsonl": "a94af1387715de866957dcb7713d2b8e5296efd24a03dd808ec44b954a396482",
+  "28_2026-10-31_dice_logprob_crossmodel/main/mistral/raw_attempts.jsonl": "b4fee4a55fcdbef5025df0e0c9fc4be32e3a0a2dec2147e9f65272c82fe2a000",
+  "27_2026-10-30_crossed_guided_self_prediction/corpus/qwen/sampled.jsonl": "f04ef2f63100f6b2ce36ec437fca7d31fd10605852de5d1faf37077d80816d9f",
+  "27_2026-10-30_crossed_guided_self_prediction/corpus/mistral/sampled.jsonl": "6091ae7531c4f07c8f4e2910d6eb50f8724ec62c83a5e38797f89e30908ea8c5",
+  "31_2026-11-15_cross_model_teacher_forcing/raw/qwen/streams.jsonl": "74438eee214e7eb1ec75a622d89c4f7631398b911926f833e39c5cf7005e3ff3",
+  "31_2026-11-15_cross_model_teacher_forcing/raw/mistral/streams.jsonl": "e764920a8848a72eee0ca6f33b0e61799aa31ac818b6cf3e3c3a8a551bedf6a9",
+  "32_2026-11-15_roll7_intermediate_context/raw/qwen/cells.jsonl": "ae59158a8a5d15755d175b71f10978dea632a0e6051868525aff5f75d2603838",
+  "32_2026-11-15_roll7_intermediate_context/raw/mistral/cells.jsonl": "7ced3fcbe454b5e1369665643c99cfec8677c4375e3856481f56948d6b3e59f7",
+  "35_2026-11-25_roll7_prompt_scaffolding/raw/qwen/cells_standard.jsonl": "74d0b51c0beb4ce58266e4ddb2a6c0b5b60486b19e76d43bf4e6d267c31dc23a",
+  "35_2026-11-25_roll7_prompt_scaffolding/raw/mistral/cells_standard.jsonl": "9f1ed20cb64f9bed07a87d2c99f0f625fb43d0cf460bdced4739f3c44b30bdc6",
+  "32_2026-11-15_roll7_intermediate_context/prompts_frozen.md": "88898542b5eff9b12b9ad315eb8bcf455fb281e9518728c5add0a703a684f9f9",
+  "35_2026-11-25_roll7_prompt_scaffolding/prompts_frozen.md": "e912a8106bfd299d4d80bbd62368350aa5612526b7a41bc8f1044f467095f796"
+ },
+ "frozen": {
+  "PROTOCOL.md": "7a8e1e8bde7d2b0faf7582d51a45fb1d989305e6d694f22216f7496eed77a2ba",
+  "prompts_frozen.md": "bcd7536a24eb5820275c072bf782e5179676eb98e5dd126040b067b42cc22c7e",
+  "design_prompts.csv": "04bc5567f92a8c17b2af4b4dd7e9a217d9ff022c8719e9b54d9e7d7cd2162b6b",
+  "design_sources.csv": "0348a8e39da5f2d0fa449d22811996550380798fa729a05e20e24bc32cb5d2e1",
+  "manifest.json": "6199da03abd2b8c8bafc3bf7e0207d65ed60b79f0c8ee7b929525d2a89cebf1a"
+ }
+}
